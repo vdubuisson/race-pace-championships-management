@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="8" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="1" NAME="Yellow" />
+		<NAME LIVERY="2" NAME="Lightblue" />
+		<NAME LIVERY="3" NAME="Red" />
+		<NAME LIVERY="4" NAME="Green" />
+		<NAME LIVERY="5" NAME="Orange" />
+		<NAME LIVERY="6" NAME="White" />
+		<NAME LIVERY="7" NAME="Black" />
+		<NAME LIVERY="8" NAME="Silver Metallic" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="1">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\jaguar_xj220s_livery01_hr.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="2">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\jaguar_xj220s_livery02_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_lightblue_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_lightblue_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_lightblue_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_blur_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_lightblue_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_lightblue_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_blur_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_lightblue_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_lightblue_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_blur_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_lightblue_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="3">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\jaguar_xj220s_livery03_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_red_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_red_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_red_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_blur_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_red_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_red_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_blur_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_red_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_red_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_blur_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_red_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="4">
+		<REPLACE MATERIAL="vehicles\jaguar_xj220s\jag_xj220_s_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_paint.mtx" />
+		<REPLACE MATERIAL="vehicles\jaguar_xj220s\jag_xj220_s_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_paint_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\jaguar_xj220s\jag_xj220_s_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_paint_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\jaguar_xj220s\jag_xj220_s_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_paint_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\jaguar_xj220s_livery04_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\jaguar_xj220s_livery04_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_blur_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_blur_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_blur_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_black_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="5">
+		<REPLACE MATERIAL="vehicles\jaguar_xj220s\jag_xj220_s_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_paint.mtx" />
+		<REPLACE MATERIAL="vehicles\jaguar_xj220s\jag_xj220_s_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_paint_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\jaguar_xj220s\jag_xj220_s_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_paint_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\jaguar_xj220s\jag_xj220_s_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_paint_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\jaguar_xj220s_livery05_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\jaguar_xj220s_livery04_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_blur_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_blur_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_blur_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_black_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="6">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\jaguar_xj220s_livery06_hr.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="7">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\jaguar_xj220s_livery07_hr.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="8">
+		<REPLACE MATERIAL="vehicles\jaguar_xj220s\jag_xj220_s_paint" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\jaguar_xj220s\jag_xj220_s_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\jaguar_xj220s\jag_xj220_s_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\jaguar_xj220s\jag_xj220_s_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\textures\liveries\jaguar_xj220s_livery08_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_f_blur_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_f_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_blur_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\jag_xj220_s_wheel_r_blur_spec.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_wheel_r_black_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Soft'. Semi-Slick road car tire. Pirelli Trofeo R -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium'. R-compound road car tire. Pirelli P Zero Corsa -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard'. Summer road car tire. Pirelli P Zero -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate'. All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Winter/Snow tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\jag_xj220_s_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

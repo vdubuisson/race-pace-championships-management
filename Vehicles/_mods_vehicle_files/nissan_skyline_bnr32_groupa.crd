@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="VehicleDetails" base="BPersistent">
+        <prop name="Vehicle Name" type="String" />
+        <prop name="ShortVehicleName" type="String" />
+        <prop name="XLASTID" type="S32" />
+        <prop name="VehicleManufacturer" type="String" />
+        <prop name="VehicleModel" type="String" />
+        <prop name="Vehicle Render Model" type="String" />
+        <prop name="Driver Character" type="String" />
+        <prop name="Vehicle Physics Model" type="String" />
+        <prop name="Cockpit properties" type="String" />
+        <prop name="Vehicle Properties" type="String" />
+        <prop name="Vehicle Year" type="S32" />
+        <prop name="Shadow Width" type="F32" />
+        <prop name="Shadow Length" type="F32" />
+        <prop name="Shadow Offset Right" type="F32" />
+        <prop name="Shadow Offset Forward" type="F32" />
+        <prop name="Shadow Offset Up" type="F32" />
+        <prop name="Shadow Texture" type="String" />
+        <prop name="Grid Grouping" type="U32" />
+        <prop name="Vehicle Class" type="String" />
+        <prop name="Vehicle Group" type="String" />
+        <prop name="Vehicle Shape" type="String" />
+        <prop name="Engine Placement" type="String" />
+        <prop name="Number of Exhausts" type="S32" />
+        <prop name="Exhaust Position 1" type="Vec3f" />
+        <prop name="Exhaust Position 2" type="Vec3f" />
+        <prop name="Exhaust Target Position 1" type="Vec3f" />
+        <prop name="Exhaust Target Position 2" type="Vec3f" />
+        <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
+        <prop name="Number of Engine Heat" type="S32" />
+        <prop name="Engine Heat Position 1" type="Vec3f" />
+        <prop name="Blown Engine Smoke Position" type="Vec3f" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" type="F32" />
+        <prop name="Exhaust Backfire Mesh Length Scale" type="F32" />
+        <prop name="Vehicle Description" type="String" />
+        <prop name="AI ONLY" type="Bool" />
+        <prop name="Vehicle Initial Performance Index" type="S32" />
+        <prop name="Body Upgrades" type="String" />
+        <prop name="Cockpit Upgrades" type="String" />
+        <prop name="Tire Upgrades" type="String" />
+        <prop name="Brake Upgrades" type="String" />
+        <prop name="Tier" type="U32" />
+        <prop name="Price" type="U32" />
+        <prop name="Region" type="String" />
+        <prop name="Country" type="String" />
+        <prop name="Paint Shop Data" type="String" />
+        <prop name="Min Front Wheel Diameter" type="U32" />
+        <prop name="Max Front Wheel Diameter" type="U32" />
+        <prop name="Min Rear Wheel Diameter" type="U32" />
+        <prop name="Max Rear Wheel Diameter" type="U32" />
+        <prop name="Max GUI Wheel Angle" type="F32" />
+        <prop name="Client Vehicle Version" type="U32" />
+        <prop name="Left Mirror Pos" type="Vec3f" />
+        <prop name="Right Mirror Pos" type="Vec3f" />
+        <prop name="Center Mirror Pos" type="Vec3f" />
+        <prop name="AABBMin" type="Vec3f" />
+        <prop name="AABBMax" type="Vec3f" />
+    </class>
+    <data class="VehicleDetails" id="0xA447968">
+        <prop name="Name" data="Nissan_Skyline_BNR32_GroupA" />
+        <prop name="Vehicle Name" data="Nissan Skyline GT-R (BNR32) Group A" />
+        <prop name="ShortVehicleName" data="Skyline R32" />
+        <prop name="XLASTID" data="1188" />
+        <prop name="VehicleManufacturer" data="Nissan" />
+        <prop name="VehicleModel" data="Skyline GT-R (BNR32) Group A" />
+        <prop name="Vehicle Render Model" data="Nissan_Skyline_BNR32_GroupA.vhf" />
+        <prop name="Driver Character" data="Nissan_Skyline_BNR32_GroupA" />
+        <prop name="Vehicle Physics Model" data="Skyline_BNR32GRA" />
+        <prop name="Cockpit properties" data="Nissan_Skyline_BNR32_GroupA_Cockpit.bin" />
+        <prop name="Vehicle Properties" data="Nissan_Skyline_BNR32_GroupA" />
+        <prop name="Vehicle Year" data="1991" />
+        <prop name="Shadow Width" data="5.0" />
+        <prop name="Shadow Length" data="7.0" />
+        <prop name="Shadow Offset Right" data="0" />
+        <prop name="Shadow Offset Forward" data="0" />
+        <prop name="Shadow Offset Up" data="0.05" />
+        <prop name="Shadow Texture" data="Nissan_Skyline_BNR32_GroupA_ambsh.dds" />
+        <prop name="Grid Grouping" data="13" />
+        <prop name="Vehicle Class" data="Group A mod" />
+        <prop name="Vehicle Group" data="Touring" />
+        <prop name="Vehicle Shape" data="Touring" />
+        <prop name="Engine Placement" data="Front" />
+        <prop name="Number of Exhausts" data="2" />
+        <prop name="Exhaust Position 1" data="0.854;0.176;0.291" />
+        <prop name="Exhaust Position 2" data="0.854;0.175;0.161" />
+        <prop name="Exhaust Target Position 1" data="0.927;0.176;0.384" />
+        <prop name="Exhaust Target Position 2" data="0.927;0.175;0.254" />
+        <prop name="Exhaust Smoke Amount Multiplier" data="0.4" />
+        <prop name="Number of Engine Heat" data="1" />
+        <prop name="Engine Heat Position 1" data="0;0.77;-1.39" />
+        <prop name="Blown Engine Smoke Position" data="0;0.77;-1.39" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="2.0" />
+        <prop name="Exhaust Backfire Mesh Length Scale" data="1.5" />
+        <prop name="Vehicle Description" data="" />
+        <prop name="AI ONLY" data="false" />
+        <prop name="Vehicle Initial Performance Index" data="51" />
+        <prop name="Body Upgrades" data="" />
+        <prop name="Cockpit Upgrades" data="" />
+        <prop name="Tire Upgrades" data="" />
+        <prop name="Brake Upgrades" data="" />
+        <prop name="Tier" data="5" />
+        <prop name="Price" data="18500" />
+        <prop name="Region" data="AS" />
+        <prop name="Country" data="Japan" />
+        <prop name="Paint Shop Data" data="N/A" />
+        <prop name="Min Front Wheel Diameter" data="13" />
+        <prop name="Max Front Wheel Diameter" data="20" />
+        <prop name="Min Rear Wheel Diameter" data="13" />
+        <prop name="Max Rear Wheel Diameter" data="20" />
+        <prop name="Max GUI Wheel Angle" data="25.0" />
+        <prop name="Client Vehicle Version" data="1" />
+        <prop name="Left Mirror Pos" data="0.8437;0.9440;-0.4029" />
+        <prop name="Right Mirror Pos" data="-0.8437;0.9440;-0.4029" />
+        <prop name="Center Mirror Pos" data="-0.0043;1.1811;-0.2255" />
+        <prop name="AABBMin" data="-0.9183;0.0000;-2.2689" />
+        <prop name="AABBMax" data="0.9183;1.3900;2.3339" />
+    </data>
+</Reflection>

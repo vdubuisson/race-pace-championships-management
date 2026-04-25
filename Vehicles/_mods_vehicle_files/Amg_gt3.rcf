@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="35" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />					
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+    	<NAME LIVERY="51" NAME="ADAC 2016 Zakspeed #1"/>
+    	<NAME LIVERY="52" NAME="ADAC 2018 HTP Mann-Filter #47"/>
+		<NAME LIVERY="53" NAME="Blancpain 2016 Akka ASP #87"/>     	
+    	<NAME LIVERY="54" NAME="Blancpain 2016 Akka ASP #88"/>  		
+    	<NAME LIVERY="55" NAME="Blancpain 2016 Black Falcon #56"/>
+		<NAME LIVERY="56" NAME="Blancpain 2016 Black Falcon #57"/>
+		<NAME LIVERY="57" NAME="Blancpain 2018 Black Falcon #4"/> 
+		<NAME LIVERY="58" NAME="Blancpain 2018 Black Falcon #5"/>             
+		<NAME LIVERY="59" NAME="Blancpain 2018 Black Falcon #6"/>
+		<NAME LIVERY="60" NAME="Blancpain 2018 AKKA ASP #88"/>
+		<NAME LIVERY="61" NAME="Blancpain 2018 AKKA ASP #88"/>
+		<NAME LIVERY="62" NAME="Blancpain 2018 AKKA ASP #90"/>
+		<NAME LIVERY="63" NAME="BGT 2018 ERC Sport #116"/>
+		<NAME LIVERY="64" NAME="Dubai 24h 2016 Black Falcon #2"/>
+		<NAME LIVERY="65" NAME="Dubai 24h 2016 Black Falcon #3"/>
+		<NAME LIVERY="66" NAME="Spa 24h 2017 Team HTP Motorsport #86"/>
+		<NAME LIVERY="67" NAME="Spa 24h 2018 Black Falcon #4"/>
+		<NAME LIVERY="68" NAME="Spa 24h 2018 Black Falcon #5"/>
+		<NAME LIVERY="69" NAME="Spa 24h 2018 Black Falcon #6"/>
+		<NAME LIVERY="70" NAME="IMSA 2018 Riley Motorsports #33"/>
+		<NAME LIVERY="71" NAME="IMSA 2019 Riley Motorsports #33"/>
+		<NAME LIVERY="72" NAME="N24h 2016 Black Falcon #4"/>
+		<NAME LIVERY="73" NAME="N24h 2016 Black Falcon #9"/>
+		<NAME LIVERY="74" NAME="N24h 2016 HTP Motorsport #29"/>
+		<NAME LIVERY="75" NAME="N24h 2016 HTP Motorsport #30"/>
+		<NAME LIVERY="76" NAME="N24h 2016 Zakspeed #75"/>
+		<NAME LIVERY="77" NAME="N24h 2017 Haribo Racing #8"/>
+		<NAME LIVERY="78" NAME="N24h 2018 Black Falcon #4"/>
+		<NAME LIVERY="79" NAME="N24h 2018 Black Falcon #4"/>
+		<NAME LIVERY="80" NAME="SGT 2016 Goodsmile Racing #4"/>
+		<NAME LIVERY="81" NAME="SGT 2017 Goodsmile Racing #4"/>
+		<NAME LIVERY="82" NAME="SGT 2023 Goodsmile Racing #4"/>
+		<NAME LIVERY="83" NAME="VLN 2016 Black Falcon #6"/>
+		<NAME LIVERY="84" NAME="VLN 2016 Black Falcon #9"/>
+		<NAME LIVERY="85" NAME="VLN 2016 Black Falcon #9"/>
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+	
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>	
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+  	<CONDITION LIVERY="51">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery51.dds"  />
+    	<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff51.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+  
+  	<CONDITION LIVERY="52">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery52.dds"  />
+    	<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff52.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="53">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery53.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery53_spec.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery53_fresnel.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff53.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>  
+
+	<CONDITION LIVERY="54">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery54.dds"  />
+    	<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff54.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+
+  	<CONDITION LIVERY="55">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery55.dds"  />
+    	<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff55.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="56">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery56.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery56_fresnel.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff53.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION> 
+
+	<CONDITION LIVERY="57">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery57.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="58">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery58.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="59">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery59.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="60">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery60.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>	
+	
+	<CONDITION LIVERY="61">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery61.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>	
+	
+	<CONDITION LIVERY="62">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery62.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff62.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="63">
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery63.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery64.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery64_spec.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery64_fresnel.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff64.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_hankook_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_hankook_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_hankook_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_hankook_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_hankook_spec_01.dds" />
+  	</CONDITION>
+
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery65.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery65_spec.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery65_fresnel.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff65.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_hankook_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_hankook_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_hankook_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_hankook_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_hankook_spec_01.dds" />
+  	</CONDITION>
+
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery66.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery66_spec.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff66.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="67">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery67.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="68">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery68.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="69">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery69.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff69.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="70">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery70.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+  	</CONDITION>
+
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery71.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="72">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery72.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff72.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery73.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff73.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="74">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery74.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff74.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="75">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery75.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff75.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="76">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery76.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff76.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="77">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery77.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff77.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="78">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery78.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff78.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+  	</CONDITION>
+	
+	<CONDITION LIVERY="79">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery79.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff79.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="80">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery80.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="81">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery81.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="82">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery82.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_spec_01.dds"/>
+  	</CONDITION>
+
+	<CONDITION LIVERY="83">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery83.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery83_spec.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery83_fresnel.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff83.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+  	</CONDITION>
+		
+	<CONDITION LIVERY="84">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery84.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff84.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+   	 	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+  	</CONDITION>
+		
+	<CONDITION LIVERY="85">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery85.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery85_spec.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\mercedes_amg_gt3_livery85_fresnel.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\merc_amg_gt3_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\AMG_GT3\merc_amg_gt3_banner_diff85.dds"/>
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\merc_amg_gt3_body_dirt_diff.dds"/>       
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+  	</CONDITION>
+
+	<!-- Soft Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Medium Slick tire. In case AI uses it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Hard Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Studded Ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

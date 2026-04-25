@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="16" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="1" NAME="Olive Matte Metallic" />
+		<NAME LIVERY="2" NAME="Aqua Metallic" />
+		<NAME LIVERY="3" NAME="Matte Black" />
+		<NAME LIVERY="4" NAME="Grigio Estoque" />
+		<NAME LIVERY="5" NAME="Rosso Mars" />
+		<NAME LIVERY="6" NAME="Blu Herra" />
+		<NAME LIVERY="7" NAME="Bianco Canopus" />
+		<NAME LIVERY="8" NAME="Giallo Evros" />
+		<NAME LIVERY="9" NAME="Verde Faunus" />
+		<NAME LIVERY="10" NAME="Grigio Telesto" />
+		<NAME LIVERY="71" NAME="Livery 1" />
+		<NAME LIVERY="72" NAME="Livery 2" />
+		<NAME LIVERY="73" NAME="Livery 3" />
+		<NAME LIVERY="74" NAME="Livery 4" />
+		<NAME LIVERY="75" NAME="Livery 5" />
+		<NAME LIVERY="76" NAME="Livery 6" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="1">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_sian_matte_green.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_sian_matte_green_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_sian_matte_green_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_sian_matte_green_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_brown2_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_interior_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_interior_brown_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_cockpit2_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_cockpit2_brown_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_windscreen.dds" NEWTEXTURE="vehicles\textures\lam_sian_windscreen_brown.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_white_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_brown2_stitching2_white_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_grey_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_brown2_stitching2_brown_diff.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="2">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_sian_aqua.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_sian_aqua_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_sian_aqua_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_sian_aqua_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_brown2_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_interior_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_interior_brown_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_cockpit2_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_cockpit2_brown_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_windscreen.dds" NEWTEXTURE="vehicles\textures\lam_sian_windscreen_brown.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_white_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_brown2_stitching2_white_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_grey_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_brown2_stitching2_brown_diff.dds" />	
+	</CONDITION>
+	
+	<CONDITION LIVERY="3">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_sian_matte_black.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_sian_matte_black_skin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_sian_matte_black_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_sian_matte_black_skin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black_blur_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black_blur_spec.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="4">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_grigio_estoque.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_grigio_estoque_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_grigio_estoque_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_grigio_estoque_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_blur_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_blur_spec.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="5">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_rosso.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_rosso_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_rosso_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_rosso_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_blur_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_blur_spec.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="6">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_blu_monterey.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_blu_monterey_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_blu_monterey_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_blu_monterey_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="7">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_bianco_canopus.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_bianco_canopus_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_bianco_canopus_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_bianco_canopus_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_blur_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_blur_spec.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="8">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_giallo_evros.mtx" />	
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_giallo_evros_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_giallo_evros_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_giallo_evros_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_blur_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_blur_spec.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="9">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_verde_faunus.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_verde_faunus_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_verde_faunus_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_lamborghini_verde_faunus_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_blur_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_blur_spec.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="10">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="vehicles\textures\paint\paint_lamborghini_grigio_telesto.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges_black_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_blur_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_sian_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black2_blur_spec.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="71">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\livery_matte_black_metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_matte_black_metallic_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_matte_black_metallic_autoskin_autocpit.mtx" />						
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\lam_sian_livery01.dds" />				
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_misc_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_misc_black_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black_diff.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black_spec.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black_blur_diff.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black_blur_spec.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="72">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\livery_bentley_gt3.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_bentley_gt3_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_bentley_gt3_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_bentley_gt3_autoskin_autocpit.mtx" />			
+		<REPLACE TEXTURE="vehicles\textures\liveries\ben_con_gt3_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\lam_sian_livery02.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_sian_livery02.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_diff.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_spec.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_blur_diff.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_blur_spec.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="73">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />				
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_sian_livery03.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\lam_sian_livery03.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_misc_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_misc_yellow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_diff.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_spec.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_blur_diff.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_blur_spec.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="74">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\livery_knsg_cherry.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_knsg_cherry_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_knsg_cherry_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_knsg_cherry_autoskin_autocpit.mtx" />			
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\knsg_jesko_livery00b.dds" NEWTEXTURE="vehicles\textures\liveries\lam_sian_livery04.dds" />				
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_diff.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_spec.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_blur_diff.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_blur_spec.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="75">
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint" NEWMATERIAL="vehicles\_generic_materials\livery_ruf_rt12r_01.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_ruf_rt12r_01_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_ruf_rt12r_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_sian\lam_sian_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_ruf_rt12r_01_autoskin_autocpit.mtx" />			
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\ruf_rt12r_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\lam_sian_livery05.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_misc_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_misc_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges01_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="76">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\lam_sian_livery06.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_badges_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_badges_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_badges01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_diff.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_spec.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_blur_diff.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_sian_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\lam_sian_wheel_black02_blur_spec.dds" />				
+	</CONDITION>
+
+	<!-- 'Soft'. Semi-Slick road car tire. Pirelli Trofeo R -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium'. R-compound road car tire. Pirelli P Zero Corsa -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard'. Summer road car tire. Pirelli P Zero -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate'. All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Winter/Snow tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\lam_sian_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="VehicleDetails" base="BPersistent">
+        <prop name="Vehicle Name" type="String" />
+        <prop name="ShortVehicleName" type="String" />
+        <prop name="XLASTID" type="U32" />
+        <prop name="DLC ID" type="String" />
+        <prop name="VehicleManufacturer" type="String" />
+        <prop name="VehicleModel" type="String" />
+        <prop name="Vehicle Render Model" type="String" />
+        <prop name="Driver Character" type="String" />
+        <prop name="User Overrides Base Helmet" type="String" />
+        <prop name="User Overrides Base Outfit" type="String" />
+        <prop name="Vehicle Physics Model" type="String" />
+        <prop name="Cockpit properties" type="String" />
+        <prop name="Vehicle Properties" type="String" />
+        <prop name="Vehicle Variant Oval" type="String" />
+        <prop name="Vehicle Variant Short Oval" type="String" />
+	    <prop name="Vehicle Variant Short Track" type="String" />		
+        <prop name="Vehicle Variant Speedway" type="String" />
+        <prop name="Vehicle Variant Super Speedway" type="String" /> 		
+        <prop name="Vehicle Year" type="S32" />
+		<prop name="Safety Car Driver Name" type="String" />		
+        <prop name="Shadow Width" type="F32" />
+        <prop name="Shadow Length" type="F32" />
+        <prop name="Shadow Offset Right" type="F32" />
+        <prop name="Shadow Offset Forward" type="F32" />
+        <prop name="Shadow Texture" type="String" />
+        <prop name="Grid Grouping" type="U32" />
+        <prop name="Vehicle Class" type="String" />
+        <prop name="Vehicle Group" type="String" />
+        <prop name="Vehicle Shape" type="String" />
+        <prop name="Engine Placement" type="String" />
+        <prop name="Number of Exhausts" type="S32" />
+        <prop name="Exhaust Position 1" type="Vec3f" />
+        <prop name="Exhaust Position 2" type="Vec3f" />
+        <prop name="Exhaust Target Position 1" type="Vec3f" />
+        <prop name="Exhaust Target Position 2" type="Vec3f" />
+        <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
+        <prop name="Number of Engine Heat" type="S32" />
+        <prop name="Engine Heat Position 1" type="Vec3f" />
+        <prop name="Blown Engine Smoke Position" type="Vec3f" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" type="F32" />
+        <prop name="Exhaust Backfire Mesh Length Scale" type="F32" />
+        <prop name="Vehicle Description" type="String" />
+        <prop name="AI ONLY" type="Bool" />
+        <prop name="PLAYER ONLY" type="Bool" />
+        <prop name="Vehicle Initial Performance Index" type="S32" />
+        <prop name="Body Upgrades" type="String" />
+        <prop name="Cockpit Upgrades" type="String" />
+        <prop name="Tire Upgrades" type="String" />
+        <prop name="Brake Upgrades" type="String" />
+        <prop name="Tier" type="U32" />
+        <prop name="Price" type="U32" />
+        <prop name="Region" type="String" />
+        <prop name="Country" type="String" />
+        <prop name="Paint Shop Data" type="String" />
+        <prop name="Client Vehicle Version" type="U32" />
+		<prop name="Vehicle Garage Rotation" type="Vec3f" />
+        <prop name="Left Mirror Pos" type="Vec3f" />
+        <prop name="Right Mirror Pos" type="Vec3f" />
+        <prop name="Center Mirror Pos" type="Vec3f" />
+        <prop name="AABBMin" type="Vec3f" />
+        <prop name="AABBMax" type="Vec3f" />
+    </class>
+    <data class="VehicleDetails" id="0xD861FB8">
+        <prop name="Name" data="Dodge_Viper_GTS_R" />
+        <prop name="Vehicle Name" data="Dodge Viper GTS-R" />
+        <prop name="ShortVehicleName" data="Dodge Viper GTS-R" />
+        <prop name="XLASTID" data="410" />
+        <prop name="DLC ID" data="historicalendurancepackpt1" />
+        <prop name="VehicleManufacturer" data="Dodge" />
+        <prop name="VehicleModel" data="Viper GTS R" />
+        <prop name="Vehicle Render Model" data="Dodge_Viper_GTS_R.vhf" />
+        <prop name="Driver Character" data="Dodge_Viper_GTS_R" />
+        <prop name="User Overrides Base Helmet" data="helmet_GT_Modern_STOCK_USER_OVERRIDE" />
+        <prop name="User Overrides Base Outfit" data="outfit_GT_Modern_STOCK_USER_OVERRIDE" />
+        <prop name="Vehicle Physics Model" data="Dodge_Viper_GTS_R" />
+        <prop name="Cockpit properties" data="Dodge_Viper_GTS_R_Cockpit.bin" />
+        <prop name="Vehicle Properties" data="Dodge_Viper_GTS_R" />
+        <prop name="Vehicle Variant Oval" data="Dodge_Viper_GTS_R_LD" />
+		<prop name="Vehicle Variant Short Oval" data="Dodge_Viper_GTS_R_LD" />
+        <prop name="Vehicle Variant Short Track" data="Dodge_Viper_GTS_R_LD" />
+        <prop name="Vehicle Variant Speedway" data="Dodge_Viper_GTS_R_LD" />
+        <prop name="Vehicle Variant Super Speedway" data="Dodge_Viper_GTS_R_LD" />
+        <prop name="Vehicle Year" data="2005" />
+		<prop name="Safety Car Driver Name" data="SafetyBMWM3Driver" />		
+        <prop name="Shadow Width" data="5.0" />
+        <prop name="Shadow Length" data="7.0" />
+        <prop name="Shadow Offset Right" data="0" />
+        <prop name="Shadow Offset Forward" data="0" />
+        <prop name="Shadow Texture" data="Dodge_Viper_GTS_R_ambsh.dds" />
+        <prop name="Grid Grouping" data="9" />
+        <prop name="Vehicle Class" data="GT1_05" />
+        <prop name="Vehicle Group" data="GT1" />
+        <prop name="Vehicle Shape" data="GT" />
+        <prop name="Engine Placement" data="Mid-Front" />
+        <prop name="Number of Exhausts" data="2" />
+        <prop name="Exhaust Position 1" data="0.937;0.168;0.161" />
+        <prop name="Exhaust Position 2" data="-0.937;0.168;0.161" />
+        <prop name="Exhaust Target Position 1" data="1.238;0.179;0.232" />
+        <prop name="Exhaust Target Position 2" data="-1.238;0.179;0.232" />
+        <prop name="Exhaust Smoke Amount Multiplier" data="0.4" />
+        <prop name="Number of Engine Heat" data="1" />
+        <prop name="Engine Heat Position 1" data="0.0;0.635;-0.807" />
+        <prop name="Blown Engine Smoke Position" data="0.0;0.635;-0.807" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="2.00" />
+        <prop name="Exhaust Backfire Mesh Length Scale" data="1.50" />
+        <prop name="Vehicle Description" data="" />
+        <prop name="AI ONLY" data="false" />
+        <prop name="PLAYER ONLY" data="false" />
+        <prop name="Vehicle Initial Performance Index" data="107" />
+        <prop name="Body Upgrades" data="" />
+        <prop name="Cockpit Upgrades" data="" />
+        <prop name="Tire Upgrades" data="" />
+        <prop name="Brake Upgrades" data="" />
+        <prop name="Tier" data="5" />
+        <prop name="Price" data="373000" />
+        <prop name="Region" data="NA" />
+        <prop name="Country" data="USA" />
+        <prop name="Paint Shop Data" data="N/A" />
+        <prop name="Client Vehicle Version" data="1" />
+		<prop name="Vehicle Garage Rotation" data="0.0;3.141592653589;0.0" />
+        <prop name="Left Mirror Pos" data="0.895;0.798;0.155" />
+        <prop name="Right Mirror Pos" data="-0.895;0.798;0.155" />
+        <prop name="Center Mirror Pos" data="0.01;0.953;0.312" />
+        <prop name="AABBMin" data="-1.003;-0.015;-2.335" />
+        <prop name="AABBMax" data="1.003;1.245;2.368" />
+    </data>
+</Reflection>

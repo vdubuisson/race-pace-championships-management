@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="21" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="70" NAME="Aventador SVJ KAOS #13" />
+		<NAME LIVERY="71" NAME="Aventador SVJ White #63" />
+		<NAME LIVERY="72" NAME="Aventador SVJ Green #63" />
+		<NAME LIVERY="73" NAME="Team StepaNavi #18" />
+		<NAME LIVERY="74" NAME="Team StepaNavi #19" />
+		<NAME LIVERY="75" NAME="Team Rotmeg #74" />
+		<NAME LIVERY="76" NAME="Team Rotmeg #75" />
+		<NAME LIVERY="77" NAME="Team Satmel #68" />
+		<NAME LIVERY="78" NAME="Team Satmel #69" />
+		<NAME LIVERY="79" NAME="Team FLP #44" />
+		<NAME LIVERY="80" NAME="Team FLP #45" />
+		<NAME LIVERY="81" NAME="GedGloves Team #9" />
+		<NAME LIVERY="82" NAME="GedGloves Team #10" />
+		<NAME LIVERY="83" NAME="Besmone Team #21" />
+		<NAME LIVERY="84" NAME="Besmone Team #22" />
+		<NAME LIVERY="85" NAME="Cavool Racing #37" />
+		<NAME LIVERY="86" NAME="Cavool Racing #38" />
+		<NAME LIVERY="87" NAME="Yorri Motorsport #53" />
+		<NAME LIVERY="88" NAME="Yorri Motorsport #54" />
+		<NAME LIVERY="89" NAME="Lumensi Team #85" />
+		<NAME LIVERY="90" NAME="Lumensi Team #86" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="70">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\lam_aven_race01_livery21.dds" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery21.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="71">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="Vehicles\_generic_materials\livery_carbon_matte_gte.mtx" />				
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="72">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="vehicles\_generic_materials\livery_aven_svj_02.mtx" />		
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_aven_svj_02_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_aven_svj_02_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_aven_svj_02_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\liveries\lam_aven_race01_livery02.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery02.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_black_diff.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="73">		
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18.mtx" />		
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />				
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="Vehicles\_generic_materials\livery_carbon_matte_gte.mtx" />						
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="vehicles\Textures\liveries\cat_r500_livery18.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery03.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery03.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="74">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18.mtx" />		
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />				
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="Vehicles\_generic_materials\livery_carbon_matte_gte.mtx" />						
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="vehicles\Textures\liveries\cat_r500_livery18.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery04.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery04.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="75">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="vehicles\_generic_materials\livery_amg_gt3_01.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_amg_gt3_01_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_amg_gt3_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_amg_gt3_01_autoskin_autocpit.mtx" />				
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="Vehicles\_generic_materials\livery_carbon_matte_gte.mtx" />						
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="vehicles\Textures\liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery05.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery05.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="76">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="vehicles\_generic_materials\livery_amg_gt3_01.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_amg_gt3_01_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_amg_gt3_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_amg_gt3_01_autoskin_autocpit.mtx" />				
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="Vehicles\_generic_materials\livery_carbon_matte_gte.mtx" />						
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="vehicles\Textures\liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery06.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery06.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="77">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="Vehicles\_generic_materials\livery_carbon_matte_gte.mtx" />						
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery07.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="78">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="Vehicles\_generic_materials\livery_carbon_matte_gte.mtx" />						
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_matte_gte_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery08.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="79">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12.mtx" />		
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autoskin_autocpit.mtx" />				
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="Vehicles\_generic_materials\livery_carbon_matte_gte.mtx" />				
+		<REPLACE TEXTURE="vehicles\Textures\liveries\cat_r500_livery12.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery09.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery09.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="80">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12.mtx" />		
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autoskin_autocpit.mtx" />				
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="Vehicles\_generic_materials\livery_carbon_matte_gte.mtx" />				
+		<REPLACE TEXTURE="vehicles\Textures\liveries\cat_r500_livery12.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery10.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery10.dds" />
+		<REPLACE TEXTURE="vehicles\textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="81">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery11.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery11.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="82">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery12.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery12.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="83">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\lam_aven_race01_livery13.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\Liveries\lam_aven_race01_livery13_spec.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\Liveries\lam_aven_race01_livery13_fresnel.dds" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery13.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="84">
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\lam_aven_race01_livery14.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\Liveries\lam_aven_race01_livery13_spec.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\Liveries\lam_aven_race01_livery13_fresnel.dds" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery14.dds" />	
+<REPLACE TEXTURE="Vehicles\Textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_white_diff.dds" />		
+	</CONDITION>
+	
+	<CONDITION LIVERY="85">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\lam_aven_race01_livery15.dds" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery15.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="86">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\lam_aven_race01_livery16.dds" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery16.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="87">
+		<REPLACE MATERIAL="lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="vehicles\_generic_materials\livery_ruf_rt12r_01.mtx" />
+		<REPLACE MATERIAL="lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_ruf_rt12r_01_autoskin.mtx" />
+		<REPLACE MATERIAL="lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_ruf_rt12r_01_autocpit.mtx" />
+		<REPLACE MATERIAL="lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_ruf_rt12r_01_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\ruf_rt12r_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery17.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery17.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="88">
+		<REPLACE MATERIAL="lamborghini_aventador_svj\lam_aven_svj_paint" NEWMATERIAL="vehicles\_generic_materials\livery_ruf_rt12r_01.mtx" />
+		<REPLACE MATERIAL="lamborghini_aventador_svj\lam_aven_svj_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_ruf_rt12r_01_autoskin.mtx" />
+		<REPLACE MATERIAL="lamborghini_aventador_svj\lam_aven_svj_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_ruf_rt12r_01_autocpit.mtx" />
+		<REPLACE MATERIAL="lamborghini_aventador_svj\lam_aven_svj_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_ruf_rt12r_01_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\ruf_rt12r_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery18.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery18.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="89">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\lam_aven_race01_livery19.dds" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery19.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="90">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\lam_aven_race01_livery20.dds" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\lamborghini_aventador_svj\lam_aven_svj_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_race01_livery20.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\lam_aven_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\lam_aven_rac01_banner_white_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_nmp8888.dds" />
+	</CONDITION>
+	
+	<!-- 'Soft' Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium' Slick tire -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard' Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate' Rain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Rain tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\lam_aven_rac01_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\lam_aven_rac01_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\lam_aven_rac01_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

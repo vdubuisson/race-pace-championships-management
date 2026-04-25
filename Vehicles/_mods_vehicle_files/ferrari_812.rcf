@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="25" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="1" NAME="Rosso Corsa" />
+		<NAME LIVERY="2" NAME="Rosso Scuderia" />
+		<NAME LIVERY="3" NAME="Rosso Fiorano" />
+		<NAME LIVERY="23" NAME="Rosso 70 Anni" />
+		<NAME LIVERY="24" NAME="Rosso Berlinetta" />
+		<NAME LIVERY="4" NAME="Giallo Modena" />
+		<NAME LIVERY="5" NAME="Giallo Tristrato" />
+		<NAME LIVERY="6" NAME="Bianco Avus" />
+		<NAME LIVERY="25" NAME="Bianco Fuji" />
+		<NAME LIVERY="7" NAME="Nero" />
+		<NAME LIVERY="8" NAME="Nero Daytona" />
+		<NAME LIVERY="9" NAME="Argento Nurburgring" />
+		<NAME LIVERY="10" NAME="Grigio Titanio" />
+		<NAME LIVERY="11" NAME="Grigio Alloy" />
+		<NAME LIVERY="12" NAME="Grigio Silverstone" />
+		<NAME LIVERY="13" NAME="Grigio Scuro" />
+		<NAME LIVERY="14" NAME="Grigio Ferro" />
+		<NAME LIVERY="15" NAME="Azzurro California" />
+		<NAME LIVERY="16" NAME="Blu Nart" />
+		<NAME LIVERY="17" NAME="Blu Tour de France" />
+		<NAME LIVERY="18" NAME="Blu Pozzi" />
+		<NAME LIVERY="19" NAME="Blu Scozia" />
+		<NAME LIVERY="20" NAME="Grigio Silverstone Opaco" />
+		<NAME LIVERY="21" NAME="Aluminio Opaco" />
+		<NAME LIVERY="22" NAME="Nero Opaco" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+	
+	
+	<CONDITION LIVERY="1">
+		<REPLACE TEXTURE="Vehicles\textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\textures\paint_ferrari_rosso_corsa.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse_red.dds" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_red2.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_red2.mtx" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="2">
+		<REPLACE TEXTURE="Vehicles\textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\textures\paint_ferrari_rosso_scuderia.dds" />
+		<REPLACE MATERIAL="generic01_leather" NEWMATERIAL="vehicles\_generic_materials\common_leather02_cuoio.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_cuoio.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_cuoio.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_cuoio.mtx" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="3">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_fiorano.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="ferrari_812_plastic_black" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_red2.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_red2.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse_red.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffusey.dds" />
+		<REPLACE MATERIAL="ferrari_812_alu_int" NEWMATERIAL="vehicles\_generic_materials\generic_carbon_int.mtx" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="4">
+		<REPLACE TEXTURE="Vehicles\textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\textures\paint_ferrari_giallo_modena.dds" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather_yellow.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather_yellow.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffusey.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse_yellow.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="5">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_giallo_tristrato.mtx" />
+		<REPLACE MATERIAL="ferrari_812_plastic_black" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse_yellow.dds" />
+		<REPLACE MATERIAL="ferrari_812_alu_int" NEWMATERIAL="vehicles\_generic_materials\generic_carbon_int.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffuseb.dds" />
+		<REPLACE MATERIAL="chrome_exhaust" NEWMATERIAL="vehicles\_generic_materials\black_exhaust.mtx" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="6">
+		<REPLACE TEXTURE="Vehicles\textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\textures\paint_ferrari_bianco_avus.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffuseb.dds" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_blu_medio.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_blu_medio.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_blu_medio.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse_white.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="7">
+		<REPLACE TEXTURE="Vehicles\textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\textures\paint_ferrari_nero.dds" />
+		<REPLACE MATERIAL="ferrari_812_plastic_black" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_crema.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_crema.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_crema.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffuser.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse_white.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="8">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather_yellow.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse_yellow.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffusey.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="9">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_argento_nuerburgring.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_argento_nuerburgring.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_cuoio.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_cuoio.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_cuoio.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffusey.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="10">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_titanio.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_lightgrey.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_lightgrey.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_lightgrey.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse_grey.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_belt_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_belt_diffuse_yellow.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse_yellow.dds" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffusey.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="11">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_alloy.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_alloy.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_lightgrey.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_lightgrey.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_lightgrey.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse_grey.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="12">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_lightgrey.mtx" />
+		<REPLACE MATERIAL="generic01_leather" NEWMATERIAL="vehicles\_generic_materials\common_leather02_charcoal.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_charcoal.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_charcoal.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffuser.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse_grey.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="13">
+		<REPLACE TEXTURE="Vehicles\textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\textures\paint_ferrari_grigio_scuro.dds" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="ferrari_812_plastic_black" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="generic01_leather" NEWMATERIAL="vehicles\_generic_materials\common_leather02_iroko.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_iroko.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_iroko.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_iroko.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffusey.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="14">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ferro.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ferro.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather_sw" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\common_leather02_perforated_black_diff.dds" NEWTEXTURE="Vehicles\textures\common_leather02_perforated_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffuser.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse_grey.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="15">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_azzurro_california.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_azzurro_california.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_crema.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_crema.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_crema.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffusey.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse_yellow.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse_white.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="16">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_nart.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_nart.mtx" />
+		<REPLACE MATERIAL="generic01_leather" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather_sw" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\common_leather02_perforated_black_diff.dds" NEWTEXTURE="Vehicles\textures\common_leather02_perforated_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffuser.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse_grey.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse_red.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="17">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_tdf2.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_tdf2.mtx" />
+		<REPLACE MATERIAL="ferrari_812_plastic_black" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_cuoio.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_cuoio.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_cuoio.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffusey.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="18">
+		<REPLACE TEXTURE="Vehicles\textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\textures\paint_ferrari_blu_pozzi.dds" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_iroko.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_iroko.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_iroko.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse_yellow.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffusey.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="19">
+		<REPLACE TEXTURE="Vehicles\textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\textures\paint_ferrari_blu_scozia.dds" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_crema.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_crema.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_crema.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse_white.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="20">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone_opaco.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffusey.dds" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_crema.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_crema.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_crema.mtx" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="21">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_aluminio_opaco.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="ferrari_812_plastic_black" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="generic01_leather" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather_sw" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\common_leather02_perforated_black_diff.dds" NEWTEXTURE="Vehicles\textures\common_leather02_perforated_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffuser.dds" />
+		<REPLACE MATERIAL="ferrari_812_alu_int" NEWMATERIAL="vehicles\_generic_materials\generic_carbon_int.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse_grey.dds" />
+		<REPLACE MATERIAL="ferrari_812_wheel1" NEWMATERIAL="vehicles\_generic_materials\ferrari_812_wheel1_black.mtx" />
+		<REPLACE MATERIAL="ferrari_812_wheel1_alpha" NEWMATERIAL="vehicles\_generic_materials\ferrari_812_wheel1_alpha_black.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_stitching_diffuse_red.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="22">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_opaco.mtx" />
+		<REPLACE MATERIAL="ferrari_812_plastic_black" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_nero.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_nero.mtx" />
+		<REPLACE MATERIAL="ferrari_812_alu_int" NEWMATERIAL="vehicles\_generic_materials\generic_carbon_int.mtx" />
+		<REPLACE MATERIAL="chrome_exhaust" NEWMATERIAL="vehicles\_generic_materials\black_exhaust.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse_black.dds" />
+		<REPLACE MATERIAL="ferrari_812_wheel1" NEWMATERIAL="vehicles\_generic_materials\ferrari_812_wheel1_black.mtx" />
+		<REPLACE MATERIAL="ferrari_812_wheel1_alpha" NEWMATERIAL="vehicles\_generic_materials\ferrari_812_wheel1_alpha_black.mtx" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="23">
+		<REPLACE TEXTURE="Vehicles\textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\textures\paint_ferrari_rosso_70anni.dds" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="ferrari_812_plastic_black" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="24">
+		<REPLACE TEXTURE="Vehicles\textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\textures\paint_ferrari_rosso_berlinetta.dds" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="25">
+		<REPLACE MATERIAL="ferrari_812_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_bianco_fuji.mtx" />
+		<REPLACE MATERIAL="ferrari_812_paint2" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="ferrari_812_plastic_black" NEWMATERIAL="vehicles\_generic_materials\carbon_paint_ferrari.mtx" />
+		<REPLACE MATERIAL="generic01_leather" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather2" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather4" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE MATERIAL="generic01_leather_sw" NEWMATERIAL="vehicles\_generic_materials\common_leather02_rosso.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\common_leather02_perforated_black_diff.dds" NEWTEXTURE="Vehicles\textures\common_leather02_perforated_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_caliper_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_caliper_diffuser.dds" />
+		<REPLACE MATERIAL="ferrari_812_alu_int" NEWMATERIAL="vehicles\_generic_materials\generic_carbon_int.mtx" />
+		<REPLACE TEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse.dds" NEWTEXTURE="Vehicles\textures\ferrari_812_gauges_diffuse_white.dds" />
+		<REPLACE MATERIAL="ferrari_812_wheel1" NEWMATERIAL="vehicles\_generic_materials\ferrari_812_wheel1_black.mtx" />
+		<REPLACE MATERIAL="ferrari_812_wheel1_alpha" NEWMATERIAL="vehicles\_generic_materials\ferrari_812_wheel1_alpha_black.mtx" />
+	</CONDITION>
+
+	<!-- 'Soft'. Semi-Slick road car tire. Pirelli Trofeo R -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_diffuse_00.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_diffuse_01.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_normals_00.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_normals_01.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_specular_00.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_specular_01.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium'. R-compound road car tire. Pirelli P Zero Corsa -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_diffuse_00.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_diffuse_01.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_normals_00.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_normals_01.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_specular_00.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_specular_01.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard'. Summer road car tire. Pirelli P Zero -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_diffuse_00.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_diffuse_01.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_normals_00.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_normals_01.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_specular_00.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_specular_01.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate'. All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_diffuse_00.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_diffuse_01.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_normals_00.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_normals_01.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_specular_00.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_specular_01.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Winter/Snow tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_diffuse_00.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_diffuse_01.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_normals_00.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_normals_01.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_specular_00.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_specular_01.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_diffuse_00.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_diffuse_01.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_normals_00.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_normals_01.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_specular_00.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_michelin_psc2_specular_01.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_812_body_dirt_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\ferrari_812_wheel_dirt_diffuse.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\common_leather02_normals.dds" NEWTEXTURE="Vehicles\textures\common_leather022_normals.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\common_leather02_norm.dds" NEWTEXTURE="Vehicles\textures\common_leather022_normals.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_812_body_snow_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\ferrari_812_wheel_snow_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\common_leather02_normals.dds" NEWTEXTURE="Vehicles\textures\common_leather022_normals.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\common_leather02_norm.dds" NEWTEXTURE="Vehicles\textures\common_leather022_normals.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_812_body_mud_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\ferrari_812_wheel_mud_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\common_leather02_normals.dds" NEWTEXTURE="Vehicles\textures\common_leather022_normals.dds" />
+		<REPLACE TEXTURE="Vehicles\textures\common_leather02_norm.dds" NEWTEXTURE="Vehicles\textures\common_leather022_normals.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

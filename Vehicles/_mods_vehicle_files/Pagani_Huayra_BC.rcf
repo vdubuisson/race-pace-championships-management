@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="26" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">		
+		<NAME LIVERY="1" NAME="White / Carbon 1" />
+		<NAME LIVERY="2" NAME="Matte Grey Metallic / Carbon" />
+		<NAME LIVERY="3" NAME="Carbon / Red" />
+		<NAME LIVERY="4" NAME="Blue / Carbon" />
+		<NAME LIVERY="5" NAME="Blue Metallic / Carbon" />
+		<NAME LIVERY="6" NAME="Purple Metallic / Carbon" />
+		<NAME LIVERY="7" NAME="White / Carbon 2" />
+		<NAME LIVERY="8" NAME="Blue Carbon" />
+		<NAME LIVERY="9" NAME="Silver Metallic / Carbon" />
+		<NAME LIVERY="10" NAME="Red Carbon" />
+		<NAME LIVERY="11" NAME="Yellow" />
+		<NAME LIVERY="12" NAME="Light Blue Metallic" />
+		<NAME LIVERY="13" NAME="Supreme Gold" />
+		<NAME LIVERY="14" NAME="Dark Grey Carbon" />
+		<NAME LIVERY="15" NAME="Bronzo Aymara" />
+		<NAME LIVERY="16" NAME="Orange Metallic" />
+		<NAME LIVERY="17" NAME="White / Red Carbon" />
+		<NAME LIVERY="18" NAME="Red Italia" />
+		<NAME LIVERY="19" NAME="DarkGreen Metallic" />
+		<NAME LIVERY="20" NAME="Yellow Metallic" />
+		<NAME LIVERY="71" NAME="Livery 1" />
+		<NAME LIVERY="72" NAME="Livery 2" />
+		<NAME LIVERY="73" NAME="Livery 3" />
+		<NAME LIVERY="74" NAME="Livery 4" />
+		<NAME LIVERY="75" NAME="Livery 5" />
+		<NAME LIVERY="76" NAME="Livery 6" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="1">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_04.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_01.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="2">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA1" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_blue_perf.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA2" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_blue_perf.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA4" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_blue_perf.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA1_STITCHING" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_blue_stitch.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery02.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery02.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_blue_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_blue02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_blue02_stitch_black_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_blue_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_blue02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_blue02_stitch_black_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_cpit_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_cpit05_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_cpit_spec.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_cpit05_spec.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior05_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_spec.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior05_spec.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc05_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_spec.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc05_spec.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel05_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_05.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black3_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black3_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_01.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="3">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA1" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_red_sq.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA2" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_red_perf.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA3" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_red.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA4" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_red.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA_STITCHING" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_red_stitch.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA1_STITCHING" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_red_stitch.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA3_STITCHING" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_red_stitch.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery03.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_06.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior06_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc07_diff.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black2_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black2_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_01.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="4">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery04.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior08_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_08.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc05_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_spec.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc05_spec.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_dgrey_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_dgrey_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_dgrey_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_dgrey_spec_01.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="5">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_blue_met.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_blue_met_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_blue_met_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_blue_met_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_blue_met.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery05.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior08_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_08.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc05_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_spec.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc05_spec.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_dgrey_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_dgrey_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_dgrey_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_dgrey_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="6">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA1" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_dgrey_quilted.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA4" NEWMATERIAL="Vehicles\_Generic_Materials\pag_hua_bc_alc_dgrey_quilted.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_purple_met.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_purple_met_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_purple_met_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_purple_met_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_purple_met.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery06.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_purple_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_purple_stitch_white_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_purple_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_purple_stitch_white_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_purple_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_purple_stitch_white_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior07_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc06_diff.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_spec.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc06_spec.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel02_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_07.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="7">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery07.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel04_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_04.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc04_diff.dds" />					
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_silver2_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_silver2_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_silver2_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_silver2_spec_01.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="8">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_blue_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_blue_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_blue_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_blue_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_blue_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_blue_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery08.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel02_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_02.dds" />				
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_01.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="9">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA1" NEWMATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA2.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA4" NEWMATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA2.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery09.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery09.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc07_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_silver3_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_silver3_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_silver3_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_silver3_spec_01.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="10">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_red_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_red_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_red_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_red_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery10.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_04.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc04_diff.dds" />					
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_dgrey_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_dgrey_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_dgrey_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_dgrey_spec_01.dds" />						
+	</CONDITION>
+
+	<CONDITION LIVERY="11">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_yellow.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_yellow_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_yellow_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_yellow_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery11.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel02_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_02.dds" />				
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_spec_01.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="12">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\PAG_ZR_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery12.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery12.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_grey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior09_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_grey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_grey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_grey_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel09_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_09.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_spec_01.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="13">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss_autocpit.mtx" />			
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery13.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery13.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior08_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_08.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc04_diff.dds" />					
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_spec_01.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="14">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA1" NEWMATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA2.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA4" NEWMATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_ALCANTARA2.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_pagani_dgrey_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_pagani_dgrey_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_pagani_dgrey_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_pagani_dgrey_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss.mtx" />			
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery14.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc07_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="15">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_bronzo_aymara.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_bronzo_aymara_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_bronzo_aymara_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_bronzo_aymara_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss_autocpit.mtx" />		
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_1_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_carbon_gloss.mtx" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery15.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_02.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc02_diff.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="16">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_orange_met.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_orange_met_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_orange_met_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_orange_met_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_orange_met.mtx" />				
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery16.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior08_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_08.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc04_diff.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="17">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_pagani_red_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_white_pearl_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_pagani_red_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_pagani_red_carbon_gloss_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery17.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_04.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_spec_01.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="18">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_rosso_monza.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_rosso_monza_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_rosso_monza_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_rosso_monza_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />	
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_rosso_monza.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery18.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_04.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_silver2_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_silver2_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_silver2_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_silver2_spec_01.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="19">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_darkgreen_met.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_darkgreen_met_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_darkgreen_met_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_darkgreen_met_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_darkgreen_met.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery19.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel02_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_02.dds" />			
+	</CONDITION>
+
+	<CONDITION LIVERY="20">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_yellow_met.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_yellow_met_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_yellow_met_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_yellow_met_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_pagani_yellow_met.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery20.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel02_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_02.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc04_diff.dds" />					
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black4_spec_01.dds" />		
+	</CONDITION>
+	
+	<CONDITION LIVERY="71">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="vehicles\_generic_materials\livery_488c_31.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_488c_31_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_488c_31_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_488c_31_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_CARBON_2" NEWMATERIAL="vehicles\_generic_materials\livery_488c_31.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery21.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior08_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_08.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc07_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel02_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_02.dds" />				
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_spec_01.dds" />	
+	</CONDITION>
+	
+	<CONDITION LIVERY="72">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery22.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_grey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior09_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_grey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_grey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_grey_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel09_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_09.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_01.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="73">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />		
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />	
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery23.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior08_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_yellow_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel04_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_08.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc05_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_spec.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc05_spec.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_01.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="74">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_bentley_speed8.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_bentley_speed8_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_bentley_speed8.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_bentley_speed8_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_bentley_speed8_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_bentley_speed8_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_bentley_speed8_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\liveries\bentley_speed8_livery01.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery24.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_perf_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_squares_2_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_grey_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_alcantara_dgrey2_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_red_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_leather_red2_stitch_black_diff.dds" NEWTEXTURE="Vehicles\Textures\common_leather_dgrey_stitch_yellow_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_interior_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_interior02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_misc_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_misc02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_swheel_diff.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_swheel02_diff.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wscreen_ref_02.dds" />				
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_gold_spec_01.dds" />	
+	</CONDITION>
+	
+	<CONDITION LIVERY="75">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\pag_huayra_bc_carbon_1_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery25.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black2_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black2_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_01.dds" />	
+	</CONDITION>
+	
+	<CONDITION LIVERY="76">
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_ferrari_grigio_alloy_stripes.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_ferrari_grigio_alloy_stripes_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2" NEWMATERIAL="Vehicles\_Generic_Materials\paint_ferrari_grigio_alloy_stripes.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_ferrari_grigio_alloy_stripes_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_ferrari_grigio_alloy_stripes_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT" NEWMATERIAL="Vehicles\_Generic_Materials\paint_ferrari_grigio_alloy_stripes_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Pagani_Huayra_BC\PAG_HUAYRA_BC_PAINT_2_CPIT_SKIN" NEWMATERIAL="Vehicles\_Generic_Materials\paint_ferrari_grigio_alloy_stripes_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pag_hua_bc_livery26.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\pag_hua_bc_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\pag_hua_bc_wheel_black_spec_01.dds" />				
+	</CONDITION>
+	
+	<!-- 'Soft' -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium' -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard' -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate' -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\pag_hua_bc_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\pag_hua_bc_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\pag_hua_bc_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

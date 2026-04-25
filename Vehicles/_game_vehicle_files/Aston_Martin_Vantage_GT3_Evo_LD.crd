@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="VehicleDetails" base="BPersistent">
+        <prop name="Vehicle Name" type="String" />
+        <prop name="ShortVehicleName" type="String" />
+        <prop name="XLASTID" type="U32" />
+        <prop name="DLC ID" type="String" />
+        <prop name="VehicleManufacturer" type="String" />
+        <prop name="VehicleModel" type="String" />
+        <prop name="Vehicle Render Model" type="String" />
+        <prop name="Driver Character" type="String" />
+        <prop name="User Overrides Base Helmet" type="String" />
+        <prop name="User Overrides Base Outfit" type="String" />
+        <prop name="Vehicle Physics Model" type="String" />
+        <prop name="Cockpit properties" type="String" />
+        <prop name="Vehicle Properties" type="String" />
+        <prop name="Vehicle Year" type="S32" />
+        <prop name="Shadow Width" type="F32" />
+        <prop name="Shadow Length" type="F32" />
+        <prop name="Shadow Offset Right" type="F32" />
+        <prop name="Shadow Offset Forward" type="F32" />
+        <prop name="Shadow Texture" type="String" />
+        <prop name="Grid Grouping" type="U32" />
+        <prop name="Vehicle Class" type="String" />
+        <prop name="Vehicle Group" type="String" />
+        <prop name="Vehicle Shape" type="String" />
+ 		<prop name="Safety Car Driver Name" type="String" />		
+        <prop name="Engine Placement" type="String" />
+        <prop name="Number of Exhausts" type="S32" />
+        <prop name="Exhaust Position 1" type="Vec3f" />
+        <prop name="Exhaust Position 2" type="Vec3f" />
+        <prop name="Exhaust Target Position 1" type="Vec3f" />
+        <prop name="Exhaust Target Position 2" type="Vec3f" />
+        <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
+        <prop name="Number of Engine Heat" type="S32" />
+        <prop name="Engine Heat Position 1" type="Vec3f" />
+        <prop name="Blown Engine Smoke Position" type="Vec3f" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" type="F32" />
+        <prop name="Exhaust Backfire Mesh Length Scale" type="F32" />
+        <prop name="Vehicle Description" type="String" />
+        <prop name="AI ONLY" type="Bool" />
+        <prop name="PLAYER ONLY" type="Bool" />
+        <prop name="Vehicle Initial Performance Index" type="S32" />
+        <prop name="Body Upgrades" type="String" />
+        <prop name="Cockpit Upgrades" type="String" />
+        <prop name="Tire Upgrades" type="String" />
+        <prop name="Brake Upgrades" type="String" />
+        <prop name="Tier" type="U32" />
+        <prop name="Price" type="U32" />
+        <prop name="Region" type="String" />
+        <prop name="Country" type="String" />
+        <prop name="Paint Shop Data" type="String" />
+        <prop name="Client Vehicle Version" type="U32" />
+		<prop name="Vehicle Garage Rotation" type="Vec3f" />
+        <prop name="Left Mirror Pos" type="Vec3f" />
+        <prop name="Right Mirror Pos" type="Vec3f" />
+        <prop name="Center Mirror Pos" type="Vec3f" />
+        <prop name="LCD Mirror Pos" type="Vec3f" />
+        <prop name="AABBMin" type="Vec3f" />
+        <prop name="AABBMax" type="Vec3f" />
+    </class>
+    <data class="VehicleDetails" id="0xD861FB8">
+        <prop name="Name" data="Aston_Martin_Vantage_GT3_Evo_LD" />
+        <prop name="Vehicle Name" data="Aston Martin Vantage GT3 Evo - Low Downforce" />
+        <prop name="ShortVehicleName" data="AMR Vantage GT3 Evo" />
+        <prop name="XLASTID" data="387" />
+        <prop name="DLC ID" data="" />
+        <prop name="VehicleManufacturer" data="Aston Martin Racing" />
+        <prop name="VehicleModel" data="Aston Martin GT3" />
+        <prop name="Vehicle Render Model" data="Aston_Martin_Vantage_GT3_Evo.vhf" />
+        <prop name="Driver Character" data="Aston_Martin_Vantage_GT3_Evo" />
+        <prop name="User Overrides Base Helmet" data="helmet_GT_Modern_STOCK_USER_OVERRIDE" />
+        <prop name="User Overrides Base Outfit" data="outfit_GT_Modern_STOCK_USER_OVERRIDE" />
+        <prop name="Vehicle Physics Model" data="Aston_Martin_Vantage_GT3_Evo_LD" />
+        <prop name="Cockpit properties" data="Aston_Martin_Vantage_GT3_Evo_Cockpit.bin" />
+        <prop name="Vehicle Properties" data="Aston_Martin_Vantage_GT3_Evo" />
+        <prop name="Vehicle Year" data="2024" />
+        <prop name="Shadow Width" data="5.0" />
+        <prop name="Shadow Length" data="7.0" />
+        <prop name="Shadow Offset Right" data="0" />
+        <prop name="Shadow Offset Forward" data="0" />
+        <prop name="Shadow Texture" data="Aston_Martin_Vantage_GT3_Evo_ambsh.dds" />
+        <prop name="Grid Grouping" data="10" />
+        <prop name="Vehicle Class" data="GT3_Gen2_LD" />
+        <prop name="Vehicle Group" data="GT3" />
+        <prop name="Vehicle Shape" data="GT" />
+ 		<prop name="Safety Car Driver Name" data="SafetyChevyDriverIMSA" />			
+        <prop name="Engine Placement" data="Mid-Front" />
+        <prop name="Number of Exhausts" data="2" />
+        <prop name="Exhaust Position 1" data="0.816;0.202;-0.659" />
+        <prop name="Exhaust Position 2" data="-0.816;0.202;-0.659" />
+        <prop name="Exhaust Target Position 1" data="1.092;0.181;-0.374" />
+        <prop name="Exhaust Target Position 2" data="-1.092;0.181;-0.374" />
+        <prop name="Exhaust Smoke Amount Multiplier" data="0.4" />
+        <prop name="Number of Engine Heat" data="1" />
+        <prop name="Engine Heat Position 1" data="0;0.694;-1.24" />
+        <prop name="Blown Engine Smoke Position" data="0;0.694;-1.24" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="2.25" />
+        <prop name="Exhaust Backfire Mesh Length Scale" data="2.75" />
+        <prop name="Vehicle Description" data="" />
+        <prop name="AI ONLY" data="true" />
+        <prop name="PLAYER ONLY" data="false" />
+        <prop name="Vehicle Initial Performance Index" data="107" />
+        <prop name="Body Upgrades" data="" />
+        <prop name="Cockpit Upgrades" data="" />
+        <prop name="Tire Upgrades" data="" />
+        <prop name="Brake Upgrades" data="" />
+        <prop name="Tier" data="5" />
+        <prop name="Price" data="373000" />
+        <prop name="Region" data="EU" />
+        <prop name="Country" data="UK" />
+        <prop name="Paint Shop Data" data="N/A" />
+        <prop name="Client Vehicle Version" data="1" />
+        <prop name="Vehicle Garage Rotation" data="0.0;3.141592653589;0.0" />
+        <prop name="Left Mirror Pos" data="1.011;0.888;-0.137" />
+        <prop name="Right Mirror Pos" data="-1.011;0.888;-0.137" />
+        <prop name="Center Mirror Pos" data="0.0;1.032;0.149" />
+        <prop name="LCD Mirror Pos" data="0.107;0.791;-0.223" />
+        <prop name="AABBMin" data="-1.5;-0.0;-4.0" />
+        <prop name="AABBMax" data="1.5;1.5;4.0" />
+    </data>
+</Reflection>

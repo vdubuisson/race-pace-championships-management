@@ -1,0 +1,209 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="TrackDetails" base="BPersistent">
+        <prop name="TrackName" type="String" />
+        <prop name="ShortTrackName" type="String" />
+        <prop name="XLASTID" type="U32" />
+        <prop name="DLC ID" type="String" />
+        <prop name="InstTexturePakFilename" type="String" />
+        <prop name="ScenegraphFile" type="String" />
+        <prop name="Year" type="S32" />
+        <prop name="Length" type="S32" />
+        <prop name="Location" type="String" />
+        <prop name="Country" type="String" />
+        <prop name="TrackGradeFilter" type="String" />
+        <prop name="PresetFilter" type="String" />
+        <prop name="Track Type" type="String" />
+        <prop name="Allowed Weather" type="String" />
+        <prop name="Weather Weights" type="String" />
+        <prop name="Allowed TimeOfDay" type="String" />
+        <prop name="TimeOfDay Group" type="String" />
+        <prop name="PreRace Allowed (true/false)" type="Bool" />
+        <prop name="Environment File" type="String" />
+        <prop name="Environment Time" type="String" />
+        <prop name="Dusk Race" type="Bool" />
+        <prop name="Dusk File" type="String" />
+        <prop name="Dusk Time" type="String" />
+        <prop name="Event Types" type="String" />
+        <prop name="Sun Angle(DEG)" type="Float" />
+        <prop name="Track Surface" type="String" />
+        <prop name="Track Group" type="String" />
+        <prop name="Track Description" type="String" />
+        <prop name="PitSpeedLimit_HighKPH" type="F32" />
+        <prop name="LeaderboardID" type="S32" />
+        <prop name="Max AI participants" type="U32" />
+        <prop name="Class" type="String" />
+        <prop name="DirtSkidmarksOverride" type="String" />
+        <prop name="DrySkidmarksOverride" type="String" />
+        <prop name="GrassSkidmarksOverride" type="String" />
+        <prop name="GravelSkidmarksOverride" type="String" />
+        <prop name="SandSkidmarksOverride" type="String" />
+        <prop name="GravelParticlesOverride" type="String" />
+        <prop name="GrassParticlesOverride" type="String" />
+        <prop name="LeafParticlesOverride" type="String" />
+        <prop name="Uses Reflection Flag" type="Bool" />
+        <prop name="GripBase" type="F32" />
+        <prop name="GripRange" type="F32" />
+        <prop name="Track_Location" type="String" />
+        <prop name="Track_Variation" type="String" />
+        <prop name="AI Grip" type="F32" />
+		<prop name="ScalarAIBlueFlagDistanceMoveLane" type="F32" />
+		<prop name="ScalarBlueFlagMinDistBack" type="F32" />
+		<prop name="ScalarAILappedCarDistanceAhead" type="F32" />
+		<prop name="ScalarAISlowCarDistanceAhead" type="F32" />
+		<prop name="ScalarAISteerScalarCornerCut" type="F32" />
+		<prop name="ScalarAIPassComplexityCutoffMaxAggression" type="F32" />
+		<prop name="ScalarAIPassComplexityCutoffMinAggression" type="F32" />
+		<prop name="ScalarAITTCStraightOvertakeDist" type="F32" />
+        <prop name="ScalarAITTCStraightOvertakeTime" type="F32" />
+        <prop name="AIOvertakeInsideEnabled" type="Bool" />
+        <prop name="AIDirtyAirBehaviourEnabled" type="S32" />
+        <prop name="ScalarAIMaxDraftHuntingDist" type="F32" /> 
+        <prop name="ScalarAIBlueFlagSpeedReductions" type="F32" />
+        <prop name="ScalarAIColdTyreDists" type="F32" />
+        <prop name="AI drift score min" type="U32" />
+        <prop name="AI drift score max" type="U32" />
+        <prop name="Rolling Start Allowed" type="Bool" />
+        <prop name="Setup group" type="String" />
+        <prop name="ZoneName" type="String" />
+        <prop name="Post race position" type="Vec3f" />
+        <prop name="Post race orientation" type="Vec3f" />
+        <prop name="Post race steering" type="F32" />
+        <prop name="Time Attack duration short" type="U32" />
+        <prop name="Time Attack duration medium" type="U32" />
+        <prop name="Time Attack duration long" type="U32" />
+        <prop name="AIW Override" type="String" />
+        <prop name="Client Track Version" type="U32" />
+        <prop name="Order Override" type="U32" />
+        <prop name="Track_Longitude" type="F32" />
+        <prop name="Track_Latitude" type="F32" />
+        <prop name="Track_Altitude" type="F32" />
+        <prop name="Track_TimeZone" type="S32" />
+        <prop name="Number Of Turns" type="U32" />
+        <prop name="Track_Rotation_Offset" type="F32" />
+        <prop name="Race_Date_Year" type="S32" />
+        <prop name="Race_Date_Month" type="S32" />
+        <prop name="Race_Date_Day" type="S32" />
+        <prop name="Track_Climate" type="String" />
+        <prop name="StaticEnvMapLocation" type="Vec4f" />
+        <prop name="StaticConvolveEnvMapLocation" type="Vec4f" />
+        <prop name="TrackCentre" type="Vec4f" />
+        <prop name="PreRace Script name" type="String" />
+        <prop name="PreRace Script length" type="F32" />
+        <prop name="PostRace Script name" type="String" />
+        <prop name="Track Properties File" type="String" />
+        <prop name="Crowd Pak Filename" type="String" />
+        <prop name="AIWidthScalarToReduceCorridors" type="F32" />
+        <prop name="AIWidthScalarToReduceCorridorsFullThrottle" type="F32" />
+        <prop name="AIDisableCorridorsReductionAgainstLapped" type="Bool" />
+        <prop name="AIDisableCorridorsReductionAgainstHuman" type="Bool" />	
+        <prop name="FogMaxDistanceScalar" type="F32" />
+        <prop name="DirtParticlesOverride" type="String" />
+    </class>
+    <data class="TrackDetails" id="">
+        <prop name="Name" data="Ascurra_DIRT" />
+        <prop name="TrackName" data="Ascurra_DIRT" />
+        <prop name="ShortTrackName" data="Ascurra_DIRT" />
+        <prop name="XLASTID" data="202" />
+        <prop name="DLC ID" data="adrenalinept1pack" />
+        <prop name="InstTexturePakFilename" data="" />
+        <prop name="ScenegraphFile" data="Ascurra_DIRT.sgx" />
+        <prop name="Year" data="2022" />
+        <prop name="Length" data="910" />
+        <prop name="Location" data="Brazil" />
+        <prop name="Country" data="BR" />
+        <prop name="trackgradefilter" data="Dirt" />
+        <prop name="PresetFilter" data="Dirt" />			
+        <prop name="Track Type" data="Rallycross" />
+        <prop name="Allowed Weather" data="Weather_Clear,Weather_LightCloud,Weather_MedCloud,Weather_HeavyCloud,Weather_Overcast,Weather_LightRain,Weather_Rainy,Weather_Stormy,Weather_SuperStorm,Weather_Foggy,weather_fog_with_rain,weather_heavy_fog,weather_heavy_fog_with_rain,Weather_Hazy,Weather_Random" />
+        <prop name="Weather Weights" data="10,20,20,10,10,4,2,1,1,0.5,0.5,0.0,0.0,0.5,0.0" />
+        <prop name="Allowed TimeOfDay" data="All" />
+        <prop name="TimeOfDay Group" data="Ascurra" />
+        <prop name="PreRace Allowed (true/false)" data="true" />
+        <prop name="Environment File" data="Ascurra.wdf" />
+        <prop name="Environment Time" data="day" />
+        <prop name="Dusk Race" data="False" />
+        <prop name="Dusk File" data="" />
+        <prop name="Dusk Time" data="" />
+        <prop name="Event Types" data="!RallyCross" />
+        <prop name="Sun Angle(DEG)" data="0" />
+        <prop name="Track Surface" data="mud" />
+        <prop name="Track Group" data="" />
+        <prop name="Track Description" data="" />
+        <prop name="PitSpeedLimit_HighKPH" data="60.0" />
+        <prop name="LeaderboardID" data="01" />
+        <prop name="Max AI participants" data="15" />
+        <prop name="Class" data="Race,Street" />
+        <prop name="DirtSkidmarksOverride" data="" />
+        <prop name="DrySkidmarksOverride" data="" />
+        <prop name="GrassSkidmarksOverride" data="" />
+        <prop name="GravelSkidmarksOverride" data="" />
+        <prop name="SandSkidmarksOverride" data="" />
+        <prop name="GravelParticlesOverride" data="" />
+        <prop name="GrassParticlesOverride" data="" />
+        <prop name="LeafParticlesOverride" data="" />
+        <prop name="Uses Reflection Flag" data="true" />
+        <prop name="GripBase" data="0.940" />
+        <prop name="GripRange" data="0.04" />
+        <prop name="Track_Location" data="Ascurra" />
+        <prop name="Track_Variation" data="Ascurra_DIRT" />
+        <prop name="AI Grip" data="1.0" />
+		<prop name="ScalarAIBlueFlagDistanceMoveLane" data="1.0" />
+		<prop name="ScalarBlueFlagMinDistBack" data="1.0" />
+		<prop name="ScalarAILappedCarDistanceAhead" data="1.0" />
+		<prop name="ScalarAISlowCarDistanceAhead" data="1.0" />
+		<prop name="ScalarAISteerScalarCornerCut" data="1.0" />
+		<prop name="ScalarAIPassComplexityCutoffMaxAggression" data="1.0" />
+		<prop name="ScalarAIPassComplexityCutoffMinAggression" data="1.0" />
+		<prop name="ScalarAITTCStraightOvertakeDist" data="1.0" />
+        <prop name="ScalarAITTCStraightOvertakeTime" data="1.0" />
+        <prop name="AIOvertakeInsideEnabled" data="false" />
+        <prop name="AIDirtyAirBehaviourEnabled" data="-1" />
+        <prop name="ScalarAIMaxDraftHuntingDist" data="1.0" /> 
+        <prop name="ScalarAIBlueFlagSpeedReductions" data="1.0" />
+        <prop name="ScalarAIColdTyreDists" data="1.0" />
+        <prop name="AI drift score min" data="100" />
+        <prop name="AI drift score max" data="200" />
+        <prop name="Rolling Start Allowed" data="False" />
+        <prop name="Setup group" data="Circuit" />
+        <prop name="ZoneName" data="" />
+        <prop name="Post race position" data="0.0; 0.0; 0.0" />
+        <prop name="Post race orientation" data="0.0; 0.0; 0.0" />
+        <prop name="Post race steering" data="1.2" />
+        <prop name="Time Attack duration short" data="5" />
+        <prop name="Time Attack duration medium" data="7" />
+        <prop name="Time Attack duration long" data="9" />
+        <prop name="AIW Override" data="" />
+        <prop name="Client Track Version" data="1" />
+        <prop name="Order Override" data="1" />
+        <prop name="Track_Longitude" data="-49.388986" />
+        <prop name="Track_Latitude" data="-26.935724" />
+        <prop name="Track_Altitude" data="88" />
+        <prop name="Track_TimeZone" data="-3" />
+        <prop name="Number Of Turns" data="8" />
+        <prop name="Track_Rotation_Offset" data="0" />
+        <prop name="Race_Date_Year" data="2022" />
+        <prop name="Race_Date_Month" data="9" />
+        <prop name="Race_Date_Day" data="28" />
+        <prop name="Track_Climate" data="south_america" />
+        <prop name="StaticEnvMapLocation" data="13.343; -5.242; 89.819; 1.0" />
+        <prop name="StaticConvolveEnvMapLocation" data="13.343; -5.242; 89.819; 1.0" />
+        <prop name="TrackCentre" data="-205.243; -7.491; 200.862; 1.0" />
+        <prop name="PreRace Script name" data="" />
+        <prop name="PreRace Script length" data="5" />
+        <prop name="PostRace Script name" data="default_post_race.script" />
+        <prop name="Track Properties File" data="TrackProperties" />
+        <prop name="Crowd Pak Filename" data="" />
+        <prop name="AIWidthScalarToReduceCorridors" data="0.0" />
+        <prop name="AIWidthScalarToReduceCorridorsFullThrottle" data="0.0" />
+        <prop name="AIDisableCorridorsReductionAgainstLapped" data="true" />
+        <prop name="AIDisableCorridorsReductionAgainstHuman" data="true" />	
+        <prop name="FogMaxDistanceScalar" data="1.28" />
+        <prop name="DirtParticlesOverride" data="Brown" />
+    </data>
+</Reflection>
+		

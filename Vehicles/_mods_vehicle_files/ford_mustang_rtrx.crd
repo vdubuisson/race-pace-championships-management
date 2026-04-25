@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="VehicleDetails" base="BPersistent">
+        <prop name="Vehicle Name" type="String" />
+        <prop name="ShortVehicleName" type="String" />
+        <prop name="XLASTID" type="U32" />
+        <prop name="VehicleManufacturer" type="String" />
+        <prop name="VehicleModel" type="String" />
+        <prop name="Vehicle Render Model" type="String" />
+        <prop name="Driver Character" type="String" />
+        <prop name="Vehicle Physics Model" type="String" />
+        <prop name="Cockpit properties" type="String" />
+        <prop name="Vehicle Properties" type="String" />
+        <prop name="Vehicle Year" type="S32" />
+        <prop name="Shadow Width" type="F32" />
+        <prop name="Shadow Length" type="F32" />
+        <prop name="Shadow Offset Right" type="F32" />
+        <prop name="Shadow Offset Forward" type="F32" />
+        <prop name="Shadow Texture" type="String" />
+		<prop name="Grid Grouping" type="U32" />
+        <prop name="Vehicle Class" type="String" />
+        <prop name="Vehicle Group" type="String" />
+        <prop name="Vehicle Shape" type="String" />
+        <prop name="Engine Placement" type="String" />
+        <prop name="Number of Exhausts" type="S32" />
+        <prop name="Exhaust Position 1" type="Vec3f" />
+        <prop name="Exhaust Position 2" type="Vec3f" />
+        <prop name="Exhaust Target Position 1" type="Vec3f" />
+        <prop name="Exhaust Target Position 2" type="Vec3f" />
+        <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" type="F32" />
+        <prop name="Exhaust Backfire Mesh Length Scale" type="F32" />
+        <prop name="Number of Engine Heat" type="S32" />
+        <prop name="Engine Heat Position 1" type="Vec3f" />
+        <prop name="Blown Engine Smoke Position" type="Vec3f" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" type="F32" />
+        <prop name="Exhaust Backfire Mesh Length Scale" type="F32" />
+        <prop name="Vehicle Description" type="String" />
+        <prop name="AI ONLY" type="Bool" />
+        <prop name="Vehicle Initial Performance Index" type="S32" />
+        <prop name="Body Upgrades" type="String" />
+        <prop name="Cockpit Upgrades" type="String" />
+        <prop name="Tire Upgrades" type="String" />
+        <prop name="Brake Upgrades" type="String" />
+        <prop name="Tier" type="U32" />
+        <prop name="Price" type="U32" />
+        <prop name="Region" type="String" />
+        <prop name="Country" type="String" />
+        <prop name="Paint Shop Data" type="String" />
+        <prop name="Min Front Wheel Diameter" type="U32" />
+        <prop name="Max Front Wheel Diameter" type="U32" />
+        <prop name="Min Rear Wheel Diameter" type="U32" />
+        <prop name="Max Rear Wheel Diameter" type="U32" />
+        <prop name="Max GUI Wheel Angle" type="F32" />
+        <prop name="PULC Package ID 360" type="String" />
+        <prop name="PULC Package ID PS3" type="String" />
+    </class>
+    <data class="VehicleDetails" id="0xD97E348">
+        <prop name="Name" data="Ford_Mustang_RTRX" />
+        <prop name="Vehicle Name" data="Ford Mustang RTR-X" />
+        <prop name="ShortVehicleName" data="RTR-X" />
+        <prop name="XLASTID" data="315" />
+        <prop name="VehicleManufacturer" data="Ford" />
+        <prop name="VehicleModel" data="Ford Mustang RTR-X" />
+        <prop name="Vehicle Render Model" data="Ford_Mustang_RTRX.vhf" />
+        <prop name="Driver Character" data="Ford_Mustang_RTRX" />
+        <prop name="Vehicle Physics Model" data="Ford_Mustang_RTRX" />
+        <prop name="Cockpit properties" data="ford_mustang_rtrx_cockpit.bin" />
+        <prop name="Vehicle Properties" data="Ford_Mustang_RTRX" />
+        <prop name="Vehicle Year" data="2010" />
+        <prop name="Shadow Width" data="2.05" />
+        <prop name="Shadow Length" data="5.0" />
+        <prop name="Shadow Offset Right" data="0" />
+        <prop name="Shadow Offset Forward" data="0" />
+        <prop name="Shadow Texture" data="Ford_Mustang_RTRX_ambshadow.dds" />
+		<prop name="Grid Grouping" data="34" />
+        <prop name="Vehicle Class" data="Street C" />
+        <prop name="Vehicle Group" data="GT" />
+        <prop name="Vehicle Shape" data="GT" />
+        <prop name="Engine Placement" data="Front" />
+        <prop name="Number of Exhausts" data="2" />
+        <prop name="Exhaust Position 1" data="-0.83;0.272;0.79" />
+        <prop name="Exhaust Position 2" data="0.83;0.275;0.79" />
+        <prop name="Exhaust Target Position 1" data="-0.88;0.272;0.81" />
+        <prop name="Exhaust Target Position 2" data="0.88;0.272;0.81" />
+        <prop name="Exhaust Smoke Amount Multiplier" data="0.6" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="1.75" />
+        <prop name="Exhaust Backfire Mesh Length Scale" data="2.1" />
+        <prop name="Number of Engine Heat" data="1" />
+        <prop name="Engine Heat Position 1" data="0;0.5;-1.3" />
+        <prop name="Blown Engine Smoke Position" data="0;0.7;-1.3" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="2.25" />
+        <prop name="Exhaust Backfire Mesh Length Scale" data="2.75" />
+        <prop name="Vehicle Description" data="" />
+        <prop name="AI ONLY" data="false" />
+        <prop name="Vehicle Initial Performance Index" data="99" />
+        <prop name="Body Upgrades" data="" />
+        <prop name="Cockpit Upgrades" data="" />
+        <prop name="Tire Upgrades" data="" />
+        <prop name="Brake Upgrades" data="" />
+        <prop name="Tier" data="5" />
+        <prop name="Price" data="100000" />
+        <prop name="Region" data="US" />
+        <prop name="Country" data="USA" />
+        <prop name="Paint Shop Data" data="N/A" />
+        <prop name="Min Front Wheel Diameter" data="13" />
+        <prop name="Max Front Wheel Diameter" data="20" />
+        <prop name="Min Rear Wheel Diameter" data="13" />
+        <prop name="Max Rear Wheel Diameter" data="20" />
+        <prop name="Max GUI Wheel Angle" data="8.0" />
+        <prop name="PULC Package ID 360" data="0x45410934099999ee" />
+        <prop name="PULC Package ID PS3" data="FORDMUSTANGRTRX0" />
+    </data>
+</Reflection>

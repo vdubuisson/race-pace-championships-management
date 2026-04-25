@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="17" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="1" NAME="Racing Yellow" />
+		<NAME LIVERY="2" NAME="Black" />
+		<NAME LIVERY="3" NAME="White" />
+		<NAME LIVERY="4" NAME="Chalk" />
+		<NAME LIVERY="5" NAME="GT Silver" /> 
+		<NAME LIVERY="6" NAME="Dolomitesilber Metallic" />
+		<NAME LIVERY="7" NAME="Achatgrau Metallic" />
+		<NAME LIVERY="8" NAME="Gentian Blue" />
+		<NAME LIVERY="9" NAME="Birch Green" />
+		<NAME LIVERY="10" NAME="SIgnal Orange" />
+		<NAME LIVERY="11" NAME="Asphalt Grey" />
+		<NAME LIVERY="12" NAME="RS Green" />
+		<NAME LIVERY="13" NAME="Lava Orange" />
+		<NAME LIVERY="14" NAME="Azzuro California2" />
+		<NAME LIVERY="15" NAME="Ultra Violet" />
+		<NAME LIVERY="16" NAME="Guards Red" />
+		<NAME LIVERY="17" NAME="Pale Green" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+	
+	
+	<CONDITION LIVERY="1">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_racing_yellow.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_racing_yellow_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_racing_yellow_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_racing_yellow_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_rim0_yellow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_blur0_yellow_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="2">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_black.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_black_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_black_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_black_autoskin_autocpit.mtx" />
+
+	</CONDITION>
+
+	<CONDITION LIVERY="3">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_white.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_white_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_white_autocpit.mtx" />	
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_white_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_rim0_white_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_blur0_white_diff.dds" />
+
+	</CONDITION>
+
+	<CONDITION LIVERY="4">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_chalk.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_chalk.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_chalk.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_chalk.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_blur_spec.dds" />
+
+	</CONDITION>
+
+	<CONDITION LIVERY="5">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_gt_silver.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_gt_silver_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_gt_silver.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_gt_silver_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="6">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_Dolomitesilber_Metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_Dolomitesilber_Metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_Dolomitesilber_Metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_Dolomitesilber_Metallic.mtx" />
+		
+
+	</CONDITION>
+
+	<CONDITION LIVERY="7">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_Achatgrau_Metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_Achatgrau_Metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_Achatgrau_Metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_Achatgrau_Metallic.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_blur_spec.dds" />
+
+	</CONDITION>
+
+	<CONDITION LIVERY="8">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_gentian_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_gentian_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_gentian_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_paint_colors\paint_porsche_992_gt3_gentian_blue.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_rim0_gentian_blue_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_blur0_gentian_blue_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_blur_spec.dds" />
+
+	</CONDITION>
+
+	<CONDITION LIVERY="9">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_birch_green.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_birch_green_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_birch_green_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_birch_green_autoskin_autocpit.mtx" />
+
+	</CONDITION>
+	
+	<CONDITION LIVERY="10">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_signal_orange.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_signal_orange_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_signal_orange_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_signal_orange_autoskin_autocpit.mtx" />
+
+	</CONDITION>
+	
+	<CONDITION LIVERY="11">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_agate_grey.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_agate_grey.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_agate_grey.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_agate_grey.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_blur_spec.dds" />
+
+	</CONDITION>
+
+	<CONDITION LIVERY="12">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_rs_green.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_rs_green_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_rs_green_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_rs_green_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_rim0_green_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_blur0_green_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="13">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_lava_orange.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_lava_orange_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_lava_orange_autocpit.mtx" />	
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_lava_orange_autoskin_autocpit.mtx" />
+
+	</CONDITION>
+
+	<CONDITION LIVERY="14">
+        <REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_azzuro_california2.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_azzuro_california2.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_azzuro_california2.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_azzuro_california2.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_blur_spec.dds" />
+
+	</CONDITION>
+
+	<CONDITION LIVERY="15">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_ultra_violet.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_ultra_violet_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_ultra_violet_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_ultra_violet_autoskin_autocpit.mtx" />
+
+	</CONDITION>
+	
+	<CONDITION LIVERY="16">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_carmin_red.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_carmin_red.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_carmin_red.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_carmin_red.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_rim0_red_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_blur0_red_diff.dds" />
+	</CONDITION>
+
+
+	<CONDITION LIVERY="17">
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint" NEWMATERIAL="vehicles\_generic_materials\PAINT_JAGUAR_NERO_DAYTONA.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_skin" NEWMATERIAL="vehicles\_generic_materials\PAINT_JAGUAR_NERO_DAYTONA.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\PAINT_JAGUAR_NERO_DAYTONA.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_GTtouring\por_992_cs_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\PAINT_JAGUAR_NERO_DAYTONA.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_rim0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_rim0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_blur0_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_blur0_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_992_gt3_tour_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\por_992_gt3_tour_wheel_silver_blur_spec.dds" />
+
+	</CONDITION>
+
+
+	<!-- 'Soft' Copy of medium in case AI use it -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Medium Slick tire. In case AI uses it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Hard Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate' All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\formula_rookie_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

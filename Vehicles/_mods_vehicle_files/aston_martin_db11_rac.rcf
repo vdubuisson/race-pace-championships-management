@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="20" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="71" NAME="Team Holinger #178" />
+		<NAME LIVERY="72" NAME="Team Holinger #179" />
+		<NAME LIVERY="73" NAME="Team Alpinestars #104" />
+		<NAME LIVERY="74" NAME="Team Alpinestars #105" />
+		<NAME LIVERY="75" NAME="Team Schroth Racing #49" />
+		<NAME LIVERY="76" NAME="Team Schroth Racing #50" />
+		<NAME LIVERY="77" NAME="Team The Speed Merchants #108" />
+		<NAME LIVERY="78" NAME="Team The Speed Merchants #109" />
+		<NAME LIVERY="79" NAME="Team ARP #132" />
+		<NAME LIVERY="80" NAME="Team ARP #133" />				
+		<NAME LIVERY="81" NAME="Team Aorus #98" />
+		<NAME LIVERY="82" NAME="Team Aorus #99" />
+		<NAME LIVERY="83" NAME="Team Sabelt #171" />
+		<NAME LIVERY="84" NAME="Team Sabelt #172" />
+		<NAME LIVERY="85" NAME="Team ACT #135" />
+		<NAME LIVERY="86" NAME="Team ACT #136" />
+		<NAME LIVERY="87" NAME="Team Red Line Oil #148" />
+		<NAME LIVERY="88" NAME="Team Red Line Oil #149" />
+		<NAME LIVERY="89" NAME="Team Recaro #160" />
+		<NAME LIVERY="90" NAME="Team Recaro #161" />		
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery01_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_nmp8888.dds" />			
+	</CONDITION>
+
+	<CONDITION LIVERY="72">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery02_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_white_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_nmp8888.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery03_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_nmp8888.dds" />			
+	</CONDITION>
+
+	<CONDITION LIVERY="74">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery04_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_white_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_nmp8888.dds" />			
+	</CONDITION>
+
+	<CONDITION LIVERY="75">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery05_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_nmp8888.dds" />			
+	</CONDITION>
+
+	<CONDITION LIVERY="76">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery06_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_white_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_nmp8888.dds" />			
+	</CONDITION>
+
+	<CONDITION LIVERY="77">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery07_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_nmp8888.dds" />			
+	</CONDITION>
+
+	<CONDITION LIVERY="78">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery08_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_white_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_nmp8888.dds" />			
+	</CONDITION>
+
+	<CONDITION LIVERY="79">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery09_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_nmp8888.dds" />			
+	</CONDITION>
+	
+	<CONDITION LIVERY="80">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery10_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_white_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_lmp2_nmp8888.dds" />			
+	</CONDITION>	
+
+	<CONDITION LIVERY="81">
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery11_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery11_spec.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="82">
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery12_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery11_spec.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_white_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />		
+	</CONDITION>
+	
+	<CONDITION LIVERY="83">
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery13_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery13_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery13_fresnel.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />		
+	</CONDITION>
+	
+	<CONDITION LIVERY="84">
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery14_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery14_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery13_fresnel.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_white_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />		
+	</CONDITION>
+	
+	<CONDITION LIVERY="85">		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery15_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />		
+	</CONDITION>
+	
+	<CONDITION LIVERY="86">		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery16_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_white_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />		
+	</CONDITION>
+	
+	<CONDITION LIVERY="87">
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery17_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery17_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery17_fresnel.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />		
+	</CONDITION>
+	
+	<CONDITION LIVERY="88">
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery18_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery17_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery17_fresnel.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_white_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />		
+	</CONDITION>
+	
+	<CONDITION LIVERY="89">
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery19_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />		
+	</CONDITION>
+	
+	<CONDITION LIVERY="90">
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_db11_racing\aston_db11_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_amg_gt3_01_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_livery20_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\aston_db11_kit01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\aston_db11_kit01_banner_white_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />		
+	</CONDITION>	
+
+	<!-- Soft Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Medium Slick tire. In case AI uses it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Hard Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Studded Ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\am_van_gte_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

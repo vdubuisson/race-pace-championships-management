@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="34" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="AMG Motorsport #35" />
+		<NAME LIVERY="52" NAME="AMG Motorsport #38" />
+		<NAME LIVERY="53" NAME="Team AMG Motorsport #35" />
+		<NAME LIVERY="54" NAME="Team AMG Motorsport #11" />
+		<NAME LIVERY="55" NAME="Forpi Racing Team #24" />
+		<NAME LIVERY="56" NAME="Forpi Racing Team #25" />
+		<NAME LIVERY="57" NAME="Rollins Motorsport #26" />
+		<NAME LIVERY="58" NAME="Rollins Motorsport #27" />
+		<NAME LIVERY="59" NAME="Clark Motor Services #18" />
+		<NAME LIVERY="60" NAME="Clark Motor Services #19" />
+		<NAME LIVERY="61" NAME="Biffs Racing #15" />
+		<NAME LIVERY="62" NAME="Biffs Racing #16" />
+		<NAME LIVERY="63" NAME="Kings Motor Racing Team #32" />
+		<NAME LIVERY="64" NAME="Kings Motor Racing Team #33" />
+		<NAME LIVERY="65" NAME="Jeschke Motorsport #8" />
+		<NAME LIVERY="66" NAME="Jeschke Motorsport #9" />
+		<NAME LIVERY="67" NAME="Zectrol Racing Team #36" />
+		<NAME LIVERY="68" NAME="Zectrol racing Team #37" />
+		<NAME LIVERY="69" NAME="Karsten Rennsport #12" />
+		<NAME LIVERY="70" NAME="Karsten Rennsport #13" />
+		<NAME LIVERY="71" NAME="Team Millgo #53" />
+		<NAME LIVERY="72" NAME="Team Millgo #54" />
+		<NAME LIVERY="73" NAME="Jack Tirbnos Team #78" />
+		<NAME LIVERY="74" NAME="Jack Tirbnos Team #79" />
+		<NAME LIVERY="75" NAME="Gerstenfelder Motorsport #30" />
+		<NAME LIVERY="76" NAME="Gerstenfelder Motorsport #31" />
+		<NAME LIVERY="77" NAME="Zipanol Racing Team #50" />
+		<NAME LIVERY="78" NAME="Zipanol Racing Team #51" />
+		<NAME LIVERY="79" NAME="Team Mixlub Racing #82" />
+		<NAME LIVERY="80" NAME="Team Mixlub Racing #83" />
+		<NAME LIVERY="81" NAME="Hartberg Rennsport #1" />
+		<NAME LIVERY="82" NAME="Hartberg Rennsport #2" />
+		<NAME LIVERY="83" NAME="Blattgold Motorsport #21" />
+		<NAME LIVERY="84" NAME="Blattgold Motorsport #22" />
+		<NAME LIVERY="99" NAME="Custom Livery" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="3" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY01_HR.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="52">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY02_HR.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY03_HR.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY04_HR.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY05_HR.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY06_HR.dds" />
+	</CONDITION>	
+
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY07_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY08_HR.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY09_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY10_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY11_HR.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY12_HR.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="63">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY13_HR.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY14_HR.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY15_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY16_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="67">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY17_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="68">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY18_HR.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="69">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY19_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="70">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY20_HR.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY21_HR.dds" />	
+	</CONDITION>
+	
+	<CONDITION LIVERY="72">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY22_HR.dds" />	
+	</CONDITION>
+	
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY23_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="74">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY24_HR.dds" />	
+	</CONDITION>
+	
+	<CONDITION LIVERY="75">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY25_HR.dds" />	
+	</CONDITION>
+	
+	<CONDITION LIVERY="76">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY26_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="77">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY27_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="78">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY28_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="79">
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY29_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="80">
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY30_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="81">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY31_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="82">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY32_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\merc_300sel_wheel_black_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="83">
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_14.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_14_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_14_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY33_HR.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="84">
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_14.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_14_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_14_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_300sel_amg\merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY34_HR.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="99">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\merc_300sel_livery.dds" />
+	</CONDITION>
+
+	<!-- 'Soft' Copy of Hard in case AI use it -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium' Copy of Hard in case AI use it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard' Treaded vintage race tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_firestone_indy65b_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate'. All Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\merc_300sel_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

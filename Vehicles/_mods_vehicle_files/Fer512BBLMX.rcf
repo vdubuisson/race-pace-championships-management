@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="16" />
+		<INPUT NAME="TIRE" OPTIONS="4" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="Rennod Racing #46" />
+		<NAME LIVERY="52" NAME="Ch. Pozzi Ferrari France #47" />
+		<NAME LIVERY="53" NAME="Ch. Pozzi - JMS Racing #75" />
+		<NAME LIVERY="54" NAME="Ch. Pozzi - JMS Racing #76" />
+		<NAME LIVERY="55" NAME="Ch. Pozzi - JMS Racing #77" />
+		<NAME LIVERY="56" NAME="N.A.R.T #64" />
+		<NAME LIVERY="57" NAME="Ch. Pozzi Ferrari France #71" />
+		<NAME LIVERY="58" NAME="Ch. Pozzi JMS Racing #62" />		
+		<NAME LIVERY="59" NAME="Ch. Pozzi JMS Racing #63" />
+		<NAME LIVERY="60" NAME="EMKA Racing #61" />
+		<NAME LIVERY="61" NAME="EMKA Racing #78" />
+		<NAME LIVERY="62" NAME="Scuderia Super Car Bellancauto #79" />
+		<NAME LIVERY="63" NAME="JMS Racing-Pozzi #66" />
+		<NAME LIVERY="64" NAME="JMS Racing-Pozzi #67" />
+		<NAME LIVERY="65" NAME="N.A.R.T. #68" />
+		<NAME LIVERY="66" NAME="Simmon Phillips #48" />
+		<NAME LIVERY="99" NAME="Custom Livery" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="51">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit_Y.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery01_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery01_fresnel.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_blank_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille_512bb_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille_512bb_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="52">		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery02_hr.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_blank_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille_512bb_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille_512bb_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_blur_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_blur_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner02.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin_autocpit_Y.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\FORD_GT40_MKIV_LIVERY04.dds" NEWTEXTURE="Vehicles\Textures\Liveries\ferrari_512bblm_livery03_hr.dds" />				
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_blank_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille_512bb_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille_512bb_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_blur_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_blur_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner03.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="54">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin_autocpit_Y.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\FORD_GT40_MKIV_LIVERY04.dds" NEWTEXTURE="Vehicles\Textures\Liveries\ferrari_512bblm_livery04_hr.dds" />				
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_blank_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille_512bb_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille_512bb_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_blur_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_blur_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner03.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="55">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin_autocpit_Y.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\FORD_GT40_MKIV_LIVERY04.dds" NEWTEXTURE="Vehicles\Textures\Liveries\ferrari_512bblm_livery05_hr.dds" />				
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_blank_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille_512bb_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille_512bb_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_blur_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_wheel2_blur_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_wheel3_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner03.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="56">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit_Y.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery06_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery06_fresnel.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_blank_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille_512bb_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille_512bb_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner06.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="57">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit_Y.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery07_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery07_fresnel.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_blank_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille2_512bb_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille2_512bb_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner07.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery08_hr.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_blank_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille3_512bb_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille3_512bb_spec.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner08.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery09_hr.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_blank_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille4_512bb_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille4_512bb_spec.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner08.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="60">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit_Y.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery10_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery10_fresnel.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_blank_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille5_512bb_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille5_512bb_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner10.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="61">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit_Y.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery11_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery11_fresnel.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_blank_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille5_512bb_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bblm_grille_spec.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_grille5_512bb_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner11.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="62">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit_Y.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery12_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery12_fresnel.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner12.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="63">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit_Y.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery13_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery13_fresnel.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner06.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="64">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit_Y.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery14_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery13_fresnel.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner06.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="65">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit_Y.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery15_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery15_fresnel.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner15.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="66">
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit_Y.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_512bb_lm\fer_512bblm_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit_Y.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery16_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_livery16_fresnel.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\ferrari_512bb_lm_banner.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_512bblm_banner16.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="99">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\ferrari_512bb_lm_livery.dds" />
+	</CONDITION>
+
+	<!-- Soft compound tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Medium compound tire -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Hard compound tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Copy of rain tire for the AI to use -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Copy of rain tire for the AI to use -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_512bblm_body_dirt_diff.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>
+

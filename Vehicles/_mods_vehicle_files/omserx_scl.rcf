@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="30" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="Olsbergs MSE X Forces #16" />
+		<NAME LIVERY="52" NAME="Olsbergs MSE X Forces #45" />
+		<NAME LIVERY="53" NAME="Olsbergs MSE X Forces #53" />
+		<NAME LIVERY="54" NAME="DirtFish Motorsports #21" />
+		<NAME LIVERY="55" NAME="DirtFish Motorsports #25" />
+		<NAME LIVERY="58" NAME="AF Racing #126" />
+		<NAME LIVERY="59" NAME="Inquiring Owl Team #32" />
+		<NAME LIVERY="60" NAME="Inquiring Owl Team #33" />
+		<NAME LIVERY="61" NAME="Sheriftizer Motorsports #44" />
+		<NAME LIVERY="62" NAME="Sheriftizer Motorsports #45" />
+		<NAME LIVERY="63" NAME="CRCP Racing Team #49" />
+		<NAME LIVERY="64" NAME="CRCP Racing Team #50" />
+		<NAME LIVERY="65" NAME="RFH Rallysport #62" />
+		<NAME LIVERY="66" NAME="RFH Rallysport #63" />
+		<NAME LIVERY="67" NAME="RFH Rallysport #64" />
+		<NAME LIVERY="68" NAME="RFH Rallysport #65" />
+		<NAME LIVERY="69" NAME="Team Heviloc International #75" />
+		<NAME LIVERY="70" NAME="Team Heviloc International #76" />
+		<NAME LIVERY="71" NAME="Burrien Energy Team #79" />
+		<NAME LIVERY="72" NAME="Burrien Energy Team #80" />
+		<NAME LIVERY="73" NAME="StepaNavi Racing #82" />
+		<NAME LIVERY="74" NAME="StepaNavi Racing #83" />
+		<NAME LIVERY="75" NAME="S+A Racing Services #54" />
+		<NAME LIVERY="76" NAME="S+A Racing Services #55" />
+		<NAME LIVERY="77" NAME="Team EDGE Composites #36" />
+		<NAME LIVERY="78" NAME="Team EDGE Composites #37" />
+		<NAME LIVERY="79" NAME="Molla Rallycross Team #21" />
+		<NAME LIVERY="80" NAME="Molla Rallycross Team #22" />
+		<NAME LIVERY="81" NAME="Team Stillen #86" />
+		<NAME LIVERY="82" NAME="Team Stillen #87" />		
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="51">
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_paint_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\OMSE_RX_SCL\omse_rx_scl_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery01_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="52">
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_paint_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\OMSE_RX_SCL\omse_rx_scl_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery02_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_paint_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\OMSE_RX_SCL\omse_rx_scl_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery03_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="54">
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_paint_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\OMSE_RX_SCL\omse_rx_scl_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery04_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_orange_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_orange_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_orange_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_orange_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="55">
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_paint_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\OMSE_RX_SCL\omse_rx_scl_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery05_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="58">
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_paint_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\OMSE_RX_SCL\omse_rx_scl_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery08_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery09_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery10_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery11_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery12_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="63">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery13_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery14_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="65">
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery15_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="66">
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery16_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="67">
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery17_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="68">
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery18_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="69">
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery19_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="70">
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\omse_rx_scl\omse_rx_scl_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery20_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery21_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="72">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery22_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery23_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_orange_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_orange_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_orange_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_orange_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="74">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery24_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_orange_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_orange_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_orange_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_orange_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="75">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery25_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="76">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery26_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_red_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="77">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery27_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="78">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery28_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="79">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery29_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="80">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery30_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="81">
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_black" NEWMATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery31_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="82">
+		<REPLACE MATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint_black" NEWMATERIAL="Vehicles\OMSE_RX_SCL\omse_rx_scl_paint.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_superlites_livery32_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\omse_rx_scl_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\omse_rx_scl_banner_diff9.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_bfgoodrich_gforce_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Soft' tire tag. Dry weather tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium' tire tag. Clone of Soft in case AI use it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard' tire tag. Clone of Soft in case AI use it -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate' tire tag. Copy of rain tire for the AI to use -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' tire tag. Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' tire tag. Ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\omse_rx_scl_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

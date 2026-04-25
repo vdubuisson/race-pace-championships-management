@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+
+	<CONFIG>
+		<ALLOWUSEROVERRIDES VALUE="1" />
+		<USEROVERRIDESFILE VALUE="Vehicles\Textures\CustomLiveries\Overrides\porsche_992_cup\porsche_992_cup_GB.xml" />
+	</CONFIG>
+
+	<!-- BASELIVERIES section describes liveries that a user can extend when overriding default liveries. These are somewhat analagous to rf genstrings 
+					  and can allow providing access to alternate materials or wheels etc. Additonally they mark explicitly which textures can be overriden.
+					  At least one is required if user overrides are enabled -->
+	<BASELIVERIES>
+		<BASELIVERY NAME="Numbers">
+			<REPLACE TEXTURE="vehicles\textures\CustomLiveries\Overrides\porsche_992_cup\numbers\no1.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Overrides\porsche_992_cup\numbers\no1.dds" NAME="1" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\CustomLiveries\Overrides\porsche_992_cup\numbers\no2.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Overrides\porsche_992_cup\numbers\no2.dds" NAME="2" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\CustomLiveries\Overrides\porsche_992_cup\numbers\no3.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Overrides\porsche_992_cup\numbers\no3.dds" NAME="3" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+		
+	</BASELIVERIES>
+
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="25" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="#5 - Richardson Racing - Micah Stanley" />
+		<NAME LIVERY="52" NAME="#46 - Richardson Racing - Robert de Haan" />
+		<NAME LIVERY="53" NAME="#8 - JTR - Hugo Ellis" />
+		<NAME LIVERY="54" NAME="#13 - Century Motorsport - James Kellett" />
+		<NAME LIVERY="55" NAME="#57 - Century Motorsport - Gus Burton" />
+		<NAME LIVERY="56" NAME="#14 - Redline Racing - Matthew Graham" />
+		<NAME LIVERY="57" NAME="#54 - Redline Racing - Theo Edgerton" />
+		<NAME LIVERY="58" NAME="#16 - Team Parker Racing - Harry Foster" />
+		<NAME LIVERY="59" NAME="#21 - Team Parker Racing - Adam Smalley" />
+		<NAME LIVERY="60" NAME="#99 - CCK Motorsport - Charles Rainford" />
+		<NAME LIVERY="61" NAME="#11 - Team Parker Racing - Will Aspin" />
+		<NAME LIVERY="62" NAME="#33 - Team Parker Racing - Ryan Ratcliffe" />
+		<NAME LIVERY="63" NAME="#41 - Team Parker Racing - Jake Giddings" />
+		<NAME LIVERY="64" NAME="#44 - Redline Racing - Max Bird" />
+		<NAME LIVERY="65" NAME="#59 - Redline Racing - Ross Wylie" />
+		<NAME LIVERY="66" NAME="#48 - JTR - Ollie Jackson" />
+    	<NAME LIVERY="67" NAME="#95 - JTR - Josh Stanton" />
+		<NAME LIVERY="68" NAME="#52 - Century Motorsport - Angus Whiteside" />
+		<NAME LIVERY="69" NAME="#58 - Century Motorsport - Henry Dawes" />
+		<NAME LIVERY="70" NAME="#77 - Toro Verde GT - Frazer McFadden" />
+		<NAME LIVERY="71" NAME="#88 - Richardson Racing - Seb Melrose" />
+		<NAME LIVERY="72" NAME="#315 - EXCELR8 Motorsport - Jason Lockwood" />
+		<NAME LIVERY="73" NAME="#7 - Team Parker Racing - Justin Sherwood" />
+		<NAME LIVERY="74" NAME="#9 - Team Parker Racing - David Fairbrother" />
+		<NAME LIVERY="75" NAME="#71 - Redline Racing - David Stirling" />
+		<NAME LIVERY="76" NAME="#75 - PORSCHE TEAM" />
+		<NAME LIVERY="77" NAME="#28 - PORSCHE PINK PIG - Henrique Freitas" />			
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+	
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_05_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_05_hr.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_MON.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_05_hr_GLASS.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="52">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_46_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_46_hr.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_NDL.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_46_hr_GLASS.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_08_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_08_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_08_hr_GLASS.dds" />		
+	</CONDITION>	
+
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_13_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_13_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_13_hr_GLASS.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_57_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_57_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_57_hr_GLASS.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_14_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_14_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_14_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\porsche_992_cup_paint" NEWMATERIAL="Vehicles\_Generic_Materials\paint_porsche_gt_silver_vinyl.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_14_hr_GLASS.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_54_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_54_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_54_spec.dds" />
+<REPLACE MATERIAL="vehicles\porsche_992_cup\porsche_992_cup_paint" NEWMATERIAL="Vehicles\_Generic_Materials\paint_porsche_gt_silver_vinyl.mtx" />		
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_54_hr_GLASS.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_16_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_16_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_16_hr_GLASS.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_21_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_21_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_21_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_99_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_99_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_99_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\porsche_992_cup_paint" NEWMATERIAL="Vehicles\_Generic_Materials\paint_porsche_gt_silver_vinyl.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_99_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_11_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_11_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_11_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_33_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_33_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_33_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="63">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_41_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_41_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_41_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_44_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_44_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_44_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\porsche_992_cup_paint" NEWMATERIAL="Vehicles\_Generic_Materials\paint_porsche_gt_silver_vinyl.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_44_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_59_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_59_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_59_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_48_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_48_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_48_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="67">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_95_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_95_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_95_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="68">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_52_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_52_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_green2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_green2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_green2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_green2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_52_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="69">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_58_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_58_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_58_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="70">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_77_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_77_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_77_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_88_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_88_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_88_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="72">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_315_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_315_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner2.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_315_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_07_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_07_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner3.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner3.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_07_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="74">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_09_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_09_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner3.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner3.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_09_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="75">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_71_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_71_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner3.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner3.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_GBR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_71_hr_GLASS.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="76">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_75_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_75_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner3.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner3.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_BRA.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_75_hr_GLASS.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="77">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_28_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_invisible.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_28_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_livery_02_spec.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_992_cup\generic_LIGHTGLASS2" NEWMATERIAL="Vehicles\porsche_992_cup\porsche_992_cup_lightglass_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_lightglass_glow2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_diff_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_wheel_blur_spec_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner3.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\porsche_992_cup_banner2.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_banner3.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_paint_black.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_FLAG_BRA.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\porsche_992_cup_number.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_GB_livery_28_hr_GLASS.dds" />
+	</CONDITION>	
+	
+
+	
+	<!-- Soft Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Medium Slick tire. In case AI uses it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Hard Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Studded Ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\porsche_992_cup_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="28" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="67" NAME="Rosso #110" />
+		<NAME LIVERY="68" NAME="Rosso #111" />
+		<NAME LIVERY="51" NAME="Giallo Blu #18" />
+		<NAME LIVERY="52" NAME="Giallo Blu #19" />
+		<NAME LIVERY="53" NAME="Rosso Blu #22" />
+		<NAME LIVERY="54" NAME="Rosso Blu #23" />
+		<NAME LIVERY="55" NAME="Giallo #37" />
+		<NAME LIVERY="56" NAME="Giallo #38" />
+		<NAME LIVERY="57" NAME="Rosso Bianco #2" />
+		<NAME LIVERY="58" NAME="Rosso Bianco #3" />		
+		<NAME LIVERY="59" NAME="Rosso Azzurro #10" />
+		<NAME LIVERY="60" NAME="Rosso Azzurro #11" />
+		<NAME LIVERY="61" NAME="Bianco Blu #161" />
+		<NAME LIVERY="62" NAME="Bianco Blu #162" />
+		<NAME LIVERY="63" NAME="Argento #107" />
+		<NAME LIVERY="64" NAME="Argento #108" />
+		<NAME LIVERY="65" NAME="Nero Verde #8" />
+		<NAME LIVERY="66" NAME="Nero Verde #9" />
+		<NAME LIVERY="69" NAME="Bianco Rosso #66" />
+		<NAME LIVERY="70" NAME="Bianco Rosso #67" />
+		<NAME LIVERY="71" NAME="Bianco Verde #152" />
+		<NAME LIVERY="72" NAME="Bianco Verde #153" />
+		<NAME LIVERY="73" NAME="Rosso Giallo #86" />
+		<NAME LIVERY="74" NAME="Rosso Giallo #87" />
+		<NAME LIVERY="75" NAME="Verde Nero #25" />
+		<NAME LIVERY="76" NAME="Verde Nero #26" />
+		<NAME LIVERY="77" NAME="Azzurro #177" />
+		<NAME LIVERY="78" NAME="Azzurro #178" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="52">
+		<REPLACE MATERIAL="vehicles\ferrari_f355_challenge\fer_f355ch_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_stripes.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_f355_challenge\fer_f355ch_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_stripes_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_f355_challenge\fer_f355ch_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_stripes_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_f355_challenge\fer_f355ch_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_stripes_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\ferrari_f355_challenge_livery02.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery03.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery04.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery05.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery06.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery07.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery08.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery09.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery10.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery11.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery12.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="63">
+		<REPLACE MATERIAL="vehicles\ferrari_f355_challenge\fer_f355ch_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_stripes.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_f355_challenge\fer_f355ch_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_stripes_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_f355_challenge\fer_f355ch_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_stripes_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_f355_challenge\fer_f355ch_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_stripes_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\ferrari_f355_challenge_livery13.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="64">
+		<REPLACE MATERIAL="vehicles\ferrari_f355_challenge\fer_f355ch_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_stripes.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_f355_challenge\fer_f355ch_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_stripes_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_f355_challenge\fer_f355ch_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_stripes_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_f355_challenge\fer_f355ch_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_stripes_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\ferrari_f355_challenge_livery14.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery15.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery16.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="67">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery17.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="68">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery18.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="69">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery19.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="70">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery20.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery21.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_interior_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="72">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery22.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery23.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="74">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery24.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="75">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery25.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="76">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery26.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="77">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery27.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_wheel_silver_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="78">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ferrari_f355_challenge_livery28.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\fer_f355ch_banner01_diff.dds" />
+	</CONDITION>
+
+	<!-- Soft Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Medium Slick tire. In case AI uses it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Treaded street tire. -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_02_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_02_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_02_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_02_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_02_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_02_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Studded Ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\fer_f355ch_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>
+

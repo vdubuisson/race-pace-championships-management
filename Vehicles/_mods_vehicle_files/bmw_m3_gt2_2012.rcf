@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="24" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="BMW Motorsport LeMans 2011 #55" />
+		<NAME LIVERY="52" NAME="BMW Motorsport LeMans 2011 #56" />
+		<NAME LIVERY="53" NAME="BMW Motorsport LeMans 2010 #79" />
+		<NAME LIVERY="54" NAME="BMW Motorsport ALMS 2010 #90" />
+		<NAME LIVERY="55" NAME="BMW Motorsport ALMS 2010 #92" />
+		<NAME LIVERY="56" NAME="Zipanol #29" />
+		<NAME LIVERY="57" NAME="RST #64" />
+		<NAME LIVERY="58" NAME="RST #65" />
+		<NAME LIVERY="59" NAME="Jancon Mobile #1" />
+		<NAME LIVERY="60" NAME="Jancon Mobile #2" />
+		<NAME LIVERY="61" NAME="Oilzanol #45" />
+		<NAME LIVERY="62" NAME="Oilzanol #46" />
+		<NAME LIVERY="63" NAME="RGB #14" />
+		<NAME LIVERY="64" NAME="Grizzly #99" />
+		<NAME LIVERY="65" NAME="Vail #85" />
+		<NAME LIVERY="66" NAME="Vail #86" />
+		<NAME LIVERY="67" NAME="10 Strikes Team #25" />
+		<NAME LIVERY="68" NAME="10 Strikes Team #26" />
+		<NAME LIVERY="69" NAME="Strodia #4" />
+		<NAME LIVERY="70" NAME="Sheriftizer #76" />
+		<NAME LIVERY="71" NAME="Race-It Simulators #27" />
+		<NAME LIVERY="72" NAME="Houser Shoes #8" />
+		<NAME LIVERY="73" NAME="pArispherique #28" />
+		<NAME LIVERY="74" NAME="PVS #20" />
+				
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_diffuse_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_diffuse_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_normals_00.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="52">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY02.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER02.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_diffuse_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_diffuse_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_normals_00.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY03.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER03.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_diffuse_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_diffuse_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_normals_00.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY04X_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER04ALMX.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_diffuse_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_diffuse_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_normals_00.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="55">	
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY05X_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER05ALMX.dds" />
+                <REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_diffuse_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_diffuse_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="vehicles\textures\tire_dunlop_gt3_normals_00.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY06_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER06.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY07_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER07.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_audi_r18_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="vehicles\textures\tire_michelin_audi_r18_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_audi_r18_norm_00.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY08_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER08.dds" />
+	    <REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_audi_r18_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="vehicles\textures\tire_michelin_audi_r18_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_audi_r18_norm_00.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY09_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER09.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_cpit_white_diffuse.dds" NEWTEXTURE="vehicles\textures\common_paint_cpit_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_audi_r18_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="vehicles\textures\tire_michelin_audi_r18_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_audi_r18_norm_00.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY10_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER10.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_cpit_white_diffuse.dds" NEWTEXTURE="vehicles\textures\common_paint_cpit_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_audi_r18_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="vehicles\textures\tire_michelin_audi_r18_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_audi_r18_norm_00.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY11_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER11.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY12_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER12.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="63">
+		<REPLACE MATERIAL="vehicles\bmw_m3_gt2_2012\bmw_m3_gt2_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\bmw_m3_gt2_2012\bmw_m3_gt2_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\bmw_m3_gt2_2012\bmw_m3_gt2_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\bmw_m3_gt2_2012\bmw_m3_gt2_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY13_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY13_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER13.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_cpit_white_diffuse.dds" NEWTEXTURE="vehicles\textures\common_paint_cpit_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY14_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER14.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_cpit_white_diffuse.dds" NEWTEXTURE="vehicles\textures\common_paint_cpit_red_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_spec_00.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_spec_01.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY15_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER15.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_cpit_white_diffuse.dds" NEWTEXTURE="vehicles\textures\common_paint_cpit_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY16_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER16.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_cpit_white_diffuse.dds" NEWTEXTURE="vehicles\textures\common_paint_cpit_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="67">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY17_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER17.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_cpit_white_diffuse.dds" NEWTEXTURE="vehicles\textures\common_paint_cpit_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_spec_00.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_spec_01.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="68">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY18_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER18.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_cpit_white_diffuse.dds" NEWTEXTURE="vehicles\textures\common_paint_cpit_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_spec_00.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_spec_01.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="69">
+		<REPLACE MATERIAL="vehicles\bmw_m3_gt2_2012\bmw_m3_gt2_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\bmw_m3_gt2_2012\bmw_m3_gt2_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\bmw_m3_gt2_2012\bmw_m3_gt2_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\bmw_m3_gt2_2012\bmw_m3_gt2_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY19_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY19_fresnel.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER19.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_cpit_white_diffuse.dds" NEWTEXTURE="vehicles\textures\common_paint_cpit_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="70">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY20_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER20.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_cpit_white_diffuse.dds" NEWTEXTURE="vehicles\textures\common_paint_cpit_yellow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_spec_00.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_spec_01.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY21_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER21.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="72">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY22_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER22.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY23_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER23.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_cpit_white_diffuse.dds" NEWTEXTURE="vehicles\textures\common_paint_cpit_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_spec_00.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_spec_01.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="74">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_LIVERY24_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_M3_GT12_BANNER23.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_cpit_white_diffuse.dds" NEWTEXTURE="vehicles\textures\common_paint_cpit_red2_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_spec_00.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt12_wheel_spec_01.dds" NEWTEXTURE="vehicles\textures\bmw_m3_gt12_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<!-- Dummy condition to get custom dirt texture in the right pakfile -->
+	<CONDITION LIVERY="98">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\bmw_m3_gt2_body_dirt_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="99">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\BMW_M3_GT12_LIVERY01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\bmw_m3_gt2_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\BMW_M3_GT12_BANNER01.dds" />
+	</CONDITION>
+
+
+	<!-- Soft Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff_00.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff_01.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_norm_00.dds" NEWTEXTURE="vehicles\textures\tread_slick1_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_norm_01.dds" NEWTEXTURE="vehicles\textures\tread_slick1_norm_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec_00.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec_01.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec_01.dds" />		
+	
+	
+	</CONDITION>
+
+	<!-- Soft Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_nt05_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_nt05_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_nt05_norm_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_nt05_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_nt05_spec_01.dds" />		
+	
+	
+	</CONDITION>
+
+	<!-- 'Medium'-->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard'-->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate'-->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Winter/Snow tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\por_991_gt3rs_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>
+
+<NAME LIVERY="99" NAME="Custom Livery" />

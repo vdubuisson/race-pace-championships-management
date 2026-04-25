@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="21" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="1" NAME="Chassis 4" />
+		<NAME LIVERY="2" NAME="Purple carbon" />
+		<NAME LIVERY="3" NAME="Black" />
+		<NAME LIVERY="4" NAME="Blue Pearl" />
+		<NAME LIVERY="5" NAME="Red stripes" />
+		<NAME LIVERY="6" NAME="Yellow/Italia stripes" />
+		<NAME LIVERY="7" NAME="Yellow stripes Clubsport" />
+		<NAME LIVERY="8" NAME="Light Blue Metallic" />
+		<NAME LIVERY="9" NAME="Green Carbon/Stripes" />
+		<NAME LIVERY="10" NAME="Red/White Stripes" />
+		<NAME LIVERY="11" NAME="Chrome" />
+		<NAME LIVERY="12" NAME="Carbon" />
+		<NAME LIVERY="13" NAME="Blue Carbon" />
+		<NAME LIVERY="14" NAME="Orange/Silver stripes" />
+		<NAME LIVERY="15" NAME="Purple/Gold stripes" />
+		<NAME LIVERY="16" NAME="Bronze matte" />
+		<NAME LIVERY="17" NAME="Turquois Metallic" />
+		<NAME LIVERY="18" NAME="Fluo" />
+		<NAME LIVERY="19" NAME="Skyblue" />
+		<NAME LIVERY="20" NAME="Red/Italia stripes" />
+		<NAME LIVERY="21" NAME="Aron Racing" />
+		<NAME LIVERY="99" NAME="Custom Livery" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	
+
+	<CONDITION LIVERY="1">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin.mtx" />
+
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\pag_cin_livery_yellow_hr.dds" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_yellow_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_yellow_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_spec_00.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_yellow_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_spec_01.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_yellow_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+
+	
+	<CONDITION LIVERY="2">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_pagani_red.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_generic_silver_met.dds" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pagani_cinque_livery01_hr.dds" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="3">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\PAGANI_CINQUE_LIVERY02_HR.dds" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="4">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_18.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_18_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_18.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_18_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_18_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_18_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_18_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_18_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY18.dds" NEWTEXTURE="Vehicles\Textures\Liveries\PAGANI_CINQUE_LIVERY03_HR.dds" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="5">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\PAG_ZR_LIVERY13.dds" NEWTEXTURE="Vehicles\Textures\Liveries\PAGANI_CINQUE_LIVERY04_HR.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="6">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pagani_cinque_livery05_hr.dds" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="7">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\PAG_ZR_LIVERY13.dds" NEWTEXTURE="Vehicles\Textures\Liveries\PAGANI_CINQUE_LIVERY06_HR.dds" />	
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />		
+	</CONDITION>
+
+	
+	<CONDITION LIVERY="8">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\PAG_ZR_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\PAGANI_CINQUE_LIVERY08_HR.dds" />	
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="9">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pagani_cinque_livery09_hr.dds" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_green_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_green_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="10">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pagani_cinque_livery10_hr.dds" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="11">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pagani_cinque_livery11_hr.dds" />				
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_SPEC.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pagani_cinque_livery11_spec.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_FRESNEL.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pagani_cinque_livery11_fresnel.dds" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="12">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_rosso_monza_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_rosso_monza_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_ALPHA.dds" NEWTEXTURE="vehicles\textures\liveries\pagani_cinque_livery12_hr.dds" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+	<!--CONDITION LIVERY="12">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_rosso_monza.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_rosso_monza_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_carbon_gloss_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_rosso_monza_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_rosso_monza_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_ALPHA.dds" NEWTEXTURE="vehicles\textures\liveries\pagani_cinque_livery12_hr.dds" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION-->
+
+	<CONDITION LIVERY="13">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\ford_gt40_mkiv_livery04.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pagani_cinque_livery13_hr.dds" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="14">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_silver.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_silver_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_silver_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_silver_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\PAGANI_CINQUE_LIVERY14_HR.dds" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="15">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\PAGANI_CINQUE_LIVERY15_HR.dds" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="16">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pagani_cinque_livery16_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\common_paint_matte_spec.dds" />	
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_orange_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_orange_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_yellow_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="17">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gum_13.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gum_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gum_13.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gum_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gum_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gum_13_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gum_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gum_13_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\GUMPERT_APOLLO_LIVERY13.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pagani_cinque_livery17_hr.dds" />		
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_yellow_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_yellow_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_spec_00.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_yellow_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_spec_01.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_yellow_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="18">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\PAGANI_CINQUE_LIVERY18_hr.dds" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="19">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\PAGANI_CINQUE_LIVERY19_hr.dds" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\pag_cin_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="20">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\pagani_cinque_livery20_hr.dds" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_leather_stitching.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara2_stitching" NEWMATERIAL="vehicles\pagani_zonda_cinque\pag_cin_alcantara_stitching.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\pag_cin_interior_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_interior_dgrey_diff.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="21">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_rosso_monza.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_rosso_monza_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_rosso_monza_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_pagani_rosso_monza_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\PAGANI_CINQUE_LIVERY21_HR.dds" />				
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_DIFF_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_00.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\PAG_CIN_WHEEL_SPEC_01.dds" NEWTEXTURE="Vehicles\Textures\pag_cin_wheel_silver_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="99">
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_race_car_paint.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_race_car_paint_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe" NEWMATERIAL="Vehicles\_Generic_Materials\livery_race_car_paint.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_race_car_paint_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_race_car_paint.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_race_car_paint_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_race_car_paint_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_race_car_paint_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_race_car_paint_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_stripe_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_race_car_paint_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_race_car_paint_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\pagani_zonda_cinque\pag_cin_paint_carbon_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_race_car_paint_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\pagani_zonda_cinque_livery.dds" />
+	</CONDITION>
+
+	<!-- 'Soft'. Semi-Slick road car tire. Pirelli Trofeo R -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium'. R-compound road car tire. Pirelli P Zero Corsa -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard'. Summer road car tire. Pirelli P Zero -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate'. All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Winter/Snow tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\pag_cin_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

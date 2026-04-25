@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="13" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		
+		<NAME LIVERY="52" NAME="Opel Motorsport #326" />
+		<NAME LIVERY="53" NAME="Kissling Motorsport" />
+		<NAME LIVERY="56" NAME="Noregret Racing #6" />
+		<NAME LIVERY="57" NAME="Cliff" />
+		<NAME LIVERY="58" NAME="WRB Motorsport #18" />
+		<NAME LIVERY="60" NAME="Jancon Mobile Team #34" />
+		<NAME LIVERY="61" NAME="Team Griventec #35" />
+		<NAME LIVERY="62" NAME="Team Griventec #36" />
+		<NAME LIVERY="64" NAME="BCRacing Team #45" />
+		<NAME LIVERY="65" NAME="Vauxhall" />
+		<NAME LIVERY="66" NAME="SuperPro Motorsport #60" />
+		<NAME LIVERY="67" NAME="Yorri Motorsport #37" />
+		<NAME LIVERY="71" NAME="PowerMaxed #2" />
+		<NAME LIVERY="99" NAME="Custom Livery" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	
+
+	<CONDITION LIVERY="52">
+		<REPLACE MATERIAL="vehicles\opel_astra_tcr\opel_ast_tcr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Xe.mtx" />
+		<REPLACE MATERIAL="vehicles\opel_astra_tcr\opel_ast_tcr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Xe_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\opel_astra_tcr\opel_ast_tcr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Xe_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\opel_astra_tcr\opel_ast_tcr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\opel_astra_tcr_livery02_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\opel_astra_tcr_livery02_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner02_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_sticker02_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\opel_astra_tcr_livery03_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_badges_diff.dds" NEWTEXTURE="vehicles\textures\opel_ast_tcr_badges2_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_sticker03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_nmp8888.dds" />
+	</CONDITION>
+	
+
+	
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\opel_astra_tcr_livery06_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner05_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\opel_astra_tcr_livery07_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner04_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\opel_astra_tcr_livery08_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner05_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_hankook_f200_nmp8888.dds" />
+	</CONDITION>
+
+	
+
+	<CONDITION LIVERY="60">
+		<REPLACE MATERIAL="Vehicles\Opel_Astra_TCR\opel_ast_tcr_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_racer_11.mtx" />
+		<REPLACE MATERIAL="Vehicles\Opel_Astra_TCR\opel_ast_tcr_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_racer_11_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Opel_Astra_TCR\opel_ast_tcr_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_racer_11_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Opel_Astra_TCR\opel_ast_tcr_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_racer_11_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\RAD_SR3_LIVERY11.dds" NEWTEXTURE="Vehicles\Textures\Liveries\opel_astra_tcr_livery10_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner05_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="61">
+		<REPLACE MATERIAL="Vehicles\Opel_Astra_TCR\opel_ast_tcr_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_racer_11.mtx" />
+		<REPLACE MATERIAL="Vehicles\Opel_Astra_TCR\opel_ast_tcr_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_racer_11_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Opel_Astra_TCR\opel_ast_tcr_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_racer_11_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Opel_Astra_TCR\opel_ast_tcr_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_racer_11_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\RAD_SR3_LIVERY11.dds" NEWTEXTURE="Vehicles\Textures\Liveries\opel_astra_tcr_livery11_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner04_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="62">
+		<REPLACE MATERIAL="Vehicles\Opel_Astra_TCR\opel_ast_tcr_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_racer_11.mtx" />
+		<REPLACE MATERIAL="Vehicles\Opel_Astra_TCR\opel_ast_tcr_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_racer_11_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Opel_Astra_TCR\opel_ast_tcr_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_racer_11_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\Opel_Astra_TCR\opel_ast_tcr_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_racer_11_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\RAD_SR3_LIVERY11.dds" NEWTEXTURE="Vehicles\Textures\Liveries\opel_astra_tcr_livery12_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner05_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_blur_spec.dds" />
+	</CONDITION>
+
+	
+
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\opel_astra_tcr_livery14_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner05_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\opel_astra_tcr_livery15_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner04_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\opel_astra_tcr_livery16_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner05_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_falken_gt3_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="67">
+		<REPLACE MATERIAL="vehicles\Opel_Astra_TCR\opel_ast_tcr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Xe.mtx" />
+		<REPLACE MATERIAL="vehicles\Opel_Astra_TCR\opel_ast_tcr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Xe_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\Opel_Astra_TCR\opel_ast_tcr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_Xe_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\Opel_Astra_TCR\opel_ast_tcr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\opel_astra_tcr_livery17_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\liveries\opel_astra_tcr_livery17_fresnel.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner04_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+
+
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\opel_astra_tcr_livery21_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\opel_ast_tcr_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\opel_ast_tcr_banner21_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	
+
+
+
+
+
+	<CONDITION LIVERY="99">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\opel_astra_tcr_livery.dds" />
+	</CONDITION>
+
+	<!-- Soft compound tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Medium compound tire -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Hard compound tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Copy of rain tire for the AI to use -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Copy of rain tire for the AI to use -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\opel_ast_tcr_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>
+

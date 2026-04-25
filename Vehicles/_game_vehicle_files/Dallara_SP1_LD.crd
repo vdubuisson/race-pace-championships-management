@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="VehicleDetails" base="BPersistent">
+        <prop name="Vehicle Name" type="String" />
+        <prop name="ShortVehicleName" type="String" />
+        <prop name="XLASTID" type="U32" />
+        <prop name="VehicleManufacturer" type="String" />
+        <prop name="VehicleModel" type="String" />
+        <prop name="Vehicle Render Model" type="String" />
+        <prop name="Driver Character" type="String" />
+        <prop name="User Overrides Base Helmet" type="String" />
+        <prop name="User Overrides Base Outfit" type="String" />
+        <prop name="Vehicle Physics Model" type="String" />
+        <prop name="Cockpit properties" type="String" />
+        <prop name="Vehicle Properties" type="String" />
+        <prop name="Vehicle Year" type="S32" />
+		<prop name="Safety Car Driver Name" type="String" />		
+        <prop name="Shadow Width" type="F32" />
+        <prop name="Shadow Length" type="F32" />
+        <prop name="Shadow Offset Right" type="F32" />
+        <prop name="Shadow Offset Forward" type="F32" />
+        <prop name="Shadow Texture" type="String" />
+        <prop name="Grid Grouping" type="U32" />
+        <prop name="Vehicle Class" type="String" />
+        <prop name="Vehicle Group" type="String" />
+        <prop name="Vehicle Shape" type="String" />
+        <prop name="Engine Placement" type="String" />
+        <prop name="Number of Exhausts" type="S32" />
+        <prop name="Exhaust Position 1" type="Vec3f" />
+        <prop name="Exhaust Position 2" type="Vec3f" />
+        <prop name="Exhaust Target Position 1" type="Vec3f" />
+        <prop name="Exhaust Target Position 2" type="Vec3f" />
+        <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
+        <prop name="Number of Engine Heat" type="S32" />
+        <prop name="Engine Heat Position 1" type="Vec3f" />
+        <prop name="Blown Engine Smoke Position" type="Vec3f" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" type="F32" />
+        <prop name="Exhaust Backfire Mesh Length Scale" type="F32" />
+        <prop name="Vehicle Description" type="String" />
+        <prop name="AI ONLY" type="Bool" />
+        <prop name="PLAYER ONLY" type="Bool" />
+        <prop name="Vehicle Initial Performance Index" type="S32" />
+        <prop name="Body Upgrades" type="String" />
+        <prop name="Cockpit Upgrades" type="String" />
+        <prop name="Tire Upgrades" type="String" />
+        <prop name="Brake Upgrades" type="String" />
+        <prop name="Tier" type="U32" />
+        <prop name="Price" type="U32" />
+        <prop name="Region" type="String" />
+        <prop name="Country" type="String" />
+        <prop name="Paint Shop Data" type="String" />
+        <prop name="Min Front Wheel Diameter" type="U32" />
+        <prop name="Max Front Wheel Diameter" type="U32" />
+        <prop name="Min Rear Wheel Diameter" type="U32" />
+        <prop name="Max Rear Wheel Diameter" type="U32" />
+        <prop name="Client Vehicle Version" type="U32" />
+		<prop name="Vehicle Garage Rotation" type="Vec3f" />
+        <prop name="Left Mirror Pos" type="Vec3f" />
+        <prop name="Right Mirror Pos" type="Vec3f" />
+        <prop name="AABBMin" type="Vec3f" />
+        <prop name="AABBMax" type="Vec3f" />
+    </class>
+    <data class="VehicleDetails" id="0xD861FB8">
+        <prop name="Name" data="Dallara_SP1_LD" />
+        <prop name="Vehicle Name" data="Dallara SP1 - Low Downforce" />
+        <prop name="ShortVehicleName" data="Dallara SP1" />
+        <prop name="XLASTID" data="422" />
+        <prop name="VehicleManufacturer" data="Dallara" />
+        <prop name="VehicleModel" data="Dallara SP1" />
+        <prop name="Vehicle Render Model" data="Dallara_SP1.vhf" />
+        <prop name="Driver Character" data="Dallara_SP1" />
+        <prop name="User Overrides Base Helmet" data="helmet_GT_Modern_STOCK_USER_OVERRIDE" />
+        <prop name="User Overrides Base Outfit" data="outfit_GT_Modern_STOCK_USER_OVERRIDE" />
+        <prop name="Vehicle Physics Model" data="Dallara_SP1_LD" />
+        <prop name="Cockpit properties" data="Dallara_SP1_Cockpit.bin" />
+        <prop name="Vehicle Properties" data="Dallara_SP1" />
+        <prop name="Vehicle Year" data="2005" />
+		<prop name="Safety Car Driver Name" data="SafetyBMWM3Driver" />		
+        <prop name="Shadow Width" data="5.0" />
+        <prop name="Shadow Length" data="7.0" />
+        <prop name="Shadow Offset Right" data="0" />
+        <prop name="Shadow Offset Forward" data="0" />
+        <prop name="Shadow Texture" data="Dallara_SP1_ambsh.dds" />
+        <prop name="Grid Grouping" data="7" />
+        <prop name="Vehicle Class" data="LMP1_05_LD" />
+        <prop name="Vehicle Group" data="LM" />
+        <prop name="Vehicle Shape" data="Prototype" />
+        <prop name="Engine Placement" data="Mid-Rear" />
+        <prop name="Number of Exhausts" data="2" />
+        <prop name="Exhaust Position 1" data="0.523;0.116;2.658" />
+        <prop name="Exhaust Position 2" data="-0.523;0.116;2.658" />
+        <prop name="Exhaust Target Position 1" data="0.523;0.116;2.658" />
+        <prop name="Exhaust Target Position 2" data="-0.523;0.116;2.658" />
+        <prop name="Exhaust Smoke Amount Multiplier" data="0.4" />
+        <prop name="Number of Engine Heat" data="1" />
+        <prop name="Engine Heat Position 1" data="0;0.600;0.615" />
+        <prop name="Blown Engine Smoke Position" data="0;0.600;0.615" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="2.00" />
+        <prop name="Exhaust Backfire Mesh Length Scale" data="1.50" />
+        <prop name="Vehicle Description" data="" />
+        <prop name="AI ONLY" data="true" />
+        <prop name="PLAYER ONLY" data="false" />
+        <prop name="Vehicle Initial Performance Index" data="107" />
+        <prop name="Body Upgrades" data="" />
+        <prop name="Cockpit Upgrades" data="" />
+        <prop name="Tire Upgrades" data="" />
+        <prop name="Brake Upgrades" data="" />
+        <prop name="Tier" data="5" />
+        <prop name="Price" data="373000" />
+        <prop name="Region" data="EU" />
+        <prop name="Country" data="Germany" />
+        <prop name="Paint Shop Data" data="N/A" />
+        <prop name="Min Front Wheel Diameter" data="13" />
+        <prop name="Max Front Wheel Diameter" data="20" />
+        <prop name="Min Rear Wheel Diameter" data="13" />
+        <prop name="Max Rear Wheel Diameter" data="20" />
+        <prop name="Client Vehicle Version" data="1" />
+		<prop name="Vehicle Garage Rotation" data="0.0;3.141592653589;0.0" />
+        <prop name="Left Mirror Pos" data="0.534;0.808;-0.794" />
+        <prop name="Right Mirror Pos" data="-0.540;0.812;-0.679" />
+        <prop name="AABBMin" data="-0.999;-0.0;-2.361" />
+        <prop name="AABBMax" data="0.999;1.22;2.233" />
+    </data>
+</Reflection>

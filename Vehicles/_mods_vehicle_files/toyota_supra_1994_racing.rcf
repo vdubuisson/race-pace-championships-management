@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="7" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="70" NAME="JGTC 1994 - BLITZ Racing Team #5" />	
+		<NAME LIVERY="73" NAME="JGTC 1995 - FET Racing Team #8" />
+		<NAME LIVERY="71" NAME="JGTC 1996 - Toyota Castrol Team TOM'S #36" />
+		<NAME LIVERY="72" NAME="JGTC 1996 - Toyota Castrol Team Cerumo #37" />		
+		<NAME LIVERY="74" NAME="JGTC 1995 - Tom's Zuhai 3h #37" />
+		<NAME LIVERY="75" NAME="JGTC - Team SARD #39" />
+		<NAME LIVERY="76" NAME="JGTC - Team ESSO #6" />
+
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+	
+	<CONDITION LIVERY="70">		
+ 	<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_livery05_hr.dds" />	
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_banner_livery05_diff.dds" />
+ 	<REPLACE TEXTURE="Vehicles\textures\tire_bridgestone_sgt_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_90_diff.dds" />
+	<REPLACE TEXTURE="Vehicles\textures\tire_bridgestone_sgt_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_90_spec.dds" />
+	<REPLACE TEXTURE="Vehicles\textures\tire_bridgestone_sgt_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_90_nmp8888.dds" />
+	<REPLACE TEXTURE="Vehicles\textures\tire_bridgestone_sgt_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_90_blur_diff.dds" />
+	<REPLACE TEXTURE="Vehicles\textures\tire_bridgestone_sgt_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_90_blur_spec.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="71">		
+ 	<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_livery01_hr.dds" />	
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_banner_livery01_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_spec.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_spec.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="72">		
+ 	<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_livery04_hr.dds" />	
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_banner_livery04_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_spec.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_spec.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="73">		
+ 	<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_livery03_hr.dds" />		
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_banner_livery03_diff.dds" />	
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_gold_blur_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_gold_blur_spec.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_gold_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_gold_spec.dds" /> 	  	 	
+	</CONDITION>
+	<CONDITION LIVERY="74">		
+ 	<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_livery02_hr.dds" />		
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_banner_livery02_diff.dds" />	
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_spec.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_spec.dds" />		 	
+	</CONDITION>
+        <CONDITION LIVERY="75">		
+ 	<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_livery07_hr.dds" />		
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_banner_livery07_diff.dds" />	
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_spec.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_spec.dds" />		 	
+	</CONDITION>
+	<CONDITION LIVERY="76">		
+ 	<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_livery06_hr.dds" />		
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_banner_livery06_diff.dds" />	
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_spec.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_diff.dds" />
+ 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_spec.dds" />		 	
+	</CONDITION>
+
+
+	<!-- 'Soft' Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium' Slick tire -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard' Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate' Rain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Rain tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="VehicleDetails" base="BPersistent">
+        <prop name="Vehicle Name" type="String" />
+        <prop name="ShortVehicleName" type="String" />
+        <prop name="XLASTID" type="S32" />
+        <prop name="VehicleManufacturer" type="String" />
+        <prop name="VehicleModel" type="String" />
+        <prop name="Vehicle Render Model" type="String" />
+        <prop name="Driver Character" type="String" />
+        <prop name="Vehicle Physics Model" type="String" />
+        <prop name="Cockpit properties" type="String" />
+        <prop name="Vehicle Properties" type="String" />
+        <prop name="Vehicle Year" type="S32" />
+        <prop name="Shadow Width" type="F32" />
+        <prop name="Shadow Length" type="F32" />
+        <prop name="Shadow Offset Right" type="F32" />
+        <prop name="Shadow Offset Forward" type="F32" />
+        <prop name="Shadow Texture" type="String" />
+        <prop name="Grid Grouping" type="U32" />
+        <prop name="Vehicle Class" type="String" />
+        <prop name="Vehicle Group" type="String" />
+        <prop name="Vehicle Shape" type="String" />
+        <prop name="Engine Placement" type="String" />
+        <prop name="Number of Exhausts" type="S32" />
+        <prop name="Exhaust Position 1" type="Vec3f" />
+        <prop name="Exhaust Target Position 1" type="Vec3f" />
+        <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
+        <prop name="Number of Engine Heat" type="S32" />
+        <prop name="Engine Heat Position 1" type="Vec3f" />
+        <prop name="Blown Engine Smoke Position" type="Vec3f" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" type="F32" />
+        <prop name="Exhaust Backfire Mesh Length Scale" type="F32" />
+        <prop name="Vehicle Description" type="String" />
+        <prop name="AI ONLY" type="Bool" />
+        <prop name="PLAYER ONLY" type="Bool" />
+        <prop name="Vehicle Initial Performance Index" type="S32" />
+        <prop name="Body Upgrades" type="String" />
+        <prop name="Cockpit Upgrades" type="String" />
+        <prop name="Tire Upgrades" type="String" />
+        <prop name="Brake Upgrades" type="String" />
+        <prop name="Tier" type="U32" />
+        <prop name="Price" type="U32" />
+        <prop name="Region" type="String" />
+        <prop name="Country" type="String" />
+        <prop name="Paint Shop Data" type="String" />
+        <prop name="Min Front Wheel Diameter" type="U32" />
+        <prop name="Max Front Wheel Diameter" type="U32" />
+        <prop name="Min Rear Wheel Diameter" type="U32" />
+        <prop name="Max Rear Wheel Diameter" type="U32" />
+        <prop name="Client Vehicle Version" type="U32" />
+        <prop name="Left Mirror Pos" type="Vec3f" />
+        <prop name="Right Mirror Pos" type="Vec3f" />
+        <prop name="Center Mirror Pos" type="Vec3f" />
+        <prop name="AABBMin" type="Vec3f" />
+        <prop name="AABBMax" type="Vec3f" />
+        <prop name="Scratch Texture" type="String" />
+    </class>
+    <data class="VehicleDetails" id="0xD861FB9">
+        <prop name="Name" data="C63_Coupe_Racing" />
+        <prop name="Vehicle Name" data="Mercedes AMG C63 Coupe Racing" />
+        <prop name="ShortVehicleName" data="C 63 Racing" />
+        <prop name="XLASTID" data="504" />
+        <prop name="VehicleManufacturer" data="Mercedes-AMG" />
+        <prop name="VehicleModel" data="C63 Coupe Racing" />
+        <prop name="Vehicle Render Model" data="c63_coupe_racing.vhf" />
+        <prop name="Driver Character" data="C63_Coupe_Racing" />
+        <prop name="Vehicle Physics Model" data="C63_Coupe_Racing" />
+        <prop name="Cockpit properties" data="C63_Coupe_Racing_Cockpit.bin" />
+        <prop name="Vehicle Properties" data="C63_Coupe_Racing" />
+        <prop name="Vehicle Year" data="2016" />
+        <prop name="Shadow Width" data="5.0" />
+        <prop name="Shadow Length" data="7.7" />
+        <prop name="Shadow Offset Right" data="0" />
+        <prop name="Shadow Offset Forward" data="0" />
+        <prop name="Shadow Texture" data="C63_Coupe_Racing_ambsh.dds" />
+        <prop name="Grid Grouping" data="15" />
+        <prop name="Vehicle Class" data="World_GT_Challenge" />
+        <prop name="Vehicle Group" data="World_GT_Challenge" />
+        <prop name="Vehicle Shape" data="GT" />
+        <prop name="Engine Placement" data="Front" />
+        <prop name="Number of Exhausts" data="1" />
+        <prop name="Exhaust Position 1" data="0.911;0.186;0.868" />
+        <prop name="Exhaust Target Position 1" data="1.132;0.186;1.017" />
+        <prop name="Exhaust Smoke Amount Multiplier" data="0.43" />
+        <prop name="Number of Engine Heat" data="1" />
+        <prop name="Engine Heat Position 1" data="0;0.7;-1.54" />
+        <prop name="Blown Engine Smoke Position" data="0;0.7;-1.54" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="2.0" />
+        <prop name="Exhaust Backfire Mesh Length Scale" data="2.0" />
+        <prop name="Vehicle Description" data="" />
+        <prop name="AI ONLY" data="false" />
+        <prop name="PLAYER ONLY" data="false" />
+        <prop name="Vehicle Initial Performance Index" data="107" />
+        <prop name="Body Upgrades" data="" />
+        <prop name="Cockpit Upgrades" data="" />
+        <prop name="Tire Upgrades" data="" />
+        <prop name="Brake Upgrades" data="" />
+        <prop name="Tier" data="5" />
+        <prop name="Price" data="135450" />
+        <prop name="Region" data="EU" />
+        <prop name="Country" data="Germany" />
+        <prop name="Paint Shop Data" data="N/A" />
+        <prop name="Min Front Wheel Diameter" data="13" />
+        <prop name="Max Front Wheel Diameter" data="20" />
+        <prop name="Min Rear Wheel Diameter" data="13" />
+        <prop name="Max Rear Wheel Diameter" data="20" />
+        <prop name="Client Vehicle Version" data="1" />
+        <prop name="Left Mirror Pos" data="0.8676;1.0299;-0.3652" />
+        <prop name="Right Mirror Pos" data="-0.8676;1.0299;-0.3652" />
+        <prop name="Center Mirror Pos" data="0.0001;1.2091;-0.1016" />
+        <prop name="AABBMin" data="-0.9818;0.0032;-2.3506" />
+        <prop name="AABBMax" data="0.9818;1.4774;2.4765" />
+        <prop name="Scratch Texture" data="common_windscreen_scratches_03.dds" />
+    </data>
+</Reflection>

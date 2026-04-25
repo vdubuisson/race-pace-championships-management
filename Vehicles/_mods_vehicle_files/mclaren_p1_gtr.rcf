@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="22" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="McLaren Design Concept #01" />
+		<NAME LIVERY="52" NAME="McLAREN Racing #51" />
+		<NAME LIVERY="53" NAME="McLAREN Racing #14" />
+		<NAME LIVERY="54" NAME="McLAREN Racing #40" />
+		<NAME LIVERY="55" NAME="McLAREN Racing #36" />
+		<NAME LIVERY="56" NAME="McLAREN Racing #18" />		
+		<NAME LIVERY="57" NAME="McLAREN Racing #15" />
+		<NAME LIVERY="58" NAME="McLAREN Racing #17" />
+		<NAME LIVERY="59" NAME="McLAREN Racing #19" />
+		<NAME LIVERY="60" NAME="McLAREN Racing #20" />
+		<NAME LIVERY="61" NAME="McLAREN Racing #61" />
+		<NAME LIVERY="62" NAME="McLAREN Racing #66" />
+		<NAME LIVERY="63" NAME="McLAREN Racing #33" />
+		<NAME LIVERY="64" NAME="McLAREN Racing #96" />
+		<NAME LIVERY="65" NAME="McLAREN Racing #91" />
+		<NAME LIVERY="66" NAME="McLAREN Racing #71" />
+		<NAME LIVERY="67" NAME="McLAREN Racing #16" />
+		<NAME LIVERY="68" NAME="McLAREN Racing #81" />
+		<NAME LIVERY="69" NAME="McLAREN Racing #111" />
+		<NAME LIVERY="70" NAME="McLAREN Racing #50" />
+		<NAME LIVERY="71" NAME="McLAREN Racing #30" />
+		<NAME LIVERY="72" NAME="McLAREN Racing #31" />	
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->	
+	
+	<CONDITION LIVERY="51">
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery01_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />						
+	</CONDITION>
+	
+	<CONDITION LIVERY="52">
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint.mtx" />				
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery02_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />					
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />						
+	</CONDITION>
+	
+	<CONDITION LIVERY="53">		
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint.mtx" />				
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery03_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_blur_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />						
+	</CONDITION>
+	
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery04_hr.dds" />								
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gloss.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery04_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />				
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />							
+	</CONDITION>
+	
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery05_hr.dds" />								
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gloss.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery05_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />										
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />						
+	</CONDITION>
+	
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery06_hr.dds" />								
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gloss.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery06_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />								
+	</CONDITION>
+	
+	<CONDITION LIVERY="57">
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery07_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_blur_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />						
+	</CONDITION>
+	
+	<CONDITION LIVERY="58">		
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint.mtx" />				
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery08_hr.dds" />										
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />					
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />								
+	</CONDITION>
+	
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery09_hr.dds" />								
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gloss.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery09_hr.dds" />										
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_blur_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />						
+	</CONDITION>
+	
+	<CONDITION LIVERY="60">		
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint.mtx" />				
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery10_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />					
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_blur_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />								
+	</CONDITION>
+	
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery11_hr.dds" />								
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gloss.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery11_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />					
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_blur_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />								
+	</CONDITION>	
+	
+	<CONDITION LIVERY="62">
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_R500_18_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_R500_18_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_R500_18_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY18.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery12_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />										
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />						
+	</CONDITION>
+	
+	<CONDITION LIVERY="63">
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_winered_metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_winered_metallic_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_winered_metallic_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_winered_metallic_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_generic_winered_metallic.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery13_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />					
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_blur_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />								
+	</CONDITION>
+	
+	<CONDITION LIVERY="64">
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint.mtx" />				
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery14_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />										
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />						
+	</CONDITION>
+	
+	<CONDITION LIVERY="65">		
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_zonda_14.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_zonda_14_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_zonda_14_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_zonda_14_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_zonda_14.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\PAG_ZR_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery15_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_blur_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />								
+	</CONDITION>
+	
+	<CONDITION LIVERY="66">
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />				
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome.mtx" />				
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery16_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery16_fresnel.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />					
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />						
+	</CONDITION>
+	
+	<CONDITION LIVERY="67">		
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint.mtx" />				
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery17_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />					
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />								
+	</CONDITION>
+	
+	<CONDITION LIVERY="68">		
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint.mtx" />				
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery18_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />					
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />								
+	</CONDITION>
+	
+	<CONDITION LIVERY="69">		
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_08.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_R500_08_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_R500_08_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_R500_08_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_r500_08.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY08.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery19_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />										
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />						
+	</CONDITION>
+	
+	<CONDITION LIVERY="70">
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_gt40_03.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_gt40_03_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_gt40_03_autocpit.mtx" />				
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_gt40_03_autoskin_autocpit.mtx" />		
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\livery_gt40_03.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\ford_gt40_mkiv_livery03.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery20_hr.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\Paint\paint_mclaren_supernova_silver.dds" NEWTEXTURE="Vehicles\Textures\Paint\paint_mclaren_fire_black.dds" />								
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />						
+	</CONDITION>
+
+	<CONDITION LIVERY="71">
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon1" NEWMATERIAL="vehicles\_generic_materials\livery_lm11_10.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery21_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_diff.dds" />						
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\mclaren_p1_gtr_wheel_silver_blur_diff.dds" />
+	</CONDITION>
+	
+	
+	<CONDITION LIVERY="72">
+		<REPLACE MATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint_carbon" NEWMATERIAL="vehicles\mclaren_p1_gtr\mclaren_p1_gtr_paint.mtx" />				
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_livery22_hr.dds" />											
+		<REPLACE TEXTURE="Vehicles\Textures\mclaren_p1_gtr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mclaren_p1_gtr_banner01_diff.dds" />	
+	</CONDITION>
+
+	<!-- 'Soft' Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium'. Semi-Slick road car tire. Pirelli Trofeo R -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard'. Summer road car tire. Pirelli P Zero -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate'. All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Winter/Snow tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\mclaren_p1_gtr_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

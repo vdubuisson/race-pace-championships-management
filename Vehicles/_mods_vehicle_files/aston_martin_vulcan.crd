@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="VehicleDetails" base="BPersistent">
+        <prop name="Vehicle Name" type="String" />
+        <prop name="ShortVehicleName" type="String" />
+        <prop name="XLASTID" type="U32" />
+        <prop name="VehicleManufacturer" type="String" />
+        <prop name="VehicleModel" type="String" />
+        <prop name="Vehicle Render Model" type="String" />
+        <prop name="Driver Character" type="String" />
+        <prop name="Vehicle Physics Model" type="String" />
+        <prop name="Cockpit properties" type="String" />
+        <prop name="Vehicle Properties" type="String" />
+        <prop name="Vehicle Year" type="S32" />
+        <prop name="Shadow Width" type="F32" />
+        <prop name="Shadow Length" type="F32" />
+        <prop name="Shadow Offset Right" type="F32" />
+        <prop name="Shadow Offset Forward" type="F32" />
+        <prop name="Shadow Texture" type="String" />
+        <prop name="Grid Grouping" type="U32" />
+        <prop name="Vehicle Class" type="String" />
+        <prop name="Vehicle Group" type="String" />
+        <prop name="Vehicle Shape" type="String" />
+        <prop name="Engine Placement" type="String" />
+        <prop name="Number of Exhausts" type="S32" />
+        <prop name="Exhaust Position 1" type="Vec3f" />
+        <prop name="Exhaust Position 2" type="Vec3f" />
+        <prop name="Exhaust Target Position 1" type="Vec3f" />
+        <prop name="Exhaust Target Position 2" type="Vec3f" />
+        <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
+        <prop name="Number of Engine Heat" type="S32" />
+        <prop name="Engine Heat Position 1" type="Vec3f" />
+        <prop name="Blown Engine Smoke Position" type="Vec3f" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" type="F32" />
+        <prop name="Exhaust Backfire Mesh Length Scale" type="F32" />
+        <prop name="Vehicle Description" type="String" />
+        <prop name="AI ONLY" type="Bool" />
+        <prop name="Vehicle Initial Performance Index" type="S32" />
+        <prop name="Body Upgrades" type="String" />
+        <prop name="Cockpit Upgrades" type="String" />
+        <prop name="Tire Upgrades" type="String" />
+        <prop name="Brake Upgrades" type="String" />
+        <prop name="Tier" type="U32" />
+        <prop name="Price" type="U32" />
+        <prop name="Region" type="String" />
+        <prop name="Country" type="String" />
+        <prop name="Paint Shop Data" type="String" />
+        <prop name="Min Front Wheel Diameter" type="U32" />
+        <prop name="Max Front Wheel Diameter" type="U32" />
+        <prop name="Min Rear Wheel Diameter" type="U32" />
+        <prop name="Max Rear Wheel Diameter" type="U32" />
+        <prop name="Max GUI Wheel Angle" type="F32" />
+        <prop name="Client Vehicle Version" type="U32" />
+        <prop name="Left Mirror Pos" type="Vec3f" />
+        <prop name="Right Mirror Pos" type="Vec3f" />
+        <prop name="Center Mirror Pos" type="Vec3f" />
+        <prop name="AABBMin" type="Vec3f" />
+        <prop name="AABBMax" type="Vec3f" />
+        <prop name="Scratch Texture" type="String" />
+    </class>
+    <data class="VehicleDetails" id="0xD8D56D0">
+        <prop name="Name" data="Aston_Martin_Vulcan" />
+        <prop name="Vehicle Name" data="Aston Martin Vulcan AMR PRO" />
+        <prop name="ShortVehicleName" data="Vulcan AMR" />
+        <prop name="XLASTID" data="164" />
+        <prop name="VehicleManufacturer" data="Aston Martin Racing" />
+        <prop name="VehicleModel" data="Vulcan" />
+        <prop name="Vehicle Render Model" data="Aston_Martin_Vulcan.vhf" />
+        <prop name="Driver Character" data="Aston_Martin_Vulcan" />
+        <prop name="Vehicle Physics Model" data="AM_Vulcan_AMR" />
+        <prop name="Cockpit properties" data="Aston_Martin_Vulcan_Cockpit.bin" />
+        <prop name="Vehicle Properties" data="Aston_Martin_Vulcan" />
+        <prop name="Vehicle Year" data="2016" />
+        <prop name="Shadow Width" data="5.0" />
+        <prop name="Shadow Length" data="7.7" />
+        <prop name="Shadow Offset Right" data="0.0" />
+        <prop name="Shadow Offset Forward" data="0.0" />
+        <prop name="Shadow Texture" data="Aston_Martin_Vulcan_ambsh.dds" />
+        <prop name="Grid Grouping" data="63" />
+        <prop name="Vehicle Class" data="GT1SportsClub" />
+        <prop name="Vehicle Group" data="GT1SportsClub" />
+        <prop name="Vehicle Shape" data="GT" />
+        <prop name="Engine Placement" data="Front" />
+        <prop name="Number of Exhausts" data="2" />
+        <prop name="Exhaust Position 1" data="0.967;0.208;0.648" />
+        <prop name="Exhaust Position 2" data="-0.967;0.208;0.648" />
+        <prop name="Exhaust Target Position 1" data="1.042;0.229;0.713" />
+        <prop name="Exhaust Target Position 2" data="-1.042;0.229;0.713" />
+        <prop name="Exhaust Smoke Amount Multiplier" data="0.4" />
+        <prop name="Number of Engine Heat" data="1" />
+        <prop name="Engine Heat Position 1" data="0;0.40;-1.76" />
+        <prop name="Blown Engine Smoke Position" data="0;0.40;-1.76" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="2.00" />
+        <prop name="Exhaust Backfire Mesh Length Scale" data="1.40" />
+        <prop name="Vehicle Description" data="" />
+        <prop name="AI ONLY" data="false" />
+        <prop name="Vehicle Initial Performance Index" data="129" />
+        <prop name="Body Upgrades" data="" />
+        <prop name="Cockpit Upgrades" data="" />
+        <prop name="Tire Upgrades" data="" />
+        <prop name="Brake Upgrades" data="" />
+        <prop name="Tier" data="5" />
+        <prop name="Price" data="1500000" />
+        <prop name="Region" data="EU" />
+        <prop name="Country" data="England" />
+        <prop name="Paint Shop Data" data="N/A" />
+        <prop name="Min Front Wheel Diameter" data="18" />
+        <prop name="Max Front Wheel Diameter" data="21" />
+        <prop name="Min Rear Wheel Diameter" data="18" />
+        <prop name="Max Rear Wheel Diameter" data="21" />
+        <prop name="Max GUI Wheel Angle" data="20.0" />
+        <prop name="Client Vehicle Version" data="1" />
+        <prop name="Left Mirror Pos" data="1.0154;0.9413;-0.0012" />
+        <prop name="Right Mirror Pos" data="-1.0156;0.9413;-0.0011" />
+        <prop name="Center Mirror Pos" data="0.0025;1.0261;0.1713" />
+        <prop name="AABBMin" data="-1.1342;0.0061;-2.3924" />
+        <prop name="AABBMax" data="1.1340;1.2094;2.4316" />
+        <prop name="Scratch Texture" data="common_windscreen_scratches_02.dds" />
+    </data>
+</Reflection>

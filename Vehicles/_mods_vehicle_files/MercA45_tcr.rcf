@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="11" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="NVRR Motorsports #14" />
+		<NAME LIVERY="52" NAME="WIX red" />
+		<NAME LIVERY="54" NAME="GedK Gloves Team #41" />
+		<NAME LIVERY="56" NAME="Decksbern Motorsport #30" />
+		<NAME LIVERY="58" NAME="Luigo Racing Team #64" />		
+		<NAME LIVERY="60" NAME="Zipanol Racing Team #39" />
+		<NAME LIVERY="62" NAME="Wakeman Motorsport #52" />
+		<NAME LIVERY="64" NAME="AQI Auto Racing Team #22" />
+		<NAME LIVERY="66" NAME="Team Dominium Musk #8" />
+		<NAME LIVERY="68" NAME="Ben and Erton #48" />
+		<NAME LIVERY="70" NAME="Team ViljoENS Racing #20" />
+		<NAME LIVERY="99" NAME="Custom Livery" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="51">
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mercedes_a45_tcr_livery01_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\merc_a45_tcr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\merc_a45_tcr_banner_diff1.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="52">
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mercedes_a45_tcr_livery02_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\merc_a45_tcr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\merc_a45_tcr_banner_diff2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_nmp8888.dds" />
+	</CONDITION>
+
+	
+
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\mercedes_a45_tcr_livery04_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\merc_a45_tcr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\merc_a45_tcr_banner_diff2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	
+
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\mercedes_a45_tcr_livery06_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\merc_a45_tcr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\merc_a45_tcr_banner_diff2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_nmp8888.dds" />
+	</CONDITION>
+
+	
+
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\mercedes_a45_tcr_livery08_hr.dds" />
+	<REPLACE TEXTURE="Vehicles\Textures\merc_a45_tcr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\merc_a45_tcr_banner_diff2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />		
+	</CONDITION>
+
+	
+
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\mercedes_a45_tcr_livery10_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\merc_a45_tcr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\merc_a45_tcr_banner_diff2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_nmp8888.dds" />
+	</CONDITION>
+
+	
+
+	<CONDITION LIVERY="62">
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mercedes_a45_tcr_livery12_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\merc_a45_tcr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\merc_a45_tcr_banner_diff2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\mercedes_a45_tcr_livery14_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\merc_a45_tcr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\merc_a45_tcr_banner_diff2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_nmp8888.dds" />
+	</CONDITION>
+
+	
+
+	<CONDITION LIVERY="66">
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />	
+		<REPLACE TEXTURE="vehicles\textures\Liveries\CAT_R500_LIVERY18.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mercedes_a45_tcr_livery16_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\merc_a45_tcr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\merc_a45_tcr_banner_diff2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+
+	<CONDITION LIVERY="68">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\mercedes_a45_tcr_livery18_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\merc_a45_tcr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\merc_a45_tcr_banner_diff2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_nmp8888.dds" />
+	</CONDITION>
+
+	
+
+	<CONDITION LIVERY="70">
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />	
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\mercedes_a45_tcr\mercedes_a45_tcr_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />	
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\mercedes_a45_tcr_livery20_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\merc_a45_tcr_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\merc_a45_tcr_banner_diff2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="99">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\mercedes_a45_tcr_livery.dds" />
+	</CONDITION>
+
+	<!-- 'Soft' Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium' Slick tire -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard' Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Studded Ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\merc_a45_tcr_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

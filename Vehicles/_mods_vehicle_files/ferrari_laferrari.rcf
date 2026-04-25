@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="10" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="1" NAME="Rosso Corsa" />
+		<NAME LIVERY="2" NAME="Giallo Modena" />
+		<NAME LIVERY="3" NAME="Nero" />
+		<NAME LIVERY="4" NAME="Nero Daytona metallic" />
+		<NAME LIVERY="5" NAME="Bianco Avus" />
+		<NAME LIVERY="7" NAME="Rosso Scuderia" />
+		<NAME LIVERY="8" NAME="Argento Nurburgring" />
+		<NAME LIVERY="9" NAME="Blu Tour de France metallic" />
+		<NAME LIVERY="11" NAME="Blu Mirabeau metallic" />
+		<NAME LIVERY="12" NAME="Blu Pozzi" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+	<CONDITION LIVERY="1">
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_corsa.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_corsa_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_corsa_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_corsa_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="2">
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_giallo_modena.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_giallo_modena_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_giallo_modena_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_giallo_modena_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_grey_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_grey_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_grey_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_grey_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="3">
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="4">
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_metallic_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_metallic_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_metallic_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="5">
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_bianco_avus.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_bianco_avus_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_bianco_avus_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_bianco_avus_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="7">
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_scuderia.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_scuderia_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_scuderia_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_scuderia_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_black_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_black_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_black_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="8">
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_argento_nurburgring.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_argento_nurburgring_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_argento_nurburgring_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_argento_nurburgring_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_grey_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_grey_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_grey_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_grey_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="9">
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_tdf.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_tdf_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_tdf_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_tdf_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_spec.dds" />
+	</CONDITION>
+
+
+	<CONDITION LIVERY="11">
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_mirabeau.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_mirabeau_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_mirabeau_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_mirabeau_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_diff.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_grey_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_spec.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_grey_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_grey_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_laferrari_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_wheel_grey_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="12">
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_pozzi.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_pozzi_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_pozzi_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_laferrari\fer_laferrari_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_pozzi_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_mcl_p14_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Soft'. Semi-Slick road car tire. Pirelli Trofeo R -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium'. R-compound road car tire. Pirelli P Zero Corsa -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard'. Summer road car tire. Pirelli P Zero -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate'. All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Winter/Snow tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\fer_laferrari_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>
+

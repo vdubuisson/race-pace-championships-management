@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="13" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="1" NAME="Rosso" />
+		<NAME LIVERY="2" NAME="#3445GT" />
+		<NAME LIVERY="3" NAME="#3387GT" />
+		<NAME LIVERY="4" NAME="#3705GT" />
+		<NAME LIVERY="5" NAME="#3767GT" />
+		<NAME LIVERY="6" NAME="#3505GT" />
+		<NAME LIVERY="7" NAME="#4153GT" />
+		<NAME LIVERY="8" NAME="#4757GT" />
+		<NAME LIVERY="9" NAME="#4219GT" />
+		<NAME LIVERY="10" NAME="#3769GT" />
+		<NAME LIVERY="11" NAME="#3451GT" />
+		<NAME LIVERY="12" NAME="#3729GT" />
+		<NAME LIVERY="13" NAME="#3223GT" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="1">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_rosso.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="2">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_3445gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse_3445gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals_3445gt.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="3">
+		<REPLACE MATERIAL="ferrari_250_gto_paint" NEWMATERIAL="vehicles\_generic_materials\ferrari_250_gto_3387gt.mtx" />
+		<REPLACE MATERIAL="ferrari_250_gto_paint2" NEWMATERIAL="vehicles\_generic_materials\ferrari_250_gto_3387gt_norain.mtx" />
+		<REPLACE MATERIAL="ferrari_250_gto_paint_int" NEWMATERIAL="vehicles\_generic_materials\ferrari_250_gto_3387gt_norain.mtx" />
+		<REPLACE MATERIAL="ferrari_250_gto_licplate" NEWMATERIAL="vehicles\_generic_materials\invisible.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse2.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="4">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_3705gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse_3705gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals_3705gt.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="5">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_3767gt.dds" />
+		<REPLACE MATERIAL="ferrari_250_gto_paint2" NEWMATERIAL="vehicles\_generic_materials\ferrari_250_gto_4153gt_norain.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse_3767gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals_3767gt.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="6">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_3505gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse_3505gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals_3505gt.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="7">
+		<REPLACE MATERIAL="ferrari_250_gto_paint" NEWMATERIAL="vehicles\_generic_materials\ferrari_250_gto_4153gt.mtx" />
+		<REPLACE MATERIAL="ferrari_250_gto_paint2" NEWMATERIAL="vehicles\_generic_materials\ferrari_250_gto_4153gt_norain.mtx" />
+		<REPLACE MATERIAL="ferrari_250_gto_paint_int" NEWMATERIAL="vehicles\_generic_materials\ferrari_250_gto_4153gt_norain.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse_4153gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals_4153gt.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="8">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_4757gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse_4757gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals_4757gt.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="9">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_4219gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse_4219gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals_4219gt.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="10">
+		<REPLACE MATERIAL="ferrari_250_gto_paint" NEWMATERIAL="vehicles\_generic_materials\ferrari_250_gto_3769gt.mtx" />
+		<REPLACE MATERIAL="ferrari_250_gto_paint2" NEWMATERIAL="vehicles\_generic_materials\ferrari_250_gto_3769gt_norain.mtx" />
+		<REPLACE MATERIAL="ferrari_250_gto_paint_int" NEWMATERIAL="vehicles\_generic_materials\ferrari_250_gto_3769gt_norain.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse2.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="11">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_3451gt.dds" />
+		<REPLACE MATERIAL="ferrari_250_gto_paint2" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_argento_nuerburgring_norain.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse_3451gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals_3451gt.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="12">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_3729gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse_3729gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals_3729gt.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="13">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_3223gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_badges_diffuse2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_diffuse_3223gt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_licplate_normals_3223gt.dds" />
+	</CONDITION>
+	
+	<!-- Standard Tarmac tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Clone of Standard Tarmac tire. In case AI uses it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Clone of Standard Tarmac tire. In case AI uses it -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Clone of Standard Tarmac tire. In case AI uses it -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Studded Ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_dunlop_vintage2_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\ferrari_250_gto_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>
+

@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="VehicleDetails" base="BPersistent">
+        <prop name="Vehicle Name" type="String" />
+        <prop name="ShortVehicleName" type="String" />
+        <prop name="XLASTID" type="U32" />
+        <prop name="DLC ID" type="String" />
+        <prop name="VehicleManufacturer" type="String" />
+        <prop name="VehicleModel" type="String" />
+        <prop name="Vehicle Render Model" type="String" />
+        <prop name="Driver Character" type="String" />
+        <prop name="User Overrides Base Helmet" type="String" />
+        <prop name="User Overrides Base Outfit" type="String" />
+        <prop name="Vehicle Physics Model" type="String" />
+        <prop name="Cockpit properties" type="String" />
+		<prop name="IMSA Cockpit properties" type="String" />
+        <prop name="Vehicle Properties" type="String" />
+        <prop name="Vehicle Variant Oval" type="String" />
+        <prop name="Vehicle Variant Short Oval" type="String" />
+	    <prop name="Vehicle Variant Short Track" type="String" />		
+        <prop name="Vehicle Variant Speedway" type="String" />
+        <prop name="Vehicle Variant Super Speedway" type="String" />
+        <prop name="Vehicle Year" type="S32" />
+        <prop name="Shadow Width" type="F32" />
+        <prop name="Shadow Length" type="F32" />
+        <prop name="Shadow Offset Right" type="F32" />
+        <prop name="Shadow Offset Forward" type="F32" />
+        <prop name="Shadow Texture" type="String" />
+        <prop name="Grid Grouping" type="U32" />
+        <prop name="Vehicle Class" type="String" />
+        <prop name="Vehicle Group" type="String" />
+        <prop name="Vehicle Shape" type="String" /> 
+ 		<prop name="Safety Car Driver Name" type="String" />
+        <prop name="Engine Placement" type="String" />
+        <prop name="Number of Exhausts" type="S32" />
+        <prop name="Exhaust Position 1" type="Vec3f" />
+        <prop name="Exhaust Position 2" type="Vec3f" />
+        <prop name="Exhaust Target Position 1" type="Vec3f" />
+        <prop name="Exhaust Target Position 2" type="Vec3f" />
+        <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
+        <prop name="Number of Engine Heat" type="S32" />
+        <prop name="Engine Heat Position 1" type="Vec3f" />
+        <prop name="Blown Engine Smoke Position" type="Vec3f" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" type="F32" />
+        <prop name="Exhaust Backfire Mesh Length Scale" type="F32" />
+        <prop name="Vehicle Description" type="String" />
+        <prop name="AI ONLY" type="Bool" />
+        <prop name="Vehicle Initial Performance Index" type="S32" />
+        <prop name="Body Upgrades" type="String" />
+        <prop name="Cockpit Upgrades" type="String" />
+        <prop name="Tire Upgrades" type="String" />
+        <prop name="Brake Upgrades" type="String" />
+        <prop name="Tier" type="U32" />
+        <prop name="Price" type="U32" />
+        <prop name="Region" type="String" />
+        <prop name="Country" type="String" />
+        <prop name="Paint Shop Data" type="String" />
+        <prop name="Min Front Wheel Diameter" type="U32" />
+        <prop name="Max Front Wheel Diameter" type="U32" />
+        <prop name="Min Rear Wheel Diameter" type="U32" />
+        <prop name="Max Rear Wheel Diameter" type="U32" />
+        <prop name="Max GUI Wheel Angle" type="F32" />
+        <prop name="Client Vehicle Version" type="U32" />
+		<prop name="Vehicle Garage Rotation" type="Vec3f" />
+        <prop name="Left Mirror Pos" type="Vec3f" />
+        <prop name="Center Mirror Pos" type="Vec3f" />		
+        <prop name="Right Mirror Pos" type="Vec3f" />
+        <prop name="AABBMin" type="Vec3f" />
+        <prop name="AABBMax" type="Vec3f" />
+    </class>
+    <data class="VehicleDetails" id="0xD8D56D0">
+        <prop name="Name" data="Ligier_JS_P217" />
+        <prop name="Vehicle Name" data="Ligier JS P217" />
+        <prop name="ShortVehicleName" data="Ligier JS P217" />
+        <prop name="XLASTID" data="361" />
+        <prop name="DLC ID" data="endurancept2pack" />
+        <prop name="VehicleManufacturer" data="Ligier" />
+        <prop name="VehicleModel" data="Ligier JS P217" />
+        <prop name="Vehicle Render Model" data="Ligier_JS_P217.vhf" />
+        <prop name="Driver Character" data="Ligier_JS_P217" />
+        <prop name="User Overrides Base Helmet" data="helmet_GT_Modern_STOCK_USER_OVERRIDE" />
+        <prop name="User Overrides Base Outfit" data="outfit_GT_Modern_STOCK_USER_OVERRIDE" />
+        <prop name="Vehicle Physics Model" data="Ligier_JS_P217" />
+        <prop name="Cockpit properties" data="Ligier_JS_P217_Cockpit.bin" />
+		<prop name="IMSA Cockpit properties" data="Ligier_JS_P217_Cockpit_IMSA.bin" />
+        <prop name="Vehicle Properties" data="Ligier_JS_P217" />
+        <prop name="Vehicle Variant Oval" data="Ligier_JS_P217_LD" />
+		<prop name="Vehicle Variant Short Oval" data="Ligier_JS_P217_LD" />
+        <prop name="Vehicle Variant Short Track" data="Ligier_JS_P217_LD" />
+        <prop name="Vehicle Variant Speedway" data="Ligier_JS_P217_LD" />
+        <prop name="Vehicle Variant Super Speedway" data="Ligier_JS_P217_LD" />
+        <prop name="Vehicle Year" data="2024" />
+        <prop name="Shadow Width" data="5.0" />
+        <prop name="Shadow Length" data="7.0" />
+        <prop name="Shadow Offset Right" data="0" />
+        <prop name="Shadow Offset Forward" data="0" />
+        <prop name="Shadow Texture" data="Ligier_JS_P217_ambsh.dds" />
+        <prop name="Grid Grouping" data="8" />
+        <prop name="Vehicle Class" data="LMP2" />
+        <prop name="Vehicle Group" data="P1" />
+        <prop name="Vehicle Shape" data="Prototype" /> 
+ 		<prop name="Safety Car Driver Name" data="SafetyChevyDriverIMSA" />
+        <prop name="Engine Placement" data="Mid-Rear" />
+        <prop name="Number of Exhausts" data="2" />
+        <prop name="Exhaust Position 1" data="0.892;0.231;1.116" />
+        <prop name="Exhaust Position 2" data="-0.892;0.231;1.116" />
+        <prop name="Exhaust Target Position 1" data="1.137;0.231;1.161" />
+        <prop name="Exhaust Target Position 2" data="-1.137;0.231;1.161" />
+        <prop name="Exhaust Smoke Amount Multiplier" data="0.4" />
+        <prop name="Number of Engine Heat" data="1" />
+        <prop name="Engine Heat Position 1" data="0;0.6;0.6" />
+        <prop name="Blown Engine Smoke Position" data="0;0.6;0.6" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="2.00" />
+        <prop name="Exhaust Backfire Mesh Length Scale" data="1.50" />
+        <prop name="Vehicle Description" data="" />
+        <prop name="AI ONLY" data="false" />
+        <prop name="Vehicle Initial Performance Index" data="129" />
+        <prop name="Body Upgrades" data="" />
+        <prop name="Cockpit Upgrades" data="" />
+        <prop name="Tire Upgrades" data="" />
+        <prop name="Brake Upgrades" data="" />
+        <prop name="Tier" data="5" />
+        <prop name="Price" data="120000" />
+        <prop name="Region" data="EU" />
+        <prop name="Country" data="France" />
+        <prop name="Paint Shop Data" data="N/A" />
+        <prop name="Min Front Wheel Diameter" data="18" />
+        <prop name="Max Front Wheel Diameter" data="19" />
+        <prop name="Min Rear Wheel Diameter" data="18" />
+        <prop name="Max Rear Wheel Diameter" data="19" />
+        <prop name="Max GUI Wheel Angle" data="20.0" />
+        <prop name="Client Vehicle Version" data="1" />
+		<prop name="Vehicle Garage Rotation" data="0.0;3.141592653589;0.0" />
+        <prop name="Left Mirror Pos" data="0.856;0.811;-0.738" />
+        <prop name="Center Mirror Pos" data="-0.007;0.874;-0.597" />		
+        <prop name="Right Mirror Pos" data="-0.856;0.811;-0.738" />		
+        <prop name="AABBMin" data="-1.5;-0.0;-4.2" />
+        <prop name="AABBMax" data="1.5;1.6;4.0" />
+    </data>
+</Reflection>

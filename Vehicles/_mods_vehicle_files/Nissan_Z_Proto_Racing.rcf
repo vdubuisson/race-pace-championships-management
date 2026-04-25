@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="20" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="70" NAME="Team NISSAN NISMO KAOS #77" />
+		<NAME LIVERY="71" NAME="Team RAD Industries #105" />
+		<NAME LIVERY="72" NAME="Team RAD Industries #106" />
+		<NAME LIVERY="73" NAME="Team Bouchard #61" />
+		<NAME LIVERY="74" NAME="Team Bouchard #62" />
+		<NAME LIVERY="75" NAME="Team Driveshaft Shop #39" />
+		<NAME LIVERY="76" NAME="Team Driveshaft Shop #40" />
+		<NAME LIVERY="77" NAME="Team NX Nitrous Express #81" />
+		<NAME LIVERY="78" NAME="Team NX Nitrous Express #82" />
+		<NAME LIVERY="79" NAME="Team Hankook #111" />
+		<NAME LIVERY="80" NAME="Team Hankook #112" />
+		<NAME LIVERY="81" NAME="Team HR #77" />
+		<NAME LIVERY="82" NAME="Team HR #78" />
+		<NAME LIVERY="83" NAME="Team Greddy #26" />
+		<NAME LIVERY="84" NAME="Team Greddy #27" />
+		<NAME LIVERY="85" NAME="Team Megan Racing #46" />
+		<NAME LIVERY="86" NAME="Team Megan Racing #47" />
+		<NAME LIVERY="87" NAME="Team Sparco #21" />
+		<NAME LIVERY="88" NAME="Team Sparco #22" />
+		<NAME LIVERY="89" NAME="Team PWR #13" />
+		<NAME LIVERY="90" NAME="Team PWR #14" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="70">		
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="vehicles\_generic_materials\livery_x4_01.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_x4_01_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_x4_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_x4_01_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\audi_a4_dtm_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_racing_livery00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="71">		
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="vehicles\_generic_materials\livery_x4_01.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_x4_01_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_x4_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_x4_01_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\audi_a4_dtm_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_racing_livery01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="72">	
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="vehicles\_generic_materials\livery_x4_01.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_x4_01_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_x4_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_x4_01_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\audi_a4_dtm_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_racing_livery02.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="73">
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery03.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc02_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="74">
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery04.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc02_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="75">		
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery05.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="76">		
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery06.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="77">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery07.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc02_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="78">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery08.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc02_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="79">
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="vehicles\_generic_materials\livery_matte_black_metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NNEWMATERIAL="vehicles\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_matte_black_metallic_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_matte_black_metallic_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_racing_livery09.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="80">
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="vehicles\_generic_materials\livery_matte_black_metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NNEWMATERIAL="vehicles\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_matte_black_metallic_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_matte_black_metallic_autoskin_autocpit.mtx" />		
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_racing_livery10.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="81">
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_racing_livery11.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="82">
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_racing_livery12.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="83">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery13.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_black_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="84">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery14.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_white_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="85">		
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\CAT_R500_LIVERY12.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery15.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_black_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="86">
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\nissan_z_proto_racing\nis_z_proto_rac01_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\CAT_R500_LIVERY12.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery16.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc02_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="87">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery17.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="88">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery18.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_white_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="89">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery19.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_black_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="90">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\nis_z_proto_racing_livery20.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_misc_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_misc02_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\nis_z_proto_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_z_proto_rac01_banner_white_diff.dds" />
+	</CONDITION>
+	
+	<!-- Soft Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Medium Slick tire -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Hard Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Intermediate tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Extreme Rain tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_rac01_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_rac01_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\nis_z_proto_rac01_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

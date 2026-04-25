@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="19" />
+		<INPUT NAME="TIRE" OPTIONS="7" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="Audi R8 LMS Ultra" />
+		<NAME LIVERY="52" NAME="N24_Bilstein" />
+		<NAME LIVERY="53" NAME="Scherer" />
+		<NAME LIVERY="54" NAME="Zolder" />
+		<NAME LIVERY="55" NAME="Audi N24" />
+		<NAME LIVERY="56" NAME="PWC" />		
+		<NAME LIVERY="57" NAME="KFC Bathurst 12h" />
+		<NAME LIVERY="58" NAME="Playstation_VLN_#5" />
+		<NAME LIVERY="59" NAME="PWC_GMG_#44" />
+		<NAME LIVERY="60" NAME="PWC_#19" />
+		<NAME LIVERY="61" NAME="WRT_Leo_#1" />
+		<NAME LIVERY="62" NAME="WRT_#3" />
+		<NAME LIVERY="63" NAME="WRT_#4" />
+		<NAME LIVERY="64" NAME="SPA" />	
+		<NAME LIVERY="65" NAME="Bathurst" />
+		<NAME LIVERY="66" NAME="Lizzard" />		
+		<NAME LIVERY="67" NAME="Dragon" />
+		<NAME LIVERY="68" NAME="Twinbusch" />	
+		<NAME LIVERY="69" NAME="WM" />
+
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	
+	
+	<CONDITION LIVERY="51">
+
+		<REPLACE TEXTURE="Vehicles\Textures\liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="Vehicles\Textures\liveries\AUDI_R8_LMS_LIVERY01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\audi_r8_lms_banner01_diff.dds" />
+
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autoskin.mtx" />
+		
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="52">		
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\AUDI_R8_LMS_LIVERY02.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\audi_r8_lms_banner01_diff.dds" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_02.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_02_autoskin.mtx" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF_BLUR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC_BLUR.dds" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\AUDI_R8_LMS_LIVERY03.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\audi_r8_lms_banner01_diff.dds" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_03.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_03_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autoskin_autocpit.mtx" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_s_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_diff_s_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_s_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_spec_s_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_spec_s_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\AUDI_R8_LMS_LIVERY04.dds" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_04.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_04_autoskin.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_spec.dds" NEWTEXTURE="Vehicles\Textures\liveries\AUDI_R8_LMS_LIVERY_SPEC_02.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\audi_r8_lms_banner02_diff.dds" />
+	
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="55">
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_77.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_skin" NEWMATERIAL="Vehicles\_generic_Materials\livery_audi_r8lmsu_com_77_autoskin.mtx" />
+
+		<REPLACE TEXTURE="vehicles\textures\COMMON_PAINT_ALPHA.dds" NEWTEXTURE="Vehicles\Textures\Liveries\AUDI_R8_LMS_LIVERY_05.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\audi_r8_lms_banner01_diff.dds" />
+	
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_55.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_55.mtx" />
+
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF_BLUR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC_BLUR.dds" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_spec_01.dds" />
+	</CONDITION>
+
+
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\AUDI_R8_LMS_LIVERY06.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_spec.dds" NEWTEXTURE="Vehicles\Textures\liveries\AUDI_R8_LMS_LIVERY_SPEC_06.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\audi_r8_lms_banner02_diff.dds" />
+
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_06.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_06_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_06.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_06_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_01.dds" />		
+	</CONDITION>
+
+
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\AUDI_R8_LMS_LIVERY07.dds" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_07.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_07_autoskin.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\audi_r8_lms_banner02_diff.dds" />
+	
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="58">		
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\14VLN-5-Audi.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\audi_r8_lms_banner01_diff.dds" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_08.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_08_autoskin.mtx" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF_BLUR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC_BLUR.dds" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="59">		
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\PWC16_Audi44.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\audi_r8_lms_banner01_diff.dds" />
+
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint" NEWMATERIAL="Vehicles\_Generic_Materials\LIVERY_FB_15_P8.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\LIVERY_FB_15_P8_skin.mtx" />
+
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_09.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_09_autoskin.mtx" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF_BLUR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC_BLUR.dds" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_01.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="60">	
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\PWC16_Audi19.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\audi_r8_lms_banner01_diff.dds" />
+
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_Z.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_Z_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autoskin_autocpit.mtx" />
+
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_10.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_10_autoskin.mtx" />
+		
+		
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF_BLUR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC_BLUR.dds" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_01.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="61">		
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint" NEWMATERIAL="Vehicles\_generic_Materials\livery_matte_black_metallic_WRT.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_skin" NEWMATERIAL="Vehicles\_generic_Materials\livery_matte_black_metallic_autoskin_WRT.mtx" />
+
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_ALPHA.dds" NEWTEXTURE="Vehicles\Textures\liveries\14WRT04_leo.dds" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\x_audi_r8_lms_banner02_diff.dds" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_matte_black_metallic_WRT_side.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_matte_black_metallic_autoskin_WRT_side.mtx" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF_BLUR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC_BLUR.dds" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_01.dds" />		
+	</CONDITION>
+
+
+	<CONDITION LIVERY="62">		
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint" NEWMATERIAL="Vehicles\_generic_Materials\livery_matte_black_metallic_WRT.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_skin" NEWMATERIAL="Vehicles\_generic_Materials\livery_matte_black_metallic_autoskin_WRT.mtx" />
+
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_ALPHA.dds" NEWTEXTURE="Vehicles\Textures\liveries\WRT_3.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_spec.dds" NEWTEXTURE="Vehicles\Textures\liveries\WRT_3_spec.dds" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\x_audi_r8_lms_banner02_diff.dds" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_matte_black_metallic_WRT_side.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_matte_black_metallic_autoskin_WRT_side.mtx" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF_BLUR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC_BLUR.dds" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="63">		
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint" NEWMATERIAL="Vehicles\_generic_Materials\livery_matte_black_metallic_WRT.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_skin" NEWMATERIAL="Vehicles\_generic_Materials\livery_matte_black_metallic_autoskin_WRT.mtx" />
+
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_ALPHA.dds" NEWTEXTURE="Vehicles\Textures\liveries\WRT_4.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_spec.dds" NEWTEXTURE="Vehicles\Textures\liveries\WRT_4_spec.dds" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\x_audi_r8_lms_banner02_diff.dds" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_matte_black_metallic_WRT_side.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_matte_black_metallic_autoskin_WRT_side.mtx" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF_BLUR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC_BLUR.dds" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_01.dds" />		
+	</CONDITION>
+
+
+	<CONDITION LIVERY="64">	
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\SPA.dds" />
+
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\x_audi_r8_lms_banner02_diff.dds" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_64.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_64_autoskin.mtx" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF_BLUR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC_BLUR.dds" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_01.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="65">	
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\Bathurst.dds" />
+
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\x_audi_r8_lms_banner02_diff.dds" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_65.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_65_autoskin.mtx" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_DIFF_BLUR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lmsu_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\AUDI_R8_LMS_WHEEL_SPEC_BLUR.dds" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_01.dds" />	
+	</CONDITION>
+
+
+	<CONDITION LIVERY="66">
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_77.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_skin" NEWMATERIAL="Vehicles\_generic_Materials\livery_audi_r8lmsu_com_77_autoskin.mtx" />
+
+		<REPLACE TEXTURE="vehicles\textures\COMMON_PAINT_ALPHA.dds" NEWTEXTURE="Vehicles\Textures\Liveries\Lizzard.dds" />
+		<REPLACE TEXTURE="vehicles\textures\COMMON_PAINT_spec.dds" NEWTEXTURE="Vehicles\Textures\Liveries\Lizzard_spec.dds" />
+
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\x_audi_r8_lms_banner02_diff.dds" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_66.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_66_autoskin.mtx" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_continental2_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_continental2_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_continental2_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_continental2_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_continental2_spec_01.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="67">
+		<REPLACE TEXTURE="Vehicles\Textures\liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="Vehicles\Textures\liveries\AUDI_R8_LMS_LIVERY17.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\audi_r8_lms_banner01_diff.dds" />
+
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_17.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_17_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_01_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_17.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_17_autoskin.mtx" />
+		
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_spec_01.dds" />	
+	</CONDITION>
+
+
+	<CONDITION LIVERY="68">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\Liveries\Twinbusch_fresnel.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\Liveries\Twinbusch_spec.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\Twinbusch.dds" />
+
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_skin" NEWMATERIAL="Vehicles\_generic_Materials\livery_standard_paint_skin_chrome.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome.mtx" />      		
+		
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_audi_r18_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="69">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\14SpaSainteloc26.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\audi_r8_lms_banner2_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\audi_r8_lms_banner01_diff.dds" />
+
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_097.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_carbon_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_097_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_097_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r8_lms_ultra\audi_r8_lms_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_audi_r8lmsu_com_097_autoskin_autocpit.mtx" />
+
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_diff_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_norm_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_00.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tire_hankook_dtm11_spec_01.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_gt3_spec_01.dds" />	
+	</CONDITION>
+	
+
+
+	<!-- Dummy condition to get custom dirt texture in the right pakfile -->
+	<CONDITION LIVERY="98">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_BODY_DIRT_DIFF.dds" NEWTEXTURE="Vehicles\Textures\audi_r8_lms_body_dirt_diff.dds" />
+	</CONDITION>
+		
+	<!-- Soft Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Medium Slick tire. In case AI uses it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Hard Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Studded Ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\audi_r8_lms_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+
+</REPLACEMENT_SYSTEM>
+	
+	
+
+		

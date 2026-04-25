@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+
+
+
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="10" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="1" NAME="Appletree Green"/>
+		<NAME LIVERY="2" NAME="China Grey"/>
+		<NAME LIVERY="3" NAME="Concours Blue"/>
+		<NAME LIVERY="4" NAME="Flugplatz Blue" />
+		<NAME LIVERY="5" NAME="Frosted Glass Yellow" />
+		<NAME LIVERY="6" NAME="Jet Black" />
+		<NAME LIVERY="7" NAME="Kermit Green" />
+		<NAME LIVERY="8" NAME="Lightning Silver" />
+		<NAME LIVERY="9" NAME="Lunar White" />
+		<NAME LIVERY="10" NAME="Magnetic Silver" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="1">
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_appletree_green.mtx" />	
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT_skin" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_appletree_green.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_carbon05_brown_diff.dds" NEWTEXTURE="vehicles\textures\common_carbon05_yellow3_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="2">
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_china_grey.mtx" />	
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT_skin" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_china_grey.mtx" />
+		<!-- <REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\GENERIC_ALCANTARA" NEWMATERIAL="vehicles\aston_martin_vantage_db9_ams\GENERIC_LEATHER2.mtx" /> -->
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_black_perf_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_mgrey_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_alcantara_perf_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_alcantara_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_blur_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_blur_silver_diff.dds" />		
+	</CONDITION>
+	
+	<CONDITION LIVERY="3">
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_concours_blue.mtx" />	
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT_skin" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_concours_blue.mtx" />
+		<!-- <REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\GENERIC_ALCANTARA" NEWMATERIAL="vehicles\aston_martin_vantage_db9_ams\GENERIC_ALCANTARA.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\GENERIC_ALCANTARA_DASH" NEWMATERIAL="vehicles\aston_martin_vantage_db9_ams\GENERIC_ALCANTARA_DASH.mtx" /> -->
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_nero_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_preforated_dgrey_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_spec.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_spec.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_nmp8888.dds" />		
+	</CONDITION>
+	
+	<CONDITION LIVERY="4">
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_flugplatz_blue.mtx" />	
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT_skin" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_flugplatz_blue.mtx" />
+		<!-- <REPLACE TEXTURE="vehicles\textures\common_alcantara_black_new_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_grey_diff.dds" /> -->
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_blur_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_blur_silver_diff.dds" />	
+	</CONDITION>
+	
+	<CONDITION LIVERY="5">
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_frosted_glass_yellow.mtx" />	
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT_skin" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_frosted_glass_yellow.mtx" />
+		<!-- <REPLACE TEXTURE="vehicles\textures\common_alcantara_black_new_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_grey_diff.dds" /> -->
+		<REPLACE TEXTURE="vehicles\textures\common_carbon05_brown_diff.dds" NEWTEXTURE="vehicles\textures\common_carbon05_yellow2_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="6">
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_jet_black.mtx" />	
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT_skin" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_jet_black.mtx" />
+		<!-- <REPLACE TEXTURE="vehicles\textures\common_alcantara_black_new_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_grey_diff.dds" /> -->
+		<REPLACE TEXTURE="vehicles\textures\common_carbon05_brown_diff.dds" NEWTEXTURE="vehicles\textures\common_carbon05_dull_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_blur_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_blur_silver_diff.dds" />			
+	</CONDITION>
+	
+	<CONDITION LIVERY="7">
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_kermit_green.mtx" />	
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT_skin" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_kermit_green.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_carbon05_brown_diff.dds" NEWTEXTURE="vehicles\textures\common_carbon05_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_blur_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_blur_silver_diff.dds" />	
+	</CONDITION>
+	
+	<CONDITION LIVERY="8">
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_lightning_silver.mtx" />	
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT_skin" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_lightning_silver.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_carbon05_brown_diff.dds" NEWTEXTURE="vehicles\textures\common_carbon05_silver_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="9">
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_lunar_white.mtx" />	
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT_skin" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_lunar_white.mtx" />
+		<!-- <REPLACE TEXTURE="vehicles\textures\common_alcantara_black_new_diff.dds" NEWTEXTURE="vehicles\textures\common_alcantara_grey_diff.dds" /> -->
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_blur_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_blur_silver_diff.dds" />	
+	</CONDITION>
+	
+	<CONDITION LIVERY="10">
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_magnetic_silver.mtx" />	
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_db9_ams\AMR_VAN_DB9_AMS_PAINT_skin" NEWMATERIAL="vehicles\_generic_materials\paint_aston_vantage25_magnetic_silver.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_carbon05_brown_diff.dds" NEWTEXTURE="vehicles\textures\common_carbon05_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_silver_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_blur_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_db9_ams\amr_vantage_gt4_evo_rim_blur_silver_diff.dds" />	
+	</CONDITION>
+
+	
+
+	<!-- Soft Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Medium Slick tire. In case AI uses it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Hard Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate' All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\aston_martin_vantage_gt4_evo\am_van_gt4_evo_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

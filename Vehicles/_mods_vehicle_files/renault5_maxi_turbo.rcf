@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="13" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="Team Renault Sport #3" />
+		<NAME LIVERY="52" NAME="Team Renault Chartres #27" />
+		<NAME LIVERY="53" NAME="Societe Diac #11" />
+		<NAME LIVERY="54" NAME="Societe Diac #12" />
+		<NAME LIVERY="55" NAME="Team Renault Sport #4" />
+		<NAME LIVERY="58" NAME="Dambreville Rallye #25" />		
+		<NAME LIVERY="59" NAME="Dambreville Rallye #26" />
+		<NAME LIVERY="60" NAME="Beran Motorsport #43" />
+		<NAME LIVERY="61" NAME="Beran Motorsport #44" />
+		<NAME LIVERY="62" NAME="Acesits Rallye Team #14" />
+		<NAME LIVERY="63" NAME="Acesits Rallye Team #15" />
+		<NAME LIVERY="68" NAME="Petroblast Motors #16" />
+		<NAME LIVERY="69" NAME="Petroblast Motors #17" />
+
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+	
+
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery01_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner01_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="52">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery02_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_blur_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_blur_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_blur_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner02_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery03_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner03_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery04_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner04_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery05_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner05_diff.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery06_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_blur_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_blur_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_blur_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery07_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery08_hr.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery09_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery10_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_blur_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_blur_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_blur_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery11_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery12_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_blur_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_blur_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_blur_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="63">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery13_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery14_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery15_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_blur_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_blur_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_blur_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery16_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="67">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery17_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="68">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery18_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="69">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery19_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="70">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery20_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_f_blur_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_f_gold_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_blur_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_wheel_r_blur_spec.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_wheel_r_gold_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery21_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="72">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery22_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_livery23_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ren_5max_84_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\ren_5max_84_banner06_diff.dds" />	
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_generic_vintage_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="99">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\renault_5_maxi_turbo_livery.dds" />
+	</CONDITION>
+
+	<!-- 'Soft' tire tag. Dry weather tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium' tire tag. Clone of Soft in case AI use it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard' tire tag. Clone of Soft in case AI use it -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate' tire tag. Copy of rain tire for the AI to use -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_cooper_rx_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' tire tag. Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' tire tag. Ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\ren_5max_84_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>
+

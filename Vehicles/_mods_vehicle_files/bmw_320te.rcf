@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="16" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="BMW E-Cup Italia Team #1" />
+		<NAME LIVERY="52" NAME="BMW E-Cup Italia Team #2" />		
+		<NAME LIVERY="53" NAME="BMW E-Cup French Team #3" />
+		<NAME LIVERY="54" NAME="BMW E-Cup French Team #4" />
+		<NAME LIVERY="55" NAME="BMW E-Cup deutschland Team #5" />
+		<NAME LIVERY="56" NAME="BMW E-Cup deutschland Team #6" />
+		<NAME LIVERY="57" NAME="BMW E-Cup Spain Team #7" />
+		<NAME LIVERY="58" NAME="BMW E-Cup Spain Team #8" />
+		<NAME LIVERY="59" NAME="BMW E-Cup Uk Team #9" />
+		<NAME LIVERY="60" NAME="BMW E-Cup Uk Team #10" />
+		<NAME LIVERY="61" NAME="BMW E-Cup Belgian Team #11" />
+		<NAME LIVERY="62" NAME="BMW E-Cup Belgian Team #12" />
+		<NAME LIVERY="63" NAME="BMW E-Cup Netherlands Team #13" />
+		<NAME LIVERY="64" NAME="BMW E-Cup Netherlands Team #14" />
+		<NAME LIVERY="65" NAME="BMW E-Cup Greek Team #15" />
+		<NAME LIVERY="66" NAME="BMW E-Cup Greek Team #16" />																	
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery001_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery001_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery001_wing.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="52">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery002_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery002_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery001_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery003_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery003_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery003_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery004_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery004_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery003_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery005_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery005_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery005_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_red_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_red_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_red_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_red_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery006_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery006_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery005_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_red_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_red_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_red_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_red_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery007_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery007_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery007_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery008_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery008_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery007_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery009_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery009_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery009_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_blue_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_blue_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_blue_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_blue_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery010_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery010_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery009_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_blue_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_blue_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_blue_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_blue_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery011_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery011_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery011_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_yellow_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_yellow_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_yellow_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_yellow_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery012_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery012_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery011_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_yellow_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_yellow_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_yellow_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_yellow_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="63">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery013_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery013_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery013_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery014_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery014_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery013_wing.dds" />			
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_black_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery015_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery015_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery015_wing.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery016_hr.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_invert.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery016_invert_hr.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_banner_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT2.dds" NEWTEXTURE="Vehicles\Textures\Liveries\bmw_320te_livery015_wing.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\bmw_320te_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\bmw_320te_wheel_white_spec_01.dds" />	
+	</CONDITION>
+
+	<!-- 'Soft' Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium' Slick tire -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard' Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_03_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Studded Ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\bmw_320tc_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

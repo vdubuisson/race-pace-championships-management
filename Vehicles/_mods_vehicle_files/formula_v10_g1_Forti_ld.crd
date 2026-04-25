@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="VehicleDetails" base="BPersistent">
+        <prop name="Vehicle Name" type="String" />
+        <prop name="ShortVehicleName" type="String" />
+        <prop name="XLASTID" type="U32" />
+        <prop name="VehicleManufacturer" type="String" />
+        <prop name="VehicleModel" type="String" />
+        <prop name="Vehicle Render Model" type="String" />
+        <prop name="Driver Character" type="String" />
+        <prop name="User Overrides Base Helmet" type="String" />
+        <prop name="User Overrides Base Outfit" type="String" />
+        <prop name="Vehicle Physics Model" type="String" />
+        <prop name="Cockpit properties" type="String" />
+        <prop name="Vehicle Properties" type="String" />
+        <prop name="Vehicle Year" type="S32" />
+        <prop name="Shadow Width" type="F32" />
+        <prop name="Shadow Length" type="F32" />
+        <prop name="Shadow Offset Right" type="F32" />
+        <prop name="Shadow Offset Forward" type="F32" />
+        <prop name="Shadow Texture" type="String" />
+        <prop name="Grid Grouping" type="U32" />
+        <prop name="Vehicle Class" type="String" />
+        <prop name="Vehicle Group" type="String" />
+        <prop name="Vehicle Shape" type="String" />
+        <prop name="Engine Placement" type="String" />
+        <prop name="Number of Exhausts" type="S32" />
+        <prop name="Exhaust Position 1" type="Vec3f" />
+        <prop name="Exhaust Target Position 1" type="Vec3f" />
+        <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
+        <prop name="Number of Engine Heat" type="S32" />
+        <prop name="Engine Heat Position 1" type="Vec3f" />
+        <prop name="Blown Engine Smoke Position" type="Vec3f" />
+        <prop name="Vehicle Description" type="String" />
+		<prop name="PitSpeedLimit_HighKPH" type="F32" />
+        <prop name="AI ONLY" type="Bool" />
+        <prop name="Vehicle Initial Performance Index" type="S32" />
+        <prop name="Body Upgrades" type="String" />
+        <prop name="Cockpit Upgrades" type="String" />
+        <prop name="Tire Upgrades" type="String" />
+        <prop name="Brake Upgrades" type="String" />
+        <prop name="Tier" type="U32" />
+        <prop name="Price" type="U32" />
+        <prop name="Region" type="String" />
+        <prop name="Country" type="String" />
+        <prop name="Paint Shop Data" type="String" />
+        <prop name="Min Front Wheel Diameter" type="U32" />
+        <prop name="Max Front Wheel Diameter" type="U32" />
+        <prop name="Min Rear Wheel Diameter" type="U32" />
+        <prop name="Max Rear Wheel Diameter" type="U32" />
+        <prop name="Max GUI Wheel Angle" type="F32" />
+        <prop name="PULC Package ID 360" type="String" />
+        <prop name="PULC Package ID PS3" type="String" />
+        <prop name="Client Vehicle Version" type="U32" />
+		<prop name="Vehicle Garage Rotation" type="Vec3f" />
+        <prop name="Left Mirror Pos" type="Vec3f" />
+        <prop name="Right Mirror Pos" type="Vec3f" />
+        <prop name="AABBMin" type="Vec3f" />
+        <prop name="AABBMax" type="Vec3f" />
+    </class>
+    <data class="VehicleDetails" id="0xD8D56D0">
+        <prop name="Name" data="Formula_V10_G1_Forti_LD" />
+        <prop name="Vehicle Name" data="Forti FG01B - Ford" />
+        <prop name="ShortVehicleName" data="11.Forti" />
+        <prop name="XLASTID" data="212" />
+        <prop name="VehicleManufacturer" data="S.Ford" />
+        <prop name="VehicleModel" data="Formula V10 G1" />
+        <prop name="Vehicle Render Model" data="Formula_V10_G1_LD.vhf" />
+        <prop name="Driver Character" data="Formula_V10_G1" />
+        <prop name="User Overrides Base Helmet" data="FORMULA_MODERN_USER_OVERRIDE" />
+        <prop name="User Overrides Base Outfit" data="outfit_FORMULA_MODERN_USER_OVERRIDE" />
+        <prop name="Vehicle Physics Model" data="Formula_V10_G1_LD" />
+        <prop name="Cockpit properties" data="Formula_V10_G1_LD_Cockpit.bin" />
+        <prop name="Vehicle Properties" data="Formula_V10_G1_Forti" />
+        <prop name="Vehicle Year" data="1996" />
+        <prop name="Shadow Width" data="5.00" />
+        <prop name="Shadow Length" data="7.00" />
+        <prop name="Shadow Offset Right" data="0" />
+        <prop name="Shadow Offset Forward" data="0" />
+        <prop name="Shadow Texture" data="Formula_V10_G1_ambsh.dds" />
+        <prop name="Grid Grouping" data="3" />
+        <prop name="Vehicle Class" data="F1-1996_LD" />
+        <prop name="Vehicle Group" data="Openwheel" />
+        <prop name="Vehicle Shape" data="OpenWheel" />
+        <prop name="Engine Placement" data="Mid" />
+        <prop name="Number of Exhausts" data="1" />
+        <prop name="Exhaust Position 1" data="0.0;0.101;1.819" />
+        <prop name="Exhaust Target Position 1" data="0.0;0.101;2.119" />
+        <prop name="Exhaust Smoke Amount Multiplier" data="0.036" />
+        <prop name="Number of Engine Heat" data="1" />
+        <prop name="Engine Heat Position 1" data="0;0.581;0.978" />
+        <prop name="Blown Engine Smoke Position" data="0;0.581;0.978" />
+        <prop name="Vehicle Description" data="" />
+		<prop name="PitSpeedLimit_HighKPH" data="100.0" />
+        <prop name="AI ONLY" data="true" />
+        <prop name="Vehicle Initial Performance Index" data="129" />
+        <prop name="Body Upgrades" data="" />
+        <prop name="Cockpit Upgrades" data="" />
+        <prop name="Tire Upgrades" data="" />
+        <prop name="Brake Upgrades" data="" />
+        <prop name="Tier" data="5" />
+        <prop name="Price" data="120000" />
+        <prop name="Region" data="EU" />
+        <prop name="Country" data="Italy" />
+        <prop name="Paint Shop Data" data="N/A" />
+        <prop name="Min Front Wheel Diameter" data="13" />
+        <prop name="Max Front Wheel Diameter" data="13" />
+        <prop name="Min Rear Wheel Diameter" data="13" />
+        <prop name="Max Rear Wheel Diameter" data="13" />
+        <prop name="Max GUI Wheel Angle" data="20.0" />
+        <prop name="PULC Package ID 360" data="" />
+        <prop name="PULC Package ID PS3" data="" />
+        <prop name="Client Vehicle Version" data="1" />
+		<prop name="Vehicle Garage Rotation" data="0.0;3.141592653589;0.0" />
+        <prop name="Left Mirror Pos" data="0.324;0.629;-0.648" />
+        <prop name="Right Mirror Pos" data="-0.324;0.629;-0.648" />
+        <prop name="AABBMin" data="-1.5;-0.0;-4.0" />
+        <prop name="AABBMax" data="1.5;1.5;4.0" />
+    </data>
+</Reflection>

@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="TrackDetails" base="BPersistent">
+        <prop name="TrackName" type="String" />
+        <prop name="ShortTrackName" type="String" />
+        <prop name="ScenegraphFile" type="String" />
+        <prop name="Year" type="S32" />
+        <prop name="Length" type="S32" />
+        <prop name="Location" type="String" />
+        <prop name="Country" type="String" />
+		<prop name="TrackGradeFilter" type="String" />		
+        <prop name="Track Type" type="String" />
+        <prop name="Allowed Weather" type="String" />
+		<prop name="Weather Weights" type="String" />		
+        <prop name="GroundCoverFolder" type="String" />
+        <prop name="Allowed TimeOfDay" type="String" />
+        <prop name="TimeOfDay Group" type="String" />
+        <prop name="PreRace Allowed (true/false)" type="Bool" />
+        <prop name="Environment File" type="String" />
+        <prop name="Environment Time" type="String" />
+        <prop name="Dusk Race" type="Bool" />
+        <prop name="Dusk File" type="String" />
+        <prop name="Dusk Time" type="String" />
+        <prop name="Event Types" type="String" />
+        <prop name="Setup group" type="String" />
+        <prop name="Sun Angle(DEG)" type="Float" />
+        <prop name="Track Surface" type="String" />
+        <prop name="Track Group" type="String" />
+        <prop name="Track Description" type="String" />
+        <prop name="LeaderboardID" type="S32" />
+        <prop name="Max AI participants" type="U32" />
+        <prop name="Class" type="String" />
+        <prop name="DirtSkidmarksOverride" type="String" />
+        <prop name="DrySkidmarksOverride" type="String" />
+        <prop name="GrassSkidmarksOverride" type="String" />
+        <prop name="GravelSkidmarksOverride" type="String" />
+        <prop name="SandSkidmarksOverride" type="String" />
+        <prop name="GravelParticlesOverride" type="String" />
+        <prop name="GrassParticlesOverride" type="String" />
+        <prop name="LeafParticlesOverride" type="String" />
+        <prop name="Uses Reflection Flag" type="Bool" />
+        <prop name="Track_Location" type="String" />
+        <prop name="Track_Variation" type="String" />
+        <prop name="AIW Override" type="String" />
+        <prop name="ZoneName" type="String" />
+        <prop name="XLASTID" type="U32" />
+        <prop name="AI Grip" type="F32" />
+	<prop name="AI drift score min" type="U32" />
+        <prop name="AI drift score max" type="U32" />
+        <prop name="Rolling Start Allowed" type="Bool" />
+        <prop name="Client Track Version" type="U32" />
+        <prop name="Order Override" type="U32" />
+        <prop name="Track_Longitude" type="F32" />
+        <prop name="Track_Latitude" type="F32" />
+        <prop name="Track_Altitude" type="F32" />
+        <prop name="Track_TimeZone" type="S32" />
+        <prop name="Number Of Turns" type="U32" />
+        <prop name="Track_Rotation_Offset" type="F32" />
+        <prop name="Race_Date_Year" type="S32" />
+        <prop name="Race_Date_Month" type="S32" />
+        <prop name="Race_Date_Day" type="S32" />
+        <prop name="Track_Climate" type="String" />
+        <prop name="StaticEnvMapLocation" type="Vec4f" />
+        <prop name="StaticConvolveEnvMapLocation" type="Vec4f" />
+        <prop name="PreRace Script name" type="String" />
+        <prop name="PreRace Script length" type="F32" />
+        <prop name="PostRace Script name" type="String" />
+        <prop name="Track Properties File" type="String" />
+        <prop name="Crowd Pak Filename" type="String" />
+		<prop name="PitSpeedLimit_HighKPH" type="F32" />
+		<prop name="AI Pit Exit Speed Scalar" type="F32" />
+		<prop name="PresetFilter" type="String" />
+		<prop name="Is Clockwise" type="Bool" />
+		<prop name="CutTrackFraction" type="F32" />
+    </class>
+    <data class="TrackDetails" id="0x18887368">
+        <prop name="Name" data="Lakeville_Raceway_National" />
+        <prop name="TrackName" data="Sonoma_Raceway_National" />
+        <prop name="ShortTrackName" data="Sonoma_National" />
+        <prop name="ScenegraphFile" data="Lakeville_Raceway_National.sgx" />
+        <prop name="Year" data="2017" />
+        <prop name="Length" data="3700" />
+        <prop name="Location" data="USA" />
+        <prop name="Country" data="US" />
+	<prop name="TrackGradeFilter" data="Grade3" />
+        <prop name="Track Type" data="Circuit" />
+	<prop name="Allowed Weather" data="Weather_Clear,Weather_LightCloud,Weather_MedCloud,Weather_HeavyCloud,Weather_Overcast,Weather_LightRain,Weather_Rainy,Weather_Stormy,Weather_SuperStorm,Weather_Foggy,weather_fog_with_rain,weather_heavy_fog,weather_heavy_fog_with_rain,Weather_Hazy,Weather_Random" />
+        <prop name="Weather Weights" data="20,20,20,10,4,2,2,1,1,0.2,0.2,0.0,0.0,0.5,0.0" />		
+        <prop name="GroundCoverFolder" data="Lakeville" />
+        <prop name="Allowed TimeOfDay" data="All" />
+        <prop name="TimeOfDay Group" data="Lakeville_Raceway" />
+        <prop name="PreRace Allowed (true/false)" data="true" />
+        <prop name="Environment File" data="Lakeville_Raceway.wdf" />
+        <prop name="Environment Time" data="day" />
+        <prop name="Dusk Race" data="false" />
+        <prop name="Dusk File" data="" />
+        <prop name="Dusk Time" data="" />
+        <prop name="Event Types" data="!RallyCross" />
+        <prop name="Setup group" data="Circuit" />
+        <prop name="Sun Angle(DEG)" data="0.0" />
+        <prop name="Track Surface" data="Tarmac" />
+        <prop name="Track Group" data="Sonoma" />
+        <prop name="Track Description" data="" />
+        <prop name="LeaderboardID" data="58" />
+        <prop name="Max AI participants" data="31" />
+        <prop name="Class" data="Race,Street" />
+        <prop name="DirtSkidmarksOverride" data="" />
+        <prop name="DrySkidmarksOverride" data="" />
+        <prop name="GrassSkidmarksOverride" data="" />
+        <prop name="GravelSkidmarksOverride" data="" />
+        <prop name="SandSkidmarksOverride" data="" />
+        <prop name="GravelParticlesOverride" data="" />
+        <prop name="GrassParticlesOverride" data="" />
+        <prop name="LeafParticlesOverride" data="" />
+        <prop name="Uses Reflection Flag" data="true" />
+        <prop name="Track_Location" data="Sonoma_Raceway" />
+        <prop name="Track_Variation" data="National" />
+        <prop name="AIW Override" data="" />
+        <prop name="ZoneName" data="Sonoma" />
+        <prop name="XLASTID" data="91" />
+        <prop name="AI Grip" data="1.2" />
+	<prop name="AI drift score min" data="100" />
+        <prop name="AI drift score max" data="200" />
+        <prop name="Rolling Start Allowed" data="true" />
+        <prop name="Client Track Version" data="1" />
+        <prop name="Order Override" data="2" />
+        <prop name="Track_Longitude" data="-122.458167" />
+        <prop name="Track_Latitude" data="38.16341" />
+        <prop name="Track_Altitude" data="11.882" />
+        <prop name="Track_TimeZone" data="-8" />
+        <prop name="Number Of Turns" data="17" />
+        <prop name="Track_Rotation_Offset" data="-141.5" />
+        <prop name="Race_Date_Year" data="2017" />
+        <prop name="Race_Date_Month" data="7" />
+        <prop name="Race_Date_Day" data="24" />
+        <prop name="Track_Climate" data="california" />
+        <prop name="StaticEnvMapLocation" data="603.794495; 25.749208; -126.972725; 1.0" />
+        <prop name="StaticConvolveEnvMapLocation" data="603.794495; 25.749208; -126.972725; 1.0" />
+        <prop name="PreRace Script name" data="camera_pre_race.script" />
+        <prop name="PreRace Script length" data="5" />
+        <prop name="PostRace Script name" data="default_post_race.script" />
+        <prop name="Track Properties File" data="TrackProperties" />
+        <prop name="Crowd Pak Filename" data="sonoma" />
+		<prop name="PitSpeedLimit_HighKPH" data="60.0" />
+		<prop name="AI Pit Exit Speed Scalar" data="0.995" />
+		<prop name="PresetFilter" data="Grade3" />
+                <prop name="Is Clockwise" data="true" />
+		<prop name="CutTrackFraction" data="1.00" />
+    </data>
+</Reflection>

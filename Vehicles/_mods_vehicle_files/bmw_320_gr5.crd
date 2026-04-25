@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<Reflection>
+    <class name="BRTTIRefCount" base="root class" />
+    <class name="BPersistent" base="BRTTIRefCount">
+        <prop name="Name" type="String" />
+    </class>
+    <class name="VehicleDetails" base="BPersistent">
+        <prop name="Vehicle Name" type="String" />
+        <prop name="ShortVehicleName" type="String" />
+        <prop name="XLASTID" type="S32" />
+        <prop name="VehicleManufacturer" type="String" />
+        <prop name="VehicleModel" type="String" />
+        <prop name="Vehicle Render Model" type="String" />
+        <prop name="Driver Character" type="String" />
+        <prop name="Vehicle Physics Model" type="String" />
+        <prop name="Cockpit properties" type="String" />
+        <prop name="Vehicle Properties" type="String" />
+        <prop name="Vehicle Year" type="S32" />
+        <prop name="Shadow Width" type="F32" />
+        <prop name="Shadow Length" type="F32" />
+        <prop name="Shadow Offset Right" type="F32" />
+        <prop name="Shadow Offset Forward" type="F32" />
+        <prop name="Shadow Texture" type="String" />
+        <prop name="Grid Grouping" type="U32" />
+        <prop name="Vehicle Class" type="String" />
+        <prop name="Vehicle Group" type="String" />
+        <prop name="Vehicle Shape" type="String" />
+        <prop name="Engine Placement" type="String" />
+        <prop name="Number of Exhausts" type="S32" />
+        <prop name="Exhaust Position 1" type="Vec3f" />
+        <prop name="Exhaust Target Position 1" type="Vec3f" />
+        <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
+        <prop name="Number of Engine Heat" type="S32" />
+        <prop name="Engine Heat Position 1" type="Vec3f" />
+        <prop name="Blown Engine Smoke Position" type="Vec3f" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" type="F32" />
+        <prop name="Exhaust Backfire Mesh Length Scale" type="F32" />
+        <prop name="Vehicle Description" type="String" />
+        <prop name="AI ONLY" type="Bool" />
+        <prop name="Vehicle Initial Performance Index" type="S32" />
+        <prop name="Body Upgrades" type="String" />
+        <prop name="Cockpit Upgrades" type="String" />
+        <prop name="Tire Upgrades" type="String" />
+        <prop name="Brake Upgrades" type="String" />
+        <prop name="Tier" type="U32" />
+        <prop name="Price" type="U32" />
+        <prop name="Region" type="String" />
+        <prop name="Country" type="String" />
+        <prop name="Paint Shop Data" type="String" />
+        <prop name="Min Front Wheel Diameter" type="U32" />
+        <prop name="Max Front Wheel Diameter" type="U32" />
+        <prop name="Min Rear Wheel Diameter" type="U32" />
+        <prop name="Max Rear Wheel Diameter" type="U32" />
+        <prop name="Max GUI Wheel Angle" type="F32" />
+        <prop name="Client Vehicle Version" type="U32" />
+        <prop name="Always Hide Helmet" type="Bool" />        
+        <prop name="Left Mirror Pos" type="Vec3f" />
+        <prop name="Right Mirror Pos" type="Vec3f" />
+        <prop name="AABBMin" type="Vec3f" />
+        <prop name="AABBMax" type="Vec3f" />
+        <prop name="Scratch Texture" type="String" />
+
+    </class>
+    <data class="VehicleDetails" id="0xD8D56D0">
+ <prop name="Name" data="bmw_320_gr5" />
+        <prop name="Vehicle Name" data="BMW 320 Turbo Gr5" />
+        <prop name="ShortVehicleName" data="320 Turbo" />
+        <prop name="XLASTID" data="1010" />
+        <prop name="VehicleManufacturer" data="BMW" />
+        <prop name="VehicleModel" data="320 Turbo Gr5" />
+        <prop name="Vehicle Render Model" data="bmw_320_gr5.vhf" />
+        <prop name="Driver Character" data="bmw_320_gr5" />
+        <prop name="Vehicle Physics Model" data="bmw_320_gr5" />
+        <prop name="Cockpit properties" data="bmw_320_gr5_Cockpit.bin" />
+        <prop name="Vehicle Properties" data="bmw_320_gr5" />
+        <prop name="Vehicle Year" data="1978" />
+        <prop name="Shadow Width" data="5.0" />
+        <prop name="Shadow Length" data="7.7" />
+        <prop name="Shadow Offset Right" data="0" />
+        <prop name="Shadow Offset Forward" data="0" />
+        <prop name="Shadow Texture" data="bmw_320_gr5_ambsh.dds" />
+        <prop name="Grid Grouping" data="9" />
+        <prop name="Vehicle Class" data="Gr5" />
+        <prop name="Vehicle Group" data="Gr5" />
+        <prop name="Vehicle Shape" data="GT" />
+        <prop name="Engine Placement" data="Front" />
+        <prop name="Number of Exhausts" data="1" />
+        <prop name="Exhaust Position 1" data="0.957;0.143;0.118" />
+        <prop name="Exhaust Target Position 1" data="1.012;0.143;0.126" />
+        <prop name="Exhaust Smoke Amount Multiplier" data="0.8" />
+        <prop name="Number of Engine Heat" data="1" />
+        <prop name="Engine Heat Position 1" data="0;0.62;-1.41" />
+        <prop name="Blown Engine Smoke Position" data="0;0.62;-1.41" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="2.5" />
+        <prop name="Exhaust Backfire Mesh Length Scale" data="3.0" />
+        <prop name="Vehicle Description" data="" />
+        <prop name="AI ONLY" data="false" />
+        <prop name="Vehicle Initial Performance Index" data="107" />
+        <prop name="Body Upgrades" data="" />
+        <prop name="Cockpit Upgrades" data="" />
+        <prop name="Tire Upgrades" data="" />
+        <prop name="Brake Upgrades" data="" />
+        <prop name="Tier" data="5" />
+        <prop name="Price" data="373000" />
+        <prop name="Region" data="EU" />
+        <prop name="Country" data="Germany" />
+        <prop name="Paint Shop Data" data="N/A" />
+        <prop name="Min Front Wheel Diameter" data="16" />
+        <prop name="Max Front Wheel Diameter" data="20" />
+        <prop name="Min Rear Wheel Diameter" data="16" />
+        <prop name="Max Rear Wheel Diameter" data="20" />
+        <prop name="Max GUI Wheel Angle" data="20.0" />
+        <prop name="Client Vehicle Version" data="1" />
+        <prop name="Always Hide Helmet" data="true" />        
+        <prop name="Left Mirror Pos" data="0.7461;0.8727;-0.3990" />
+        <prop name="Right Mirror Pos" data="-0.7462;0.8727;-0.3989" />
+        <prop name="AABBMin" data="-1.0116;-0.0003;-2.2902" />
+        <prop name="AABBMax" data="1.0116;1.3900;2.6059" />
+        <prop name="Scratch Texture" data="common_windscreen_scratches_02.dds" />
+    </data>
+</Reflection>

@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="36" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">		
+		<NAME LIVERY="1" NAME="Candy Apple Red" />
+		<NAME LIVERY="2" NAME="Springtime Yellow" />
+		<NAME LIVERY="3" NAME="Raven Black" />
+		<NAME LIVERY="4" NAME="Wimbledon White" />
+		<NAME LIVERY="5" NAME="Arcadian Blue" />
+		<NAME LIVERY="6" NAME="Sahara Beige" />
+		<NAME LIVERY="7" NAME="Signal Flare Red" />
+		<NAME LIVERY="8" NAME="Nightmist Blue" />
+		<NAME LIVERY="9" NAME="Vintage Burgundy" />
+		<NAME LIVERY="10" NAME="Antique Bronze Met." />
+		<NAME LIVERY="11" NAME="Ivy Green Met." />
+		<NAME LIVERY="12" NAME="Tahoe Turquoise Met." />
+		<NAME LIVERY="13" NAME="Emberglo Met." />
+		<NAME LIVERY="14" NAME="Silver Blue Met." />
+		<NAME LIVERY="15" NAME="Sauterne Gold Met." />
+		<NAME LIVERY="16" NAME="Silver Frost Met." />
+		<NAME LIVERY="17" NAME="Anniversary Gold Met." />
+		<NAME LIVERY="52" NAME="Light Blue Met. / Stripes" />
+		<NAME LIVERY="53" NAME="Gold Met. / Stripes" />
+		<NAME LIVERY="54" NAME="Burgundy / Stripes" />
+		<NAME LIVERY="55" NAME="Orange / Stripes" />
+		<NAME LIVERY="56" NAME="Black / Stripes" />
+		<NAME LIVERY="57" NAME="Green Apple / Stripes" />
+		<NAME LIVERY="58" NAME="Yellow / Stripes" />
+		<NAME LIVERY="59" NAME="Dark Red Met. / Flames" />
+		<NAME LIVERY="60" NAME="Cream / Stripes" />
+		<NAME LIVERY="61" NAME="Dark Bronze Met." />
+		<NAME LIVERY="62" NAME="Blue Met. / Flames" />
+		<NAME LIVERY="63" NAME="Dark Green Met. / Stripes" />
+		<NAME LIVERY="64" NAME="Red / Stripes" />
+		<NAME LIVERY="65" NAME="Dark Red Met." />
+		<NAME LIVERY="66" NAME="Yellow Met. / Stripes" />
+		<NAME LIVERY="67" NAME="Green / Stripes" />
+		<NAME LIVERY="68" NAME="Night Blue Met." />
+		<NAME LIVERY="69" NAME="Purple / Stripes" />
+		<NAME LIVERY="70" NAME="Dark Blue / Bronze Met." />
+
+		<NAME LIVERY="99" NAME="Custom Livery" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="3" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="1">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ford_candyapple_red.mtx" />	
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_candyapple_red_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ford_candyapple_red_autocpit.mtx" />	
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_candyapple_red_autoskin_autocpit.mtx" />	
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="2">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ford_springtime_yellow.mtx" />	
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_springtime_yellow_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ford_springtime_yellow_autocpit.mtx" />	
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_springtime_yellow_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="3">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ford_black.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_black_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ford_black_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_black_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="4">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ford_wimbledon_white.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_wimbledon_white_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ford_wimbledon_white_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_wimbledon_white_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="5">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ford_arcadian_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_arcadian_blue_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ford_arcadian_blue_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_arcadian_blue_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="6">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ford_sahara_beige.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_sahara_beige_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ford_sahara_beige_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_sahara_beige_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="7">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ford_signalflare_red.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_signalflare_red_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ford_signalflare_red_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_signalflare_red_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="8">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ford_nightmist_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_nightmist_blue_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ford_nightmist_blue_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_nightmist_blue_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="9">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ford_vintage_burgundy.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_vintage_burgundy_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ford_vintage_burgundy_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ford_vintage_burgundy_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="10">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery10_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="11">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery11_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="12">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery12_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="13">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery13_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="14">
+
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery14_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="15">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery15_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="16">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery16_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="17">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery17_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+
+	
+	<CONDITION LIVERY="52">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\PAG_ZR_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery02.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery03.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery04.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery05.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery06.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery07.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery08.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="59">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\ford_gt40_mkiv_livery03.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery09.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery10.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="61">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\pag_zr_livery13.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery11.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="62">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_18.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_18_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_18_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_18_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY18.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery12.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="63">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery13.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery14.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="65">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\ford_gt40_mkiv_livery03.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery15.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="66">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gum_13.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gum_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gum_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gum_13_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\GUMPERT_APOLLO_LIVERY13.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery16.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="67">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery17.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="68">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_04_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\ford_gt40_mkiv_livery04.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery18.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="69">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery19.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="70">
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\PAG_ZR_LIVERY13.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery20.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+	
+		<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="Vehicles\Textures\for_mus_f_66\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\for_mus_f_66_livery01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tire_firestone_lm67_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="99">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\ford_mustang_fastback_1966_livery.dds" />
+	</CONDITION>
+	
+	<!-- 'Soft'. Copy of Hard in case AI use it -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_spec_01.dds" />
+	</CONDITION>
+
+	<!-- 'Medium'. Copy of Hard in case AI use it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_spec_01.dds" />
+	</CONDITION>
+
+	<!-- 'Hard'. Vintage road car tread pattern -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_spec_01.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate'. Copy of Hard in case AI use it -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\for_mus_f_66\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66\tread_firestone_f167_spec_01.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Copy of Hard in case AI use it -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\textures\tread_firestone_f167_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_firestone_f167_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_firestone_f167_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_firestone_f167_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\textures\tread_firestone_f167_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_firestone_f167_spec_01.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\for_mus_f_66_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="10" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="#16 Graff Racing" />
+		<NAME LIVERY="52" NAME="#17 Graff Racing" />
+		<NAME LIVERY="53" NAME="#18 Seiler Motorsport" />
+		<NAME LIVERY="54" NAME="#100 Callaway Competition" />
+		<NAME LIVERY="55" NAME="#101 Callaway Competition" />
+		<NAME LIVERY="56" NAME="AutoArena" />
+		<NAME LIVERY="57" NAME="itk" />
+		<NAME LIVERY="58" NAME="Pilot" />
+		<NAME LIVERY="59" NAME="Roller" />
+		<NAME LIVERY="60" NAME="Italy" />
+	</NAMES>
+
+<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="51">
+		<REPLACE MATERIAL="vehicles\chevrolet_corvette_gt3\CORVETTE_GT3_PAINT" NEWMATERIAL="Vehicles\_generic_materials\livery_z4_gt3_040_CR6_hr.mtx" />
+		<REPLACE MATERIAL="vehicles\chevrolet_corvette_gt3\CORVETTE_GT3_PAINT_SKIN" NEWMATERIAL="Vehicles\_generic_materials\livery_z4_gt3_040_CR6_hr_skin.mtx" />
+
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\corvette_gt3_livery01_hr.dds" />		
+
+		<REPLACE TEXTURE="vehicles\textures\CORVETTE_GT3_BANNER_DIFFUSE.dds" NEWTEXTURE="vehicles\textures\CORVETTE_GT3_BANNER_016_DIFFUSE.dds" />
+		<REPLACE TEXTURE="vehicles\textures\COMMON_INVISIBLE_DUMMY.dds" NEWTEXTURE="vehicles\textures\CORVETTE_GT3_NAMES01_DIFFUSE.DDS" />
+	</CONDITION>
+
+	<CONDITION LIVERY="52">
+		<REPLACE MATERIAL="vehicles\chevrolet_corvette_gt3\CORVETTE_GT3_PAINT" NEWMATERIAL="Vehicles\_generic_materials\livery_z4_gt3_041_CR6_hr.mtx" />
+		<REPLACE MATERIAL="vehicles\chevrolet_corvette_gt3\CORVETTE_GT3_PAINT_SKIN" NEWMATERIAL="Vehicles\_generic_materials\livery_z4_gt3_041_CR6_hr_skin.mtx" />
+
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\corvette_gt3_livery02_hr.dds" />
+		
+		<REPLACE TEXTURE="vehicles\textures\CORVETTE_GT3_BANNER_DIFFUSE.dds" NEWTEXTURE="vehicles\textures\CORVETTE_GT3_BANNER_017_DIFFUSE.dds" />
+		<REPLACE TEXTURE="vehicles\textures\COMMON_INVISIBLE_DUMMY.dds" NEWTEXTURE="vehicles\textures\CORVETTE_GT3_NAMES02_DIFFUSE.DDS" />
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\CORVETTE_GT3_LIVERY03_HR.dds" />
+
+		<REPLACE TEXTURE="Vehicles\Textures\CORVETTE_GT3_BADGES_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\CORVETTE_GT3_BADGES01_DIFFUSE.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\CORVETTE_GT3_LIVERY05_HR.dds" />
+
+		<REPLACE TEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_100_DIFFUSE.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\CORVETTE_GT3_LIVERY06_HR.dds" />
+		
+		<REPLACE TEXTURE="Vehicles\Textures\CORVETTE_GT3_BADGES_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\CORVETTE_GT3_BADGES01_DIFFUSE.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_101_DIFFUSE.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\Corvette_AutoArena.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_100_DIFFUSE.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\corvette_itk_40.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_100_DIFFUSE.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\Corvette_Pilot.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_100_DIFFUSE.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\corvette_Roller.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_100_DIFFUSE.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\14Corvette34.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\CORVETTE_GT3_BANNER_100_DIFFUSE.dds" />
+	</CONDITION>
+
+<!-- Soft Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Medium Slick tire. In case AI uses it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Hard Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Studded Ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\audi_r8_lms_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+
+</REPLACEMENT_SYSTEM>

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="41" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="1" NAME="Appletree Green" />
+		<NAME LIVERY="2" NAME="Arden Green" />
+		<NAME LIVERY="3" NAME="Sea Storm" />
+		<NAME LIVERY="4" NAME="Ocellus Teal" />
+		<NAME LIVERY="5" NAME="Silver Fox" />
+		<NAME LIVERY="6" NAME="Hammerhead Silver" />
+		<NAME LIVERY="7" NAME="Magnetic Silver" />
+		<NAME LIVERY="8" NAME="Gloss Xenon Grey" />
+		<NAME LIVERY="9" NAME="Onyx Black" />
+		<NAME LIVERY="10" NAME="China Grey" />
+		<NAME LIVERY="11" NAME="Jet Black" />
+		<NAME LIVERY="12" NAME="Ultramarine Black" />
+		<NAME LIVERY="13" NAME="Midnight Blue" />
+		<NAME LIVERY="14" NAME="Intense Blue" />
+		<NAME LIVERY="15" NAME="Lightning Silver" />
+		<NAME LIVERY="16" NAME="Skyfall Silver" />
+		<NAME LIVERY="17" NAME="Frosted Glass Blue" />
+		<NAME LIVERY="18" NAME="Concours Blue" />
+		<NAME LIVERY="19" NAME="Mariana Blue" />
+		<NAME LIVERY="20" NAME="Hyper Red" />
+		<NAME LIVERY="21" NAME="Diavolo Red" />
+		<NAME LIVERY="22" NAME="Divine Red" />
+		<NAME LIVERY="23" NAME="Kopi Bronze" />
+		<NAME LIVERY="24" NAME="Marron Black" />
+		<NAME LIVERY="25" NAME="Cinnabar Orange" />
+		<NAME LIVERY="26" NAME="Lime Essence" />
+		<NAME LIVERY="27" NAME="Yellow Tang" />
+		<NAME LIVERY="28" NAME="Pearl Blonde" />
+		<NAME LIVERY="29" NAME="Lunar White" />
+		<NAME LIVERY="30" NAME="Stratus White" />
+		<NAME LIVERY="31" NAME="Morning Frost White" />
+		<NAME LIVERY="32" NAME="Selene Bronze" />
+		<NAME LIVERY="33" NAME="Arizona Bronze" />
+		<NAME LIVERY="34" NAME="Satin Xenon Grey" />
+		<NAME LIVERY="35" NAME="Pentland Green" />
+		<NAME LIVERY="36" NAME="Satin Concours Blue" />
+		<NAME LIVERY="37" NAME="Zaffre Blue" />
+		<NAME LIVERY="38" NAME="AM Heritage Racing Green" />
+		<NAME LIVERY="39" NAME="Platinium White" />
+		<NAME LIVERY="40" NAME="Golden Saffron" />
+		<NAME LIVERY="41" NAME="Satin Titanium Silver" />
+	</NAMES>
+	
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="1">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_appletree_green.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_appletree_green.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_appletree_green.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="2">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_arden_green.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_arden_green.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_arden_green.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="3">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_sea_storm.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_sea_storm.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_sea_storm.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="4">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_ocellus_teal.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_ocellus_teal.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_ocellus_teal.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_bitter_chocolate_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_bitter_chocolate.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_bitter_chocolate.dds" />
+		<REPLACE TEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" NEWTEXTURE="vehicles\textures\common_leather02_bitter_chocolate_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_bitter_chocolate_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse_mint.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather_mint.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse_bitter_chocolate.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="5">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_silver_fox.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_silver_fox.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_silver_fox.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="6">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_hammerhead_silver.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_hammerhead_silver.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_hammerhead_silver.mtx" />
+	</CONDITION>	
+	<CONDITION LIVERY="7">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_magnetic_silver.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon_black_tinted.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_chesnut_tan_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_chesnut_tan.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_chesnut_tan.dds" />
+		<REPLACE TEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" NEWTEXTURE="vehicles\textures\common_leather02_chesnut_tan_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_chesnut_tan_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse_yellow.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather_yellow.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse_chesnut_tan.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="8">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_gloss_xenon_grey.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_gloss_xenon_grey.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_gloss_xenon_grey.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_bitter_chocolate_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_bitter_chocolate.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_bitter_chocolate.dds" />
+		<REPLACE TEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" NEWTEXTURE="vehicles\textures\common_leather02_bitter_chocolate_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_bitter_chocolate_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse_blue.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather_blue.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\aston_db11_misc_diff.dds" NEWTEXTURE="vehicles\textures\aston_db11_misc_diff_yellow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse_bitter_chocolate.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="9">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_onyx_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_onyx_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_onyx_black.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="10">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_china_grey.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_side_louvre" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_nero.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\aston_db11_misc_diff.dds" NEWTEXTURE="vehicles\textures\aston_db11_misc_diff_yellow.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="11">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="12">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_ultramarine_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_ultramarine_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_ultramarine_black.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="13">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_midnight_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_midnight_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_midnight_blue.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="14">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_intense_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="15">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_lightning_silver.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_lightning_silver.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_lightning_silver.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="16">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_skyfall_silver.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_skyfall_silver.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_skyfall_silver.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="17">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_frosted_glass_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_frosted_glass_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_frosted_glass_blue.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="18">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_concours_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_concours_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_concours_blue.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="19">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_mariana_blue2.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_mariana_blue2.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_mariana_blue2.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_mariana_blue2.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="20">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_hyper_red.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon_black_tinted.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_blue_haze_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_blue_haze.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_blue_haze.dds" />
+		<REPLACE TEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" NEWTEXTURE="vehicles\textures\common_leather02_blue_haze_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_blue_haze_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse_red.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_red.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\aston_db11_misc_diff.dds" NEWTEXTURE="vehicles\textures\aston_db11_misc_diff_red.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse_blue_haze.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="21">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_diavolo_red.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_diavolo_red.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_side_louvre" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse_red.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_red.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="22">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_divine_red.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_divine_red.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_divine_red.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="23">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_kopi_bronze.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_kopi_bronze.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_kopi_bronze.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="24">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_marron_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_marron_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_marron_black.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="25">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_cinnabar_orange.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_cinnabar_orange.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_cinnabar_orange.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="26">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_lime_essence.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_side_louvre" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse_yellow.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather_yellow.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_lights_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_lights_diffuse_red.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_lights_specular.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_lights_specular_red.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="27">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_yellow_tang.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_yellow_tang.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_yellow_tang.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="28">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_silver_blonde.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_silver_blonde.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_silver_blonde.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="29">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_lunar_white.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_lunar_white.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_lunar_white.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="30">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_stratus_white.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_stratus_white.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_stratus_white.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="31">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_morning_frost_white.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_morning_frost_white.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_morning_frost_white.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="32">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_selene_bronze.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_selene_bronze.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_selene_bronze.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="33">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_arizona_bronze.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_arizona_bronze.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_arizona_bronze.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="34">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_satin_xenon_grey.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_satin_xenon_grey.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_satin_xenon_grey.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_electric_blue_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_electric_blue.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_electric_blue.dds" />
+		<REPLACE TEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" NEWTEXTURE="vehicles\textures\common_leather02_electric_blue_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_electric_blue_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse_blue.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather_blue.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse_electric_blue.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="35">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_pentland_green.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon_black_tinted.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_chesnut_tan_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_chesnut_tan.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_bitter_chocolate.dds" />
+		<REPLACE TEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_bitter_chocolate_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_chesnut_tan_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse_yellow.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather_yellow.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse_chesnut_tan.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_db11_misc_diff.dds" NEWTEXTURE="vehicles\textures\aston_db11_misc_diff_yellow.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="36">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_satin_concours_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_satin_concours_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_satin_concours_blue.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="37">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_zaffre_blue.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_zaffre_blue.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse_blue.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_electric_blue_diffuse.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="38">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_heritage_racing_green.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_carbon" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon_black_tinted.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_heritage_racing_green.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_chesnut_tan_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_chesnut_tan.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_chesnut_tan.dds" />
+		<REPLACE TEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" NEWTEXTURE="vehicles\textures\common_leather02_chesnut_tan_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather02_chesnut_tan_diffuse.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse_yellow.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather_yellow.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_windscreen_diffuse_chesnut_tan.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_db11_misc_diff.dds" NEWTEXTURE="vehicles\textures\aston_db11_misc_diff_yellow.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="39">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_platinium_white.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_side_louvre" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_stitching_diffuse_white.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_white.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\aston_db11_misc_diff.dds" NEWTEXTURE="vehicles\textures\aston_db11_misc_diff_red.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="40">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_golden_saffron.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_golden_saffron.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_side_louvre" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_jet_black.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_nero.mtx" />
+	</CONDITION>
+	<CONDITION LIVERY="41">
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint" NEWMATERIAL="vehicles\_generic_materials\paint_aston_martin_satin_titanium_silver.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_mirrors" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_roof_strake" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\aston_martin_dbs_paint_side_louvre" NEWMATERIAL="vehicles\_generic_materials\aston_martin_dbs_paint_carbon.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather02_preforated_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\common_leather_perf_black_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse.dds" NEWTEXTURE="vehicles\textures\aston_martin_dbs_leather_tilling_diffuse_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_leather_lbrown_diff.dds" NEWTEXTURE="vehicles\textures\COMMON_LEATHER02_nero_DIFF.dds" />
+		<REPLACE MATERIAL="vehicles\aston_martin_dbs\generic01_leather3" NEWMATERIAL="vehicles\_generic_materials\common_leather02_nero.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\aston_db11_misc_diff.dds" NEWTEXTURE="vehicles\textures\aston_db11_misc_diff_red.dds" />
+	</CONDITION>
+
+
+	<!-- 'Soft'. Semi-Slick road car tire. Pirelli Trofeo R -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium'. R-compound road car tire. Pirelli P Zero Corsa -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard'. Summer road car tire. Pirelli P Zero -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate'. All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Winter/Snow tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>
+

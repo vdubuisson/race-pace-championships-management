@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="22" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="1" NAME="Rosso Corsa" />
+		<NAME LIVERY="2" NAME="Giallo Modena" />
+		<NAME LIVERY="3" NAME="Nero" />
+		<NAME LIVERY="4" NAME="Nero Daytona Met." />
+		<NAME LIVERY="5" NAME="Bianco Avus" />
+		<NAME LIVERY="6" NAME="Rosso Mugello" />
+		<NAME LIVERY="7" NAME="Rosso Scuderia" />
+		<NAME LIVERY="8" NAME="Argento Nurburgring Met." />
+		<NAME LIVERY="9" NAME="Blu TDF Met." />
+		<NAME LIVERY="10" NAME="Blu Abu Dhabi Met." />
+		<NAME LIVERY="11" NAME="Blu Mirabeau Met." />
+		<NAME LIVERY="12" NAME="Blu Pozzi" />
+		<NAME LIVERY="13" NAME="Grigio Alloy Met." />
+		<NAME LIVERY="14" NAME="Grigio Titanio Met." />
+		<NAME LIVERY="15" NAME="Grigio Ingrid Met." />
+		<NAME LIVERY="16" NAME="Grigio Silverstone Met." />
+		<NAME LIVERY="71" NAME="Livery 1" />
+		<NAME LIVERY="72" NAME="Livery 2" />
+		<NAME LIVERY="73" NAME="Livery 3" />
+		<NAME LIVERY="74" NAME="Livery 4" />
+		<NAME LIVERY="75" NAME="Livery 5" />
+		<NAME LIVERY="76" NAME="Livery 6" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+	<CONDITION LIVERY="1">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_corsa.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_corsa_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_corsa_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_corsa_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="2">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_giallo_modena.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_giallo_modena_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_giallo_modena_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_giallo_modena_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="3">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="4">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_metallic_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_metallic_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_nero_daytona_metallic_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="5">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_bianco_avus.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_bianco_avus_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_bianco_avus_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_bianco_avus_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="6">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_mugello.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_mugello_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_mugello_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_mugello_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="7">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_scuderia.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_scuderia_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_scuderia_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_rosso_scuderia_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="8">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_argento_nurburgring.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_argento_nurburgring_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_argento_nurburgring_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_argento_nurburgring_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="9">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_tdf.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_tdf_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_tdf_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_tdf_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="10">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_abu_dhabi.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_abu_dhabi_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_abu_dhabi_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_abu_dhabi_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="11">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_mirabeau.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_mirabeau_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_mirabeau_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_mirabeau_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="12">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_pozzi.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_pozzi_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_pozzi_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_blu_pozzi_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="13">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_alloy.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_alloy_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_alloy_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_alloy_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="14">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_titanio.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_titanio_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_titanio_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_titanio_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="15">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_ingrid_autoskin_autocpit.mtx" />
+	</CONDITION>
+
+	<CONDITION LIVERY="16">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone_autoskin_autocpit.mtx" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="71">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2k16_grey_metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2k16_grey_metallic_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2k16_grey_metallic_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2k16_grey_metallic_autoskin_autocpit.mtx" />		
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2k16_grey_metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2k16_grey_metallic_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2k16_grey_metallic_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2k16_grey_metallic_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_sf90_str_livery01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="72">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="Vehicles\_generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\fer_sf90_str_misc_diff.dds" NEWTEXTURE="vehicles\textures\fer_sf90_str_misc3_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_sf90_str_livery02.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_sf90_str_livery02_fresnel.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_sf90_str_livery02_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="73">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\fer_sf90_str_misc_diff.dds" NEWTEXTURE="vehicles\textures\fer_sf90_str_misc2_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY18.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_sf90_str_livery03.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="74">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_alloy_stripes.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_alloy_stripes_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_alloy_stripes_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_alloy_stripes_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_sf90_str_livery04.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="75">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="vehicles\Textures\Liveries\fer_sf90_str_livery05.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_sf90_str_misc_diff.dds" NEWTEXTURE="vehicles\textures\fer_sf90_str_misc2_diff.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="76">
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone_stripes.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone_stripes_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone_stripes_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone_stripes_autoskin_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone_stripes.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone_stripes_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone_stripes_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\ferrari_sf90_stradale\fer_sf90_stradale_paint_black_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_grigio_silverstone_stripes_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_sf90_str_livery06.dds" />
+		<REPLACE TEXTURE="vehicles\textures\fer_sf90_str_misc_diff.dds" NEWTEXTURE="vehicles\textures\fer_sf90_str_misc2_diff.dds" />
+	</CONDITION>
+	
+	<!-- 'Soft'. Semi-Slick road car tire. Pirelli Trofeo R -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium'. R-compound road car tire. Pirelli P Zero Corsa -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard'. Summer road car tire. Pirelli P Zero -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate'. All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Winter/Snow tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Studded ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	<!-- tread swaps for custom tyres -->
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\fer_sf90_str_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\fer_sf90_str_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\fer_sf90_str_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>
+

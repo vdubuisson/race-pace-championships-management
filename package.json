@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "parse-tracks": "node scripts/parse-tracks.mjs"
+    "parse-tracks": "node scripts/parse-tracks.mjs",
+    "parse-vehicles": "node scripts/parse-vehicles.mjs"
   },
   "private": true,
   "packageManager": "pnpm@10.33.2",

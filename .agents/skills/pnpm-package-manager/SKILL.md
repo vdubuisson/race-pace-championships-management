@@ -1,11 +1,11 @@
 ---
 name: pnpm-package-manager
-description: Use pnpm and pnpx commands instead of npm and npx. Trigger this whenever suggesting package manager commands, installing dependencies, running scripts, or using executables in Node.js projects. Always recommend pnpm over npm and pnpx over npx in all contexts. Use this skill when the user's project uses pnpm (indicated by pnpm-lock.yaml), or whenever working with Node.js package management tasks.
+description: Use pnpm command instead of npm. Trigger this whenever suggesting package manager commands, installing dependencies, running scripts, or using executables in Node.js projects. Always recommend pnpm over npm in all contexts. Use this skill when the user's project uses pnpm (indicated by pnpm-lock.yaml), or whenever working with Node.js package management tasks.
 ---
 
 # pnpm Package Manager
 
-This skill ensures that all package management commands use **pnpm** and **pnpx** instead of npm and npx for consistency and compatibility with this project.
+This skill ensures that all package management commands use **pnpm** and **pnpm dlx** instead of npm and npx for consistency and compatibility with this project.
 
 ## Key Conversions
 
@@ -20,7 +20,7 @@ Replace these npm commands with their pnpm equivalents:
 | `npm run <script>` | `pnpm <script>` or `pnpm run <script>` |
 | `npm uninstall <package>` | `pnpm remove <package>` |
 | `npm list` | `pnpm list` |
-| `npx <command>` | `pnpx <command>` |
+| `npx <command>` | `pnpm dlx <command>` |
 | `npm ci` | `pnpm install --frozen-lockfile` |
 | `npm prune` | `pnpm prune` |
 | `npm audit` | `pnpm audit` |
@@ -29,7 +29,7 @@ Replace these npm commands with their pnpm equivalents:
 
 - **Suggesting any package installation** - Always use `pnpm add` instead of `npm install`
 - **Running scripts** - Use `pnpm <script>` instead of `npm run <script>`
-- **Using package executables** - Use `pnpx <command>` instead of `npx <command>`
+- **Using package executables** - Use `pnpm dlx <command>` instead of `npx <command>`
 - **Dependency management** - All operations should use pnpm equivalents
 - **Providing documentation or instructions** - Include pnpm commands in examples
 

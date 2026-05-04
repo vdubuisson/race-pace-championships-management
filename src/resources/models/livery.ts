@@ -1,4 +1,5 @@
 export type Livery = {
+  id?: number;
   class: string;
   car_name: string;
   livery_name: string;

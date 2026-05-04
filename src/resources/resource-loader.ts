@@ -179,6 +179,7 @@ export class ResourceLoader {
               case 'elo':
               case 'driver_loyalty':
               case 'expectation_delta':
+                if (value === '') return null;
                 return Number(value);
               default:
                 return value;

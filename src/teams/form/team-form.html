@@ -1,0 +1,91 @@
+	<a
+    [routerLink]="['/teams']"
+    appearance="outline"
+    iconStart="@tui.chevron-left"
+    size="xs"
+    tuiButton
+    class="back-btn"
+>
+    Back
+</a>
+
+<form tuiForm [formGroup]="teamForm" (submit)="onSubmit($event)">
+  <header tuiHeader>
+    <h1 tuiTitle>Team Form</h1>
+  </header>
+
+  <fieldset>
+    <div class="form-field">
+      <label tuiLabel>
+        Name
+        <tui-textfield tuiTextfieldSize="m">
+          <input tuiInput placeholder="Racing Team" formControlName="name" />
+        </tui-textfield>
+      </label>
+      <tui-error formControlName="name" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        Principal
+        <tui-textfield tuiTextfieldSize="m">
+          <input tuiInput placeholder="John Smith" formControlName="principal" />
+        </tui-textfield>
+      </label>
+      <tui-error formControlName="principal" />
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          ELO
+          <tui-icon [tuiTooltip]="eloTooltip" />
+        </span>
+        <tui-textfield tuiTextfieldSize="m">
+          <input tuiInputNumber formControlName="elo" />
+          <button
+            type="button"
+            tuiIconButton
+            appearance="action"
+            size="xs"
+            iconStart="@tui.dices"
+            (click)="setRandomElo()"
+          >
+            Randomize
+          </button>
+        </tui-textfield>
+      </label>
+      <tui-error formControlName="elo" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Driver loyalty
+          <tui-icon [tuiTooltip]="loyaltyTooltip" />
+        </span>
+        <tui-textfield tuiTextfieldSize="m">
+          <input tuiInputNumber formControlName="driver_loyalty" />
+        </tui-textfield>
+      </label>
+      <tui-error formControlName="driver_loyalty" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Expectation delta
+          <tui-icon [tuiTooltip]="expectationDeltaTooltip" />
+        </span>
+        <tui-textfield tuiTextfieldSize="m">
+          <input tuiInputNumber formControlName="expectation_delta" />
+        </tui-textfield>
+      </label>
+      <tui-error formControlName="expectation_delta" />
+    </div>
+  </fieldset>
+
+  <button tuiButton type="submit" size="m">Submit</button>
+</form>

@@ -1,0 +1,71 @@
+<a
+  [routerLink]="['/']"
+  appearance="outline"
+  iconStart="@tui.chevron-left"
+  size="xs"
+  tuiButton
+  class="back-btn"
+>
+  Back
+</a>
+
+<header tuiHeader="h3">
+  <h1 tuiTitle>Teams</h1>
+  <aside tuiAccessories>
+    <a tuiButton appearance="primary" [routerLink]="['/teams/form']" iconStart="@tui.plus"
+      >New Team</a
+    >
+  </aside>
+</header>
+
+<table tuiTable>
+  <thead>
+    <tr>
+      <th tuiTh [sorter]="'name' | tuiSorter">Name</th>
+      <th tuiTh [sorter]="'elo' | tuiSorter">ELO</th>
+      <th tuiTh>Principal</th>
+      <th tuiTh>Driver Loyalty</th>
+      <th tuiTh>Expectation Delta</th>
+      <th tuiTh>Actions</th>
+    </tr>
+  </thead>
+  <tbody tuiTbody>
+    @let sliceStart = pageIndex() * pageSize();
+    @let sliceEnd = (pageIndex() + 1) * pageSize();
+    @let tableData = teams() | tuiTableSort | slice: sliceStart : sliceEnd;
+    @for (team of tableData; track team.name) {
+      <tr tuiTr>
+        <td tuiTd>{{ team.name }}</td>
+        <td tuiTd>{{ team.elo }}</td>
+        <td tuiTd>{{ team.principal }}</td>
+        <td tuiTd>{{ team.driver_loyalty }}</td>
+        <td tuiTd>{{ team.expectation_delta }}</td>
+        <td tuiTd>
+          <a
+            [routerLink]="['form', team.id]"
+            appearance="action"
+            iconStart="@tui.pencil"
+            size="xs"
+            tuiIconButton
+          >
+            Edit
+          </a>
+        </td>
+      </tr>
+    }
+  </tbody>
+  @if (totalPages() > 1) {
+    <tfoot>
+      <tr>
+        <td [colSpan]="6">
+          <tui-table-pagination
+            [page]="pageIndex()"
+            [size]="pageSize()"
+            [total]="teams().length"
+            (paginationChange)="onPagination($event)"
+          />
+        </td>
+      </tr>
+    </tfoot>
+  }
+</table>

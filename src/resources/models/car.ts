@@ -1,4 +1,5 @@
 export type Car = {
+  id?: number;
   team_name: string;
   category: string;
   model: string;

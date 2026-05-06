@@ -1,6 +1,7 @@
 import { DayOfMonth, Month } from "./calendar";
 
 export type Championship = {
+  id?: number;
   name: string;
   categories: Set<string>;
   prestige: number;
@@ -16,8 +17,9 @@ export type Championship = {
   field_type: 'identical' | null;
   events_count: number;
   tags: Set<string>;
-  start_year: number;
-  end_year: number;
+  start_year: number | null;
+  end_year: number | null;
+  default_included: boolean;
 }
 
 export type StartType = 'standing' | 'rolling';

@@ -1,0 +1,149 @@
+<div class="row">
+  <div class="column">
+    <div tuiCardLarge appearance="floating">
+      <header tuiHeader>
+        <h2 tuiTitle>Tags</h2>
+      </header>
+      <section tuiItemGroup>
+        @for (tag of championship().tags; track tag) {
+          <span appearance="custom" tuiChip [style.background-color]="tag | tuiAutoColor">
+            {{ tag }}
+          </span>
+        }
+      </section>
+    </div>
+  </div>
+
+  <div class="column">
+    <div tuiCardLarge appearance="floating">
+      <div tuiCell>
+        <div tuiTitle="m">New season</div>
+        <div class="line"></div>
+        <div tuiTitle>
+          {{ championship().init_month | date: 'LLL' }} {{ championship().init_day | ordinal }}
+        </div>
+      </div>
+      <div tuiCell>
+        <div tuiTitle="m">Recruitment</div>
+        <div class="line"></div>
+        <div tuiTitle>
+          {{ championship().registration_start_month | date: 'LLL' }}
+          {{ championship().registration_start_day | ordinal }} -
+          {{ championship().registration_end_month | date: 'LLL' }}
+          {{ championship().registration_end_day | ordinal }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div tuiCardLarge appearance="floating">
+      <header tuiHeader>
+        <h2 tuiTitle>Scoring system</h2>
+      </header>
+      @for (point of championship().points; track point; let position = $index) {
+        <div tuiCell>
+          <div tuiTitle>{{ position + 1 | ordinal }} place</div>
+          <div class="line"></div>
+          <div tuiTitle>
+            {{
+              point
+                | i18nPlural
+                  : {
+                      '=0': 'No points',
+                      '=1': '1 point',
+                      other: '# points',
+                    }
+            }}
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+
+  <div class="column">
+    <div tuiCardLarge appearance="floating">
+      <header tuiHeader>
+        <h2 tuiTitle>Categories</h2>
+      </header>
+      <section>
+        <ul tuiList>
+          @for (cat of championship().categories; track cat) {
+            <li>{{ cat }}</li>
+          }
+        </ul>
+      </section>
+    </div>
+    <div tuiCardLarge appearance="floating" class="block-1-3">
+      <header tuiHeader>
+        <h2 tuiTitle>Period</h2>
+      </header>
+      <section>
+        @if (championship().start_year || championship().end_year) {
+          {{ championship().start_year }} - {{ championship().end_year }}
+        } @else {
+          No period defined
+        }
+      </section>
+    </div>
+  </div>
+
+  <div class="column">
+    <div tuiCardLarge appearance="floating">
+      <div tuiCell>
+        <div tuiTitle="m">Prestige</div>
+        <div class="line"></div>
+        <div tuiTitle>
+          {{ championship().prestige }}
+        </div>
+      </div>
+      <div tuiCell>
+        <div tuiTitle="m">Events count</div>
+        <div class="line"></div>
+        <div tuiTitle>
+          {{ championship().events_count }}
+        </div>
+      </div>
+      <div tuiCell>
+        <div tuiTitle="m">Start type</div>
+        <div class="line"></div>
+        <div tuiTitle>
+          {{ championship().start_type | titlecase }}
+        </div>
+      </div>
+      @if (championship().field_type) {
+        <div tuiCell>
+          <div tuiTitle="m">Field type</div>
+          <div class="line"></div>
+          <div tuiTitle>
+            {{ championship().field_type | titlecase }}
+          </div>
+        </div>
+      }
+      <div tuiCell>
+        <div tuiTitle="m">Mandatory pit stop</div>
+        <div class="line"></div>
+        <div tuiTitle>
+          <tui-icon
+            [icon]="championship().pit_stop ? '@tui.check' : '@tui.x'"
+            [class.valid]="championship().pit_stop"
+            class="check-icon"
+          ></tui-icon>
+        </div>
+      </div>
+      <div tuiCell>
+        <div tuiTitle="m">Included by default</div>
+        <div class="line"></div>
+        <div tuiTitle>
+          <tui-icon
+            [icon]="championship().default_included ? '@tui.check' : '@tui.x'"
+            [class.valid]="championship().default_included"
+            class="check-icon"
+          ></tui-icon>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.check-icon {
+  color: var(--tui-status-negative);
+
+  &.valid {
+    color: var(--tui-status-positive);
+  }
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--tui-border-normal);
+}

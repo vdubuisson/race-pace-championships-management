@@ -1,0 +1,12 @@
+.championship-list {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.included-icon {
+  color: var(--tui-status-negative);
+
+  &.included {
+    color: var(--tui-status-positive);
+  }
+}

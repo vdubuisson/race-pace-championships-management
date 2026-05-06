@@ -1,0 +1,108 @@
+<a
+  [routerLink]="['/']"
+  appearance="outline"
+  iconStart="@tui.chevron-left"
+  size="xs"
+  tuiButton
+  class="back-btn"
+>
+  Back
+</a>
+
+<header tuiHeader="h3">
+  <h1 tuiTitle>Championships</h1>
+  <aside tuiAccessories>
+    <a tuiButton appearance="primary" [routerLink]="['/championships/form']" iconStart="@tui.plus"
+      >New Championship</a
+    >
+  </aside>
+</header>
+
+<table tuiTable class="championship-list">
+  <thead>
+    <tr>
+      <th tuiTh [sorter]="'name' | tuiSorter" [style.width.%]="30">Name</th>
+      <th tuiTh [style.width.%]="15">Categories</th>
+      <th tuiTh [sorter]="'start_year' | tuiSorter" [style.width.%]="6">Start year</th>
+      <th tuiTh [sorter]="'end_year' | tuiSorter" [style.width.%]="6">End year</th>
+      <th tuiTh [sorter]="'prestige' | tuiSorter" [style.width.%]="7">Prestige</th>
+      <th tuiTh [sorter]="'events_count' | tuiSorter" [style.width.%]="7">Events</th>
+      <th tuiTh [style.width.%]="20">Tags</th>
+      <th tuiTh [sorter]="'default_included' | tuiSorter" [style.width.%]="4">Default</th>
+      <th tuiTh [style.width.%]="5">Actions</th>
+    </tr>
+  </thead>
+  <tbody tuiTbody>
+    @let sliceStart = pageIndex() * pageSize();
+    @let sliceEnd = (pageIndex() + 1) * pageSize();
+    @let tableData = championships() | tuiTableSort | slice: sliceStart : sliceEnd;
+    @for (championship of tableData; track championship.name) {
+      <tr tuiTr>
+        <td tuiTd>{{ championship.name }}</td>
+        <td tuiTd>
+          <div tuiItemGroup>
+            @for (cat of championship.categories; track cat) {
+              <span appearance="custom" tuiChip [style.background-color]="cat | tuiAutoColor">
+                {{ cat }}
+              </span>
+            }
+          </div>
+        </td>
+        <td tuiTd>{{ championship.start_year }}</td>
+        <td tuiTd>{{ championship.end_year }}</td>
+        <td tuiTd>{{ championship.prestige }}</td>
+        <td tuiTd>{{ championship.events_count }}</td>
+        <td tuiTd>
+          <div tuiItemGroup>
+            @for (tag of championship.tags; track tag) {
+              <span appearance="custom" tuiChip [style.background-color]="tag | tuiAutoColor">
+                {{ tag }}
+              </span>
+            }
+          </div>
+        </td>
+        <td tuiTd>
+          <tui-icon
+            [icon]="championship.default_included ? '@tui.check' : '@tui.x'"
+            [class.included]="championship.default_included"
+            class="included-icon"
+          ></tui-icon>
+        </td>
+        <td tuiTd>
+          <a
+            [routerLink]="['details', championship.id]"
+            appearance="action"
+            iconStart="@tui.eye"
+            size="xs"
+            tuiIconButton
+          >
+            View
+          </a>
+          <a
+            [routerLink]="['form', championship.id]"
+            appearance="action"
+            iconStart="@tui.pencil"
+            size="xs"
+            tuiIconButton
+          >
+            Edit
+          </a>
+        </td>
+      </tr>
+    }
+  </tbody>
+  @if (totalPages() > 1) {
+    <tfoot>
+      <tr>
+        <td [colSpan]="9">
+          <tui-table-pagination
+            [page]="pageIndex()"
+            [size]="pageSize()"
+            [total]="championships().length"
+            (paginationChange)="onPagination($event)"
+          />
+        </td>
+      </tr>
+    </tfoot>
+  }
+</table>

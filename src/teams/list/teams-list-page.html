@@ -18,15 +18,15 @@
   </aside>
 </header>
 
-<table tuiTable>
+<table tuiTable class="team-list">
   <thead>
     <tr>
-      <th tuiTh [sorter]="'name' | tuiSorter">Name</th>
+      <th tuiTh [sorter]="'name' | tuiSorter" [style.width.%]="30">Name</th>
       <th tuiTh [sorter]="'elo' | tuiSorter">ELO</th>
-      <th tuiTh>Principal</th>
+      <th tuiTh [style.width.%]="20">Principal</th>
       <th tuiTh>Driver Loyalty</th>
       <th tuiTh>Expectation Delta</th>
-      <th tuiTh>Actions</th>
+      <th tuiTh [style.width.%]="10">Actions</th>
     </tr>
   </thead>
   <tbody tuiTbody>

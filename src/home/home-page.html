@@ -1,3 +1,15 @@
-Home
+<header tuiHeader="h1">
+  <h1 tuiTitle>
+    Race Pace Championships Management
+    <span tuiSubtitle>The app to create/edit custom championships for the Race Pace app</span>
+  </h1>
+</header>
 
-<a routerLink="/teams">Teams</a>
+<div class="actions">
+  <a [routerLink]="['/teams']" tuiButton appearance="primary" iconStart="@tui.users">
+    View teams
+  </a>
+  <a [routerLink]="['/championships']" tuiButton appearance="primary" iconStart="@tui.trophy">
+    View championships
+  </a>
+</div>

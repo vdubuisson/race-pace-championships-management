@@ -14,7 +14,7 @@ const DB_VERSION = 1;
 @Injectable({ providedIn: 'root' })
 export class AppDatabase extends Dexie {
   cars!: Table<Car, number>;
-  championships!: Table<Championship, string>;
+  championships!: Table<Championship, number>;
   classes!: Table<VehicleClass, string>;
   events!: Table<RaceEvent, number>;
   liveries!: Table<Livery, number>;
@@ -26,7 +26,7 @@ export class AppDatabase extends Dexie {
     super('RacePaceChampionshipsManagementDB');
     this.version(DB_VERSION).stores({
       cars: '++id, team_name, *championship_names',
-      championships: 'name, *categories',
+      championships: '++id, name, *categories',
       classes: 'name',
       events: '++id, championship_name',
       liveries: '++id, class',

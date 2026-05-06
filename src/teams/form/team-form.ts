@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, effect, inject, input, numberAttribute } from '@angular/core';
 import { AsyncValidatorFn, FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
-import { TuiButton, TuiError, TuiIcon, TuiInput, TuiTitle } from '@taiga-ui/core';
+import { TuiButton, TuiError, TuiIcon, TuiInput, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
 import { TuiInputNumber, TuiTooltip } from '@taiga-ui/kit';
 import { TuiForm, TuiHeader } from '@taiga-ui/layout';
 import { TeamRepository } from '../../db/team-repository';
@@ -29,6 +29,7 @@ import { Team } from '../../resources/models/team';
 export default class TeamForm {
   private readonly teamRepository = inject(TeamRepository);
   private readonly router = inject(Router);
+  protected readonly notifications = inject(TuiNotificationService)
 
   readonly id = input(NaN, {transform: numberAttribute});
 
@@ -47,7 +48,7 @@ export default class TeamForm {
 
     const currentTeamId = this.id();
 
-    if (currentTeamId && existingTeam.id === currentTeamId) {
+    if (!isNaN(currentTeamId) && existingTeam.id === currentTeamId) {
       return null;
     }
 
@@ -86,7 +87,7 @@ export default class TeamForm {
 
   constructor() {
     effect(() => {
-      if (this.id()) {
+      if (!isNaN(this.id())) {
         this.teamRepository.getTeamById(this.id()).then(team => {
           if (team) {
             this.teamForm.patchValue(team);
@@ -103,10 +104,12 @@ export default class TeamForm {
     event.preventDefault();
     if (this.teamForm.valid) {
       try {
-        if (this.id()) {
+        if (!isNaN(this.id())) {
           await this.teamRepository.updateTeam(this.id() as number, this.teamForm.value as Team);
+          this.notifications.open('Team updated successfully', { appearance: 'positive', autoClose: 3000, closable: false }).subscribe();
         } else {
           await this.teamRepository.addTeam(this.teamForm.value as Team);
+          this.notifications.open('Team added successfully', { appearance: 'positive', autoClose: 3000, closable: false }).subscribe();
         }
         this.router.navigate(['/teams']);
       } catch (error) {

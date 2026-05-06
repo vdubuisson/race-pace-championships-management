@@ -1,0 +1,34 @@
+<a
+  [routerLink]="['/championships']"
+  appearance="outline"
+  iconStart="@tui.chevron-left"
+  size="xs"
+  tuiButton
+  class="back-btn"
+>
+  Back
+</a>
+<header tuiHeader="h3">
+  <h1 tuiTitle>{{ championship().name }}</h1>
+  <aside tuiAccessories>
+    <a
+      tuiButton
+      appearance="primary"
+      [routerLink]="['/championships/form', championship().id]"
+      iconStart="@tui.pencil"
+      >Edit</a
+    >
+  </aside>
+</header>
+<main>
+  <tui-tabs-with-more>
+    @for (tab of tabs; track tab.url) {
+      <a *tuiItem routerLinkActive="active" tuiTab [routerLink]="tab.url" [iconStart]="tab.icon">
+        {{ tab.label }}
+      </a>
+    }
+  </tui-tabs-with-more>
+  <section class="tab-content">
+    <router-outlet />
+  </section>
+</main>

@@ -39,10 +39,12 @@ export class ResourceLoader {
               case 'events_count':
               case 'start_year':
               case 'end_year':
+                if (value === '') return null;
                 return Number(value);
               case 'points':
                 return value.split(',').map((s) => Number(s.trim()));
               case 'pit_stop':
+              case 'default_included':
                 return value.toLowerCase() === 'true';
               case 'field_type':
                 return value === '' ? null : value;

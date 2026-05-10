@@ -14,3 +14,5 @@ export type RaceEvent = {
 }
 
 export type RaceEventType = 'time' | 'laps';
+
+export type RaceEventWithTrack = RaceEvent & { track_name: string };

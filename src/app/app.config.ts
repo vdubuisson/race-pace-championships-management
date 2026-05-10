@@ -8,8 +8,10 @@ import {
 import { provideRouter, withComponentInputBinding, withRouterConfig } from '@angular/router';
 import { provideTaiga, TUI_VALIDATION_ERRORS } from '@taiga-ui/core';
 import { ChampionshipRepository } from '../db/championship-repository';
+import { EventRepository } from '../db/event-repository';
 import { TeamRepository } from '../db/team-repository';
 import { routes } from './app.routes';
+import { TrackRepository } from '../db/track-repository';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -18,7 +20,9 @@ export const appConfig: ApplicationConfig = {
     provideHttpClient(withFetch()),
     provideAppInitializer(() => {
       inject(ChampionshipRepository).initialize();
+      inject(EventRepository).initialize();
       inject(TeamRepository).initialize();
+      inject(TrackRepository).initialize();
     }),
     provideTaiga(),
     {

@@ -20,16 +20,16 @@
         <div tuiTitle="m">New season</div>
         <div class="line"></div>
         <div tuiTitle>
-          {{ championship().init_month | date: 'LLL' }} {{ championship().init_day | ordinal }}
+          {{ championship().init_month | month: 'short' }} {{ championship().init_day | ordinal }}
         </div>
       </div>
       <div tuiCell>
         <div tuiTitle="m">Recruitment</div>
         <div class="line"></div>
         <div tuiTitle>
-          {{ championship().registration_start_month | date: 'LLL' }}
+          {{ championship().registration_start_month | month: 'short' }}
           {{ championship().registration_start_day | ordinal }} -
-          {{ championship().registration_end_month | date: 'LLL' }}
+          {{ championship().registration_end_month | month: 'short' }}
           {{ championship().registration_end_day | ordinal }}
         </div>
       </div>

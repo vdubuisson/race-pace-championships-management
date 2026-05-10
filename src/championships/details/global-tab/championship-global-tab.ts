@@ -5,15 +5,17 @@ import { TuiCell, TuiIcon, TuiTitle } from "@taiga-ui/core";
 import { TuiAutoColorPipe, TuiChip } from "@taiga-ui/kit";
 import { DatePipe, I18nPluralPipe, TitleCasePipe } from "@angular/common";
 import { OrdinalPipe } from "../../../shared/pipes/ordinal/ordinal-pipe";
+import { MonthPipe } from "../../../shared/pipes/month/month-pipe";
 
 @Component({
   selector: 'app-championship-global-tab',
   templateUrl: './championship-global-tab.html',
   styleUrl: './championship-global-tab.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  providers: [DatePipe],
   imports: [
-    DatePipe,
     I18nPluralPipe,
+    MonthPipe,
     OrdinalPipe,
     TitleCasePipe,
     TuiAutoColorPipe,

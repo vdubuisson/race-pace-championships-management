@@ -55,6 +55,14 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "pages": {
+              "outputPath": {
+                "base": "docs",
+                "browser": ""
+              },
+              "baseHref": "/race-pace-championships-management/",
+              "outputHashing": "all"
             }
           },
           "defaultConfiguration": "production"

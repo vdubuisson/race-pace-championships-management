@@ -16,7 +16,7 @@ export class ResourceLoader {
   private readonly http = inject(HttpClient);
 
   loadChampionships(): Observable<Championship[]> {
-    return this.http.get('/resources/championships.csv', { responseType: 'text' }).pipe(
+    return this.http.get('resources/championships.csv', { responseType: 'text' }).pipe(
       map(
         (text) =>
           parse(text, {
@@ -59,7 +59,7 @@ export class ResourceLoader {
   }
 
   loadCars(): Observable<Car[]> {
-    return this.http.get('/resources/cars.csv', { responseType: 'text' }).pipe(
+    return this.http.get('resources/cars.csv', { responseType: 'text' }).pipe(
       map(
         (text) =>
           parse(text, {
@@ -84,7 +84,7 @@ export class ResourceLoader {
   }
 
   loadClasses(): Observable<VehicleClass[]> {
-    return this.http.get('/resources/classes.csv', { responseType: 'text' }).pipe(
+    return this.http.get('resources/classes.csv', { responseType: 'text' }).pipe(
       map(
         (text) =>
           parse(text, {
@@ -98,7 +98,7 @@ export class ResourceLoader {
   }
 
   loadEvents(): Observable<RaceEvent[]> {
-    return this.http.get('/resources/events.csv', { responseType: 'text' }).pipe(
+    return this.http.get('resources/events.csv', { responseType: 'text' }).pipe(
       map(
         (text) =>
           parse(text, {
@@ -125,7 +125,7 @@ export class ResourceLoader {
   }
 
   loadLiveries(): Observable<Livery[]> {
-    return this.http.get('/resources/liveries.csv', { responseType: 'text' }).pipe(
+    return this.http.get('resources/liveries.csv', { responseType: 'text' }).pipe(
       map(
         (text) =>
           parse(text, {
@@ -151,7 +151,7 @@ export class ResourceLoader {
   }
 
   loadModels(): Observable<VehicleModel[]> {
-    return this.http.get('/resources/models.csv', { responseType: 'text' }).pipe(
+    return this.http.get('resources/models.csv', { responseType: 'text' }).pipe(
       map(
         (text) =>
           parse(text, {
@@ -174,7 +174,7 @@ export class ResourceLoader {
   }
 
   loadTeams(): Observable<Team[]> {
-    return this.http.get('/resources/teams.csv', { responseType: 'text' }).pipe(
+    return this.http.get('resources/teams.csv', { responseType: 'text' }).pipe(
       map(
         (text) =>
           parse(text, {
@@ -200,7 +200,7 @@ export class ResourceLoader {
   }
 
   loadTracks(): Observable<Track[]> {
-    return this.http.get('/resources/tracks.csv', { responseType: 'text' }).pipe(
+    return this.http.get('resources/tracks.csv', { responseType: 'text' }).pipe(
       map(
         (text) =>
           parse(text, {

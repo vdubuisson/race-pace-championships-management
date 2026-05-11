@@ -1,7 +1,7 @@
 import { inject, Injectable } from '@angular/core';
 import { firstValueFrom } from 'rxjs';
-import { Car } from '../resources/models/car';
-import { ResourceLoader } from '../resources/resource-loader';
+import { Car } from '@/resources/models/car';
+import { ResourceLoader } from '@/resources/resource-loader';
 import { AppDatabase } from './app-database';
 
 @Injectable({ providedIn: 'root' })

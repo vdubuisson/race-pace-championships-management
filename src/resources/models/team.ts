@@ -5,4 +5,4 @@ export type Team = {
   principal: string;
   driver_loyalty: number | null;
   expectation_delta: number | null;
-}
+};

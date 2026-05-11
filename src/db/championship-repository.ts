@@ -1,9 +1,9 @@
 import { inject, Injectable } from '@angular/core';
 import { AppDatabase } from './app-database';
-import { ResourceLoader } from '../resources/resource-loader';
+import { ResourceLoader } from '@/resources/resource-loader';
 import { firstValueFrom, from, Observable } from 'rxjs';
 import { liveQuery } from 'dexie';
-import { Championship } from '../resources/models/championship';
+import { Championship } from '@/resources/models/championship';
 
 @Injectable({ providedIn: 'root' })
 export class ChampionshipRepository {

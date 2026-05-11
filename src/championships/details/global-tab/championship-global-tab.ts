@@ -1,11 +1,11 @@
-import { ChangeDetectionStrategy, Component, input } from "@angular/core";
-import { Championship } from "../../../resources/models/championship";
-import { TuiCardLarge, TuiHeader, TuiItemGroup, TuiList } from "@taiga-ui/layout";
-import { TuiCell, TuiIcon, TuiTitle } from "@taiga-ui/core";
-import { TuiAutoColorPipe, TuiChip } from "@taiga-ui/kit";
-import { DatePipe, I18nPluralPipe, TitleCasePipe } from "@angular/common";
-import { OrdinalPipe } from "../../../shared/pipes/ordinal/ordinal-pipe";
-import { MonthPipe } from "../../../shared/pipes/month/month-pipe";
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import { Championship } from '@/resources/models/championship';
+import { TuiCardLarge, TuiHeader, TuiItemGroup, TuiList } from '@taiga-ui/layout';
+import { TuiCell, TuiIcon, TuiTitle } from '@taiga-ui/core';
+import { TuiAutoColorPipe, TuiChip } from '@taiga-ui/kit';
+import { DatePipe, I18nPluralPipe, TitleCasePipe } from '@angular/common';
+import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
+import { MonthPipe } from '@/shared/pipes/month/month-pipe';
 
 @Component({
   selector: 'app-championship-global-tab',
@@ -26,8 +26,8 @@ import { MonthPipe } from "../../../shared/pipes/month/month-pipe";
     TuiIcon,
     TuiItemGroup,
     TuiList,
-    TuiTitle
-]
+    TuiTitle,
+  ],
 })
 export default class ChampionshipGlobalTab {
   readonly championship = input.required<Championship>();

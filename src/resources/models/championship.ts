@@ -1,4 +1,4 @@
-import { DayOfMonth, Month } from "./calendar";
+import { DayOfMonth, Month } from './calendar';
 
 export type Championship = {
   id?: number;
@@ -20,6 +20,6 @@ export type Championship = {
   start_year: number | null;
   end_year: number | null;
   default_included: boolean;
-}
+};
 
 export type StartType = 'standing' | 'rolling';

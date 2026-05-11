@@ -7,4 +7,4 @@ export type Car = {
   championship_names: Array<string>;
   livery_id: number;
   model_folder: string;
-}
+};

@@ -1,7 +1,7 @@
 import { inject, Injectable } from '@angular/core';
 import { firstValueFrom } from 'rxjs';
-import { Track } from '../resources/models/track';
-import { ResourceLoader } from '../resources/resource-loader';
+import { Track } from '@/resources/models/track';
+import { ResourceLoader } from '@/resources/resource-loader';
 import { AppDatabase } from './app-database';
 
 @Injectable({ providedIn: 'root' })

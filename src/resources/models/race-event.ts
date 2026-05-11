@@ -1,4 +1,4 @@
-import { Month, WeekOfMonth } from "./calendar";
+import { Month, WeekOfMonth } from './calendar';
 
 export type RaceEvent = {
   id?: number;
@@ -11,7 +11,7 @@ export type RaceEvent = {
   type: RaceEventType;
   duration: number;
   start_time: string;
-}
+};
 
 export type RaceEventType = 'time' | 'laps';
 

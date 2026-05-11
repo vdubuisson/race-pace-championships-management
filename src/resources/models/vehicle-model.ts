@@ -4,4 +4,4 @@ export type VehicleModel = {
   folder_name: string;
   class: string;
   year: number;
-}
+};

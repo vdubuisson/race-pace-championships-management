@@ -6,4 +6,4 @@ export type Livery = {
   livery_id: number;
   ai_only: boolean;
   is_mod: boolean;
-}
+};

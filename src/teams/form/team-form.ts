@@ -1,11 +1,31 @@
-import { ChangeDetectionStrategy, Component, effect, inject, input, numberAttribute } from '@angular/core';
-import { AsyncValidatorFn, FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  effect,
+  inject,
+  input,
+  numberAttribute,
+} from '@angular/core';
+import {
+  AsyncValidatorFn,
+  FormControl,
+  FormGroup,
+  ReactiveFormsModule,
+  Validators,
+} from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
-import { TuiButton, TuiError, TuiIcon, TuiInput, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
+import {
+  TuiButton,
+  TuiError,
+  TuiIcon,
+  TuiInput,
+  TuiNotificationService,
+  TuiTitle,
+} from '@taiga-ui/core';
 import { TuiInputNumber, TuiTooltip } from '@taiga-ui/kit';
 import { TuiForm, TuiHeader } from '@taiga-ui/layout';
-import { TeamRepository } from '../../db/team-repository';
-import { Team } from '../../resources/models/team';
+import { TeamRepository } from '@/db/team-repository';
+import { Team } from '@/resources/models/team';
 
 @Component({
   selector: 'app-team-form',
@@ -29,11 +49,11 @@ import { Team } from '../../resources/models/team';
 export default class TeamForm {
   private readonly teamRepository = inject(TeamRepository);
   private readonly router = inject(Router);
-  protected readonly notifications = inject(TuiNotificationService)
+  protected readonly notifications = inject(TuiNotificationService);
 
-  readonly id = input(NaN, {transform: numberAttribute});
+  readonly id = input(NaN, { transform: numberAttribute });
 
-  private readonly teamNameAvailableValidator: AsyncValidatorFn = async control => {
+  private readonly teamNameAvailableValidator: AsyncValidatorFn = async (control) => {
     const name = control.value?.trim();
 
     if (!name) {
@@ -88,7 +108,7 @@ export default class TeamForm {
   constructor() {
     effect(() => {
       if (!isNaN(this.id())) {
-        this.teamRepository.getTeamById(this.id()).then(team => {
+        this.teamRepository.getTeamById(this.id()).then((team) => {
           if (team) {
             this.teamForm.patchValue(team);
           } else {
@@ -106,10 +126,22 @@ export default class TeamForm {
       try {
         if (!isNaN(this.id())) {
           await this.teamRepository.updateTeam(this.id() as number, this.teamForm.value as Team);
-          this.notifications.open('Team updated successfully', { appearance: 'positive', autoClose: 3000, closable: false }).subscribe();
+          this.notifications
+            .open('Team updated successfully', {
+              appearance: 'positive',
+              autoClose: 3000,
+              closable: false,
+            })
+            .subscribe();
         } else {
           await this.teamRepository.addTeam(this.teamForm.value as Team);
-          this.notifications.open('Team added successfully', { appearance: 'positive', autoClose: 3000, closable: false }).subscribe();
+          this.notifications
+            .open('Team added successfully', {
+              appearance: 'positive',
+              autoClose: 3000,
+              closable: false,
+            })
+            .subscribe();
         }
         this.router.navigate(['/teams']);
       } catch (error) {

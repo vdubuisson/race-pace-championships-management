@@ -1,12 +1,12 @@
-	<a
-    [routerLink]="['/teams']"
-    appearance="outline"
-    iconStart="@tui.chevron-left"
-    size="xs"
-    tuiButton
-    class="back-btn"
+<a
+  [routerLink]="['/teams']"
+  appearance="outline"
+  iconStart="@tui.chevron-left"
+  size="xs"
+  tuiButton
+  class="back-btn"
 >
-    Back
+  Back
 </a>
 
 <form tuiForm [formGroup]="teamForm" (submit)="onSubmit($event)">

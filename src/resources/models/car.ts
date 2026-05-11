@@ -4,7 +4,7 @@ export type Car = {
   category: string;
   model: string;
   livery: string;
-  championship_names: Set<string>;
+  championship_names: Array<string>;
   livery_id: number;
   model_folder: string;
 }

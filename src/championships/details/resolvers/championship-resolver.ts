@@ -1,7 +1,7 @@
 import { RedirectCommand, ResolveFn, Router } from "@angular/router";
-import { Championship } from "../../resources/models/championship";
+import { Championship } from "../../../resources/models/championship";
 import { inject } from "@angular/core";
-import { ChampionshipRepository } from "../../db/championship-repository";
+import { ChampionshipRepository } from "../../../db/championship-repository";
 
 export const championshipResolver: ResolveFn<Championship | RedirectCommand> = async (route) => {
   const championshipRepository = inject(ChampionshipRepository);

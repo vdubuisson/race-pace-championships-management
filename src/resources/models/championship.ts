@@ -3,7 +3,7 @@ import { DayOfMonth, Month } from "./calendar";
 export type Championship = {
   id?: number;
   name: string;
-  categories: Set<string>;
+  categories: Array<string>;
   prestige: number;
   init_month: Month;
   init_day: DayOfMonth;
@@ -16,7 +16,7 @@ export type Championship = {
   start_type: StartType;
   field_type: 'identical' | null;
   events_count: number;
-  tags: Set<string>;
+  tags: Array<string>;
   start_year: number | null;
   end_year: number | null;
   default_included: boolean;

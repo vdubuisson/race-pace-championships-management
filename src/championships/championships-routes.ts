@@ -1,7 +1,8 @@
 import { Routes } from '@angular/router';
 import { ChampionshipsListPage } from './list/championships-list-page';
-import { championshipResolver } from './details/championship-resolver';
-import { championshipEventsResolver } from './details/championship-events-resolver';
+import { championshipResolver } from './details/resolvers/championship-resolver';
+import { championshipEventsResolver } from './details/resolvers/championship-events-resolver';
+import { championshipCarsResolver } from './details/resolvers/championship-cars-resolver';
 
 export const championshipsRoutes: Routes = [
   { path: '', pathMatch: 'full', component: ChampionshipsListPage },
@@ -20,6 +21,11 @@ export const championshipsRoutes: Routes = [
         path: 'events',
         loadComponent: () => import('./details/events-tab/championship-events-tab'),
         resolve: { events: championshipEventsResolver },
+      },
+      {
+        path: 'cars',
+        loadComponent: () => import('./details/cars-tab/championship-cars-tab'),
+        resolve: { cars: championshipCarsResolver },
       },
       { path: '**', redirectTo: 'global' },
     ],

@@ -1,0 +1,34 @@
+@for (entry of carsByCategory().entries(); track entry[0]) {
+  @let category = entry[0];
+  @let categoryCars = entry[1];
+  <h2 tuiHeader class="tab-header">
+    <span>{{ category }}</span>
+    <div class="separator"></div>
+    <span tuiSubtitle>{{ categoryCars.length }}/{{ cars().length }} cars</span>
+  </h2>
+
+  <div class="cars-list">
+    @for (car of categoryCars; track car.id) {
+      <div tuiCardLarge="compact" appearance="floating">
+        <header tuiHeader="body-m">
+          <h2 tuiTitle>
+            {{ car.livery }}
+          </h2>
+        </header>
+        @if (!car.livery.includes(car.model)) {
+          <section>{{ car.model }}</section>
+        }
+        <footer>
+            <span
+              appearance="custom"
+              tuiChip
+              [style.background-color]="car.team_name | tuiAutoColor"
+              iconStart="@tui.user"
+            >
+              {{ car.team_name }}
+            </span>
+        </footer>
+      </div>
+    }
+  </div>
+}

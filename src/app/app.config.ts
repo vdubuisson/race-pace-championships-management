@@ -12,6 +12,7 @@ import { EventRepository } from '../db/event-repository';
 import { TeamRepository } from '../db/team-repository';
 import { routes } from './app.routes';
 import { TrackRepository } from '../db/track-repository';
+import { CarRepository } from '../db/car-repository';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -19,6 +20,7 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes, withComponentInputBinding(), withRouterConfig({ paramsInheritanceStrategy: 'always' })),
     provideHttpClient(withFetch()),
     provideAppInitializer(() => {
+      inject(CarRepository).initialize();
       inject(ChampionshipRepository).initialize();
       inject(EventRepository).initialize();
       inject(TeamRepository).initialize();

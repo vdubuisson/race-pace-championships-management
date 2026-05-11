@@ -26,5 +26,6 @@ export default class ChampionshipsDetailsPage {
   protected readonly tabs = [
     { label: 'Global', url: 'global', icon: '@tui.info' },
     { label: 'Events', url: 'events', icon: '@tui.calendars' },
+    { label: 'Cars', url: 'cars', icon: '@tui.car' },
   ];
 }

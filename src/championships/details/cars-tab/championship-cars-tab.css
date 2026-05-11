@@ -1,0 +1,23 @@
+.tab-header {
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.separator {
+  background-color: var(--tui-border-normal);
+  width: 1px;
+  height: 1.5rem;
+  margin: 0 1rem;
+}
+
+.cars-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 4rem;
+}

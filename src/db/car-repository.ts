@@ -18,6 +18,6 @@ export class CarRepository {
   }
 
   getCarsByChampionshipName(championshipName: string): Promise<Car[]> {
-    return this.store.where('championship_names').equals(championshipName).toArray();
+    return this.store.where('championship_name').equals(championshipName).toArray();
   }
 }

@@ -9,8 +9,6 @@ import { VehicleModel } from '@/resources/models/vehicle-model';
 import { Team } from '@/resources/models/team';
 import { Track } from '@/resources/models/track';
 
-const DB_VERSION = 1;
-
 @Injectable({ providedIn: 'root' })
 export class AppDatabase extends Dexie {
   cars!: Table<Car, number>;
@@ -24,7 +22,7 @@ export class AppDatabase extends Dexie {
 
   constructor() {
     super('RacePaceChampionshipsManagementDB');
-    this.version(DB_VERSION).stores({
+    this.version(1).stores({
       cars: '++id, team_name, *championship_names',
       championships: '++id, name, *categories',
       classes: 'name',
@@ -34,5 +32,17 @@ export class AppDatabase extends Dexie {
       teams: '++id, name',
       tracks: 'id, is_mod',
     });
+    this.version(2)
+      .stores({
+        cars: '++id, team_name, championship_name',
+        championships: '++id, name, *categories',
+        classes: 'name',
+        events: '++id, championship_name',
+        liveries: '++id, class',
+        models: '++id, class, aiOnly, isMod',
+        teams: '++id, name',
+        tracks: 'id, is_mod',
+      })
+      .upgrade((transaction) => transaction.table('cars').clear());
   }
 }

@@ -4,7 +4,9 @@ export type Car = {
   category: string;
   model: string;
   livery: string;
-  championship_names: Array<string>;
+  championship_name: string;
   livery_id: number;
   model_folder: string;
 };
+
+export type CsvCar = Omit<Car, 'championship_name'> & { championship_names: string[] };

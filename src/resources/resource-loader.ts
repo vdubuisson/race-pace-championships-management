@@ -3,7 +3,7 @@ import { inject, Injectable } from '@angular/core';
 import { parse } from 'csv-parse/browser/esm/sync';
 import { map, Observable } from 'rxjs';
 import { Championship } from './models/championship';
-import { Car } from './models/car';
+import { Car, CsvCar } from './models/car';
 import { VehicleClass } from './models/vehicle-class';
 import { RaceEvent } from './models/race-event';
 import { Livery } from './models/livery';
@@ -60,26 +60,35 @@ export class ResourceLoader {
 
   loadCars(): Observable<Car[]> {
     return this.http.get('resources/cars.csv', { responseType: 'text' }).pipe(
-      map(
-        (text) =>
-          parse(text, {
-            bom: true,
-            columns: true,
-            skip_empty_lines: true,
-            trim: true,
-            cast: (value, context) => {
-              if (context.header) return value;
-              switch (context.column) {
-                case 'championship_names':
-                  return value.split(',').map((s) => s.trim());
-                case 'livery_id':
-                  return Number(value);
-                default:
-                  return value;
-              }
-            },
-          }) as Car[],
-      ),
+      map((text) => {
+        const rows = parse(text, {
+          bom: true,
+          columns: true,
+          skip_empty_lines: true,
+          trim: true,
+          cast: (value, context) => {
+            if (context.header) return value;
+            switch (context.column) {
+              case 'championship_names':
+                return value
+                  .split(',')
+                  .map((s) => s.trim())
+                  .filter((name) => name.length > 0);
+              case 'livery_id':
+                return Number(value);
+              default:
+                return value;
+            }
+          },
+        }) as CsvCar[];
+
+        return rows.flatMap(({ championship_names, ...car }) =>
+          championship_names.map((championship_name) => ({
+            ...car,
+            championship_name,
+          })),
+        );
+      }),
     );
   }
 

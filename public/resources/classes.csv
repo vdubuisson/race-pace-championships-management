@@ -1,106 +1,106 @@
-name
-ARC_Cam
-Carrera Cup
-Cat_Academy
-Cat_Superlight
-Cat_Supersport
-Cat620R
-CopaClassicB
-CopaClassicFL
-CopaFusca
-CopaTruck
-CopaUno
-DPI
-F-3
-F-Classic_Gen1
-F-Classic_Gen2
-F-Classic_Gen3
-F-Classic_Gen4
-F-Dirt
-F-Hitech_Gen1
-F-Hitech_Gen2
-F-Inter
-F-Junior
-F-Reiza
-F-Retro_Gen1
-F-Retro_Gen2
-F-Retro_Gen3
-F-Trainer
-F-Trainer_A
-F-Ultimate
-F-Ultimate_Gen1
-F-Ultimate_Gen2
-F-USA_2023
-F-USA_Gen1
-F-USA_Gen2
-F-USA_Gen3
-F-V10_Gen1
-F-V10_Gen2
-F-Vee
-F-Vee_Gen2
-F-Vintage_Gen1
-F-Vintage_Gen2
-FE-G1
-G40Cup
-G55Supercup
-Group A
-Group C
-GT1
-GT1_05
-GT2_05
-GT3
-GT3_Gen2
-GT4
-GT5
-GTE
-GTOpen
-GTR_04
-Hot Cars
-Hypercars
-Kart125cc
-Kartcross
-KartGX390
-KartRental
-KartShifter
-LancerCup
-LES_2025
-LMDh
-LMP1_05
-LMP2
-LMP2_05
-LMP2_Gen1
-MiniChallenge
-Montana
-OldStock
-Opala79
-Opala86
-P1
-P1Gen2
-P2
-P3
-P4
-Procar
-RX
-SprintRace
-ST96
-Stock_USA_Gen1
-Stock_USA_Gen2
-Stock_USA_Gen3
-Stock_USA_Gen3_LM
-StockCar99
-StockCarV8
-StockCarV8_2020
-StockCarV8_2021
-StockCarV8_2022
-StockCarV8_2023
-StockCarV8_2024
-Street
-STT
-Super Trofeo
-Supercars
-SuperKart
-SuperV8
-TC60S
-TC60S2
-TC70S
-TSICup
+id,name
+ARC_Cam,ARC
+Carrera Cup,Porsche Carrera Cup
+Cat_Academy,Caterham Academy
+Cat_Superlight,Caterham Superlight
+Cat_Supersport,Caterham Supersport
+Cat620R,Caterham 620R
+CopaClassicB,Copa Classic B
+CopaClassicFL,Copa Classic FL
+CopaFusca,Copa Fusca
+CopaTruck,Copa Truck
+CopaUno,Copa Uno
+DPI,DPi
+F-3,Formula 3
+F-Classic_Gen1,Formula Classic Gen 1
+F-Classic_Gen2,Formula Classic Gen 2
+F-Classic_Gen3,Formula Classic Gen 3
+F-Classic_Gen4,Formula Classic Gen 4
+F-Dirt,Formula Dirt
+F-Hitech_Gen1,Formula HiTech Gen 1
+F-Hitech_Gen2,Formula HiTech Gen 2
+F-Inter,Formula Inter
+F-Junior,Formula Junior
+F-Reiza,Formula V8 Gen 3
+F-Retro_Gen1,Formula Retro Gen 1
+F-Retro_Gen2,Formula Retro Gen 2
+F-Retro_Gen3,Formula Retro Gen 3
+F-Trainer,Formula Trainer
+F-Trainer_A,Formula Trainer Advanced
+F-Ultimate,Formula Hybrid Gen 2
+F-Ultimate_Gen1,Formula Hybrid Gen 1
+F-Ultimate_Gen2,Formula Hybrid Gen 3
+F-USA_2023,Formula USA 2023
+F-USA_Gen1,Formula USA Gen 1
+F-USA_Gen2,Formula USA Gen 2
+F-USA_Gen3,Formula USA Gen 3
+F-V10_Gen1,Formula V10 Gen 1
+F-V10_Gen2,Formula V10 Gen 2
+F-Vee,Formula Vee Brazil Gen 1
+F-Vee_Gen2,Formula Vee Brazil Gen 2
+F-Vintage_Gen1,Formula Vintage Gen 1
+F-Vintage_Gen2,Formula Vintage Gen 2
+FE-G1,Formula Edge
+G40Cup,Ginetta G40 Cup
+G55Supercup,Ginetta G55 Supercup
+Group A,Group A
+Group C,Group C
+GT1,GT1
+GT1_05,GT1 2005
+GT2_05,GT2 2005
+GT3,GT3
+GT3_Gen2,GT3 Gen 2
+GT4,GT4
+GT5,GT5
+GTE,GTE
+GTOpen,GT Open
+GTR_04,GTR 2004
+Hot Cars,Hot Cars
+Hypercars,Hypercars
+Kart125cc,Karting 2T 125cc
+Kartcross,Kartcross
+KartGX390,Karting 4T Race
+KartRental,Karting 4T Rental
+KartShifter,Karting 2T Shifter
+LancerCup,Lancer Cup
+LES_2025,Ligier European Series
+LMDh,LMDh/GTP
+LMP1_05,LMP1 2005
+LMP2,LMP2 Gen 2
+LMP2_05,LMP2 2005
+LMP2_Gen1,LMP2 Gen 1
+MiniChallenge,JCW
+Montana,Copa Montana
+OldStock,Old Stock Race
+Opala79,Stock Car Brasil 1979
+Opala86,Stock Car Brasil 1986
+P1,P1 Gen 1
+P1Gen2,P1 Gen 2
+P2,P2
+P3,P3
+P4,P4
+Procar,M1 Procar
+RX,Rallycross
+SprintRace,Sprint Race
+ST96,Diablo Super Trofeo
+Stock_USA_Gen1,Stock USA Gen 1
+Stock_USA_Gen2,Stock USA Gen 2
+Stock_USA_Gen3,Stock USA Gen 3
+Stock_USA_Gen3_LM,Stock USA Gen 3 LM
+StockCar99,Stock Car Brasil 1999
+StockCarV8,Stock Car Brasil 2019
+StockCarV8_2020,Stock Car Brasil 2020
+StockCarV8_2021,Stock Car Brasil 2021
+StockCarV8_2022,Stock Car Pro Series 2022
+StockCarV8_2023,Stock Car Pro Series 2023
+StockCarV8_2024,Stock Car Pro Series 2024
+Street,Street Cars
+STT,Super Trophy Trucks
+Super Trofeo,Super Trofeo
+Supercars,Supercars
+SuperKart,Superkart
+SuperV8,Super V8
+TC60S,Vintage Touring Cars Tier 1
+TC60S2,Vintage Touring Cars Tier 2
+TC70S,GT Classic
+TSICup,TSI Cup

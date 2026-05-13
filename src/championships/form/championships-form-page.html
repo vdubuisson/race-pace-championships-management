@@ -1,0 +1,71 @@
+<a
+  [routerLink]="['/championships']"
+  appearance="outline"
+  iconStart="@tui.chevron-left"
+  size="xs"
+  tuiButton
+  class="back-btn"
+>
+  Back
+</a>
+<header tuiHeader="h3">
+  <h1 tuiTitle>{{ pageTitle() }}</h1>
+</header>
+
+<main class="wizard-layout">
+  <tui-stepper [(activeItemIndex)]="activeStep" class="wizard-stepper">
+    @for (step of steps; track step.id) {
+      @if (step.separator) {
+        <div class="step-separator"></div>
+      } @else {
+        <button
+          tuiStep
+          [icon]="step.icon!"
+          [stepState]="step.state!()"
+          [disabled]="step.disabled!()"
+          [appearance]="'none'"
+        >
+          {{ step.label }}
+        </button>
+      }
+    }
+  </tui-stepper>
+
+  <section class="step-content">
+    @switch (activeStep()) {
+      @case (0) {
+        <app-championship-global-step [form]="globalForm" [vehicleClasses]="vehicleClasses()" />
+      }
+      @case (1) {
+        <app-championship-events-step [formArray]="eventsForm" [tracks]="tracks()" />
+      }
+      @case (2) {
+        <app-championship-cars-step [formArray]="carsForm" [teams]="teams()" />
+      }
+    }
+  </section>
+
+  <footer class="wizard-actions">
+    <button
+      tuiButton
+      type="button"
+      appearance="secondary"
+      (click)="previousStep()"
+      [disabled]="activeStep() === 0"
+    >
+      Previous
+    </button>
+
+    <button type="button" tuiButton appearance="outline" size="m" (click)="logValues()">
+      Log values
+    </button>
+
+    @if (activeStep() < stepsCount - 1) {
+      <button tuiButton type="button" appearance="primary" (click)="nextStep()">Next</button>
+    } @else {
+      <button tuiButton type="button" appearance="primary" (click)="save()" [disabled]="isSaving()">
+        {{ isSaving() ? 'Saving...' : 'Save championship' }}
+      </button>
+    }
+  </footer>
+</main>

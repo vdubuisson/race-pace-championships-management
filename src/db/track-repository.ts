@@ -20,4 +20,8 @@ export class TrackRepository {
   getTracksByIds(ids: string[]): Promise<Track[]> {
     return this.store.where('id').anyOf(ids).toArray();
   }
+
+  getAllTracks(): Promise<Track[]> {
+    return this.store.toArray();
+  }
 }

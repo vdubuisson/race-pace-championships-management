@@ -9,6 +9,14 @@ import { VehicleModel } from '@/resources/models/vehicle-model';
 import { Team } from '@/resources/models/team';
 import { Track } from '@/resources/models/track';
 
+type SaveChampionshipPayload = {
+  championship: Championship;
+  events: Omit<RaceEvent, 'championship_name'>[];
+  cars: Omit<Car, 'championship_name'>[];
+  id?: number;
+  previousName?: string;
+};
+
 @Injectable({ providedIn: 'root' })
 export class AppDatabase extends Dexie {
   cars!: Table<Car, number>;
@@ -36,13 +44,63 @@ export class AppDatabase extends Dexie {
       .stores({
         cars: '++id, team_name, championship_name',
         championships: '++id, name, *categories',
-        classes: 'name',
+        classes: 'id',
         events: '++id, championship_name',
         liveries: '++id, class',
         models: '++id, class, aiOnly, isMod',
         teams: '++id, name',
         tracks: 'id, is_mod',
       })
-      .upgrade((transaction) => transaction.table('cars').clear());
+      .upgrade((transaction) => {
+        transaction.table('cars').clear();
+        transaction.table('classes').clear();
+      });
+  }
+
+  // TODO Voir pour déplacer dans repositories
+  async saveChampionshipWithRelations({
+    championship,
+    events,
+    cars,
+    id,
+    previousName,
+  }: SaveChampionshipPayload): Promise<number> {
+    let championshipId = id;
+
+    await this.transaction('rw', this.championships, this.events, this.cars, async () => {
+      if (typeof championshipId === 'number') {
+        await this.championships.update(championshipId, championship);
+      } else {
+        championshipId = await this.championships.add(championship);
+      }
+
+      const namesToClear = new Set<string>([championship.name]);
+      if (previousName) {
+        namesToClear.add(previousName);
+      }
+
+      for (const name of namesToClear) {
+        await this.events.where('championship_name').equals(name).delete();
+        await this.cars.where('championship_name').equals(name).delete();
+      }
+
+      if (events.length > 0) {
+        await this.events.bulkAdd(
+          events.map((event) => ({ ...event, championship_name: championship.name })),
+        );
+      }
+
+      if (cars.length > 0) {
+        await this.cars.bulkAdd(
+          cars.map((car) => ({ ...car, championship_name: championship.name })),
+        );
+      }
+    });
+
+    if (typeof championshipId !== 'number') {
+      throw new Error('Failed to persist championship');
+    }
+
+    return championshipId;
   }
 }

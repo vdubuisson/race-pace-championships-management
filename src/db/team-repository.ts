@@ -18,8 +18,8 @@ export class TeamRepository {
     }
   }
 
-  getAllTeams(): Observable<Team[]> {
-    return from(liveQuery(() => this.store.toArray()));
+  async getAllTeams(): Promise<Team[]> {
+    return this.store.toArray();
   }
 
   async getTeamById(id: number): Promise<Team | undefined> {

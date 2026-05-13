@@ -1,16 +1,14 @@
-import { DayOfMonth, Month } from './calendar';
-
 export type Championship = {
   id?: number;
   name: string;
   categories: Array<string>;
   prestige: number;
-  init_month: Month;
-  init_day: DayOfMonth;
-  registration_start_month: Month;
-  registration_start_day: DayOfMonth;
-  registration_end_month: Month;
-  registration_end_day: DayOfMonth;
+  init_month: number;
+  init_day: number;
+  registration_start_month: number;
+  registration_start_day: number;
+  registration_end_month: number;
+  registration_end_day: number;
   points: Array<number>;
   pit_stop: boolean;
   start_type: StartType;

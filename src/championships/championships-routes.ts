@@ -30,8 +30,14 @@ export const championshipsRoutes: Routes = [
       { path: '**', redirectTo: 'global' },
     ],
   },
-  // { path: 'form', loadComponent: () => import('./form/championship-form') },
-  // { path: 'form/:id', loadComponent: () => import('./form/championship-form') },
+  { path: 'form', loadComponent: () => import('./form/championships-form-page') },
+  {
+    path: 'form/:id',
+    loadComponent: () => import('./form/championships-form-page'),
+    resolve: {
+      championship: championshipResolver,
+    },
+  },
   { path: '**', redirectTo: '' },
 ];
 

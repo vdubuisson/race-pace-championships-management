@@ -20,4 +20,15 @@ export class EventRepository {
   getEventsByChampionshipName(championshipName: string): Promise<RaceEvent[]> {
     return this.store.where('championship_name').equals(championshipName).toArray();
   }
+
+  async replaceEventsForChampionship(
+    championshipName: string,
+    events: RaceEvent[],
+  ): Promise<void> {
+    await this.store.where('championship_name').equals(championshipName).delete();
+
+    if (events.length > 0) {
+      await this.store.bulkAdd(events);
+    }
+  }
 }

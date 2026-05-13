@@ -1,0 +1,36 @@
+fieldset.grid2-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+fieldset.with-separator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  > :not(.separator) {
+    flex: 1;
+  }
+}
+
+fieldset.vertical {
+  gap: 0;
+  padding-top: 0.5rem;
+
+  [tuiCell]:hover {
+    background: none;
+  }
+}
+
+.point-btn {
+  align-self: flex-end;
+
+  &.minus {
+    color: var(--tui-text-negative);
+    max-width: 3rem;
+
+    &:hover {
+      color: var(--tui-text-negative-hover) !important;
+    }
+  }
+}

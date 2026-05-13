@@ -13,6 +13,7 @@ import { TeamRepository } from '@/db/team-repository';
 import { routes } from './app.routes';
 import { TrackRepository } from '@/db/track-repository';
 import { CarRepository } from '@/db/car-repository';
+import { VehicleClassRepository } from '@/db/vehicle-class-repository';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -23,13 +24,16 @@ export const appConfig: ApplicationConfig = {
       withRouterConfig({ paramsInheritanceStrategy: 'always' }),
     ),
     provideHttpClient(withFetch()),
-    provideAppInitializer(() => {
-      inject(CarRepository).initialize();
-      inject(ChampionshipRepository).initialize();
-      inject(EventRepository).initialize();
-      inject(TeamRepository).initialize();
-      inject(TrackRepository).initialize();
-    }),
+    provideAppInitializer(() =>
+      Promise.all([
+        inject(CarRepository).initialize(),
+        inject(ChampionshipRepository).initialize(),
+        inject(EventRepository).initialize(),
+        inject(TeamRepository).initialize(),
+        inject(TrackRepository).initialize(),
+        inject(VehicleClassRepository).initialize(),
+      ]),
+    ),
     provideTaiga(),
     {
       provide: TUI_VALIDATION_ERRORS,

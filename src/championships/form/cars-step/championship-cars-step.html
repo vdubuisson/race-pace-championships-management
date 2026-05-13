@@ -1,0 +1,87 @@
+<section class="list-header">
+  <h2 tuiTitle="m">Cars</h2>
+  <button tuiButton type="button" appearance="primary" size="s" (click)="openNew()">Add car</button>
+</section>
+
+<div class="cars-list">
+  @for (car of formArray().controls; track $index; let i = $index) {
+    <div tuiCardLarge="compact" appearance="floating" class="car-card">
+      <header tuiHeader>
+        <h3 tuiTitle>{{ car.controls.livery.value || 'Unnamed livery' }}</h3>
+      </header>
+      <p><strong>Model:</strong> {{ car.controls.model.value }}</p>
+      <p><strong>Team:</strong> {{ car.controls.team_name.value }}</p>
+      <p><strong>Category:</strong> {{ car.controls.category.value }}</p>
+      <div class="card-actions">
+        <button tuiButton type="button" appearance="secondary" size="s" (click)="openEdit(i)">
+          Edit
+        </button>
+        <button tuiButton type="button" appearance="secondary" size="s" (click)="remove(i)">
+          Remove
+        </button>
+      </div>
+    </div>
+  }
+</div>
+
+@if (isDrawerOpen()) {
+  <tui-drawer direction="end" [overlay]="true">
+    <div header class="drawer-header">
+      <h2 tuiTitle>{{ editingIndex() === 'new' ? 'Add car' : 'Edit car' }}</h2>
+    </div>
+
+    <form [formGroup]="draftForm()" class="drawer-form">
+      <label>
+        Team
+        <select formControlName="team_name">
+          <option value="">Choose team</option>
+          @for (team of teams(); track team.name) {
+            <option [value]="team.name">{{ team.name }}</option>
+          }
+        </select>
+      </label>
+
+      <label>
+        Category
+        <tui-textfield>
+          <input tuiInput formControlName="category" placeholder="Category" />
+        </tui-textfield>
+      </label>
+
+      <label>
+        Model
+        <tui-textfield>
+          <input tuiInput formControlName="model" placeholder="Model" />
+        </tui-textfield>
+      </label>
+
+      <label>
+        Livery
+        <tui-textfield>
+          <input tuiInput formControlName="livery" placeholder="Livery" />
+        </tui-textfield>
+      </label>
+
+      <label>
+        Livery id
+        <tui-textfield>
+          <input tuiInputNumber formControlName="livery_id" />
+        </tui-textfield>
+      </label>
+
+      <label>
+        Model folder
+        <tui-textfield>
+          <input tuiInput formControlName="model_folder" placeholder="folder_name" />
+        </tui-textfield>
+      </label>
+    </form>
+
+    <div footer class="drawer-footer">
+      <button tuiButton type="button" appearance="secondary" (click)="closeDrawer()">Cancel</button>
+      <button tuiButton type="button" appearance="primary" (click)="confirmDrawer()">
+        Confirm
+      </button>
+    </div>
+  </tui-drawer>
+}

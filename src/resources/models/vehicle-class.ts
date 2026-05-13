@@ -1,3 +1,4 @@
 export type VehicleClass = {
-  name: string;
+  id: string;
+  name: string | null;
 };

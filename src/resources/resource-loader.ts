@@ -48,7 +48,7 @@ export class ResourceLoader {
                 case 'default_included':
                   return value.toLowerCase() === 'true';
                 case 'field_type':
-                  return value === '' ? null : value;
+                  return value.trim() === '' ? null : value;
                 default:
                   return value;
               }
@@ -101,6 +101,15 @@ export class ResourceLoader {
             columns: true,
             skip_empty_lines: true,
             trim: true,
+            cast: (value, context) => {
+              if (context.header) return value;
+              switch (context.column) {
+                case 'name':
+                  return value.trim() === '' ? null : value;
+                default:
+                  return value;
+              }
+            },
           }) as VehicleClass[],
       ),
     );

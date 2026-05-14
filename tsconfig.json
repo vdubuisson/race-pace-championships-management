@@ -14,8 +14,10 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "preserve",
+    "lib": ["DOM", "ES2024"],
     "baseUrl": ".",
     "paths": {
+      "@/championships/*": ["src/championships/*"],
       "@/db/*": ["src/db/*"],
       "@/resources/*": ["src/resources/*"],
       "@/shared/*": ["src/shared/*"],

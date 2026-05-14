@@ -49,7 +49,7 @@ import { Team } from '@/resources/models/team';
 export default class TeamForm {
   private readonly teamRepository = inject(TeamRepository);
   private readonly router = inject(Router);
-  protected readonly notifications = inject(TuiNotificationService);
+  private readonly notifications = inject(TuiNotificationService);
 
   readonly id = input(NaN, { transform: numberAttribute });
 

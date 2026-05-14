@@ -1,0 +1,192 @@
+<tui-drawer *tuiPopup="isShown()" [overlay]="true">
+  <header tuiHeader="h5">
+    <h2 tuiTitle>{{ editedEvent() ? 'Edit event' : 'Add event' }}</h2>
+  </header>
+
+  <form tuiForm [formGroup]="eventForm">
+    <div class="form-field">
+      <label tuiLabel>
+        <span>Track</span>
+        <tui-textfield tuiChevron [stringify]="getTrackName">
+          <input tuiComboBox [formControl]="eventForm.controls.track" />
+          <tui-data-list *tuiDropdown>
+            <section class="track-filters">
+              <div class="chip-filters">
+                @for (country of countries(); track country) {
+                  <label tuiChip appearance="">
+                    <img [src]="country | countryCode: '2' | tuiFlag" class="flag" />
+                    {{ country }}
+                    <input
+                      tuiChip
+                      type="checkbox"
+                      appearance="outline-grayscale"
+                      [checked]="selectedCountries().includes(country)"
+                      (change)="toggleChipFilter(selectedCountries, country)"
+                    />
+                  </label>
+                }
+              </div>
+              <div class="chip-filters">
+                @for (type of types(); track type) {
+                  <label tuiChip appearance="">
+                    {{ type }}
+                    <input
+                      tuiChip
+                      type="checkbox"
+                      appearance="outline-grayscale"
+                      [checked]="selectedTypes().includes(type)"
+                      (change)="toggleChipFilter(selectedTypes, type)"
+                    />
+                  </label>
+                }
+              </div>
+              <label tuiCell="s">
+                <span tuiTitle>No mods</span>
+                <input
+                  tuiSwitch
+                  type="checkbox"
+                  [formControl]="eventForm.controls.no_modded_tracks"
+                  (change)="noModdedTracksFilter.set(!noModdedTracksFilter())"
+                />
+              </label>
+            </section>
+
+            @let trackItems = filteredTracks() | tuiFilterByInput: filterTrackByInput;
+
+            <cdk-virtual-scroll-viewport
+              tuiScrollable
+              class="scroll"
+              [itemSize]="trackItemHeight"
+              [maxBufferPx]="trackItemHeight * trackItemCount * 2"
+              [minBufferPx]="trackItemHeight * trackItemCount"
+              [style.height.px]="
+                (trackItems.length < trackItemCount ? trackItems.length : trackItemCount) *
+                trackItemHeight
+              "
+            >
+              <button
+                tuiOption
+                type="button"
+                *cdkVirtualFor="let track of trackItems; trackBy: (_, item) => item.id"
+                [value]="track"
+                class="layout-option"
+              >
+                <img class="flag" alt="" [src]="track.country | countryCode: '2' | tuiFlag" />
+                <div tuiTitle>
+                  {{ track.name }}
+                  <span tuiSubtitle>{{ track.real_name || 'N/A' }}</span>
+                  <span tuiSubtitle>
+                    <span tuiChip size="xs" appearance="neutral">{{ track.type }}</span>
+                    <span tuiChip size="xs" appearance="neutral">
+                      {{ track.start_year }}-{{ track.end_year || 'present' }}
+                    </span>
+                  </span>
+                </div>
+              </button>
+            </cdk-virtual-scroll-viewport>
+          </tui-data-list>
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="eventForm.controls.track" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        Event name
+        <tui-textfield>
+          <input tuiInput placeholder="Event name" [formControl]="eventForm.controls.name" />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="eventForm.controls.name" />
+    </div>
+
+    <fieldset class="grid2-1-1">
+      <div class="form-field">
+        <label tuiLabel>
+          <span>Month</span>
+          <tui-textfield tuiChevron [tuiTextfieldCleaner]="false" [stringify]="getMonthName">
+            <input tuiSelect [formControl]="eventForm.controls.month" />
+            <!-- <tui-data-list *tuiDropdown>
+              @for (month of months; track month.id) {
+                <button tuiOption type="button" [value]="month.id">
+                  {{ month.name }}
+                </button>
+              }
+            </tui-data-list> -->
+            <tui-data-list-wrapper *tuiDropdown [items]="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]" />
+          </tui-textfield>
+        </label>
+        <tui-error [formControl]="eventForm.controls.month" />
+      </div>
+      <div class="form-field">
+        <label tuiLabel>
+          <span>Weekend</span>
+          <tui-textfield tuiChevron [tuiTextfieldCleaner]="false" [stringify]="getOrdinal">
+            <input tuiSelect [formControl]="eventForm.controls.week_end" />
+            <tui-data-list-wrapper *tuiDropdown [items]="[1, 2, 3, 4]" />
+          </tui-textfield>
+        </label>
+      </div>
+      <div class="form-field switch">
+        <label tuiCell="s">
+          <span tuiTitle>Mandatory</span>
+          <input tuiSwitch [formControl]="eventForm.controls.mandatory" type="checkbox" />
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <div class="form-field">
+        <label tuiLabel>
+          <span>Type</span>
+          <tui-textfield tuiChevron [tuiTextfieldCleaner]="false">
+            <input tuiSelect [formControl]="eventForm.controls.type" />
+            <tui-data-list-wrapper *tuiDropdown [items]="['laps', 'time']" />
+          </tui-textfield>
+        </label>
+        <tui-error [formControl]="eventForm.controls.type" />
+      </div>
+      <div class="form-field">
+        <label tuiLabel>
+          <span>Duration</span>
+          <tui-textfield>
+            <input
+              tuiInputNumber
+              [formControl]="eventForm.controls.duration"
+              [postfix]="eventForm.controls.type.value === 'laps' ? ' laps' : ' min'"
+            />
+          </tui-textfield>
+        </label>
+        @if (eventForm.controls.type.value === 'time' && eventForm.controls.duration.value > 60) {
+          <span class="duration-hint">{{ eventForm.controls.duration.value | duration }}</span>
+        }
+        <tui-error [formControl]="eventForm.controls.duration" />
+      </div>
+      <div class="form-field">
+        <label tuiLabel>
+          <span>Start time</span>
+          <tui-textfield>
+            <input tuiInputTime [formControl]="eventForm.controls.start_time" placeholder="14:00" />
+          </tui-textfield>
+        </label>
+        <tui-error [formControl]="eventForm.controls.start_time" />
+      </div>
+    </fieldset>
+  </form>
+
+  <footer>
+    <button tuiButton size="m" type="button" appearance="secondary" (click)="cancelForm()">
+      Cancel
+    </button>
+    <button
+      tuiButton
+      size="m"
+      type="button"
+      appearance="primary"
+      (click)="submitForm()"
+      [disabled]="eventForm.invalid"
+    >
+      Confirm
+    </button>
+  </footer>
+</tui-drawer>

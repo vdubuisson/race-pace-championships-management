@@ -1,111 +1,30 @@
-<section class="list-header">
-  <h2 tuiTitle="m">Events</h2>
-  <button tuiButton type="button" appearance="primary" size="s" (click)="openNew()">
+<div tuiCell>
+  <div tuiTitle="m" class="step-title">
+    Championship events:
+    <span [class.invalid]="events().length < requiredEventCount()"
+      >{{ events().length }}/{{ requiredEventCount() }}</span
+    >
+  </div>
+  <button tuiButton type="button" appearance="primary" size="m" (click)="openNewForm()">
     Add event
   </button>
-</section>
+</div>
 
 <div class="events-list">
-  @for (event of formArray().controls; track $index; let i = $index) {
-    <div tuiCardLarge="compact" appearance="floating" class="event-card">
-      <header tuiHeader>
-        <h3 tuiTitle>{{ event.controls.name.value || 'Untitled event' }}</h3>
-      </header>
-      <p><strong>Track:</strong> {{ trackName(event.controls.track_id.value) }}</p>
-      <p>
-        <strong>Date:</strong> Week {{ event.controls.week_end.value }} - Month
-        {{ event.controls.month.value }}
-      </p>
-      <p>
-        <strong>Format:</strong> {{ event.controls.duration.value }}
-        {{ event.controls.type.value === 'laps' ? 'laps' : 'min' }}
-      </p>
-      <div class="card-actions">
-        <button tuiButton type="button" appearance="secondary" size="s" (click)="openEdit(i)">
-          Edit
-        </button>
-        <button tuiButton type="button" appearance="secondary" size="s" (click)="remove(i)">
-          Remove
-        </button>
-      </div>
-    </div>
+  @for (event of eventsWithTrack(); track event.id) {
+    <app-event-card
+      [event]="event"
+      [editable]="true"
+      (edit)="openEventEdition(event)"
+      (delete)="deleteEvent(event)"
+    />
   }
 </div>
 
-@if (isDrawerOpen()) {
-  <tui-drawer direction="end" [overlay]="true">
-    <div header class="drawer-header">
-      <h2 tuiTitle>{{ editingIndex() === 'new' ? 'Add event' : 'Edit event' }}</h2>
-    </div>
-
-    <form [formGroup]="draftForm()" class="drawer-form">
-      <label>
-        Event name
-        <tui-textfield>
-          <input tuiInput formControlName="name" placeholder="Event name" />
-        </tui-textfield>
-      </label>
-
-      <label>
-        Track
-        <select formControlName="track_id">
-          <option value="">Choose track</option>
-          @for (track of tracks(); track track.id) {
-            <option [value]="track.id">{{ track.name }}</option>
-          }
-        </select>
-      </label>
-
-      <div class="grid-2">
-        <label>
-          Month
-          <tui-textfield>
-            <input tuiInputNumber formControlName="month" />
-          </tui-textfield>
-        </label>
-
-        <label>
-          Week end
-          <tui-textfield>
-            <input tuiInputNumber formControlName="week_end" />
-          </tui-textfield>
-        </label>
-      </div>
-
-      <div class="grid-2">
-        <label>
-          Type
-          <select formControlName="type">
-            <option value="time">Time</option>
-            <option value="laps">Laps</option>
-          </select>
-        </label>
-
-        <label>
-          Duration
-          <tui-textfield>
-            <input tuiInputNumber formControlName="duration" />
-          </tui-textfield>
-        </label>
-      </div>
-
-      <label>
-        Start time
-        <tui-textfield>
-          <input tuiInput formControlName="start_time" placeholder="14:00" />
-        </tui-textfield>
-      </label>
-
-      <label class="checkbox-label">
-        <input type="checkbox" formControlName="mandatory" /> Mandatory event
-      </label>
-    </form>
-
-    <div footer class="drawer-footer">
-      <button tuiButton type="button" appearance="secondary" (click)="closeDrawer()">Cancel</button>
-      <button tuiButton type="button" appearance="primary" (click)="confirmDrawer()">
-        Confirm
-      </button>
-    </div>
-  </tui-drawer>
-}
+<app-championship-event-form
+  [isShown]="isFormShown()"
+  [tracks]="tracks()"
+  [editedEvent]="editedEvent()"
+  (formCancel)="hideForm()"
+  (formSubmit)="submitForm($event)"
+/>

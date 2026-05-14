@@ -13,7 +13,7 @@
 </header>
 
 <main class="wizard-layout">
-  <tui-stepper [(activeItemIndex)]="activeStep" class="wizard-stepper">
+  <tui-stepper [(activeItemIndex)]="activeStepIndex" class="wizard-stepper">
     @for (step of steps; track step.id) {
       @if (step.separator) {
         <div class="step-separator"></div>
@@ -32,12 +32,16 @@
   </tui-stepper>
 
   <section class="step-content">
-    @switch (activeStep()) {
+    @switch (activeStepIndex()) {
       @case (0) {
         <app-championship-global-step [form]="globalForm" [vehicleClasses]="vehicleClasses()" />
       }
       @case (1) {
-        <app-championship-events-step [formArray]="eventsForm" [tracks]="tracks()" />
+        <app-championship-events-step
+          [(events)]="championshipEvents"
+          [tracks]="tracks()"
+          [requiredEventCount]="globalForm.controls.events_count.value"
+        />
       }
       @case (2) {
         <app-championship-cars-step [formArray]="carsForm" [teams]="teams()" />
@@ -50,8 +54,8 @@
       tuiButton
       type="button"
       appearance="secondary"
-      (click)="previousStep()"
-      [disabled]="activeStep() === 0"
+      (click)="goToPreviousStep()"
+      [disabled]="activeStepIndex() === 0"
     >
       Previous
     </button>
@@ -60,8 +64,16 @@
       Log values
     </button>
 
-    @if (activeStep() < stepsCount - 1) {
-      <button tuiButton type="button" appearance="primary" (click)="nextStep()">Next</button>
+    @if (activeStepIndex() < stepsCount - 1) {
+      <button
+        tuiButton
+        type="button"
+        appearance="primary"
+        (click)="goToNextStep()"
+        [disabled]="nextStep().disabled!()"
+      >
+        Next
+      </button>
     } @else {
       <button tuiButton type="button" appearance="primary" (click)="save()" [disabled]="isSaving()">
         {{ isSaving() ? 'Saving...' : 'Save championship' }}

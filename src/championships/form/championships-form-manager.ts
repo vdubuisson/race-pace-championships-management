@@ -6,7 +6,8 @@ import { TeamRepository } from '@/db/team-repository';
 import { TrackRepository } from '@/db/track-repository';
 import { VehicleClassRepository } from '@/db/vehicle-class-repository';
 import { Championship } from '@/resources/models/championship';
-import { computed, inject, Injectable, signal } from '@angular/core';
+import { RaceEvent } from '@/resources/models/race-event';
+import { computed, inject, Injectable, linkedSignal, signal } from '@angular/core';
 import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
 import { AsyncValidatorFn, FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 import { from } from 'rxjs';
@@ -29,17 +30,6 @@ export type GlobalFormGroup = FormGroup<{
   start_year: FormControl<number | null>;
   end_year: FormControl<number | null>;
   default_included: FormControl<boolean>;
-}>;
-
-export type EventFormGroup = FormGroup<{
-  track_id: FormControl<string>;
-  name: FormControl<string>;
-  month: FormControl<number>;
-  week_end: FormControl<number>;
-  mandatory: FormControl<boolean>;
-  type: FormControl<'time' | 'laps'>;
-  duration: FormControl<number>;
-  start_time: FormControl<string>;
 }>;
 
 export type CarFormGroup = FormGroup<{
@@ -67,6 +57,7 @@ export class ChampionshipsFormManager {
   readonly vehicleClasses = toSignal(from(this.vehicleClassRepository.getAllVehicleClasses()), {
     initialValue: [],
   });
+  readonly championshipEvents = signal<RaceEvent[]>([]);
 
   private readonly championshipNameAvailableValidator: AsyncValidatorFn = async (control) => {
     const name = control.value?.trim();
@@ -95,11 +86,12 @@ export class ChampionshipsFormManager {
   };
 
   readonly globalForm: GlobalFormGroup = this.createGlobalForm();
-  readonly eventsForm = new FormArray<EventFormGroup>([]);
   readonly carsForm = new FormArray<CarFormGroup>([]);
 
   readonly globalFormValid = signal(this.globalForm.valid);
-  readonly eventsFormValid = signal(this.eventsForm.valid);
+  readonly eventsFormValid = linkedSignal(
+    () => this.championshipEvents().length >= this.globalForm.controls.events_count.value,
+  );
   readonly carsFormValid = signal(this.carsForm.valid);
 
   readonly championshipName = computed(() => this.globalForm.controls.name.value || 'championship');
@@ -111,9 +103,11 @@ export class ChampionshipsFormManager {
     this.globalForm.statusChanges.pipe(takeUntilDestroyed()).subscribe((status) => {
       this.globalFormValid.set(status === 'VALID');
     });
-    this.eventsForm.statusChanges.pipe(takeUntilDestroyed()).subscribe((status) => {
-      this.eventsFormValid.set(status === 'VALID');
-    });
+    this.globalForm.controls.events_count.valueChanges
+      .pipe(takeUntilDestroyed())
+      .subscribe((value) => {
+        this.eventsFormValid.set(this.championshipEvents().length >= value);
+      });
     this.carsForm.statusChanges.pipe(takeUntilDestroyed()).subscribe((status) => {
       this.carsFormValid.set(status === 'VALID');
     });
@@ -143,7 +137,7 @@ export class ChampionshipsFormManager {
     }
 
     if (step === 1) {
-      return this.eventsForm.valid;
+      return this.eventsFormValid();
     }
 
     return this.carsForm.valid;
@@ -152,11 +146,6 @@ export class ChampionshipsFormManager {
   markStepAsTouched(step: number): void {
     if (step === 0) {
       this.globalForm.markAllAsTouched();
-      return;
-    }
-
-    if (step === 1) {
-      this.eventsForm.markAllAsTouched();
       return;
     }
 
@@ -174,7 +163,7 @@ export class ChampionshipsFormManager {
 
     try {
       const championship = this.buildChampionship(id);
-      const events = this.buildEvents();
+      const events = this.championshipEvents();
       const cars = this.buildCars();
 
       return await this.appDatabase.saveChampionshipWithRelations({
@@ -225,23 +214,8 @@ export class ChampionshipsFormManager {
       this.carRepository.getCarsByChampionshipName(championship.name),
     ]);
 
-    this.eventsForm.clear();
+    this.championshipEvents.set(events);
     this.carsForm.clear();
-
-    for (const event of events) {
-      this.eventsForm.push(
-        this.createEventForm({
-          track_id: event.track_id,
-          name: event.name,
-          month: event.month,
-          week_end: event.week_end,
-          mandatory: event.mandatory,
-          type: event.type,
-          duration: event.duration,
-          start_time: event.start_time,
-        }),
-      );
-    }
 
     for (const car of cars) {
       this.carsForm.push(
@@ -324,45 +298,45 @@ export class ChampionshipsFormManager {
     });
   }
 
-  private createEventForm(value?: {
-    track_id?: string;
-    name?: string;
-    month?: number;
-    week_end?: number;
-    mandatory?: boolean;
-    type?: 'time' | 'laps';
-    duration?: number;
-    start_time?: string;
-  }): EventFormGroup {
-    return new FormGroup({
-      track_id: new FormControl(value?.track_id ?? '', {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      name: new FormControl(value?.name ?? '', {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      month: new FormControl(value?.month ?? 1, {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      week_end: new FormControl(value?.week_end ?? 1, {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      mandatory: new FormControl(value?.mandatory ?? false, { nonNullable: true }),
-      type: new FormControl(value?.type ?? 'time', {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      duration: new FormControl(value?.duration ?? 20, {
-        nonNullable: true,
-        validators: [Validators.required, Validators.min(1)],
-      }),
-      start_time: new FormControl(value?.start_time ?? '', { nonNullable: true }),
-    });
-  }
+  // private createEventForm(value?: {
+  //   track_id?: string;
+  //   name?: string;
+  //   month?: number;
+  //   week_end?: number;
+  //   mandatory?: boolean;
+  //   type?: 'time' | 'laps';
+  //   duration?: number;
+  //   start_time?: string;
+  // }): EventFormGroup {
+  //   return new FormGroup({
+  //     track_id: new FormControl(value?.track_id ?? '', {
+  //       nonNullable: true,
+  //       validators: [Validators.required],
+  //     }),
+  //     name: new FormControl(value?.name ?? '', {
+  //       nonNullable: true,
+  //       validators: [Validators.required],
+  //     }),
+  //     month: new FormControl(value?.month ?? 1, {
+  //       nonNullable: true,
+  //       validators: [Validators.required],
+  //     }),
+  //     week_end: new FormControl(value?.week_end ?? 1, {
+  //       nonNullable: true,
+  //       validators: [Validators.required],
+  //     }),
+  //     mandatory: new FormControl(value?.mandatory ?? false, { nonNullable: true }),
+  //     type: new FormControl(value?.type ?? 'time', {
+  //       nonNullable: true,
+  //       validators: [Validators.required],
+  //     }),
+  //     duration: new FormControl(value?.duration ?? 20, {
+  //       nonNullable: true,
+  //       validators: [Validators.required, Validators.min(1)],
+  //     }),
+  //     start_time: new FormControl(value?.start_time ?? '', { nonNullable: true }),
+  //   });
+  // }
 
   private createCarForm(value?: {
     team_name?: string;
@@ -422,7 +396,7 @@ export class ChampionshipsFormManager {
     this.globalForm.controls.tags.setValue([]);
     this.globalForm.controls.points.clear();
     this.globalForm.controls.points.push(new FormControl(25, { nonNullable: true }));
-    this.eventsForm.clear();
+    this.championshipEvents.set([]);
     this.carsForm.clear();
   }
 
@@ -453,19 +427,6 @@ export class ChampionshipsFormManager {
       end_year: rawValue.end_year,
       default_included: rawValue.default_included,
     };
-  }
-
-  private buildEvents() {
-    return this.eventsForm.controls.map((form) => ({
-      track_id: form.controls.track_id.value,
-      name: form.controls.name.value,
-      month: form.controls.month.value as Championship['init_month'],
-      week_end: form.controls.week_end.value as 1 | 2 | 3 | 4,
-      mandatory: form.controls.mandatory.value,
-      type: form.controls.type.value,
-      duration: form.controls.duration.value,
-      start_time: form.controls.start_time.value,
-    }));
   }
 
   private buildCars() {

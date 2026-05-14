@@ -11,6 +11,7 @@ export type Track = {
   end_year: number;
   real_name: string;
   is_mod: boolean;
+  location: string;
 };
 
 export type TrackType = 'circuit' | 'oval' | 'street' | 'kart' | 'rx' | 'point_to_point';

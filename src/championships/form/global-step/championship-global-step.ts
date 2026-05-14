@@ -1,6 +1,7 @@
 import { VehicleClass } from '@/resources/models/vehicle-class';
 import { MonthPipe } from '@/shared/pipes/month/month-pipe';
-import { DatePipe, TitleCasePipe } from '@angular/common';
+import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
+import { TitleCasePipe } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
@@ -10,6 +11,7 @@ import {
   input,
   signal,
 } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { FormArray, FormControl, ReactiveFormsModule, Validators } from '@angular/forms';
 import {
   TuiButton,
@@ -34,17 +36,15 @@ import {
   TuiTooltip,
 } from '@taiga-ui/kit';
 import { TuiForm } from '@taiga-ui/layout';
-import { GlobalFormGroup } from '../championships-form-manager';
 import { Subscription } from 'rxjs';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
-import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
+import { GlobalFormGroup } from '../championships-form-manager';
 
 @Component({
   selector: 'app-championship-global-step',
   templateUrl: './championship-global-step.html',
   styleUrl: './championship-global-step.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  providers: [DatePipe, MonthPipe, TitleCasePipe],
+  providers: [MonthPipe, TitleCasePipe],
   imports: [
     OrdinalPipe,
     ReactiveFormsModule,

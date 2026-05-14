@@ -1,3 +1,10 @@
+import { CarRepository } from '@/db/car-repository';
+import { ChampionshipRepository } from '@/db/championship-repository';
+import { EventRepository } from '@/db/event-repository';
+import { TeamRepository } from '@/db/team-repository';
+import { TrackRepository } from '@/db/track-repository';
+import { VehicleClassRepository } from '@/db/vehicle-class-repository';
+import { DatePipe } from '@angular/common';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import {
   ApplicationConfig,
@@ -7,16 +14,11 @@ import {
 } from '@angular/core';
 import { provideRouter, withComponentInputBinding, withRouterConfig } from '@angular/router';
 import { provideTaiga, TUI_VALIDATION_ERRORS } from '@taiga-ui/core';
-import { ChampionshipRepository } from '@/db/championship-repository';
-import { EventRepository } from '@/db/event-repository';
-import { TeamRepository } from '@/db/team-repository';
 import { routes } from './app.routes';
-import { TrackRepository } from '@/db/track-repository';
-import { CarRepository } from '@/db/car-repository';
-import { VehicleClassRepository } from '@/db/vehicle-class-repository';
 
 export const appConfig: ApplicationConfig = {
   providers: [
+    DatePipe,
     provideBrowserGlobalErrorListeners(),
     provideRouter(
       routes,

@@ -16,3 +16,7 @@ body {
   gap: inherit;
   flex-direction: column;
 }
+
+tui-dropdown {
+  max-height: 600px !important;
+}

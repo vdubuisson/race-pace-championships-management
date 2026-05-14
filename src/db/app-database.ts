@@ -49,11 +49,13 @@ export class AppDatabase extends Dexie {
         liveries: '++id, class',
         models: '++id, class, aiOnly, isMod',
         teams: '++id, name',
-        tracks: 'id, is_mod',
+        tracks: 'id, is_mod, location',
       })
       .upgrade((transaction) => {
         transaction.table('cars').clear();
         transaction.table('classes').clear();
+        transaction.table('events').clear();
+        transaction.table('tracks').clear();
       });
   }
 

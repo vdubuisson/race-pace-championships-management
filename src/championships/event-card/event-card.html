@@ -1,0 +1,57 @@
+<div tuiCardLarge="compact" appearance="floating">
+  <header tuiHeader>
+    <h2 tuiTitle>
+      {{ event().name }}
+    </h2>
+    <aside tuiAccessories>
+      <div
+        [appearance]="event().mandatory ? 'warning' : 'info'"
+        [tuiAvatar]="event().mandatory ? '@tui.star' : '?'"
+      ></div>
+    </aside>
+  </header>
+  <div tuiCell class="icon-cell">
+    <tui-icon icon="@tui.road" />
+    <div tuiTitle>{{ event().track_name }}</div>
+    <tui-icon icon="@tui.timer" />
+    @if (event().type === 'time') {
+      <div tuiTitle>{{ event().duration | duration }}</div>
+    } @else {
+      <div tuiTitle>{{ event().duration }} laps</div>
+    }
+  </div>
+  <div tuiCell class="icon-cell">
+    <tui-icon icon="@tui.calendar" />
+    <div tuiTitle>{{ event().week_end | ordinal }} weekend of {{ event().month | month }}</div>
+    @if (event().start_time) {
+      <tui-icon icon="@tui.clock" />
+      <div tuiTitle>{{ event().start_time }}</div>
+    }
+  </div>
+  @if (editable()) {
+    <div class="btn-overlay">
+      <div tuiGroup class="btn-group">
+        <button
+          (click)="edit.emit()"
+          tuiButton
+          iconStart="@tui.pencil"
+          type="button"
+          appearance="info"
+          size="m"
+        >
+          Edit
+        </button>
+        <button
+          (click)="delete.emit()"
+          tuiButton
+          iconStart="@tui.trash-2"
+          type="button"
+          appearance="negative"
+          size="m"
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+  }
+</div>

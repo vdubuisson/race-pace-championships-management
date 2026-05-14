@@ -891,34 +891,6 @@ Sunbelt Autosport,Stock_USA_Gen2,Stock USA Gen2,Stock USA Gen2 #90,ARCA Menards 
 Sunbelt Autosport,Stock_USA_Gen2,Stock USA Gen2,Stock USA Gen2 #96,ARCA Menards Series,88,stock_usa_g2
 Gravel Pit Racing,Stock_USA_Gen2,Stock USA Gen2,Stock USA Gen2 #97,ARCA Menards Series,89,stock_usa_g2
 Gravel Pit Racing,Stock_USA_Gen2,Stock USA Gen2,Stock USA Gen2 #98,ARCA Menards Series,90,stock_usa_g2
-KTF Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,KTF Racing - C.Bueno #0,NASCAR Brasil Series,51,stock_cruze_24
-KTF Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,KTF Sports - Z.Muggiati #38,NASCAR Brasil Series,52,stock_cruze_24
-KTF Sports,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,KTF Sports - G.Salas #85,NASCAR Brasil Series,53,stock_cruze_24
-KTF Sports,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,KTF Sports - M.Gomes #80,NASCAR Brasil Series,54,stock_cruze_24
-Pole Motorsport,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Pole Motorsport - J.Campos #4,NASCAR Brasil Series,55,stock_cruze_24
-Pole Motorsport,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Pole Motorsport - A.Abreu #51,NASCAR Brasil Series,56,stock_cruze_24
-TMG Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,TMG Racing - R.Suzuki #8,NASCAR Brasil Series,57,stock_cruze_24
-TMG Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,TMG Racing - F.Massa #19,NASCAR Brasil Series,58,stock_cruze_24
-Cavaleiro Sports,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Cavaleiro Sports - G.Di Mauro #11,NASCAR Brasil Series,59,stock_cruze_24
-Cavaleiro Sports,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Cavaleiro Sports - N.Piquet Jr. #33,NASCAR Brasil Series,60,stock_cruze_24
-Vogel Motorsport,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,A.Mattheis Vogel - L.Foresti #12,NASCAR Brasil Series,61,stock_cruze_24
-Vogel Motorsport,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,A.Mattheis Vogel - G.Casagrande #83,NASCAR Brasil Series,62,stock_cruze_24
-Blau Motorsport,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Blau Motorsport - A.Khodair #18,NASCAR Brasil Series,63,stock_cruze_24
-Blau Motorsport,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Blau Motorsport - F.Fraga #88,NASCAR Brasil Series,64,stock_cruze_24
-Eurofarma RC,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Eurofarma RC - D.Serra #29,NASCAR Brasil Series,65,stock_cruze_24
-Eurofarma RC,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Eurofarma RC - R.Mauricio #90,NASCAR Brasil Series,66,stock_cruze_24
-Wokin Garra Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Wokin Garra Racing - G.Robe #35,NASCAR Brasil Series,68,stock_cruze_24
-Wokin Garra Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Wokin Garra Racing - L.Kohl #95,NASCAR Brasil Series,69,stock_cruze_24
-RCM Motorsport,StockCarV8_2024,Toyota Corolla Stock Car 2024,RCM Motorsport - R.Zonta #10,NASCAR Brasil Series,51,stock_corolla_24
-RCM Motorsport,StockCarV8_2024,Toyota Corolla Stock Car 2024,RCM Motorsport - B.Baptista #44,NASCAR Brasil Series,52,stock_corolla_24
-Ipiranga Racing,StockCarV8_2024,Toyota Corolla Stock Car 2024,Ipiranga Racing - T.Camilo #21,NASCAR Brasil Series,53,stock_corolla_24
-Ipiranga Racing,StockCarV8_2024,Toyota Corolla Stock Car 2024,Ipiranga Racing - C.Ramos #30,NASCAR Brasil Series,54,stock_corolla_24
-Crown Racing,StockCarV8_2024,Toyota Corolla Stock Car 2024,Crown Racing - E.Elias #28,NASCAR Brasil Series,55,stock_corolla_24
-Crown Racing,StockCarV8_2024,Toyota Corolla Stock Car 2024,Crown Racing - F.Baptista #121,NASCAR Brasil Series,56,stock_corolla_24
-Full Time Bassani,StockCarV8_2024,Toyota Corolla Stock Car 2024,Full Time Bassani - A.Leist #81,NASCAR Brasil Series,57,stock_corolla_24
-Full Time Bassani,StockCarV8_2024,Toyota Corolla Stock Car 2024,Full Time Bassani - G.Petecof #101,NASCAR Brasil Series,58,stock_corolla_24
-MOBIL ALE,StockCarV8_2024,Toyota Corolla Stock Car 2024,MOBIL ALE - E.Barrichello #91,NASCAR Brasil Series,59,stock_corolla_24
-MOBIL ALE,StockCarV8_2024,Toyota Corolla Stock Car 2024,MOBIL ALE - R.Barrichello #111,NASCAR Brasil Series,60,stock_corolla_24
 KTF Sports,OldStock,Chevrolet Opala Old Stock Race,Opala Old Stock Race #01,Old Stock Race,51,opala_oldstock
 KTF Sports,OldStock,Chevrolet Opala Old Stock Race,Opala Old Stock Race #2,Old Stock Race,52,opala_oldstock
 KTF Sports,OldStock,Chevrolet Opala Old Stock Race,Opala Old Stock Race #3,Old Stock Race,53,opala_oldstock
@@ -1783,3 +1755,259 @@ Mercedes-AMG,F-Ultimate,Formula Ultimate Hybrid Gen2,Starward G.P. #60,Formula 1
 Mercedes-AMG,F-Ultimate,Formula Ultimate Hybrid Gen2,Starward G.P. #62,Formula 1 (Hybrid Gen 2),68,formula_ultimate_2019
 McLaren Racing,F-Ultimate,Formula Ultimate Hybrid Gen2,McLean G.P. #98,Formula 1 (Hybrid Gen 2),69,formula_ultimate_2019
 McLaren Racing,F-Ultimate,Formula Ultimate Hybrid Gen2,McLean G.P. #99,Formula 1 (Hybrid Gen 2),70,formula_ultimate_2019
+KTF Racing,Opala79,Chevrolet Opala Stock Cars 1979,Alencar Junior #3,Stock Car Brasil (1979),51,opala_79
+KTF Racing,Opala79,Chevrolet Opala Stock Cars 1979,Carlos Andrade #5,Stock Car Brasil (1979),52,opala_79
+Crown Racing,Opala79,Chevrolet Opala Stock Cars 1979,Edgard Filho #7,Stock Car Brasil (1979),53,opala_79
+Crown Racing,Opala79,Chevrolet Opala Stock Cars 1979,Ricardo Oliveira #8,Stock Car Brasil (1979),54,opala_79
+Pole Motorsport,Opala79,Chevrolet Opala Stock Cars 1979,Paulo Valiengo #9,Stock Car Brasil (1979),55,opala_79
+Pole Motorsport,Opala79,Chevrolet Opala Stock Cars 1979,Ingo Hoffmann #10,Stock Car Brasil (1979),56,opala_79
+TMG Racing,Opala79,Chevrolet Opala Stock Cars 1979,Luis Pereira #11,Stock Car Brasil (1979),57,opala_79
+TMG Racing,Opala79,Chevrolet Opala Stock Cars 1979,Julio Tedesco #17,Stock Car Brasil (1979),58,opala_79
+Cavaleiro Sports,Opala79,Chevrolet Opala Stock Cars 1979,Paulo Gomes #22,Stock Car Brasil (1979),59,opala_79
+Cavaleiro Sports,Opala79,Chevrolet Opala Stock Cars 1979,Affonso Giaffone #26,Stock Car Brasil (1979),60,opala_79
+Vogel Motorsport,Opala79,Chevrolet Opala Stock Cars 1979,Reinaldo Campello #30,Stock Car Brasil (1979),61,opala_79
+Vogel Motorsport,Opala79,Chevrolet Opala Stock Cars 1979,Zeca Giaffone #31,Stock Car Brasil (1979),62,opala_79
+Blau Motorsport,Opala79,Chevrolet Opala Stock Cars 1979,Joao Palhares #48,Stock Car Brasil (1979),63,opala_79
+Blau Motorsport,Opala79,Chevrolet Opala Stock Cars 1979,Walter Spinelli #58,Stock Car Brasil (1979),64,opala_79
+Eurofarma RC,Opala79,Chevrolet Opala Stock Cars 1979,Alfredo Menezes #61,Stock Car Brasil (1979),65,opala_79
+Eurofarma RC,Opala79,Chevrolet Opala Stock Cars 1979,Walter Travaglini #62,Stock Car Brasil (1979),66,opala_79
+Wokin Garra Racing,Opala79,Chevrolet Opala Stock Cars 1979,Arthur Bragantini #80,Stock Car Brasil (1979),67,opala_79
+Wokin Garra Racing,Opala79,Chevrolet Opala Stock Cars 1979,Raul Boesel #81,Stock Car Brasil (1979),68,opala_79
+RCM Motorsport,Opala79,Chevrolet Opala Stock Cars 1979,Mauro Sa Motta #98,Stock Car Brasil (1979),69,opala_79
+RCM Motorsport,Opala79,Chevrolet Opala Stock Cars 1979,Sidney Alves #163,Stock Car Brasil (1979),70,opala_79
+KTF Racing,Opala86,Chevrolet Opala Stock Cars 1986,Tepetes Bandeirante - Jose Carlos Dias #7,Stock Car Brasil (1986),52,opala_86
+KTF Racing,Opala86,Chevrolet Opala Stock Cars 1986,Tepetes Bandeirante - Walter Corsi #8,Stock Car Brasil (1986),53,opala_86
+Crown Racing,Opala86,Chevrolet Opala Stock Cars 1986,Refricentro - Affonso Giaffone #10,Stock Car Brasil (1986),54,opala_86
+Crown Racing,Opala86,Chevrolet Opala Stock Cars 1986,Refricentro - Alencar Junior #19,Stock Car Brasil (1986),55,opala_86
+Pole Motorsport,Opala86,Chevrolet Opala Stock Cars 1986,Refricentro - Zeca Giaffone #31,Stock Car Brasil (1986),56,opala_86
+Pole Motorsport,Opala86,Chevrolet Opala Stock Cars 1986,Refricentro - Walter Travaglini #33,Stock Car Brasil (1986),57,opala_86
+TMG Racing,Opala86,Chevrolet Opala Stock Cars 1986,HG - Fabio Mayor #12,Stock Car Brasil (1986),58,opala_86
+TMG Racing,Opala86,Chevrolet Opala Stock Cars 1986,HG - Paulo Gomes #22,Stock Car Brasil (1986),59,opala_86
+Cavaleiro Sports,Opala86,Chevrolet Opala Stock Cars 1986,Molas Hoesch - Chico Serra #13,Stock Car Brasil (1986),60,opala_86
+Cavaleiro Sports,Opala86,Chevrolet Opala Stock Cars 1986,Metalpo-Combustol - Ingo Hoffmann #17,Stock Car Brasil (1986),61,opala_86
+Vogel Motorsport,Opala86,Chevrolet Opala Stock Cars 1986,Queijo Manaca - Ananias Justino #25,Stock Car Brasil (1986),62,opala_86
+Vogel Motorsport,Opala86,Chevrolet Opala Stock Cars 1986,Queijo Manaca - Laercio Justino #26,Stock Car Brasil (1986),63,opala_86
+Blau Motorsport,Opala86,Chevrolet Opala Stock Cars 1986,Agip-Blindex - Leonardode Almeida #37,Stock Car Brasil (1986),64,opala_86
+Blau Motorsport,Opala86,Chevrolet Opala Stock Cars 1986,Agip-Blindex - Lian Duarte #38,Stock Car Brasil (1986),65,opala_86
+Eurofarma RC,Opala86,Chevrolet Opala Stock Cars 1986,Action - Paulo de T.Marques #51,Stock Car Brasil (1986),66,opala_86
+Eurofarma RC,Opala86,Chevrolet Opala Stock Cars 1986,Action - Oscar Chanosky #52,Stock Car Brasil (1986),67,opala_86
+Wokin Garra Racing,Opala86,Chevrolet Opala Stock Cars 1986,Havolion-Texaco - Luis Pereira #62,Stock Car Brasil (1986),68,opala_86
+Wokin Garra Racing,Opala86,Chevrolet Opala Stock Cars 1986,Havolion-Texaco - Marcos Gracia #67,Stock Car Brasil (1986),69,opala_86
+RCM Motorsport,Opala86,Chevrolet Opala Stock Cars 1986,Dudacar - Regina Calderoni #64,Stock Car Brasil (1986),70,opala_86
+RCM Motorsport,Opala86,Chevrolet Opala Stock Cars 1986,DIMEP - Dimas Pimenta #6,Stock Car Brasil (1986),51,opala_86
+KTF Racing,StockCar99,Chevrolet Omega Stock Car 1999,WB Motorsport - Chico Serra #3,Stock Car Brasil (1999),52,stock_omega
+KTF Racing,StockCar99,Chevrolet Omega Stock Car 1999,WB Motorsport - Carlos Falletti #6,Stock Car Brasil (1999),54,stock_omega
+Crown Racing,StockCar99,Chevrolet Omega Stock Car 1999,AJ Competicoes - Adalberto Jardim #5,Stock Car Brasil (1999),53,stock_omega
+Crown Racing,StockCar99,Chevrolet Omega Stock Car 1999,CA Competicoes - Carlos Alves #8,Stock Car Brasil (1999),55,stock_omega
+Pole Motorsport,StockCar99,Chevrolet Omega Stock Car 1999,Team Medley - Xandy Negrao #9,Stock Car Brasil (1999),56,stock_omega
+Pole Motorsport,StockCar99,Chevrolet Omega Stock Car 1999,Team Medley - Guto Negrao #27,Stock Car Brasil (1999),57,stock_omega
+TMG Racing,StockCar99,Chevrolet Omega Stock Car 1999,Fausto Rezende #13,Stock Car Brasil (1999),58,stock_omega
+TMG Racing,StockCar99,Chevrolet Omega Stock Car 1999,Newton Grillo #21,Stock Car Brasil (1999),59,stock_omega
+Cavaleiro Sports,StockCar99,Chevrolet Omega Stock Car 1999,Spinelli Racing - Paulo Gomes #22,Stock Car Brasil (1999),60,stock_omega
+Cavaleiro Sports,StockCar99,Chevrolet Omega Stock Car 1999,Sterilgarda MRT - Ananias Justino #25,Stock Car Brasil (1999),61,stock_omega
+Vogel Motorsport,StockCar99,Chevrolet Omega Stock Car 1999,Racing Star - Laercio Justino #26,Stock Car Brasil (1999),62,stock_omega
+Vogel Motorsport,StockCar99,Chevrolet Omega Stock Car 1999,Action Power - Luciano Zangirolami #33,Stock Car Brasil (1999),63,stock_omega
+Blau Motorsport,StockCar99,Chevrolet Omega Stock Car 1999,Boettger - Flavio Trindade #34,Stock Car Brasil (1999),64,stock_omega
+Blau Motorsport,StockCar99,Chevrolet Omega Stock Car 1999,GasGas - Rodney Felicio #57,Stock Car Brasil (1999),66,stock_omega
+Eurofarma RC,StockCar99,Chevrolet Omega Stock Car 1999,JF Racing - Carlos Cunha #54,Stock Car Brasil (1999),65,stock_omega
+Eurofarma RC,StockCar99,Chevrolet Omega Stock Car 1999,JF Racing - Ingo Hoffmann #1,Stock Car Brasil (1999),51,stock_omega
+Wokin Garra Racing,StockCar99,Chevrolet Omega Stock Car 1999,One Energy Racing - Aloysio Andrade #77,Stock Car Brasil (1999),67,stock_omega
+Wokin Garra Racing,StockCar99,Chevrolet Omega Stock Car 1999,Giuseppe Vecchi #88,Stock Car Brasil (1999),68,stock_omega
+RCM Motorsport,StockCar99,Chevrolet Omega Stock Car 1999,NASCAR Motorsport - Marcelo Tedesco #91,Stock Car Brasil (1999),69,stock_omega
+RCM Motorsport,StockCar99,Chevrolet Omega Stock Car 1999,Carlos Neto #0,Stock Car Brasil (1999),70,stock_omega
+Wokin Garra Racing,StockCarV8,Chevrolet Cruze Stock Car 2019,CIMED Racing - C.Bueno #00,Stock Car Brasil (2010),51,stock_cruze
+Wokin Garra Racing,StockCarV8,Chevrolet Cruze Stock Car 2019,CIMED Racing - F.Fraga #88,Stock Car Brasil (2010),52,stock_cruze
+Ipiranga Racing,StockCarV8,Chevrolet Cruze Stock Car 2019,Ipiranga Racing - B.Figueiredo #3,Stock Car Brasil (2010),53,stock_cruze
+Ipiranga Racing,StockCarV8,Chevrolet Cruze Stock Car 2019,Ipiranga Racing - T.Camilo #21,Stock Car Brasil (2010),54,stock_cruze
+TMG Racing,StockCarV8,Chevrolet Cruze Stock Car 2019,Prati-Donaduzzi Racing - J.Campos #4,Stock Car Brasil (2010),55,stock_cruze
+TMG Racing,StockCarV8,Chevrolet Cruze Stock Car 2019,Prati-Donaduzzi Racing - V.Brito #77,Stock Car Brasil (2010),56,stock_cruze
+Cavaleiro Sports,StockCarV8,Chevrolet Cruze Stock Car 2019,Cavaleiro Sports - D.Navarro #5,Stock Car Brasil (2010),57,stock_cruze
+Cavaleiro Sports,StockCarV8,Chevrolet Cruze Stock Car 2019,Cavaleiro Sports - F.Lapenna #110,Stock Car Brasil (2010),58,stock_cruze
+Pole Motorsport,StockCarV8,Chevrolet Cruze Stock Car 2019,Hot Car Competicoes - R.Suzuki #8,Stock Car Brasil (2010),59,stock_cruze
+Pole Motorsport,StockCarV8,Chevrolet Cruze Stock Car 2019,Hot Car Competicoes - P.Cardoso #143,Stock Car Brasil (2010),60,stock_cruze
+Vogel Motorsport,StockCarV8,Chevrolet Cruze Stock Car 2019,Vogel Motorsport - G.Lima #9,Stock Car Brasil (2010),61,stock_cruze
+Vogel Motorsport,StockCarV8,Chevrolet Cruze Stock Car 2019,Vogel Motorsport - L.Foresti #12,Stock Car Brasil (2010),62,stock_cruze
+KTF Racing,StockCarV8,Chevrolet Cruze Stock Car 2019,Shell V-Power - R.Zonta #10,Stock Car Brasil (2010),63,stock_cruze
+KTF Racing,StockCarV8,Chevrolet Cruze Stock Car 2019,Shell V-Power - A.Abreu #51,Stock Car Brasil (2010),64,stock_cruze
+Scuderia Chiarelli,StockCarV8,Chevrolet Cruze Stock Car 2019,Shell Helix Ultra - G.di Mauro #11,Stock Car Brasil (2010),65,stock_cruze
+Scuderia Chiarelli,StockCarV8,Chevrolet Cruze Stock Car 2019,Shell Helix Ultra - G.Osman #28,Stock Car Brasil (2010),66,stock_cruze
+Blau Motorsport,StockCarV8,Chevrolet Cruze Stock Car 2019,Blau Motorsport - A.Khodair #18,Stock Car Brasil (2010),67,stock_cruze
+Blau Motorsport,StockCarV8,Chevrolet Cruze Stock Car 2019,Blau Motorsport - C.Ramos #30,Stock Car Brasil (2010),68,stock_cruze
+Eurofarma RC,StockCarV8,Chevrolet Cruze Stock Car 2019,Eurofarma RC - D.Serra #29,Stock Car Brasil (2010),69,stock_cruze
+Eurofarma RC,StockCarV8,Chevrolet Cruze Stock Car 2019,Eurofarma RC - R.Mauricio #90,Stock Car Brasil (2010),70,stock_cruze
+Full Time Bassani,StockCarV8,Chevrolet Cruze Stock Car 2019,Full Time Sports - N.Piquet Jr #33,Stock Car Brasil (2010),71,stock_cruze
+Full Time Bassani,StockCarV8,Chevrolet Cruze Stock Car 2019,Full Time Sports - R.Barrichello #111,Stock Car Brasil (2010),72,stock_cruze
+RCM Motorsport,StockCarV8,Chevrolet Cruze Stock Car 2019,RCM - B.Baptista #44,Stock Car Brasil (2010),73,stock_cruze
+RCM Motorsport,StockCarV8,Chevrolet Cruze Stock Car 2019,RCM - M.Wilson #65,Stock Car Brasil (2010),74,stock_cruze
+KTF Sports,StockCarV8,Chevrolet Cruze Stock Car 2019,KTF Sports - D.Nunes #70,Stock Car Brasil (2010),75,stock_cruze
+KTF Sports,StockCarV8,Chevrolet Cruze Stock Car 2019,KTF Sports - M.Gomes #80,Stock Car Brasil (2010),76,stock_cruze
+Crown Racing,StockCarV8,Chevrolet Cruze Stock Car 2019,Crown Racing - G.Casagrande #83,Stock Car Brasil (2010),77,stock_cruze
+Crown Racing,StockCarV8,Chevrolet Cruze Stock Car 2019,Crown Racing - M.Colleta #177,Stock Car Brasil (2010),78,stock_cruze
+Cavaleiro Sports,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Cavaleiro Sports - D.Navarro #5,Stock Car Brasil (2020),53,stock_cruze_20
+Cavaleiro Sports,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Cavaleiro Sports - M.Gomes #80,Stock Car Brasil (2020),54,stock_cruze_20
+TMG Racing,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Lubrax Podium - J.Campos #4,Stock Car Brasil (2020),52,stock_cruze_20
+TMG Racing,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Crown Racing - G.Lusquinos #22,Stock Car Brasil (2020),62,stock_cruze_20
+Scuderia Chiarelli,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Shell V-Power - G.Di Mauro #11,Stock Car Brasil (2020),56,stock_cruze_20
+Scuderia Chiarelli,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Shell V-Power - G.Osman #28,Stock Car Brasil (2020),57,stock_cruze_20
+KTF Racing,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,KTF Sports - V.Genz #46,Stock Car Brasil (2020),66,stock_cruze_20
+KTF Racing,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,KTF Sports - L.Foresti #12,Stock Car Brasil (2020),59,stock_cruze_20
+Blau Motorsport,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Blau Motorsport - A.Khodair #18,Stock Car Brasil (2020),60,stock_cruze_20
+Blau Motorsport,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Blau Motorsport - D.Nunes #70,Stock Car Brasil (2020),61,stock_cruze_20
+Eurofarma RC,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Eurofarma RC - D.Serra #29,Stock Car Brasil (2020),63,stock_cruze_20
+Eurofarma RC,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Eurofarma RC - R.Mauricio #90,Stock Car Brasil (2020),64,stock_cruze_20
+Pole Motorsport,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,RXMM - P.Cardoso #43,Stock Car Brasil (2020),65,stock_cruze_20
+Pole Motorsport,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Hot Car Competicoes - T.Antoniazi #54,Stock Car Brasil (2020),67,stock_cruze_20
+Vogel Motorsport,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,MotorFast Racing - R.Barbosa #55,Stock Car Brasil (2020),68,stock_cruze_20
+Vogel Motorsport,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,MX Piquet Sports - S.Jimenez #73,Stock Car Brasil (2020),69,stock_cruze_20
+Wokin Garra Racing,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,AMM - G.Lima #9,Stock Car Brasil (2020),55,stock_cruze_20
+Wokin Garra Racing,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,AMM - G.Casagrande #83,Stock Car Brasil (2020),70,stock_cruze_20
+KTF Sports,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,KTF Sports - G.Salas #85,Stock Car Brasil (2020),71,stock_cruze_20
+KTF Sports,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,KTF Sports - V.Baptista #120,Stock Car Brasil (2020),72,stock_cruze_20
+Crown Racing,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Crown Racing - C.Bueno #0,Stock Car Brasil (2020),51,stock_cruze_20
+Crown Racing,StockCarV8_2020,Chevrolet Cruze Stock Car 2020,Crown Racing - B.Monteiro #188,Stock Car Brasil (2020),73,stock_cruze_20
+RCM Motorsport,StockCarV8_2020,Toyota Corolla Stock Car 2020,RCM Motorsport - R.Zonta #10,Stock Car Brasil (2020),52,stock_corolla
+RCM Motorsport,StockCarV8_2020,Toyota Corolla Stock Car 2020,RCM Motorsport - B.Baptista #44,Stock Car Brasil (2020),57,stock_corolla
+Ipiranga Racing,StockCarV8_2020,Toyota Corolla Stock Car 2020,Ipiranga Racing - T.Camilo #21,Stock Car Brasil (2020),53,stock_corolla
+Ipiranga Racing,StockCarV8_2020,Toyota Corolla Stock Car 2020,Ipiranga Racing - C.Ramos #30,Stock Car Brasil (2020),54,stock_corolla
+MOBIL ALE,StockCarV8_2020,Toyota Corolla Stock Car 2020,Full Time Sports - R.Barrichello #111,Stock Car Brasil (2020),58,stock_corolla
+MOBIL ALE,StockCarV8_2020,Toyota Corolla Stock Car 2020,Full Time Sports - M.Rossi #117,Stock Car Brasil (2020),59,stock_corolla
+Full Time Bassani,StockCarV8_2020,Toyota Corolla Stock Car 2020,Full Time Bassani - R.Suzuki #8,Stock Car Brasil (2020),51,stock_corolla
+Full Time Bassani,StockCarV8_2020,Toyota Corolla Stock Car 2020,Full Time Bassani - N.Piquet Jr #33,Stock Car Brasil (2020),55,stock_corolla
+TMG Racing,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Lubrax Podium - J.Campos #4,Stock Car Brasil (2021),52,stock_cruze_21
+TMG Racing,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Lubrax Podium - F.Massa #91,Stock Car Brasil (2021),53,stock_cruze_21
+Cavaleiro Sports,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Cavaleiro Sports - D.Navarro #5,Stock Car Brasil (2021),54,stock_cruze_21
+Cavaleiro Sports,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Cavaleiro Sports - M.Gomes #80,Stock Car Brasil (2021),55,stock_cruze_21
+Vogel Motorsport,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Vogel Motorsport - G.Lima #9,Stock Car Brasil (2021),56,stock_cruze_21
+Vogel Motorsport,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Vogel Motorsport - G.Casagrande #83,Stock Car Brasil (2021),72,stock_cruze_21
+KTF Sports,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,KTF Sports - G.Di Mauro #11,Stock Car Brasil (2021),57,stock_cruze_21
+KTF Sports,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,KTF Sports - L.Foresti #12,Stock Car Brasil (2021),58,stock_cruze_21
+Blau Motorsport,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Blau Motorsport - C.Hahn #16,Stock Car Brasil (2021),59,stock_cruze_21
+Blau Motorsport,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Blau Motorsport - A.Khodair #18,Stock Car Brasil (2021),60,stock_cruze_21
+Scuderia Chiarelli,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Shell V-Power - G.Osman #28,Stock Car Brasil (2021),63,stock_cruze_21
+Scuderia Chiarelli,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Shell V-Power - A.Abreu #51,Stock Car Brasil (2021),64,stock_cruze_21
+Eurofarma RC,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Eurofarma RC - D.Serra #29,Stock Car Brasil (2021),65,stock_cruze_21
+Eurofarma RC,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Eurofarma RC - R.Mauricio #90,Stock Car Brasil (2021),66,stock_cruze_21
+KTF Racing,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,KTF Sports - P.Cardoso #43,Stock Car Brasil (2021),68,stock_cruze_21
+KTF Racing,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,KTF Sports - G.Salas #85,Stock Car Brasil (2021),69,stock_cruze_21
+Pole Motorsport,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Hot Car New Gen - T.Antoniazi #54,Stock Car Brasil (2021),70,stock_cruze_21
+Pole Motorsport,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Hot Car New Gen - F.Lapenna #110,Stock Car Brasil (2021),71,stock_cruze_21
+Crown Racing,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Crown Racing - G.Lusquinos #22,Stock Car Brasil (2021),62,stock_cruze_21
+Crown Racing,StockCarV8_2021,Chevrolet Cruze Stock Car 2021,Crown Racing - B.Monteiro #88,Stock Car Brasil (2021),73,stock_cruze_21
+RCM Motorsport,StockCarV8_2021,Toyota Corolla Stock Car 2021,RCM Motorsport - R.Zonta #10,Stock Car Brasil (2021),52,stock_corolla_21
+RCM Motorsport,StockCarV8_2021,Toyota Corolla Stock Car 2021,RCM Motorsport - B.Baptista #44,Stock Car Brasil (2021),57,stock_corolla_21
+Ipiranga Racing,StockCarV8_2021,Toyota Corolla Stock Car 2021,Ipiranga Racing - T.Camilo #21,Stock Car Brasil (2021),53,stock_corolla_21
+Ipiranga Racing,StockCarV8_2021,Toyota Corolla Stock Car 2021,Ipiranga Racing - C.Ramos #30,Stock Car Brasil (2021),54,stock_corolla_21
+Wokin Garra Racing,StockCarV8_2021,Toyota Corolla Stock Car 2021,MX Piquet Sports - N.Piquet Jr #33,Stock Car Brasil (2021),55,stock_corolla_21
+Wokin Garra Racing,StockCarV8_2021,Toyota Corolla Stock Car 2021,MX Piquet Sports - S.Jimenez #73,Stock Car Brasil (2021),59,stock_corolla_21
+Full Time Bassani,StockCarV8_2021,Toyota Corolla Stock Car 2021,Full Time Bassani - T.Kanaan #48,Stock Car Brasil (2021),58,stock_corolla_21
+Full Time Bassani,StockCarV8_2021,Toyota Corolla Stock Car 2021,Full Time Bassani - R.Suzuki #8,Stock Car Brasil (2021),51,stock_corolla_21
+MOBIL ALE,StockCarV8_2021,Toyota Corolla Stock Car 2021,Full Time Sports - R.Barrichello #111,Stock Car Brasil (2021),60,stock_corolla_21
+MOBIL ALE,StockCarV8_2021,Toyota Corolla Stock Car 2021,Full Time Sports - M.Rossi #117,Stock Car Brasil (2021),61,stock_corolla_21
+Crown Racing,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Crown Racing - C.Bueno #0,Stock Car Pro Series (2022),51,stock_cruze_22
+Crown Racing,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Crown Racing - R.Baptista #3,Stock Car Pro Series (2022),52,stock_cruze_22
+Wokin Garra Racing,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Lubrax Podium - J.Campos #4,Stock Car Pro Series (2022),54,stock_cruze_22
+Wokin Garra Racing,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Lubrax Podium - F.Massa #19,Stock Car Pro Series (2022),55,stock_cruze_22
+Cavaleiro Sports,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Cavaleiro Sports - D.Navarro #5,Stock Car Pro Series (2022),56,stock_cruze_22
+Cavaleiro Sports,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Cavaleiro Sports - M.Gomes #80,Stock Car Pro Series (2022),57,stock_cruze_22
+KTF Sports,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,KTF Sports - G.Di Mauro #11,Stock Car Pro Series (2022),58,stock_cruze_22
+KTF Sports,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,KTF Sports - L.Foresti #12,Stock Car Pro Series (2022),59,stock_cruze_22
+KTF Racing,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,KTF Sports - G.Salas #85,Stock Car Pro Series (2022),60,stock_cruze_22
+KTF Racing,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,KTF Sports - F.Baptista #121,Stock Car Pro Series (2022),61,stock_cruze_22
+Blau Motorsport,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Blau Motorsport - A.Khodair #18,Stock Car Pro Series (2022),62,stock_cruze_22
+Blau Motorsport,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Blau Motorsport - D.Nunes #70,Stock Car Pro Series (2022),63,stock_cruze_22
+Vogel Motorsport,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Shell V-Power - G.Osman #28,Stock Car Pro Series (2022),64,stock_cruze_22
+Vogel Motorsport,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Shell V-Power - A.Abreu #51,Stock Car Pro Series (2022),65,stock_cruze_22
+Eurofarma RC,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Eurofarma RC - D.Serra #29,Stock Car Pro Series (2022),66,stock_cruze_22
+Eurofarma RC,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Eurofarma RC - R.Mauricio #90,Stock Car Pro Series (2022),67,stock_cruze_22
+Pole Motorsport,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Hot Car Competicoes - T.Antoniazi #54,Stock Car Pro Series (2022),68,stock_cruze_22
+Pole Motorsport,StockCarV8_2022,Chevrolet Cruze Stock Car 2022,Hot Car Competicoes - F.Lapenna #110,Stock Car Pro Series (2022),69,stock_cruze_22
+Full Time Bassani,StockCarV8_2022,Toyota Corolla Stock Car 2022,Full Time Bassani - T.Kanaan #6,Stock Car Pro Series (2022),51,stock_corolla_22
+Full Time Bassani,StockCarV8_2022,Toyota Corolla Stock Car 2022,Full Time Bassani - R.Suzuki #8,Stock Car Pro Series (2022),52,stock_corolla_22
+RCM Motorsport,StockCarV8_2022,Toyota Corolla Stock Car 2022,RCM Motorsport - R.Zonta #10,Stock Car Pro Series (2022),53,stock_corolla_22
+RCM Motorsport,StockCarV8_2022,Toyota Corolla Stock Car 2022,RCM Motorsport - B.Baptista #44,Stock Car Pro Series (2022),57,stock_corolla_22
+Ipiranga Racing,StockCarV8_2022,Toyota Corolla Stock Car 2022,Ipiranga Racing - T.Camilo #21,Stock Car Pro Series (2022),54,stock_corolla_22
+Ipiranga Racing,StockCarV8_2022,Toyota Corolla Stock Car 2022,Ipiranga Racing - C.Ramos #30,Stock Car Pro Series (2022),55,stock_corolla_22
+TMG Racing,StockCarV8_2022,Toyota Corolla Stock Car 2022,Motul TMG Racing - N.Piquet Jr #33,Stock Car Pro Series (2022),56,stock_corolla_22
+TMG Racing,StockCarV8_2022,Toyota Corolla Stock Car 2022,AMM Vogel - M.Rossi #117,Stock Car Pro Series (2022),62,stock_corolla_22
+Scuderia Chiarelli,StockCarV8_2022,Toyota Corolla Stock Car 2022,Scuderia CJ - S.Jimenez #73,Stock Car Pro Series (2022),58,stock_corolla_22
+Scuderia Chiarelli,StockCarV8_2022,Toyota Corolla Stock Car 2022,Scuderia CJ - B.Monteiro #88,Stock Car Pro Series (2022),59,stock_corolla_22
+MOBIL ALE,StockCarV8_2022,Toyota Corolla Stock Car 2022,Full Time Sports - G.Petecof #101,Stock Car Pro Series (2022),60,stock_corolla_22
+MOBIL ALE,StockCarV8_2022,Toyota Corolla Stock Car 2022,Full Time Sports - R.Barrichello #111,Stock Car Pro Series (2022),61,stock_corolla_22
+KTF Sports,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,KTF Sports - C.Bueno #0,Stock Car Pro Series (2023),51,stock_cruze_23
+KTF Sports,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,KTF Sports - R.Baptista #3,Stock Car Pro Series (2023),52,stock_cruze_23
+TMG Racing,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,Lubrax Podium TMG - J.Campos #4,Stock Car Pro Series (2023),53,stock_cruze_23
+TMG Racing,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,Lubrax Podium TMG - F.Massa #19,Stock Car Pro Series (2023),54,stock_cruze_23
+Cavaleiro Sports,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,Cavaleiro Sports - D.Navarro #5,Stock Car Pro Series (2023),55,stock_cruze_23
+Cavaleiro Sports,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,Cavaleiro Sports - M.Gomes #80,Stock Car Pro Series (2023),56,stock_cruze_23
+Pole Motorsport,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,POLE Motorsport - R.Suzuki #8,Stock Car Pro Series (2023),57,stock_cruze_23
+Pole Motorsport,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,POLE Motorsport - A.Abreu #51,Stock Car Pro Series (2023),58,stock_cruze_23
+Wokin Garra Racing,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,Hot Car Competicoes - G.Di Mauro #11,Stock Car Pro Series (2023),59,stock_cruze_23
+Wokin Garra Racing,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,Hot Car Competicoes - L.Kohl #95,Stock Car Pro Series (2023),60,stock_cruze_23
+Vogel Motorsport,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,AMM Vogel - L.Foresti #12,Stock Car Pro Series (2023),61,stock_cruze_23
+Vogel Motorsport,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,AMM Vogel - G.Casagrande #83,Stock Car Pro Series (2023),62,stock_cruze_23
+Blau Motorsport,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,Blau Motorsport - A.Khodair #18,Stock Car Pro Series (2023),63,stock_cruze_23
+Blau Motorsport,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,Blau Motorsport - F.Fraga #74,Stock Car Pro Series (2023),64,stock_cruze_23
+Eurofarma RC,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,Eurofarma RC - D.Serra #29,Stock Car Pro Series (2023),65,stock_cruze_23
+Eurofarma RC,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,Eurofarma RC - R.Mauricio #90,Stock Car Pro Series (2023),66,stock_cruze_23
+KTF Racing,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,KTF Racing - G.Salas #85,Stock Car Pro Series (2023),67,stock_cruze_23
+KTF Racing,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,KTF Racing - F.Baptista #121,Stock Car Pro Series (2023),68,stock_cruze_23
+RCM Motorsport,StockCarV8_2023,Toyota Corolla Stock Car 2023,RCM Motorsport - R.Zonta #10,Stock Car Pro Series (2023),52,stock_corolla_23
+RCM Motorsport,StockCarV8_2023,Toyota Corolla Stock Car 2023,RCM Motorsport - B.Baptista #44,Stock Car Pro Series (2023),53,stock_corolla_23
+Ipiranga Racing,StockCarV8_2023,Toyota Corolla Stock Car 2023,Ipiranga Racing - T.Camilo #21,Stock Car Pro Series (2023),54,stock_corolla_23
+Ipiranga Racing,StockCarV8_2023,Toyota Corolla Stock Car 2023,Ipiranga Racing - C.Ramos #30,Stock Car Pro Series (2023),55,stock_corolla_23
+Crown Racing,StockCarV8_2023,Toyota Corolla Stock Car 2023,Crown Racing - E.Elias #28,Stock Car Pro Series (2023),56,stock_corolla_23
+Crown Racing,StockCarV8_2023,Toyota Corolla Stock Car 2023,Crown Racing - N.Piquet Jr #33,Stock Car Pro Series (2023),57,stock_corolla_23
+Scuderia Chiarelli,StockCarV8_2023,Toyota Corolla Stock Car 2023,Scuderia Chiarelli - R.Teixeira #37,Stock Car Pro Series (2023),58,stock_corolla_23
+Scuderia Chiarelli,StockCarV8_2023,Toyota Corolla Stock Car 2023,Scuderia Chiarelli - S.Jimenez #73,Stock Car Pro Series (2023),59,stock_corolla_23
+MOBIL ALE,StockCarV8_2023,Toyota Corolla Stock Car 2023,MOBIL ALE - E.Barrichello #91,Stock Car Pro Series (2023),60,stock_corolla_23
+MOBIL ALE,StockCarV8_2023,Toyota Corolla Stock Car 2023,MOBIL ALE - R.Barrichello #111,Stock Car Pro Series (2023),61,stock_corolla_23
+Full Time Bassani,StockCarV8_2023,Toyota Corolla Stock Car 2023,Full Time Sports - G.Petecof #101,Stock Car Pro Series (2023),62,stock_corolla_23
+Full Time Bassani,StockCarV8_2023,Toyota Corolla Stock Car 2023,Full Time Sports - M.Rossi #117,Stock Car Pro Series (2023),63,stock_corolla_23
+KTF Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,KTF Racing - C.Bueno #0,Stock Car Pro Series,51,stock_cruze_24
+KTF Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,KTF Sports - Z.Muggiati #38,Stock Car Pro Series,52,stock_cruze_24
+KTF Sports,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,KTF Sports - G.Salas #85,Stock Car Pro Series,53,stock_cruze_24
+KTF Sports,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,KTF Sports - M.Gomes #80,Stock Car Pro Series,54,stock_cruze_24
+Pole Motorsport,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Pole Motorsport - J.Campos #4,Stock Car Pro Series,55,stock_cruze_24
+Pole Motorsport,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Pole Motorsport - A.Abreu #51,Stock Car Pro Series,56,stock_cruze_24
+TMG Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,TMG Racing - R.Suzuki #8,Stock Car Pro Series,57,stock_cruze_24
+TMG Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,TMG Racing - F.Massa #19,Stock Car Pro Series,58,stock_cruze_24
+Cavaleiro Sports,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Cavaleiro Sports - G.Di Mauro #11,Stock Car Pro Series,59,stock_cruze_24
+Cavaleiro Sports,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Cavaleiro Sports - N.Piquet Jr. #33,Stock Car Pro Series,60,stock_cruze_24
+Vogel Motorsport,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,A.Mattheis Vogel - L.Foresti #12,Stock Car Pro Series,61,stock_cruze_24
+Vogel Motorsport,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,A.Mattheis Vogel - G.Casagrande #83,Stock Car Pro Series,62,stock_cruze_24
+Blau Motorsport,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Blau Motorsport - A.Khodair #18,Stock Car Pro Series,63,stock_cruze_24
+Blau Motorsport,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Blau Motorsport - F.Fraga #88,Stock Car Pro Series,64,stock_cruze_24
+Eurofarma RC,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Eurofarma RC - D.Serra #29,Stock Car Pro Series,65,stock_cruze_24
+Eurofarma RC,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Eurofarma RC - R.Mauricio #90,Stock Car Pro Series,66,stock_cruze_24
+Wokin Garra Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Wokin Garra Racing - G.Robe #35,Stock Car Pro Series,68,stock_cruze_24
+Wokin Garra Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,Wokin Garra Racing - L.Kohl #95,Stock Car Pro Series,69,stock_cruze_24
+RCM Motorsport,StockCarV8_2024,Toyota Corolla Stock Car 2024,RCM Motorsport - R.Zonta #10,Stock Car Pro Series,51,stock_corolla_24
+RCM Motorsport,StockCarV8_2024,Toyota Corolla Stock Car 2024,RCM Motorsport - B.Baptista #44,Stock Car Pro Series,52,stock_corolla_24
+Ipiranga Racing,StockCarV8_2024,Toyota Corolla Stock Car 2024,Ipiranga Racing - T.Camilo #21,Stock Car Pro Series,53,stock_corolla_24
+Ipiranga Racing,StockCarV8_2024,Toyota Corolla Stock Car 2024,Ipiranga Racing - C.Ramos #30,Stock Car Pro Series,54,stock_corolla_24
+Crown Racing,StockCarV8_2024,Toyota Corolla Stock Car 2024,Crown Racing - E.Elias #28,Stock Car Pro Series,55,stock_corolla_24
+Crown Racing,StockCarV8_2024,Toyota Corolla Stock Car 2024,Crown Racing - F.Baptista #121,Stock Car Pro Series,56,stock_corolla_24
+Full Time Bassani,StockCarV8_2024,Toyota Corolla Stock Car 2024,Full Time Bassani - A.Leist #81,Stock Car Pro Series,57,stock_corolla_24
+Full Time Bassani,StockCarV8_2024,Toyota Corolla Stock Car 2024,Full Time Bassani - G.Petecof #101,Stock Car Pro Series,58,stock_corolla_24
+MOBIL ALE,StockCarV8_2024,Toyota Corolla Stock Car 2024,MOBIL ALE - E.Barrichello #91,Stock Car Pro Series,59,stock_corolla_24
+MOBIL ALE,StockCarV8_2024,Toyota Corolla Stock Car 2024,MOBIL ALE - R.Barrichello #111,Stock Car Pro Series,60,stock_corolla_24
+KTF Sports,SprintRace,Sprint Race,Marcelo Henriques #03,NASCAR Brasil Series,51,sprintrace
+KTF Sports,SprintRace,Sprint Race,Kaua Machado #7,NASCAR Brasil Series,52,sprintrace
+Pole Motorsport,SprintRace,Sprint Race,Cassio Cortes #09,NASCAR Brasil Series,53,sprintrace
+Pole Motorsport,SprintRace,Sprint Race,Daniel Coutinho #17,NASCAR Brasil Series,54,sprintrace
+TMG Racing,SprintRace,Sprint Race,Pedro Lopes #18,NASCAR Brasil Series,55,sprintrace
+TMG Racing,SprintRace,Sprint Race,Luciano Zangirolami #19,NASCAR Brasil Series,56,sprintrace
+Cavaleiro Sports,SprintRace,Sprint Race,Felipe Neira #28,NASCAR Brasil Series,57,sprintrace
+Cavaleiro Sports,SprintRace,Sprint Race,Walter Lester #33,NASCAR Brasil Series,58,sprintrace
+Vogel Motorsport,SprintRace,Sprint Race,Luiz Arruda #44,NASCAR Brasil Series,59,sprintrace
+Vogel Motorsport,SprintRace,Sprint Race,Cae Coelho #55,NASCAR Brasil Series,60,sprintrace
+Blau Motorsport,SprintRace,Sprint Race,Allan Croce #61,NASCAR Brasil Series,61,sprintrace
+Blau Motorsport,SprintRace,Sprint Race,Francesco Franciosi #73,NASCAR Brasil Series,62,sprintrace
+Eurofarma RC,SprintRace,Sprint Race,Nathan Brito #77,NASCAR Brasil Series,63,sprintrace
+Eurofarma RC,SprintRace,Sprint Race,Franco Pasquale #78,NASCAR Brasil Series,64,sprintrace
+Wokin Garra Racing,SprintRace,Sprint Race,Sergio Ramalho #79,NASCAR Brasil Series,65,sprintrace
+Wokin Garra Racing,SprintRace,Sprint Race,Gerson Campos #82,NASCAR Brasil Series,66,sprintrace
+Crown Racing,SprintRace,Sprint Race,Edu Menossi #85,NASCAR Brasil Series,67,sprintrace
+Crown Racing,SprintRace,Sprint Race,Vinny Azevedo #99,NASCAR Brasil Series,68,sprintrace
+Full Time Bassani,SprintRace,Sprint Race,Rubens Barrichello #111,NASCAR Brasil Series,69,sprintrace
+Full Time Bassani,SprintRace,Sprint Race,Joao Rosate #858,NASCAR Brasil Series,70,sprintrace

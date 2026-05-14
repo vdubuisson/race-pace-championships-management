@@ -8,7 +8,7 @@ export type RaceEvent = {
   mandatory: boolean;
   type: RaceEventType;
   duration: number;
-  start_time: string;
+  start_time: string | null;
 };
 
 export type RaceEventType = 'time' | 'laps';

@@ -133,6 +133,8 @@ export class ResourceLoader {
                   return Number(value);
                 case 'mandatory':
                   return value.toLowerCase() === 'true';
+                case 'start_time':
+                  return value.trim() === '' ? null : value;
                 default:
                   return value;
               }

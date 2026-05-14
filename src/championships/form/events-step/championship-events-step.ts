@@ -1,128 +1,107 @@
-import { ChangeDetectionStrategy, Component, computed, input, signal } from '@angular/core';
-import { FormArray, FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
-import { TuiButton, TuiInput, TuiTitle } from '@taiga-ui/core';
-import { TuiDrawer, TuiInputNumber } from '@taiga-ui/kit';
-import { TuiCardLarge, TuiHeader } from '@taiga-ui/layout';
+import { EventCard } from '@/championships/event-card/event-card';
+import { RaceEvent, RaceEventWithTrack } from '@/resources/models/race-event';
 import { Track } from '@/resources/models/track';
-
-type EventFormGroup = FormGroup<{
-  track_id: FormControl<string>;
-  name: FormControl<string>;
-  month: FormControl<number>;
-  week_end: FormControl<number>;
-  mandatory: FormControl<boolean>;
-  type: FormControl<'time' | 'laps'>;
-  duration: FormControl<number>;
-  start_time: FormControl<string>;
-}>;
+import {
+  ChangeDetectionStrategy,
+  Component,
+  computed,
+  inject,
+  input,
+  model,
+  signal,
+} from '@angular/core';
+import { TuiButton, TuiCell, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
+import { ChampionshipEventForm } from './event-form/championship-event-form';
 
 @Component({
   selector: 'app-championship-events-step',
   templateUrl: './championship-events-step.html',
   styleUrl: './championship-events-step.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [
-    ReactiveFormsModule,
-    TuiButton,
-    TuiCardLarge,
-    TuiDrawer,
-    TuiHeader,
-    TuiInput,
-    TuiInputNumber,
-    TuiTitle,
-  ],
+  imports: [ChampionshipEventForm, EventCard, TuiButton, TuiCell, TuiTitle],
 })
 export class ChampionshipEventsStep {
-  readonly formArray = input.required<FormArray<EventFormGroup>>();
+  private readonly notifications = inject(TuiNotificationService);
+
   readonly tracks = input.required<Track[]>();
+  readonly requiredEventCount = input.required<number>();
+  readonly events = model<RaceEvent[]>([]);
 
-  protected readonly editingIndex = signal<number | 'new' | null>(null);
-  protected readonly draftForm = signal<EventFormGroup>(this.createForm());
+  readonly tracksNameById = computed(
+    () => new Map(this.tracks().map((track) => [track.id, track.name])),
+  );
 
-  protected readonly isDrawerOpen = computed(() => this.editingIndex() !== null);
+  readonly eventsWithTrack = computed<RaceEventWithTrack[]>(() =>
+    this.events()
+      .map((event) => ({
+        ...event,
+        track_name: this.tracksNameById().get(event.track_id) ?? '',
+      }))
+      .toSorted((a, b) => {
+        if (a.month !== b.month) {
+          return a.month - b.month;
+        }
 
-  protected openNew(): void {
-    this.draftForm.set(this.createForm());
-    this.editingIndex.set('new');
+        if (a.week_end !== b.week_end) {
+          return a.week_end - b.week_end;
+        }
+
+        return a.id! - b.id!;
+      }),
+  );
+
+  protected readonly isFormShown = signal(false);
+  protected readonly editedEvent = signal<RaceEvent | null>(null);
+
+  protected hideForm(): void {
+    this.isFormShown.set(false);
+    this.editedEvent.set(null);
   }
 
-  protected openEdit(index: number): void {
-    const source = this.formArray().at(index);
-    this.draftForm.set(this.createForm(source.getRawValue()));
-    this.editingIndex.set(index);
+  protected openNewForm(): void {
+    this.editedEvent.set(null);
+    this.isFormShown.set(true);
   }
 
-  protected closeDrawer(): void {
-    this.editingIndex.set(null);
-    this.draftForm.set(this.createForm());
-  }
-
-  protected confirmDrawer(): void {
-    const form = this.draftForm();
-    form.markAllAsTouched();
-
-    if (!form.valid) {
-      return;
+  protected submitForm(formEvent: RaceEvent): void {
+    if (formEvent.id) {
+      this.events.update((events) =>
+        events.map((event) => (event.id === formEvent.id ? formEvent : event)),
+      );
+      this.notifications
+        .open('Event updated', {
+          appearance: 'positive',
+          autoClose: 3000,
+          closable: false,
+        })
+        .subscribe();
+    } else {
+      const tempId = -this.events().length;
+      this.events.update((events) => [...events, { ...formEvent, id: tempId }]);
+      this.notifications
+        .open('Event added', {
+          appearance: 'positive',
+          autoClose: 3000,
+          closable: false,
+        })
+        .subscribe();
     }
-
-    const value = form.getRawValue();
-    const nextGroup = this.createForm(value);
-    const targetIndex = this.editingIndex();
-
-    if (targetIndex === 'new') {
-      this.formArray().push(nextGroup);
-    } else if (typeof targetIndex === 'number') {
-      this.formArray().setControl(targetIndex, nextGroup);
-    }
-
-    this.closeDrawer();
+    this.hideForm();
   }
 
-  protected remove(index: number): void {
-    this.formArray().removeAt(index);
+  protected deleteEvent(eventToDelete: RaceEvent): void {
+    this.events.update((events) => events.filter((event) => event.id !== eventToDelete.id));
+    this.notifications
+      .open('Event deleted', {
+        appearance: 'positive',
+        autoClose: 3000,
+        closable: false,
+      })
+      .subscribe();
   }
 
-  protected trackName(trackId: string): string {
-    return this.tracks().find((track) => track.id === trackId)?.name ?? 'Unknown track';
-  }
-
-  private createForm(value?: {
-    track_id?: string;
-    name?: string;
-    month?: number;
-    week_end?: number;
-    mandatory?: boolean;
-    type?: 'time' | 'laps';
-    duration?: number;
-    start_time?: string;
-  }): EventFormGroup {
-    return new FormGroup({
-      track_id: new FormControl(value?.track_id ?? '', {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      name: new FormControl(value?.name ?? '', {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      month: new FormControl(value?.month ?? 1, {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      week_end: new FormControl(value?.week_end ?? 1, {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      mandatory: new FormControl(value?.mandatory ?? false, { nonNullable: true }),
-      type: new FormControl(value?.type ?? 'time', {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      duration: new FormControl(value?.duration ?? 20, {
-        nonNullable: true,
-        validators: [Validators.required, Validators.min(1)],
-      }),
-      start_time: new FormControl(value?.start_time ?? '', { nonNullable: true }),
-    });
+  protected openEventEdition(event: RaceEvent): void {
+    this.editedEvent.set(event);
+    this.isFormShown.set(true);
   }
 }

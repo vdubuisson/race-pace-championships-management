@@ -19,20 +19,20 @@
       <label tuiLabel>
         Name
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInput placeholder="Racing Team" formControlName="name" />
+          <input tuiInput placeholder="Racing Team" [formControl]="teamForm.controls.name" />
         </tui-textfield>
       </label>
-      <tui-error formControlName="name" />
+      <tui-error [formControl]="teamForm.controls.name" />
     </div>
 
     <div class="form-field">
       <label tuiLabel>
         Principal
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInput placeholder="John Smith" formControlName="principal" />
+          <input tuiInput placeholder="John Smith" [formControl]="teamForm.controls.principal" />
         </tui-textfield>
       </label>
-      <tui-error formControlName="principal" />
+      <tui-error [formControl]="teamForm.controls.principal" />
     </div>
   </fieldset>
 
@@ -44,7 +44,7 @@
           <tui-icon [tuiTooltip]="eloTooltip" />
         </span>
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber formControlName="elo" />
+          <input tuiInputNumber [formControl]="teamForm.controls.elo" />
           <button
             type="button"
             tuiIconButton
@@ -57,7 +57,7 @@
           </button>
         </tui-textfield>
       </label>
-      <tui-error formControlName="elo" />
+      <tui-error [formControl]="teamForm.controls.elo" />
     </div>
 
     <div class="form-field">
@@ -67,10 +67,10 @@
           <tui-icon [tuiTooltip]="loyaltyTooltip" />
         </span>
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber formControlName="driver_loyalty" />
+          <input tuiInputNumber [formControl]="teamForm.controls.driver_loyalty" />
         </tui-textfield>
       </label>
-      <tui-error formControlName="driver_loyalty" />
+      <tui-error [formControl]="teamForm.controls.driver_loyalty" />
     </div>
 
     <div class="form-field">
@@ -80,10 +80,10 @@
           <tui-icon [tuiTooltip]="expectationDeltaTooltip" />
         </span>
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber formControlName="expectation_delta" />
+          <input tuiInputNumber [formControl]="teamForm.controls.expectation_delta" />
         </tui-textfield>
       </label>
-      <tui-error formControlName="expectation_delta" />
+      <tui-error [formControl]="teamForm.controls.expectation_delta" />
     </div>
   </fieldset>
 

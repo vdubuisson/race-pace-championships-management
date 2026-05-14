@@ -45,13 +45,16 @@ export default class ChampionshipsFormPage {
   readonly id = input(NaN, { transform: numberAttribute });
   readonly championship = input<Championship | undefined>(undefined);
 
-  protected readonly activeStep = signal(0);
+  protected readonly activeStepIndex = signal(0);
+  protected readonly nextStep = computed(
+    () => this.steps.find((step) => step.id === this.activeStepIndex() + 1) ?? this.steps[2],
+  );
   protected readonly isSaving = this.formService.isSaving;
   protected readonly tracks = this.formService.tracks;
   protected readonly teams = this.formService.teams;
   protected readonly vehicleClasses = this.formService.vehicleClasses;
   protected readonly globalForm = this.formService.globalForm;
-  protected readonly eventsForm = this.formService.eventsForm;
+  protected readonly championshipEvents = this.formService.championshipEvents;
   protected readonly carsForm = this.formService.carsForm;
 
   protected readonly isEditMode = computed(() => Number.isFinite(this.id()));
@@ -61,11 +64,11 @@ export default class ChampionshipsFormPage {
 
   protected readonly steps = [
     {
-      id: 'global',
+      id: 0,
       label: 'Global',
       icon: '@tui.info',
       state: computed<StepState>(() => {
-        if (this.activeStep() > 0) {
+        if (this.activeStepIndex() > 0) {
           return this.formService.globalFormValid() ? 'pass' : 'error';
         }
         return 'normal';
@@ -73,31 +76,32 @@ export default class ChampionshipsFormPage {
       disabled: signal(false),
     },
     {
-      id: 'sep1',
+      id: -1,
       separator: true,
     },
     {
-      id: 'events',
+      id: 1,
       label: 'Events',
       icon: '@tui.calendars',
       state: computed<StepState>(() => {
-        if (this.activeStep() > 1) {
+        if (this.activeStepIndex() > 1) {
           return this.formService.eventsFormValid() ? 'pass' : 'error';
         }
         return 'normal';
       }),
-      disabled: computed(() => !this.formService.globalFormValid()),
+      // disabled: computed(() => !this.formService.globalFormValid()),
+      disabled: signal(false), // TODO temp
     },
     {
-      id: 'sep2',
+      id: -2,
       separator: true,
     },
     {
-      id: 'cars',
+      id: 2,
       label: 'Cars',
       icon: '@tui.car',
       state: computed<StepState>(() => {
-        if (this.activeStep() > 2) {
+        if (this.activeStepIndex() > 2) {
           return this.formService.carsFormValid() ? 'pass' : 'error';
         }
         return 'normal';
@@ -122,19 +126,19 @@ export default class ChampionshipsFormPage {
     });
   }
 
-  protected previousStep(): void {
-    this.activeStep.update((value) => Math.max(value - 1, 0));
+  protected goToPreviousStep(): void {
+    this.activeStepIndex.update((value) => Math.max(value - 1, 0));
   }
 
-  protected nextStep(): void {
-    this.activeStep.update((value) => Math.min(value + 1, this.stepsCount - 1));
+  protected goToNextStep(): void {
+    this.activeStepIndex.update((value) => Math.min(value + 1, this.stepsCount - 1));
   }
 
   protected async save(): Promise<void> {
     // TODO handle final save
     if (!this.formService.isStepValid(0)) {
       this.formService.markStepAsTouched(0);
-      this.activeStep.set(0);
+      this.activeStepIndex.set(0);
       return;
     }
 
@@ -164,7 +168,7 @@ export default class ChampionshipsFormPage {
 
   protected logValues(): void {
     console.log('Global form value:', this.globalForm.value);
-    console.log('Events form value:', this.eventsForm.value);
+    console.log('Events form value:', this.championshipEvents());
     console.log('Cars form value:', this.carsForm.value);
   }
 }

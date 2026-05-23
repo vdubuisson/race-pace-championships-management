@@ -1,13 +1,15 @@
-import { RedirectCommand, ResolveFn, Router } from '@angular/router';
-import { Championship } from '@/resources/models/championship';
+import { ChampionshipsService } from '@/championships/championships-service/championships-service';
+import { ChampionshipWithClasses } from '@/resources/models/championship';
 import { inject } from '@angular/core';
-import { ChampionshipRepository } from '@/db/championship-repository';
+import { RedirectCommand, ResolveFn, Router } from '@angular/router';
 
-export const championshipResolver: ResolveFn<Championship | RedirectCommand> = async (route) => {
-  const championshipRepository = inject(ChampionshipRepository);
+export const championshipResolver: ResolveFn<ChampionshipWithClasses | RedirectCommand> = async (
+  route,
+) => {
+  const championshipsService = inject(ChampionshipsService);
   const router = inject(Router);
   const championshipId = route.paramMap.get('id')!;
-  const championship = await championshipRepository.getChampionshipById(Number(championshipId));
+  const championship = await championshipsService.getChampionship(Number(championshipId));
   if (!championship) {
     return new RedirectCommand(router.parseUrl('/championships'));
   }

@@ -1,8 +1,7 @@
-@for (entry of carsByCategory().entries(); track entry[0]) {
-  @let category = entry[0];
-  @let categoryCars = entry[1];
+@for (category of championship().classes; track category.id) {
+  @let categoryCars = carsByCategory().get(category.id) ?? [];
   <h2 tuiHeader class="tab-header">
-    <span>{{ category }}</span>
+    <span>{{ category.name }}</span>
     <div class="separator"></div>
     <span tuiSubtitle>{{ categoryCars.length }}/{{ cars().length }} cars</span>
   </h2>

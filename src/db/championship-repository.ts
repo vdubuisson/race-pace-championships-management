@@ -1,9 +1,8 @@
-import { inject, Injectable } from '@angular/core';
-import { AppDatabase } from './app-database';
-import { ResourceLoader } from '@/resources/resource-loader';
-import { firstValueFrom, from, Observable } from 'rxjs';
-import { liveQuery } from 'dexie';
 import { Championship } from '@/resources/models/championship';
+import { ResourceLoader } from '@/resources/resource-loader';
+import { inject, Injectable } from '@angular/core';
+import { firstValueFrom } from 'rxjs';
+import { AppDatabase } from './app-database';
 
 @Injectable({ providedIn: 'root' })
 export class ChampionshipRepository {
@@ -18,8 +17,8 @@ export class ChampionshipRepository {
     }
   }
 
-  getAllChampionships(): Observable<Championship[]> {
-    return from(liveQuery(() => this.store.toArray()));
+  getAllChampionships(): Promise<Championship[]> {
+    return this.store.toArray();
   }
 
   getChampionshipById(id: number): Promise<Championship | undefined> {

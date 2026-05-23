@@ -41,9 +41,9 @@
         <td tuiTd>{{ championship.name }}</td>
         <td tuiTd>
           <div tuiItemGroup>
-            @for (cat of championship.categories; track cat) {
-              <span appearance="custom" tuiChip [style.background-color]="cat | tuiAutoColor">
-                {{ cat }}
+            @for (cat of championship.classes; track cat.id) {
+              <span appearance="custom" tuiChip [style.background-color]="cat.id | tuiAutoColor">
+                {{ cat.name }}
               </span>
             }
           </div>

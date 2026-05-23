@@ -6,7 +6,8 @@ import { TuiTable, TuiTablePagination, TuiTablePaginationEvent } from '@taiga-ui
 import { TuiButton, TuiIcon, TuiTitle } from '@taiga-ui/core';
 import { TuiAutoColorPipe, TuiChip } from '@taiga-ui/kit';
 import { TuiHeader, TuiItemGroup } from '@taiga-ui/layout';
-import { ChampionshipRepository } from '@/db/championship-repository';
+import { from } from 'rxjs';
+import { ChampionshipsService } from '../championships-service/championships-service';
 
 @Component({
   selector: 'app-championships-list-page',
@@ -28,12 +29,12 @@ import { ChampionshipRepository } from '@/db/championship-repository';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ChampionshipsListPage {
-  private readonly championshipRepository = inject(ChampionshipRepository);
+  private readonly championshipService = inject(ChampionshipsService);
 
   protected readonly pageSize = signal(20);
   protected readonly pageIndex = signal(0);
 
-  protected championships = toSignal(this.championshipRepository.getAllChampionships(), {
+  protected championships = toSignal(from(this.championshipService.getChampionships()), {
     initialValue: [],
   });
 

@@ -20,4 +20,8 @@ export class VehicleClassRepository {
   getAllVehicleClasses(): Promise<VehicleClass[]> {
     return this.store.toArray();
   }
+
+  getVehicleClassesByIds(ids: string[]): Promise<VehicleClass[]> {
+    return this.store.where('id').anyOf(ids).toArray();
+  }
 }

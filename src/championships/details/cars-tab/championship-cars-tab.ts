@@ -1,8 +1,9 @@
+import { Car } from '@/resources/models/car';
+import { ChampionshipWithClasses } from '@/resources/models/championship';
 import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
 import { TuiTitle } from '@taiga-ui/core';
 import { TuiAutoColorPipe, TuiChip } from '@taiga-ui/kit';
 import { TuiCardLarge, TuiHeader } from '@taiga-ui/layout';
-import { Car } from '@/resources/models/car';
 
 @Component({
   selector: 'app-championship-cars-tab',
@@ -13,6 +14,7 @@ import { Car } from '@/resources/models/car';
 })
 export default class ChampionshipCarsTab {
   readonly cars = input.required<Car[]>();
+  readonly championship = input.required<ChampionshipWithClasses>();
 
   readonly carsByCategory = computed(() => {
     const categoryMap = new Map<string, Car[]>();

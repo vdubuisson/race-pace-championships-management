@@ -1,3 +1,5 @@
+import { VehicleClass } from './vehicle-class';
+
 export type Championship = {
   id?: number;
   name: string;
@@ -18,6 +20,10 @@ export type Championship = {
   start_year: number | null;
   end_year: number | null;
   default_included: boolean;
+};
+
+export type ChampionshipWithClasses = Championship & {
+  classes: Array<VehicleClass>;
 };
 
 export type StartType = 'standing' | 'rolling';

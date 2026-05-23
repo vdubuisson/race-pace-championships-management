@@ -33,6 +33,7 @@ fieldset.grid2-1-1 {
 
 .layout-option {
   box-sizing: border-box;
+  height: 84px;
   width: 100%;
 
   .flag {

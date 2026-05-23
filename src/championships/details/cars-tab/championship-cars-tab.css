@@ -3,11 +3,6 @@
   align-items: center;
 }
 
-.content {
-  display: flex;
-  align-items: center;
-}
-
 .separator {
   background-color: var(--tui-border-normal);
   width: 1px;

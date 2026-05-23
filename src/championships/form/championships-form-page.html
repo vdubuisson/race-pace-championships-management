@@ -44,7 +44,13 @@
         />
       }
       @case (2) {
-        <app-championship-cars-step [formArray]="carsForm" [teams]="teams()" />
+        <app-championship-cars-step
+          [(cars)]="championshipCars"
+          [teams]="teams()"
+          [championshipClasses]="championshipClasses()"
+          [liveriesForSelectedClasses]="liveriesForSelectedClasses()"
+          [maxCars]="minTracksGarages()"
+        />
       }
     }
   </section>

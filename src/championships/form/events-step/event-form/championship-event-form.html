@@ -57,8 +57,6 @@
               tuiScrollable
               class="scroll"
               [itemSize]="trackItemHeight"
-              [maxBufferPx]="trackItemHeight * trackItemCount * 2"
-              [minBufferPx]="trackItemHeight * trackItemCount"
               [style.height.px]="
                 (trackItems.length < trackItemCount ? trackItems.length : trackItemCount) *
                 trackItemHeight
@@ -106,13 +104,6 @@
           <span>Month</span>
           <tui-textfield tuiChevron [tuiTextfieldCleaner]="false" [stringify]="getMonthName">
             <input tuiSelect [formControl]="eventForm.controls.month" />
-            <!-- <tui-data-list *tuiDropdown>
-              @for (month of months; track month.id) {
-                <button tuiOption type="button" [value]="month.id">
-                  {{ month.name }}
-                </button>
-              }
-            </tui-data-list> -->
             <tui-data-list-wrapper *tuiDropdown [items]="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]" />
           </tui-textfield>
         </label>

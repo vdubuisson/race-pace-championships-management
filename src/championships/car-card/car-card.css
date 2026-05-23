@@ -1,6 +1,5 @@
-.icon-cell {
-  gap: 0.5rem;
-  padding-top: 0;
+.car-card {
+  height: 100%;
 }
 
 .btn-overlay {
@@ -22,10 +21,6 @@
     opacity 0.5s ease,
     visibility 0s linear 0.5s;
   z-index: 1;
-
-  .btn-group {
-    width: 50%;
-  }
 }
 
 :host(:hover) .btn-overlay {

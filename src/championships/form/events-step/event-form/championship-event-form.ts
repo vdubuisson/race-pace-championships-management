@@ -177,11 +177,13 @@ export class ChampionshipEventForm {
     items,
     query,
   ) => {
-    const normalizedQuery = query.trim().toLowerCase();
+    const normalizeString = (str: string): string =>
+      str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const normalizedQuery = normalizeString(query.trim().toLowerCase());
     return items.filter(
       (item) =>
-        item.name.toLowerCase().includes(normalizedQuery) ||
-        item.real_name.toLowerCase().includes(normalizedQuery),
+        normalizeString(item.name.toLowerCase()).includes(normalizedQuery) ||
+        normalizeString(item.real_name.toLowerCase()).includes(normalizedQuery),
     );
   };
 

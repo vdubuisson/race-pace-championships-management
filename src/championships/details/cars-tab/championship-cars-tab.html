@@ -8,26 +8,7 @@
 
   <div class="cars-list">
     @for (car of categoryCars; track car.id) {
-      <div tuiCardLarge="compact" appearance="floating">
-        <header tuiHeader="body-m">
-          <h2 tuiTitle>
-            {{ car.livery }}
-          </h2>
-        </header>
-        @if (!car.livery.includes(car.model)) {
-          <section>{{ car.model }}</section>
-        }
-        <footer>
-          <span
-            appearance="custom"
-            tuiChip
-            [style.background-color]="car.team_name | tuiAutoColor"
-            iconStart="@tui.user"
-          >
-            {{ car.team_name }}
-          </span>
-        </footer>
-      </div>
+      <app-car-card [car]="car" />
     }
   </div>
 }

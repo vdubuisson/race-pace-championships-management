@@ -8,6 +8,7 @@ import {
   input,
   numberAttribute,
   signal,
+  untracked,
 } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { TuiButton, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
@@ -55,7 +56,10 @@ export default class ChampionshipsFormPage {
   protected readonly vehicleClasses = this.formService.vehicleClasses;
   protected readonly globalForm = this.formService.globalForm;
   protected readonly championshipEvents = this.formService.championshipEvents;
-  protected readonly carsForm = this.formService.carsForm;
+  protected readonly championshipCars = this.formService.championshipCars;
+  protected readonly championshipClasses = this.formService.championshipClasses;
+  protected readonly liveriesForSelectedClasses = this.formService.liveriesForSelectedClasses;
+  protected readonly minTracksGarages = this.formService.minTracksGarages;
 
   protected readonly isEditMode = computed(() => Number.isFinite(this.id()));
   protected readonly pageTitle = computed(() =>
@@ -114,15 +118,17 @@ export default class ChampionshipsFormPage {
   protected readonly stepsCount = this.steps.filter((step) => !step.separator).length;
 
   constructor() {
-    // TODO handle edit
-    effect(() => {
+    // TODO handle edit correctly
+    effect(async () => {
       const id = this.id();
       const resolvedChampionship = this.championship();
-      void this.formService.syncWithInputs(id, resolvedChampionship).then((exists) => {
-        if (!exists) {
-          void this.router.navigate(['/championships']);
-        }
-      });
+      untracked(() =>
+        this.formService.syncWithInputs(id, resolvedChampionship).then((exists) => {
+          if (!exists) {
+            void this.router.navigate(['/championships']);
+          }
+        }),
+      );
     });
   }
 
@@ -169,6 +175,6 @@ export default class ChampionshipsFormPage {
   protected logValues(): void {
     console.log('Global form value:', this.globalForm.value);
     console.log('Events form value:', this.championshipEvents());
-    console.log('Cars form value:', this.carsForm.value);
+    console.log('Cars form value:', this.championshipCars());
   }
 }

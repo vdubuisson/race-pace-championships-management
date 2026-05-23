@@ -43,18 +43,19 @@ export class AppDatabase extends Dexie {
     this.version(2)
       .stores({
         cars: '++id, team_name, championship_name',
-        championships: '++id, name, *categories',
+        championships: '++id, &name, *categories',
         classes: 'id',
         events: '++id, championship_name',
         liveries: '++id, class',
-        models: '++id, class, aiOnly, isMod',
-        teams: '++id, name',
-        tracks: 'id, is_mod, location',
+        models: '++id, class',
+        teams: '++id, &name',
+        tracks: 'id, location',
       })
       .upgrade((transaction) => {
         transaction.table('cars').clear();
         transaction.table('classes').clear();
         transaction.table('events').clear();
+        transaction.table('liveries').clear();
         transaction.table('teams').clear();
         transaction.table('tracks').clear();
       });

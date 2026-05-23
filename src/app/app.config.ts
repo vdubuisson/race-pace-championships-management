@@ -1,6 +1,7 @@
 import { CarRepository } from '@/db/car-repository';
 import { ChampionshipRepository } from '@/db/championship-repository';
 import { EventRepository } from '@/db/event-repository';
+import { LiveryRepository } from '@/db/livery-repository';
 import { TeamRepository } from '@/db/team-repository';
 import { TrackRepository } from '@/db/track-repository';
 import { VehicleClassRepository } from '@/db/vehicle-class-repository';
@@ -31,6 +32,7 @@ export const appConfig: ApplicationConfig = {
         inject(CarRepository).initialize(),
         inject(ChampionshipRepository).initialize(),
         inject(EventRepository).initialize(),
+        inject(LiveryRepository).initialize(),
         inject(TeamRepository).initialize(),
         inject(TrackRepository).initialize(),
         inject(VehicleClassRepository).initialize(),

@@ -2,11 +2,14 @@ import { AppDatabase } from '@/db/app-database';
 import { CarRepository } from '@/db/car-repository';
 import { ChampionshipRepository } from '@/db/championship-repository';
 import { EventRepository } from '@/db/event-repository';
+import { LiveryRepository } from '@/db/livery-repository';
 import { TeamRepository } from '@/db/team-repository';
 import { TrackRepository } from '@/db/track-repository';
 import { VehicleClassRepository } from '@/db/vehicle-class-repository';
+import { Car } from '@/resources/models/car';
 import { Championship } from '@/resources/models/championship';
 import { RaceEvent } from '@/resources/models/race-event';
+import { VehicleClass } from '@/resources/models/vehicle-class';
 import { computed, inject, Injectable, linkedSignal, signal } from '@angular/core';
 import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
 import { AsyncValidatorFn, FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
@@ -32,21 +35,13 @@ export type GlobalFormGroup = FormGroup<{
   default_included: FormControl<boolean>;
 }>;
 
-export type CarFormGroup = FormGroup<{
-  team_name: FormControl<string>;
-  category: FormControl<string>;
-  model: FormControl<string>;
-  livery: FormControl<string>;
-  livery_id: FormControl<number>;
-  model_folder: FormControl<string>;
-}>;
-
 @Injectable()
 export class ChampionshipsFormManager {
   private readonly appDatabase = inject(AppDatabase);
   private readonly championshipRepository = inject(ChampionshipRepository);
   private readonly eventRepository = inject(EventRepository);
   private readonly carRepository = inject(CarRepository);
+  private readonly liveryRepository = inject(LiveryRepository);
   private readonly trackRepository = inject(TrackRepository);
   private readonly teamRepository = inject(TeamRepository);
   private readonly vehicleClassRepository = inject(VehicleClassRepository);
@@ -58,8 +53,24 @@ export class ChampionshipsFormManager {
     initialValue: [],
   });
   readonly championshipEvents = signal<RaceEvent[]>([]);
+  readonly championshipCars = signal<Car[]>([]);
+  readonly championshipClasses = linkedSignal<VehicleClass[]>(() =>
+    this.vehicleClasses().filter((vehicleClass) =>
+      this.globalForm.controls.categories.value.includes(vehicleClass.id),
+    ),
+  );
+  readonly liveriesForSelectedClasses = linkedSignal(() => {
+    const selectedCategories = this.globalForm.controls.categories.value;
+    if (selectedCategories.length === 0) {
+      return [];
+    }
+    return toSignal(from(this.liveryRepository.getLiveriesByClasses(selectedCategories)), {
+      initialValue: [],
+    })();
+  });
 
   private readonly championshipNameAvailableValidator: AsyncValidatorFn = async (control) => {
+    console.log('Validating championship name:', control.value);
     const name = control.value?.trim();
 
     if (!name) {
@@ -85,14 +96,25 @@ export class ChampionshipsFormManager {
     return { championshipNameTaken: 'This championship name is already taken' };
   };
 
+  readonly minTracksGarages = computed(() =>
+    Math.min(
+      ...this.championshipEvents()
+        .map((event) => event.track_id)
+        .map((trackId) => this.tracks().find((track) => track.id === trackId)?.garages ?? 0),
+    ),
+  );
+
   readonly globalForm: GlobalFormGroup = this.createGlobalForm();
-  readonly carsForm = new FormArray<CarFormGroup>([]);
 
   readonly globalFormValid = signal(this.globalForm.valid);
   readonly eventsFormValid = linkedSignal(
     () => this.championshipEvents().length >= this.globalForm.controls.events_count.value,
   );
-  readonly carsFormValid = signal(this.carsForm.valid);
+  readonly carsFormValid = computed(
+    () =>
+      this.championshipCars().length > 0 &&
+      this.championshipCars().length <= this.minTracksGarages(),
+  );
 
   readonly championshipName = computed(() => this.globalForm.controls.name.value || 'championship');
 
@@ -102,15 +124,24 @@ export class ChampionshipsFormManager {
   constructor() {
     this.globalForm.statusChanges.pipe(takeUntilDestroyed()).subscribe((status) => {
       this.globalFormValid.set(status === 'VALID');
+      console.log(status, this.globalForm.errors);
     });
     this.globalForm.controls.events_count.valueChanges
       .pipe(takeUntilDestroyed())
       .subscribe((value) => {
         this.eventsFormValid.set(this.championshipEvents().length >= value);
       });
-    this.carsForm.statusChanges.pipe(takeUntilDestroyed()).subscribe((status) => {
-      this.carsFormValid.set(status === 'VALID');
-    });
+    this.globalForm.controls.categories.valueChanges
+      .pipe(takeUntilDestroyed())
+      .subscribe(async (value) => {
+        const classesForCategories = this.vehicleClasses().filter((vehicleClass) =>
+          value.includes(vehicleClass.id),
+        );
+        this.championshipClasses.set(classesForCategories);
+
+        const liveries = await this.liveryRepository.getLiveriesByClasses(value);
+        this.liveriesForSelectedClasses.set(liveries);
+      });
   }
 
   async syncWithInputs(id: number, resolvedChampionship?: Championship): Promise<boolean> {
@@ -140,7 +171,7 @@ export class ChampionshipsFormManager {
       return this.eventsFormValid();
     }
 
-    return this.carsForm.valid;
+    return this.carsFormValid();
   }
 
   markStepAsTouched(step: number): void {
@@ -148,8 +179,6 @@ export class ChampionshipsFormManager {
       this.globalForm.markAllAsTouched();
       return;
     }
-
-    this.carsForm.markAllAsTouched();
   }
 
   async save(id?: number): Promise<number> {
@@ -164,7 +193,7 @@ export class ChampionshipsFormManager {
     try {
       const championship = this.buildChampionship(id);
       const events = this.championshipEvents();
-      const cars = this.buildCars();
+      const cars = this.championshipCars();
 
       return await this.appDatabase.saveChampionshipWithRelations({
         championship,
@@ -189,7 +218,7 @@ export class ChampionshipsFormManager {
     this.originalChampionshipName.set(championship.name);
 
     this.globalForm.patchValue({
-      name: championship.name,
+      // name: championship.name,
       tags: championship.tags,
       categories: championship.categories,
       prestige: championship.prestige,
@@ -209,26 +238,20 @@ export class ChampionshipsFormManager {
 
     this.replaceNumberArray(this.globalForm.controls.points, championship.points);
 
+    this.globalForm.controls.name.patchValue(championship.name, {
+      emitEvent: false,
+    });
+
     const [events, cars] = await Promise.all([
       this.eventRepository.getEventsByChampionshipName(championship.name),
       this.carRepository.getCarsByChampionshipName(championship.name),
     ]);
 
     this.championshipEvents.set(events);
-    this.carsForm.clear();
+    this.championshipCars.set(cars);
 
-    for (const car of cars) {
-      this.carsForm.push(
-        this.createCarForm({
-          team_name: car.team_name,
-          category: car.category,
-          model: car.model,
-          livery: car.livery,
-          livery_id: car.livery_id,
-          model_folder: car.model_folder,
-        }),
-      );
-    }
+    console.log('Loaded championship');
+    this.globalForm.controls.name.updateValueAndValidity();
 
     return true;
   }
@@ -298,82 +321,6 @@ export class ChampionshipsFormManager {
     });
   }
 
-  // private createEventForm(value?: {
-  //   track_id?: string;
-  //   name?: string;
-  //   month?: number;
-  //   week_end?: number;
-  //   mandatory?: boolean;
-  //   type?: 'time' | 'laps';
-  //   duration?: number;
-  //   start_time?: string;
-  // }): EventFormGroup {
-  //   return new FormGroup({
-  //     track_id: new FormControl(value?.track_id ?? '', {
-  //       nonNullable: true,
-  //       validators: [Validators.required],
-  //     }),
-  //     name: new FormControl(value?.name ?? '', {
-  //       nonNullable: true,
-  //       validators: [Validators.required],
-  //     }),
-  //     month: new FormControl(value?.month ?? 1, {
-  //       nonNullable: true,
-  //       validators: [Validators.required],
-  //     }),
-  //     week_end: new FormControl(value?.week_end ?? 1, {
-  //       nonNullable: true,
-  //       validators: [Validators.required],
-  //     }),
-  //     mandatory: new FormControl(value?.mandatory ?? false, { nonNullable: true }),
-  //     type: new FormControl(value?.type ?? 'time', {
-  //       nonNullable: true,
-  //       validators: [Validators.required],
-  //     }),
-  //     duration: new FormControl(value?.duration ?? 20, {
-  //       nonNullable: true,
-  //       validators: [Validators.required, Validators.min(1)],
-  //     }),
-  //     start_time: new FormControl(value?.start_time ?? '', { nonNullable: true }),
-  //   });
-  // }
-
-  private createCarForm(value?: {
-    team_name?: string;
-    category?: string;
-    model?: string;
-    livery?: string;
-    livery_id?: number;
-    model_folder?: string;
-  }): CarFormGroup {
-    return new FormGroup({
-      team_name: new FormControl(value?.team_name ?? '', {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      category: new FormControl(value?.category ?? '', {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      model: new FormControl(value?.model ?? '', {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      livery: new FormControl(value?.livery ?? '', {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-      livery_id: new FormControl(value?.livery_id ?? 0, {
-        nonNullable: true,
-        validators: [Validators.required, Validators.min(0)],
-      }),
-      model_folder: new FormControl(value?.model_folder ?? '', {
-        nonNullable: true,
-        validators: [Validators.required],
-      }),
-    });
-  }
-
   private replaceNumberArray(target: FormArray<FormControl<number>>, values: number[]): void {
     target.clear();
     for (const value of values) {
@@ -397,7 +344,7 @@ export class ChampionshipsFormManager {
     this.globalForm.controls.points.clear();
     this.globalForm.controls.points.push(new FormControl(25, { nonNullable: true }));
     this.championshipEvents.set([]);
-    this.carsForm.clear();
+    this.championshipCars.set([]);
   }
 
   private buildChampionship(id?: number): Championship {
@@ -427,16 +374,5 @@ export class ChampionshipsFormManager {
       end_year: rawValue.end_year,
       default_included: rawValue.default_included,
     };
-  }
-
-  private buildCars() {
-    return this.carsForm.controls.map((form) => ({
-      team_name: form.controls.team_name.value,
-      category: form.controls.category.value,
-      model: form.controls.model.value,
-      livery: form.controls.livery.value,
-      livery_id: form.controls.livery_id.value,
-      model_folder: form.controls.model_folder.value,
-    }));
   }
 }

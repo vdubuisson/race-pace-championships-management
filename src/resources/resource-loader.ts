@@ -207,7 +207,7 @@ export class ResourceLoader {
               switch (context.column) {
                 case 'elo':
                 case 'driver_loyalty':
-                case 'expectation_delta':
+                case 'expectation_level':
                   if (value === '') return null;
                   return Number(value);
                 default:

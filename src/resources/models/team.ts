@@ -4,5 +4,5 @@ export type Team = {
   elo: number;
   principal: string;
   driver_loyalty: number | null;
-  expectation_delta: number | null;
+  expectation_level: number | null;
 };

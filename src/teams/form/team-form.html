@@ -76,14 +76,14 @@
     <div class="form-field">
       <label tuiLabel>
         <span>
-          Expectation delta
-          <tui-icon [tuiTooltip]="expectationDeltaTooltip" />
+          Expectation level
+          <tui-icon [tuiTooltip]="expectationLevelTooltip" />
         </span>
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formControl]="teamForm.controls.expectation_delta" />
+          <input tuiInputNumber [formControl]="teamForm.controls.expectation_level" />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="teamForm.controls.expectation_delta" />
+      <tui-error [formControl]="teamForm.controls.expectation_level" />
     </div>
   </fieldset>
 

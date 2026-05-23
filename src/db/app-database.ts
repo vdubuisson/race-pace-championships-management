@@ -55,6 +55,7 @@ export class AppDatabase extends Dexie {
         transaction.table('cars').clear();
         transaction.table('classes').clear();
         transaction.table('events').clear();
+        transaction.table('teams').clear();
         transaction.table('tracks').clear();
       });
   }

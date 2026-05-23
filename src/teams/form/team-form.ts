@@ -93,7 +93,7 @@ export default class TeamForm {
     driver_loyalty: new FormControl<number | null>(null, {
       validators: [Validators.min(0), Validators.max(1)],
     }),
-    expectation_delta: new FormControl<number | null>(null),
+    expectation_level: new FormControl<number | null>(null),
   });
 
   protected readonly eloTooltip = `Initial ELO/ranking of the team.
@@ -101,7 +101,7 @@ export default class TeamForm {
     These numbers will get balanced out in the initial simulation anyway.`;
   protected readonly loyaltyTooltip = `How much a team will favour drivers they are happy with VS better ranked drivers that are on the market.
     Between 0 and 1, defaults to a random value between 0 and 0.2.`;
-  protected readonly expectationDeltaTooltip = `Happiness of driver/team relationships is determined by how well a driver does compared to what can be theoretically expected of them based on their past results.
+  protected readonly expectationLevelTooltip = `Happiness of driver/team relationships is determined by how well a driver does compared to what can be theoretically expected of them based on their past results.
     This value is a number of ELO points that shifts the team's expectation up or down for their drivers, making them more or less demanding.
     Defaults to a value between 10 and 70. Negative values are supported but make teams very forgiving.`;
 

@@ -6,7 +6,7 @@ import { AppDatabase } from './app-database';
 
 @Injectable({ providedIn: 'root' })
 export class EventRepository {
-  private readonly store = inject(AppDatabase).events;
+  readonly store = inject(AppDatabase).events;
   private readonly resourceLoader = inject(ResourceLoader);
 
   async initialize(): Promise<void> {
@@ -21,12 +21,11 @@ export class EventRepository {
     return this.store.where('championship_name').equals(championshipName).toArray();
   }
 
-  async replaceEventsForChampionship(
-    championshipName: string,
-    events: RaceEvent[],
-  ): Promise<void> {
-    await this.store.where('championship_name').equals(championshipName).delete();
+  async deleteEventsByChampionshipNames(championshipNames: string[]): Promise<void> {
+    await this.store.where('championship_name').anyOf(championshipNames).delete();
+  }
 
+  async addEvents(events: RaceEvent[]): Promise<void> {
     if (events.length > 0) {
       await this.store.bulkAdd(events);
     }

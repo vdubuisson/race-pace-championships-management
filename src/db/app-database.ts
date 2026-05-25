@@ -1,21 +1,13 @@
-import { Injectable } from '@angular/core';
-import Dexie, { type Table } from 'dexie';
 import { Car } from '@/resources/models/car';
 import { Championship } from '@/resources/models/championship';
-import { VehicleClass } from '@/resources/models/vehicle-class';
-import { RaceEvent } from '@/resources/models/race-event';
 import { Livery } from '@/resources/models/livery';
-import { VehicleModel } from '@/resources/models/vehicle-model';
+import { RaceEvent } from '@/resources/models/race-event';
 import { Team } from '@/resources/models/team';
 import { Track } from '@/resources/models/track';
-
-type SaveChampionshipPayload = {
-  championship: Championship;
-  events: Omit<RaceEvent, 'championship_name'>[];
-  cars: Omit<Car, 'championship_name'>[];
-  id?: number;
-  previousName?: string;
-};
+import { VehicleClass } from '@/resources/models/vehicle-class';
+import { VehicleModel } from '@/resources/models/vehicle-model';
+import { Injectable } from '@angular/core';
+import Dexie, { type Table } from 'dexie';
 
 @Injectable({ providedIn: 'root' })
 export class AppDatabase extends Dexie {
@@ -59,52 +51,5 @@ export class AppDatabase extends Dexie {
         transaction.table('teams').clear();
         transaction.table('tracks').clear();
       });
-  }
-
-  // TODO Voir pour déplacer dans repositories
-  async saveChampionshipWithRelations({
-    championship,
-    events,
-    cars,
-    id,
-    previousName,
-  }: SaveChampionshipPayload): Promise<number> {
-    let championshipId = id;
-
-    await this.transaction('rw', this.championships, this.events, this.cars, async () => {
-      if (typeof championshipId === 'number') {
-        await this.championships.update(championshipId, championship);
-      } else {
-        championshipId = await this.championships.add(championship);
-      }
-
-      const namesToClear = new Set<string>([championship.name]);
-      if (previousName) {
-        namesToClear.add(previousName);
-      }
-
-      for (const name of namesToClear) {
-        await this.events.where('championship_name').equals(name).delete();
-        await this.cars.where('championship_name').equals(name).delete();
-      }
-
-      if (events.length > 0) {
-        await this.events.bulkAdd(
-          events.map((event) => ({ ...event, championship_name: championship.name })),
-        );
-      }
-
-      if (cars.length > 0) {
-        await this.cars.bulkAdd(
-          cars.map((car) => ({ ...car, championship_name: championship.name })),
-        );
-      }
-    });
-
-    if (typeof championshipId !== 'number') {
-      throw new Error('Failed to persist championship');
-    }
-
-    return championshipId;
   }
 }

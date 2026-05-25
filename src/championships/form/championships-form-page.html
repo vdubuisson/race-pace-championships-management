@@ -81,7 +81,13 @@
         Next
       </button>
     } @else {
-      <button tuiButton type="button" appearance="primary" (click)="save()" [disabled]="isSaving()">
+      <button
+        tuiButton
+        type="button"
+        appearance="primary"
+        (click)="save()"
+        [disabled]="isSaving() || !allFormsValid()"
+      >
         {{ isSaving() ? 'Saving...' : 'Save championship' }}
       </button>
     }

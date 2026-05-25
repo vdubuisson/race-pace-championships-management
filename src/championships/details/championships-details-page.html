@@ -16,8 +16,17 @@
       appearance="primary"
       [routerLink]="['/championships/form', championship().id]"
       iconStart="@tui.pencil"
-      >Edit</a
     >
+      Edit
+    </a>
+    <button
+      tuiButton
+      appearance="primary-destructive"
+      iconStart="@tui.trash-2"
+      (click)="deleteChampionship()"
+    >
+      Delete
+    </button>
   </aside>
 </header>
 <main>

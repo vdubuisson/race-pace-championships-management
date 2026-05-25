@@ -60,6 +60,7 @@ export default class ChampionshipsFormPage {
   protected readonly championshipClasses = this.formService.championshipClasses;
   protected readonly liveriesForSelectedClasses = this.formService.liveriesForSelectedClasses;
   protected readonly minTracksGarages = this.formService.minTracksGarages;
+  protected readonly allFormsValid = this.formService.allFormsValid;
 
   protected readonly isEditMode = computed(() => Number.isFinite(this.id()));
   protected readonly pageTitle = computed(() =>
@@ -93,8 +94,7 @@ export default class ChampionshipsFormPage {
         }
         return 'normal';
       }),
-      // disabled: computed(() => !this.formService.globalFormValid()),
-      disabled: signal(false), // TODO temp
+      disabled: computed(() => !this.formService.globalFormValid()),
     },
     {
       id: -2,
@@ -141,10 +141,12 @@ export default class ChampionshipsFormPage {
   }
 
   protected async save(): Promise<void> {
-    // TODO handle final save
-    if (!this.formService.isStepValid(0)) {
-      this.formService.markStepAsTouched(0);
-      this.activeStepIndex.set(0);
+    if (!this.allFormsValid()) {
+      this.notifications.open('Invalid form', {
+        appearance: 'negative',
+        autoClose: 3000,
+        closable: false,
+      });
       return;
     }
 
@@ -159,7 +161,7 @@ export default class ChampionshipsFormPage {
         })
         .subscribe();
 
-      await this.router.navigate(['/championships/details', championshipId, 'global']);
+      await this.router.navigate(['/championships/details', championshipId]);
     } catch (error) {
       console.error('Failed to save championship', error);
       this.notifications

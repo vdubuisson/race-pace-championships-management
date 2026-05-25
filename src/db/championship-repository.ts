@@ -1,12 +1,13 @@
 import { Championship } from '@/resources/models/championship';
 import { ResourceLoader } from '@/resources/resource-loader';
 import { inject, Injectable } from '@angular/core';
-import { firstValueFrom } from 'rxjs';
+import { firstValueFrom, from, Observable } from 'rxjs';
 import { AppDatabase } from './app-database';
+import { liveQuery } from 'dexie';
 
 @Injectable({ providedIn: 'root' })
 export class ChampionshipRepository {
-  private readonly store = inject(AppDatabase).championships;
+  readonly store = inject(AppDatabase).championships;
   private readonly resourceLoader = inject(ResourceLoader);
 
   async initialize(): Promise<void> {
@@ -17,8 +18,8 @@ export class ChampionshipRepository {
     }
   }
 
-  getAllChampionships(): Promise<Championship[]> {
-    return this.store.toArray();
+  getAllChampionships(): Observable<Championship[]> {
+    return from(liveQuery(() => this.store.toArray()));
   }
 
   getChampionshipById(id: number): Promise<Championship | undefined> {
@@ -35,5 +36,9 @@ export class ChampionshipRepository {
 
   async updateChampionship(id: number, championship: Partial<Championship>): Promise<void> {
     await this.store.update(id, championship);
+  }
+
+  async deleteChampionship(id: number): Promise<void> {
+    await this.store.delete(id);
   }
 }

@@ -14,6 +14,7 @@ import { computed, inject, Injectable, linkedSignal, signal } from '@angular/cor
 import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
 import { AsyncValidatorFn, FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 import { from } from 'rxjs';
+import { ChampionshipsService } from '../championships-service/championships-service';
 
 export type GlobalFormGroup = FormGroup<{
   name: FormControl<string>;
@@ -45,6 +46,7 @@ export class ChampionshipsFormManager {
   private readonly trackRepository = inject(TrackRepository);
   private readonly teamRepository = inject(TeamRepository);
   private readonly vehicleClassRepository = inject(VehicleClassRepository);
+  private readonly championshipsService = inject(ChampionshipsService);
 
   readonly isSaving = signal(false);
   readonly tracks = toSignal(from(this.trackRepository.getAllTracks()), { initialValue: [] });
@@ -115,6 +117,9 @@ export class ChampionshipsFormManager {
       this.championshipCars().length > 0 &&
       this.championshipCars().length <= this.minTracksGarages(),
   );
+  readonly allFormsValid = computed(
+    () => this.globalFormValid() && this.eventsFormValid() && this.carsFormValid(),
+  );
 
   readonly championshipName = computed(() => this.globalForm.controls.name.value || 'championship');
 
@@ -174,28 +179,21 @@ export class ChampionshipsFormManager {
     return this.carsFormValid();
   }
 
-  markStepAsTouched(step: number): void {
-    if (step === 0) {
-      this.globalForm.markAllAsTouched();
-      return;
-    }
-  }
-
   async save(id?: number): Promise<number> {
-    this.globalForm.markAllAsTouched();
-
-    if (!this.globalForm.valid) {
-      throw new Error('Global step is invalid');
-    }
-
     this.isSaving.set(true);
 
     try {
       const championship = this.buildChampionship(id);
-      const events = this.championshipEvents();
-      const cars = this.championshipCars();
+      const events = this.championshipEvents().map((event) => ({
+        ...event,
+        id: (event.id ?? -1) >= 0 ? event.id : undefined,
+      }));
+      const cars = this.championshipCars().map((car) => ({
+        ...car,
+        id: (car.id ?? -1) >= 0 ? car.id : undefined,
+      }));
 
-      return await this.appDatabase.saveChampionshipWithRelations({
+      return await this.championshipsService.saveChampionshipWithRelations({
         championship,
         events,
         cars,
@@ -355,19 +353,20 @@ export class ChampionshipsFormManager {
       name: rawValue.name.trim(),
       categories: rawValue.categories,
       prestige: rawValue.prestige,
-      init_month: rawValue.init_month as Championship['init_month'],
-      init_day: rawValue.init_day as Championship['init_day'],
-      registration_start_month:
-        rawValue.registration_start_month as Championship['registration_start_month'],
-      registration_start_day:
-        rawValue.registration_start_day as Championship['registration_start_day'],
-      registration_end_month:
-        rawValue.registration_end_month as Championship['registration_end_month'],
-      registration_end_day: rawValue.registration_end_day as Championship['registration_end_day'],
+      init_month: rawValue.init_month,
+      init_day: rawValue.init_day,
+      registration_start_month: rawValue.registration_start_month,
+      registration_start_day: rawValue.registration_start_day,
+      registration_end_month: rawValue.registration_end_month,
+      registration_end_day: rawValue.registration_end_day,
       points: rawValue.points,
       pit_stop: rawValue.pit_stop,
       start_type: rawValue.start_type,
-      field_type: null, // TODO calculate from cars
+      field_type: this.championshipCars().every(
+        (car) => car.model === this.championshipCars()[0]?.model,
+      )
+        ? 'identical'
+        : null,
       events_count: rawValue.events_count,
       tags: rawValue.tags.map((value) => value.trim()).filter((value) => value.length > 0),
       start_year: rawValue.start_year,

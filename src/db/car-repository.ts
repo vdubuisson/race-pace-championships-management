@@ -6,7 +6,7 @@ import { AppDatabase } from './app-database';
 
 @Injectable({ providedIn: 'root' })
 export class CarRepository {
-  private readonly store = inject(AppDatabase).cars;
+  readonly store = inject(AppDatabase).cars;
   private readonly resourceLoader = inject(ResourceLoader);
 
   async initialize(): Promise<void> {
@@ -21,9 +21,11 @@ export class CarRepository {
     return this.store.where('championship_name').equals(championshipName).toArray();
   }
 
-  async replaceCarsForChampionship(championshipName: string, cars: Car[]): Promise<void> {
-    await this.store.where('championship_name').equals(championshipName).delete();
+  async deleteCarsByChampionshipNames(championshipNames: string[]): Promise<void> {
+    await this.store.where('championship_name').anyOf(championshipNames).delete();
+  }
 
+  async addCars(cars: Car[]): Promise<void> {
     if (cars.length > 0) {
       await this.store.bulkAdd(cars);
     }

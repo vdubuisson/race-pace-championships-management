@@ -1,4 +1,3 @@
-import { AppDatabase } from '@/db/app-database';
 import { CarRepository } from '@/db/car-repository';
 import { ChampionshipRepository } from '@/db/championship-repository';
 import { EventRepository } from '@/db/event-repository';
@@ -38,7 +37,6 @@ export type GlobalFormGroup = FormGroup<{
 
 @Injectable()
 export class ChampionshipsFormManager {
-  private readonly appDatabase = inject(AppDatabase);
   private readonly championshipRepository = inject(ChampionshipRepository);
   private readonly eventRepository = inject(EventRepository);
   private readonly carRepository = inject(CarRepository);
@@ -72,7 +70,6 @@ export class ChampionshipsFormManager {
   });
 
   private readonly championshipNameAvailableValidator: AsyncValidatorFn = async (control) => {
-    console.log('Validating championship name:', control.value);
     const name = control.value?.trim();
 
     if (!name) {
@@ -127,15 +124,12 @@ export class ChampionshipsFormManager {
   private readonly originalChampionshipName = signal<string | null>(null);
 
   constructor() {
-    this.globalForm.statusChanges.pipe(takeUntilDestroyed()).subscribe((status) => {
-      this.globalFormValid.set(status === 'VALID');
-      console.log(status, this.globalForm.errors);
-    });
+    this.globalForm.statusChanges
+      .pipe(takeUntilDestroyed())
+      .subscribe((status) => this.globalFormValid.set(status === 'VALID'));
     this.globalForm.controls.events_count.valueChanges
       .pipe(takeUntilDestroyed())
-      .subscribe((value) => {
-        this.eventsFormValid.set(this.championshipEvents().length >= value);
-      });
+      .subscribe((value) => this.eventsFormValid.set(this.championshipEvents().length >= value));
     this.globalForm.controls.categories.valueChanges
       .pipe(takeUntilDestroyed())
       .subscribe(async (value) => {
@@ -144,46 +138,67 @@ export class ChampionshipsFormManager {
         );
         this.championshipClasses.set(classesForCategories);
 
+        if (value.length === 0) {
+          this.liveriesForSelectedClasses.set([]);
+          return;
+        }
         const liveries = await this.liveryRepository.getLiveriesByClasses(value);
         this.liveriesForSelectedClasses.set(liveries);
       });
   }
 
-  async syncWithInputs(id: number, resolvedChampionship?: Championship): Promise<boolean> {
-    if (!Number.isFinite(id)) {
-      if (this.loadedChampionshipId() !== null) {
-        this.loadedChampionshipId.set(null);
-        this.originalChampionshipName.set(null);
-        this.resetForm();
-      }
-      return true;
+  loadChampionshipInForm(championship?: Championship): void {
+    if (!championship?.id) {
+      this.loadedChampionshipId.set(null);
+      this.originalChampionshipName.set(null);
+      this.resetForm();
+      return;
     }
 
-    if (this.loadedChampionshipId() === id) {
-      return true;
+    if (this.loadedChampionshipId() === championship.id) {
+      return;
     }
 
-    this.loadedChampionshipId.set(id);
-    return this.loadEditData(id, resolvedChampionship);
+    this.loadedChampionshipId.set(championship.id ?? null);
+    this.originalChampionshipName.set(championship.name);
+
+    // Use setTimeout to avoid multiple validation calls and form state staying PENDING
+    setTimeout(() => {
+      this.globalForm.patchValue({
+        name: championship.name,
+        tags: championship.tags,
+        categories: championship.categories,
+        prestige: championship.prestige,
+        init_month: championship.init_month,
+        init_day: championship.init_day,
+        registration_start_month: championship.registration_start_month,
+        registration_start_day: championship.registration_start_day,
+        registration_end_month: championship.registration_end_month,
+        registration_end_day: championship.registration_end_day,
+        pit_stop: championship.pit_stop,
+        start_type: championship.start_type,
+        events_count: championship.events_count,
+        start_year: championship.start_year,
+        end_year: championship.end_year,
+        default_included: championship.default_included,
+      });
+    });
+
+    this.fillNumberFormArray(this.globalForm.controls.points, championship.points);
+
+    this.eventRepository
+      .getEventsByChampionshipName(championship.name)
+      .then((events) => this.championshipEvents.set(events));
+    this.carRepository
+      .getCarsByChampionshipName(championship.name)
+      .then((cars) => this.championshipCars.set(cars));
   }
 
-  isStepValid(step: number): boolean {
-    if (step === 0) {
-      return this.globalForm.valid;
-    }
-
-    if (step === 1) {
-      return this.eventsFormValid();
-    }
-
-    return this.carsFormValid();
-  }
-
-  async save(id?: number): Promise<number> {
+  async save(): Promise<number> {
     this.isSaving.set(true);
 
     try {
-      const championship = this.buildChampionship(id);
+      const championship = this.buildChampionship();
       const events = this.championshipEvents().map((event) => ({
         ...event,
         id: (event.id ?? -1) >= 0 ? event.id : undefined,
@@ -197,61 +212,12 @@ export class ChampionshipsFormManager {
         championship,
         events,
         cars,
-        id,
+        id: this.loadedChampionshipId() ?? undefined,
         previousName: this.originalChampionshipName() ?? undefined,
       });
     } finally {
       this.isSaving.set(false);
     }
-  }
-
-  private async loadEditData(id: number, resolvedChampionship?: Championship): Promise<boolean> {
-    const championship =
-      resolvedChampionship ?? (await this.championshipRepository.getChampionshipById(id));
-
-    if (!championship) {
-      return false;
-    }
-
-    this.originalChampionshipName.set(championship.name);
-
-    this.globalForm.patchValue({
-      // name: championship.name,
-      tags: championship.tags,
-      categories: championship.categories,
-      prestige: championship.prestige,
-      init_month: championship.init_month,
-      init_day: championship.init_day,
-      registration_start_month: championship.registration_start_month,
-      registration_start_day: championship.registration_start_day,
-      registration_end_month: championship.registration_end_month,
-      registration_end_day: championship.registration_end_day,
-      pit_stop: championship.pit_stop,
-      start_type: championship.start_type,
-      events_count: championship.events_count,
-      start_year: championship.start_year,
-      end_year: championship.end_year,
-      default_included: championship.default_included,
-    });
-
-    this.replaceNumberArray(this.globalForm.controls.points, championship.points);
-
-    this.globalForm.controls.name.patchValue(championship.name, {
-      emitEvent: false,
-    });
-
-    const [events, cars] = await Promise.all([
-      this.eventRepository.getEventsByChampionshipName(championship.name),
-      this.carRepository.getCarsByChampionshipName(championship.name),
-    ]);
-
-    this.championshipEvents.set(events);
-    this.championshipCars.set(cars);
-
-    console.log('Loaded championship');
-    this.globalForm.controls.name.updateValueAndValidity();
-
-    return true;
   }
 
   private createGlobalForm(): GlobalFormGroup {
@@ -319,37 +285,30 @@ export class ChampionshipsFormManager {
     });
   }
 
-  private replaceNumberArray(target: FormArray<FormControl<number>>, values: number[]): void {
-    target.clear();
-    for (const value of values) {
-      target.push(
+  private fillNumberFormArray(target: FormArray<FormControl<number>>, values: number[]): void {
+    const formControls = values.map(
+      (value) =>
         new FormControl(value, {
           nonNullable: true,
           validators: [Validators.required, Validators.min(0)],
         }),
-      );
-    }
+    );
 
-    if (target.length === 0) {
-      target.push(new FormControl(0, { nonNullable: true }));
-    }
+    target.clear({ emitEvent: false });
+    target.push(formControls);
   }
 
   private resetForm(): void {
-    this.globalForm.reset(this.createGlobalForm().getRawValue());
-    this.globalForm.controls.categories.setValue([]);
-    this.globalForm.controls.tags.setValue([]);
-    this.globalForm.controls.points.clear();
-    this.globalForm.controls.points.push(new FormControl(25, { nonNullable: true }));
+    this.globalForm.reset();
     this.championshipEvents.set([]);
     this.championshipCars.set([]);
   }
 
-  private buildChampionship(id?: number): Championship {
+  private buildChampionship(): Championship {
     const rawValue = this.globalForm.getRawValue();
 
     return {
-      id,
+      id: this.loadedChampionshipId() ?? undefined,
       name: rawValue.name.trim(),
       categories: rawValue.categories,
       prestige: rawValue.prestige,

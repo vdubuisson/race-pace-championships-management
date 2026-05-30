@@ -6,9 +6,7 @@ import {
   effect,
   inject,
   input,
-  numberAttribute,
   signal,
-  untracked,
 } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { TuiButton, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
@@ -43,7 +41,6 @@ export default class ChampionshipsFormPage {
   private readonly router = inject(Router);
   private readonly notifications = inject(TuiNotificationService);
 
-  readonly id = input(NaN, { transform: numberAttribute });
   readonly championship = input<Championship | undefined>(undefined);
 
   protected readonly activeStepIndex = signal(0);
@@ -62,7 +59,7 @@ export default class ChampionshipsFormPage {
   protected readonly minTracksGarages = this.formService.minTracksGarages;
   protected readonly allFormsValid = this.formService.allFormsValid;
 
-  protected readonly isEditMode = computed(() => Number.isFinite(this.id()));
+  protected readonly isEditMode = computed(() => this.championship() !== undefined);
   protected readonly pageTitle = computed(() =>
     this.isEditMode() ? `Edit ${this.formService.championshipName()}` : 'Create championship',
   );
@@ -118,18 +115,7 @@ export default class ChampionshipsFormPage {
   protected readonly stepsCount = this.steps.filter((step) => !step.separator).length;
 
   constructor() {
-    // TODO handle edit correctly
-    effect(async () => {
-      const id = this.id();
-      const resolvedChampionship = this.championship();
-      untracked(() =>
-        this.formService.syncWithInputs(id, resolvedChampionship).then((exists) => {
-          if (!exists) {
-            void this.router.navigate(['/championships']);
-          }
-        }),
-      );
-    });
+    effect(() => this.formService.loadChampionshipInForm(this.championship()));
   }
 
   protected goToPreviousStep(): void {
@@ -151,7 +137,7 @@ export default class ChampionshipsFormPage {
     }
 
     try {
-      const championshipId = await this.formService.save(this.isEditMode() ? this.id() : undefined);
+      const championshipId = await this.formService.save();
 
       this.notifications
         .open(this.isEditMode() ? 'Championship updated' : 'Championship created', {
@@ -172,11 +158,5 @@ export default class ChampionshipsFormPage {
         })
         .subscribe();
     }
-  }
-
-  protected logValues(): void {
-    console.log('Global form value:', this.globalForm.value);
-    console.log('Events form value:', this.championshipEvents());
-    console.log('Cars form value:', this.championshipCars());
   }
 }

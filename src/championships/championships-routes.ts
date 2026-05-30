@@ -3,6 +3,7 @@ import { championshipCarsResolver } from './details/resolvers/championship-cars-
 import { championshipEventsResolver } from './details/resolvers/championship-events-resolver';
 import { championshipResolver } from './details/resolvers/championship-resolver';
 import { ChampionshipsListPage } from './list/championships-list-page';
+import { canLeaveChampionshipFormGuard } from './form/can-leave-guard/can-leave-championship-form-guard';
 
 export const championshipsRoutes: Routes = [
   { path: '', pathMatch: 'full', component: ChampionshipsListPage },
@@ -30,13 +31,18 @@ export const championshipsRoutes: Routes = [
       { path: '**', redirectTo: 'global' },
     ],
   },
-  { path: 'form', loadComponent: () => import('./form/championships-form-page') },
+  {
+    path: 'form',
+    loadComponent: () => import('./form/championships-form-page'),
+    canDeactivate: [canLeaveChampionshipFormGuard],
+  },
   {
     path: 'form/:id',
     loadComponent: () => import('./form/championships-form-page'),
     resolve: {
       championship: championshipResolver,
     },
+    canDeactivate: [canLeaveChampionshipFormGuard],
   },
   { path: '**', redirectTo: '' },
 ];

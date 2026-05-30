@@ -1,0 +1,16 @@
+main {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.file-input {
+  width: 50%;
+  height: 10rem;
+}
+
+.file-list {
+  width: 50%;
+}

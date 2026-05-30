@@ -16,7 +16,7 @@ import {
 } from '@angular/core';
 import { provideRouter, withComponentInputBinding, withRouterConfig } from '@angular/router';
 import { provideTaiga, TUI_VALIDATION_ERRORS } from '@taiga-ui/core';
-import { routes } from './app.routes';
+import routes from './app.routes';
 
 export const appConfig: ApplicationConfig = {
   providers: [

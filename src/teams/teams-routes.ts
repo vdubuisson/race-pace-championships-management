@@ -2,7 +2,7 @@ import { canLeaveFormGuard } from '@/shared/guards/can-leave-form/can-leave-form
 import { Routes } from '@angular/router';
 import { TeamsListPage } from '../teams/list/teams-list-page';
 
-export const teamsRoutes: Routes = [
+export default [
   { path: '', pathMatch: 'full', component: TeamsListPage },
   {
     path: 'form',
@@ -15,6 +15,4 @@ export const teamsRoutes: Routes = [
     canDeactivate: [canLeaveFormGuard],
   },
   { path: '**', redirectTo: '' },
-];
-
-export default teamsRoutes;
+] satisfies Routes;

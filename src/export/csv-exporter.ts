@@ -6,8 +6,8 @@ import { TeamRepository } from '@/db/team-repository';
 import { TrackRepository } from '@/db/track-repository';
 import { CsvCar } from '@/resources/models/car';
 import { inject, Injectable } from '@angular/core';
+import JSZip from '@progress/jszip-esm';
 import { stringify } from 'csv-stringify/browser/esm/sync';
-import JSZip from 'jszip';
 import { firstValueFrom } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })

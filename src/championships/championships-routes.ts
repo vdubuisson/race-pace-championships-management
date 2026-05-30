@@ -5,7 +5,7 @@ import { championshipEventsResolver } from './details/resolvers/championship-eve
 import { championshipResolver } from './details/resolvers/championship-resolver';
 import { ChampionshipsListPage } from './list/championships-list-page';
 
-export const championshipsRoutes: Routes = [
+export default [
   { path: '', pathMatch: 'full', component: ChampionshipsListPage },
   {
     path: 'details/:id',
@@ -45,6 +45,4 @@ export const championshipsRoutes: Routes = [
     canDeactivate: [canLeaveFormGuard],
   },
   { path: '**', redirectTo: '' },
-];
-
-export default championshipsRoutes;
+] satisfies Routes;

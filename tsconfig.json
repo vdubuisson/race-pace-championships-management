@@ -20,8 +20,10 @@
       "@/championships/*": ["src/championships/*"],
       "@/db/*": ["src/db/*"],
       "@/export/*": ["src/export/*"],
+      "@/import/*": ["src/import/*"],
       "@/resources/*": ["src/resources/*"],
       "@/shared/*": ["src/shared/*"],
+      "@/teams/*": ["src/teams/*"],
     }
   },
   "angularCompilerOptions": {

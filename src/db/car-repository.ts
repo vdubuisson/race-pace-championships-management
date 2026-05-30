@@ -17,6 +17,10 @@ export class CarRepository {
     }
   }
 
+  getAllCars(): Promise<Car[]> {
+    return this.store.toArray();
+  }
+
   getCarsByChampionshipName(championshipName: string): Promise<Car[]> {
     return this.store.where('championship_name').equals(championshipName).toArray();
   }

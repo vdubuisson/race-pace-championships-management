@@ -12,4 +12,13 @@
   <a [routerLink]="['/championships']" tuiButton appearance="primary" iconStart="@tui.trophy">
     View championships
   </a>
+  <button
+    tuiButton
+    appearance="primary"
+    iconStart="@tui.download"
+    [loading]="isExporting()"
+    (click)="exportData()"
+  >
+    Export as CSV
+  </button>
 </div>

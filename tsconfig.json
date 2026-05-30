@@ -19,6 +19,7 @@
     "paths": {
       "@/championships/*": ["src/championships/*"],
       "@/db/*": ["src/db/*"],
+      "@/export/*": ["src/export/*"],
       "@/resources/*": ["src/resources/*"],
       "@/shared/*": ["src/shared/*"],
     }

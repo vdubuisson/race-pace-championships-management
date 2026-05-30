@@ -17,6 +17,10 @@ export class EventRepository {
     }
   }
 
+  getAllEvents(): Promise<RaceEvent[]> {
+    return this.store.toArray();
+  }
+
   getEventsByChampionshipName(championshipName: string): Promise<RaceEvent[]> {
     return this.store.where('championship_name').equals(championshipName).toArray();
   }

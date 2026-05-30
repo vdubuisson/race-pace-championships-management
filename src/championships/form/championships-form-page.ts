@@ -61,7 +61,7 @@ export default class ChampionshipsFormPage {
 
   protected readonly isEditMode = computed(() => this.championship() !== undefined);
   protected readonly pageTitle = computed(() =>
-    this.isEditMode() ? `Edit ${this.formService.championshipName()}` : 'Create championship',
+    this.isEditMode() ? `Edit ${this.formService.championshipName()}` : 'New championship',
   );
 
   protected readonly steps = [

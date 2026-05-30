@@ -11,7 +11,7 @@
 
 <form tuiForm [formGroup]="teamForm" (submit)="onSubmit($event)">
   <header tuiHeader>
-    <h1 tuiTitle>{{ originalName() ? `Edit Team: ${originalName()}` : 'New Team' }}</h1>
+    <h1 tuiTitle>{{ pageTitle() }}</h1>
   </header>
 
   <fieldset>

@@ -1,6 +1,7 @@
 import {
   ChangeDetectionStrategy,
   Component,
+  computed,
   effect,
   inject,
   input,
@@ -54,7 +55,11 @@ export default class TeamForm {
 
   readonly id = input(NaN, { transform: numberAttribute });
 
-  readonly originalName = signal<string | null>(null);
+  private readonly originalName = signal<string | null>(null);
+
+  readonly pageTitle = computed(() =>
+    this.originalName() ? `Edit Team: ${this.originalName()}` : 'New Team',
+  );
 
   private readonly teamNameAvailableValidator: AsyncValidatorFn = async (control) => {
     const name = control.value?.trim();

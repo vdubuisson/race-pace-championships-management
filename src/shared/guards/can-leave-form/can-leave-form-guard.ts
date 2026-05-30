@@ -4,9 +4,8 @@ import { CanDeactivateFn } from '@angular/router';
 import { TuiDialogService } from '@taiga-ui/core';
 import { TUI_CONFIRM } from '@taiga-ui/kit';
 
-export const canLeaveChampionshipFormGuard: CanDeactivateFn<boolean> = () => {
-  const dialogs = inject(TuiDialogService);
-  return dialogs
+export const canLeaveFormGuard: CanDeactivateFn<boolean> = () => {
+  return inject(TuiDialogService)
     .open<boolean>(TUI_CONFIRM, {
       label: 'Abort changes?',
       size: 's',

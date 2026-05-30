@@ -1,9 +1,9 @@
+import { canLeaveFormGuard } from '@/shared/guards/can-leave-form/can-leave-form-guard';
 import { Routes } from '@angular/router';
 import { championshipCarsResolver } from './details/resolvers/championship-cars-resolver';
 import { championshipEventsResolver } from './details/resolvers/championship-events-resolver';
 import { championshipResolver } from './details/resolvers/championship-resolver';
 import { ChampionshipsListPage } from './list/championships-list-page';
-import { canLeaveChampionshipFormGuard } from './form/can-leave-guard/can-leave-championship-form-guard';
 
 export const championshipsRoutes: Routes = [
   { path: '', pathMatch: 'full', component: ChampionshipsListPage },
@@ -34,7 +34,7 @@ export const championshipsRoutes: Routes = [
   {
     path: 'form',
     loadComponent: () => import('./form/championships-form-page'),
-    canDeactivate: [canLeaveChampionshipFormGuard],
+    canDeactivate: [canLeaveFormGuard],
   },
   {
     path: 'form/:id',
@@ -42,7 +42,7 @@ export const championshipsRoutes: Routes = [
     resolve: {
       championship: championshipResolver,
     },
-    canDeactivate: [canLeaveChampionshipFormGuard],
+    canDeactivate: [canLeaveFormGuard],
   },
   { path: '**', redirectTo: '' },
 ];

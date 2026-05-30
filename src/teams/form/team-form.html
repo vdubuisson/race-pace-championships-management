@@ -11,7 +11,7 @@
 
 <form tuiForm [formGroup]="teamForm" (submit)="onSubmit($event)">
   <header tuiHeader>
-    <h1 tuiTitle>Team Form</h1>
+    <h1 tuiTitle>{{ originalName() ? `Edit Team: ${originalName()}` : 'New Team' }}</h1>
   </header>
 
   <fieldset>
@@ -87,5 +87,5 @@
     </div>
   </fieldset>
 
-  <button tuiButton type="submit" size="m">Submit</button>
+  <button tuiButton type="submit" size="m">Save</button>
 </form>

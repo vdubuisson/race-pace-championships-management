@@ -5,6 +5,7 @@ import {
   inject,
   input,
   numberAttribute,
+  signal,
 } from '@angular/core';
 import {
   AsyncValidatorFn,
@@ -52,6 +53,8 @@ export default class TeamForm {
   private readonly notifications = inject(TuiNotificationService);
 
   readonly id = input(NaN, { transform: numberAttribute });
+
+  readonly originalName = signal<string | null>(null);
 
   private readonly teamNameAvailableValidator: AsyncValidatorFn = async (control) => {
     const name = control.value?.trim();
@@ -110,6 +113,7 @@ export default class TeamForm {
       if (!isNaN(this.id())) {
         this.teamRepository.getTeamById(this.id()).then((team) => {
           if (team) {
+            this.originalName.set(team.name);
             this.teamForm.patchValue(team);
           } else {
             console.error('Team not found with id', this.id());
@@ -148,7 +152,7 @@ export default class TeamForm {
         console.error('A team already exists with the same name');
       }
     } else {
-      console.log('Form is invalid');
+      console.error('Form is invalid');
     }
   }
 

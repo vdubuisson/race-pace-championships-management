@@ -1,4 +1,4 @@
-import { Championship } from '@/resources/models/championship';
+import { Championship } from '@/shared/models/championship';
 import {
   ChangeDetectionStrategy,
   Component,

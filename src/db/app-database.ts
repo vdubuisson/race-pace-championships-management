@@ -1,11 +1,11 @@
-import { Car } from '@/resources/models/car';
-import { Championship } from '@/resources/models/championship';
-import { Livery } from '@/resources/models/livery';
-import { RaceEvent } from '@/resources/models/race-event';
-import { Team } from '@/resources/models/team';
-import { Track } from '@/resources/models/track';
-import { VehicleClass } from '@/resources/models/vehicle-class';
-import { VehicleModel } from '@/resources/models/vehicle-model';
+import { Car } from '@/shared/models/car';
+import { Championship } from '@/shared/models/championship';
+import { Livery } from '@/shared/models/livery';
+import { RaceEvent } from '@/shared/models/race-event';
+import { Team } from '@/shared/models/team';
+import { Track } from '@/shared/models/track';
+import { VehicleClass } from '@/shared/models/vehicle-class';
+import { VehicleModel } from '@/shared/models/vehicle-model';
 import { Injectable } from '@angular/core';
 import Dexie, { type Table } from 'dexie';
 
@@ -45,9 +45,11 @@ export class AppDatabase extends Dexie {
       })
       .upgrade((transaction) => {
         transaction.table('cars').clear();
+        transaction.table('championships').clear();
         transaction.table('classes').clear();
         transaction.table('events').clear();
         transaction.table('liveries').clear();
+        transaction.table('models').clear();
         transaction.table('teams').clear();
         transaction.table('tracks').clear();
       });

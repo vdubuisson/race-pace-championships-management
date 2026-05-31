@@ -1,14 +1,14 @@
-import { Car, CsvCar } from '@/resources/models/car';
-import { Championship } from '@/resources/models/championship';
-import { Livery } from '@/resources/models/livery';
-import { RaceEvent } from '@/resources/models/race-event';
-import { Team } from '@/resources/models/team';
-import { Track } from '@/resources/models/track';
-import { VehicleClass } from '@/resources/models/vehicle-class';
-import { VehicleModel } from '@/resources/models/vehicle-model';
+import { Car, CsvCar } from '@/shared/models/car';
+import { Championship } from '@/shared/models/championship';
+import { Livery } from '@/shared/models/livery';
+import { RaceEvent } from '@/shared/models/race-event';
+import { Team } from '@/shared/models/team';
+import { Track } from '@/shared/models/track';
+import { VehicleClass } from '@/shared/models/vehicle-class';
+import { VehicleModel } from '@/shared/models/vehicle-model';
 import { Injectable } from '@angular/core';
 import { parse } from 'csv-parse/browser/esm/sync';
-import { CsvValidationError } from '../validators/csv-validation-error';
+import { CsvValidationError } from '../import-custom/validators/csv-validation-error';
 
 const EXPECTED_HEADERS: Record<string, string[]> = {
   'cars.csv': [

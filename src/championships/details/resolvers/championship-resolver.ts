@@ -1,5 +1,5 @@
 import { ChampionshipsService } from '@/championships/championships-service/championships-service';
-import { ChampionshipWithClasses } from '@/resources/models/championship';
+import { ChampionshipWithClasses } from '@/shared/models/championship';
 import { inject } from '@angular/core';
 import { RedirectCommand, ResolveFn, Router } from '@angular/router';
 

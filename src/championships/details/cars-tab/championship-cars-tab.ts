@@ -1,5 +1,5 @@
-import { Car } from '@/resources/models/car';
-import { ChampionshipWithClasses } from '@/resources/models/championship';
+import { Car } from '@/shared/models/car';
+import { ChampionshipWithClasses } from '@/shared/models/championship';
 import { CarCard } from '@/championships/car-card/car-card';
 import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
 import { TuiHeader } from '@taiga-ui/layout';

@@ -1,4 +1,4 @@
-import { VehicleClass } from '@/resources/models/vehicle-class';
+import { VehicleClass } from '@/shared/models/vehicle-class';
 import { MonthPipe } from '@/shared/pipes/month/month-pipe';
 import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
 import { TitleCasePipe } from '@angular/common';

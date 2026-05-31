@@ -1,4 +1,4 @@
-import { Car } from '@/resources/models/car';
+import { Car } from '@/shared/models/car';
 import { ChangeDetectionStrategy, Component, computed, input, output } from '@angular/core';
 import { TuiButton, TuiGroup, TuiTitle } from '@taiga-ui/core';
 import { TuiAutoColorPipe, TuiChip } from '@taiga-ui/kit';

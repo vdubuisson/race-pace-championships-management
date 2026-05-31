@@ -1,6 +1,6 @@
-import { Car } from '@/resources/models/car';
-import { Livery } from '@/resources/models/livery';
-import { Team } from '@/resources/models/team';
+import { Car } from '@/shared/models/car';
+import { Livery } from '@/shared/models/livery';
+import { Team } from '@/shared/models/team';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { ChangeDetectionStrategy, Component, computed, effect, input, output } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';

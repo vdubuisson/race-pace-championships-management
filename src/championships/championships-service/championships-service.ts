@@ -3,9 +3,9 @@ import { CarRepository } from '@/db/car-repository';
 import { ChampionshipRepository } from '@/db/championship-repository';
 import { EventRepository } from '@/db/event-repository';
 import { VehicleClassRepository } from '@/db/vehicle-class-repository';
-import { Car } from '@/resources/models/car';
-import { Championship, ChampionshipWithClasses } from '@/resources/models/championship';
-import { RaceEvent } from '@/resources/models/race-event';
+import { Car } from '@/shared/models/car';
+import { Championship, ChampionshipWithClasses } from '@/shared/models/championship';
+import { RaceEvent } from '@/shared/models/race-event';
 import { inject, Injectable } from '@angular/core';
 import { Observable, switchMap } from 'rxjs';
 

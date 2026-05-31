@@ -1,4 +1,4 @@
-import { ChampionshipWithClasses } from '@/resources/models/championship';
+import { ChampionshipWithClasses } from '@/shared/models/championship';
 import { MonthPipe } from '@/shared/pipes/month/month-pipe';
 import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
 import { I18nPluralPipe, TitleCasePipe } from '@angular/common';

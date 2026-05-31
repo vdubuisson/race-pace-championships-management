@@ -1,4 +1,4 @@
 import { Routes } from '@angular/router';
-import { ImportCustomPage } from './import-custom-page/import-custom-page';
+import { ImportPage } from './import-page/import-page';
 
-export default [{ path: '', component: ImportCustomPage }] satisfies Routes;
+export default [{ path: '', component: ImportPage }] satisfies Routes;

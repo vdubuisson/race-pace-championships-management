@@ -1,22 +1,12 @@
-import { Championship } from '@/resources/models/championship';
-import { ResourceLoader } from '@/resources/resource-loader';
+import { Championship } from '@/shared/models/championship';
 import { inject, Injectable } from '@angular/core';
-import { firstValueFrom, from, Observable } from 'rxjs';
-import { AppDatabase } from './app-database';
 import { liveQuery } from 'dexie';
+import { from, Observable } from 'rxjs';
+import { AppDatabase } from './app-database';
 
 @Injectable({ providedIn: 'root' })
 export class ChampionshipRepository {
   readonly store = inject(AppDatabase).championships;
-  private readonly resourceLoader = inject(ResourceLoader);
-
-  async initialize(): Promise<void> {
-    const count = await this.store.count();
-    if (count === 0) {
-      const championships = await firstValueFrom(this.resourceLoader.loadChampionships());
-      await this.store.bulkAdd(championships);
-    }
-  }
 
   getAllChampionships(): Observable<Championship[]> {
     return from(liveQuery(() => this.store.toArray()));

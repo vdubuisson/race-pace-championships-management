@@ -1,8 +1,8 @@
 import { CarCard } from '@/championships/car-card/car-card';
-import { Car } from '@/resources/models/car';
-import { Livery } from '@/resources/models/livery';
-import { Team } from '@/resources/models/team';
-import { VehicleClass } from '@/resources/models/vehicle-class';
+import { Car } from '@/shared/models/car';
+import { Livery } from '@/shared/models/livery';
+import { Team } from '@/shared/models/team';
+import { VehicleClass } from '@/shared/models/vehicle-class';
 import {
   ChangeDetectionStrategy,
   Component,

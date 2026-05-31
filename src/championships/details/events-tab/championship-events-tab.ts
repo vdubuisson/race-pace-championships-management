@@ -2,8 +2,8 @@ import { ChangeDetectionStrategy, Component, computed, input } from '@angular/co
 import { TuiCell, TuiTitle } from '@taiga-ui/core';
 import { TuiAvatar } from '@taiga-ui/kit';
 import { EventCard } from '../../event-card/event-card';
-import { Championship } from '@/resources/models/championship';
-import { RaceEventWithTrack } from '@/resources/models/race-event';
+import { Championship } from '@/shared/models/championship';
+import { RaceEventWithTrack } from '@/shared/models/race-event';
 
 @Component({
   selector: 'app-championship-events-tab',

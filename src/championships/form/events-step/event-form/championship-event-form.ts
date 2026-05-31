@@ -1,5 +1,5 @@
-import { RaceEvent, RaceEventType } from '@/resources/models/race-event';
-import { Track } from '@/resources/models/track';
+import { RaceEvent, RaceEventType } from '@/shared/models/race-event';
+import { Track } from '@/shared/models/track';
 import { CountryCodePipe } from '@/shared/pipes/country-code/country-code-pipe';
 import { DurationPipe } from '@/shared/pipes/duration/duration-pipe';
 import { MonthPipe } from '@/shared/pipes/month/month-pipe';

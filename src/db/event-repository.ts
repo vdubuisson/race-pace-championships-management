@@ -1,21 +1,10 @@
+import { RaceEvent } from '@/shared/models/race-event';
 import { inject, Injectable } from '@angular/core';
-import { firstValueFrom } from 'rxjs';
-import { RaceEvent } from '@/resources/models/race-event';
-import { ResourceLoader } from '@/resources/resource-loader';
 import { AppDatabase } from './app-database';
 
 @Injectable({ providedIn: 'root' })
 export class EventRepository {
   readonly store = inject(AppDatabase).events;
-  private readonly resourceLoader = inject(ResourceLoader);
-
-  async initialize(): Promise<void> {
-    const count = await this.store.count();
-    if (count === 0) {
-      const events = await firstValueFrom(this.resourceLoader.loadEvents());
-      await this.store.bulkAdd(events);
-    }
-  }
 
   getAllEvents(): Promise<RaceEvent[]> {
     return this.store.toArray();

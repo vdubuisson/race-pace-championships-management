@@ -27,7 +27,7 @@ import {
 import { TuiInputNumber, TuiTooltip } from '@taiga-ui/kit';
 import { TuiForm, TuiHeader } from '@taiga-ui/layout';
 import { TeamRepository } from '@/db/team-repository';
-import { Team } from '@/resources/models/team';
+import { Team } from '@/shared/models/team';
 
 @Component({
   selector: 'app-team-form',

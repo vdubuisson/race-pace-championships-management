@@ -3,7 +3,7 @@ import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/rou
 import { TuiButton, TuiDialogService, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
 import { TUI_CONFIRM, TuiConfirmData, TuiTabs } from '@taiga-ui/kit';
 import { TuiHeader } from '@taiga-ui/layout';
-import { Championship } from '@/resources/models/championship';
+import { Championship } from '@/shared/models/championship';
 import { of, switchMap } from 'rxjs';
 import { ChampionshipsService } from '../championships-service/championships-service';
 

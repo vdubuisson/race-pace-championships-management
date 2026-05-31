@@ -4,7 +4,7 @@ import { EventRepository } from '@/db/event-repository';
 import { ModelRepository } from '@/db/model-repository';
 import { TeamRepository } from '@/db/team-repository';
 import { TrackRepository } from '@/db/track-repository';
-import { CsvCar } from '@/resources/models/car';
+import { CsvCar } from '@/shared/models/car';
 import { inject, Injectable } from '@angular/core';
 import JSZip from '@progress/jszip-esm';
 import { stringify } from 'csv-stringify/browser/esm/sync';

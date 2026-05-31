@@ -1,8 +1,8 @@
 import { inject } from '@angular/core';
 import { RedirectCommand, ResolveFn } from '@angular/router';
 import { EventRepository } from '@/db/event-repository';
-import { Championship } from '@/resources/models/championship';
-import { RaceEventWithTrack } from '@/resources/models/race-event';
+import { Championship } from '@/shared/models/championship';
+import { RaceEventWithTrack } from '@/shared/models/race-event';
 import { TrackRepository } from '@/db/track-repository';
 
 export const championshipEventsResolver: ResolveFn<RaceEventWithTrack[] | RedirectCommand> = async (

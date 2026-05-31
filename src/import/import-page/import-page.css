@@ -1,0 +1,19 @@
+.separator {
+  width: 50%;
+  height: 1px;
+  background-color: var(--tui-border-normal);
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.import-buttons {
+  max-width: 800px;
+}

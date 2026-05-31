@@ -1,6 +1,6 @@
 import { EventCard } from '@/championships/event-card/event-card';
-import { RaceEvent, RaceEventWithTrack } from '@/resources/models/race-event';
-import { Track } from '@/resources/models/track';
+import { RaceEvent, RaceEventWithTrack } from '@/shared/models/race-event';
+import { Track } from '@/shared/models/track';
 import {
   ChangeDetectionStrategy,
   Component,

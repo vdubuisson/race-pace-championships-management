@@ -1,29 +1,25 @@
 import { AsyncPipe } from '@angular/common';
-import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, effect, input, output, signal } from '@angular/core';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
-import { Router, RouterLink } from '@angular/router';
 import { TuiValidationError } from '@taiga-ui/cdk/classes';
-import { TuiButton, TuiError, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
+import { TuiButton, TuiError, TuiTitle } from '@taiga-ui/core';
 import { TuiButtonLoading, TuiFiles, TuiInputFiles, tuiFilesAccepted } from '@taiga-ui/kit';
 import { TuiHeader } from '@taiga-ui/layout';
 import { map } from 'rxjs';
-import { CsvImporter } from '../csv-importer/csv-importer';
-import { RejectedFilePipe } from '../rejected-file-pipe/rejected-file-pipe';
-import { CsvValidationError } from '../validators/csv-validation-error';
+import { RejectedFilePipe } from './rejected-file-pipe/rejected-file-pipe';
 import {
   REQUIRED_FILES,
   fileNamesValidator,
   filesCountValidator,
-} from '../validators/import-validators';
+} from './validators/import-validators';
 
 @Component({
-  selector: 'app-import-page',
+  selector: 'app-import-custom-section',
   standalone: true,
   imports: [
     AsyncPipe,
     ReactiveFormsModule,
     RejectedFilePipe,
-    RouterLink,
     TuiButton,
     TuiButtonLoading,
     TuiError,
@@ -32,14 +28,14 @@ import {
     TuiInputFiles,
     TuiTitle,
   ],
-  templateUrl: './import-custom-page.html',
-  styleUrl: './import-custom-page.css',
+  templateUrl: './import-custom-section.html',
+  styleUrl: './import-custom-section.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ImportCustomPage {
-  private readonly csvImporter = inject(CsvImporter);
-  private readonly notifications = inject(TuiNotificationService);
-  private readonly router = inject(Router);
+export class ImportCustomSection {
+  readonly importing = input(false);
+  readonly importError = input<string | null>(null);
+  readonly import = output<File[]>();
 
   protected readonly REQUIRED_FILES = REQUIRED_FILES;
 
@@ -47,7 +43,6 @@ export class ImportCustomPage {
     validators: [filesCountValidator, fileNamesValidator],
   });
   protected readonly rejectedFiles = signal<File[]>([]);
-  protected readonly importing = signal(false);
 
   protected readonly acceptedFiles$ = this.filesControl.valueChanges.pipe(
     map(() => tuiFilesAccepted(this.filesControl)),
@@ -64,6 +59,16 @@ export class ImportCustomPage {
     }),
   );
 
+  constructor() {
+    effect(() => {
+      if (this.importError()) {
+        this.filesControl.setErrors({ structure: new TuiValidationError(this.importError()!) });
+      } else {
+        this.filesControl.setErrors(null);
+      }
+    });
+  }
+
   protected onReject(files: File[]): void {
     this.rejectedFiles.update((current) => Array.from(new Set([...current, ...files])));
   }
@@ -74,32 +79,8 @@ export class ImportCustomPage {
   }
 
   protected async importFiles(): Promise<void> {
-    if (this.filesControl.invalid) return;
-
-    this.importing.set(true);
-    try {
-      await this.csvImporter.importCustomChampionships(this.filesControl.value!);
-
-      this.notifications
-        .open('Data imported successfully!', {
-          appearance: 'positive',
-          autoClose: 3000,
-          closable: false,
-        })
-        .subscribe();
-      this.router.navigate(['/']);
-    } catch (error) {
-      if (error instanceof CsvValidationError) {
-        this.filesControl.setErrors({ structure: new TuiValidationError(error.message) });
-      } else {
-        this.filesControl.setErrors({
-          structure: new TuiValidationError(
-            `Import failed: ${error instanceof Error ? error.message : 'Unknown error'}`,
-          ),
-        });
-      }
-    } finally {
-      this.importing.set(false);
+    if (this.filesControl.valid) {
+      this.import.emit(this.filesControl.value!);
     }
   }
 }

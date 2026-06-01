@@ -1,10 +1,11 @@
+import { canLeaveFormGuard } from '@/shared/guards/can-leave-form/can-leave-form-guard';
 import { Routes } from '@angular/router';
-import { ChampionshipsListPage } from './list/championships-list-page';
-import { championshipResolver } from './details/resolvers/championship-resolver';
-import { championshipEventsResolver } from './details/resolvers/championship-events-resolver';
 import { championshipCarsResolver } from './details/resolvers/championship-cars-resolver';
+import { championshipEventsResolver } from './details/resolvers/championship-events-resolver';
+import { championshipResolver } from './details/resolvers/championship-resolver';
+import { ChampionshipsListPage } from './list/championships-list-page';
 
-export const championshipsRoutes: Routes = [
+export default [
   { path: '', pathMatch: 'full', component: ChampionshipsListPage },
   {
     path: 'details/:id',
@@ -30,9 +31,18 @@ export const championshipsRoutes: Routes = [
       { path: '**', redirectTo: 'global' },
     ],
   },
-  // { path: 'form', loadComponent: () => import('./form/championship-form') },
-  // { path: 'form/:id', loadComponent: () => import('./form/championship-form') },
+  {
+    path: 'form',
+    loadComponent: () => import('./form/championships-form-page'),
+    canDeactivate: [canLeaveFormGuard],
+  },
+  {
+    path: 'form/:id',
+    loadComponent: () => import('./form/championships-form-page'),
+    resolve: {
+      championship: championshipResolver,
+    },
+    canDeactivate: [canLeaveFormGuard],
+  },
   { path: '**', redirectTo: '' },
-];
-
-export default championshipsRoutes;
+] satisfies Routes;

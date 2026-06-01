@@ -1,5 +1,12 @@
 <div class="container">
   <tui-root>
-    <router-outlet />
+    <tui-loader
+      [loading]="importingBaseResources()"
+      size="xl"
+      [overlay]="true"
+      textContent="Importing base resources..."
+    >
+      <router-outlet />
+    </tui-loader>
   </tui-root>
 </div>

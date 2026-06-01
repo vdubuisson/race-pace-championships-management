@@ -1,0 +1,31 @@
+:host {
+  /* --tui-text-action: var(--tui-text-secondary); */
+}
+
+.wizard-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wizard-stepper {
+  --tui-text-action: var(--tui-text-secondary);
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.step-separator {
+  height: 1px;
+  background-color: var(--tui-border-normal);
+  flex: auto;
+}
+
+.step-content {
+  min-height: 24rem;
+}
+
+.wizard-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+}

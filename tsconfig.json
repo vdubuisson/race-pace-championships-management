@@ -14,11 +14,16 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "preserve",
+    "lib": ["DOM", "ES2024"],
     "baseUrl": ".",
     "paths": {
+      "@/championships/*": ["src/championships/*"],
       "@/db/*": ["src/db/*"],
+      "@/export/*": ["src/export/*"],
+      "@/import/*": ["src/import/*"],
       "@/resources/*": ["src/resources/*"],
       "@/shared/*": ["src/shared/*"],
+      "@/teams/*": ["src/teams/*"],
     }
   },
   "angularCompilerOptions": {

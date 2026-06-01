@@ -1,0 +1,30 @@
+<div tuiCell>
+  <div tuiTitle="m" class="step-title">
+    Championship events:
+    <span [class.invalid]="events().length < requiredEventCount()"
+      >{{ events().length }}/{{ requiredEventCount() }}</span
+    >
+  </div>
+  <button tuiButton type="button" appearance="primary" size="m" (click)="openNewForm()">
+    Add event
+  </button>
+</div>
+
+<div class="events-list">
+  @for (event of eventsWithTrack(); track event.id) {
+    <app-event-card
+      [event]="event"
+      [editable]="true"
+      (edit)="openEventEdition(event)"
+      (delete)="deleteEvent(event)"
+    />
+  }
+</div>
+
+<app-championship-event-form
+  [isShown]="isFormShown()"
+  [tracks]="tracks()"
+  [editedEvent]="editedEvent()"
+  (formCancel)="hideForm()"
+  (formSubmit)="submitForm($event)"
+/>

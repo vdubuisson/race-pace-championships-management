@@ -1,8 +1,8 @@
 import { inject } from '@angular/core';
 import { RedirectCommand, ResolveFn } from '@angular/router';
 import { CarRepository } from '@/db/car-repository';
-import { Car } from '@/resources/models/car';
-import { Championship } from '@/resources/models/championship';
+import { Car } from '@/shared/models/car';
+import { Championship } from '@/shared/models/championship';
 
 export const championshipCarsResolver: ResolveFn<Car[] | RedirectCommand> = (route) => {
   const carRepository = inject(CarRepository);

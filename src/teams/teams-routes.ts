@@ -1,11 +1,18 @@
+import { canLeaveFormGuard } from '@/shared/guards/can-leave-form/can-leave-form-guard';
 import { Routes } from '@angular/router';
 import { TeamsListPage } from '../teams/list/teams-list-page';
 
-export const teamsRoutes: Routes = [
+export default [
   { path: '', pathMatch: 'full', component: TeamsListPage },
-  { path: 'form', loadComponent: () => import('../teams/form/team-form') },
-  { path: 'form/:id', loadComponent: () => import('../teams/form/team-form') },
+  {
+    path: 'form',
+    loadComponent: () => import('../teams/form/team-form'),
+    canDeactivate: [canLeaveFormGuard],
+  },
+  {
+    path: 'form/:id',
+    loadComponent: () => import('../teams/form/team-form'),
+    canDeactivate: [canLeaveFormGuard],
+  },
   { path: '**', redirectTo: '' },
-];
-
-export default teamsRoutes;
+] satisfies Routes;

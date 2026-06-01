@@ -1,0 +1,10 @@
+.team-option,
+.livery-option {
+  box-sizing: border-box;
+  height: 56px;
+  width: 100%;
+
+  &.tui-leave {
+    pointer-events: all;
+  }
+}

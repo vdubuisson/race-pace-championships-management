@@ -70,8 +70,8 @@
       </header>
       <section>
         <ul tuiList>
-          @for (cat of championship().categories; track cat) {
-            <li>{{ cat }}</li>
+          @for (cat of championship().classes; track cat.id) {
+            <li>{{ cat.name }}</li>
           }
         </ul>
       </section>

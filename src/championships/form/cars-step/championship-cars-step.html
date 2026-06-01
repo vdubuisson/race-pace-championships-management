@@ -1,0 +1,52 @@
+<header tuiHeader class="step-header">
+  <h2 tuiTitle>
+    Current/Max number of cars:
+    <span [class.invalid]="cars().length > maxCars()">{{ cars().length }}/{{ maxCars() }}</span>
+  </h2>
+</header>
+
+@for (category of championshipClasses(); track category.id) {
+  @let categoryCars = carsByCategory().get(category.id) ?? [];
+  <header tuiHeader class="cat-header">
+    <h2 tuiTitle>
+      <span>{{ category.name }}</span>
+      <div class="separator"></div>
+      <span tuiSubtitle>{{ categoryCars.length }}/{{ cars().length }} cars</span>
+    </h2>
+
+    <aside tuiAccessories>
+      <button
+        tuiButton
+        type="button"
+        appearance="primary"
+        size="m"
+        [disabled]="cars().length >= maxCars()"
+        (click)="openNewForm(category.id)"
+      >
+        Add car
+      </button>
+    </aside>
+  </header>
+
+  <div class="cars-list">
+    @for (car of categoryCars; track car.id) {
+      <app-car-card
+        [car]="car"
+        [editable]="true"
+        (edit)="openCarEdition(car)"
+        (delete)="deleteCar(car)"
+      />
+    }
+  </div>
+}
+
+<app-championship-car-form
+  [isShown]="isFormShown()"
+  [teams]="teams()"
+  [cars]="editedCategory() ? (carsByCategory().get(editedCategory()!) ?? []) : []"
+  [liveries]="editedCategory() ? (liveriesByCategory().get(editedCategory()!) ?? []) : []"
+  [editedCategory]="editedCategory()"
+  [editedCar]="editedCar()"
+  (formCancel)="hideForm()"
+  (formSubmit)="submitForm($event)"
+/>

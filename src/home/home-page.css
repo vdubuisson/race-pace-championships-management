@@ -1,6 +1,64 @@
+.page-header {
+  margin-bottom: 4rem;
+}
+
 .actions {
   display: flex;
-  gap: 1rem;
   flex-direction: column;
+  gap: 30px;
   margin-top: 2rem;
+  align-items: center;
+
+  .action {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .title {
+      text-align: center;
+    }
+
+    .buttons {
+      display: grid;
+      gap: 0.5rem;
+      grid-template-columns: 1fr;
+
+      &:has(> * + *) {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .button {
+        padding: 1rem;
+
+        tui-icon {
+          color: var(--tui-status-info);
+        }
+      }
+    }
+  }
+}
+
+.separator {
+  height: 1px;
+  width: 70%;
+  background-color: var(--tui-border-normal);
+}
+
+@media screen and (min-width: 1024px) {
+  .actions {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .separator {
+    width: 1px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .actions {
+    gap: 50px;
+  }
 }

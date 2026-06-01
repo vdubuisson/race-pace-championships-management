@@ -4,7 +4,8 @@
     "angular-developer": {
       "source": "angular/skills",
       "sourceType": "github",
-      "computedHash": "b7764c591c965d85f95f1d4f6d3620b6ab92a1b1fedbcdead7d59e946fc3fd2e"
+      "skillPath": "angular-developer/SKILL.md",
+      "computedHash": "4de273da58236f27f3a59e70a2bbcc34167e298933f9a6f3b132f1d9ca44643c"
     },
     "chrome-devtools": {
       "source": "chromedevtools/chrome-devtools-mcp",
@@ -20,6 +21,7 @@
     "skill-creator": {
       "source": "anthropics/skills",
       "sourceType": "github",
+      "skillPath": "skills/skill-creator/SKILL.md",
       "computedHash": "5ea13a6d9f0d4bb694405d79acd00cadec0d21bb138c4dd10fcf3c500cb835c2"
     }
   }

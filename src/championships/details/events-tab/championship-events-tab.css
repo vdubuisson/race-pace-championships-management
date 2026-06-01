@@ -17,9 +17,8 @@
   gap: 1rem;
   grid-template-columns: 1fr 1fr;
   margin-top: 2rem;
-}
 
-.icon-cell {
-  gap: 0.5rem;
-  padding-top: 0;
+  @media (min-width: 1280px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

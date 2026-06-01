@@ -1,0 +1,79 @@
+<tui-loader
+  [loading]="importing()"
+  size="xl"
+  [overlay]="true"
+  textContent="Importing championships..."
+  class="more-visible"
+>
+  <a
+    [routerLink]="['/']"
+    appearance="outline"
+    iconStart="@tui.chevron-left"
+    size="xs"
+    tuiButton
+    class="back-btn"
+  >
+    Back
+  </a>
+
+  <header tuiHeader="h3">
+    <h1 tuiTitle>Import championships</h1>
+  </header>
+
+  <main>
+    <section>
+      <header tuiHeader="h5">
+        <h2 tuiTitle>Import existing championships</h2>
+      </header>
+
+      <div tuiGroup class="import-buttons">
+        <button
+          tuiButton
+          tuiButtonVertical
+          appearance="primary"
+          type="button"
+          [loading]="importingOriginal()"
+          [disabled]="importing()"
+          (click)="importOriginal()"
+        >
+          <tui-icon icon="@tui.package-2" />
+          Import Race Pace original
+        </button>
+        <button
+          tuiButton
+          tuiButtonVertical
+          appearance="primary"
+          type="button"
+          [loading]="importingBlitzerNoMods()"
+          [disabled]="importing()"
+          (click)="importBlitzerNoMods()"
+        >
+          <tui-icon icon="@tui.bold" />
+          Import Blitzer without mods
+        </button>
+        <button
+          tuiButton
+          tuiButtonVertical
+          appearance="primary"
+          type="button"
+          [loading]="importingBlitzerModded()"
+          [disabled]="importing()"
+          (click)="importBlitzerModded()"
+        >
+          <tui-icon icon="@tui.bold" badge="@tui.astroid" />
+          Import Blitzer with mods
+        </button>
+      </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <section>
+      <app-import-custom-section
+        [importing]="importingCustom()"
+        [importError]="customImportError()"
+        (import)="importCustom($event)"
+      />
+    </section>
+  </main>
+</tui-loader>

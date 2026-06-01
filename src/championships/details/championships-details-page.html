@@ -10,15 +10,24 @@
 </a>
 <header tuiHeader="h3">
   <h1 tuiTitle>{{ championship().name }}</h1>
-  <!-- <aside tuiAccessories>
+  <aside tuiAccessories>
     <a
       tuiButton
       appearance="primary"
       [routerLink]="['/championships/form', championship().id]"
       iconStart="@tui.pencil"
-      >Edit</a
     >
-  </aside> -->
+      Edit
+    </a>
+    <button
+      tuiButton
+      appearance="primary-destructive"
+      iconStart="@tui.trash-2"
+      (click)="deleteChampionship()"
+    >
+      Delete
+    </button>
+  </aside>
 </header>
 <main>
   <tui-tabs-with-more>

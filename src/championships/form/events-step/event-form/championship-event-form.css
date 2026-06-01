@@ -1,0 +1,51 @@
+fieldset.grid2-1-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.form-field.switch {
+  align-self: center;
+
+  [tuiCell]:hover {
+    background: none;
+  }
+}
+
+.duration-hint {
+  margin-block-start: -1rem;
+  font: var(--tui-typography-body-xs);
+  color: var(--tui-text-secondary);
+}
+
+.track-filters {
+  border-block-end: 1px solid var(--tui-border-normal);
+  padding: 0.5rem;
+
+  .chip-filters {
+    display: flex;
+    gap: 0.5rem;
+    inset-block-start: 0;
+    overflow: scroll;
+    margin-block-end: 1rem;
+    scrollbar-width: none;
+  }
+}
+
+.layout-option {
+  box-sizing: border-box;
+  height: 84px;
+  width: 100%;
+
+  .flag {
+    width: 32px;
+    height: 32px;
+  }
+
+  &.tui-leave {
+    pointer-events: all;
+  }
+}
+
+.flag {
+  border-radius: 50%;
+}

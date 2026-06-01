@@ -1,0 +1,258 @@
+<form tuiForm [formGroup]="form()">
+  <fieldset class="grid2-1">
+    <div class="form-field">
+      <label tuiLabel>
+        Name
+        <tui-textfield>
+          <input tuiInput placeholder="My championship" [formControl]="form().controls.name" />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form().controls.name" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        Period
+        <fieldset class="with-separator">
+          <tui-textfield>
+            <input
+              tuiInputYear
+              placeholder="Start year"
+              [formControl]="form().controls.start_year"
+              [max]="startYearMax()"
+            />
+            <tui-calendar-year *tuiDropdown />
+          </tui-textfield>
+          <div class="separator">-</div>
+          <tui-textfield>
+            <input
+              tuiInputYear
+              placeholder="End year"
+              [formControl]="form().controls.end_year"
+              [min]="endYearMin()"
+            />
+            <tui-calendar-year *tuiDropdown />
+          </tui-textfield>
+        </fieldset>
+      </label>
+      <tui-error [formControl]="form().controls.start_year" />
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <div class="form-field">
+      <label tuiLabel>
+        Categories
+        <tui-textfield multi tuiChevron [stringify]="getCategoryName">
+          <input
+            tuiInputChip
+            [placeholder]="form().controls.categories.value.length ? '' : 'Vehicle categories'"
+            [formControl]="form().controls.categories"
+          />
+          <tui-input-chip *tuiItem />
+          <tui-data-list *tuiDropdown tuiMultiSelectGroup>
+            @for (cat of vehicleClasses() | tuiFilterByInput; track cat.id) {
+              <button tuiOption type="button" [value]="cat.id">
+                {{ cat.name }}
+              </button>
+            }
+          </tui-data-list>
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form().controls.categories" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        Tags
+        <tui-textfield multi>
+          <input tuiInputChip placeholder="Enter tag" [formControl]="form().controls.tags" />
+          <tui-input-chip *tuiItem />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form().controls.tags" />
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          New season (month/day)
+          <tui-icon [tuiTooltip]="initTooltip" />
+        </span>
+        <fieldset class="grid2-1">
+          <tui-textfield tuiChevron [tuiTextfieldCleaner]="false" [stringify]="getMonthName">
+            <input tuiSelect [formControl]="form().controls.init_month" />
+            <tui-data-list *tuiDropdown>
+              @for (month of months; track month.id) {
+                <button tuiOption type="button" [value]="month.id">
+                  {{ month.name }}
+                </button>
+              }
+            </tui-data-list>
+          </tui-textfield>
+          <tui-textfield>
+            <input tuiInputNumber placeholder="Day" [formControl]="form().controls.init_day" />
+          </tui-textfield>
+        </fieldset>
+      </label>
+      <tui-error [formControl]="form().controls.init_day" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Registration start (month/day)
+          <tui-icon [tuiTooltip]="registrationStartTooltip" />
+        </span>
+        <fieldset class="grid2-1">
+          <tui-textfield tuiChevron [tuiTextfieldCleaner]="false" [stringify]="getMonthName">
+            <input tuiSelect [formControl]="form().controls.registration_start_month" />
+            <tui-data-list *tuiDropdown>
+              @for (month of months; track month.id) {
+                <button tuiOption type="button" [value]="month.id">
+                  {{ month.name }}
+                </button>
+              }
+            </tui-data-list>
+          </tui-textfield>
+          <tui-textfield>
+            <input
+              tuiInputNumber
+              placeholder="Day"
+              [formControl]="form().controls.registration_start_day"
+            />
+          </tui-textfield>
+        </fieldset>
+      </label>
+      <tui-error [formControl]="form().controls.registration_start_day" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Registration end (month/day)
+          <tui-icon [tuiTooltip]="registrationEndTooltip" />
+        </span>
+        <fieldset class="grid2-1">
+          <tui-textfield tuiChevron [tuiTextfieldCleaner]="false" [stringify]="getMonthName">
+            <input tuiSelect [formControl]="form().controls.registration_end_month" />
+            <tui-data-list *tuiDropdown>
+              @for (month of months; track month.id) {
+                <button tuiOption type="button" [value]="month.id">
+                  {{ month.name }}
+                </button>
+              }
+            </tui-data-list>
+          </tui-textfield>
+          <tui-textfield>
+            <input
+              tuiInputNumber
+              placeholder="Day"
+              [formControl]="form().controls.registration_end_day"
+            />
+          </tui-textfield>
+        </fieldset>
+      </label>
+      <tui-error [formControl]="form().controls.registration_end_day" />
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Prestige
+          <tui-icon [tuiTooltip]="prestigeTooltip" />
+        </span>
+        <tui-textfield>
+          <input tuiInputNumber placeholder="Prestige" [formControl]="form().controls.prestige" />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form().controls.prestige" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Events count
+          <tui-icon [tuiTooltip]="eventsCountTooltip" />
+        </span>
+        <tui-textfield>
+          <input
+            tuiInputNumber
+            placeholder="Events count"
+            [formControl]="form().controls.events_count"
+          />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form().controls.events_count" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        Start type
+        <tui-textfield tuiChevron [tuiTextfieldCleaner]="false" [stringify]="getTitleCase">
+          <input tuiSelect [formControl]="form().controls.start_type" />
+          <tui-data-list-wrapper *tuiDropdown [items]="['standing', 'rolling']" />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form().controls.start_type" />
+    </div>
+
+    <fieldset class="vertical">
+      <div class="form-field">
+        <label tuiCell="s">
+          <span tuiTitle>Mandatory pit stop</span>
+          <input tuiSwitch [formControl]="form().controls.pit_stop" type="checkbox" />
+        </label>
+      </div>
+
+      <div class="form-field">
+        <label tuiCell="s">
+          <span tuiTitle>Included by default</span>
+          <input tuiSwitch [formControl]="form().controls.default_included" type="checkbox" />
+        </label>
+      </div>
+    </fieldset>
+  </fieldset>
+
+  <div tuiTitle>Scoring system</div>
+  <fieldset class="points">
+    @for (pointControl of pointsForms.controls; track pointControl; let index = $index) {
+      <div class="form-field">
+        <label tuiLabel>
+          {{ index + 1 | ordinal }} place
+          <div tuiGroup>
+            <tui-textfield>
+              <input tuiInputNumber placeholder="Points" [formControl]="pointControl" />
+            </tui-textfield>
+            <button
+              tuiIconButton
+              type="button"
+              appearance="textfield"
+              iconStart="@tui.minus"
+              class="point-btn minus"
+              (click)="removePoint(index)"
+              [disabled]="pointsForms.length <= 1"
+            >
+              Remove position
+            </button>
+          </div>
+        </label>
+        <tui-error [formControl]="pointControl" />
+      </div>
+    }
+    <button
+      tuiIconButton
+      type="button"
+      appearance="outline"
+      iconStart="@tui.plus"
+      class="point-btn"
+      (click)="addPoint()"
+    >
+      Add position
+    </button>
+  </fieldset>
+</form>

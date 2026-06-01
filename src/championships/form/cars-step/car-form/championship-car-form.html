@@ -1,0 +1,95 @@
+<tui-drawer *tuiPopup="isShown()" [overlay]="true">
+  <header tuiHeader="h5">
+    <h2 tuiTitle>{{ editedCar() ? 'Edit car' : 'Add car' }}</h2>
+  </header>
+
+  <form tuiForm [formGroup]="carForm">
+    <div class="form-field">
+      <label tuiLabel>
+        <span>Livery</span>
+        <tui-textfield tuiChevron [stringify]="getLiveryName">
+          <input tuiComboBox [formControl]="carForm.controls.livery" />
+          <tui-data-list *tuiDropdown>
+            @let liveryItems = availableLiveries() | tuiFilterByInput: filterLiveryByInput;
+
+            <cdk-virtual-scroll-viewport
+              tuiScrollable
+              class="scroll"
+              [itemSize]="liveryItemHeight"
+              [style.height.px]="
+                (liveryItems.length < liveryItemCount ? liveryItems.length : liveryItemCount) *
+                liveryItemHeight
+              "
+            >
+              <button
+                tuiOption
+                type="button"
+                *cdkVirtualFor="let livery of liveryItems; trackBy: (_, item) => item.id"
+                [value]="livery"
+                class="livery-option"
+              >
+                <div tuiTitle>
+                  {{ livery.livery_name }}
+                  <span tuiSubtitle>{{ livery.car_name }}</span>
+                </div>
+              </button>
+            </cdk-virtual-scroll-viewport>
+          </tui-data-list>
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="carForm.controls.livery" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        <span>Team</span>
+        <tui-textfield tuiChevron>
+          <input tuiComboBox [formControl]="carForm.controls.team_name" />
+          <tui-data-list *tuiDropdown>
+            @let teamItems = teamsWithCarsCount() | tuiFilterByInput: filterTeamByInput;
+
+            <cdk-virtual-scroll-viewport
+              tuiScrollable
+              class="scroll"
+              [itemSize]="teamItemHeight"
+              [style.height.px]="
+                (teamItems.length < teamItemCount ? teamItems.length : teamItemCount) *
+                teamItemHeight
+              "
+            >
+              <button
+                tuiOption
+                type="button"
+                *cdkVirtualFor="let team of teamItems; trackBy: (_, item) => item.id"
+                [value]="team.name"
+                class="team-option"
+              >
+                <div tuiTitle>
+                  {{ team.name }}
+                  <span tuiSubtitle>{{ team.cars }} cars</span>
+                </div>
+              </button>
+            </cdk-virtual-scroll-viewport>
+          </tui-data-list>
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="carForm.controls.team_name" />
+    </div>
+  </form>
+
+  <footer>
+    <button tuiButton size="m" type="button" appearance="secondary" (click)="cancelForm()">
+      Cancel
+    </button>
+    <button
+      tuiButton
+      size="m"
+      type="button"
+      appearance="primary"
+      (click)="submitForm()"
+      [disabled]="carForm.invalid"
+    >
+      Confirm
+    </button>
+  </footer>
+</tui-drawer>

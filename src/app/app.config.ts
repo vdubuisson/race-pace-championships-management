@@ -1,21 +1,13 @@
+import { DatePipe } from '@angular/common';
 import { provideHttpClient, withFetch } from '@angular/common/http';
-import {
-  ApplicationConfig,
-  inject,
-  provideAppInitializer,
-  provideBrowserGlobalErrorListeners,
-} from '@angular/core';
+import { ApplicationConfig, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { provideRouter, withComponentInputBinding, withRouterConfig } from '@angular/router';
 import { provideTaiga, TUI_VALIDATION_ERRORS } from '@taiga-ui/core';
-import { ChampionshipRepository } from '@/db/championship-repository';
-import { EventRepository } from '@/db/event-repository';
-import { TeamRepository } from '@/db/team-repository';
-import { routes } from './app.routes';
-import { TrackRepository } from '@/db/track-repository';
-import { CarRepository } from '@/db/car-repository';
+import routes from './app.routes';
 
 export const appConfig: ApplicationConfig = {
   providers: [
+    DatePipe,
     provideBrowserGlobalErrorListeners(),
     provideRouter(
       routes,
@@ -23,13 +15,6 @@ export const appConfig: ApplicationConfig = {
       withRouterConfig({ paramsInheritanceStrategy: 'always' }),
     ),
     provideHttpClient(withFetch()),
-    provideAppInitializer(() => {
-      inject(CarRepository).initialize();
-      inject(ChampionshipRepository).initialize();
-      inject(EventRepository).initialize();
-      inject(TeamRepository).initialize();
-      inject(TrackRepository).initialize();
-    }),
     provideTaiga(),
     {
       provide: TUI_VALIDATION_ERRORS,

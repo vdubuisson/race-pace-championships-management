@@ -11,17 +11,17 @@
 
 <header tuiHeader="h3">
   <h1 tuiTitle>Championships</h1>
-  <!-- <aside tuiAccessories>
+  <aside tuiAccessories>
     <a tuiButton appearance="primary" [routerLink]="['/championships/form']" iconStart="@tui.plus"
       >New Championship</a
     >
-  </aside> -->
+  </aside>
 </header>
 
 <table tuiTable class="championship-list">
   <thead>
     <tr>
-      <th tuiTh [sorter]="'name' | tuiSorter" [style.width.%]="30">Name</th>
+      <th tuiTh [sorter]="'name' | tuiSorter" [style.width.%]="26">Name</th>
       <th tuiTh [style.width.%]="15">Categories</th>
       <th tuiTh [sorter]="'start_year' | tuiSorter" [style.width.%]="6">Start year</th>
       <th tuiTh [sorter]="'end_year' | tuiSorter" [style.width.%]="6">End year</th>
@@ -29,7 +29,7 @@
       <th tuiTh [sorter]="'events_count' | tuiSorter" [style.width.%]="7">Events</th>
       <th tuiTh [style.width.%]="20">Tags</th>
       <th tuiTh [sorter]="'default_included' | tuiSorter" [style.width.%]="4">Default</th>
-      <th tuiTh [style.width.%]="5">Actions</th>
+      <th tuiTh [style.width.%]="9">Actions</th>
     </tr>
   </thead>
   <tbody tuiTbody>
@@ -41,9 +41,9 @@
         <td tuiTd>{{ championship.name }}</td>
         <td tuiTd>
           <div tuiItemGroup>
-            @for (cat of championship.categories; track cat) {
-              <span appearance="custom" tuiChip [style.background-color]="cat | tuiAutoColor">
-                {{ cat }}
+            @for (cat of championship.classes; track cat.id) {
+              <span appearance="custom" tuiChip [style.background-color]="cat.id | tuiAutoColor">
+                {{ cat.name }}
               </span>
             }
           </div>
@@ -78,7 +78,7 @@
           >
             View
           </a>
-          <!-- <a
+          <a
             [routerLink]="['form', championship.id]"
             appearance="action"
             iconStart="@tui.pencil"
@@ -86,7 +86,17 @@
             tuiIconButton
           >
             Edit
-          </a> -->
+          </a>
+          <button
+            (click)="deleteChampionship(championship.id!, championship.name)"
+            appearance="action-destructive"
+            iconStart="@tui.trash"
+            size="xs"
+            tuiIconButton
+            type="button"
+          >
+            Delete
+          </button>
         </td>
       </tr>
     }

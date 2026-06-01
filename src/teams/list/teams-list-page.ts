@@ -6,6 +6,7 @@ import { TuiTable, TuiTablePagination, TuiTablePaginationEvent } from '@taiga-ui
 import { TuiButton, TuiTitle } from '@taiga-ui/core';
 import { TuiHeader } from '@taiga-ui/layout';
 import { TeamRepository } from '@/db/team-repository';
+import { from } from 'rxjs';
 
 @Component({
   selector: 'app-teams-list-page',
@@ -20,7 +21,7 @@ export class TeamsListPage {
   protected readonly pageSize = signal(20);
   protected readonly pageIndex = signal(0);
 
-  protected teams = toSignal(this.teamRepository.getAllTeams(), { initialValue: [] });
+  protected teams = toSignal(from(this.teamRepository.getAllTeams()), { initialValue: [] });
 
   protected totalPages = computed(() => Math.ceil(this.teams().length / this.pageSize()));
 

@@ -15,13 +15,28 @@
   <a [routerLink]="['/championships']" tuiButton appearance="primary" iconStart="@tui.trophy">
     View championships
   </a>
-  <button
-    tuiButton
-    appearance="primary"
-    iconStart="@tui.download"
-    [loading]="isExporting()"
-    (click)="exportData()"
-  >
-    Export as CSV
-  </button>
+  <div tuiGroup class="import-buttons">
+    <button
+      tuiButton
+      appearance="primary"
+      type="button"
+      [loading]="isExportingWithoutMods()"
+      [disabled]="isExporting()"
+      (click)="exportDataWithoutMods()"
+    >
+      <tui-icon icon="@tui.download" />
+      Export without track mods
+    </button>
+    <button
+      tuiButton
+      appearance="primary"
+      type="button"
+      [loading]="isExportingWithMods()"
+      [disabled]="isExporting()"
+      (click)="exportDataWithMods()"
+    >
+      <tui-icon icon="@tui.download" badge="@tui.astroid" />
+      Export with track mods
+    </button>
+  </div>
 </div>

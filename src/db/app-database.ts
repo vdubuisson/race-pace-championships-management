@@ -21,37 +21,17 @@ export class AppDatabase extends Dexie {
   tracks!: Table<Track, string>;
 
   constructor() {
-    super('RacePaceChampionshipsManagementDB');
+    super('RacePaceChampionshipsManagement');
     this.version(1).stores({
-      cars: '++id, team_name, *championship_names',
-      championships: '++id, name, *categories',
-      classes: 'name',
+      cars: '++id, team_name, championship_name',
+      championships: '++id, &name, *categories',
+      classes: 'id',
       events: '++id, championship_name',
       liveries: '++id, class',
-      models: '++id, class, aiOnly, isMod',
-      teams: '++id, name',
-      tracks: 'id, is_mod',
+      models: '++id, class',
+      teams: '++id, &name',
+      tracks: 'id, location',
     });
-    this.version(2)
-      .stores({
-        cars: '++id, team_name, championship_name',
-        championships: '++id, &name, *categories',
-        classes: 'id',
-        events: '++id, championship_name',
-        liveries: '++id, class',
-        models: '++id, class',
-        teams: '++id, &name',
-        tracks: 'id, location',
-      })
-      .upgrade((transaction) => {
-        transaction.table('cars').clear();
-        transaction.table('championships').clear();
-        transaction.table('classes').clear();
-        transaction.table('events').clear();
-        transaction.table('liveries').clear();
-        transaction.table('models').clear();
-        transaction.table('teams').clear();
-        transaction.table('tracks').clear();
-      });
+    Dexie.delete('RacePaceChampionshipsManagementDB');
   }
 }

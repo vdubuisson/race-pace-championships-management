@@ -1,0 +1,44 @@
+name,categories,prestige,init_month,init_day,registration_start_month,registration_start_day,registration_end_month,registration_end_day,points,pit_stop,start_type,field_type,events_count,tags,start_year,end_year,default_included
+Formula 1,F-Ultimate_Gen2,100,1,3,1,12,1,19,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",TRUE,standing,identical,16,"Open Wheel, World, F1",,,TRUE
+World Endurance Championship,"LMDh, GT3_Gen2",98,1,3,1,12,1,19,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",TRUE,rolling,,8,"Multiclass, GT, Prototype, World, WEC",,,TRUE
+IMSA WeatherTech SportsCar Championship,"LMDh, LMP2, GT3_Gen2",96,1,3,1,12,1,19,"350, 320, 300, 280, 260, 250, 240, 230, 220, 210, 200, 190, 180, 170, 160, 150, 140, 130, 120, 110, 100, 90, 80, 70, 60, 50, 40, 30, 20, 10",TRUE,rolling,,11,"Multiclass, GT, Prototype, North America, IMSA",,,TRUE
+NTT IndyCar,F-USA_2023,94,1,3,1,12,1,19,"50, 40, 35, 32, 30, 28, 26, 24, 22, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",TRUE,rolling,identical,16,"Open Wheel, North America, Indy",,,TRUE
+Intercontinental GT Challenge,GT3_Gen2,93,1,3,1,12,1,19,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",TRUE,rolling,,5,"GT, World, SRO",,,TRUE
+Formula 2,F-Reiza,91,1,3,1,12,1,19,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",TRUE,standing,identical,12,"Open Wheel, World, F1",,,TRUE
+GT World Challenge Europe,GT3_Gen2,90,1,3,1,12,1,20,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",TRUE,rolling,,10,"GT, Europe, SRO",,,TRUE
+Porsche Carrera Supercup,Carrera Cup,87,1,3,1,12,1,20,"25, 20, 17, 14, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",FALSE,standing,,8,"GT, One Make, Europe",,,TRUE
+GT World Challenge America,GT3_Gen2,85,1,3,1,12,1,20,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",TRUE,rolling,,7,"GT, North America, SRO",,,
+European Le Mans Series,"GT3, P1Gen2, LMP2",84,1,3,1,12,1,20,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",TRUE,rolling,,6,"Multiclass, GT, Prototype, Europe, WEC",,,TRUE
+Nürburgring Langstrecken-Serie,"GT3_Gen2, GT4",82,1,3,1,12,1,20,"15,11,8,6,4,3,2,1",TRUE,rolling,,8,"GT, Multiclass, Europe",,,
+Indy NXT,F-Reiza,81,1,3,1,12,1,20,"50, 40, 35, 32, 30, 28, 26, 24, 22, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",TRUE,rolling,identical,12,"Open Wheel, North America, Indy",,,TRUE
+Formula 3,F-3,80,1,3,1,12,1,20,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",FALSE,standing,,10,"Open Wheel, World, F1",,,TRUE
+British GT Championship,"GT3_Gen2, GT4",77,1,3,1,12,1,20,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",TRUE,rolling,,8,"GT, United Kingdom",,,
+Porsche Carrera Cup North America,Carrera Cup,74,1,3,1,12,1,21,"25, 20, 17, 14, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",FALSE,standing,,8,"GT, One Make, North America",,,
+Porsche Carrera Cup UK,Carrera Cup,73,1,3,1,12,1,21,"25, 20, 17, 14, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",FALSE,standing,,8,"GT, One Make, United Kingdom",,,
+GT World Challenge Sprint,GT3_Gen2,72,1,3,1,12,1,21,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",TRUE,standing,,6,"GT, SRO",,,
+Lamborghini Super Trofeo Europe,Super Trofeo,71,1,3,1,12,1,21,"15, 12, 10, 8, 6, 5, 4, 3, 2, 1",TRUE,rolling,,6,"GT, One Make, Europe",,,TRUE
+Lamborghini Super Trofeo North America,Super Trofeo,69,1,3,1,12,1,21,"15, 12, 10, 8, 6, 5, 4, 3, 2, 1",TRUE,rolling,,6,"GT, One Make, North America",,,
+Ferrari Challenge Europe,GT2_05,67,1,3,1,12,1,21,"15, 12, 10, 8, 6, 4, 2, 1",FALSE,rolling,identical,8,"GT, One Make, Europe",,,
+Ferrari Challenge North America,GT2_05,65,1,3,1,12,1,21,"15, 12, 10, 8, 6, 4, 2, 1",FALSE,rolling,identical,8,"GT, One Make, North America",,,
+USF Pro 2000,F-3,63,1,3,1,12,1,21,"30, 25, 22, 19, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",FALSE,standing,,10,"Open Wheel, North America",,,
+FRECA,F-Inter,62,1,3,1,12,1,21,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",FALSE,standing,,10,"Open Wheel, Europe",,,
+Radical Cup North America,P4,61,1,3,1,12,1,21,"40,35,30,27,24,22,20,16,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,rolling,,6,Prototype,,,TRUE
+Radical Cup Europe,P4,60,1,3,1,12,1,21,"40,35,30,27,24,22,20,16,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,rolling,,6,Prototype,,,
+Formula 4 Southern Europe,F-Trainer_A,59,1,3,1,12,1,22,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",FALSE,standing,,6,"Open Wheel, Europe",,,
+GT Revival Series,GT1_05,58,1,3,1,12,1,22,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",TRUE,standing,,5,"GT, SRO",,,
+Formula 4 UK,F-Trainer_A,57,1,3,1,12,1,22,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",FALSE,standing,,10,"Open Wheel, United Kingdom",,,
+Formula 4 Northern Europe,F-Trainer_A,55,1,3,1,12,1,22,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",FALSE,standing,,6,"Open Wheel, Europe",,,
+USF2000,F-Inter,52,1,3,1,12,1,22,"30, 25, 22, 19, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",FALSE,rolling,,9,"Open Wheel, North America",,,
+IMSA Michelin Pilot Challenge,"GT4, MiniChallenge",50,1,3,1,12,1,22,"350, 320, 300, 280, 260, 250, 240, 230, 220, 210, 200, 190, 180, 170, 160, 150, 140, 130, 120, 110, 100, 90, 80, 70, 60, 50, 40, 30, 20, 10",TRUE,rolling,,11,"GT, Multiclass, North America, IMSA",,,
+Michelin Le Mans Cup,"GT3, P1Gen2",47,1,3,1,12,1,22,"25, 18, 15, 12, 10, 8, 6, 4, 2, 1",TRUE,rolling,,6,"GT, Multiclass, Europe, WEC",,,
+USF Junior,F-Trainer_A,44,1,3,1,12,1,22,"30, 25, 22, 19, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",FALSE,standing,,8,"Open Wheel, North America",,,
+IMSA VP Racing SportsCar Challenge,"P1Gen2, GT3, GT4",42,1,3,1,12,1,23,"350, 320, 300, 280, 260, 250, 240, 230, 220, 210, 200, 190, 180, 170, 160, 150, 140, 130, 120, 110, 100, 90, 80, 70, 60, 50, 40, 30, 20, 10",FALSE,rolling,,11,"GT, Multiclass, North America, Prototype, IMSA",,,
+National Formula Ford Championship,F-Trainer,41,1,3,1,12,1,23,"30, 27, 24,22,20,18,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,standing,,8,"Open Wheel, United Kingdom",,,
+Mini Challenge,MiniChallenge,38,1,3,1,12,1,23,"25, 20, 17, 14, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",FALSE,standing,,6,"GT, One Make, United Kingdom",,,
+F1600,F-Trainer,35,1,3,1,12,1,23,"50,42,37,34,31,29,27,25,23,21,19,17,15,13,11,9,8,7,6,5,4,3,2,1",FALSE,standing,,7,"Open Wheel, North America",,,
+Ginetta Junior Championship UK,G40Cup,34,1,3,1,12,1,23,"25, 20, 17, 14, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",FALSE,standing,,6,"GT, One Make, United Kingdom",,,
+Formula Vee UK,F-Vee_Gen2,34,1,3,1,12,1,23,"25,22,20,18,16,14,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,standing,,6,"Open Wheel, United Kingdom",,,
+Ginetta Junior Championship Europe,G40Cup,32,1,3,1,12,1,23,"25, 20, 17, 14, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",FALSE,standing,,6,"GT, One Make, Europe",,,
+Formula Vee Germany,F-Vee_Gen2,32,1,3,1,12,1,23,"25,22,20,18,16,14,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,standing,,6,"Open Wheel, Europe",,,
+Ginetta Junior Championship North America,G40Cup,30,1,3,1,12,1,23,"25, 20, 17, 14, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",FALSE,standing,,6,"GT, North America, One Make",,,
+Formula Vee North America,F-Vee_Gen2,30,1,3,1,12,1,23,"25,21,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,standing,,6,"Open Wheel, North America",,,

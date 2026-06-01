@@ -1,7 +1,7 @@
 import { CsvExporter } from '@/export/csv-exporter';
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { TuiTitle, TuiButton, TuiGroup, TuiIcon, TuiNotificationService } from '@taiga-ui/core';
+import { TuiButton, TuiIcon, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
 import { TuiButtonLoading } from '@taiga-ui/kit';
 import { TuiHeader } from '@taiga-ui/layout';
 
@@ -10,7 +10,7 @@ import { TuiHeader } from '@taiga-ui/layout';
   templateUrl: './home-page.html',
   styleUrl: './home-page.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [RouterLink, TuiGroup, TuiHeader, TuiIcon, TuiTitle, TuiButton, TuiButtonLoading],
+  imports: [RouterLink, TuiHeader, TuiIcon, TuiTitle, TuiButton, TuiButtonLoading],
 })
 export class HomePage {
   private readonly csvExporter = inject(CsvExporter);

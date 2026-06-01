@@ -1,4 +1,4 @@
-<header tuiHeader="h1">
+<header tuiHeader="h1" class="page-header">
   <h1 tuiTitle>
     Race Pace Championships Management
     <span tuiSubtitle>The app to create/edit custom championships for the Race Pace app</span>
@@ -6,37 +6,87 @@
 </header>
 
 <div class="actions">
-  <a [routerLink]="['/import']" tuiButton appearance="primary" iconStart="@tui.import">
-    Import championships
-  </a>
-  <a [routerLink]="['/teams']" tuiButton appearance="primary" iconStart="@tui.users">
-    View teams
-  </a>
-  <a [routerLink]="['/championships']" tuiButton appearance="primary" iconStart="@tui.trophy">
-    View championships
-  </a>
-  <div tuiGroup class="import-buttons">
-    <button
-      tuiButton
-      appearance="primary"
-      type="button"
-      [loading]="isExportingWithoutMods()"
-      [disabled]="isExporting()"
-      (click)="exportDataWithoutMods()"
-    >
-      <tui-icon icon="@tui.download" />
-      Export without track mods
-    </button>
-    <button
-      tuiButton
-      appearance="primary"
-      type="button"
-      [loading]="isExportingWithMods()"
-      [disabled]="isExporting()"
-      (click)="exportDataWithMods()"
-    >
-      <tui-icon icon="@tui.download" badge="@tui.astroid" />
-      Export with track mods
-    </button>
-  </div>
+  <section class="action">
+    <header tuiHeader="h4">
+      <h2 tuiTitle class="title">Import</h2>
+    </header>
+    <div class="buttons">
+      <a
+        [routerLink]="['/import']"
+        tuiButton
+        tuiButtonVertical
+        appearance="info"
+        iconStart="@tui.import"
+        class="button"
+      >
+        Import championships
+      </a>
+    </div>
+  </section>
+
+  <div class="separator"></div>
+
+  <section class="action">
+    <header tuiHeader="h4">
+      <h2 tuiTitle class="title">Manage</h2>
+    </header>
+    <div class="buttons">
+      <a
+        [routerLink]="['/teams']"
+        tuiButton
+        tuiButtonVertical
+        appearance="info"
+        iconStart="@tui.users"
+        class="button"
+      >
+        Teams
+      </a>
+      <a
+        [routerLink]="['/championships']"
+        tuiButton
+        tuiButtonVertical
+        appearance="info"
+        iconStart="@tui.trophy"
+        class="button"
+      >
+        Championships
+      </a>
+    </div>
+  </section>
+
+  <div class="separator"></div>
+
+  <section class="action">
+    <header tuiHeader="h4">
+      <h2 tuiTitle class="title">Export</h2>
+    </header>
+    <div class="buttons">
+      <button
+        tuiButton
+        tuiButtonVertical
+        appearance="info"
+        iconStart="@tui.download"
+        type="button"
+        [loading]="isExportingWithoutMods()"
+        [disabled]="isExporting()"
+        (click)="exportDataWithoutMods()"
+        class="button"
+      >
+        Export without track mods
+      </button>
+      <button
+        tuiButton
+        tuiButtonVertical
+        appearance="info"
+        type="button"
+        [loading]="isExportingWithMods()"
+        [disabled]="isExporting()"
+        (click)="exportDataWithMods()"
+        class="button"
+      >
+        <tui-icon icon="@tui.download" badge="@tui.astroid" />
+        Export with track mods
+      </button>
+    </div>
+  </section>
 </div>

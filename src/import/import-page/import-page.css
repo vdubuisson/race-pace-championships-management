@@ -17,3 +17,15 @@ main {
 .import-buttons {
   max-width: 800px;
 }
+
+@media screen and (min-width: 1024px) {
+  main {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .separator {
+    width: 1px;
+    height: auto;
+  }
+}

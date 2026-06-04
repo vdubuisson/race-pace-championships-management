@@ -103,7 +103,7 @@ export class CsvExporter {
 
     const records = Array.from(groupedCars.values()).map((groupedCar) => ({
       ...groupedCar,
-      championship_names: groupedCar.championship_names.join(', '),
+      championship_names: groupedCar.championship_names.join(','),
     }));
 
     return stringify(records, {
@@ -125,11 +125,11 @@ export class CsvExporter {
     const championships = await firstValueFrom(this.championshipRepository.getAllChampionships());
     const records = championships.map((championship) => ({
       ...championship,
-      categories: championship.categories.join(', '),
-      points: championship.points.join(', '),
+      categories: championship.categories.join(','),
+      points: championship.points.join(','),
       pit_stop: this.toCsvBoolean(championship.pit_stop),
       field_type: championship.field_type ?? '',
-      tags: championship.tags.join(', '),
+      tags: championship.tags.join(','),
       start_year: championship.start_year ?? '',
       end_year: championship.end_year ?? '',
       default_included: this.toCsvBoolean(championship.default_included),

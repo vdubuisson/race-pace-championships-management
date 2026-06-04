@@ -42,6 +42,7 @@ export default class ChampionshipsFormPage {
   private readonly notifications = inject(TuiNotificationService);
 
   readonly championship = input<Championship | undefined>(undefined);
+  readonly canDeactivate = signal(false);
 
   protected readonly activeStepIndex = signal(0);
   protected readonly nextStep = computed(
@@ -138,6 +139,8 @@ export default class ChampionshipsFormPage {
 
     try {
       const championshipId = await this.formService.save();
+
+      this.canDeactivate.set(true);
 
       this.notifications
         .open(this.isEditMode() ? 'Championship updated' : 'Championship created', {

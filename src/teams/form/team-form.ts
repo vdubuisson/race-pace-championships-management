@@ -55,6 +55,8 @@ export default class TeamForm {
 
   readonly id = input(NaN, { transform: numberAttribute });
 
+  readonly canDeactivate = signal(false);
+
   private readonly originalName = signal<string | null>(null);
 
   readonly pageTitle = computed(() =>
@@ -152,6 +154,7 @@ export default class TeamForm {
             })
             .subscribe();
         }
+        this.canDeactivate.set(true);
         this.router.navigate(['/teams']);
       } catch (error) {
         console.error('A team already exists with the same name');

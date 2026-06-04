@@ -75,9 +75,12 @@
                   <span tuiSubtitle>{{ track.real_name || 'N/A' }}</span>
                   <span tuiSubtitle>
                     <span tuiChip size="xs" appearance="neutral">{{ track.type }}</span>
-                    <span tuiChip size="xs" appearance="neutral">
-                      {{ track.start_year }}-{{ track.end_year || 'present' }}
-                    </span>
+                    <span tuiChip size="xs" appearance="neutral">{{ track.garages }} garages</span>
+                    @if (track.start_year || track.end_year) {
+                      <span tuiChip size="xs" appearance="neutral">
+                        {{ track.start_year }}-{{ track.end_year || 'present' }}
+                      </span>
+                    }
                   </span>
                 </div>
               </button>

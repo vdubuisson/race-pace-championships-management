@@ -1,261 +1,261 @@
-name,folder_name,class,year
-ARC Camaro,arc_camaro,ARC_Cam,2019
-Alpine A110 GT4 Evo,alpine_a110_gt4_evo,GT4,2020
-Alpine A424,alpine_a424,LMDh,2024
-Aston Martin DBR9,aston_martin_dbr9_gt1,GT1_05,2005
-Aston Martin Valkyrie,aston_martin_valkyrie,Hypercars,2024
-Aston Martin Valkyrie Hypercar,aston_martin_valkyrie_lmh,LMDh,2025
-Aston Martin Vantage GT3 Evo,aston_martin_vantage_gt3_evo,GT3_Gen2,2024
-Aston Martin Vantage GT4 Evo,aston_martin_vantage_gt4_evo,GT4,2024
-Aston Martin Vantage GTE,aston_martin_vantage_gte,GTE,2020
-Audi R8 LMP1,audi_r8_lmp,LMP1_05,2005
-Audi R8 LMS GT3,audi_r8_lms_gt3,GT3,2017
-Audi R8 LMS GT3 evo II,audi_r8_lms_gt3_evo2,GT3_Gen2,2024
-Audi R8 LMS GT4,audi_r8_lms_gt4,GT4,2020
-Audi R8 V10 GT,audi_r8_v10_gt,Supercars,2024
-Audi V8 quattro DTM,audi_v8_dtm,Group A,1991
-BMW 2002 Turbo,bmw_2002_turbo,TC60S,1973
-BMW M1 Procar,bmw_m1_procar,Procar,1981
-BMW M3 Sport Evo Group A,bmw_m3_e30_a,Group A,1991
-BMW M3 E46 GTR,bmw_m3_gtr,GTR_04,2001
-BMW M4 GT3,bmw_m4_gt3,GT3_Gen2,2023
-BMW M4 GT4,bmw_m4_gt4,GT4,2019
-BMW M6 GT3,bmw_m6_gt3,GT3,2017
-BMW M8 GTE,bmw_m8_gte,GTE,2019
-BMW M Hybrid V8,bmw_m_hybrid_v8,LMDh,2023
-Brabham Alfa Romeo BT46B,brabham_bt46,F-Retro_Gen2,1979
-Brabham Cosworth BT49,brabham_bt49,F-Retro_Gen2,1979
-Brabham BMW BT52,brabham_bt52,F-Retro_Gen3,1983
-Brabham BT62,brabham_bt62,Hypercars,2018
-Lola B2K00 Ford-Cosworth,cart_lola_b2k00_ford,F-USA_Gen3,2000
-Lola B2K00 Mercedes-Benz,cart_lola_b2k00_mercedes,F-USA_Gen3,2000
-Lola B2K00 Toyota,cart_lola_b2k00_toyota,F-USA_Gen3,2000
-Lola T95/00 Ford-Cosworth,cart_lola_t95_ford,F-USA_Gen1,1995
-Lola T95/00 Mercedes-Benz,cart_lola_t95_mercedes,F-USA_Gen1,1995
-Lola T98/00 Ford-Cosworth,cart_lola_t98,F-USA_Gen2,1998
-Reynard 2Ki Ford-Cosworth,cart_reynard_2ki_ford,F-USA_Gen3,2000
-Reynard 2Ki Honda,cart_reynard_2ki_honda,F-USA_Gen3,2000
-Reynard 2Ki Mercedes-Benz,cart_reynard_2ki_mercedes,F-USA_Gen3,2000
-Reynard 2Ki Toyota,cart_reynard_2ki_toyota,F-USA_Gen3,2000
-Reynard 95i Ford-Cosworth,cart_reynard_95i_ford,F-USA_Gen1,1995
-Reynard 95i Honda,cart_reynard_95i_honda,F-USA_Gen1,1995
-Reynard 95i Mercedes-Benz,cart_reynard_95i_mercedes,F-USA_Gen1,1995
-Reynard 98i Ford-Cosworth,cart_reynard_98i_ford,F-USA_Gen2,1998
-Reynard 98i Honda,cart_reynard_98i_honda,F-USA_Gen2,1998
-Reynard 98i Mercedes-Benz,cart_reynard_98i_mercedes,F-USA_Gen2,1998
-Reynard 98i Toyota,cart_reynard_98i_toyota,F-USA_Gen2,1998
-Swift 009c Ford-Cosworth,cart_swift_009c,F-USA_Gen2,1998
-Cadillac DPi-VR,cadillac_dpi-vr,DPI,2020
-Cadillac V-Series.R,cadillac_v-series_r,LMDh,2023
-Chevrolet Camaro GT4.R,camaro_gt4r,GT4,2019
-Chevrolet Camaro SS,camaro_ss,Street,2019
-Caterham 620R,caterham_620r,Cat620R,2019
-Caterham Academy,caterham_academy,Cat_Academy,2019
-Caterham Superlight,caterham_superlight,Cat_Superlight,2019
-Caterham Supersport,caterham_supersport,Cat_Supersport,2019
-Chevrolet Chevette,chevette,CopaClassicB,1981
-Chevrolet Corvette C3,corvette_73,TC60S,1969
-Chevrolet Corvette C3.R,chevrolet_corvette_c3_rc,TC70S,1968
-Chevrolet Corvette C3.R Convertible,chevrolet_corvette_c3_rcc,TC70S,1968
-Chevrolet Corvette C5-R,corvette_c5r,GT1_05,2005
-Chevrolet Corvette C8.R,corvette_c8r,GTE,2020
-Chevrolet Corvette C8 Z06 (+Z07 Upgrade),corvette_c8_sc,Supercars,2024
-Chevrolet Corvette Z06 GT3.R,corvette_z06_gt3r,GT3_Gen2,2024
-Citroen DS3 RX,citroen_ds3_rx,RX,2017
-Chevrolet Corvette GTP,corvette_gtp,Group C,1988
-Courage C60 Hybrid,courage_c60,LMP1_05,2005
-Dallara SP1,dallara_sp1,LMP1_05,2005
-Dodge Viper ACR,dodge_viper_acr,Supercars,2015
-Dodge Viper GTS-R,dodge_viper_gts_r,GT1_05,2005
-Dallara F301,f301,F-3,2012
-Dallara F309,f309,F-3,2012
-Iveco Stralis,ftruck_iveco,CopaTruck,2019
-MAN TGX,ftruck_man,CopaTruck,2019
-Mercedes-Benz Actros,ftruck_merc,CopaTruck,2019
-Volkswagen Constellation,ftruck_vw,CopaTruck,2019
-Vulkan Truck,ftruck_vulkan,CopaTruck,2019
-Formula Classic Gen1 Model1,formula_classic_g1m1,F-Classic_Gen1,1986
-Formula Classic Gen1 Model2,formula_classic_g1m2,F-Classic_Gen1,1986
-Formula Classic Gen2 Model1,formula_classic_g2m1,F-Classic_Gen2,1986
-Formula Classic Gen2 Model2,formula_classic_g2m2,F-Classic_Gen2,1986
-Formula Classic Gen2 Model3,formula_classic_g2m3,F-Classic_Gen2,1986
-Formula Classic Gen3 Model1,formula_classic_g3m1,F-Classic_Gen3,1986
-Formula Classic Gen3 Model2,formula_classic_g3m2,F-Classic_Gen3,1986
-Formula Classic Gen3 Model3,formula_classic_g3m3,F-Classic_Gen3,1986
-Formula Classic Gen3 Model4,formula_classic_g3m4,F-Classic_Gen3,1986
-Formula Classic Gen4 Model1,formula_classic_g4m1,F-Classic_Gen4,1991
-Formula Classic Gen4 Model2,formula_classic_g4m2,F-Classic_Gen4,1992
-Formula Classic Gen4 Model3,formula_classic_g4m3,F-Classic_Gen4,1992
-Formula Dirt,formula_dirt,F-Dirt,2023
-Formula Edge Model1,formula_edge_g1m1,FE-G1,1995
-Formula Edge Model2,formula_edge_g1m2,FE-G1,1995
-Formula Edge Model3,formula_edge_g1m3,FE-G1,1995
-Formula HiTech Gen1 Model1,formula_hitech_g1m1,F-Hitech_Gen1,1992
-Formula HiTech Gen1 Model2,formula_hitech_g1m2,F-Hitech_Gen1,1992
-Formula HiTech Gen1 Model3,formula_hitech_g1m3,F-Hitech_Gen1,1992
-Formula HiTech Gen1 Model4,formula_hitech_g1m4,F-Hitech_Gen1,1992
-Formula HiTech Gen2 Model1,formula_hitech_g2m1,F-Hitech_Gen2,1993
-Formula HiTech Gen2 Model2,formula_hitech_g2m2,F-Hitech_Gen2,1993
-Formula HiTech Gen2 Model3,formula_hitech_g2m3,F-Hitech_Gen2,1993
-Formula Inter MG-15,formula_inter,F-Inter,2015
-Formula Junior,formula_junior,F-Junior,1965
-Formula V8 Gen3,formula_reiza,F-Reiza,2010
-Brabham BT44,brabham_bt44,F-Retro_Gen1,1974
-Formula Retro Gen2,formula_retro_g2,F-Retro_Gen2,1979
-Formula Retro Gen3 DFY,formula_retro_g3,F-Retro_Gen3,1983
-Formula Retro Gen3 Turbo,formula_retro_g3_te,F-Retro_Gen3,1983
-Formula Retro V12,formula_retro_v12,F-Retro_Gen1,1972
-Formula Retro V8,formula_retro_v8,F-Retro_Gen1,1972
-Formula Trainer,formula_trainer,F-Trainer,2012
-Formula Trainer Advanced,formula_trainer_d,F-Trainer_A,2012
-Formula USA 2023,formula_usa_2023,F-USA_2023,2023
-Formula Ultimate Hybrid Gen1,formula_ultimate_2016,F-Ultimate_Gen1,2019
-Formula Ultimate Hybrid Gen2,formula_ultimate_2019,F-Ultimate,2019
-Formula Ultimate Hybrid Gen3,formula_ultimate_2024,F-Ultimate_Gen2,2024
-Formula V10 Gen2,formula_v10,F-V10_Gen2,2002
-Formula V10 Gen1,formula_v10_g1,F-V10_Gen1,1997
-Formula Vee Gen1,formula_vee,F-Vee,2019
-Formula Vee Gen1 + Fin,formula_vee_fin,F-Vee,2019
-Formula Vee Gen2,formula_vee_gen2,F-Vee_Gen2,2025
-Formula Vintage Gen1 Model1,formula_vintage_g1m1,F-Vintage_Gen1,1967
-Formula Vintage Gen1 Model2,formula_vintage_g1m2,F-Vintage_Gen1,1964
-Formula Vintage Gen2 Model1,formula_vintage_g2m1,F-Vintage_Gen2,1964
-Formula Vintage Gen2 Model2,formula_vintage_g2m2,F-Vintage_Gen2,1964
-Fusca Classic FL,fusca_classica,CopaClassicFL,1981
-Copa Fusca,fusca_copa,CopaFusca,2019
-Fusca 1 Hot Cars,fusca_hotcars_m1,Hot Cars,1981
-Fusca 2 Hot Cars,fusca_hotcars_m2,Hot Cars,1981
-Ginetta G40,ginetta_g40,GT5,2017
-Ginetta G40 Cup,ginetta_g40_cup,G40Cup,2017
-Ginetta G55 GT3,ginetta_g55_gt3,GTOpen,2017
-Ginetta G55 GT4 Supercup,ginetta_g55_gt4,G55Supercup,2017
-Ginetta G55 GT4,ginetta_g55_gt4_2,GT4,2017
-Ginetta G58,ginetta_g58,P1,2016
-Ginetta G58 Gen2,ginetta_g58_gen2,P1Gen2,2016
-Gol Classic FL,gol_classica,CopaClassicFL,2019
-Gol Classic B,gol_classicb,CopaClassicB,2019
-Gol Hot Cars,gol_hotcars,Hot Cars,2019
-Kart 2-Stroke 125cc Direct,kart_01,Kart125cc,2016
-Kart 4-Stroke Race,kart_gx390,KartGX390,2016
-Kart 4-Stroke Rental,kart_gx390_rental,KartRental,2016
-Kart 2-Stroke 125cc Shifter,kart_shifter,KartShifter,2016
-Lamborghini Diablo SV-R,lamborghini_diablo_svr,ST96,1996
-Lamborghini Huracan GT3 EVO2,lamborghini_huracan_gt3_evo2,GT3_Gen2,2016
-Lamborghini Huracan Super Trofeo EVO2,lamborghini_huracan_supertrofeo_evo2,Super Trofeo,2024
-Lamborghini Miura SV,lamborghini_miura_sv,TC60S,1971
-Lamborghini Murcielago R-GT,lamborghini_murcielago_r_gt,GT1_05,2005
-Lamborghini Revuelto,lamborghini_revuelto,Hypercars,2024
-Lamborghini SC63,lamborghini_sc63,LMDh,2024
-Lamborghini Veneno Roadster,lamborghini_veneno,Hypercars,2014
-Ligier JS2 R,ligier_js2r,LES_2025,2023
-Ligier JS P217,ligier_js_p217,LMP2,2024
-Ligier JS P217,ligier_js_p217,LMP2_Gen1,2024
-Ligier JS P320,ligier_js_p320,P1Gen2,2023
-Ligier JS P4,ligier_js_p4,LES_2025,2022
-Lola B05/40 Turbo,lola_b0540_lmp2_turbo,LMP2_05,2005
-Lola B05/40 V8,lola_b0540_lmp2_v8,LMP2_05,2005
-Lotus 23,lotus_23,TC60S2,1962
-Lotus 72E,lotus_72e,F-Retro_Gen1,1972
-Lotus 79,lotus_79,F-Retro_Gen2,1979
-Lotus Renault 98T,lotus_98t,F-Classic_Gen1,1986
-MCR S2000,mcr2000,P4,2012
-Maserati GT2 Stradale,maserati_gt2_stradale,Supercars,2024
-Maserati MC12 GT1,maserati_mc12_gt1,GT1_05,2005
-McLaren 570S GT4,mclaren_570s_gt4,GT4,2017
-McLaren 720S GT3,mclaren_720s_gt3,GT3,2017
-McLaren 720S GT3 Evo,mclaren_720s_gt3_evo,GT3_Gen2,2023
-McLaren F1 GTR,mclaren_f1_gtr,GT1,2019
-McLaren F1 LM,mclaren_f1_lm,Supercars,2019
-McLaren M23,mclaren_m23,F-Retro_Gen1,1974
-McLaren Honda MP4/4,mclaren_mp44,F-Classic_Gen2,1988
-McLaren Honda MP4/5B,mclaren_mp45b,F-Classic_Gen3,1990
-McLaren Honda MP4/6,mclaren_mp46,F-Classic_Gen4,1991
-McLaren Honda MP4/7A,mclaren_mp47,F-Hitech_Gen1,1992
-McLaren Cosworth MP4/8,mclaren_mp48,F-Hitech_Gen2,1993
-McLaren Mercedes MP4/12,mclaren_mp4_12,F-V10_Gen1,1997
-McLaren Cosworth MP4/1C,mclaren_mp4_1c,F-Retro_Gen3,1983
-McLaren Senna,mclaren_senna,Hypercars,2018
-Mercedes-AMG GT3,mercedes_amg_gt3,GT3,2015
-Mercedes-AMG GT3 Evo,mercedes_amg_gt3_evo,GT3_Gen2,2015
-Mercedes-AMG GT4,mercedes_amg_gt4,GT4,2015
-Mercedes-Benz CLK LM,mercedes_clk-lm,GT1,1998
-Mercedes-Benz 190E 2.5-16 Evo II DTM,mercedes_evo2_dtm,Group A,1991
-MetalMoro AJR Chevrolet,metalmoro_ajr_chevy,P1,2016
-MetalMoro AJR Gen2 Chevrolet,metalmoro_ajr_gen2_chevy,P1Gen2,2023
-MetalMoro AJR Gen2 Honda,metalmoro_ajr_gen2_honda,P1Gen2,2023
-MetalMoro AJR Gen2 Nissan,metalmoro_ajr_gen2_nissan,P1Gen2,2023
-MetalMoro AJR Honda,metalmoro_ajr_honda,P1,2016
-MetalMoro AJR Judd,metalmoro_ajr_judd,P1,2016
-MetalMoro AJR Nissan,metalmoro_ajr_powertec,P1,2016
-MetalMoro MRX Duratec P4,metalmoro_mrx,P4,2019
-MetalMoro MRX Honda P3,metalmoro_mrx_honda,P3,2019
-MetalMoro MRX Duratec Turbo P3,metalmoro_mrx_p3,P3,2019
-MetalMoro MRX Duratec Turbo P2,metalmoro_mrx_sharkfin,P2,2019
-Milano GT36,milano_gt36,GT2_05,2005
-MINI Cooper JCW,mini_cooper,MiniChallenge,2020
-MINI Cooper S 1965,mini_coopers_1965,TC60S2,1965
-MINI Cooper S 1965 B,mini_coopers_1965b,CopaClassicB,1965
-MINI Countryman R60 RX,mini_rx,RX,2016
-Mitsubishi Lancer R,mitsubishi_lancerr,LancerCup,2017
-Mitsubishi Lancer RS,mitsubishi_lancerrs,LancerCup,2017
-Mitsubishi Lancer Evo10 RX,mitsubishi_lancer_rc,RX,2017
-Copa Montana,montana,Montana,2017
-Nissan GT-R Nismo GT3,nissan_gt-r_gt3,GT3,2016
-Nissan R390 GT1,nissan_r390_gt1,GT1,1998
-Nissan R89C,nissan_r89c,Group C,1989
-Chevrolet Opala Stock Cars 1979,opala_79,Opala79,1979
-Chevrolet Opala Stock Cars 1986,opala_86,Opala86,1981
-Chevrolet Opala Old Stock Race,opala_oldstock,OldStock,1981
-Oreca 07,oreca_07,LMP2,2023
-Oreca 07,oreca_07,LMP2_Gen1,2023
-Passat Classic FL,pas_classica,CopaClassicFL,2019
-Passat Classic B,pas_classicb,CopaClassicB,2019
-Passat Hot Cars,pas_hotcars,Hot Cars,2019
-Porsche 911 GT1-98,porsche_911_gt1_98,GT1,1998
-Porsche 911 RSR GTE,porsche_911_gte,GTE,2020
-Porsche 911 RSR 1974,porsche_911_rsr_74,TC70S,1974
-Porsche 962C,porsche_962c,Group C,1987
-Porsche 963,porsche_963_gtp,LMDh,2023
-Porsche 911 GT3 Cup 3.8,porsche_991_gt3,Carrera Cup,2016
-Porsche 911 GT3 R,porsche_991_gt3r,GT3,2016
-Porsche 911 GT3 Cup 4.0,porsche_991_gt3_2,Carrera Cup,2016
-Porsche 992 GT3 R,porsche_992_gt3r,GT3_Gen2,2023
-Porsche 996 GT3 RSR,porsche_996_gt3rsr,GT2_05,2005
-Porsche Cayman GT4 Clubsport MR,porsche_cayman_gt4cs,GT4,2016
-Puma GTB,puma_gtb,CopaClassicFL,1981
-Puma GTE,puma_gte,CopaClassicB,1981
-Puma P052,puma_p052,GT5,2012
-Kart Cross,rally_kart,Kartcross,2016
-Roco 001,roco,P3,2019
-Sauber Mercedes C9,sauber_c9,Group C,1989
-Sigma P1,sigma_p1,P2,2020
-Sigma P1 G5,sigma_p1_g5,P1Gen2,2020
-Sprint Race,sprintrace,SprintRace,2019
-Toyota Corolla Stock Car 2020,stock_corolla,StockCarV8_2020,2020
-Toyota Corolla Stock Car 2021,stock_corolla_21,StockCarV8_2021,2020
-Toyota Corolla Stock Car 2022,stock_corolla_22,StockCarV8_2022,2022
-Toyota Corolla Stock Car 2023,stock_corolla_23,StockCarV8_2023,2023
-Toyota Corolla Stock Car 2024,stock_corolla_24,StockCarV8_2024,2023
-Chevrolet Cruze Stock Car 2019,stock_cruze,StockCarV8,2017
-Chevrolet Cruze Stock Car 2020,stock_cruze_20,StockCarV8_2020,2017
-Chevrolet Cruze Stock Car 2021,stock_cruze_21,StockCarV8_2021,2021
-Chevrolet Cruze Stock Car 2022,stock_cruze_22,StockCarV8_2022,2022
-Chevrolet Cruze Stock Car 2023,stock_cruze_23,StockCarV8_2023,2023
-Chevrolet Cruze Stock Car 2024,stock_cruze_24,StockCarV8_2024,2024
-Chevrolet Omega Stock Car 1999,stock_omega,StockCar99,2017
-Stock USA Gen1,stock_usa_g1,Stock_USA_Gen1,1984
-Stock USA Gen2,stock_usa_g2,Stock_USA_Gen2,1994
-Stock USA Gen3,stock_usa_g3,Stock_USA_Gen3,2024
-Stock USA Gen3 LM,stock_usa_g3_lm,Stock_USA_Gen3_LM,2024
-Super Trophy Trucks,super_trophy_truck,STT,2019
-Super V8,super_v8,SuperV8,2019
-Superkart 250cc,superkart,SuperKart,2019
-Ultima GTR,ultima,Supercars,2012
-Ultima GTR Race,ultima_race,GTOpen,2012
-Copa Uno,uno,CopaUno,2019
-Uno Classic B,uno_classicb,CopaClassicB,2019
-Volkswagen Polo,vw_polo,TSICup,2021
-Volkswagen Polo GTS,vw_polo_gts,TSICup,2021
-Volkswagen Polo RX,vw_polo_rx,RX,2016
-Volkswagen Virtus,vw_virtus,TSICup,2021
-Volkswagen Virtus GTS,vw_virtus_gts,TSICup,2021
+class,name,year,folder_name
+ARC_Cam,ARC Camaro,2019,arc_camaro
+GT4,Alpine A110 GT4 Evo,2020,alpine_a110_gt4_evo
+LMDh,Alpine A424,2024,alpine_a424
+GT1_05,Aston Martin DBR9,2005,aston_martin_dbr9_gt1
+Hypercars,Aston Martin Valkyrie,2024,aston_martin_valkyrie
+LMDh,Aston Martin Valkyrie Hypercar,2025,aston_martin_valkyrie_lmh
+GT3_Gen2,Aston Martin Vantage GT3 Evo,2024,aston_martin_vantage_gt3_evo
+GT4,Aston Martin Vantage GT4 Evo,2024,aston_martin_vantage_gt4_evo
+GTE,Aston Martin Vantage GTE,2020,aston_martin_vantage_gte
+LMP1_05,Audi R8 LMP1,2005,audi_r8_lmp
+GT3,Audi R8 LMS GT3,2017,audi_r8_lms_gt3
+GT3_Gen2,Audi R8 LMS GT3 evo II,2024,audi_r8_lms_gt3_evo2
+GT4,Audi R8 LMS GT4,2020,audi_r8_lms_gt4
+Supercars,Audi R8 V10 GT,2024,audi_r8_v10_gt
+Group A,Audi V8 quattro DTM,1991,audi_v8_dtm
+TC60S,BMW 2002 Turbo,1973,bmw_2002_turbo
+Procar,BMW M1 Procar,1981,bmw_m1_procar
+Group A,BMW M3 Sport Evo Group A,1991,bmw_m3_e30_a
+GTR_04,BMW M3 E46 GTR,2001,bmw_m3_gtr
+GT3_Gen2,BMW M4 GT3,2023,bmw_m4_gt3
+GT4,BMW M4 GT4,2019,bmw_m4_gt4
+GT3,BMW M6 GT3,2017,bmw_m6_gt3
+GTE,BMW M8 GTE,2019,bmw_m8_gte
+LMDh,BMW M Hybrid V8,2023,bmw_m_hybrid_v8
+F-Retro_Gen2,Brabham Alfa Romeo BT46B,1979,brabham_bt46
+F-Retro_Gen2,Brabham Cosworth BT49,1979,brabham_bt49
+F-Retro_Gen3,Brabham BMW BT52,1983,brabham_bt52
+Hypercars,Brabham BT62,2018,brabham_bt62
+F-USA_Gen3,Lola B2K00 Ford-Cosworth,2000,cart_lola_b2k00_ford
+F-USA_Gen3,Lola B2K00 Mercedes-Benz,2000,cart_lola_b2k00_mercedes
+F-USA_Gen3,Lola B2K00 Toyota,2000,cart_lola_b2k00_toyota
+F-USA_Gen1,Lola T95/00 Ford-Cosworth,1995,cart_lola_t95_ford
+F-USA_Gen1,Lola T95/00 Mercedes-Benz,1995,cart_lola_t95_mercedes
+F-USA_Gen2,Lola T98/00 Ford-Cosworth,1998,cart_lola_t98
+F-USA_Gen3,Reynard 2Ki Ford-Cosworth,2000,cart_reynard_2ki_ford
+F-USA_Gen3,Reynard 2Ki Honda,2000,cart_reynard_2ki_honda
+F-USA_Gen3,Reynard 2Ki Mercedes-Benz,2000,cart_reynard_2ki_mercedes
+F-USA_Gen3,Reynard 2Ki Toyota,2000,cart_reynard_2ki_toyota
+F-USA_Gen1,Reynard 95i Ford-Cosworth,1995,cart_reynard_95i_ford
+F-USA_Gen1,Reynard 95i Honda,1995,cart_reynard_95i_honda
+F-USA_Gen1,Reynard 95i Mercedes-Benz,1995,cart_reynard_95i_mercedes
+F-USA_Gen2,Reynard 98i Ford-Cosworth,1998,cart_reynard_98i_ford
+F-USA_Gen2,Reynard 98i Honda,1998,cart_reynard_98i_honda
+F-USA_Gen2,Reynard 98i Mercedes-Benz,1998,cart_reynard_98i_mercedes
+F-USA_Gen2,Reynard 98i Toyota,1998,cart_reynard_98i_toyota
+F-USA_Gen2,Swift 009c Ford-Cosworth,1998,cart_swift_009c
+DPI,Cadillac DPi-VR,2020,cadillac_dpi-vr
+LMDh,Cadillac V-Series.R,2023,cadillac_v-series_r
+GT4,Chevrolet Camaro GT4.R,2019,camaro_gt4r
+Street,Chevrolet Camaro SS,2019,camaro_ss
+Cat620R,Caterham 620R,2019,caterham_620r
+Cat_Academy,Caterham Academy,2019,caterham_academy
+Cat_Superlight,Caterham Superlight,2019,caterham_superlight
+Cat_Supersport,Caterham Supersport,2019,caterham_supersport
+CopaClassicB,Chevrolet Chevette,1981,chevette
+TC60S,Chevrolet Corvette C3,1969,corvette_73
+TC70S,Chevrolet Corvette C3.R,1968,chevrolet_corvette_c3_rc
+TC70S,Chevrolet Corvette C3.R Convertible,1968,chevrolet_corvette_c3_rcc
+GT1_05,Chevrolet Corvette C5-R,2005,corvette_c5r
+GTE,Chevrolet Corvette C8.R,2020,corvette_c8r
+Supercars,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),2024,corvette_c8_sc
+GT3_Gen2,Chevrolet Corvette Z06 GT3.R,2024,corvette_z06_gt3r
+RX,Citroen DS3 RX,2017,citroen_ds3_rx
+Group C,Chevrolet Corvette GTP,1988,corvette_gtp
+LMP1_05,Courage C60 Hybrid,2005,courage_c60
+LMP1_05,Dallara SP1,2005,dallara_sp1
+Supercars,Dodge Viper ACR,2015,dodge_viper_acr
+GT1_05,Dodge Viper GTS-R,2005,dodge_viper_gts_r
+F-3,Dallara F301,2012,f301
+F-3,Dallara F309,2012,f309
+CopaTruck,Iveco Stralis,2019,ftruck_iveco
+CopaTruck,MAN TGX,2019,ftruck_man
+CopaTruck,Mercedes-Benz Actros,2019,ftruck_merc
+CopaTruck,Volkswagen Constellation,2019,ftruck_vw
+CopaTruck,Vulkan Truck,2019,ftruck_vulkan
+F-Classic_Gen1,Formula Classic Gen1 Model1,1986,formula_classic_g1m1
+F-Classic_Gen1,Formula Classic Gen1 Model2,1986,formula_classic_g1m2
+F-Classic_Gen2,Formula Classic Gen2 Model1,1986,formula_classic_g2m1
+F-Classic_Gen2,Formula Classic Gen2 Model2,1986,formula_classic_g2m2
+F-Classic_Gen2,Formula Classic Gen2 Model3,1986,formula_classic_g2m3
+F-Classic_Gen3,Formula Classic Gen3 Model1,1986,formula_classic_g3m1
+F-Classic_Gen3,Formula Classic Gen3 Model2,1986,formula_classic_g3m2
+F-Classic_Gen3,Formula Classic Gen3 Model3,1986,formula_classic_g3m3
+F-Classic_Gen3,Formula Classic Gen3 Model4,1986,formula_classic_g3m4
+F-Classic_Gen4,Formula Classic Gen4 Model1,1991,formula_classic_g4m1
+F-Classic_Gen4,Formula Classic Gen4 Model2,1992,formula_classic_g4m2
+F-Classic_Gen4,Formula Classic Gen4 Model3,1992,formula_classic_g4m3
+F-Dirt,Formula Dirt,2023,formula_dirt
+FE-G1,Formula Edge Model1,1995,formula_edge_g1m1
+FE-G1,Formula Edge Model2,1995,formula_edge_g1m2
+FE-G1,Formula Edge Model3,1995,formula_edge_g1m3
+F-Hitech_Gen1,Formula HiTech Gen1 Model1,1992,formula_hitech_g1m1
+F-Hitech_Gen1,Formula HiTech Gen1 Model2,1992,formula_hitech_g1m2
+F-Hitech_Gen1,Formula HiTech Gen1 Model3,1992,formula_hitech_g1m3
+F-Hitech_Gen1,Formula HiTech Gen1 Model4,1992,formula_hitech_g1m4
+F-Hitech_Gen2,Formula HiTech Gen2 Model1,1993,formula_hitech_g2m1
+F-Hitech_Gen2,Formula HiTech Gen2 Model2,1993,formula_hitech_g2m2
+F-Hitech_Gen2,Formula HiTech Gen2 Model3,1993,formula_hitech_g2m3
+F-Inter,Formula Inter MG-15,2015,formula_inter
+F-Junior,Formula Junior,1965,formula_junior
+F-Reiza,Formula V8 Gen3,2010,formula_reiza
+F-Retro_Gen1,Brabham BT44,1974,brabham_bt44
+F-Retro_Gen2,Formula Retro Gen2,1979,formula_retro_g2
+F-Retro_Gen3,Formula Retro Gen3 DFY,1983,formula_retro_g3
+F-Retro_Gen3,Formula Retro Gen3 Turbo,1983,formula_retro_g3_te
+F-Retro_Gen1,Formula Retro V12,1972,formula_retro_v12
+F-Retro_Gen1,Formula Retro V8,1972,formula_retro_v8
+F-Trainer,Formula Trainer,2012,formula_trainer
+F-Trainer_A,Formula Trainer Advanced,2012,formula_trainer_d
+F-USA_2023,Formula USA 2023,2023,formula_usa_2023
+F-Ultimate_Gen1,Formula Ultimate Hybrid Gen1,2019,formula_ultimate_2016
+F-Ultimate,Formula Ultimate Hybrid Gen2,2019,formula_ultimate_2019
+F-Ultimate_Gen2,Formula Ultimate Hybrid Gen3,2024,formula_ultimate_2024
+F-V10_Gen2,Formula V10 Gen2,2002,formula_v10
+F-V10_Gen1,Formula V10 Gen1,1997,formula_v10_g1
+F-Vee,Formula Vee Gen1,2019,formula_vee
+F-Vee,Formula Vee Gen1 + Fin,2019,formula_vee_fin
+F-Vee_Gen2,Formula Vee Gen2,2025,formula_vee_gen2
+F-Vintage_Gen1,Formula Vintage Gen1 Model1,1967,formula_vintage_g1m1
+F-Vintage_Gen1,Formula Vintage Gen1 Model2,1964,formula_vintage_g1m2
+F-Vintage_Gen2,Formula Vintage Gen2 Model1,1964,formula_vintage_g2m1
+F-Vintage_Gen2,Formula Vintage Gen2 Model2,1964,formula_vintage_g2m2
+CopaClassicFL,Fusca Classic FL,1981,fusca_classica
+CopaFusca,Copa Fusca,2019,fusca_copa
+Hot Cars,Fusca 1 Hot Cars,1981,fusca_hotcars_m1
+Hot Cars,Fusca 2 Hot Cars,1981,fusca_hotcars_m2
+GT5,Ginetta G40,2017,ginetta_g40
+G40Cup,Ginetta G40 Cup,2017,ginetta_g40_cup
+GTOpen,Ginetta G55 GT3,2017,ginetta_g55_gt3
+G55Supercup,Ginetta G55 GT4 Supercup,2017,ginetta_g55_gt4
+GT4,Ginetta G55 GT4,2017,ginetta_g55_gt4_2
+P1,Ginetta G58,2016,ginetta_g58
+P1Gen2,Ginetta G58 Gen2,2016,ginetta_g58_gen2
+CopaClassicFL,Gol Classic FL,2019,gol_classica
+CopaClassicB,Gol Classic B,2019,gol_classicb
+Hot Cars,Gol Hot Cars,2019,gol_hotcars
+Kart125cc,Kart 2-Stroke 125cc Direct,2016,kart_01
+KartGX390,Kart 4-Stroke Race,2016,kart_gx390
+KartRental,Kart 4-Stroke Rental,2016,kart_gx390_rental
+KartShifter,Kart 2-Stroke 125cc Shifter,2016,kart_shifter
+ST96,Lamborghini Diablo SV-R,1996,lamborghini_diablo_svr
+GT3_Gen2,Lamborghini Huracan GT3 EVO2,2016,lamborghini_huracan_gt3_evo2
+Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,2024,lamborghini_huracan_supertrofeo_evo2
+TC60S,Lamborghini Miura SV,1971,lamborghini_miura_sv
+GT1_05,Lamborghini Murcielago R-GT,2005,lamborghini_murcielago_r_gt
+Hypercars,Lamborghini Revuelto,2024,lamborghini_revuelto
+LMDh,Lamborghini SC63,2024,lamborghini_sc63
+Hypercars,Lamborghini Veneno Roadster,2014,lamborghini_veneno
+LES_2025,Ligier JS2 R,2023,ligier_js2r
+LMP2,Ligier JS P217,2024,ligier_js_p217
+LMP2_Gen1,Ligier JS P217,2024,ligier_js_p217
+P1Gen2,Ligier JS P320,2023,ligier_js_p320
+LES_2025,Ligier JS P4,2022,ligier_js_p4
+LMP2_05,Lola B05/40 Turbo,2005,lola_b0540_lmp2_turbo
+LMP2_05,Lola B05/40 V8,2005,lola_b0540_lmp2_v8
+TC60S2,Lotus 23,1962,lotus_23
+F-Retro_Gen1,Lotus 72E,1972,lotus_72e
+F-Retro_Gen2,Lotus 79,1979,lotus_79
+F-Classic_Gen1,Lotus Renault 98T,1986,lotus_98t
+P4,MCR S2000,2012,mcr2000
+Supercars,Maserati GT2 Stradale,2024,maserati_gt2_stradale
+GT1_05,Maserati MC12 GT1,2005,maserati_mc12_gt1
+GT4,McLaren 570S GT4,2017,mclaren_570s_gt4
+GT3,McLaren 720S GT3,2017,mclaren_720s_gt3
+GT3_Gen2,McLaren 720S GT3 Evo,2023,mclaren_720s_gt3_evo
+GT1,McLaren F1 GTR,2019,mclaren_f1_gtr
+Supercars,McLaren F1 LM,2019,mclaren_f1_lm
+F-Retro_Gen1,McLaren M23,1974,mclaren_m23
+F-Classic_Gen2,McLaren Honda MP4/4,1988,mclaren_mp44
+F-Classic_Gen3,McLaren Honda MP4/5B,1990,mclaren_mp45b
+F-Classic_Gen4,McLaren Honda MP4/6,1991,mclaren_mp46
+F-Hitech_Gen1,McLaren Honda MP4/7A,1992,mclaren_mp47
+F-Hitech_Gen2,McLaren Cosworth MP4/8,1993,mclaren_mp48
+F-V10_Gen1,McLaren Mercedes MP4/12,1997,mclaren_mp4_12
+F-Retro_Gen3,McLaren Cosworth MP4/1C,1983,mclaren_mp4_1c
+Hypercars,McLaren Senna,2018,mclaren_senna
+GT3,Mercedes-AMG GT3,2015,mercedes_amg_gt3
+GT3_Gen2,Mercedes-AMG GT3 Evo,2015,mercedes_amg_gt3_evo
+GT4,Mercedes-AMG GT4,2015,mercedes_amg_gt4
+GT1,Mercedes-Benz CLK LM,1998,mercedes_clk-lm
+Group A,Mercedes-Benz 190E 2.5-16 Evo II DTM,1991,mercedes_evo2_dtm
+P1,MetalMoro AJR Chevrolet,2016,metalmoro_ajr_chevy
+P1Gen2,MetalMoro AJR Gen2 Chevrolet,2023,metalmoro_ajr_gen2_chevy
+P1Gen2,MetalMoro AJR Gen2 Honda,2023,metalmoro_ajr_gen2_honda
+P1Gen2,MetalMoro AJR Gen2 Nissan,2023,metalmoro_ajr_gen2_nissan
+P1,MetalMoro AJR Honda,2016,metalmoro_ajr_honda
+P1,MetalMoro AJR Judd,2016,metalmoro_ajr_judd
+P1,MetalMoro AJR Nissan,2016,metalmoro_ajr_powertec
+P4,MetalMoro MRX Duratec P4,2019,metalmoro_mrx
+P3,MetalMoro MRX Honda P3,2019,metalmoro_mrx_honda
+P3,MetalMoro MRX Duratec Turbo P3,2019,metalmoro_mrx_p3
+P2,MetalMoro MRX Duratec Turbo P2,2019,metalmoro_mrx_sharkfin
+GT2_05,Milano GT36,2005,milano_gt36
+MiniChallenge,MINI Cooper JCW,2020,mini_cooper
+TC60S2,MINI Cooper S 1965,1965,mini_coopers_1965
+CopaClassicB,MINI Cooper S 1965 B,1965,mini_coopers_1965b
+RX,MINI Countryman R60 RX,2016,mini_rx
+LancerCup,Mitsubishi Lancer R,2017,mitsubishi_lancerr
+LancerCup,Mitsubishi Lancer RS,2017,mitsubishi_lancerrs
+RX,Mitsubishi Lancer Evo10 RX,2017,mitsubishi_lancer_rc
+Montana,Copa Montana,2017,montana
+GT3,Nissan GT-R Nismo GT3,2016,nissan_gt-r_gt3
+GT1,Nissan R390 GT1,1998,nissan_r390_gt1
+Group C,Nissan R89C,1989,nissan_r89c
+Opala79,Chevrolet Opala Stock Cars 1979,1979,opala_79
+Opala86,Chevrolet Opala Stock Cars 1986,1981,opala_86
+OldStock,Chevrolet Opala Old Stock Race,1981,opala_oldstock
+LMP2,Oreca 07,2023,oreca_07
+LMP2_Gen1,Oreca 07,2023,oreca_07
+CopaClassicFL,Passat Classic FL,2019,pas_classica
+CopaClassicB,Passat Classic B,2019,pas_classicb
+Hot Cars,Passat Hot Cars,2019,pas_hotcars
+GT1,Porsche 911 GT1-98,1998,porsche_911_gt1_98
+GTE,Porsche 911 RSR GTE,2020,porsche_911_gte
+TC70S,Porsche 911 RSR 1974,1974,porsche_911_rsr_74
+Group C,Porsche 962C,1987,porsche_962c
+LMDh,Porsche 963,2023,porsche_963_gtp
+Carrera Cup,Porsche 911 GT3 Cup 3.8,2016,porsche_991_gt3
+GT3,Porsche 911 GT3 R,2016,porsche_991_gt3r
+Carrera Cup,Porsche 911 GT3 Cup 4.0,2016,porsche_991_gt3_2
+GT3_Gen2,Porsche 992 GT3 R,2023,porsche_992_gt3r
+GT2_05,Porsche 996 GT3 RSR,2005,porsche_996_gt3rsr
+GT4,Porsche Cayman GT4 Clubsport MR,2016,porsche_cayman_gt4cs
+CopaClassicFL,Puma GTB,1981,puma_gtb
+CopaClassicB,Puma GTE,1981,puma_gte
+GT5,Puma P052,2012,puma_p052
+Kartcross,Kart Cross,2016,rally_kart
+P3,Roco 001,2019,roco
+Group C,Sauber Mercedes C9,1989,sauber_c9
+P2,Sigma P1,2020,sigma_p1
+P1Gen2,Sigma P1 G5,2020,sigma_p1_g5
+SprintRace,Sprint Race,2019,sprintrace
+StockCarV8_2020,Toyota Corolla Stock Car 2020,2020,stock_corolla
+StockCarV8_2021,Toyota Corolla Stock Car 2021,2020,stock_corolla_21
+StockCarV8_2022,Toyota Corolla Stock Car 2022,2022,stock_corolla_22
+StockCarV8_2023,Toyota Corolla Stock Car 2023,2023,stock_corolla_23
+StockCarV8_2024,Toyota Corolla Stock Car 2024,2023,stock_corolla_24
+StockCarV8,Chevrolet Cruze Stock Car 2019,2017,stock_cruze
+StockCarV8_2020,Chevrolet Cruze Stock Car 2020,2017,stock_cruze_20
+StockCarV8_2021,Chevrolet Cruze Stock Car 2021,2021,stock_cruze_21
+StockCarV8_2022,Chevrolet Cruze Stock Car 2022,2022,stock_cruze_22
+StockCarV8_2023,Chevrolet Cruze Stock Car 2023,2023,stock_cruze_23
+StockCarV8_2024,Chevrolet Cruze Stock Car 2024,2024,stock_cruze_24
+StockCar99,Chevrolet Omega Stock Car 1999,2017,stock_omega
+Stock_USA_Gen1,Stock USA Gen1,1984,stock_usa_g1
+Stock_USA_Gen2,Stock USA Gen2,1994,stock_usa_g2
+Stock_USA_Gen3,Stock USA Gen3,2024,stock_usa_g3
+Stock_USA_Gen3_LM,Stock USA Gen3 LM,2024,stock_usa_g3_lm
+STT,Super Trophy Trucks,2019,super_trophy_truck
+SuperV8,Super V8,2019,super_v8
+SuperKart,Superkart 250cc,2019,superkart
+Supercars,Ultima GTR,2012,ultima
+GTOpen,Ultima GTR Race,2012,ultima_race
+CopaUno,Copa Uno,2019,uno
+CopaClassicB,Uno Classic B,2019,uno_classicb
+TSICup,Volkswagen Polo,2021,vw_polo
+TSICup,Volkswagen Polo GTS,2021,vw_polo_gts
+RX,Volkswagen Polo RX,2016,vw_polo_rx
+TSICup,Volkswagen Virtus,2021,vw_virtus
+TSICup,Volkswagen Virtus GTS,2021,vw_virtus_gts

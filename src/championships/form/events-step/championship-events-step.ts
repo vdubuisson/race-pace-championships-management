@@ -76,7 +76,7 @@ export class ChampionshipEventsStep {
         })
         .subscribe();
     } else {
-      const tempId = -this.events().length;
+      const tempId = -this.events().length - 1;
       this.events.update((events) => [...events, { ...formEvent, id: tempId }]);
       this.notifications
         .open('Event added', {

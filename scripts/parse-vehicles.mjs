@@ -7,13 +7,12 @@ const VEHICLES_DIR = path.join(process.cwd(), 'Vehicles');
 const GAME_VEHICLE_FILES_DIR = path.join(VEHICLES_DIR, '_game_vehicle_files');
 const OUTPUT_FILE = path.join(process.cwd(), 'csv', 'vehicles-data.csv');
 
-const PROPERTIES_TO_EXTRACT = [
-  'Vehicle Class',
-  'Vehicle Name',
-  'Vehicle Year',
-  'AI ONLY',
-  'PLAYER ONLY'
-];
+const PROPERTIES_TO_EXTRACT = {
+  'Vehicle Class': 'class',
+  'Vehicle Name': 'name',
+  'Vehicle Year': 'year',
+  'AI ONLY': 'ai_only'
+};
 
 async function parseXmlFile(filePath) {
   return new Promise((resolve, reject) => {
@@ -28,25 +27,27 @@ async function parseXmlFile(filePath) {
 }
 
 function extractPropertiesFromData(data) {
-  const props = {};
+  const resultProps = {};
 
   if (data.Reflection && data.Reflection.data) {
-    const propArray = data.Reflection.data.prop;
+    const props = data.Reflection.data.prop;
 
-    if (Array.isArray(propArray)) {
-      propArray.forEach(prop => {
-        if (PROPERTIES_TO_EXTRACT.includes(prop.$.name)) {
-          props[prop.$.name] = prop.$.data || '';
+    if (Array.isArray(props)) {
+      props.forEach(prop => {
+        if (Object.keys(PROPERTIES_TO_EXTRACT).includes(prop.$.name)) {
+          const key = PROPERTIES_TO_EXTRACT[prop.$.name];
+          resultProps[key] = prop.$.data || '';
         }
       });
-    } else if (propArray) {
-      if (PROPERTIES_TO_EXTRACT.includes(propArray.$.name)) {
-        props[propArray.$.name] = propArray.$.data || '';
+    } else if (props) {
+      if (Object.keys(PROPERTIES_TO_EXTRACT).includes(props.$.name)) {
+        const key = PROPERTIES_TO_EXTRACT[props.$.name];
+        resultProps[key] = props.$.data || '';
       }
     }
   }
 
-  return props;
+  return resultProps;
 }
 
 async function processCrdFiles() {
@@ -75,13 +76,14 @@ async function processCrdFiles() {
 
         // Add filename and game file flag
         const row = {
-          folderName: file.replace('.crd', '').toLowerCase(),
-          isMod: dir.isGameFile ? 'FALSE' : 'TRUE',
+          file_name: file.replace('.crd', '').toLowerCase(),
+          folder_name: '',
+          is_mod: dir.isGameFile ? 'FALSE' : 'TRUE',
           ...props,
         };
 
         // Fill missing properties with empty strings
-        PROPERTIES_TO_EXTRACT.forEach(prop => {
+        Object.values(PROPERTIES_TO_EXTRACT).forEach(prop => {
           if (!(prop in row)) {
             row[prop] = '';
           }
@@ -98,7 +100,7 @@ async function processCrdFiles() {
 }
 
 function writeCsv(data) {
-  const columns = ['folderName', ...PROPERTIES_TO_EXTRACT, 'isMod'];
+  const columns = [...Object.values(PROPERTIES_TO_EXTRACT), 'folder_name', 'file_name', 'is_mod'];
 
   const output = stringify(data, {
     header: true,

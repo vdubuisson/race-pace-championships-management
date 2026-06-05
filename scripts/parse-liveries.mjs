@@ -30,13 +30,15 @@ function flattenLiveries(data) {
 
   for (const car of cars) {
     const carName = car?.name ?? '';
+    const carClass = car?.class ?? '';
     const liveries = Array.isArray(car?.liveries) ? car.liveries : [];
 
     for (const livery of liveries) {
       rows.push({
-        carName,
-        liveryId: (livery?.id ?? 0) + 1,
-        liveryName: livery?.name ?? '',
+        class: carClass,
+        car_name: carName,
+        livery_name: livery?.name ?? '',
+        livery_id: (livery?.id ?? 0) + 1,
       });
     }
   }
@@ -47,7 +49,7 @@ function flattenLiveries(data) {
 function writeCsv(rows, outputFilePath) {
   const output = stringify(rows, {
     header: true,
-    columns: ['carName', 'liveryId', 'liveryName'],
+    columns: ['class', 'car_name', 'livery_name', 'livery_id'],
   });
 
   const outputDir = path.dirname(outputFilePath);

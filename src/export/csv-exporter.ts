@@ -73,13 +73,12 @@ export class CsvExporter {
       this.carRepository.getAllCars(),
       this.modelRepository.getAllModels(),
     ]);
-    const modelFolderByName = new Map(models.map((model) => [model.name, model.folder_name]));
-
     const groupedCars = new Map<string, CsvCar>();
 
     for (const car of cars) {
       const modelFolder =
-        modelFolderByName.get(car.livery) ?? modelFolderByName.get(car.model) ?? car.model_folder;
+        models.find((model) => model.class === car.category && model.name === car.model)
+          ?.folder_name ?? '';
       const key = `${car.team_name}::${car.category}::${car.model}::${car.livery}::${car.livery_id}::${modelFolder}`;
       const existingGroupedCar = groupedCars.get(key);
 

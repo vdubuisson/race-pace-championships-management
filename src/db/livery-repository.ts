@@ -7,12 +7,10 @@ export class LiveryRepository {
   private readonly store = inject(AppDatabase).liveries;
 
   async getAllLiveries(): Promise<Livery[]> {
-    const liveries = await this.store.toArray();
-    return liveries.filter((livery) => livery.ai_only === false);
+    return this.store.toArray();
   }
 
   async getLiveriesByClasses(classes: string[]): Promise<Livery[]> {
-    const liveries = await this.store.where('class').anyOf(classes).toArray();
-    return liveries.filter((livery) => livery.ai_only === false);
+    return this.store.where('class').anyOf(classes).toArray();
   }
 }

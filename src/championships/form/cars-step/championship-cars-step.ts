@@ -92,7 +92,7 @@ export class ChampionshipCarsStep {
         })
         .subscribe();
     } else {
-      const tempId = -this.cars().length;
+      const tempId = -this.cars().length - 1;
       this.cars.update((cars) => [...cars, { ...formCar, id: tempId }]);
       this.notifications
         .open('Car added', {

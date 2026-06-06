@@ -49,11 +49,19 @@
             [placeholder]="form().controls.categories.value.length ? '' : 'Vehicle categories'"
             [formControl]="form().controls.categories"
           />
-          <tui-input-chip *tuiItem />
+          <tui-input-chip
+            *tuiItem="let context"
+            [iconStart]="context.item.is_mod ? '@tui.astroid' : null"
+          />
           <tui-data-list *tuiDropdown tuiMultiSelectGroup>
-            @for (cat of vehicleClasses() | tuiFilterByInput; track cat.id) {
-              <button tuiOption type="button" [value]="cat.id">
-                {{ cat.name }}
+            @for (cat of sortedVehicleClasses() | tuiFilterByInput; track cat.id) {
+              <button tuiOption type="button" [value]="cat">
+                <span>
+                  {{ cat.name }}
+                  @if (cat.is_mod) {
+                    <tui-icon icon="@tui.astroid" class="option-icon" />
+                  }
+                </span>
               </button>
             }
           </tui-data-list>

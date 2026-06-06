@@ -2,7 +2,7 @@
 <REPLACEMENT_SYSTEM>
 	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
 	<INPUTS>
-		<INPUT NAME="LIVERY" OPTIONS="2" />
+		<INPUT NAME="LIVERY" OPTIONS="3" />
 		<INPUT NAME="TIRE" OPTIONS="6" />
 		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
 	</INPUTS>
@@ -10,6 +10,7 @@
 	<NAMES INPUT ="LIVERY">
 		<NAME LIVERY="51" NAME="Audi Sport Team Joest #7" />
 		<NAME LIVERY="52" NAME="Audi Sport Team Joest #8" />
+		<NAME LIVERY="53" NAME="Audi Team ByKolles Racing #4" />
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -53,6 +54,17 @@
 		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\audi_r18_16_livery02_hr.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\audi_r18_16_livery01_spec.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\audi_r18_16_livery01_fresnel.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_r18_16_lights_glow.dds" NEWTEXTURE="vehicles\textures\audi_r18_16_lights_glow02.dds" />
+	</CONDITION>
+
+<CONDITION LIVERY="53">
+		<REPLACE MATERIAL="vehicles\audi_r18_2016\audi_r18_16_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2k16_grey_metallic.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r18_2016\audi_r18_16_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2k16_grey_metallic_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r18_2016\audi_r18_16_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2k16_grey_metallic_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\audi_r18_2016\audi_r18_16_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2k16_grey_metallic_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\audi_r18_16_livery03_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\audi_r18_16_lm_livery01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\textures\liveries\audi_r18_16_lm_livery01_fresnel.dds" />
 		<REPLACE TEXTURE="vehicles\textures\audi_r18_16_lights_glow.dds" NEWTEXTURE="vehicles\textures\audi_r18_16_lights_glow02.dds" />
 	</CONDITION>
 

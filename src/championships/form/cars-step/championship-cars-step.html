@@ -32,6 +32,7 @@
     @for (car of categoryCars; track car.id) {
       <app-car-card
         [car]="car"
+        [isMod]="isCarsMods().get(car.id!) ?? false"
         [editable]="true"
         (edit)="openCarEdition(car)"
         (delete)="deleteCar(car)"

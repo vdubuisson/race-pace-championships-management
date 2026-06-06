@@ -81,6 +81,11 @@
                         {{ track.start_year }}-{{ track.end_year || 'present' }}
                       </span>
                     }
+                    @if (track.is_mod) {
+                      <span tuiChip size="xs" appearance="neutral" iconEnd="@tui.astroid">
+                        Mod
+                      </span>
+                    }
                   </span>
                 </div>
               </button>

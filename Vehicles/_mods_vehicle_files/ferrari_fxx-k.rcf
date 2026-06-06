@@ -41,11 +41,7 @@
 	
 	<!-- Simple case - exterior paint effecting two materials -->
 	<CONDITION LIVERY="1">
-		<REPLACE MATERIAL="vehicles\ferrari_fxx-k\fer_fxx-k_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2016_grey_metallic.mtx" />
-		<REPLACE MATERIAL="vehicles\ferrari_fxx-k\fer_fxx-k_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2016_grey_metallic_autoskin.mtx" />
-		<REPLACE MATERIAL="vehicles\ferrari_fxx-k\fer_fxx-k_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2016_grey_metallic_autocpit.mtx" />
-		<REPLACE MATERIAL="vehicles\ferrari_fxx-k\fer_fxx-k_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2016_grey_metallic_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_fxx-k_livery01_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_fxx-k_livery01_hr.dds" />
 	</CONDITION>
 	
 	<CONDITION LIVERY="2">
@@ -78,19 +74,11 @@
 	</CONDITION>
 
 	<CONDITION LIVERY="7">
-		<REPLACE MATERIAL="vehicles\ferrari_fxx-k\fer_fxx-k_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2016_grey_metallic.mtx" />
-		<REPLACE MATERIAL="vehicles\ferrari_fxx-k\fer_fxx-k_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2016_grey_metallic_autoskin.mtx" />
-		<REPLACE MATERIAL="vehicles\ferrari_fxx-k\fer_fxx-k_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2016_grey_metallic_autocpit.mtx" />
-		<REPLACE MATERIAL="vehicles\ferrari_fxx-k\fer_fxx-k_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2016_grey_metallic_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_fxx-k_livery07_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_fxx-k_livery07_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="8">
-		<REPLACE MATERIAL="vehicles\ferrari_fxx-k\fer_fxx-k_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2016_grey_metallic.mtx" />
-		<REPLACE MATERIAL="vehicles\ferrari_fxx-k\fer_fxx-k_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2016_grey_metallic_autoskin.mtx" />
-		<REPLACE MATERIAL="vehicles\ferrari_fxx-k\fer_fxx-k_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2016_grey_metallic_autocpit.mtx" />
-		<REPLACE MATERIAL="vehicles\ferrari_fxx-k\fer_fxx-k_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r18_2016_grey_metallic_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_fxx-k_livery08_hr.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\fer_fxx-k_livery08_hr.dds" />
 	</CONDITION>
 
 	<!-- 'Soft' Slick tire -->

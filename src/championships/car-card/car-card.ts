@@ -1,6 +1,6 @@
 import { Car } from '@/shared/models/car';
 import { ChangeDetectionStrategy, Component, computed, input, output } from '@angular/core';
-import { TuiButton, TuiGroup, TuiTitle } from '@taiga-ui/core';
+import { TuiButton, TuiGroup, TuiHint, TuiIcon, TuiTitle } from '@taiga-ui/core';
 import { TuiAutoColorPipe, TuiChip } from '@taiga-ui/kit';
 import { TuiCardLarge, TuiHeader } from '@taiga-ui/layout';
 
@@ -9,11 +9,22 @@ import { TuiCardLarge, TuiHeader } from '@taiga-ui/layout';
   templateUrl: './car-card.html',
   styleUrl: './car-card.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [TuiAutoColorPipe, TuiButton, TuiCardLarge, TuiChip, TuiGroup, TuiHeader, TuiTitle],
+  imports: [
+    TuiAutoColorPipe,
+    TuiButton,
+    TuiCardLarge,
+    TuiChip,
+    TuiGroup,
+    TuiHeader,
+    TuiHint,
+    TuiIcon,
+    TuiTitle,
+  ],
 })
 export class CarCard {
   readonly car = input.required<Partial<Car>>();
   readonly editable = input(false);
+  readonly isMod = input(false);
 
   readonly delete = output<void>();
   readonly edit = output<void>();

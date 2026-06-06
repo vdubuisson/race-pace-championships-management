@@ -17,7 +17,7 @@ import { ChampionshipsService } from '../championships-service/championships-ser
 
 export type GlobalFormGroup = FormGroup<{
   name: FormControl<string>;
-  categories: FormControl<string[]>;
+  categories: FormControl<VehicleClass[]>;
   prestige: FormControl<number>;
   init_month: FormControl<number>;
   init_day: FormControl<number>;
@@ -54,17 +54,13 @@ export class ChampionshipsFormManager {
   });
   readonly championshipEvents = signal<RaceEvent[]>([]);
   readonly championshipCars = signal<Car[]>([]);
-  readonly championshipClasses = linkedSignal<VehicleClass[]>(() =>
-    this.vehicleClasses().filter((vehicleClass) =>
-      this.globalForm.controls.categories.value.includes(vehicleClass.id),
-    ),
-  );
+  readonly championshipClasses = signal<VehicleClass[]>([]);
   readonly liveriesForSelectedClasses = linkedSignal(() => {
-    const selectedCategories = this.globalForm.controls.categories.value;
-    if (selectedCategories.length === 0) {
+    const selectedCategoriesIds = this.globalForm.controls.categories.value.map((cat) => cat.id);
+    if (selectedCategoriesIds.length === 0) {
       return [];
     }
-    return toSignal(from(this.liveryRepository.getLiveriesByClasses(selectedCategories)), {
+    return toSignal(from(this.liveryRepository.getLiveriesByClasses(selectedCategoriesIds)), {
       initialValue: [],
     })();
   });
@@ -133,16 +129,14 @@ export class ChampionshipsFormManager {
     this.globalForm.controls.categories.valueChanges
       .pipe(takeUntilDestroyed())
       .subscribe(async (value) => {
-        const classesForCategories = this.vehicleClasses().filter((vehicleClass) =>
-          value.includes(vehicleClass.id),
-        );
-        this.championshipClasses.set(classesForCategories);
+        this.championshipClasses.set(value);
 
         if (value.length === 0) {
           this.liveriesForSelectedClasses.set([]);
           return;
         }
-        const liveries = await this.liveryRepository.getLiveriesByClasses(value);
+        const selectedCategoriesIds = value.map((cat) => cat.id);
+        const liveries = await this.liveryRepository.getLiveriesByClasses(selectedCategoriesIds);
         this.liveriesForSelectedClasses.set(liveries);
       });
   }
@@ -163,11 +157,14 @@ export class ChampionshipsFormManager {
     this.originalChampionshipName.set(championship.name);
 
     // Use setTimeout to avoid multiple validation calls and form state staying PENDING
-    setTimeout(() => {
+    setTimeout(async () => {
+      const vehicleClasses = await this.vehicleClassRepository.getAllVehicleClasses();
       this.globalForm.patchValue({
         name: championship.name,
         tags: championship.tags,
-        categories: championship.categories,
+        categories: championship.categories
+          .map((catId) => vehicleClasses.find((cat) => cat.id === catId))
+          .filter(Boolean) as VehicleClass[],
         prestige: championship.prestige,
         init_month: championship.init_month,
         init_day: championship.init_day,
@@ -228,7 +225,7 @@ export class ChampionshipsFormManager {
         asyncValidators: [this.championshipNameAvailableValidator],
         updateOn: 'blur',
       }),
-      categories: new FormControl<string[]>([], {
+      categories: new FormControl<VehicleClass[]>([], {
         nonNullable: true,
         validators: [Validators.required],
       }),
@@ -307,10 +304,42 @@ export class ChampionshipsFormManager {
   private buildChampionship(): Championship {
     const rawValue = this.globalForm.getRawValue();
 
+    const categoriesIds = rawValue.categories
+      .filter((cat) => this.championshipCars().some((car) => car.category === cat.id))
+      .map((cat) => cat.id);
+
+    const hasTrackMods = this.championshipEvents()
+      .map((event) => this.tracks().find((track) => track.id === event.track_id))
+      .some((track) => track?.is_mod);
+    const hasCarMods = this.championshipCars()
+      .map((car) =>
+        this.liveriesForSelectedClasses().find(
+          (livery) =>
+            livery.class === car.category &&
+            livery.car_name === car.model &&
+            livery.livery_name === car.livery,
+        ),
+      )
+      .some((livery) => livery?.is_mod);
+
+    const tags = new Set(
+      rawValue.tags.map((value) => value.trim()).filter((value) => value.length > 0),
+    );
+    if (hasTrackMods) {
+      tags.add('Track mods');
+    } else {
+      tags.delete('Track mods');
+    }
+    if (hasCarMods) {
+      tags.add('Car mods');
+    } else {
+      tags.delete('Car mods');
+    }
+
     return {
       id: this.loadedChampionshipId() ?? undefined,
       name: rawValue.name.trim(),
-      categories: rawValue.categories,
+      categories: categoriesIds,
       prestige: rawValue.prestige,
       init_month: rawValue.init_month,
       init_day: rawValue.init_day,
@@ -327,7 +356,7 @@ export class ChampionshipsFormManager {
         ? 'identical'
         : null,
       events_count: rawValue.events_count,
-      tags: rawValue.tags.map((value) => value.trim()).filter((value) => value.length > 0),
+      tags: Array.from(tags),
       start_year: rawValue.start_year,
       end_year: rawValue.end_year,
       default_included: rawValue.default_included,

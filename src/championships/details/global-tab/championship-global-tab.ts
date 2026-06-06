@@ -3,7 +3,7 @@ import { MonthPipe } from '@/shared/pipes/month/month-pipe';
 import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
 import { I18nPluralPipe, TitleCasePipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
-import { TuiCell, TuiIcon, TuiTitle } from '@taiga-ui/core';
+import { TuiCell, TuiHint, TuiIcon, TuiTitle } from '@taiga-ui/core';
 import { TuiAutoColorPipe, TuiChip } from '@taiga-ui/kit';
 import { TuiCardLarge, TuiHeader, TuiItemGroup, TuiList } from '@taiga-ui/layout';
 
@@ -22,6 +22,7 @@ import { TuiCardLarge, TuiHeader, TuiItemGroup, TuiList } from '@taiga-ui/layout
     TuiCell,
     TuiChip,
     TuiHeader,
+    TuiHint,
     TuiIcon,
     TuiItemGroup,
     TuiList,

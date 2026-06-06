@@ -27,28 +27,30 @@ export class ChampionshipEventsStep {
   readonly requiredEventCount = input.required<number>();
   readonly events = model<RaceEvent[]>([]);
 
-  readonly tracksNameById = computed(
-    () => new Map(this.tracks().map((track) => [track.id, track.name])),
-  );
+  readonly eventsWithTrack = computed<RaceEventWithTrack[]>(() => {
+    const eventsWithTrack = [];
+    for (const event of this.events()) {
+      const track = this.tracks().find((track) => track.id === event.track_id);
+      if (track) {
+        eventsWithTrack.push({
+          ...event,
+          track_name: track.name,
+          is_mod: track.is_mod,
+        });
+      }
+    }
+    return eventsWithTrack.toSorted((a, b) => {
+      if (a.month !== b.month) {
+        return a.month - b.month;
+      }
 
-  readonly eventsWithTrack = computed<RaceEventWithTrack[]>(() =>
-    this.events()
-      .map((event) => ({
-        ...event,
-        track_name: this.tracksNameById().get(event.track_id) ?? '',
-      }))
-      .toSorted((a, b) => {
-        if (a.month !== b.month) {
-          return a.month - b.month;
-        }
+      if (a.week_end !== b.week_end) {
+        return a.week_end - b.week_end;
+      }
 
-        if (a.week_end !== b.week_end) {
-          return a.week_end - b.week_end;
-        }
-
-        return a.id! - b.id!;
-      }),
-  );
+      return a.id! - b.id!;
+    });
+  });
 
   protected readonly isFormShown = signal(false);
   protected readonly editedEvent = signal<RaceEvent | null>(null);

@@ -29,3 +29,7 @@
   height: 1px;
   background-color: var(--tui-border-normal);
 }
+
+.mod-icon {
+  font-size: 0.9rem;
+}

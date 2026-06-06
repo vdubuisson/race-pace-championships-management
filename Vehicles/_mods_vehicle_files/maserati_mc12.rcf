@@ -2,7 +2,7 @@
 <REPLACEMENT_SYSTEM>
 	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
 	<INPUTS>
-		<INPUT NAME="LIVERY" OPTIONS="99" />
+		<INPUT NAME="LIVERY" OPTIONS="4" />
 		<INPUT NAME="TIRE" OPTIONS="6" />
 		<INPUT NAME="DIRTTYPE" OPTIONS="3" />				
 	</INPUTS>
@@ -12,8 +12,6 @@
 		<NAME LIVERY="52" NAME="#2 Vitaphone Team 2010" />
 		<NAME LIVERY="53" NAME="#33 Triple H Team 2010" />
 		<NAME LIVERY="54" NAME="#34 Triple H Team 2010" />
-		<NAME LIVERY="55" NAME="SARA" />
-		<NAME LIVERY="56" NAME="SARA_GX" />
 
 	</NAMES>
 	
@@ -63,24 +61,6 @@
 		<REPLACE TEXTURE="Vehicles\Textures\maserati_mc12_banner2_diffuse.dds" NEWTEXTURE="Vehicles\Textures\maserati_mc12_banner2_4diffuse.dds" />		
 	</CONDITION>
 	
-
-	<CONDITION LIVERY="55">
-		<REPLACE MATERIAL="Vehicles\maserati_mc12\maserati_mc12_paint" NEWMATERIAL="vehicles\_paint_colors\paint_MC12_SARAFREE_gentian_blue.mtx" />
-		<REPLACE MATERIAL="Vehicles\maserati_mc12\maserati_mc12_paint_skin" NEWMATERIAL="vehicles\_paint_colors\paint_MC12_SARAFREE_gentian_blue.mtx" />
-
-		<REPLACE TEXTURE="Vehicles\Textures\MASERATI_MC12_BADGING_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\MASERATI_MC12_BADGING_DIFFUSE_TRIPLEH.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\maserati_mc12_banner2_diffuse.dds" NEWTEXTURE="Vehicles\Textures\maserati_mc12_banner2_4diffuse.dds" />		
-	</CONDITION>
-
-
-	<CONDITION LIVERY="56">
-		<REPLACE MATERIAL="Vehicles\maserati_mc12\maserati_mc12_paint" NEWMATERIAL="vehicles\_paint_colors\paint_MC12_SARAFREE_GX_gentian_blue.mtx" />
-		<REPLACE MATERIAL="Vehicles\maserati_mc12\maserati_mc12_paint_skin" NEWMATERIAL="vehicles\_paint_colors\paint_MC12_SARAFREE_GX_gentian_blue.mtx" />
-
-		<REPLACE TEXTURE="Vehicles\Textures\MASERATI_MC12_BADGING_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\MASERATI_MC12_BADGING_DIFFUSE_TRIPLEH.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\maserati_mc12_banner2_diffuse.dds" NEWTEXTURE="Vehicles\Textures\maserati_mc12_banner2_4diffuse.dds" />		
-	</CONDITION>
-
 	<!-- Soft Slick tire -->
 	<CONDITION TIRE="1">
 		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
@@ -159,5 +139,3 @@
 	</CONDITION>
 	
 </REPLACEMENT_SYSTEM>
-<REPLACE MATERIAL="Vehicles\maserati_mc12\maserati_mc12_paint" NEWMATERIAL="Vehicles\_generic_materials\livery_standard_paint_MC12_SARA_blue_chrome.mtx" />
-<REPLACE MATERIAL="Vehicles\maserati_mc12\maserati_mc12_paint_skin" NEWMATERIAL="Vehicles\_generic_materials\livery_standard_paint_skin_MC12_SARA_blue_chrome.mtx" />

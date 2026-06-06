@@ -3,6 +3,7 @@ import { ChampionshipWithClasses } from '@/shared/models/championship';
 import { CarCard } from '@/championships/car-card/car-card';
 import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
 import { TuiHeader } from '@taiga-ui/layout';
+import { Livery } from '@/shared/models/livery';
 
 @Component({
   selector: 'app-championship-cars-tab',
@@ -14,6 +15,7 @@ import { TuiHeader } from '@taiga-ui/layout';
 export default class ChampionshipCarsTab {
   readonly cars = input.required<Car[]>();
   readonly championship = input.required<ChampionshipWithClasses>();
+  readonly liveries = input.required<Livery[]>();
 
   readonly carsByCategory = computed(() => {
     const categoryMap = new Map<string, Car[]>();
@@ -32,5 +34,19 @@ export default class ChampionshipCarsTab {
       );
     });
     return categoryMap;
+  });
+
+  readonly isCarsMods = computed<Map<number, boolean>>(() => {
+    const map = new Map<number, boolean>();
+    for (const car of this.cars()) {
+      const isMod = this.liveries().find(
+        (livery) =>
+          livery.class === car.category &&
+          livery.car_name === car.model &&
+          livery.livery_name === car.livery,
+      )?.is_mod;
+      map.set(car.id!, isMod ?? false);
+    }
+    return map;
   });
 }

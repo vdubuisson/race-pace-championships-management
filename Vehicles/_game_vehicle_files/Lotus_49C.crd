@@ -80,14 +80,14 @@
         <prop name="Cockpit properties" data="Lotus_49C_Cockpit.bin" />
         <prop name="Vehicle Properties" data="Lotus_49C" />
 		<prop name="Safety Car Driver Name" data="SafetyBMW2002Driver" />
-        <prop name="Vehicle Year" data="1969" />
+        <prop name="Vehicle Year" data="1970" />
         <prop name="Shadow Width" data="5.0" />
         <prop name="Shadow Length" data="7.0" />
         <prop name="Shadow Offset Right" data="0.0" />
         <prop name="Shadow Offset Forward" data="0.0" />
         <prop name="Shadow Texture" data="Lotus_49C_ambsh.dds" />
         <prop name="Grid Grouping" data="6" />
-        <prop name="Vehicle Class" data="F-Vintage_Gen2_LD" />
+        <prop name="Vehicle Class" data="F-Vintage_Gen2" />
         <prop name="Vehicle Group" data="Historic Openwheel" />
         <prop name="Vehicle Shape" data="OpenWheel" />
         <prop name="Engine Placement" data="Mid-Rear" />
@@ -105,7 +105,7 @@
         <prop name="Exhaust Backfire Visual Effect Type" data="none" />
         <prop name="Vehicle Description" data="" />
 		<prop name="PitSpeedLimit_HighKPH" data="100.0" />
-        <prop name="AI ONLY" data="true" />
+        <prop name="AI ONLY" data="false" />
         <prop name="Vehicle Initial Performance Index" data="458" />
         <prop name="Tier" data="5" />
         <prop name="Price" data="120" />

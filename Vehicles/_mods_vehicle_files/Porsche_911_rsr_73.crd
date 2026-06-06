@@ -116,7 +116,6 @@
         <prop name="Min Rear Wheel Diameter" data="13" />
         <prop name="Max Rear Wheel Diameter" data="20" />
         <prop name="Client Vehicle Version" data="1" />
-
         <prop name="Left Mirror Pos" data="0.8360;0.8660;-0.3940" />
  	<prop name="Right Mirror Pos" data="-0.8360;0.8660;-0.3940" />
         <prop name="Center Mirror Pos" data="-0.0078;1.0999;-0.1952" />

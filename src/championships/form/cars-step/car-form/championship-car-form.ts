@@ -2,10 +2,19 @@ import { Car } from '@/shared/models/car';
 import { Livery } from '@/shared/models/livery';
 import { Team } from '@/shared/models/team';
 import { ScrollingModule } from '@angular/cdk/scrolling';
-import { ChangeDetectionStrategy, Component, computed, effect, input, output } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  computed,
+  effect,
+  input,
+  output,
+  signal,
+} from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import {
   TuiButton,
+  TuiCell,
   TuiDataList,
   TuiError,
   TuiFilterByInputOptions,
@@ -14,7 +23,14 @@ import {
   TuiScrollable,
   TuiTitle,
 } from '@taiga-ui/core';
-import { TuiChevron, TuiComboBox, TuiDataListWrapper, TuiDrawer } from '@taiga-ui/kit';
+import {
+  TuiChevron,
+  TuiChip,
+  TuiComboBox,
+  TuiDataListWrapper,
+  TuiDrawer,
+  TuiSwitch,
+} from '@taiga-ui/kit';
 import { TuiForm, TuiHeader } from '@taiga-ui/layout';
 
 type TeamWithCarsCount = Team & { cars: number };
@@ -28,7 +44,9 @@ type TeamWithCarsCount = Team & { cars: number };
     ReactiveFormsModule,
     ScrollingModule,
     TuiButton,
+    TuiCell,
     TuiChevron,
+    TuiChip,
     TuiComboBox,
     TuiDataList,
     TuiDataListWrapper,
@@ -39,6 +57,7 @@ type TeamWithCarsCount = Team & { cars: number };
     TuiHeader,
     TuiPopup,
     TuiScrollable,
+    TuiSwitch,
     TuiTitle,
   ],
 })
@@ -53,6 +72,8 @@ export class ChampionshipCarForm {
 
   readonly formCancel = output<void>();
   readonly formSubmit = output<Partial<Car>>();
+
+  protected readonly noModdedCarsFilter = signal(false);
 
   protected readonly teamsWithCarsCount = computed<TeamWithCarsCount[]>(() => {
     return this.teams()
@@ -72,10 +93,16 @@ export class ChampionshipCarForm {
       ),
   );
 
+  protected readonly filteredAvailableLiveries = computed<Livery[]>(() =>
+    this.noModdedCarsFilter()
+      ? this.availableLiveries().filter((livery) => !livery.is_mod)
+      : this.availableLiveries(),
+  );
+
   protected readonly teamItemHeight = 56;
   protected readonly teamItemCount = 7;
-  protected readonly liveryItemHeight = 56;
-  protected readonly liveryItemCount = 7;
+  protected readonly liveryItemHeight = 84;
+  protected readonly liveryItemCount = 6;
 
   protected readonly carForm = new FormGroup({
     livery: new FormControl<Livery | null>(null, {
@@ -85,6 +112,7 @@ export class ChampionshipCarForm {
       nonNullable: true,
       validators: [Validators.required],
     }),
+    no_modded_cars: new FormControl(false, { nonNullable: true }),
   });
 
   protected readonly getLiveryName = (livery: Livery | null): string =>

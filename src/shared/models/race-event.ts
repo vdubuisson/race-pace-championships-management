@@ -13,4 +13,4 @@ export type RaceEvent = {
 
 export type RaceEventType = 'time' | 'laps';
 
-export type RaceEventWithTrack = RaceEvent & { track_name: string };
+export type RaceEventWithTrack = RaceEvent & { track_name: string; is_mod: boolean };

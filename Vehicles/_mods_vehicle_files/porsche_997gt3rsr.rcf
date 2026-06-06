@@ -2,7 +2,7 @@
 <REPLACEMENT_SYSTEM>
 	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
 	<INPUTS>
-		<INPUT NAME="LIVERY" OPTIONS="5" />
+		<INPUT NAME="LIVERY" OPTIONS="6" />
 		<INPUT NAME="TIRE" OPTIONS="6" />
 		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
 
@@ -14,6 +14,7 @@
 		<NAME LIVERY="53" NAME="Felbermayr #77" />
 		<NAME LIVERY="54" NAME="IMSA Performance #76" />
 		<NAME LIVERY="55" NAME="Hankook #33" />
+		<NAME LIVERY="56" NAME="Manthey#1" />
 		</NAMES>
 
 <NAMES INPUT ="TIRE">
@@ -44,9 +45,7 @@
 	<CONDITION LIVERY="51">
 		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_997gt3rsr_livery01.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\Porsche_997GT3RSR_BANNER2_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\liveries\porsche_997gt3rsr_banner2_falken_diffuse.DDS" />
-		<REPLACE TEXTURE="Vehicles\Textures\Porsche_997GT3RSR_BANNER_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\porsche_997gt3rsr_banner_falken_diffuse.DDS" />
-		
-		
+		<REPLACE TEXTURE="Vehicles\Textures\Porsche_997GT3RSR_BANNER_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\porsche_997gt3rsr_banner_falken_diffuse.DDS" />		
 
 		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_00.dds" NEWTEXTURE="vehicles\textures\tire_falken2_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_01.dds" NEWTEXTURE="vehicles\textures\tire_falken2_diff_01.dds" />
@@ -58,27 +57,21 @@
 		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_SPECULAR_01.dds" NEWTEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_BLACK_SPECULAR_01.DDS" />
 	</CONDITION>
 
-	<!--<CONDITION LIVERY="52">
-		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_997gt3rsr_livery02.dds" />
-		
-		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
-		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_01.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
-	</CONDITION> -->
 	
 	<CONDITION LIVERY="52">
 		<REPLACE MATERIAL="Vehicles\porsche_997gt3rsr\porsche_997gt3rsr_paint" NEWMATERIAL="Vehicles\_generic_materials\livery_lm11_10.mtx" />
 		<REPLACE TEXTURE="vehicles\textures\liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="vehicles\textures\liveries\porsche_997gt3rsr_livery02.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\Porsche_997GT3RSR_BANNER_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\porsche_997gt3rsr_banner_yello_diffuse.DDS" />
 		<REPLACE TEXTURE="Vehicles\Textures\porsche_997gt3rsr_banner_yello_diffuse.dds" NEWTEXTURE="Vehicles\Textures\common_white.DDS" />
-		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
-		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_01.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_01.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="53">
 		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_997gt3rsr_livery03.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\Porsche_997GT3RSR_BANNER_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\porsche_997gt3rsr_banner_Felb_diffuse.DDS" />
-		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
-		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_01.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_01.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="54">
@@ -96,6 +89,15 @@
 		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_00.dds" NEWTEXTURE="vehicles\textures\tire_hankook_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_01.dds" NEWTEXTURE="vehicles\textures\tire_hankook_diff_01.dds" />
 	</CONDITION>
+
+	 <CONDITION LIVERY="56">
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\Manthey1.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\Porsche_997GT3RSR_BANNER_DIFFUSE.dds" NEWTEXTURE="Vehicles\Textures\porsche_997gt3rsr_banner_Manthey_diffuse.DDS" />
+		
+		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_00.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\PORSCHE_997GT3RSR_WHEEL_DIFFUSE_01.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+	</CONDITION> 
+	
 	
 
 	<!-- Soft compound tire -->
@@ -176,24 +178,3 @@
 	</CONDITION>
 
 </REPLACEMENT_SYSTEM>
-
-
-REPLACE TEXTURE="COMMON_PAINT.dds" NEWTEXTURE="PORSCHE_997GT3RSR_FALKEN_LIVERY.DDS" /
-		<REPLACE TEXTURE="Porsche_997GT3RSR_BADGING_DIFFUSE.dds" NEWTEXTURE="Porsche_997GT3RSR_BADGING2_DIFFUSE.DDS" />
-		<REPLACE TEXTURE="Porsche_997GT3RSR_BADGING_SPECULAR.dds" NEWTEXTURE="Porsche_997GT3RSR_BADGING2_SPECULAR.DDS" />
-		<REPLACE TEXTURE="Porsche_997GT3RSR_BANNER_DIFFUSE.dds" NEWTEXTURE="PORSCHE_997GT3RSR_BANNER_FALKEN_DIFFUSE.DDS" />
-		<REPLACE TEXTURE="Porsche_997GT3RSR_BANNER2_DIFFUSE.dds" NEWTEXTURE="PORSCHE_997GT3RSR_BANNER2_FALKEN_DIFFUSE.DDS" />
-		<REPLACE TEXTURE="PORSCHE_997GT3RSR_WHEEL_DIFFUSE_00.dds" NEWTEXTURE="PORSCHE_997GT3RSR_WHEEL_BLACK_DIFFUSE_00.DDS" />
-		<REPLACE TEXTURE="PORSCHE_997GT3RSR_WHEEL_DIFFUSE_01.dds" NEWTEXTURE="PORSCHE_997GT3RSR_WHEEL_BLACK_DIFFUSE_01.DDS" />
-		<REPLACE TEXTURE="PORSCHE_997GT3RSR_WHEEL_NORMALS_00.dds" NEWTEXTURE="PORSCHE_997GT3RSR_WHEEL_BLACK_NORMALS_00.DDS" />
-		<REPLACE TEXTURE="PORSCHE_997GT3RSR_WHEEL_SPECULAR_00.dds" NEWTEXTURE="PORSCHE_997GT3RSR_WHEEL_BLACK_SPECULAR_00.DDS" />
-		<REPLACE TEXTURE="PORSCHE_997GT3RSR_WHEEL_SPECULAR_01.dds" NEWTEXTURE="PORSCHE_997GT3RSR_WHEEL_BLACK_SPECULAR_01.DDS" />
-
-
-
-		<REPLACE TEXTURE="vehicles\textures\TREAD_SLICK1_DIFFUSE_00.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
-		<REPLACE TEXTURE="vehicles\textures\TREAD_SLICK1_DIFFUSE_00" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
-		<REPLACE TEXTURE="vehicles\textures\TREAD_SLICK1_NORMALS_00.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
-		<REPLACE TEXTURE="vehicles\textures\TREAD_SLICK1_NORMALS_01.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
-		<REPLACE TEXTURE="vehicles\textures\TREAD_SLICK1_SPECULAR_00.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
-		<REPLACE TEXTURE="vehicles\textures\TREAD_SLICK1_SPECULAR_01.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />

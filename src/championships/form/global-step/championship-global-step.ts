@@ -5,6 +5,7 @@ import { TitleCasePipe } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
+  computed,
   DestroyRef,
   effect,
   inject,
@@ -76,6 +77,10 @@ export class ChampionshipGlobalStep {
 
   readonly form = input.required<GlobalFormGroup>();
   readonly vehicleClasses = input.required<VehicleClass[]>();
+
+  protected readonly sortedVehicleClasses = computed(() =>
+    this.vehicleClasses().toSorted((a, b) => (a.name ?? a.id).localeCompare(b.name ?? b.id)),
+  );
 
   protected readonly months: { id: number; name: string }[] = [
     1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,

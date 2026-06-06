@@ -1,13 +1,11 @@
-import { inject } from '@angular/core';
-import { RedirectCommand, ResolveFn } from '@angular/router';
 import { EventRepository } from '@/db/event-repository';
+import { TrackRepository } from '@/db/track-repository';
 import { Championship } from '@/shared/models/championship';
 import { RaceEventWithTrack } from '@/shared/models/race-event';
-import { TrackRepository } from '@/db/track-repository';
+import { inject } from '@angular/core';
+import { ResolveFn } from '@angular/router';
 
-export const championshipEventsResolver: ResolveFn<RaceEventWithTrack[] | RedirectCommand> = async (
-  route,
-) => {
+export const championshipEventsResolver: ResolveFn<RaceEventWithTrack[]> = async (route) => {
   const eventRepository = inject(EventRepository);
   const trackRepository = inject(TrackRepository);
   const championshipName = (route.data['championship'] as Championship).name;
@@ -21,5 +19,6 @@ export const championshipEventsResolver: ResolveFn<RaceEventWithTrack[] | Redire
   return events.map((event) => ({
     ...event,
     track_name: tracksById.get(event.track_id)?.name ?? 'Unknown track',
+    is_mod: tracksById.get(event.track_id)?.is_mod ?? false,
   }));
 };

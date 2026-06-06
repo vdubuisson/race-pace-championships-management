@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, input, output } from '@angular/core';
-import { TuiButton, TuiCell, TuiGroup, TuiIcon, TuiTitle } from '@taiga-ui/core';
+import { TuiButton, TuiCell, TuiGroup, TuiHint, TuiIcon, TuiTitle } from '@taiga-ui/core';
 import { TuiAvatar } from '@taiga-ui/kit';
 import { TuiCardLarge, TuiHeader } from '@taiga-ui/layout';
 import { RaceEventWithTrack } from '@/shared/models/race-event';
@@ -22,6 +22,7 @@ import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
     TuiCell,
     TuiGroup,
     TuiHeader,
+    TuiHint,
     TuiIcon,
     TuiTitle,
   ],

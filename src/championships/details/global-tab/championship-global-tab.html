@@ -71,7 +71,17 @@
       <section>
         <ul tuiList>
           @for (cat of championship().classes; track cat.id) {
-            <li>{{ cat.name }}</li>
+            <li>
+              {{ cat.name }}
+              @if (cat.is_mod) {
+                <tui-icon
+                  icon="@tui.astroid"
+                  tuiHint="Car mod"
+                  tuiHintAppearance="floating"
+                  class="mod-icon"
+                />
+              }
+            </li>
           }
         </ul>
       </section>

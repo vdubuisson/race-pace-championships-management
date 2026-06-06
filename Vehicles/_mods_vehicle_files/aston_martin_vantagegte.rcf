@@ -2,7 +2,7 @@
 <REPLACEMENT_SYSTEM>
 	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
 	<INPUTS>
-		<INPUT NAME="LIVERY" OPTIONS="99" />
+		<INPUT NAME="LIVERY" OPTIONS="7" />
 		<INPUT NAME="TIRE" OPTIONS="6" />
 		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
 	</INPUTS>
@@ -12,9 +12,9 @@
 		<NAME LIVERY="52" NAME="Team Aston Martin GULF Racing LeMans 24h 2014 #97" />
 		<NAME LIVERY="53" NAME="Team Aston Martin GULF Racing LeMans 24h 2014 #98" />
 		<NAME LIVERY="54" NAME="Team Aston Martin GULF Racing LeMans 24h 2014 #99" />
-		<NAME LIVERY="55" NAME="Team Aston Martin Racing LeMans 24h 2017 #97" />
-		<NAME LIVERY="56" NAME="TF Sport Spa 6h 2019 #90" />	
-		<NAME LIVERY="57" NAME="Hanergy 2015 #99" />	
+		<NAME LIVERY="55" NAME="Team Aston Martin Racing LeMans 24h 2015 #97 Art Car" />
+		<NAME LIVERY="56" NAME="Team Aston Martin Racing LeMans 24h 2017 #97" />
+		<NAME LIVERY="57" NAME="TF Sport Spa 6h 2018 #90" />	
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -42,8 +42,8 @@
 
 
 	<CONDITION LIVERY="51">
-		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery01_hr.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner01_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery51.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner51_diff.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_diff_00.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_diff_01.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_nmp8888.dds" />
@@ -52,8 +52,8 @@
 	</CONDITION>
 	
 	<CONDITION LIVERY="52">
-		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery02_hr.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner02_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery52.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner52_diff.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_diff_00.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_diff_01.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_nmp8888.dds" />
@@ -62,8 +62,8 @@
 	</CONDITION>
 	
 	<CONDITION LIVERY="53">
-		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery03_hr.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner03_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery53.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner53_diff.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_diff_00.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_diff_01.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_nmp8888.dds" />
@@ -72,20 +72,17 @@
 	</CONDITION>
 	
 	<CONDITION LIVERY="54">
-		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery04_hr.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner04_diff.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery54.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner54_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_diff_01.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_nmp8888.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_spec_00.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_spec_01.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="55">
-		<REPLACE MATERIAL="vehicles\aston_martin_vantage_gte\am_van_gte_paint" NEWMATERIAL="Vehicles\_Paint_Colors\livery_AstonGTE_hr.mtx" />
-		<REPLACE MATERIAL="vehicles\aston_martin_vantage_gte\am_van_gte_paint_skin" NEWMATERIAL="Vehicles\_Paint_Colors\livery_AstonGTE_hr_skin.mtx" />
-		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery05_hr.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner05_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery55.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_diff_00.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_diff_01.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_nmp8888.dds" />
@@ -94,25 +91,29 @@
 	</CONDITION>
 
 	<CONDITION LIVERY="56">
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_gte\am_van_gte_paint" NEWMATERIAL="Vehicles\_Paint_Colors\livery_AstonGTE_hr.mtx" />
+		<REPLACE MATERIAL="vehicles\aston_martin_vantage_gte\am_van_gte_paint_skin" NEWMATERIAL="Vehicles\_Paint_Colors\livery_AstonGTE_hr_skin.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery56.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner56_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_diff_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_diff_01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_nmp8888.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_spec_00.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="57">
 		<REPLACE MATERIAL="vehicles\aston_martin_vantage_gte\am_van_gte_paint" NEWMATERIAL="Vehicles\_Paint_Colors\livery_standard_paint_ESmotor_blue_chrome.mtx" />
 		<REPLACE MATERIAL="vehicles\aston_martin_vantage_gte\am_van_gte_paint_skin" NEWMATERIAL="Vehicles\_Paint_Colors\livery_standard_paint_skin_ESmotor_blue_chrome.mtx" />
-		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery_ESmotor_blue.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner06_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery58.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_spec.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery58_spec.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_fresnel.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_livery58_fresnel.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner58_diff.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_nmp8888.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_00.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_spec_01.dds" />
-	</CONDITION>
-
-	<CONDITION LIVERY="57">
-		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_hanergy_hr.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\am_van_gte_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\am_van_gte_banner04_diff.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_00.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_lm14_diff_01.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_nmp8888.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_spec_00.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_gte15_spec_01.dds" />
 	</CONDITION>
 
 	<!-- Soft Slick tire -->

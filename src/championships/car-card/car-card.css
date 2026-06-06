@@ -2,6 +2,10 @@
   height: 100%;
 }
 
+.mod-icon {
+  color: var(--tui-status-warning);
+}
+
 .btn-overlay {
   display: flex;
   position: absolute;

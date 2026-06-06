@@ -5,9 +5,11 @@ import { stringify } from 'csv-stringify/sync';
 
 const VEHICLES_DIR = path.join(process.cwd(), 'Vehicles');
 const GAME_VEHICLE_FILES_DIR = path.join(VEHICLES_DIR, '_game_vehicle_files');
-const OUTPUT_FILE = path.join(process.cwd(), 'csv', 'vehicles-data.csv');
+const MODS_VEHICLE_FILES_DIR = path.join(VEHICLES_DIR, '_mods_vehicle_files');
+const VEHICLES_OUTPUT_FILE = path.join(process.cwd(), 'csv', 'vehicles-data.csv');
+const LIVERIES_OUTPUT_FILE = path.join(process.cwd(), 'csv', 'liveries-mods-data.csv');
 
-const PROPERTIES_TO_EXTRACT = {
+const VEHICLE_PROPERTIES_TO_EXTRACT = {
   'Vehicle Class': 'class',
   'Vehicle Name': 'name',
   'Vehicle Year': 'year',
@@ -34,14 +36,14 @@ function extractPropertiesFromData(data) {
 
     if (Array.isArray(props)) {
       props.forEach(prop => {
-        if (Object.keys(PROPERTIES_TO_EXTRACT).includes(prop.$.name)) {
-          const key = PROPERTIES_TO_EXTRACT[prop.$.name];
+        if (Object.keys(VEHICLE_PROPERTIES_TO_EXTRACT).includes(prop.$.name)) {
+          const key = VEHICLE_PROPERTIES_TO_EXTRACT[prop.$.name];
           resultProps[key] = prop.$.data || '';
         }
       });
     } else if (props) {
-      if (Object.keys(PROPERTIES_TO_EXTRACT).includes(props.$.name)) {
-        const key = PROPERTIES_TO_EXTRACT[props.$.name];
+      if (Object.keys(VEHICLE_PROPERTIES_TO_EXTRACT).includes(props.$.name)) {
+        const key = VEHICLE_PROPERTIES_TO_EXTRACT[props.$.name];
         resultProps[key] = props.$.data || '';
       }
     }
@@ -50,13 +52,40 @@ function extractPropertiesFromData(data) {
   return resultProps;
 }
 
-async function processCrdFiles() {
-  const allData = [];
+function extractLiveriesFromRcf(data) {
+  const liveries = [];
 
-  // Process both _game_vehicle_files and _mods_vehicle_files
+  if (data.REPLACEMENT_SYSTEM && data.REPLACEMENT_SYSTEM.NAMES) {
+    const namesArray = Array.isArray(data.REPLACEMENT_SYSTEM.NAMES)
+      ? data.REPLACEMENT_SYSTEM.NAMES
+      : [data.REPLACEMENT_SYSTEM.NAMES];
+
+    const liveryNames = namesArray.find(n => n.$.INPUT === 'LIVERY');
+
+    if (liveryNames && liveryNames.NAME) {
+      const names = Array.isArray(liveryNames.NAME)
+        ? liveryNames.NAME
+        : [liveryNames.NAME];
+
+      names.forEach(name => {
+        liveries.push({
+          livery_id: name.$.LIVERY || '',
+          livery_name: name.$.NAME || ''
+        });
+      });
+    }
+  }
+
+  return liveries;
+}
+
+async function processCrdFiles() {
+  const vehiclesData = [];
+  const liveriesData = [];
+
   const directories = [
     { path: GAME_VEHICLE_FILES_DIR, isGameFile: true },
-    { path: path.join(VEHICLES_DIR, '_mods_vehicle_files'), isGameFile: false }
+    { path: MODS_VEHICLE_FILES_DIR, isGameFile: false }
   ];
 
   for (const dir of directories) {
@@ -69,60 +98,106 @@ async function processCrdFiles() {
 
     for (const file of files) {
       const filePath = path.join(dir.path, file);
+      const baseName = file.replace('.crd', '');
 
       try {
         const xmlData = await parseXmlFile(filePath);
         const props = extractPropertiesFromData(xmlData);
 
         // Add filename and game file flag
-        const row = {
-          file_name: file.replace('.crd', '').toLowerCase(),
+        const vehicleRow = {
+          file_name: baseName.toLowerCase(),
           folder_name: '',
           is_mod: dir.isGameFile ? 'FALSE' : 'TRUE',
           ...props,
         };
 
         // Fill missing properties with empty strings
-        Object.values(PROPERTIES_TO_EXTRACT).forEach(prop => {
-          if (!(prop in row)) {
-            row[prop] = '';
+        Object.values(VEHICLE_PROPERTIES_TO_EXTRACT).forEach(prop => {
+          if (!(prop in vehicleRow)) {
+            vehicleRow[prop] = '';
           }
         });
 
-        allData.push(row);
+        vehiclesData.push(vehicleRow);
+
+        // Process RCF file only if isGameFile is false
+        if (!dir.isGameFile) {
+          const rcfFile = baseName + '.rcf';
+          const rcfPath = path.join(dir.path, rcfFile);
+
+          if (fs.existsSync(rcfPath)) {
+            try {
+              const rcfXmlData = await parseXmlFile(rcfPath);
+              const liveries = extractLiveriesFromRcf(rcfXmlData);
+
+              liveries.forEach(livery => {
+                liveriesData.push({
+                  class: vehicleRow.class,
+                  car_name: vehicleRow.name,
+                  livery_id: livery.livery_id,
+                  livery_name: livery.livery_name
+                });
+              });
+
+              console.log(`✓ Processed ${rcfFile} - Found ${liveries.length} liveries`);
+            } catch (error) {
+              console.error(`Error processing ${rcfFile}:`, error.message);
+            }
+          }
+        }
       } catch (error) {
         console.error(`Error processing ${file}:`, error.message);
       }
     }
   }
 
-  return allData;
+  return { vehiclesData, liveriesData };
 }
 
-function writeCsv(data) {
-  const columns = [...Object.values(PROPERTIES_TO_EXTRACT), 'folder_name', 'file_name', 'is_mod'];
+function writeVehiclesCsv(data) {
+  const columns = [...Object.values(VEHICLE_PROPERTIES_TO_EXTRACT), 'folder_name', 'file_name', 'is_mod'];
 
   const output = stringify(data, {
     header: true,
     columns: columns
   });
 
-  fs.writeFileSync(OUTPUT_FILE, output, 'utf8');
-  console.log(`✓ CSV file written to ${OUTPUT_FILE}`);
+  fs.writeFileSync(VEHICLES_OUTPUT_FILE, output, 'utf8');
+  console.log(`✓ CSV file written to ${VEHICLES_OUTPUT_FILE}`);
   console.log(`✓ Total vehicles processed: ${data.length}`);
+}
+
+function writeLiveriesCsv(data) {
+  if (data.length === 0) {
+    console.log('ℹ No liveries to write.');
+    return;
+  }
+
+  const columns = ['class', 'car_name', 'livery_name', 'livery_id'];
+
+  const output = stringify(data, {
+    header: true,
+    columns: columns
+  });
+
+  fs.writeFileSync(LIVERIES_OUTPUT_FILE, output, 'utf8');
+  console.log(`✓ CSV file written to ${LIVERIES_OUTPUT_FILE}`);
+  console.log(`✓ Total liveries processed: ${data.length}`);
 }
 
 async function main() {
   try {
-    console.log('Starting vehicle file parsing...');
-    const vehiclesData = await processCrdFiles();
+    console.log('Starting vehicle and liveries file parsing...');
+    const { vehiclesData, liveriesData } = await processCrdFiles();
 
     if (vehiclesData.length === 0) {
       console.error('No vehicle files found to process.');
       process.exit(1);
     }
 
-    writeCsv(vehiclesData);
+    writeVehiclesCsv(vehiclesData);
+    writeLiveriesCsv(liveriesData);
   } catch (error) {
     console.error('Error:', error);
     process.exit(1);

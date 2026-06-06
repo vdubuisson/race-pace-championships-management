@@ -4,6 +4,7 @@ import { championshipCarsResolver } from './details/resolvers/championship-cars-
 import { championshipEventsResolver } from './details/resolvers/championship-events-resolver';
 import { championshipResolver } from './details/resolvers/championship-resolver';
 import { ChampionshipsListPage } from './list/championships-list-page';
+import { championshipLiveriesResolver } from './details/resolvers/championship-liveries-resolver';
 
 export default [
   { path: '', pathMatch: 'full', component: ChampionshipsListPage },
@@ -26,7 +27,7 @@ export default [
       {
         path: 'cars',
         loadComponent: () => import('./details/cars-tab/championship-cars-tab'),
-        resolve: { cars: championshipCarsResolver },
+        resolve: { cars: championshipCarsResolver, liveries: championshipLiveriesResolver },
       },
       { path: '**', redirectTo: 'global' },
     ],

@@ -3,6 +3,16 @@
     <h2 tuiTitle>
       {{ car().livery }}
     </h2>
+    @if (isMod()) {
+      <aside tuiAccessories>
+        <tui-icon
+          class="mod-icon"
+          icon="@tui.astroid"
+          tuiHint="Car mod"
+          tuiHintAppearance="floating"
+        />
+      </aside>
+    }
   </header>
   @if (shouldShowModel()) {
     <section>{{ car().model }}</section>

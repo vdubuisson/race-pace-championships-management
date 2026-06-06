@@ -2,7 +2,7 @@
 <REPLACEMENT_SYSTEM>
 	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
 	<INPUTS>
-		<INPUT NAME="LIVERY" OPTIONS="3" />
+		<INPUT NAME="LIVERY" OPTIONS="13" />
 		<INPUT NAME="TIRE" OPTIONS="6" />
 		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
 	</INPUTS>
@@ -18,7 +18,10 @@
 		<NAME LIVERY="58" NAME="Gulf 12h 2016 Dragon Racing #88"/>
 		<NAME LIVERY="59" NAME="PWC 2017 T.B.M #61"/>
 		<NAME LIVERY="60" NAME="PWC 2018 Squadra Corse #07"/>
-		<NAME LIVERY="61" NAME="GTWC 2021 Tempesta Racing Team #99"/>		
+		<NAME LIVERY="61" NAME="GTWC 2021 Tempesta Racing Team #99"/>
+		<NAME LIVERY="62" NAME="Ferrari Challenge Asia 2017 M Auto Hiroshima #24 " />
+		<NAME LIVERY="63" NAME="Ferrari Challenge Asia 2019 M Auto Hiroshima #424 " />	
+			
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -158,6 +161,24 @@
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3n_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3n_spec_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3n_norm_00.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Ferrari_488_GT3\ferrari_488_gt3_livery62.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_norm_00.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="63">
+			<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Ferrari_488_GT3\ferrari_488_gt3_livery63.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_norm_00.dds" />
 	</CONDITION>
 	
 	<!-- Soft Slick tire -->

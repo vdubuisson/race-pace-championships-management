@@ -10,7 +10,19 @@
         <tui-textfield tuiChevron [stringify]="getLiveryName">
           <input tuiComboBox [formControl]="carForm.controls.livery" />
           <tui-data-list *tuiDropdown>
-            @let liveryItems = availableLiveries() | tuiFilterByInput: filterLiveryByInput;
+            <section class="car-filters">
+              <label tuiCell="s">
+                <span tuiTitle>No mods</span>
+                <input
+                  tuiSwitch
+                  type="checkbox"
+                  [formControl]="carForm.controls.no_modded_cars"
+                  (change)="noModdedCarsFilter.set(!noModdedCarsFilter())"
+                />
+              </label>
+            </section>
+
+            @let liveryItems = filteredAvailableLiveries() | tuiFilterByInput: filterLiveryByInput;
 
             <cdk-virtual-scroll-viewport
               tuiScrollable
@@ -31,6 +43,16 @@
                 <div tuiTitle>
                   {{ livery.livery_name }}
                   <span tuiSubtitle>{{ livery.car_name }}</span>
+                  <span tuiSubtitle>
+                    <span
+                      tuiChip
+                      [iconEnd]="livery.is_mod ? '@tui.astroid' : ''"
+                      size="xs"
+                      appearance="neutral"
+                    >
+                      {{ livery.is_mod ? 'Mod' : 'Game' }}
+                    </span>
+                  </span>
                 </div>
               </button>
             </cdk-virtual-scroll-viewport>

@@ -66,6 +66,20 @@ export class ChampionshipCarsStep {
     return map;
   });
 
+  readonly isCarsMods = computed<Map<number, boolean>>(() => {
+    const map = new Map<number, boolean>();
+    for (const car of this.cars()) {
+      const isMod = this.liveriesForSelectedClasses().find(
+        (livery) =>
+          livery.class === car.category &&
+          livery.car_name === car.model &&
+          livery.livery_name === car.livery,
+      )?.is_mod;
+      map.set(car.id!, isMod ?? false);
+    }
+    return map;
+  });
+
   protected readonly isFormShown = signal(false);
   protected readonly editedCar = signal<Partial<Car> | null>(null);
   protected readonly editedCategory = signal<string | null>(null);

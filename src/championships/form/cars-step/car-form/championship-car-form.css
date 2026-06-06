@@ -1,10 +1,22 @@
+.car-filters {
+  border-block-end: 1px solid var(--tui-border-normal);
+  padding-bottom: 0.5rem;
+}
+
 .team-option,
 .livery-option {
   box-sizing: border-box;
-  height: 56px;
   width: 100%;
 
   &.tui-leave {
     pointer-events: all;
   }
+}
+
+.team-option {
+  height: 56px;
+}
+
+.livery-option {
+  height: 84px;
 }

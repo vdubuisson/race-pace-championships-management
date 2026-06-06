@@ -11,8 +11,15 @@
     </aside>
   </header>
   <div tuiCell class="icon-cell">
-    <tui-icon icon="@tui.road" />
-    <div tuiTitle>{{ event().track_name }}</div>
+    <tui-icon
+      icon="@tui.road"
+      [badge]="event().is_mod ? '@tui.astroid' : null"
+      [tuiHint]="event().is_mod ? 'Track mod' : null"
+      tuiHintAppearance="floating"
+    />
+    <div tuiTitle>
+      {{ event().track_name }}
+    </div>
     <tui-icon icon="@tui.timer" />
     @if (event().type === 'time') {
       <div tuiTitle>{{ event().duration | duration }}</div>

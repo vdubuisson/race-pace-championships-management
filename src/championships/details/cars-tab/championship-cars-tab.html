@@ -8,7 +8,7 @@
 
   <div class="cars-list">
     @for (car of categoryCars; track car.id) {
-      <app-car-card [car]="car" />
+      <app-car-card [car]="car" [isMod]="isCarsMods().get(car.id!) ?? false" />
     }
   </div>
 }

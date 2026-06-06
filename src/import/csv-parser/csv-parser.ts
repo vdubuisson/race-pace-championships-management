@@ -248,6 +248,8 @@ export class CsvParser {
         switch (context.column) {
           case 'name':
             return value.trim() === '' ? null : value;
+          case 'is_mod':
+            return value.toLowerCase() === 'true';
           default:
             return value;
         }

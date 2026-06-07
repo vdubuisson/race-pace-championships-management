@@ -40,29 +40,6 @@
     <div class="form-field">
       <label tuiLabel>
         <span>
-          ELO
-          <tui-icon [tuiTooltip]="eloTooltip" />
-        </span>
-        <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formControl]="teamForm.controls.elo" />
-          <button
-            type="button"
-            tuiIconButton
-            appearance="action"
-            size="xs"
-            iconStart="@tui.dices"
-            (click)="setRandomElo()"
-          >
-            Randomize
-          </button>
-        </tui-textfield>
-      </label>
-      <tui-error [formControl]="teamForm.controls.elo" />
-    </div>
-
-    <div class="form-field">
-      <label tuiLabel>
-        <span>
           Driver loyalty
           <tui-icon [tuiTooltip]="loyaltyTooltip" />
         </span>

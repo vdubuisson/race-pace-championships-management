@@ -21,7 +21,7 @@ tui-dropdown {
   max-height: 600px !important;
 }
 
-tui-loader.more-visible .t-loader .t-text {
+[tuiTheme='light'] tui-loader.more-visible .t-loader .t-text {
   background-color: rgba(255, 255, 255, 0.8);
 }
 

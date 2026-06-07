@@ -18,101 +18,179 @@
   </aside>
 </header>
 
-<table tuiTable class="championship-list">
-  <thead>
-    <tr>
-      <th tuiTh [sorter]="'name' | tuiSorter" [style.width.%]="26">Name</th>
-      <th tuiTh [style.width.%]="15">Categories</th>
-      <th tuiTh [sorter]="'start_year' | tuiSorter" [style.width.%]="6">Start year</th>
-      <th tuiTh [sorter]="'end_year' | tuiSorter" [style.width.%]="6">End year</th>
-      <th tuiTh [sorter]="'prestige' | tuiSorter" [style.width.%]="7">Prestige</th>
-      <th tuiTh [sorter]="'events_count' | tuiSorter" [style.width.%]="7">Events</th>
-      <th tuiTh [style.width.%]="20">Tags</th>
-      <th tuiTh [sorter]="'default_included' | tuiSorter" [style.width.%]="4">Default</th>
-      <th tuiTh [style.width.%]="9">Actions</th>
-    </tr>
-  </thead>
-  <tbody tuiTbody>
-    @let sliceStart = pageIndex() * pageSize();
-    @let sliceEnd = (pageIndex() + 1) * pageSize();
-    @let tableData = championships() | tuiTableSort | slice: sliceStart : sliceEnd;
-    @for (championship of tableData; track championship.name) {
-      <tr tuiTr>
-        <td tuiTd>{{ championship.name }}</td>
-        <td tuiTd>
-          <div tuiItemGroup>
-            @for (cat of championship.classes; track cat.id) {
-              <span appearance="custom" tuiChip [style.background-color]="cat.id | tuiAutoColor">
-                {{ cat.name }}
-              </span>
-            }
-          </div>
-        </td>
-        <td tuiTd>{{ championship.start_year }}</td>
-        <td tuiTd>{{ championship.end_year }}</td>
-        <td tuiTd>{{ championship.prestige }}</td>
-        <td tuiTd>{{ championship.events_count }}</td>
-        <td tuiTd>
-          <div tuiItemGroup>
-            @for (tag of championship.tags; track tag) {
-              <span appearance="custom" tuiChip [style.background-color]="tag | tuiAutoColor">
-                {{ tag }}
-              </span>
-            }
-          </div>
-        </td>
-        <td tuiTd>
-          <tui-icon
-            [icon]="championship.default_included ? '@tui.check' : '@tui.x'"
-            [class.included]="championship.default_included"
-            class="included-icon"
-          ></tui-icon>
-        </td>
-        <td tuiTd>
-          <a
-            [routerLink]="['details', championship.id]"
-            appearance="action"
-            iconStart="@tui.eye"
-            size="xs"
-            tuiIconButton
-          >
-            View
-          </a>
-          <a
-            [routerLink]="['form', championship.id]"
-            appearance="action"
-            iconStart="@tui.pencil"
-            size="xs"
-            tuiIconButton
-          >
-            Edit
-          </a>
-          <button
-            (click)="deleteChampionship(championship.id!, championship.name)"
-            appearance="action-destructive"
-            iconStart="@tui.trash"
-            size="xs"
-            tuiIconButton
-            type="button"
-          >
-            Delete
-          </button>
-        </td>
-      </tr>
-    }
-  </tbody>
-  @if (totalPages() > 1) {
-    <tfoot>
+<form [formGroup]="filters.form" class="filters-form">
+  <table tuiTable class="championship-list">
+    <thead>
       <tr>
-        <td [colSpan]="9">
-          <tui-table-pagination
-            [page]="pageIndex()"
-            [size]="pageSize()"
-            [total]="championships().length"
-            (paginationChange)="onPagination($event)"
-          />
-        </td>
+        <th tuiTh [sorter]="'name' | tuiSorter" [style.width.%]="26">Name</th>
+        <th tuiTh [style.width.%]="15">Categories</th>
+        <th tuiTh [sorter]="'start_year' | tuiSorter" [style.width.%]="6">Start year</th>
+        <th tuiTh [sorter]="'end_year' | tuiSorter" [style.width.%]="6">End year</th>
+        <th tuiTh [sorter]="'prestige' | tuiSorter" [style.width.%]="7">Prestige</th>
+        <th tuiTh [sorter]="'events_count' | tuiSorter" [style.width.%]="7">Events</th>
+        <th tuiTh [style.width.%]="20">Tags</th>
+        <th tuiTh [sorter]="'default_included' | tuiSorter" [style.width.%]="4">Default</th>
+        <th tuiTh [style.width.%]="9">Actions</th>
       </tr>
-    </tfoot>
-  }
-</table>
+      <tr class="filters-row">
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input formControlName="name" tuiInput placeholder="Filter" />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield tuiChevron [tuiTextfieldCleaner]="true">
+            <input
+              tuiComboBox
+              [formControl]="filters.form.controls.categoryName"
+              placeholder="Select"
+            />
+            <tui-data-list-wrapper
+              *tuiDropdown
+              [items]="filters.categoriesOptions() | tuiFilterByInput"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield tuiChevron>
+            <input tuiComboBox [formControl]="filters.form.controls.startYear" />
+            <tui-data-list-wrapper
+              *tuiDropdown
+              [items]="filters.startYearOptions() | tuiFilterByInput"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield tuiChevron [tuiTextfieldCleaner]="true">
+            <input tuiComboBox [formControl]="filters.form.controls.endYear" />
+            <tui-data-list-wrapper
+              *tuiDropdown
+              [items]="filters.endYearOptions() | tuiFilterByInput"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input
+              tuiInputNumber
+              [formControl]="filters.form.controls.prestige"
+              placeholder="Filter"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input
+              tuiInputNumber
+              [formControl]="filters.form.controls.eventsCount"
+              placeholder="Filter"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield tuiChevron [tuiTextfieldCleaner]="true">
+            <input tuiComboBox [formControl]="filters.form.controls.tag" placeholder="Select" />
+            <tui-data-list-wrapper
+              *tuiDropdown
+              [items]="filters.tagsOptions() | tuiFilterByInput"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <label tuiCell class="switch-cell">
+            <input
+              tuiSwitch
+              [formControl]="filters.form.controls.defaultIncluded"
+              type="checkbox"
+            />
+          </label>
+        </th>
+        <th tuiTh></th>
+      </tr>
+    </thead>
+    <tbody tuiTbody>
+      @let sliceStart = pageIndex() * pageSize();
+      @let sliceEnd = (pageIndex() + 1) * pageSize();
+      @let tableData =
+        filters.filteredChampionships() | tuiTableSort | slice: sliceStart : sliceEnd;
+      @for (championship of tableData; track championship.name) {
+        <tr tuiTr>
+          <td tuiTd>{{ championship.name }}</td>
+          <td tuiTd>
+            <div tuiItemGroup>
+              @for (cat of championship.classes; track cat.id) {
+                <span appearance="custom" tuiChip [style.background-color]="cat.id | tuiAutoColor">
+                  {{ cat.name }}
+                </span>
+              }
+            </div>
+          </td>
+          <td tuiTd>{{ championship.start_year }}</td>
+          <td tuiTd>{{ championship.end_year }}</td>
+          <td tuiTd>{{ championship.prestige }}</td>
+          <td tuiTd>{{ championship.events_count }}</td>
+          <td tuiTd>
+            <div tuiItemGroup>
+              @for (tag of championship.tags; track tag) {
+                <span appearance="custom" tuiChip [style.background-color]="tag | tuiAutoColor">
+                  {{ tag }}
+                </span>
+              }
+            </div>
+          </td>
+          <td tuiTd>
+            <tui-icon
+              [icon]="championship.default_included ? '@tui.check' : '@tui.x'"
+              [class.included]="championship.default_included"
+              class="included-icon"
+            ></tui-icon>
+          </td>
+          <td tuiTd>
+            <a
+              [routerLink]="['details', championship.id]"
+              appearance="action"
+              iconStart="@tui.eye"
+              size="xs"
+              tuiIconButton
+            >
+              View
+            </a>
+            <a
+              [routerLink]="['form', championship.id]"
+              appearance="action"
+              iconStart="@tui.pencil"
+              size="xs"
+              tuiIconButton
+            >
+              Edit
+            </a>
+            <button
+              (click)="deleteChampionship(championship.id!, championship.name)"
+              appearance="action-destructive"
+              iconStart="@tui.trash"
+              size="xs"
+              tuiIconButton
+              type="button"
+            >
+              Delete
+            </button>
+          </td>
+        </tr>
+      }
+    </tbody>
+    @if (totalPages() > 1) {
+      <tfoot>
+        <tr>
+          <td [colSpan]="9">
+            <tui-table-pagination
+              [page]="pageIndex()"
+              [size]="pageSize()"
+              [total]="filters.filteredChampionships().length"
+              (paginationChange)="onPagination($event)"
+            />
+          </td>
+        </tr>
+      </tfoot>
+    }
+  </table>
+</form>

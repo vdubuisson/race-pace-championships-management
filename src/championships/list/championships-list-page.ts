@@ -1,52 +1,75 @@
 import { SlicePipe } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
-import { toSignal } from '@angular/core/rxjs-interop';
+import { ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { TuiTable, TuiTablePagination, TuiTablePaginationEvent } from '@taiga-ui/addon-table';
 import {
   TuiButton,
+  TuiCell,
   TuiDialogService,
+  TuiFilterByInputPipe,
   TuiIcon,
+  TuiInput,
   TuiNotificationService,
   TuiTitle,
 } from '@taiga-ui/core';
-import { TUI_CONFIRM, TuiAutoColorPipe, TuiChip, TuiConfirmData } from '@taiga-ui/kit';
+import {
+  TUI_CONFIRM,
+  TuiAutoColorPipe,
+  TuiChevron,
+  TuiChip,
+  TuiComboBox,
+  TuiConfirmData,
+  TuiDataListWrapper,
+  TuiInputNumber,
+  TuiSwitch,
+} from '@taiga-ui/kit';
 import { TuiHeader, TuiItemGroup } from '@taiga-ui/layout';
 import { of, switchMap } from 'rxjs';
 import { ChampionshipsService } from '../championships-service/championships-service';
+import { ChampionshipsListFilters } from './championships-list-filters';
 
 @Component({
   selector: 'app-championships-list-page',
   templateUrl: './championships-list-page.html',
   styleUrl: './championships-list-page.css',
   imports: [
+    ReactiveFormsModule,
     RouterLink,
     SlicePipe,
     TuiAutoColorPipe,
     TuiButton,
+    TuiCell,
+    TuiChevron,
     TuiChip,
+    TuiComboBox,
+    TuiDataListWrapper,
+    TuiFilterByInputPipe,
     TuiHeader,
     TuiIcon,
+    TuiInput,
+    TuiInputNumber,
     TuiItemGroup,
+    TuiSwitch,
     TuiTable,
     TuiTablePagination,
     TuiTitle,
   ],
+  providers: [ChampionshipsListFilters],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ChampionshipsListPage {
   private readonly championshipService = inject(ChampionshipsService);
+  readonly filters = inject(ChampionshipsListFilters);
   private readonly dialogs = inject(TuiDialogService);
   private readonly notifications = inject(TuiNotificationService);
 
   protected readonly pageSize = signal(20);
   protected readonly pageIndex = signal(0);
 
-  protected championships = toSignal(this.championshipService.getChampionships(), {
-    initialValue: [],
-  });
-
-  protected totalPages = computed(() => Math.ceil(this.championships().length / this.pageSize()));
+  protected totalPages = computed(() =>
+    Math.ceil(this.filters.filteredChampionships().length / this.pageSize()),
+  );
 
   onPagination(event: TuiTablePaginationEvent) {
     this.pageIndex.set(event.page);

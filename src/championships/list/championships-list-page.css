@@ -10,3 +10,17 @@
     color: var(--tui-status-positive);
   }
 }
+
+.filters-row th {
+  padding: 0;
+
+  input {
+    font-style: italic;
+  }
+
+  .switch-cell {
+    border-radius: 0;
+    justify-content: center;
+    height: 100%;
+  }
+}

@@ -22,8 +22,7 @@
   <thead>
     <tr>
       <th tuiTh [sorter]="'name' | tuiSorter" [style.width.%]="30">Name</th>
-      <th tuiTh [sorter]="'elo' | tuiSorter">ELO</th>
-      <th tuiTh [style.width.%]="20">Principal</th>
+      <th tuiTh [style.width.%]="30">Principal</th>
       <th tuiTh>Driver Loyalty</th>
       <th tuiTh>Expectation Level</th>
       <th tuiTh [style.width.%]="10">Actions</th>
@@ -36,7 +35,6 @@
     @for (team of tableData; track team.name) {
       <tr tuiTr>
         <td tuiTd>{{ team.name }}</td>
-        <td tuiTd>{{ team.elo }}</td>
         <td tuiTd>{{ team.principal }}</td>
         <td tuiTd>{{ team.driver_loyalty }}</td>
         <td tuiTd>{{ team.expectation_level }}</td>

@@ -51,7 +51,7 @@ const EXPECTED_HEADERS: Record<string, string[]> = {
     'duration',
     'start_time',
   ],
-  'teams.csv': ['name', 'elo', 'principal', 'driver_loyalty', 'expectation_level'],
+  'teams.csv': ['name', 'principal', 'driver_loyalty', 'expectation_level'],
 };
 
 @Injectable({ providedIn: 'root' })
@@ -161,7 +161,6 @@ export class CsvParser {
       cast: (value, context) => {
         if (context.header) return value;
         switch (context.column) {
-          case 'elo':
           case 'driver_loyalty':
           case 'expectation_level':
             if (value === '') return null;

@@ -196,7 +196,7 @@ export class CsvExporter {
 
     return stringify(records, {
       header: true,
-      columns: ['name', 'elo', 'principal', 'driver_loyalty', 'expectation_level'],
+      columns: ['name', 'principal', 'driver_loyalty', 'expectation_level'],
     });
   }
 

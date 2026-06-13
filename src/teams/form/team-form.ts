@@ -1,3 +1,5 @@
+import { TeamRepository } from '@/db/team-repository';
+import { Team } from '@/shared/models/team';
 import {
   ChangeDetectionStrategy,
   Component,
@@ -26,8 +28,6 @@ import {
 } from '@taiga-ui/core';
 import { TuiInputNumber, TuiTooltip } from '@taiga-ui/kit';
 import { TuiForm, TuiHeader } from '@taiga-ui/layout';
-import { TeamRepository } from '@/db/team-repository';
-import { Team } from '@/shared/models/team';
 
 @Component({
   selector: 'app-team-form',
@@ -92,10 +92,6 @@ export default class TeamForm {
       asyncValidators: [this.teamNameAvailableValidator],
       updateOn: 'blur',
     }),
-    elo: new FormControl<number>(1500, {
-      nonNullable: true,
-      validators: [Validators.required, Validators.min(0)],
-    }),
     principal: new FormControl<string>('', {
       nonNullable: true,
       validators: [Validators.required],
@@ -106,9 +102,6 @@ export default class TeamForm {
     expectation_level: new FormControl<number | null>(null),
   });
 
-  protected readonly eloTooltip = `Initial ELO/ranking of the team.
-    Affects their chances of hiring better driver.
-    These numbers will get balanced out in the initial simulation anyway.`;
   protected readonly loyaltyTooltip = `How much a team will favour drivers they are happy with VS better ranked drivers that are on the market.
     Between 0 and 1, defaults to a random value between 0 and 0.2.`;
   protected readonly expectationLevelTooltip = `Happiness of driver/team relationships is determined by how well a driver does compared to what can be theoretically expected of them based on their past results.
@@ -162,9 +155,5 @@ export default class TeamForm {
     } else {
       console.error('Form is invalid');
     }
-  }
-
-  protected setRandomElo() {
-    this.teamForm.patchValue({ elo: Math.floor(Math.random() * 800) + 1300 });
   }
 }

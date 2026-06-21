@@ -60,7 +60,8 @@ export class CsvParser {
     this.validateHeaders('cars.csv', text);
     const rows = parse(text, {
       bom: true,
-      columns: true,
+      columns: (header) =>
+        header.map((h) => (EXPECTED_HEADERS['cars.csv'].includes(h) ? h : undefined)),
       skip_empty_lines: true,
       trim: true,
       cast: (value, context) => {
@@ -91,7 +92,8 @@ export class CsvParser {
     this.validateHeaders('championships.csv', text);
     return parse(text, {
       bom: true,
-      columns: true,
+      columns: (header) =>
+        header.map((h) => (EXPECTED_HEADERS['championships.csv'].includes(h) ? h : undefined)),
       skip_empty_lines: true,
       trim: true,
       cast: (value, context) => {
@@ -130,7 +132,8 @@ export class CsvParser {
     this.validateHeaders('events.csv', text);
     return parse(text, {
       bom: true,
-      columns: true,
+      columns: (header) =>
+        header.map((h) => (EXPECTED_HEADERS['events.csv'].includes(h) ? h : undefined)),
       skip_empty_lines: true,
       trim: true,
       cast: (value, context) => {
@@ -155,7 +158,8 @@ export class CsvParser {
     this.validateHeaders('teams.csv', text);
     return parse(text, {
       bom: true,
-      columns: true,
+      columns: (header) =>
+        header.map((h) => (EXPECTED_HEADERS['teams.csv'].includes(h) ? h : undefined)),
       skip_empty_lines: true,
       trim: true,
       cast: (value, context) => {
@@ -175,7 +179,8 @@ export class CsvParser {
   parseTracks(text: string): Track[] {
     return parse(text, {
       bom: true,
-      columns: true,
+      columns: (header) =>
+        header.map((h) => (EXPECTED_HEADERS['tracks.csv'].includes(h) ? h : undefined)),
       skip_empty_lines: true,
       trim: true,
       cast: (value, context) => {
@@ -200,7 +205,8 @@ export class CsvParser {
   parseModels(text: string): VehicleModel[] {
     return parse(text, {
       bom: true,
-      columns: true,
+      columns: (header) =>
+        header.map((h) => (EXPECTED_HEADERS['models.csv'].includes(h) ? h : undefined)),
       skip_empty_lines: true,
       trim: true,
       cast: (value, context) => {
@@ -218,7 +224,8 @@ export class CsvParser {
   parseLiveries(text: string): Livery[] {
     return parse(text, {
       bom: true,
-      columns: true,
+      columns: (header) =>
+        header.map((h) => (EXPECTED_HEADERS['liveries.csv'].includes(h) ? h : undefined)),
       skip_empty_lines: true,
       trim: true,
       cast: (value, context) => {
@@ -239,7 +246,8 @@ export class CsvParser {
   parseClasses(text: string): VehicleClass[] {
     return parse(text, {
       bom: true,
-      columns: true,
+      columns: (header) =>
+        header.map((h) => (EXPECTED_HEADERS['classes.csv'].includes(h) ? h : undefined)),
       skip_empty_lines: true,
       trim: true,
       cast: (value, context) => {
@@ -267,15 +275,11 @@ export class CsvParser {
 
     const actual = firstLine.split(',').map((h) => h.trim());
     const missing = expected.filter((h) => !actual.includes(h));
-    const unexpected = actual.filter((h) => !expected.includes(h));
 
-    if (missing.length > 0 || unexpected.length > 0) {
-      const parts: string[] = [];
-      if (missing.length > 0) parts.push(`Missing columns: ${missing.join(', ')}`);
-      if (unexpected.length > 0) parts.push(`Unexpected columns: ${unexpected.join(', ')}`);
+    if (missing.length > 0) {
       throw new CsvValidationError(
         fileName,
-        `Invalid structure in "${fileName}". ${parts.join('. ')}`,
+        `Missing columns in "${fileName}": ${missing.join(', ')}`,
       );
     }
   }

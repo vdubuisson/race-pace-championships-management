@@ -47,6 +47,10 @@
         <prop name="GrassParticlesOverride" type="String" />
         <prop name="LeafParticlesOverride" type="String" />
         <prop name="Uses Reflection Flag" type="Bool" />
+		<prop name="AIScalarForFuelLaptimeLoss" type="F32" />
+		<prop name="MaxPuddleDepthDriven" type="F32" />
+		<prop name="MaxPuddleDepthRoad" type="F32" />
+		<prop name="MaxPuddleDepthOffroad" type="F32" />
         <prop name="Track_Location" type="String" />
         <prop name="Track_Variation" type="String" />
         <prop name="AI Grip" type="F32" />
@@ -151,6 +155,10 @@
         <prop name="GrassParticlesOverride" data="" />
         <prop name="LeafParticlesOverride" data="" />
         <prop name="Uses Reflection Flag" data="true" />
+		<prop name="AIScalarForFuelLaptimeLoss" data="1.0" />
+		<prop name="MaxPuddleDepthDriven" data="0.03" />
+		<prop name="MaxPuddleDepthRoad" data="0.04" />
+		<prop name="MaxPuddleDepthOffroad" data="0.20" />
         <prop name="Track_Location" data="Termas_Rio_Hondo" />
         <prop name="Track_Variation" data="Termas_Rio_Hondo" />
         <prop name="AI Grip" data="0.94" />

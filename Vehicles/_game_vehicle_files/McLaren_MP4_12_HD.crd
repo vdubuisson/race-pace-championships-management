@@ -17,6 +17,7 @@
         <prop name="Vehicle Physics Model" type="String" />
         <prop name="Cockpit properties" type="String" />
         <prop name="Vehicle Properties" type="String" />
+        <prop name="Safety Car Driver Name" type="String" /> 			
         <prop name="Vehicle Year" type="S32" />
         <prop name="Shadow Width" type="F32" />
         <prop name="Shadow Length" type="F32" />
@@ -57,6 +58,7 @@
         <prop name="Right Mirror Pos" type="Vec3f" />
         <prop name="AABBMin" type="Vec3f" />
         <prop name="AABBMax" type="Vec3f" />
+        <prop name="Is Open Wheeler" type="Bool" />
         <prop name="Blown Engine Smoke Scale" type="F32" />
         <prop name="Drafting Contrail Min Speed" type="F32" />
         <prop name="Drafting Contrail Max Speed" type="F32" />
@@ -79,6 +81,7 @@
         <prop name="Vehicle Physics Model" data="McLaren_MP4_12_HD" />
         <prop name="Cockpit properties" data="McLaren_MP4_12_HD_Cockpit.bin" />
         <prop name="Vehicle Properties" data="McLaren_MP4_12" />
+		<prop name="Safety Car Driver Name" data="SafetyBMWM3Driver" />	
         <prop name="Vehicle Year" data="1996" />
         <prop name="Shadow Width" data="5.00" />
         <prop name="Shadow Length" data="7.00" />
@@ -119,12 +122,13 @@
         <prop name="Right Mirror Pos" data="-0.384;0.661;-0.361" />
         <prop name="AABBMin" data="-1.5;-0.0;-4.0" />
         <prop name="AABBMax" data="1.5;1.5;4.0" />
+        <prop name="Is Open Wheeler" data="true" />
         <prop name="Blown Engine Smoke Scale" data="0.85" />		
-        <prop name="Drafting Contrail Min Speed" data="100" />
-        <prop name="Drafting Contrail Max Speed" data="120" />
+        <prop name="Drafting Contrail Min Speed" data="70" />
+        <prop name="Drafting Contrail Max Speed" data="100" />
         <prop name="Drafting Contrail Min Temperature" data="0" />
         <prop name="Drafting Contrail Max Temperature" data="25" />
-        <prop name="Drafting Contrail Min Humidity" data="0.70" />
+        <prop name="Drafting Contrail Min Humidity" data="0.75" />
         <prop name="Drafting Contrail Disable When DRS Opened" data="false" />
     </data>
 </Reflection>

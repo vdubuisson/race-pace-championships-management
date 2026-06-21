@@ -68,6 +68,7 @@
         <prop name="Right Mirror Pos" type="Vec3f" />
         <prop name="AABBMin" type="Vec3f" />
         <prop name="AABBMax" type="Vec3f" />
+        <prop name="Is Open Wheeler" type="Bool" />
         <prop name="Blown Engine Smoke Scale" type="F32" />
     </class>
     <data class="VehicleDetails" id="0xA441FE8">
@@ -135,6 +136,7 @@
         <prop name="Right Mirror Pos" data="-0.286;0.648;-0.884" />
         <prop name="AABBMin" data="-1.5;-0.0;-3.5" />
         <prop name="AABBMax" data="1.5;1.5;4.0" />
+        <prop name="Is Open Wheeler" data="true" />
         <prop name="Blown Engine Smoke Scale" data="0.35" />
     </data>
 </Reflection>

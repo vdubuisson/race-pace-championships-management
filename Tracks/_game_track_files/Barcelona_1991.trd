@@ -46,6 +46,10 @@
         <prop name="GrassParticlesOverride" type="String" />
         <prop name="LeafParticlesOverride" type="String" />
         <prop name="Uses Reflection Flag" type="Bool" />
+		<prop name="AIScalarForFuelLaptimeLoss" type="F32" />
+		<prop name="MaxPuddleDepthDriven" type="F32" />
+		<prop name="MaxPuddleDepthRoad" type="F32" />
+		<prop name="MaxPuddleDepthOffroad" type="F32" />
         <prop name="GripBase" type="F32" />
         <prop name="GripRange" type="F32" />		
         <prop name="Track_Location" type="String" />
@@ -118,7 +122,7 @@
         <prop name="Location" data="Spain" />
         <prop name="Country" data="ES" />
         <prop name="TrackGradeFilter" data="Historic" />
-        <prop name="PresetFilter" data="GroupC,GroupA,90sG1_Historic,FormulasV12,FormulaHiTechGen2,FormulaHiTechGen1,FormulaClassic" />
+        <prop name="PresetFilter" data="GroupC,GroupA,90sG1_Historic,FormulaHiTechGen2,FormulaHiTechGen1,FormulaClassic" />
         <prop name="Track Type" data="Circuit" />
         <prop name="Allowed Weather" data="Weather_Clear,Weather_LightCloud,Weather_MedCloud,Weather_HeavyCloud,Weather_Overcast,Weather_LightRain,Weather_Rainy,Weather_Stormy,Weather_SuperStorm,Weather_Foggy,weather_fog_with_rain,weather_heavy_fog,weather_heavy_fog_with_rain,Weather_Hazy,Weather_Random" />
         <prop name="Weather Weights" data="20,20,20,10,4,2,2,1,1,0.0,0.0,0.0,0.0,0.5,0.0" />
@@ -148,8 +152,12 @@
         <prop name="GrassParticlesOverride" data="" />
         <prop name="LeafParticlesOverride" data="" />
         <prop name="Uses Reflection Flag" data="true" />
-		<prop name="GripBase" data="0.9485" />
-		<prop name="GripRange" data="0.062" />			
+		<prop name="AIScalarForFuelLaptimeLoss" data="1.0" />
+		<prop name="MaxPuddleDepthDriven" data="0.03" />
+		<prop name="MaxPuddleDepthRoad" data="0.04" />
+		<prop name="MaxPuddleDepthOffroad" data="0.20" />
+		<prop name="GripBase" data="0.950" />
+		<prop name="GripRange" data="0.0625" />			
         <prop name="Track_Location" data="Barcelona" />
         <prop name="Track_Variation" data="Barcelona_1991" />
         <prop name="AI Grip" data="1.0" />
@@ -157,7 +165,7 @@
 		<prop name="ScalarBlueFlagMinDistBack" data="1.0" />
 		<prop name="ScalarAILappedCarDistanceAhead" data="1.0" />
 		<prop name="ScalarAISlowCarDistanceAhead" data="1.0" />
-		<prop name="ScalarAISteerScalarCornerCut" data="0.92" />
+		<prop name="ScalarAISteerScalarCornerCut" data="0.90" />
 		<prop name="ScalarAIPassComplexityCutoffMaxAggression" data="1.2" />
 		<prop name="ScalarAIPassComplexityCutoffMinAggression" data="1.2" />
 		<prop name="ScalarAITTCStraightOvertakeDist" data="1.0" />
@@ -200,8 +208,8 @@
         <prop name="PostRace Script name" data="default_post_race.script" />
         <prop name="Track Properties File" data="TrackProperties" />
         <prop name="Crowd Pak Filename" data="" />
-		<prop name="AIWidthScalarToReduceCorridors" data="0.24" />
-		<prop name="AIWidthScalarToReduceCorridorsFullThrottle" data="0.12" />
+		<prop name="AIWidthScalarToReduceCorridors" data="0.25" />
+		<prop name="AIWidthScalarToReduceCorridorsFullThrottle" data="0.125" />
 		<prop name="AIDisableCorridorsReductionAgainstLapped" data="false" />
 		<prop name="AIDisableCorridorsReductionAgainstHuman" data="true" />	
         <prop name="FogMaxDistanceScalar" data="1.17" />

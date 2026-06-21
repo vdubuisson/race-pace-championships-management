@@ -3063,109 +3063,6 @@
         "class" : "FE-G1"
       },
       {
-        "id" : 523915852,
-        "name" : "Formula V10 Gen2",
-        "liveries" : [
-          {
-            "id" : 50,
-            "name" : "Didcot Racing #1"
-          },
-          {
-            "id" : 51,
-            "name" : "Didcot Racing #2"
-          },
-          {
-            "id" : 52,
-            "name" : "Bolt G.P. #3"
-          },
-          {
-            "id" : 53,
-            "name" : "Bolt G.P. #4"
-          },
-          {
-            "id" : 54,
-            "name" : "Puma Racing #5"
-          },
-          {
-            "id" : 55,
-            "name" : "Puma Racing #6"
-          },
-          {
-            "id" : 56,
-            "name" : "Roch G.P. #7"
-          },
-          {
-            "id" : 57,
-            "name" : "Roch G.P. #8"
-          },
-          {
-            "id" : 58,
-            "name" : "Paddy G.P. #9"
-          },
-          {
-            "id" : 59,
-            "name" : "Paddy G.P. #10"
-          },
-          {
-            "id" : 60,
-            "name" : "Strike G.P. #12"
-          },
-          {
-            "id" : 61,
-            "name" : "Scuderia Faenza Girardi #14"
-          },
-          {
-            "id" : 62,
-            "name" : "Scuderia Faenza Girardi #15"
-          },
-          {
-            "id" : 63,
-            "name" : "Zir-Win Motorsport #18"
-          },
-          {
-            "id" : 64,
-            "name" : "Zir-Win Motorsport #19"
-          },
-          {
-            "id" : 65,
-            "name" : "Scuderia Forza #20"
-          },
-          {
-            "id" : 66,
-            "name" : "Scuderia Forza #21"
-          },
-          {
-            "id" : 67,
-            "name" : "McLean G.P. #22"
-          },
-          {
-            "id" : 68,
-            "name" : "McLean G.P. #23"
-          },
-          {
-            "id" : 69,
-            "name" : "Full Force Racing #43"
-          },
-          {
-            "id" : 70,
-            "name" : "TAB Racing #24"
-          },
-          {
-            "id" : 71,
-            "name" : "TAB Racing #25"
-          },
-          {
-            "id" : 72,
-            "name" : "United Racing #26"
-          },
-          {
-            "id" : 73,
-            "name" : "United Racing #27"
-          }
-        ],
-        "class" : "F-V10_Gen2"
-      },
-      {
         "id" : 884102371,
         "name" : "Formula V10 Gen1",
         "liveries" : [
@@ -3274,6 +3171,404 @@
           }
         ],
         "class" : "F-V10_Gen1"
+      },
+      {
+        "id" : 1697202411,
+        "name" : "McLaren MP4/16",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "McLaren MP4/16 #3"
+          },
+          {
+            "id" : 51,
+            "name" : "McLaren MP4/16 #4"
+          }
+        ],
+        "class" : "F-V10_Gen2"
+      },
+      {
+        "id" : -1260391192,
+        "name" : "Formula V8 Gen1 (M)",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "McLean G.P. #3"
+          },
+          {
+            "id" : 51,
+            "name" : "McLean G.P. #4"
+          },
+          {
+            "id" : 52,
+            "name" : "Hoshino #11"
+          },
+          {
+            "id" : 53,
+            "name" : "Hoshino #12"
+          },
+          {
+            "id" : 54,
+            "name" : "energyX Racing #14"
+          },
+          {
+            "id" : 55,
+            "name" : "energyX Racing #15"
+          },
+          {
+            "id" : 56,
+            "name" : "Deutsch Zir-Win Motorsport #16"
+          },
+          {
+            "id" : 57,
+            "name" : "Deutsch Zir-Win Motorsport #17"
+          },
+          {
+            "id" : 58,
+            "name" : "energyX Faenza #20"
+          },
+          {
+            "id" : 59,
+            "name" : "energyX Faenza #21"
+          }
+        ],
+        "class" : "F-V8_Gen1"
+      },
+      {
+        "id" : -2125823505,
+        "name" : "Formula V8 Gen1 (B)",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Scuderia Forza #5"
+          },
+          {
+            "id" : 51,
+            "name" : "Scuderia Forza #6"
+          },
+          {
+            "id" : 52,
+            "name" : "TECH-J #7"
+          },
+          {
+            "id" : 53,
+            "name" : "TECH-J #8"
+          },
+          {
+            "id" : 54,
+            "name" : "Didcot Racing #9"
+          },
+          {
+            "id" : 55,
+            "name" : "Didcot Racing #10"
+          },
+          {
+            "id" : 56,
+            "name" : "FMR Racing #18"
+          },
+          {
+            "id" : 57,
+            "name" : "FMR Racing #19"
+          },
+          {
+            "id" : 58,
+            "name" : "Team Agiro #22"
+          },
+          {
+            "id" : 59,
+            "name" : "Team Agiro #23"
+          }
+        ],
+        "class" : "F-V8_Gen1"
+      },
+      {
+        "id" : 1107719042,
+        "name" : "Formula V8 Gen2",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Scuderia Forza #1"
+          },
+          {
+            "id" : 51,
+            "name" : "Scuderia Forza #2"
+          },
+          {
+            "id" : 52,
+            "name" : "Deutsch Zir-Win Motorsport #3"
+          },
+          {
+            "id" : 53,
+            "name" : "Deutsch Zir-Win Motorsport #4"
+          },
+          {
+            "id" : 54,
+            "name" : "Didcot Racing #7"
+          },
+          {
+            "id" : 55,
+            "name" : "Didcot Racing #8"
+          },
+          {
+            "id" : 56,
+            "name" : "energyX Racing #9"
+          },
+          {
+            "id" : 57,
+            "name" : "energyX Racing #10"
+          },
+          {
+            "id" : 58,
+            "name" : "TECH-J #11"
+          },
+          {
+            "id" : 59,
+            "name" : "TECH-J #12"
+          },
+          {
+            "id" : 60,
+            "name" : "energyX Faenza #14"
+          },
+          {
+            "id" : 61,
+            "name" : "energyX Faenza #15"
+          },
+          {
+            "id" : 62,
+            "name" : "Hoshino #16"
+          },
+          {
+            "id" : 63,
+            "name" : "Hoshino #17"
+          },
+          {
+            "id" : 64,
+            "name" : "Team Agiro #18"
+          },
+          {
+            "id" : 65,
+            "name" : "Team Agiro #19"
+          },
+          {
+            "id" : 66,
+            "name" : "Cobra Force G.P. #20"
+          },
+          {
+            "id" : 67,
+            "name" : "Cobra Force G.P. #21"
+          }
+        ],
+        "class" : "F-V8_Gen2"
+      },
+      {
+        "id" : 523915852,
+        "name" : "Formula V10 Gen2 (B)",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Paddy G.P. #9"
+          },
+          {
+            "id" : 51,
+            "name" : "Paddy G.P. #10"
+          },
+          {
+            "id" : 52,
+            "name" : "Zir-Win Motorsport #18"
+          },
+          {
+            "id" : 53,
+            "name" : "Zir-Win Motorsport #19"
+          },
+          {
+            "id" : 54,
+            "name" : "Scuderia Forza #20"
+          },
+          {
+            "id" : 55,
+            "name" : "Scuderia Forza #21"
+          },
+          {
+            "id" : 56,
+            "name" : "Bolt G.P. #22"
+          },
+          {
+            "id" : 57,
+            "name" : "Bolt G.P. #23"
+          },
+          {
+            "id" : 58,
+            "name" : "TAB Racing #24"
+          },
+          {
+            "id" : 59,
+            "name" : "TAB Racing #25"
+          },
+          {
+            "id" : 60,
+            "name" : "Full Force Racing #43"
+          }
+        ],
+        "class" : "F-V10_Gen2"
+      },
+      {
+        "id" : -2134341428,
+        "name" : "Formula V10 Gen2 (M)",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Didcot Racing #1"
+          },
+          {
+            "id" : 51,
+            "name" : "Didcot Racing #2"
+          },
+          {
+            "id" : 52,
+            "name" : "Puma Racing #5"
+          },
+          {
+            "id" : 53,
+            "name" : "Puma Racing #6"
+          },
+          {
+            "id" : 54,
+            "name" : "Roch G.P. #7"
+          },
+          {
+            "id" : 55,
+            "name" : "Roch G.P. #8"
+          },
+          {
+            "id" : 56,
+            "name" : "Strike G.P. #12"
+          },
+          {
+            "id" : 57,
+            "name" : "Scuderia Faenza Girardi #14"
+          },
+          {
+            "id" : 58,
+            "name" : "Scuderia Faenza Girardi #15"
+          },
+          {
+            "id" : 59,
+            "name" : "United Racing #26"
+          },
+          {
+            "id" : 60,
+            "name" : "United Racing #27"
+          }
+        ],
+        "class" : "F-V10_Gen2"
+      },
+      {
+        "id" : -1485318279,
+        "name" : "Formula V10 Gen3 (M)",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "TAB Racing #3"
+          },
+          {
+            "id" : 51,
+            "name" : "TAB Racing #4"
+          },
+          {
+            "id" : 52,
+            "name" : "Didcot Racing #7"
+          },
+          {
+            "id" : 53,
+            "name" : "Didcot Racing #8"
+          },
+          {
+            "id" : 54,
+            "name" : "Zir-Win Motorsport #11"
+          },
+          {
+            "id" : 55,
+            "name" : "Zir-Win Motorsport #12"
+          },
+          {
+            "id" : 56,
+            "name" : "energyX Racing #14"
+          },
+          {
+            "id" : 57,
+            "name" : "energyX Racing #15"
+          },
+          {
+            "id" : 58,
+            "name" : "TECH-J Racing #16"
+          },
+          {
+            "id" : 59,
+            "name" : "TECH-J Racing #17"
+          }
+        ],
+        "class" : "F-V10_Gen3"
+      },
+      {
+        "id" : -456617409,
+        "name" : "Formula V10 Gen3 (B)",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Scuderia Forza #1"
+          },
+          {
+            "id" : 51,
+            "name" : "Scuderia Forza #2"
+          },
+          {
+            "id" : 52,
+            "name" : "Paddy G.P. #18"
+          },
+          {
+            "id" : 53,
+            "name" : "Paddy G.P. #19"
+          },
+          {
+            "id" : 54,
+            "name" : "Scuderia Faenza Girardi #20"
+          },
+          {
+            "id" : 55,
+            "name" : "Scuderia Faenza Girardi #21"
+          }
+        ],
+        "class" : "F-V10_Gen3"
+      },
+      {
+        "id" : 759947567,
+        "name" : "McLaren MP4/20",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "McLaren MP4/20 #9"
+          },
+          {
+            "id" : 51,
+            "name" : "McLaren MP4/20 #10"
+          }
+        ],
+        "class" : "F-V10_Gen3"
+      },
+      {
+        "id" : 1466589629,
+        "name" : "McLaren MP4/23",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "McLaren MP4/23 #22"
+          },
+          {
+            "id" : 51,
+            "name" : "McLaren MP4/23 #23"
+          }
+        ],
+        "class" : "F-V8_Gen2"
       },
       {
         "id" : 1948072701,
@@ -4417,91 +4712,67 @@
           },
           {
             "id" : 51,
-            "name" : "Rodrigo Prado #5"
+            "name" : "Joao Ramalho #1"
           },
           {
             "id" : 52,
-            "name" : "Andre Crocci #6"
+            "name" : "Jackson Brito #3"
           },
           {
             "id" : 53,
-            "name" : "Guilherme Putnoki #7"
+            "name" : "Andre Crocci #6"
           },
           {
             "id" : 54,
-            "name" : "Waldibio Ferraz #8"
+            "name" : "Guilherme Putnoki #7"
           },
           {
             "id" : 55,
-            "name" : "Leonil Zanoello #9"
-          },
-          {
-            "id" : 56,
-            "name" : "F. Monteiro #10"
-          },
-          {
-            "id" : 57,
-            "name" : "Ladir Almada #11"
-          },
-          {
-            "id" : 58,
-            "name" : "Augusto Aguila #12"
-          },
-          {
-            "id" : 59,
             "name" : "Jairo Rozenblit #18"
           },
           {
-            "id" : 60,
+            "id" : 56,
             "name" : "Wellington Godoy #23"
           },
           {
-            "id" : 61,
+            "id" : 57,
             "name" : "Vinicius Andrade #30"
           },
           {
-            "id" : 62,
+            "id" : 58,
             "name" : "Marcelo Medici #33"
           },
           {
-            "id" : 63,
-            "name" : "Edmar Silva #40"
+            "id" : 59,
+            "name" : "Davi Osachuki #35"
           },
           {
-            "id" : 64,
+            "id" : 60,
             "name" : "Levi Simoes #44"
           },
           {
+            "id" : 61,
+            "name" : "David D'amico #77"
+          },
+          {
+            "id" : 62,
+            "name" : "Vinicius Vilela #82"
+          },
+          {
+            "id" : 63,
+            "name" : "Gabriel Andrade #99"
+          },
+          {
+            "id" : 64,
+            "name" : "Joao Dante #128"
+          },
+          {
             "id" : 65,
-            "name" : "Rafael Marques #48"
+            "name" : "Ollie Paludo #777"
           },
           {
             "id" : 66,
-            "name" : "Gabriel Reis #71"
-          },
-          {
-            "id" : 67,
-            "name" : "Marco Aurelio #76"
-          },
-          {
-            "id" : 68,
-            "name" : "Vinicius Vilella #82"
-          },
-          {
-            "id" : 69,
-            "name" : "Davi Oliveira #86"
-          },
-          {
-            "id" : 70,
-            "name" : "Diogenes Rodrigues #90"
-          },
-          {
-            "id" : 71,
-            "name" : "Lucas Veloso #96"
-          },
-          {
-            "id" : 72,
-            "name" : "Claudio Reina #99"
+            "name" : "Lucas Veloso #999"
           }
         ],
         "class" : "F-Vee_Gen2"
@@ -4604,7 +4875,7 @@
           },
           {
             "id" : 73,
-            "name" : "Formula Trainer #24 - N.Gonï¿½alves Skin"
+            "name" : "Formula Trainer #24 - N.Gonçalves Skin"
           },
           {
             "id" : 74,
@@ -4719,7 +4990,7 @@
           },
           {
             "id" : 73,
-            "name" : "Formula Trainer A #24 - N.Gonï¿½alves Skin"
+            "name" : "Formula Trainer A #24 - N.Gonçalves Skin"
           },
           {
             "id" : 74,
@@ -6367,7 +6638,7 @@
           },
           {
             "id" : 60,
-            "name" : "Viola 30ï¿½"
+            "name" : "Viola 30°"
           },
           {
             "id" : 61,
@@ -6779,51 +7050,71 @@
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Blu Infinito"
-          },
-          {
-            "id" : 51,
-            "name" : "Giallo Genio"
-          },
-          {
-            "id" : 52,
             "name" : "Nero Essenza"
           },
           {
+            "id" : 51,
+            "name" : "Grigio Incognito"
+          },
+          {
+            "id" : 52,
+            "name" : "Night Interaction"
+          },
+          {
             "id" : 53,
-            "name" : "Bianco Audace"
+            "name" : "Devil Orange"
           },
           {
             "id" : 54,
-            "name" : "Digital Aurora"
+            "name" : "Grigio Mistero"
           },
           {
             "id" : 55,
-            "name" : "Power Nude Texturized"
+            "name" : "Rosso Vincente"
           },
           {
             "id" : 56,
-            "name" : "Nero Cometa"
+            "name" : "Giallo Genio"
           },
           {
             "id" : 57,
-            "name" : "Digital Mint"
+            "name" : "Blu Infinito"
           },
           {
             "id" : 58,
-            "name" : "Grigio Lamiera"
+            "name" : "Bianco Audace Matte"
           },
           {
             "id" : 59,
-            "name" : "Azzurro Astro"
+            "name" : "Blu Corse"
           },
           {
             "id" : 60,
-            "name" : "Military Teal"
+            "name" : "Grigio Lamiera Matte"
           },
           {
             "id" : 61,
-            "name" : "Blu Corse"
+            "name" : "Azzurro Astro Matte"
+          },
+          {
+            "id" : 62,
+            "name" : "Verde Terra"
+          },
+          {
+            "id" : 63,
+            "name" : "Digital Mint Matte"
+          },
+          {
+            "id" : 64,
+            "name" : "Digital Aurora"
+          },
+          {
+            "id" : 65,
+            "name" : "Power Nude Texturized"
+          },
+          {
+            "id" : 66,
+            "name" : "Nero Cometa"
           }
         ],
         "class" : "Supercars"
@@ -7356,7 +7647,7 @@
         "liveries" : [
           {
             "id" : 50,
-            "name" : "My Racing Team #12"
+            "name" : "McLaren F1 GTR #01"
           },
           {
             "id" : 51,
@@ -8822,6 +9113,51 @@
           }
         ],
         "class" : "Montana"
+      },
+      {
+        "id" : -1611902643,
+        "name" : "Renault R25",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Renault R25 #5"
+          },
+          {
+            "id" : 51,
+            "name" : "Renault R25 #6"
+          }
+        ],
+        "class" : "F-V10_Gen3"
+      },
+      {
+        "id" : -1938396064,
+        "name" : "Renault R26",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Renault R26 #1"
+          },
+          {
+            "id" : 51,
+            "name" : "Renault R26 #2"
+          }
+        ],
+        "class" : "F-V8_Gen1"
+      },
+      {
+        "id" : -403158996,
+        "name" : "Renault R28",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Renault R28 #5"
+          },
+          {
+            "id" : 51,
+            "name" : "Renault R28 #6"
+          }
+        ],
+        "class" : "F-V8_Gen2"
       },
       {
         "id" : -1404228714,

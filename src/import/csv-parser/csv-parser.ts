@@ -34,6 +34,7 @@ const EXPECTED_HEADERS: Record<string, string[]> = {
     'pit_stop',
     'start_type',
     'field_type',
+    'parc_ferme',
     'events_count',
     'tags',
     'start_year',
@@ -118,6 +119,7 @@ export class CsvParser {
             return value.split(',').map((s) => Number(s.trim()));
           case 'pit_stop':
           case 'default_included':
+          case 'parc_ferme':
             return value.toLowerCase() === 'true';
           case 'field_type':
             return value.trim() === '' ? null : value;

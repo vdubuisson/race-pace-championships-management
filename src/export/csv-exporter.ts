@@ -132,6 +132,7 @@ export class CsvExporter {
       start_year: championship.start_year ?? '',
       end_year: championship.end_year ?? '',
       default_included: this.toCsvBoolean(championship.default_included),
+      parc_ferme: this.toCsvBoolean(championship.parc_ferme),
     }));
 
     return stringify(records, {
@@ -150,6 +151,7 @@ export class CsvExporter {
         'pit_stop',
         'start_type',
         'field_type',
+        'parc_ferme',
         'events_count',
         'tags',
         'start_year',

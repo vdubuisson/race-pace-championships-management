@@ -219,6 +219,16 @@
 
       <div class="form-field">
         <label tuiCell="s">
+          <span tuiTitle>
+            Parc Fermé
+            <tui-icon [tuiTooltip]="parcFermeTooltip" />
+          </span>
+          <input tuiSwitch [formControl]="form().controls.parc_ferme" type="checkbox" />
+        </label>
+      </div>
+
+      <div class="form-field">
+        <label tuiCell="s">
           <span tuiTitle>Included by default</span>
           <input tuiSwitch [formControl]="form().controls.default_included" type="checkbox" />
         </label>

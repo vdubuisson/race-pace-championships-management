@@ -144,6 +144,17 @@
         </div>
       </div>
       <div tuiCell>
+        <div tuiTitle="m">Parc fermé</div>
+        <div class="line"></div>
+        <div tuiTitle>
+          <tui-icon
+            [icon]="championship().parc_ferme ? '@tui.check' : '@tui.x'"
+            [class.valid]="championship().parc_ferme"
+            class="check-icon"
+          ></tui-icon>
+        </div>
+      </div>
+      <div tuiCell>
         <div tuiTitle="m">Included by default</div>
         <div class="line"></div>
         <div tuiTitle>

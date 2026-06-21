@@ -15,6 +15,7 @@ export type Championship = {
   pit_stop: boolean;
   start_type: StartType;
   field_type: 'identical' | null;
+  parc_ferme: boolean;
   events_count: number;
   tags: Array<string>;
   start_year: number | null;

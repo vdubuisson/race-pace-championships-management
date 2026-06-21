@@ -5,6 +5,14 @@ export const REQUIRED_FILES = ['cars.csv', 'championships.csv', 'events.csv', 't
 
 export const filesCountValidator: ValidatorFn = (control) => {
   const files: File[] = control.value ?? [];
+  if (files.some((file) => file.name.endsWith('.zip'))) {
+    if (files.length > 1) {
+      return {
+        filesCount: new TuiValidationError('When uploading a ZIP file, only one file is allowed.'),
+      };
+    }
+    return null; // ZIP file is valid, no need to check for required files
+  }
   if (files.length < REQUIRED_FILES.length) {
     const missingFiles = REQUIRED_FILES.filter(
       (requiredFile) => !files.some((file) => file.name === requiredFile),
@@ -27,7 +35,10 @@ export const filesCountValidator: ValidatorFn = (control) => {
 
 export const fileNamesValidator: ValidatorFn = (control) => {
   const files: File[] = control.value ?? [];
-  if (files.some((file) => !REQUIRED_FILES.includes(file.name))) {
+  if (
+    files.every((file) => !file.name.endsWith('.zip')) &&
+    files.some((file) => !REQUIRED_FILES.includes(file.name))
+  ) {
     return {
       fileNames: new TuiValidationError(
         `Some invalid file names. Expected: ${REQUIRED_FILES.join(', ')}.`,

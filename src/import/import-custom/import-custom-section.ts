@@ -49,7 +49,7 @@ export class ImportCustomSection {
     map((files) => {
       const validFiles: File[] = [];
       files.forEach((file) => {
-        if (REQUIRED_FILES.includes(file.name)) {
+        if (REQUIRED_FILES.includes(file.name) || file.name.endsWith('.zip')) {
           validFiles.push(file);
         } else {
           this.onReject([file]);

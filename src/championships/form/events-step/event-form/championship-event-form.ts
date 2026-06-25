@@ -17,6 +17,7 @@ import {
   WritableSignal,
 } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { maskitoParseTime } from '@maskito/kit';
 import { TuiTime } from '@taiga-ui/cdk/date-time';
 import {
   TuiButton,
@@ -58,7 +59,9 @@ import { TuiForm, TuiHeader } from '@taiga-ui/layout';
     tuiInputTimeOptionsProvider({
       valueTransformer: {
         fromControlValue(controlValue: string | null): TuiTime | null {
-          return controlValue ? TuiTime.fromString(controlValue) : null;
+          return controlValue
+            ? TuiTime.fromAbsoluteMilliseconds(maskitoParseTime(controlValue, { mode: 'HH:MM' }))
+            : null;
         },
         toControlValue(time: TuiTime | null): string | null {
           return time ? time.toString() : null;

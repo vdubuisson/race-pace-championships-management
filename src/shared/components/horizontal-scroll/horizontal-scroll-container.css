@@ -1,0 +1,9 @@
+:host {
+  display: flex;
+  align-items: center;
+}
+
+.scroll-container {
+  overflow: scroll;
+  scrollbar-width: none;
+}

@@ -11,35 +11,39 @@
           <input tuiComboBox [formControl]="eventForm.controls.track" />
           <tui-data-list *tuiDropdown>
             <section class="track-filters">
-              <div class="chip-filters">
-                @for (country of countries(); track country) {
-                  <label tuiChip appearance="">
-                    <img [src]="country | countryCode: '2' | tuiFlag" class="flag" />
-                    {{ country }}
-                    <input
-                      tuiChip
-                      type="checkbox"
-                      appearance="outline-grayscale"
-                      [checked]="selectedCountries().includes(country)"
-                      (change)="toggleChipFilter(selectedCountries, country)"
-                    />
-                  </label>
-                }
-              </div>
-              <div class="chip-filters">
-                @for (type of types(); track type) {
-                  <label tuiChip appearance="">
-                    {{ type }}
-                    <input
-                      tuiChip
-                      type="checkbox"
-                      appearance="outline-grayscale"
-                      [checked]="selectedTypes().includes(type)"
-                      (change)="toggleChipFilter(selectedTypes, type)"
-                    />
-                  </label>
-                }
-              </div>
+              <app-horizontal-scroll-container class="chip-filters">
+                <div class="chips">
+                  @for (country of countries(); track country) {
+                    <label tuiChip appearance="">
+                      <img [src]="country | countryCode: '2' | tuiFlag" class="flag" />
+                      {{ country }}
+                      <input
+                        tuiChip
+                        type="checkbox"
+                        appearance="outline-grayscale"
+                        [checked]="selectedCountries().includes(country)"
+                        (change)="toggleChipFilter(selectedCountries, country)"
+                      />
+                    </label>
+                  }
+                </div>
+              </app-horizontal-scroll-container>
+              <app-horizontal-scroll-container class="chip-filters">
+                <div class="chips">
+                  @for (type of types(); track type) {
+                    <label tuiChip appearance="">
+                      {{ type }}
+                      <input
+                        tuiChip
+                        type="checkbox"
+                        appearance="outline-grayscale"
+                        [checked]="selectedTypes().includes(type)"
+                        (change)="toggleChipFilter(selectedTypes, type)"
+                      />
+                    </label>
+                  }
+                </div>
+              </app-horizontal-scroll-container>
               <label tuiCell="s">
                 <span tuiTitle>No mods</span>
                 <input

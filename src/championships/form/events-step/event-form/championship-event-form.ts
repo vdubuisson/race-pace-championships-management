@@ -1,3 +1,4 @@
+import { HorizontalScrollContainer } from '@/shared/components/horizontal-scroll/horizontal-scroll-container';
 import { RaceEvent, RaceEventType } from '@/shared/models/race-event';
 import { Track } from '@/shared/models/track';
 import { CountryCodePipe } from '@/shared/pipes/country-code/country-code-pipe';
@@ -17,6 +18,7 @@ import {
   WritableSignal,
 } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { maskitoParseTime } from '@maskito/kit';
 import { TuiTime } from '@taiga-ui/cdk/date-time';
 import {
   TuiButton,
@@ -58,7 +60,9 @@ import { TuiForm, TuiHeader } from '@taiga-ui/layout';
     tuiInputTimeOptionsProvider({
       valueTransformer: {
         fromControlValue(controlValue: string | null): TuiTime | null {
-          return controlValue ? TuiTime.fromString(controlValue) : null;
+          return controlValue
+            ? TuiTime.fromAbsoluteMilliseconds(maskitoParseTime(controlValue, { mode: 'HH:MM' }))
+            : null;
         },
         toControlValue(time: TuiTime | null): string | null {
           return time ? time.toString() : null;
@@ -69,6 +73,7 @@ import { TuiForm, TuiHeader } from '@taiga-ui/layout';
   imports: [
     CountryCodePipe,
     DurationPipe,
+    HorizontalScrollContainer,
     ReactiveFormsModule,
     ScrollingModule,
     TuiButton,

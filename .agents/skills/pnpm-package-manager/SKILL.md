@@ -5,31 +5,31 @@ description: Use pnpm command instead of npm. Trigger this whenever suggesting p
 
 # pnpm Package Manager
 
-This skill ensures that all package management commands use **pnpm** and **pnpm dlx** instead of npm and npx for consistency and compatibility with this project.
+This skill ensures that all package management commands use **pnpm** and **pnpm exec** instead of npm and npx for consistency and compatibility with this project.
 
 ## Key Conversions
 
 Replace these npm commands with their pnpm equivalents:
 
-| npm Command | pnpm Equivalent |
-|-------------|-----------------|
-| `npm install` | `pnpm install` |
-| `npm install <package>` | `pnpm add <package>` |
-| `npm install --save-dev <package>` | `pnpm add -D <package>` |
-| `npm install --global <package>` | `pnpm add -g <package>` |
-| `npm run <script>` | `pnpm <script>` or `pnpm run <script>` |
-| `npm uninstall <package>` | `pnpm remove <package>` |
-| `npm list` | `pnpm list` |
-| `npx <command>` | `pnpm dlx <command>` |
-| `npm ci` | `pnpm install --frozen-lockfile` |
-| `npm prune` | `pnpm prune` |
-| `npm audit` | `pnpm audit` |
+| npm Command                        | pnpm Equivalent                        |
+| ---------------------------------- | -------------------------------------- |
+| `npm install`                      | `pnpm install`                         |
+| `npm install <package>`            | `pnpm add <package>`                   |
+| `npm install --save-dev <package>` | `pnpm add -D <package>`                |
+| `npm install --global <package>`   | `pnpm add -g <package>`                |
+| `npm run <script>`                 | `pnpm <script>` or `pnpm run <script>` |
+| `npm uninstall <package>`          | `pnpm remove <package>`                |
+| `npm list`                         | `pnpm list`                            |
+| `npx <command>`                    | `pnpm exec <command>`                  |
+| `npm ci`                           | `pnpm install --frozen-lockfile`       |
+| `npm prune`                        | `pnpm prune`                           |
+| `npm audit`                        | `pnpm audit`                           |
 
 ## When to Apply This Skill
 
 - **Suggesting any package installation** - Always use `pnpm add` instead of `npm install`
 - **Running scripts** - Use `pnpm <script>` instead of `npm run <script>`
-- **Using package executables** - Use `pnpm dlx <command>` instead of `npx <command>`
+- **Using package executables** - Use `pnpm exec <command>` instead of `npx <command>`
 - **Dependency management** - All operations should use pnpm equivalents
 - **Providing documentation or instructions** - Include pnpm commands in examples
 

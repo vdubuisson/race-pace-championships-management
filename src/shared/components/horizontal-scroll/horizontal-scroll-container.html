@@ -1,0 +1,27 @@
+@if (shouldShowButtons()) {
+  <button
+    tuiIconButton
+    iconStart="chevron-left"
+    size="xs"
+    type="button"
+    appearance="icon"
+    class="scroll-btn"
+    [disabled]="scrollLeftDisabled()"
+    (click)="scrollLeft()"
+  ></button>
+}
+<div class="scroll-container" #scrollContainer>
+  <ng-content />
+</div>
+@if (shouldShowButtons()) {
+  <button
+    tuiIconButton
+    iconStart="chevron-right"
+    size="xs"
+    type="button"
+    appearance="icon"
+    class="scroll-btn"
+    [disabled]="scrollRightDisabled()"
+    (click)="scrollRight()"
+  ></button>
+}

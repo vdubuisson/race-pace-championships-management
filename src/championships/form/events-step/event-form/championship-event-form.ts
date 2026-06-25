@@ -1,3 +1,4 @@
+import { HorizontalScrollContainer } from '@/shared/components/horizontal-scroll/horizontal-scroll-container';
 import { RaceEvent, RaceEventType } from '@/shared/models/race-event';
 import { Track } from '@/shared/models/track';
 import { CountryCodePipe } from '@/shared/pipes/country-code/country-code-pipe';
@@ -72,6 +73,7 @@ import { TuiForm, TuiHeader } from '@taiga-ui/layout';
   imports: [
     CountryCodePipe,
     DurationPipe,
+    HorizontalScrollContainer,
     ReactiveFormsModule,
     ScrollingModule,
     TuiButton,

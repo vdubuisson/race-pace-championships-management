@@ -1,4 +1,4 @@
-import { CarCard } from '@/championships/car-card/car-card';
+import { CarCard } from '@/shared/components/car-card/car-card';
 import { Car } from '@/shared/models/car';
 import { Livery } from '@/shared/models/livery';
 import { Team } from '@/shared/models/team';

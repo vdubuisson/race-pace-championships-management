@@ -1,4 +1,11 @@
-import { afterNextRender, Component, ElementRef, signal, viewChild } from '@angular/core';
+import {
+  afterNextRender,
+  ChangeDetectionStrategy,
+  Component,
+  ElementRef,
+  signal,
+  viewChild,
+} from '@angular/core';
 import { TuiButton } from '@taiga-ui/core';
 
 @Component({
@@ -6,6 +13,7 @@ import { TuiButton } from '@taiga-ui/core';
   templateUrl: './horizontal-scroll-container.html',
   styleUrl: './horizontal-scroll-container.css',
   imports: [TuiButton],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HorizontalScrollContainer {
   readonly scrollContainerRef = viewChild.required<ElementRef<HTMLDivElement>>('scrollContainer');

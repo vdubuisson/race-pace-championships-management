@@ -4,6 +4,8 @@ import { TuiButton, TuiGroup, TuiHint, TuiIcon, TuiTitle } from '@taiga-ui/core'
 import { TuiAutoColorPipe, TuiChip } from '@taiga-ui/kit';
 import { TuiCardLarge, TuiHeader } from '@taiga-ui/layout';
 
+type CardMode = 'team' | 'championship' | 'category';
+
 @Component({
   selector: 'app-car-card',
   templateUrl: './car-card.html',
@@ -25,6 +27,7 @@ export class CarCard {
   readonly car = input.required<Partial<Car>>();
   readonly editable = input(false);
   readonly isMod = input(false);
+  readonly mode = input<CardMode>('team');
 
   readonly delete = output<void>();
   readonly edit = output<void>();

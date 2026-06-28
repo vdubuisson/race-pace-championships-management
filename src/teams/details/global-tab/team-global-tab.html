@@ -1,0 +1,79 @@
+<section class="info">
+  <div tuiCardLarge tuiCell appearance="floating">
+    <div appearance="secondary" tuiAvatar="@tui.user"></div>
+    <div tuiTitle>
+      Team principal
+      <div tuiSubtitle>{{ team().principal }}</div>
+    </div>
+  </div>
+</section>
+
+<section class="cards">
+  <div tuiCardLarge appearance="floating" class="chart-card">
+    <header tuiHeader>
+      <h2 tuiTitle>Driver loyalty</h2>
+      <aside tuiAccessories>
+        <tui-icon [tuiTooltip]="loyaltyTooltip" />
+      </aside>
+    </header>
+    <section tuiCell>
+      <tui-arc-chart [value]="[team().driver_loyalty ?? 0]" [max]="1">
+        {{ (team().driver_loyalty | percent) ?? 'Not set' }}
+      </tui-arc-chart>
+    </section>
+  </div>
+
+  <div tuiCardLarge appearance="floating" class="chart-card">
+    <header tuiHeader>
+      <h2 tuiTitle>Expectation level</h2>
+      <aside tuiAccessories>
+        <tui-icon [tuiTooltip]="expectationLevelTooltip" />
+      </aside>
+    </header>
+    <section tuiCell>
+      <tui-arc-chart [value]="[team().expectation_level ?? 0]" [max]="1">
+        {{ (team().expectation_level | percent) ?? 'Not set' }}
+      </tui-arc-chart>
+    </section>
+  </div>
+
+  <div tuiCardLarge appearance="floating" class="chart-card">
+    <header tuiHeader>
+      <h2 tuiTitle>Performance rating</h2>
+      <aside tuiAccessories>
+        <tui-icon [tuiTooltip]="performanceRatingTooltip" />
+      </aside>
+    </header>
+    <section tuiCell>
+      <tui-arc-chart [value]="[team().performance_rating ?? 0]" [max]="1">
+        {{ (team().performance_rating | percent) ?? 'Not set' }}
+      </tui-arc-chart>
+    </section>
+  </div>
+
+  <div tuiCardLarge appearance="floating" class="chart-card">
+    <header tuiHeader>
+      <h2 tuiTitle>Engineering balance</h2>
+      <aside tuiAccessories>
+        <tui-icon [tuiTooltip]="engineeringTooltip" />
+      </aside>
+    </header>
+    <section>
+      <tui-ring-chart [value]="engineeringValues()" [(activeItemIndex)]="activeEngineeringIndex" />
+      <div class="legend">
+        @for (label of engineeringLabels(); track label) {
+          <tui-legend-item
+            size="s"
+            class="item"
+            [active]="activeEngineeringIndex() === $index"
+            [color]="`var(--tui-chart-categorical-${$index.toString().padStart(2, '0')})`"
+            [text]="label"
+            (tuiHoveredChange)="onEngineeringHover($index, $event)"
+          >
+            <span>{{ (engineeringRawValues()[$index] | percent) ?? 'Not set' }}</span>
+          </tui-legend-item>
+        }
+      </div>
+    </section>
+  </div>
+</section>

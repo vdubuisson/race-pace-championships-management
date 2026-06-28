@@ -13,4 +13,8 @@ export class LiveryRepository {
   async getLiveriesByClasses(classes: string[]): Promise<Livery[]> {
     return this.store.where('class').anyOf(classes).toArray();
   }
+
+  async getLiveriesByLiveryNames(liveryNames: string[]): Promise<Livery[]> {
+    return this.store.where('livery_name').anyOf(liveryNames).toArray();
+  }
 }

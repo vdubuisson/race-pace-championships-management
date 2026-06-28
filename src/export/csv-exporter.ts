@@ -253,7 +253,11 @@ export class CsvExporter {
     zip.file('teams.csv', teamsCsv);
     zip.file('tracks.csv', tracksCsv);
 
-    const blob = await zip.generateAsync({ type: 'blob' });
+    const blob = await zip.generateAsync({
+      type: 'blob',
+      compression: 'DEFLATE',
+      compressionOptions: { level: 6 },
+    });
     this.downloadBlob(blob, zipName);
   }
 

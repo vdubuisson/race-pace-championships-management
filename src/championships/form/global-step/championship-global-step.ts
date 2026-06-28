@@ -109,6 +109,7 @@ export class ChampionshipGlobalStep {
   protected prestigeTooltip = `Drivers will generally prefer championships with more prestige.
     You will receive contract offers based on the prestige and your current score.`;
   protected eventsCountTooltip = `How many events will take place in one season of this championship.`;
+  protected parcFermeTooltip = `Whether that championship enforces Parc Fermé rules.`;
 
   protected endYearMin = signal(0);
   protected startYearMax = signal(9999);

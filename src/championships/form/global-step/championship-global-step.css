@@ -15,10 +15,14 @@ fieldset.with-separator {
 
 fieldset.vertical {
   gap: 0;
-  padding-top: 0.5rem;
 
   [tuiCell]:hover {
     background: none;
+  }
+
+  [tuiTitle] {
+    flex-direction: row;
+    gap: 0.5rem;
   }
 }
 

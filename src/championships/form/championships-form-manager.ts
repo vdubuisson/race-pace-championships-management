@@ -28,6 +28,7 @@ export type GlobalFormGroup = FormGroup<{
   points: FormArray<FormControl<number>>;
   pit_stop: FormControl<boolean>;
   start_type: FormControl<'standing' | 'rolling'>;
+  parc_ferme: FormControl<boolean>;
   events_count: FormControl<number>;
   tags: FormControl<string[]>;
   start_year: FormControl<number | null>;
@@ -174,6 +175,7 @@ export class ChampionshipsFormManager {
         registration_end_day: championship.registration_end_day,
         pit_stop: championship.pit_stop,
         start_type: championship.start_type,
+        parc_ferme: championship.parc_ferme,
         events_count: championship.events_count,
         start_year: championship.start_year,
         end_year: championship.end_year,
@@ -271,6 +273,7 @@ export class ChampionshipsFormManager {
         nonNullable: true,
         validators: [Validators.required],
       }),
+      parc_ferme: new FormControl(false, { nonNullable: true }),
       events_count: new FormControl(1, {
         nonNullable: true,
         validators: [Validators.required, Validators.min(1)],
@@ -355,6 +358,7 @@ export class ChampionshipsFormManager {
       )
         ? 'identical'
         : null,
+      parc_ferme: rawValue.parc_ferme,
       events_count: rawValue.events_count,
       tags: Array.from(tags),
       start_year: rawValue.start_year,

@@ -99,14 +99,29 @@ export default class TeamForm {
     driver_loyalty: new FormControl<number | null>(null, {
       validators: [Validators.min(0), Validators.max(1)],
     }),
-    expectation_level: new FormControl<number | null>(null),
+    expectation_level: new FormControl<number | null>(null, {
+      validators: [Validators.min(0), Validators.max(1)],
+    }),
+    performance_rating: new FormControl<number | null>(null, {
+      validators: [Validators.min(0), Validators.max(1)],
+    }),
+    engineering_weight: new FormControl<number | null>(null, {
+      validators: [Validators.min(0), Validators.max(1)],
+    }),
+    engineering_drag: new FormControl<number | null>(null, {
+      validators: [Validators.min(0), Validators.max(1)],
+    }),
+    engineering_power: new FormControl<number | null>(null, {
+      validators: [Validators.min(0), Validators.max(1)],
+    }),
   });
 
   protected readonly loyaltyTooltip = `How much a team will favour drivers they are happy with VS better ranked drivers that are on the market.
     Between 0 and 1, defaults to a random value between 0 and 0.2.`;
   protected readonly expectationLevelTooltip = `Happiness of driver/team relationships is determined by how well a driver does compared to what can be theoretically expected of them based on their past results.
-    This value is a number of ELO points that shifts the team's expectation up or down for their drivers, making them more or less demanding.
-    Defaults to a value between 10 and 70. Negative values are supported but make teams very forgiving.`;
+    This is a value between 0 and 1, where 0 means very low expectations, and 1 means very high expectations.`;
+  protected readonly performanceRatingTooltip = `Between 0 and 1, defines how much budget the team has for performance and what the expected results from their sponsors.`;
+  protected readonly engineeringTooltip = `Between 0 and 1. The 3 engineering values define the balance in which the performance budget is allocated.`;
 
   constructor() {
     effect(() => {

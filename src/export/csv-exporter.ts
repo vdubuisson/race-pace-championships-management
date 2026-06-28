@@ -132,6 +132,7 @@ export class CsvExporter {
       start_year: championship.start_year ?? '',
       end_year: championship.end_year ?? '',
       default_included: this.toCsvBoolean(championship.default_included),
+      parc_ferme: this.toCsvBoolean(championship.parc_ferme),
     }));
 
     return stringify(records, {
@@ -150,6 +151,7 @@ export class CsvExporter {
         'pit_stop',
         'start_type',
         'field_type',
+        'parc_ferme',
         'events_count',
         'tags',
         'start_year',
@@ -192,11 +194,24 @@ export class CsvExporter {
       ...team,
       driver_loyalty: team.driver_loyalty ?? '',
       expectation_level: team.expectation_level ?? '',
+      performance_rating: team.performance_rating ?? '',
+      engineering_weight: team.engineering_weight ?? '',
+      engineering_drag: team.engineering_drag ?? '',
+      engineering_power: team.engineering_power ?? '',
     }));
 
     return stringify(records, {
       header: true,
-      columns: ['name', 'principal', 'driver_loyalty', 'expectation_level'],
+      columns: [
+        'name',
+        'principal',
+        'driver_loyalty',
+        'expectation_level',
+        'performance_rating',
+        'engineering_weight',
+        'engineering_drag',
+        'engineering_power',
+      ],
     });
   }
 
@@ -251,7 +266,11 @@ export class CsvExporter {
     zip.file('teams.csv', teamsCsv);
     zip.file('tracks.csv', tracksCsv);
 
-    const blob = await zip.generateAsync({ type: 'blob' });
+    const blob = await zip.generateAsync({
+      type: 'blob',
+      compression: 'DEFLATE',
+      compressionOptions: { level: 6 },
+    });
     this.downloadBlob(blob, zipName);
   }
 

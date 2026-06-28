@@ -62,6 +62,60 @@
       </label>
       <tui-error [formControl]="teamForm.controls.expectation_level" />
     </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Performance rating
+          <tui-icon [tuiTooltip]="performanceRatingTooltip" />
+        </span>
+        <tui-textfield tuiTextfieldSize="m">
+          <input tuiInputNumber [formControl]="teamForm.controls.performance_rating" />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="teamForm.controls.performance_rating" />
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Engineering weight
+          <tui-icon [tuiTooltip]="engineeringTooltip" />
+        </span>
+        <tui-textfield tuiTextfieldSize="m">
+          <input tuiInputNumber [formControl]="teamForm.controls.engineering_weight" />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="teamForm.controls.engineering_weight" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Engineering drag
+          <tui-icon [tuiTooltip]="engineeringTooltip" />
+        </span>
+        <tui-textfield tuiTextfieldSize="m">
+          <input tuiInputNumber [formControl]="teamForm.controls.engineering_drag" />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="teamForm.controls.engineering_drag" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Engineering power
+          <tui-icon [tuiTooltip]="engineeringTooltip" />
+        </span>
+        <tui-textfield tuiTextfieldSize="m">
+          <input tuiInputNumber [formControl]="teamForm.controls.engineering_power" />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="teamForm.controls.engineering_power" />
+    </div>
   </fieldset>
 
   <button tuiButton type="submit" size="m">Save</button>

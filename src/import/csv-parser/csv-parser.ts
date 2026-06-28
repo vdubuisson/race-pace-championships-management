@@ -34,6 +34,7 @@ const EXPECTED_HEADERS: Record<string, string[]> = {
     'pit_stop',
     'start_type',
     'field_type',
+    'parc_ferme',
     'events_count',
     'tags',
     'start_year',
@@ -51,7 +52,16 @@ const EXPECTED_HEADERS: Record<string, string[]> = {
     'duration',
     'start_time',
   ],
-  'teams.csv': ['name', 'principal', 'driver_loyalty', 'expectation_level'],
+  'teams.csv': [
+    'name',
+    'principal',
+    'driver_loyalty',
+    'expectation_level',
+    'performance_rating',
+    'engineering_weight',
+    'engineering_drag',
+    'engineering_power',
+  ],
 };
 
 @Injectable({ providedIn: 'root' })
@@ -118,6 +128,7 @@ export class CsvParser {
             return value.split(',').map((s) => Number(s.trim()));
           case 'pit_stop':
           case 'default_included':
+          case 'parc_ferme':
             return value.toLowerCase() === 'true';
           case 'field_type':
             return value.trim() === '' ? null : value;
@@ -167,6 +178,10 @@ export class CsvParser {
         switch (context.column) {
           case 'driver_loyalty':
           case 'expectation_level':
+          case 'performance_rating':
+          case 'engineering_weight':
+          case 'engineering_drag':
+          case 'engineering_power':
             if (value === '') return null;
             return Number(value);
           default:
@@ -179,8 +194,7 @@ export class CsvParser {
   parseTracks(text: string): Track[] {
     return parse(text, {
       bom: true,
-      columns: (header) =>
-        header.map((h) => (EXPECTED_HEADERS['tracks.csv'].includes(h) ? h : undefined)),
+      columns: true,
       skip_empty_lines: true,
       trim: true,
       cast: (value, context) => {
@@ -205,8 +219,7 @@ export class CsvParser {
   parseModels(text: string): VehicleModel[] {
     return parse(text, {
       bom: true,
-      columns: (header) =>
-        header.map((h) => (EXPECTED_HEADERS['models.csv'].includes(h) ? h : undefined)),
+      columns: true,
       skip_empty_lines: true,
       trim: true,
       cast: (value, context) => {
@@ -224,8 +237,7 @@ export class CsvParser {
   parseLiveries(text: string): Livery[] {
     return parse(text, {
       bom: true,
-      columns: (header) =>
-        header.map((h) => (EXPECTED_HEADERS['liveries.csv'].includes(h) ? h : undefined)),
+      columns: true,
       skip_empty_lines: true,
       trim: true,
       cast: (value, context) => {
@@ -246,8 +258,7 @@ export class CsvParser {
   parseClasses(text: string): VehicleClass[] {
     return parse(text, {
       bom: true,
-      columns: (header) =>
-        header.map((h) => (EXPECTED_HEADERS['classes.csv'].includes(h) ? h : undefined)),
+      columns: true,
       skip_empty_lines: true,
       trim: true,
       cast: (value, context) => {

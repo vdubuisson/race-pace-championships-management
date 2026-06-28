@@ -45,6 +45,7 @@
         <prop name="Vehicle Description" type="String" />
 		<prop name="PitSpeedLimit_HighKPH" type="F32" />
         <prop name="AI ONLY" type="Bool" />
+        <prop name="Is Open Wheeler" type="Bool" />
         <prop name="Vehicle Initial Performance Index" type="S32" />
         <prop name="Body Upgrades" type="String" />
         <prop name="Cockpit Upgrades" type="String" />
@@ -66,6 +67,7 @@
         <prop name="Right Mirror Pos" type="Vec3f" />
         <prop name="AABBMin" type="Vec3f" />
         <prop name="AABBMax" type="Vec3f" />
+        <prop name="Is Open Wheeler" type="Bool" />
         <prop name="Blown Engine Smoke Scale" type="F32" />
     </class>
     <data class="VehicleDetails" id="0xD8D56D0">
@@ -110,6 +112,7 @@
         <prop name="Vehicle Description" data="" />
 		<prop name="PitSpeedLimit_HighKPH" data="100.0" />
         <prop name="AI ONLY" data="false" />
+        <prop name="Is Open Wheeler" data="true" />
         <prop name="Vehicle Initial Performance Index" data="129" />
         <prop name="Body Upgrades" data="" />
         <prop name="Cockpit Upgrades" data="" />
@@ -131,6 +134,7 @@
         <prop name="Right Mirror Pos" data="-0.583;0.747;-0.623" />
         <prop name="AABBMin" data="-1.0;0.0;-3.13" />
         <prop name="AABBMax" data="1.0;1.188;2.487" />
+        <prop name="Is Open Wheeler" data="true" />
         <prop name="Blown Engine Smoke Scale" data="1.0" />
     </data>
 </Reflection>

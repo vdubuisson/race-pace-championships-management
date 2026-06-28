@@ -48,6 +48,11 @@
         <prop name="GrassParticlesOverride" type="String" />
         <prop name="LeafParticlesOverride" type="String" />
         <prop name="Uses Reflection Flag" type="Bool" />
+		<prop name="AIPitStopEstimationTimeScalar" type="F32" />
+		<prop name="AIScalarForFuelLaptimeLoss" type="F32" />
+		<prop name="MaxPuddleDepthDriven" type="F32" />
+		<prop name="MaxPuddleDepthRoad" type="F32" />
+		<prop name="MaxPuddleDepthOffroad" type="F32" />
         <prop name="GripBase" type="F32" />
         <prop name="GripRange" type="F32" />
         <prop name="Track_Location" type="String" />
@@ -124,7 +129,7 @@
         <prop name="Location" data="Belgium" />
         <prop name="Country" data="BE" />
         <prop name="TrackGradeFilter" data="Historic" />
-        <prop name="PresetFilter" data="90sG1_Historic,FormulaV10,FormulaV12,FormulaHiTechGen2,FormulaHiTechGen1,FormulaClassic,FormulaRetro,GT1,GroupC,GroupA,ST96" />
+        <prop name="PresetFilter" data="90sG1_Historic,FormulaV10Gen2,FormulaV10Gen1,FormulaV12,FormulaHiTechGen2,FormulaHiTechGen1,FormulaClassic,FormulaRetro,GT1,GroupC,GroupA,ST96" />
         <prop name="Track Type" data="Circuit" />
         <prop name="Oval Type" data="0" />
         <prop name="Allowed Weather" data="Weather_Clear,Weather_LightCloud,Weather_MedCloud,Weather_HeavyCloud,Weather_Overcast,Weather_LightRain,Weather_Rainy,Weather_Stormy,Weather_SuperStorm,Weather_Foggy,weather_fog_with_rain,weather_heavy_fog,weather_heavy_fog_with_rain,Weather_Hazy,Weather_Random" />
@@ -156,7 +161,12 @@
         <prop name="GrassParticlesOverride" data="" />
         <prop name="LeafParticlesOverride" data="" />
         <prop name="Uses Reflection Flag" data="true" />
-        <prop name="GripBase" data="0.9475" />
+		<prop name="AIPitStopEstimationTimeScalar" data="0.9" />
+		<prop name="AIScalarForFuelLaptimeLoss" data="1.25" />
+		<prop name="MaxPuddleDepthDriven" data="0.03" />
+		<prop name="MaxPuddleDepthRoad" data="0.04" />
+		<prop name="MaxPuddleDepthOffroad" data="0.20" />
+        <prop name="GripBase" data="0.9495" />
         <prop name="GripRange" data="0.0625" />
         <prop name="Track_Location" data="SpaFrancorchamps" />
         <prop name="Track_Variation" data="Spa_Francorchamps_1993" />
@@ -213,7 +223,7 @@
         <prop name="PostRace Script name" data="default_post_race.script" />
         <prop name="Track Properties File" data="TrackProperties" />
         <prop name="Crowd Pak Filename" data="" />
-        <prop name="AIWidthScalarToReduceCorridors" data="0.28" />
+        <prop name="AIWidthScalarToReduceCorridors" data="0.285" />
 		<prop name="AIWidthScalarToReduceCorridorsFullThrottle" data="0.12" />
         <prop name="AIDisableCorridorsReductionAgainstLapped" data="true" />
         <prop name="AIDisableCorridorsReductionAgainstHuman" data="true" />

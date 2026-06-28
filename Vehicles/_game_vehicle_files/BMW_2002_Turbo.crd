@@ -19,6 +19,7 @@
         <prop name="Vehicle Properties" type="String" />
         <prop name="Vehicle Year" type="S32" />
 		<prop name="Safety Car Driver Name" type="String" />		
+		<prop name="Use Flat Shadow" type="Bool" />		
         <prop name="Shadow Width" type="F32" />
         <prop name="Shadow Length" type="F32" />
         <prop name="Shadow Offset Right" type="F32" />
@@ -84,8 +85,9 @@
         <prop name="Vehicle Properties" data="BMW_2002_Turbo" />
         <prop name="Vehicle Year" data="1973" />
 		<prop name="Safety Car Driver Name" data="SafetyBMW2002Driver" />	
-        <prop name="Shadow Width" data="5.0" />
-        <prop name="Shadow Length" data="7.0" />
+        <prop name="Use Flat Shadow" data="true" />
+        <prop name="Shadow Width" data="4.45" />
+        <prop name="Shadow Length" data="6.5" />
         <prop name="Shadow Offset Right" data="0" />
         <prop name="Shadow Offset Forward" data="-0.15" />
         <prop name="Shadow Texture" data="BMW_2002_Turbo_ambsh.dds" />

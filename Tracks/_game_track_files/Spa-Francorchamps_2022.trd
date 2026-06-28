@@ -48,6 +48,11 @@
         <prop name="GrassParticlesOverride" type="String" />
         <prop name="LeafParticlesOverride" type="String" />
         <prop name="Uses Reflection Flag" type="Bool" />
+		<prop name="AIPitStopEstimationTimeScalar" type="F32" />
+		<prop name="AIScalarForFuelLaptimeLoss" type="F32" />
+		<prop name="MaxPuddleDepthDriven" type="F32" />
+		<prop name="MaxPuddleDepthRoad" type="F32" />
+		<prop name="MaxPuddleDepthOffroad" type="F32" />
         <prop name="GripBase" type="F32" />
         <prop name="GripRange" type="F32" />
         <prop name="Track_Location" type="String" />
@@ -124,7 +129,7 @@
         <prop name="Location" data="Belgium" />
         <prop name="Country" data="BE" />
         <prop name="TrackGradeFilter" data="Grade1" />
-        <prop name="PresetFilter" data="Grade1,EuroEnduro2024,FormulaUltimate,GT3,Caterham,BritGT,Superkart,SuperTrofeo,LES2025" />
+        <prop name="PresetFilter" data="Grade1,EuroEnduro2024,FormulaUltimateGen3,GT3,Caterham,BritGT,Superkart,SuperTrofeo,LES2025" />
         <prop name="Track Type" data="Circuit" />
         <prop name="Oval Type" data="0" />
         <prop name="Allowed Weather" data="Weather_Clear,Weather_LightCloud,Weather_MedCloud,Weather_HeavyCloud,Weather_Overcast,Weather_LightRain,Weather_Rainy,Weather_Stormy,Weather_SuperStorm,Weather_Foggy,weather_fog_with_rain,weather_heavy_fog,weather_heavy_fog_with_rain,Weather_Hazy,Weather_Random" />
@@ -156,8 +161,13 @@
         <prop name="GrassParticlesOverride" data="" />
         <prop name="LeafParticlesOverride" data="" />
         <prop name="Uses Reflection Flag" data="true" />
-        <prop name="GripBase" data="0.9485" />
-        <prop name="GripRange" data="0.062" />
+		<prop name="AIPitStopEstimationTimeScalar" data="0.95" />
+		<prop name="AIScalarForFuelLaptimeLoss" data="1.25" />
+		<prop name="MaxPuddleDepthDriven" data="0.02" />
+		<prop name="MaxPuddleDepthRoad" data="0.03" />
+		<prop name="MaxPuddleDepthOffroad" data="0.10" />
+        <prop name="GripBase" data="0.9495" />
+        <prop name="GripRange" data="0.0625" />
         <prop name="Track_Location" data="SpaFrancorchamps" />
         <prop name="Track_Variation" data="Spa_Francorchamps_2022" />
         <prop name="AI Grip" data="1.0" />

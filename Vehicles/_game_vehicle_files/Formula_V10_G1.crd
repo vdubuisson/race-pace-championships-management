@@ -22,7 +22,8 @@
         <prop name="Vehicle Variant Short Track" type="String" />			
         <prop name="Vehicle Variant Speedway" type="String" />
         <prop name="Vehicle Variant Super Speedway" type="String" />
-        <prop name="Vehicle Variant High Downforce Track" type="String" /> 			
+        <prop name="Vehicle Variant High Downforce Track" type="String" />
+        <prop name="Safety Car Driver Name" type="String" /> 			
         <prop name="Vehicle Year" type="S32" />
         <prop name="Shadow Width" type="F32" />
         <prop name="Shadow Length" type="F32" />
@@ -67,6 +68,7 @@
         <prop name="Right Mirror Pos" type="Vec3f" />
         <prop name="AABBMin" type="Vec3f" />
         <prop name="AABBMax" type="Vec3f" />
+        <prop name="Is Open Wheeler" type="Bool" />
         <prop name="Drafting Contrail Min Speed" type="F32" />
         <prop name="Drafting Contrail Max Speed" type="F32" />
         <prop name="Drafting Contrail Min Temperature" type="F32" />
@@ -93,7 +95,8 @@
         <prop name="Vehicle Variant Short Track" data="Formula_V10_G1_LD" />	
         <prop name="Vehicle Variant Speedway" data="Formula_V10_G1_LD" />
         <prop name="Vehicle Variant Super Speedway" data="Formula_V10_G1_LD" />
-        <prop name="Vehicle Variant High Downforce Track" data="Formula_V10_G1_HD" />		
+        <prop name="Vehicle Variant High Downforce Track" data="Formula_V10_G1_HD" />
+		<prop name="Safety Car Driver Name" data="SafetyBMWM3Driver" />			
         <prop name="Vehicle Year" data="1997" />
         <prop name="Shadow Width" data="5.00" />
         <prop name="Shadow Length" data="7.00" />
@@ -137,12 +140,13 @@
         <prop name="Left Mirror Pos" data="0.324;0.629;-0.648" />
         <prop name="Right Mirror Pos" data="-0.324;0.629;-0.648" />
         <prop name="AABBMin" data="-1.033;-0.0;-2.564" />
-        <prop name="AABBMax" data="1.033;1.124;1.968" />		
-        <prop name="Drafting Contrail Min Speed" data="60" />
-        <prop name="Drafting Contrail Max Speed" data="95" />
+        <prop name="AABBMax" data="1.033;1.124;1.968" />
+        <prop name="Is Open Wheeler" data="true" />		
+        <prop name="Drafting Contrail Min Speed" data="70" />
+        <prop name="Drafting Contrail Max Speed" data="100" />
         <prop name="Drafting Contrail Min Temperature" data="0" />
         <prop name="Drafting Contrail Max Temperature" data="25" />
-        <prop name="Drafting Contrail Min Humidity" data="0.70" />
+        <prop name="Drafting Contrail Min Humidity" data="0.75" />
         <prop name="Drafting Contrail Disable When DRS Opened" data="false" />
     </data>
 </Reflection>

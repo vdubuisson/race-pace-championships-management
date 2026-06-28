@@ -17,6 +17,7 @@
         <prop name="Vehicle Physics Model" type="String" />
         <prop name="Cockpit properties" type="String" />
         <prop name="Vehicle Properties" type="String" />
+		<prop name="Safety Car Driver Name" type="String" /> 
         <prop name="Vehicle Year" type="S32" />
         <prop name="Shadow Width" type="F32" />
         <prop name="Shadow Length" type="F32" />
@@ -34,6 +35,7 @@
         <prop name="Exhaust Target Position 1" type="Vec3f" />
         <prop name="Exhaust Target Position 2" type="Vec3f" />
         <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
+        <prop name="Vertical Exhaust" type="Bool" />
         <prop name="Number of Engine Heat" type="S32" />
         <prop name="Engine Heat Position 1" type="Vec3f" />
         <prop name="Blown Engine Smoke Position" type="Vec3f" />
@@ -63,6 +65,7 @@
         <prop name="Right Mirror Pos" type="Vec3f" />
         <prop name="AABBMin" type="Vec3f" />
         <prop name="AABBMax" type="Vec3f" />
+        <prop name="Is Open Wheeler" type="Bool" />
         <prop name="Blown Engine Smoke Scale" type="F32" />
         <prop name="Drafting Contrail Min Speed" type="F32" />
         <prop name="Drafting Contrail Max Speed" type="F32" />
@@ -73,8 +76,8 @@
     </class>
     <data class="VehicleDetails" id="0xD8D56D0">
         <prop name="Name" data="Formula_V10_LD" />
-        <prop name="Vehicle Name" data="Formula V10 Gen2 - Low Downforce" />
-        <prop name="ShortVehicleName" data="F-V10 Gen2" />
+        <prop name="Vehicle Name" data="Formula V10 Gen2 (B) - Low Downforce" />
+        <prop name="ShortVehicleName" data="F-V10 Gen2 (B)" />
         <prop name="XLASTID" data="211" />
         <prop name="VehicleManufacturer" data="Reiza" />
         <prop name="VehicleModel" data="Formula V10" />
@@ -85,6 +88,7 @@
         <prop name="Vehicle Physics Model" data="Formula_V10_LD" />
         <prop name="Cockpit properties" data="Formula_V10_LD_Cockpit.bin" />
         <prop name="Vehicle Properties" data="Formula_V10" />
+		<prop name="Safety Car Driver Name" data="SafetyF2KDriver" />	
         <prop name="Vehicle Year" data="2002" />
         <prop name="Shadow Width" data="5.00" />
         <prop name="Shadow Length" data="7.00" />
@@ -102,6 +106,7 @@
         <prop name="Exhaust Target Position 1" data="0.171;0.626;1.751" />
         <prop name="Exhaust Target Position 2" data="-0.171;0.626;1.751" />
         <prop name="Exhaust Smoke Amount Multiplier" data="0.036" />
+        <prop name="Vertical Exhaust" data="true" />
         <prop name="Number of Engine Heat" data="1" />
         <prop name="Engine Heat Position 1" data="0;0.964;1.069" />
         <prop name="Blown Engine Smoke Position" data="0;0.964;1.069" />
@@ -131,12 +136,13 @@
         <prop name="Right Mirror Pos" data="-0.356;0.669;-0.27" />
         <prop name="AABBMin" data="-0.898;-0.002;-2.291" />
         <prop name="AABBMax" data="0.898;1.099;2.282" />
+        <prop name="Is Open Wheeler" data="true" />
         <prop name="Blown Engine Smoke Scale" data="0.85" />		
         <prop name="Drafting Contrail Min Speed" data="100" />
-        <prop name="Drafting Contrail Max Speed" data="120" />
+        <prop name="Drafting Contrail Max Speed" data="140" />
         <prop name="Drafting Contrail Min Temperature" data="0" />
         <prop name="Drafting Contrail Max Temperature" data="25" />
-        <prop name="Drafting Contrail Min Humidity" data="0.70" />
+        <prop name="Drafting Contrail Min Humidity" data="0.75" />
         <prop name="Drafting Contrail Disable When DRS Opened" data="false" />
     </data>
 </Reflection>

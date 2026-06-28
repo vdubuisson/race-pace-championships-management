@@ -111,7 +111,16 @@ F-USA_Gen3,Reynard 2Ki Mercedes-Benz,2000,cart_reynard_2ki_mercedes
 F-USA_Gen3,Reynard 2Ki Toyota,2000,cart_reynard_2ki_toyota
 F-V10_Gen1,Formula V10 Gen1,1997,formula_v10_g1
 F-V10_Gen1,McLaren Mercedes MP4/12,1997,mclaren_mp4_12
-F-V10_Gen2,Formula V10 Gen2,2002,formula_v10
+F-V10_Gen2,Formula V10 Gen2 (B),2002,formula_v10_g2_b
+F-V10_Gen2,Formula V10 Gen2 (M),2002,formula_v10_g2_m
+F-V10_Gen3,Formula V10 Gen3 (M),2006,formula_v10_g3_m
+F-V10_Gen3,Formula V10 Gen3 (B),2006,formula_v10_g3_b
+F-V10_Gen3,Renault R25,2006,renault_r25
+F-V8_Gen1,Formula V8 Gen1 (M),2006,formula_v8_g1_m
+F-V8_Gen1,Formula V8 Gen1 (B),2006,formula_v8_g1_b
+F-V8_Gen1,Renault R26,2006,renault_r26
+F-V8_Gen2,Formula V8 Gen2,2008,formula_v8_g2
+F-V8_Gen2,Renault R28,2008,renault_r28
 F-Vee,Formula Vee Gen1,2019,formula_vee
 F-Vee,Formula Vee Gen1 + Fin,2019,formula_vee_fin
 F-Vee_Gen2,Formula Vee Gen2,2025,formula_vee_gen2

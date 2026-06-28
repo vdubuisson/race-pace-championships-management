@@ -136,11 +136,11 @@
         <prop name="AABBMax" data="1.5;1.6;4.0" />
 		<prop name="F1DRSForbiddenLaps" data="2" />
         <prop name="Blown Engine Smoke Scale" data="0.85" />		
-        <prop name="Drafting Contrail Min Speed" data="100" />
-        <prop name="Drafting Contrail Max Speed" data="120" />
+        <prop name="Drafting Contrail Min Speed" data="70" />
+        <prop name="Drafting Contrail Max Speed" data="100" />
         <prop name="Drafting Contrail Min Temperature" data="0" />
         <prop name="Drafting Contrail Max Temperature" data="25" />
-        <prop name="Drafting Contrail Min Humidity" data="0.70" />
+        <prop name="Drafting Contrail Min Humidity" data="0.75" />
         <prop name="Drafting Contrail Disable When DRS Opened" data="true" />
     </data>
 </Reflection>

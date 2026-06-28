@@ -47,6 +47,11 @@
         <prop name="GrassParticlesOverride" type="String" />
         <prop name="LeafParticlesOverride" type="String" />
         <prop name="Uses Reflection Flag" type="Bool" />
+		<prop name="AIPitStopEstimationTimeScalar" type="F32" />
+		<prop name="AIScalarForFuelLaptimeLoss" type="F32" />
+		<prop name="MaxPuddleDepthDriven" type="F32" />
+		<prop name="MaxPuddleDepthRoad" type="F32" />
+		<prop name="MaxPuddleDepthOffroad" type="F32" />
         <prop name="GripBase" type="F32" />
         <prop name="GripRange" type="F32" />
         <prop name="Track_Location" type="String" />
@@ -119,7 +124,7 @@
         <prop name="Location" data="Monaco" />
         <prop name="Country" data="MC" />
         <prop name="TrackGradeFilter" data="Grade1" />
-        <prop name="PresetFilter" data="Grade1,FormulaUltimate,FormulaReiza,FormulaV10,FormulaV12,FormulaHiTechGen2,FormulaHiTechGen1,FormulaClassic,FormulaRetro,FormulaVintage,Procar,FormulaJNR" />
+        <prop name="PresetFilter" data="Grade1,FormulaUltimateGen3,FormulaUltimateGen2,FormulaUltimateGen1,FormulaReiza,FormulaV8Gen2,FormulaV8Gen1,FormulaV10Gen3,FormulaV10Gen2,FormulaV10Gen1,FormulaV12,FormulaHiTechGen2,FormulaHiTechGen1,FormulaClassic,FormulaRetro,FormulaVintage,Procar,FormulaJNR" />
         <prop name="Track Type" data="Circuit" />
         <prop name="Oval Type" data="7" />
         <prop name="Allowed Weather" data="Weather_Clear,Weather_LightCloud,Weather_MedCloud,Weather_HeavyCloud,Weather_Overcast,Weather_LightRain,Weather_Rainy,Weather_Stormy,Weather_SuperStorm,Weather_Foggy,weather_fog_with_rain,weather_heavy_fog,weather_heavy_fog_with_rain,Weather_Hazy,Weather_Random" />
@@ -151,6 +156,11 @@
         <prop name="GrassParticlesOverride" data="" />
         <prop name="LeafParticlesOverride" data="" />
         <prop name="Uses Reflection Flag" data="true" />
+		<prop name="AIPitStopEstimationTimeScalar" data="0.9" />
+		<prop name="AIScalarForFuelLaptimeLoss" data="0.9" />
+		<prop name="MaxPuddleDepthDriven" data="0.03" />
+		<prop name="MaxPuddleDepthRoad" data="0.04" />
+		<prop name="MaxPuddleDepthOffroad" data="0.20" />
         <prop name="GripBase" data="0.9465" />
         <prop name="GripRange" data="0.075" />
         <prop name="Track_Location" data="Azure_Circuit" />

@@ -64,6 +64,7 @@
         <prop name="Right Mirror Pos" type="Vec3f" />
         <prop name="AABBMin" type="Vec3f" />
         <prop name="AABBMax" type="Vec3f" />
+        <prop name="Is Open Wheeler" type="Bool" />
     </class>
     <data class="VehicleDetails" id="0xA441FE8">
         <prop name="Name" data="CART_Lola_T98_SS" />
@@ -126,5 +127,6 @@
         <prop name="Right Mirror Pos" data="-0.327;0.630;-0.533" />
         <prop name="AABBMin" data="-1.5;-0.0;-4.1" />
         <prop name="AABBMax" data="1.5;1.5;4.0" />
+        <prop name="Is Open Wheeler" data="true" />
     </data>
 </Reflection>

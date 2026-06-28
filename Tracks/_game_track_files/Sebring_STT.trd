@@ -47,6 +47,9 @@
         <prop name="GrassParticlesOverride" type="String" />
         <prop name="LeafParticlesOverride" type="String" />
         <prop name="Uses Reflection Flag" type="Bool" />
+		<prop name="MaxPuddleDepthDriven" type="F32" />
+		<prop name="MaxPuddleDepthRoad" type="F32" />
+		<prop name="MaxPuddleDepthOffroad" type="F32" />
         <prop name="GripBase" type="F32" />
         <prop name="GripRange" type="F32" />		
         <prop name="Track_Location" type="String" />
@@ -154,6 +157,9 @@
         <prop name="GrassParticlesOverride" data="" />
         <prop name="LeafParticlesOverride" data="" />
         <prop name="Uses Reflection Flag" data="true" />
+		<prop name="MaxPuddleDepthDriven" data="0.03" />
+		<prop name="MaxPuddleDepthRoad" data="0.04" />
+		<prop name="MaxPuddleDepthOffroad" data="0.20" />
         <prop name="GripBase" data="0.945" />
         <prop name="GripRange" data="0.0625" />		
         <prop name="Track_Location" data="Sebring" />

@@ -83,8 +83,8 @@
         <prop name="Cockpit properties" data="BMW_2002_Turbo_Cockpit.bin" />
         <prop name="Vehicle Properties" data="BMW_2002_Turbo_SC" />
         <prop name="Vehicle Year" data="1973" />
-        <prop name="Shadow Width" data="5.0" />
-        <prop name="Shadow Length" data="7.0" />
+        <prop name="Shadow Width" data="4.45" />
+        <prop name="Shadow Length" data="6.5" />
         <prop name="Shadow Offset Right" data="0" />
         <prop name="Shadow Offset Forward" data="-0.15" />
         <prop name="Shadow Texture" data="BMW_2002_Turbo_ambsh.dds" />

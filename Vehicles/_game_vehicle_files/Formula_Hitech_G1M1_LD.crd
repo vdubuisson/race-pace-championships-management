@@ -77,6 +77,7 @@
         <prop name="Drafting Contrail Max Temperature" type="F32" />
         <prop name="Drafting Contrail Min Humidity" type="F32" />
         <prop name="Drafting Contrail Disable When DRS Opened" type="Bool" />		
+        <prop name="Is Open Wheeler" type="Bool" />
     </class>
     <data class="VehicleDetails" id="0xD8D56D0">
         <prop name="Name" data="Formula_Hitech_G1M1_LD" />
@@ -147,10 +148,11 @@
         <prop name="AABBMax" data="1.5;1.5;4.0" />
         <prop name="Blown Engine Smoke Scale" data="0.85" />		
         <prop name="Drafting Contrail Min Speed" data="100" />
-        <prop name="Drafting Contrail Max Speed" data="120" />
+        <prop name="Drafting Contrail Max Speed" data="140" />
         <prop name="Drafting Contrail Min Temperature" data="0" />
         <prop name="Drafting Contrail Max Temperature" data="25" />
-        <prop name="Drafting Contrail Min Humidity" data="0.70" />
+        <prop name="Drafting Contrail Min Humidity" data="0.75" />
         <prop name="Drafting Contrail Disable When DRS Opened" data="false" />
+        <prop name="Is Open Wheeler" data="true" />
     </data>
 </Reflection>

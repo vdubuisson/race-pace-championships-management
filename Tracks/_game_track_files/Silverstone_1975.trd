@@ -45,6 +45,11 @@
         <prop name="GrassParticlesOverride" type="String" />
         <prop name="LeafParticlesOverride" type="String" />
         <prop name="Uses Reflection Flag" type="Bool" />
+		<prop name="AIPitStopEstimationTimeScalar" type="F32" />
+		<prop name="AIScalarForFuelLaptimeLoss" type="F32" />
+		<prop name="MaxPuddleDepthDriven" type="F32" />
+		<prop name="MaxPuddleDepthRoad" type="F32" />
+		<prop name="MaxPuddleDepthOffroad" type="F32" />
         <prop name="Track_Location" type="String" />
         <prop name="Track_Variation" type="String" />
         <prop name="AI Grip" type="F32" />
@@ -65,6 +70,7 @@
         <prop name="AI drift score min" type="U32" />
         <prop name="AI drift score max" type="U32" />
         <prop name="Rolling Start Allowed" type="Bool" />
+        <prop name="CutTrackFraction" type="F32" />
         <prop name="Setup group" type="String" />
         <prop name="ZoneName" type="String" />
         <prop name="Post race position" type="Vec3f" />
@@ -141,6 +147,11 @@
         <prop name="GrassParticlesOverride" data="" />
         <prop name="LeafParticlesOverride" data="" />
         <prop name="Uses Reflection Flag" data="true" />
+		<prop name="AIPitStopEstimationTimeScalar" data="0.95" />
+		<prop name="AIScalarForFuelLaptimeLoss" data="1.0" />
+		<prop name="MaxPuddleDepthDriven" data="0.03" />
+		<prop name="MaxPuddleDepthRoad" data="0.04" />
+		<prop name="MaxPuddleDepthOffroad" data="0.20" />
         <prop name="Track_Location" data="Silverstone" />
         <prop name="Track_Variation" data="Silverstone_1975" />
         <prop name="AI Grip" data="1.0" />
@@ -161,6 +172,7 @@
         <prop name="AI drift score min" data="100" />
         <prop name="AI drift score max" data="200" />
         <prop name="Rolling Start Allowed" data="True" />
+        <prop name="CutTrackFraction" data="0.933" />
         <prop name="Setup group" data="Circuit" />
         <prop name="ZoneName" data="" />
         <prop name="Post race position" data="0.0; 0.0; 0.0" />

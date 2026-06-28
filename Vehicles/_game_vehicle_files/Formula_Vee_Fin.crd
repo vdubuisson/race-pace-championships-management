@@ -60,6 +60,7 @@
         <prop name="Right Mirror Pos" type="Vec3f" />
         <prop name="AABBMin" type="Vec3f" />
         <prop name="AABBMax" type="Vec3f" />
+        <prop name="Is Open Wheeler" type="Bool" />
     </class>
     <data class="VehicleDetails" id="0xD8D56D0">
         <prop name="Name" data="Formula_Vee_Fin" />
@@ -70,8 +71,8 @@
         <prop name="VehicleModel" data="Formula Vee Fin" />
         <prop name="Vehicle Render Model" data="Formula_Vee_Fin.vhf" />
         <prop name="Driver Character" data="Formula_Vee_Fin" />
-        <prop name="User Overrides Base Helmet" data="helmet_GT_Modern_STOCK_USER_OVERRIDE" />
-        <prop name="User Overrides Base Outfit" data="outfit_GT_Modern_STOCK_USER_OVERRIDE" />		
+        <prop name="User Overrides Base Helmet" data="helmet_GT_Club_USER_OVERRIDE" />
+        <prop name="User Overrides Base Outfit" data="outfit_GT_Club_USER_OVERRIDE" />		
         <prop name="Vehicle Physics Model" data="Formula_Vee_Fin" />
         <prop name="Cockpit properties" data="Formula_Vee_Fin_Cockpit.bin" />
         <prop name="Vehicle Properties" data="Formula_Vee_Fin" />
@@ -118,5 +119,6 @@
         <prop name="Right Mirror Pos" data="-0.348;0.691;-0.343" />
         <prop name="AABBMin" data="-1.5;-0.0;-4.0" />
         <prop name="AABBMax" data="1.5;1.5;4.0" />
+        <prop name="Is Open Wheeler" data="true" />
     </data>
 </Reflection>

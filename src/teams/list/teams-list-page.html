@@ -22,9 +22,10 @@
   <thead>
     <tr>
       <th tuiTh [sorter]="'name' | tuiSorter" [style.width.%]="30">Name</th>
-      <th tuiTh [style.width.%]="30">Principal</th>
+      <th tuiTh [style.width.%]="20">Principal</th>
       <th tuiTh>Driver Loyalty</th>
       <th tuiTh>Expectation Level</th>
+      <th tuiTh>Performance Rating</th>
       <th tuiTh [style.width.%]="10">Actions</th>
     </tr>
   </thead>
@@ -38,6 +39,7 @@
         <td tuiTd>{{ team.principal }}</td>
         <td tuiTd>{{ team.driver_loyalty }}</td>
         <td tuiTd>{{ team.expectation_level }}</td>
+        <td tuiTd>{{ team.performance_rating }}</td>
         <td tuiTd>
           <a
             [routerLink]="['form', team.id]"

@@ -194,11 +194,24 @@ export class CsvExporter {
       ...team,
       driver_loyalty: team.driver_loyalty ?? '',
       expectation_level: team.expectation_level ?? '',
+      performance_rating: team.performance_rating ?? '',
+      engineering_weight: team.engineering_weight ?? '',
+      engineering_drag: team.engineering_drag ?? '',
+      engineering_power: team.engineering_power ?? '',
     }));
 
     return stringify(records, {
       header: true,
-      columns: ['name', 'principal', 'driver_loyalty', 'expectation_level'],
+      columns: [
+        'name',
+        'principal',
+        'driver_loyalty',
+        'expectation_level',
+        'performance_rating',
+        'engineering_weight',
+        'engineering_drag',
+        'engineering_power',
+      ],
     });
   }
 

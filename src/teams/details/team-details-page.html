@@ -1,0 +1,43 @@
+<a
+  [routerLink]="['/teams']"
+  appearance="outline"
+  iconStart="@tui.chevron-left"
+  size="xs"
+  tuiButton
+  class="back-btn"
+>
+  Back
+</a>
+<header tuiHeader="h3">
+  <h1 tuiTitle>{{ team().name }}</h1>
+  <aside tuiAccessories>
+    <a
+      tuiButton
+      appearance="primary"
+      [routerLink]="['/teams/form', team().id]"
+      iconStart="@tui.pencil"
+    >
+      Edit
+    </a>
+    <!-- <button
+      tuiButton
+      appearance="primary-destructive"
+      iconStart="@tui.trash-2"
+      (click)="deleteTeam()"
+    >
+      Delete
+    </button> -->
+  </aside>
+</header>
+<main>
+  <tui-tabs-with-more>
+    @for (tab of tabs; track tab.url) {
+      <a *tuiItem routerLinkActive="active" tuiTab [routerLink]="tab.url" [iconStart]="tab.icon">
+        {{ tab.label }}
+      </a>
+    }
+  </tui-tabs-with-more>
+  <section class="tab-content">
+    <router-outlet />
+  </section>
+</main>

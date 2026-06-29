@@ -1,0 +1,64 @@
+<div tuiGroup class="btn-group">
+  <button
+    (click)="viewMode.set('championship')"
+    tuiButton
+    iconStart="@tui.trophy"
+    type="button"
+    appearance="outline-grayscale"
+    size="m"
+    [tuiAppearanceMode]="viewMode() === 'championship' ? 'checked' : ''"
+  >
+    By championship
+  </button>
+  <button
+    (click)="viewMode.set('category')"
+    tuiButton
+    iconStart="@tui.folder"
+    type="button"
+    appearance="outline-grayscale"
+    size="m"
+    [tuiAppearanceMode]="viewMode() === 'category' ? 'checked' : ''"
+  >
+    By category
+  </button>
+</div>
+
+@if (viewMode() === 'category') {
+  @for (entry of carsByCategory() | keyvalue; track entry.key) {
+    @let category = entry.key;
+    @let categoryCars = entry.value;
+    <h2 tuiHeader class="tab-header">
+      <span>{{ category }}</span>
+      <div class="separator"></div>
+      <span tuiSubtitle>{{ categoryCars.length }}/{{ cars().length }} cars</span>
+    </h2>
+
+    <div class="cars-list">
+      @for (car of categoryCars; track car.id) {
+        <app-car-card
+          [car]="car"
+          mode="championship"
+          [isMod]="isCarsMods().get(car.id!) ?? false"
+        />
+      }
+    </div>
+  }
+}
+
+@if (viewMode() === 'championship') {
+  @for (entry of carsByChampionship() | keyvalue; track entry.key) {
+    @let championship = entry.key;
+    @let championshipCars = entry.value;
+    <h2 tuiHeader class="tab-header">
+      <span>{{ championship }}</span>
+      <div class="separator"></div>
+      <span tuiSubtitle>{{ championshipCars.length }}/{{ cars().length }} cars</span>
+    </h2>
+
+    <div class="cars-list">
+      @for (car of championshipCars; track car.id) {
+        <app-car-card [car]="car" mode="category" [isMod]="isCarsMods().get(car.id!) ?? false" />
+      }
+    </div>
+  }
+}

@@ -3,7 +3,7 @@ import { ResourceImporter } from '@/import/resource-importer/resource-importer';
 import { Component, inject, signal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { RouterOutlet } from '@angular/router';
-import { TuiLoader, TuiNotificationService, TuiRoot } from '@taiga-ui/core';
+import { TUI_DARK_MODE, TuiLoader, TuiNotificationService, TuiRoot } from '@taiga-ui/core';
 import { catchError, of, switchMap, tap } from 'rxjs';
 
 @Component({
@@ -13,6 +13,8 @@ import { catchError, of, switchMap, tap } from 'rxjs';
   styleUrl: './app.css',
 })
 export class App {
+  private readonly darkMode = inject(TUI_DARK_MODE);
+
   private readonly resourceImporter = inject(ResourceImporter);
   private readonly notifications = inject(TuiNotificationService);
   private readonly versionRepository = inject(VersionRepository);
@@ -20,6 +22,7 @@ export class App {
   protected readonly importingBaseResources = signal(false);
 
   constructor() {
+    // this.darkMode.set(true);
     this.checkAndImportBaseResources();
   }
 

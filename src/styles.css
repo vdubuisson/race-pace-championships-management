@@ -7,6 +7,10 @@ body {
   height: 100%;
 }
 
+[tuiTheme='dark'] [tuiChip] {
+  color: #1b1f3b;
+}
+
 .back-btn {
   margin-bottom: 1rem;
 }

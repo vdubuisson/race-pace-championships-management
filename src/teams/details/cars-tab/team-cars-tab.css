@@ -1,24 +1,12 @@
-.step-header {
-  margin-bottom: 1rem;
-
-  [tuiTitle] {
-    display: block;
-  }
-
-  .invalid {
-    color: var(--tui-text-negative);
-  }
+.btn-group {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 1rem;
 }
 
-.cat-header {
+.tab-header {
   padding: 0.5rem 1rem;
   align-items: center;
-
-  [tuiTitle] {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
 }
 
 .separator {

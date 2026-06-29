@@ -62,6 +62,9 @@ importers:
       '@progress/jszip-esm':
         specifier: ^1.0.4
         version: 1.0.4
+      '@taiga-ui/addon-charts':
+        specifier: ^5.12.0
+        version: 5.12.0(@angular/common@21.2.17(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(@ng-web-apis/common@5.3.0(@angular/common@21.2.17(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(@types/dom-speech-recognition@0.0.10)(rxjs@7.8.2))(@taiga-ui/cdk@5.12.0(bf18b087f7ceaf5a473d2dc00a73bcc8))(@taiga-ui/core@5.12.0(62727d04b83ee4dff023c6eb159693e1))(@taiga-ui/polymorpheus@5.0.1(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(@angular/platform-browser@21.2.17(@angular/common@21.2.17(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))))
       '@taiga-ui/addon-table':
         specifier: ^5.12.0
         version: 5.12.0(cd98a43e3ec3a7988c010a31038d4352)
@@ -1638,6 +1641,16 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
+
+  '@taiga-ui/addon-charts@5.12.0':
+    resolution: {integrity: sha512-TAJ/6uBvK/L8PRL7FLaoypEMhWvnMVV/urNq8u4vyGhIqHYGEpefeynDrJwK68AJ8VAiU2YX2XQWeJA2mxVRBA==}
+    peerDependencies:
+      '@angular/common': '>=19.0.0'
+      '@angular/core': '>=19.0.0'
+      '@ng-web-apis/common': ^5.3.0
+      '@taiga-ui/cdk': 5.12.0
+      '@taiga-ui/core': 5.12.0
+      '@taiga-ui/polymorpheus': ^5.0.1
 
   '@taiga-ui/addon-table@5.12.0':
     resolution: {integrity: sha512-7fswhTXNaIUoh8F108dWv5hqwSfS1dLLXx7ynRE55ft9vg9jw3+Yz+WVVSZyHxxbApwrAaaF4EASjg7yrheYow==}
@@ -4555,6 +4568,16 @@ snapshots:
       '@sigstore/protobuf-specs': 0.5.1
 
   '@standard-schema/spec@1.1.0': {}
+
+  '@taiga-ui/addon-charts@5.12.0(@angular/common@21.2.17(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(@ng-web-apis/common@5.3.0(@angular/common@21.2.17(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(@types/dom-speech-recognition@0.0.10)(rxjs@7.8.2))(@taiga-ui/cdk@5.12.0(bf18b087f7ceaf5a473d2dc00a73bcc8))(@taiga-ui/core@5.12.0(62727d04b83ee4dff023c6eb159693e1))(@taiga-ui/polymorpheus@5.0.1(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(@angular/platform-browser@21.2.17(@angular/common@21.2.17(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))))':
+    dependencies:
+      '@angular/common': 21.2.17(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(rxjs@7.8.2)
+      '@angular/core': 21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2)
+      '@ng-web-apis/common': 5.3.0(@angular/common@21.2.17(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(@types/dom-speech-recognition@0.0.10)(rxjs@7.8.2)
+      '@taiga-ui/cdk': 5.12.0(bf18b087f7ceaf5a473d2dc00a73bcc8)
+      '@taiga-ui/core': 5.12.0(62727d04b83ee4dff023c6eb159693e1)
+      '@taiga-ui/polymorpheus': 5.0.1(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(@angular/platform-browser@21.2.17(@angular/common@21.2.17(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2))(rxjs@7.8.2))(@angular/core@21.2.17(@angular/compiler@21.2.17)(rxjs@7.8.2)))
+      tslib: 2.8.1
 
   '@taiga-ui/addon-table@5.12.0(cd98a43e3ec3a7988c010a31038d4352)':
     dependencies:

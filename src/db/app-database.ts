@@ -33,5 +33,8 @@ export class AppDatabase extends Dexie {
       tracks: 'id, location',
     });
     Dexie.delete('RacePaceChampionshipsManagementDB');
+    this.version(2).stores({
+      liveries: '++id, class, livery_name',
+    });
   }
 }

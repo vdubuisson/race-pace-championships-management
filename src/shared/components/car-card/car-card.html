@@ -44,15 +44,39 @@
     </div>
   }
   <footer>
-    @if (car().team_name) {
-      <span
-        appearance="custom"
-        tuiChip
-        [style.background-color]="car().team_name ?? '' | tuiAutoColor"
-        iconStart="@tui.user"
-      >
-        {{ car().team_name }}
-      </span>
+    @switch (mode()) {
+      @case ('team') {
+        @if (car().team_name) {
+          <span
+            appearance="custom"
+            tuiChip
+            [style.background-color]="car().team_name ?? '' | tuiAutoColor"
+            iconStart="@tui.user"
+          >
+            {{ car().team_name }}
+          </span>
+        }
+      }
+      @case ('championship') {
+        <span
+          appearance="custom"
+          tuiChip
+          [style.background-color]="car().championship_name ?? '' | tuiAutoColor"
+          iconStart="@tui.trophy"
+        >
+          {{ car().championship_name }}
+        </span>
+      }
+      @case ('category') {
+        <span
+          appearance="custom"
+          tuiChip
+          [style.background-color]="car().category ?? '' | tuiAutoColor"
+          iconStart="@tui.folder"
+        >
+          {{ car().category }}
+        </span>
+      }
     }
   </footer>
 </div>

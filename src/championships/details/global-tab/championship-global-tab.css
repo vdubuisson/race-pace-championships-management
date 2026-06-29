@@ -33,3 +33,9 @@
 .mod-icon {
   font-size: 0.9rem;
 }
+
+[tuiCell]:has(.line) {
+  [tuiTitle]:first-child {
+    flex: none;
+  }
+}

@@ -1,0 +1,1 @@
+import{b as o}from"./chunk-OOCOBEPF.js";import{ga as e,la as a}from"./chunk-EJYS4ZBV.js";var i=class r{store=a(o).tracks;getTracksByIds(t){return this.store.where("id").anyOf(t).toArray()}getAllTracks(){return this.store.toArray()}static \u0275fac=function(s){return new(s||r)};static \u0275prov=e({token:r,factory:r.\u0275fac,providedIn:"root"})};export{i as a};

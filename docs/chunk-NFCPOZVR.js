@@ -1,0 +1,1 @@
+import{Cb as o,ab as e,he as n,wd as r}from"./chunk-EJYS4ZBV.js";var a=(()=>{class t{constructor(){this.el=n(),this.autoId=r()}get id(){return this.el.id||this.autoId}static{this.\u0275fac=function(i){return new(i||t)}}static{this.\u0275dir=e({type:t,selectors:[["","tuiId",""]],hostVars:1,hostBindings:function(i,s){i&2&&o("id",s.id)}})}}return t})();export{a};

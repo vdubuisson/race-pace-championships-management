@@ -1,0 +1,1 @@
+import{b as a}from"./chunk-OOCOBEPF.js";import{ga as t,la as s}from"./chunk-EJYS4ZBV.js";var o=class e{store=s(a).classes;getAllVehicleClasses(){return this.store.toArray()}getVehicleClassesByIds(r){return this.store.where("id").anyOf(r).toArray()}static \u0275fac=function(i){return new(i||e)};static \u0275prov=t({token:e,factory:e.\u0275fac,providedIn:"root"})};export{o as a};

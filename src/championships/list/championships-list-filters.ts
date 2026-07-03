@@ -1,10 +1,10 @@
 import { ChampionshipWithClasses } from '@/shared/models/championship';
-import { computed, inject, Injectable, linkedSignal } from '@angular/core';
+import { computed, inject, linkedSignal, Service } from '@angular/core';
 import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
 import { FormControl, FormGroup } from '@angular/forms';
 import { ChampionshipsService } from '../championships-service/championships-service';
 
-@Injectable()
+@Service({ autoProvided: false })
 export class ChampionshipsListFilters {
   private readonly championshipService = inject(ChampionshipsService);
 

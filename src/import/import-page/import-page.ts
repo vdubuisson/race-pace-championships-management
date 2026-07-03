@@ -1,12 +1,4 @@
-import {
-  ChangeDetectionStrategy,
-  Component,
-  computed,
-  DestroyRef,
-  inject,
-  signal,
-  WritableSignal,
-} from '@angular/core';
+import { Component, computed, DestroyRef, inject, signal, WritableSignal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { Router, RouterLink } from '@angular/router';
 import {
@@ -29,7 +21,6 @@ import { ResourceImporter } from '../resource-importer/resource-importer';
   selector: 'app-import-page',
   templateUrl: './import-page.html',
   styleUrl: './import-page.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     ImportCustomSection,
     RouterLink,

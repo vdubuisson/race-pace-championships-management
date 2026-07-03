@@ -9,7 +9,7 @@ import { Car } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
 import { RaceEvent } from '@/shared/models/race-event';
 import { VehicleClass } from '@/shared/models/vehicle-class';
-import { computed, inject, Injectable, linkedSignal, signal } from '@angular/core';
+import { computed, inject, linkedSignal, Service, signal } from '@angular/core';
 import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
 import { AsyncValidatorFn, FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 import { from } from 'rxjs';
@@ -36,7 +36,7 @@ export type GlobalFormGroup = FormGroup<{
   default_included: FormControl<boolean>;
 }>;
 
-@Injectable()
+@Service({ autoProvided: false })
 export class ChampionshipsFormManager {
   private readonly championshipRepository = inject(ChampionshipRepository);
   private readonly eventRepository = inject(EventRepository);

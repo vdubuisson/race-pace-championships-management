@@ -1,5 +1,5 @@
 import { Car } from '@/shared/models/car';
-import { ChangeDetectionStrategy, Component, computed, input, output } from '@angular/core';
+import { Component, computed, input, output } from '@angular/core';
 import { TuiButton, TuiGroup, TuiHint, TuiIcon, TuiTitle } from '@taiga-ui/core';
 import { TuiAutoColorPipe, TuiChip } from '@taiga-ui/kit';
 import { TuiCardLarge, TuiHeader } from '@taiga-ui/layout';
@@ -10,7 +10,6 @@ type CardMode = 'team' | 'championship' | 'category';
   selector: 'app-car-card',
   templateUrl: './car-card.html',
   styleUrl: './car-card.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     TuiAutoColorPipe,
     TuiButton,

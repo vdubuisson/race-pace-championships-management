@@ -1,5 +1,5 @@
 import { AsyncPipe } from '@angular/common';
-import { ChangeDetectionStrategy, Component, effect, input, output, signal } from '@angular/core';
+import { Component, effect, input, output, signal } from '@angular/core';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { TuiValidationError } from '@taiga-ui/cdk/classes';
 import { TuiButton, TuiError, TuiTitle } from '@taiga-ui/core';
@@ -30,7 +30,6 @@ import {
   ],
   templateUrl: './import-custom-section.html',
   styleUrl: './import-custom-section.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ImportCustomSection {
   readonly importing = input(false);

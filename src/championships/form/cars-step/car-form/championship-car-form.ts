@@ -2,15 +2,7 @@ import { Car } from '@/shared/models/car';
 import { Livery } from '@/shared/models/livery';
 import { Team } from '@/shared/models/team';
 import { ScrollingModule } from '@angular/cdk/scrolling';
-import {
-  ChangeDetectionStrategy,
-  Component,
-  computed,
-  effect,
-  input,
-  output,
-  signal,
-} from '@angular/core';
+import { Component, computed, effect, input, output, signal } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import {
   TuiButton,
@@ -39,7 +31,6 @@ type TeamWithCarsCount = Team & { cars: number };
   selector: 'app-championship-car-form',
   templateUrl: './championship-car-form.html',
   styleUrl: './championship-car-form.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     ReactiveFormsModule,
     ScrollingModule,

@@ -3,15 +3,7 @@ import { Car } from '@/shared/models/car';
 import { Livery } from '@/shared/models/livery';
 import { Team } from '@/shared/models/team';
 import { VehicleClass } from '@/shared/models/vehicle-class';
-import {
-  ChangeDetectionStrategy,
-  Component,
-  computed,
-  inject,
-  input,
-  model,
-  signal,
-} from '@angular/core';
+import { Component, computed, inject, input, model, signal } from '@angular/core';
 import { TuiButton, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
 import { TuiHeader } from '@taiga-ui/layout';
 import { ChampionshipCarForm } from './car-form/championship-car-form';
@@ -20,7 +12,6 @@ import { ChampionshipCarForm } from './car-form/championship-car-form';
   selector: 'app-championship-cars-step',
   templateUrl: './championship-cars-step.html',
   styleUrl: './championship-cars-step.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [CarCard, ChampionshipCarForm, TuiButton, TuiHeader, TuiTitle],
 })
 export class ChampionshipCarsStep {

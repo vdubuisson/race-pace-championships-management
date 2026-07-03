@@ -1,5 +1,5 @@
 import { SlicePipe } from '@angular/common';
-import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
+import { Component, computed, inject, signal } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { TuiTable, TuiTablePagination, TuiTablePaginationEvent } from '@taiga-ui/addon-table';
@@ -56,7 +56,6 @@ import { ChampionshipsListFilters } from './championships-list-filters';
     TuiTitle,
   ],
   providers: [ChampionshipsListFilters],
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ChampionshipsListPage {
   private readonly championshipService = inject(ChampionshipsService);

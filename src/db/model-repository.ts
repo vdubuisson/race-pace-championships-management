@@ -1,8 +1,8 @@
 import { VehicleModel } from '@/shared/models/vehicle-model';
-import { inject, Injectable } from '@angular/core';
+import { inject, Service } from '@angular/core';
 import { AppDatabase } from './app-database';
 
-@Injectable({ providedIn: 'root' })
+@Service()
 export class ModelRepository {
   private readonly store = inject(AppDatabase).models;
 

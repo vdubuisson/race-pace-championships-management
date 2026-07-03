@@ -6,7 +6,7 @@ import { VehicleClassRepository } from '@/db/vehicle-class-repository';
 import { Car } from '@/shared/models/car';
 import { Championship, ChampionshipWithClasses } from '@/shared/models/championship';
 import { RaceEvent } from '@/shared/models/race-event';
-import { inject, Injectable } from '@angular/core';
+import { inject, Service } from '@angular/core';
 import { Observable, switchMap } from 'rxjs';
 
 type SaveChampionshipPayload = {
@@ -17,9 +17,7 @@ type SaveChampionshipPayload = {
   previousName?: string;
 };
 
-@Injectable({
-  providedIn: 'root',
-})
+@Service()
 export class ChampionshipsService {
   private readonly appDatabase = inject(AppDatabase);
   private readonly championshipRepository = inject(ChampionshipRepository);

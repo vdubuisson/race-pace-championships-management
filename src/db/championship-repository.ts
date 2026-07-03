@@ -1,10 +1,10 @@
 import { Championship } from '@/shared/models/championship';
-import { inject, Injectable } from '@angular/core';
+import { inject, Service } from '@angular/core';
 import { liveQuery } from 'dexie';
 import { from, Observable } from 'rxjs';
 import { AppDatabase } from './app-database';
 
-@Injectable({ providedIn: 'root' })
+@Service()
 export class ChampionshipRepository {
   readonly store = inject(AppDatabase).championships;
 

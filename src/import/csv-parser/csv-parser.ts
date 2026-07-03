@@ -6,7 +6,7 @@ import { Team } from '@/shared/models/team';
 import { Track } from '@/shared/models/track';
 import { VehicleClass } from '@/shared/models/vehicle-class';
 import { VehicleModel } from '@/shared/models/vehicle-model';
-import { Injectable } from '@angular/core';
+import { Service } from '@angular/core';
 import { parse } from 'csv-parse/browser/esm/sync';
 import { CsvValidationError } from '../import-custom/validators/csv-validation-error';
 
@@ -71,7 +71,7 @@ const EXPECTED_HEADERS: Record<CsvFile, CsvHeader[]> = {
   ],
 };
 
-@Injectable({ providedIn: 'root' })
+@Service()
 export class CsvParser {
   parseCars(text: string): Car[] {
     this.validateMandatoryHeaders('cars.csv', text);

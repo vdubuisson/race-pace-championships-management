@@ -1,15 +1,7 @@
 import { EventCard } from '@/championships/event-card/event-card';
 import { RaceEvent, RaceEventWithTrack } from '@/shared/models/race-event';
 import { Track } from '@/shared/models/track';
-import {
-  ChangeDetectionStrategy,
-  Component,
-  computed,
-  inject,
-  input,
-  model,
-  signal,
-} from '@angular/core';
+import { Component, computed, inject, input, model, signal } from '@angular/core';
 import { TuiButton, TuiCell, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
 import { ChampionshipEventForm } from './event-form/championship-event-form';
 
@@ -17,7 +9,6 @@ import { ChampionshipEventForm } from './event-form/championship-event-form';
   selector: 'app-championship-events-step',
   templateUrl: './championship-events-step.html',
   styleUrl: './championship-events-step.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [ChampionshipEventForm, EventCard, TuiButton, TuiCell, TuiTitle],
 })
 export class ChampionshipEventsStep {

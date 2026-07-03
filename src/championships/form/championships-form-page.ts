@@ -1,13 +1,5 @@
 import { Championship } from '@/shared/models/championship';
-import {
-  ChangeDetectionStrategy,
-  Component,
-  computed,
-  effect,
-  inject,
-  input,
-  signal,
-} from '@angular/core';
+import { Component, computed, effect, inject, input, signal } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { TuiButton, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
 import { TuiStepper } from '@taiga-ui/kit';
@@ -34,7 +26,6 @@ type StepState = 'pass' | 'error' | 'normal';
     TuiTitle,
   ],
   providers: [ChampionshipsFormManager],
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export default class ChampionshipsFormPage {
   private readonly formService = inject(ChampionshipsFormManager);

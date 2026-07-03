@@ -1,10 +1,9 @@
-import { VersionRepository } from '@/db/version-repository';
-import { ResourceImporter } from '@/import/resource-importer/resource-importer';
-import { Component, inject, signal } from '@angular/core';
+import VersionChecker from '@/import/version-checker/version-checker';
+import { Component, inject, injectAsync, signal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { RouterOutlet } from '@angular/router';
 import { TUI_DARK_MODE, TuiLoader, TuiNotificationService, TuiRoot } from '@taiga-ui/core';
-import { catchError, of, switchMap, tap } from 'rxjs';
+import { catchError, from, of, switchMap, tap } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -15,9 +14,11 @@ import { catchError, of, switchMap, tap } from 'rxjs';
 export class App {
   private readonly darkMode = inject(TUI_DARK_MODE);
 
-  private readonly resourceImporter = inject(ResourceImporter);
   private readonly notifications = inject(TuiNotificationService);
-  private readonly versionRepository = inject(VersionRepository);
+  private readonly versionChecker = inject(VersionChecker);
+  private readonly resourceImporter = injectAsync(
+    () => import('@/import/resource-importer/resource-importer'),
+  );
 
   protected readonly importingBaseResources = signal(false);
 
@@ -28,15 +29,16 @@ export class App {
 
   private checkAndImportBaseResources(): void {
     this.importingBaseResources.set(true);
-    const localVersion = this.versionRepository.getLocalBaseResourcesVersion();
-    this.resourceImporter
-      .getRemoteBaseResourcesVersion()
+
+    this.versionChecker
+      .needToImportBaseResources()
       .pipe(
-        switchMap((remoteVersion) => {
-          if (remoteVersion > localVersion) {
-            return this.resourceImporter
-              .importBaseResources()
-              .pipe(tap(() => this.versionRepository.setLocalBaseResourcesVersion(remoteVersion)));
+        switchMap((needToImport) => {
+          if (needToImport) {
+            return from(this.resourceImporter()).pipe(
+              switchMap((resourceImporter) => resourceImporter.importBaseResources()),
+              tap(() => this.versionChecker.setLocalBaseResourcesVersion()),
+            );
           }
           return of(null);
         }),

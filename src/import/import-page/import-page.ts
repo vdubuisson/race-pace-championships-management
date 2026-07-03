@@ -15,7 +15,7 @@ import { TuiHeader } from '@taiga-ui/layout';
 import { catchError, Observable, of, switchMap, tap } from 'rxjs';
 import { CsvImporter } from '../csv-importer/csv-importer';
 import { ImportCustomSection } from '../import-custom/import-custom-section';
-import { ResourceImporter } from '../resource-importer/resource-importer';
+import ResourceImporter from '../resource-importer/resource-importer';
 
 @Component({
   selector: 'app-import-page',

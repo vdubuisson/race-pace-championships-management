@@ -12,13 +12,13 @@ import { inject, Service } from '@angular/core';
 import { forkJoin, map, Observable, switchMap } from 'rxjs';
 import { DbLoader } from '../db-loader/db-loader';
 
-const BASE_RESOURCE_PATH = 'base';
+export const BASE_RESOURCE_PATH = 'base';
 const ORIGINAL_RESOURCE_PATH = 'original';
 const BLITZER_MODDED_RESOURCE_PATH = 'blitzer-modded';
 const BLITZER_NO_MODS_RESOURCE_PATH = 'blitzer-no-mods';
 
 @Service()
-export class ResourceImporter {
+export default class ResourceImporter {
   private readonly http = inject(HttpClient);
   private readonly csvParser = inject(CsvParser);
   private readonly dbLoader = inject(DbLoader);
@@ -33,12 +33,6 @@ export class ResourceImporter {
 
   importBlitzerNoModsChampionships(): Observable<void> {
     return this.importChampionshipsResources(BLITZER_NO_MODS_RESOURCE_PATH);
-  }
-
-  getRemoteBaseResourcesVersion(): Observable<number> {
-    return this.http
-      .get(`resources/${BASE_RESOURCE_PATH}/version.txt`, { responseType: 'text' })
-      .pipe(map((text) => parseInt(text)));
   }
 
   importBaseResources(): Observable<void> {

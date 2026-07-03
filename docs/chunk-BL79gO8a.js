@@ -1,0 +1,1 @@
+import {ay as Xe,b9 as To,aF as rD,aI as fh}from'./main-LIQ36KLA.js';var a=(()=>{class t{constructor(){this.el=Xe(),this.autoId=To();}get id(){return this.el.id||this.autoId}static{this.\u0275fac=function(i){return new(i||t)};}static{this.\u0275dir=rD({type:t,selectors:[["","tuiId",""]],hostVars:1,hostBindings:function(i,s){i&2&&fh("id",s.id);}});}}return t})();export{a};

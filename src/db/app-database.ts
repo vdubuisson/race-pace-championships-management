@@ -6,10 +6,10 @@ import { Team } from '@/shared/models/team';
 import { Track } from '@/shared/models/track';
 import { VehicleClass } from '@/shared/models/vehicle-class';
 import { VehicleModel } from '@/shared/models/vehicle-model';
-import { Injectable } from '@angular/core';
+import { Service } from '@angular/core';
 import Dexie, { type Table } from 'dexie';
 
-@Injectable({ providedIn: 'root' })
+@Service()
 export class AppDatabase extends Dexie {
   cars!: Table<Car, number>;
   championships!: Table<Championship, number>;

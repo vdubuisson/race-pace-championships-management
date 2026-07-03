@@ -7,7 +7,7 @@ import { Team } from '@/shared/models/team';
 import { Track } from '@/shared/models/track';
 import { VehicleClass } from '@/shared/models/vehicle-class';
 import { VehicleModel } from '@/shared/models/vehicle-model';
-import { inject, Injectable } from '@angular/core';
+import { inject, Service } from '@angular/core';
 import { Table } from 'dexie';
 
 type ChampionshipsDbData = {
@@ -24,7 +24,7 @@ type BaseDbData = {
   liveries: Livery[];
 };
 
-@Injectable({ providedIn: 'root' })
+@Service()
 export class DbLoader {
   private readonly db = inject(AppDatabase);
 

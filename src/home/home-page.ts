@@ -1,5 +1,4 @@
-import { CsvExporter } from '@/export/csv-exporter';
-import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
+import { Component, computed, inject, injectAsync, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TuiButton, TuiIcon, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
 import { TuiButtonLoading } from '@taiga-ui/kit';
@@ -9,11 +8,10 @@ import { TuiHeader } from '@taiga-ui/layout';
   selector: 'app-home-page',
   templateUrl: './home-page.html',
   styleUrl: './home-page.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [RouterLink, TuiHeader, TuiIcon, TuiTitle, TuiButton, TuiButtonLoading],
 })
 export class HomePage {
-  private readonly csvExporter = inject(CsvExporter);
+  private readonly csvExporter = injectAsync(() => import('@/export/csv-exporter'));
   private readonly notifications = inject(TuiNotificationService);
 
   readonly isExportingWithMods = signal(false);
@@ -25,7 +23,8 @@ export class HomePage {
   async exportDataWithMods(): Promise<void> {
     this.isExportingWithMods.set(true);
     try {
-      await this.csvExporter.downloadCsvsZip();
+      const csvExporter = await this.csvExporter();
+      await csvExporter.downloadCsvsZip();
     } catch (error) {
       this.displayError(error as Error);
     } finally {
@@ -36,7 +35,8 @@ export class HomePage {
   async exportDataWithoutMods(): Promise<void> {
     this.isExportingWithoutMods.set(true);
     try {
-      await this.csvExporter.downloadCsvsZipWithoutMods();
+      const csvExporter = await this.csvExporter();
+      await csvExporter.downloadCsvsZipWithoutMods();
     } catch (error) {
       this.displayError(error as Error);
     } finally {

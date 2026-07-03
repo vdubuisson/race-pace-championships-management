@@ -8,7 +8,7 @@ import { Track } from '@/shared/models/track';
 import { VehicleClass } from '@/shared/models/vehicle-class';
 import { VehicleModel } from '@/shared/models/vehicle-model';
 import { HttpClient } from '@angular/common/http';
-import { inject, Injectable } from '@angular/core';
+import { inject, Service } from '@angular/core';
 import { forkJoin, map, Observable, switchMap } from 'rxjs';
 import { DbLoader } from '../db-loader/db-loader';
 
@@ -17,7 +17,7 @@ const ORIGINAL_RESOURCE_PATH = 'original';
 const BLITZER_MODDED_RESOURCE_PATH = 'blitzer-modded';
 const BLITZER_NO_MODS_RESOURCE_PATH = 'blitzer-no-mods';
 
-@Injectable({ providedIn: 'root' })
+@Service()
 export class ResourceImporter {
   private readonly http = inject(HttpClient);
   private readonly csvParser = inject(CsvParser);

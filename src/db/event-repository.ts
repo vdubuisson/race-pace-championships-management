@@ -1,8 +1,8 @@
 import { RaceEvent } from '@/shared/models/race-event';
-import { inject, Injectable } from '@angular/core';
+import { inject, Service } from '@angular/core';
 import { AppDatabase } from './app-database';
 
-@Injectable({ providedIn: 'root' })
+@Service()
 export class EventRepository {
   readonly store = inject(AppDatabase).events;
 

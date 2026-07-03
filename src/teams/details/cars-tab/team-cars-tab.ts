@@ -3,15 +3,7 @@ import { VehicleClassRepository } from '@/db/vehicle-class-repository';
 import { CarCard } from '@/shared/components/car-card/car-card';
 import { Car } from '@/shared/models/car';
 import { KeyValuePipe } from '@angular/common';
-import {
-  ChangeDetectionStrategy,
-  Component,
-  computed,
-  inject,
-  input,
-  resource,
-  signal,
-} from '@angular/core';
+import { Component, computed, inject, input, resource, signal } from '@angular/core';
 import { TuiButton, TuiGroup } from '@taiga-ui/core';
 import { TuiHeader } from '@taiga-ui/layout';
 
@@ -19,7 +11,6 @@ import { TuiHeader } from '@taiga-ui/layout';
   selector: 'app-team-cars-tab',
   templateUrl: './team-cars-tab.html',
   styleUrl: './team-cars-tab.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [CarCard, KeyValuePipe, TuiButton, TuiGroup, TuiHeader],
 })
 export default class TeamCarsTab {

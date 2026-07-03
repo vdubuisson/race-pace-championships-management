@@ -2,16 +2,7 @@ import { VehicleClass } from '@/shared/models/vehicle-class';
 import { MonthPipe } from '@/shared/pipes/month/month-pipe';
 import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
 import { TitleCasePipe } from '@angular/common';
-import {
-  ChangeDetectionStrategy,
-  Component,
-  computed,
-  DestroyRef,
-  effect,
-  inject,
-  input,
-  signal,
-} from '@angular/core';
+import { Component, computed, DestroyRef, effect, inject, input, signal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { FormArray, FormControl, ReactiveFormsModule, Validators } from '@angular/forms';
 import {
@@ -44,7 +35,6 @@ import { GlobalFormGroup } from '../championships-form-manager';
   selector: 'app-championship-global-step',
   templateUrl: './championship-global-step.html',
   styleUrl: './championship-global-step.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [MonthPipe, TitleCasePipe],
   imports: [
     OrdinalPipe,

@@ -1,9 +1,9 @@
-import { ChangeDetectionStrategy, Component, inject, input } from '@angular/core';
+import { Championship } from '@/shared/models/championship';
+import { Component, inject, input } from '@angular/core';
 import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { TuiButton, TuiDialogService, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
 import { TUI_CONFIRM, TuiConfirmData, TuiTabs } from '@taiga-ui/kit';
 import { TuiHeader } from '@taiga-ui/layout';
-import { Championship } from '@/shared/models/championship';
 import { of, switchMap } from 'rxjs';
 import { ChampionshipsService } from '../championships-service/championships-service';
 
@@ -12,7 +12,6 @@ import { ChampionshipsService } from '../championships-service/championships-ser
   templateUrl: './championships-details-page.html',
   styleUrl: './championships-details-page.css',
   imports: [RouterLink, RouterLinkActive, TuiButton, TuiHeader, TuiTabs, TuiTitle, RouterOutlet],
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export default class ChampionshipsDetailsPage {
   private readonly dialogs = inject(TuiDialogService);

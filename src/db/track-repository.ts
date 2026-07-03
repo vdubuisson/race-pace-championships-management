@@ -1,8 +1,8 @@
 import { Track } from '@/shared/models/track';
-import { inject, Injectable } from '@angular/core';
+import { inject, Service } from '@angular/core';
 import { AppDatabase } from './app-database';
 
-@Injectable({ providedIn: 'root' })
+@Service()
 export class TrackRepository {
   private readonly store = inject(AppDatabase).tracks;
 

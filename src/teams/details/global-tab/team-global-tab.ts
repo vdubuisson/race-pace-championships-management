@@ -1,6 +1,6 @@
 import { Team } from '@/shared/models/team';
 import { PercentPipe } from '@angular/common';
-import { ChangeDetectionStrategy, Component, computed, input, signal } from '@angular/core';
+import { Component, computed, input, signal } from '@angular/core';
 import { TuiArcChart, TuiLegendItem, TuiRingChart } from '@taiga-ui/addon-charts';
 import { TuiHovered } from '@taiga-ui/cdk';
 import { TuiCell, TuiIcon, TuiTitle } from '@taiga-ui/core';
@@ -11,7 +11,6 @@ import { TuiCardLarge, TuiHeader } from '@taiga-ui/layout';
   selector: 'app-team-global-tab',
   templateUrl: './team-global-tab.html',
   styleUrl: './team-global-tab.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     PercentPipe,
     TuiArcChart,

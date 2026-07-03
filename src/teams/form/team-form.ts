@@ -1,15 +1,6 @@
 import { TeamRepository } from '@/db/team-repository';
 import { Team } from '@/shared/models/team';
-import {
-  ChangeDetectionStrategy,
-  Component,
-  computed,
-  effect,
-  inject,
-  input,
-  numberAttribute,
-  signal,
-} from '@angular/core';
+import { Component, computed, effect, inject, input, numberAttribute, signal } from '@angular/core';
 import {
   AsyncValidatorFn,
   FormControl,
@@ -46,7 +37,6 @@ import { TuiForm, TuiHeader } from '@taiga-ui/layout';
     TuiTitle,
     TuiTooltip,
   ],
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export default class TeamForm {
   private readonly teamRepository = inject(TeamRepository);

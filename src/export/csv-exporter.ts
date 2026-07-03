@@ -7,13 +7,13 @@ import { TrackRepository } from '@/db/track-repository';
 import { CsvCar } from '@/shared/models/car';
 import { RaceEvent } from '@/shared/models/race-event';
 import { Track } from '@/shared/models/track';
-import { inject, Injectable } from '@angular/core';
+import { inject, Service } from '@angular/core';
 import JSZip from '@progress/jszip-esm';
 import { stringify } from 'csv-stringify/browser/esm/sync';
 import { firstValueFrom } from 'rxjs';
 
-@Injectable({ providedIn: 'root' })
-export class CsvExporter {
+@Service()
+export default class CsvExporter {
   private readonly championshipRepository = inject(ChampionshipRepository);
   private readonly carRepository = inject(CarRepository);
   private readonly eventRepository = inject(EventRepository);

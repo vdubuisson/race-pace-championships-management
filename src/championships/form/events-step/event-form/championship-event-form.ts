@@ -7,7 +7,6 @@ import { MonthPipe } from '@/shared/pipes/month/month-pipe';
 import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import {
-  ChangeDetectionStrategy,
   Component,
   computed,
   effect,
@@ -53,7 +52,6 @@ import { TuiForm, TuiHeader } from '@taiga-ui/layout';
   selector: 'app-championship-event-form',
   templateUrl: './championship-event-form.html',
   styleUrl: './championship-event-form.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   providers: [
     MonthPipe,
     OrdinalPipe,

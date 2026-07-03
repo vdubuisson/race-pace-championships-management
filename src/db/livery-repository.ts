@@ -1,8 +1,8 @@
 import { Livery } from '@/shared/models/livery';
-import { inject, Injectable } from '@angular/core';
+import { inject, Service } from '@angular/core';
 import { AppDatabase } from './app-database';
 
-@Injectable({ providedIn: 'root' })
+@Service()
 export class LiveryRepository {
   private readonly store = inject(AppDatabase).liveries;
 

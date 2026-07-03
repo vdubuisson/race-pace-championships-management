@@ -1,8 +1,8 @@
-import { inject, Injectable } from '@angular/core';
+import { inject, Service } from '@angular/core';
+import JSZip from '@progress/jszip-esm';
 import { from, map, Observable, of, switchMap, tap } from 'rxjs';
 import { CsvParser } from '../csv-parser/csv-parser';
 import { DbLoader } from '../db-loader/db-loader';
-import JSZip from '@progress/jszip-esm';
 
 type FileList = {
   carsFile?: Blob;
@@ -11,7 +11,7 @@ type FileList = {
   teamsFile?: Blob;
 };
 
-@Injectable({ providedIn: 'root' })
+@Service()
 export class CsvImporter {
   private readonly csvParser = inject(CsvParser);
   private readonly dbLoader = inject(DbLoader);

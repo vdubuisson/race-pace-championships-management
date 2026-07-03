@@ -1,0 +1,1 @@
+import {z as ht,bw as Es,E as rD,Z as fh}from'./main-HUNQIZAJ.js';var a=(()=>{class t{constructor(){this.el=ht(),this.autoId=Es();}get id(){return this.el.id||this.autoId}static{this.\u0275fac=function(i){return new(i||t)};}static{this.\u0275dir=rD({type:t,selectors:[["","tuiId",""]],hostVars:1,hostBindings:function(i,s){i&2&&fh("id",s.id);}});}}return t})();export{a};

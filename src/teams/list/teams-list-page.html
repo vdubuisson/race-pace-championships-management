@@ -18,63 +18,130 @@
   </aside>
 </header>
 
-<table tuiTable class="team-list">
-  <thead>
-    <tr>
-      <th tuiTh [sorter]="'name' | tuiSorter" [style.width.%]="30">Name</th>
-      <th tuiTh [style.width.%]="20">Principal</th>
-      <th tuiTh>Driver Loyalty</th>
-      <th tuiTh>Expectation Level</th>
-      <th tuiTh>Performance Rating</th>
-      <th tuiTh [style.width.%]="10">Actions</th>
-    </tr>
-  </thead>
-  <tbody tuiTbody>
-    @let sliceStart = pageIndex() * pageSize();
-    @let sliceEnd = (pageIndex() + 1) * pageSize();
-    @let tableData = teams() | tuiTableSort | slice: sliceStart : sliceEnd;
-    @for (team of tableData; track team.name) {
-      <tr tuiTr>
-        <td tuiTd>{{ team.name }}</td>
-        <td tuiTd>{{ team.principal }}</td>
-        <td tuiTd>{{ team.driver_loyalty }}</td>
-        <td tuiTd>{{ team.expectation_level }}</td>
-        <td tuiTd>{{ team.performance_rating }}</td>
-        <td tuiTd>
-          <a
-            [routerLink]="['details', team.id]"
-            appearance="action"
-            iconStart="@tui.eye"
-            size="xs"
-            tuiIconButton
-          >
-            View
-          </a>
-          <a
-            [routerLink]="['form', team.id]"
-            appearance="action"
-            iconStart="@tui.pencil"
-            size="xs"
-            tuiIconButton
-          >
-            Edit
-          </a>
-        </td>
-      </tr>
-    }
-  </tbody>
-  @if (totalPages() > 1) {
-    <tfoot>
+<form [formGroup]="filters.form" class="filters-form">
+  <table tuiTable class="team-list">
+    <thead>
       <tr>
-        <td [colSpan]="6">
-          <tui-table-pagination
-            [page]="pageIndex()"
-            [size]="pageSize()"
-            [total]="teams().length"
-            (paginationChange)="onPagination($event)"
-          />
-        </td>
+        <th tuiTh [sorter]="'name' | tuiSorter" [style.width.%]="20">Name</th>
+        <th tuiTh [style.width.%]="30">Championships tags</th>
+        <th tuiTh [sorter]="'championshipsCount' | tuiSorter" [style.width.%]="10">
+          Championships count
+        </th>
+        <th tuiTh [sorter]="'carsCount' | tuiSorter" [style.width.%]="10">Cars count</th>
+        <th tuiTh [sorter]="'startYear' | tuiSorter" [style.width.%]="10">Start year</th>
+        <th tuiTh [sorter]="'endYear' | tuiSorter" [style.width.%]="10">End year</th>
+        <th tuiTh [style.width.%]="10">Actions</th>
       </tr>
-    </tfoot>
-  }
-</table>
+      <tr class="filters-row">
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input formControlName="name" tuiInput placeholder="Filter" />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield tuiChevron [tuiTextfieldCleaner]="true">
+            <input tuiComboBox [formControl]="filters.form.controls.tag" placeholder="Select" />
+            <tui-data-list-wrapper
+              *tuiDropdown
+              [items]="filters.tagsOptions() | tuiFilterByInput"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input
+              tuiInputNumber
+              [formControl]="filters.form.controls.championshipsCount"
+              placeholder="Filter"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input
+              tuiInputNumber
+              [formControl]="filters.form.controls.carsCount"
+              placeholder="Filter"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield tuiChevron>
+            <input tuiComboBox [formControl]="filters.form.controls.startYear" />
+            <tui-data-list-wrapper
+              *tuiDropdown
+              [items]="filters.startYearOptions() | tuiFilterByInput"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield tuiChevron [tuiTextfieldCleaner]="true">
+            <input tuiComboBox [formControl]="filters.form.controls.endYear" />
+            <tui-data-list-wrapper
+              *tuiDropdown
+              [items]="filters.endYearOptions() | tuiFilterByInput"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh></th>
+      </tr>
+    </thead>
+    <tbody tuiTbody>
+      @let sliceStart = pageIndex() * pageSize();
+      @let sliceEnd = (pageIndex() + 1) * pageSize();
+      @let tableData = filters.filteredTeams() | tuiTableSort | slice: sliceStart : sliceEnd;
+      @for (team of tableData; track team.name) {
+        <tr tuiTr>
+          <td tuiTd>{{ team.name }}</td>
+          <td tuiTd>
+            <div tuiItemGroup>
+              @for (tag of team.tags; track tag) {
+                <span appearance="custom" tuiChip [style.background-color]="tag | tuiAutoColor">
+                  {{ tag }}
+                </span>
+              }
+            </div>
+          </td>
+          <td tuiTd>{{ team.championshipsCount }}</td>
+          <td tuiTd>{{ team.carsCount }}</td>
+          <td tuiTd>{{ team.startYear }}</td>
+          <td tuiTd>{{ team.endYear }}</td>
+          <td tuiTd>
+            <a
+              [routerLink]="['details', team.id]"
+              appearance="action"
+              iconStart="@tui.eye"
+              size="xs"
+              tuiIconButton
+            >
+              View
+            </a>
+            <a
+              [routerLink]="['form', team.id]"
+              appearance="action"
+              iconStart="@tui.pencil"
+              size="xs"
+              tuiIconButton
+            >
+              Edit
+            </a>
+          </td>
+        </tr>
+      }
+    </tbody>
+    @if (totalPages() > 1) {
+      <tfoot>
+        <tr>
+          <td [colSpan]="7">
+            <tui-table-pagination
+              [page]="pageIndex()"
+              [size]="pageSize()"
+              [total]="filters.filteredTeams().length"
+              (paginationChange)="onPagination($event)"
+            />
+          </td>
+        </tr>
+      </tfoot>
+    }
+  </table>
+</form>

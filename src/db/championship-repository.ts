@@ -20,6 +20,10 @@ export class ChampionshipRepository {
     return this.store.where('name').equalsIgnoreCase(name).first();
   }
 
+  getAllChampionshipsByNames(names: string[]): Promise<Championship[]> {
+    return this.store.where('name').anyOfIgnoreCase(names).toArray();
+  }
+
   addChampionship(championship: Championship): Promise<number> {
     return this.store.add(championship);
   }

@@ -1,9 +1,40 @@
 <section class="info">
-  <div tuiCardLarge tuiCell appearance="floating">
+  <div tuiCardMedium appearance="floating">
     <div appearance="secondary" tuiAvatar="@tui.user"></div>
-    <div tuiTitle>
-      Team principal
-      <div tuiSubtitle>{{ team().principal }}</div>
+    <h2 tuiTitle>
+      Principal
+      <span tuiSubtitle>{{ teamWithStats().principal }}</span>
+    </h2>
+  </div>
+  <div tuiCardMedium appearance="floating">
+    <div appearance="secondary" tuiAvatar="@tui.trophy"></div>
+    <h2 tuiTitle>
+      Championships
+      <span tuiSubtitle>{{ teamWithStats().championshipsCount }}</span>
+    </h2>
+  </div>
+  <div tuiCardMedium appearance="floating">
+    <div appearance="secondary" tuiAvatar="@tui.car"></div>
+    <h2 tuiTitle>
+      Cars
+      <span tuiSubtitle>{{ teamWithStats().carsCount }}</span>
+    </h2>
+  </div>
+  <div tuiCardMedium appearance="floating">
+    <div appearance="secondary" tuiAvatar="@tui.calendar"></div>
+    <h2 tuiTitle>
+      Activity
+      <span tuiSubtitle>{{ teamWithStats().startYear }} - {{ teamWithStats().endYear }}</span>
+    </h2>
+  </div>
+  <div tuiCardMedium appearance="floating" class="tags-card">
+    <div appearance="secondary" tuiAvatar="@tui.tag"></div>
+    <div tuiItemGroup>
+      @for (tag of teamWithStats().tags; track tag) {
+        <span appearance="custom" tuiChip [style.background-color]="tag | tuiAutoColor">
+          {{ tag }}
+        </span>
+      }
     </div>
   </div>
 </section>

@@ -5,8 +5,19 @@
 }
 
 .info {
-  width: fit-content;
+  display: flex;
+  gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.tags-card {
+  flex: 1;
+  height: auto;
+  min-width: 300px;
+
+  [tuiAvatar] {
+    margin-bottom: 0.5rem;
+  }
 }
 
 .cards {

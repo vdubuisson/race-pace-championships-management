@@ -127,7 +127,7 @@
         <prop name="Location" data="Germany" />
         <prop name="Country" data="DE" />
         <prop name="TrackGradeFilter" data="Grade1" />
-        <prop name="PresetFilter" data="Grade1,FormulaV10Gen3,FormulaV8Gen1,FormulaV8Gen2,FormulaReiza,FormulaUltimateGen1,FormulaUltimateGen2,FormulaUltimateGen3,EuroEnduro19,EuroEnduro24,PorscheCup,GT3,GT4,EUEnduroGT2004,EUEnduroGT2005" />
+        <prop name="PresetFilter" data="Grade1,FormulaV10Gen3,FormulaV8Gen1,FormulaV8Gen2,FormulaReiza,FormulaUltimateGen1,FormulaUltimateGen2,FormulaUltimateGen3,EuroEnduro19,EuroEnduro24,PorscheCup,GT3,GT4,EUEnduroGT2004,EUEnduroGT2005,TrofeoEUSeries2005" />
         <prop name="Track Type" data="Circuit" />
         <prop name="Allowed Weather" data="Weather_Clear,Weather_LightCloud,Weather_MedCloud,Weather_HeavyCloud,Weather_Overcast,Weather_LightRain,Weather_Rainy,Weather_Stormy,Weather_SuperStorm,Weather_Foggy,weather_fog_with_rain,weather_heavy_fog,weather_heavy_fog_with_rain,Weather_Hazy,Weather_Random" />
         <prop name="Weather Weights" data="10,20,20,10,10,4,2,1,1,0.5,0.5,0.0,0.0,0.5,0.0" />

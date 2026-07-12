@@ -205,14 +205,20 @@ GT1_05,Aston Martin DBR9,2005,aston_martin_dbr9_gt1
 GT1_05,Chevrolet Corvette C5-R,2005,corvette_c5r
 GT1_05,Dodge Viper GTS-R,2005,dodge_viper_gts_r
 GT1_05,Lamborghini Murcielago R-GT,2005,lamborghini_murcielago_r_gt
+GT1_05,Lister Storm GTM,2005,lister_storm_gtm
 GT1_05,Maserati MC12 GT1,2005,maserati_mc12_gt1
+GT1_05,Milano GT55,2005,milano_gt55
+GT1_05,Saleen S7-R GT1,2005,saleen_s7r_gt1
 GT1SportsClub,Porsche 918 Spyder Weissach Racing,2015,porsche_918_racing
 GT1SportsClub,Aston Martin Vulcan AMR PRO,2016,aston_martin_vulcan
 GT1SportsClub,Lamborghini Aventador LP770-4 SVJ,2018,lamborghini_aventador_svj
 GT1SportsClub,Lamborghini Essenza SCV12,2022,lamborghini_scv12
 GT1SportsClub,PaganiZondaRevolucion,2015,pagani_zonda_revo
 GT2_05,Milano GT36,2005,milano_gt36
+GT2_05,Panoz Esperante GTLM,2005,panoz_esperante_gtlm
 GT2_05,Porsche 996 GT3 RSR,2005,porsche_996_gt3rsr
+GT2_05,Spyker C8 Spyder GT2-R,2005,spyker_c8_spyder_gt2r
+GT2_05,TVR Tuscan T400R GT2,2005,tvr_tuscan_t400r_gt2
 GT3,Audi R8 LMS GT3,2017,audi_r8_lms_gt3
 GT3,BMW M6 GT3,2017,bmw_m6_gt3
 GT3,McLaren 720S GT3,2017,mclaren_720s_gt3
@@ -286,6 +292,7 @@ GTO,Porsche 961,1986,porsche961
 GTOpen,Ginetta G55 GT3,2017,ginetta_g55_gt3
 GTOpen,Ultima GTR Race,2012,ultima_race
 GTR_04,BMW M3 E46 GTR,2001,bmw_m3_gtr
+GTR_04,Gillet Vertigo Streiff,2005,gillet_vertigo_streiff_gt2
 Hot Cars,Fusca 1 Hot Cars,1981,fusca_hotcars_m1
 Hot Cars,Fusca 2 Hot Cars,1981,fusca_hotcars_m2
 Hot Cars,Gol Hot Cars,2019,gol_hotcars
@@ -498,6 +505,7 @@ Track Day A,Ferrari FXX K,2015,ferrari_fxx-k
 Track Day A,McLarenP1GTR,2015,mclaren_p1_gtr
 Track Day A,Porsche 918 Spyder Weissach Track Day,2015,porsche_918r
 trackdB,KTM X-Bow R,2015,ktmxbr
+Trofeo_2005,Maserati GranSport Trofeo,2005,maserati_gransport_trofeo
 TSICup,Volkswagen Polo,2021,vw_polo
 TSICup,Volkswagen Polo GTS,2021,vw_polo_gts
 TSICup,Volkswagen Virtus,2021,vw_virtus

@@ -97,7 +97,7 @@
         <prop name="Vehicle Variant Oval" data="Formula_V10_G3_B_LD" />
 		<prop name="Vehicle Variant Short Oval" data="Formula_V10_G3_B_LD" />
         <prop name="Vehicle Variant Short Track" data="Formula_V10_G3_B_LD" />		
-        <prop name="Vehicle Variant Speedway" data="Formula_V10_G_B3_LD" />
+        <prop name="Vehicle Variant Speedway" data="Formula_V10_G3_B_LD" />
         <prop name="Vehicle Variant Super Speedway" data="Formula_V10_G3_B_LD" />
         <prop name="Vehicle Variant High Downforce Track" data="Formula_V10_G3_B_HD" />
 		<prop name="Safety Car Driver Name" data="SafetyF2KDriver" />				

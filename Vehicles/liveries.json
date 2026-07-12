@@ -3403,10 +3403,6 @@
           {
             "id" : 59,
             "name" : "TAB Racing #25"
-          },
-          {
-            "id" : 60,
-            "name" : "Full Force Racing #43"
           }
         ],
         "class" : "F-V10_Gen2"
@@ -3441,22 +3437,18 @@
           },
           {
             "id" : 56,
-            "name" : "Strike G.P. #12"
-          },
-          {
-            "id" : 57,
             "name" : "Scuderia Faenza Girardi #14"
           },
           {
-            "id" : 58,
+            "id" : 57,
             "name" : "Scuderia Faenza Girardi #15"
           },
           {
-            "id" : 59,
+            "id" : 58,
             "name" : "United Racing #26"
           },
           {
-            "id" : 60,
+            "id" : 59,
             "name" : "United Racing #27"
           }
         ],
@@ -4193,19 +4185,19 @@
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Team Lotus #2"
+            "name" : "Team Lotus 49C #2"
           },
           {
             "id" : 51,
-            "name" : "Team Lotus #3"
+            "name" : "Team Lotus 49C #3"
           },
           {
             "id" : 52,
-            "name" : "Team Lotus #15"
+            "name" : "Team Lotus 49C #15"
           },
           {
             "id" : 53,
-            "name" : "Team Lotus #16"
+            "name" : "Team Lotus 49C #16"
           }
         ],
         "class" : "F-Vintage_Gen2"
@@ -5198,6 +5190,29 @@
         "class" : "CopaTruck"
       },
       {
+        "id" : -1807987305,
+        "name" : "Gillet Vertigo Streiff",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Gillet Vertigo Streiff #100"
+          },
+          {
+            "id" : 51,
+            "name" : "Gillet Vertigo Streiff #101"
+          },
+          {
+            "id" : 52,
+            "name" : "Gillet Vertigo Streiff #102"
+          },
+          {
+            "id" : 53,
+            "name" : "Gillet Vertigo Streiff #103"
+          }
+        ],
+        "class" : "GTR_04"
+      },
+      {
         "id" : 310900789,
         "name" : "Ginetta G40",
         "liveries" : [
@@ -5785,6 +5800,37 @@
           }
         ],
         "class" : "LES_2025"
+      },
+      {
+        "id" : -1064971214,
+        "name" : "Lister Storm GTM",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Lister Storm GTM #14"
+          },
+          {
+            "id" : 51,
+            "name" : "Lister Storm GTM #16"
+          },
+          {
+            "id" : 52,
+            "name" : "Lister Storm GTM #18"
+          },
+          {
+            "id" : 53,
+            "name" : "Lister Storm GTM #19"
+          },
+          {
+            "id" : 54,
+            "name" : "Lister Storm GTM #20"
+          },
+          {
+            "id" : 55,
+            "name" : "Lister Storm GTM #21"
+          }
+        ],
+        "class" : "GT1_05"
       },
       {
         "id" : -215037480,
@@ -7045,6 +7091,93 @@
         "class" : "GT4"
       },
       {
+        "id" : -896466442,
+        "name" : "Maserati GranSport Trofeo",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Maserati GranSport Trofeo #00"
+          },
+          {
+            "id" : 51,
+            "name" : "Maserati GranSport Trofeo #1"
+          },
+          {
+            "id" : 52,
+            "name" : "Maserati GranSport Trofeo #7"
+          },
+          {
+            "id" : 53,
+            "name" : "Maserati GranSport Trofeo #14"
+          },
+          {
+            "id" : 54,
+            "name" : "Maserati GranSport Trofeo #20"
+          },
+          {
+            "id" : 55,
+            "name" : "Maserati GranSport Trofeo #23"
+          },
+          {
+            "id" : 56,
+            "name" : "Maserati GranSport Trofeo #27"
+          },
+          {
+            "id" : 57,
+            "name" : "Maserati GranSport Trofeo #32"
+          },
+          {
+            "id" : 58,
+            "name" : "Maserati GranSport Trofeo #37"
+          },
+          {
+            "id" : 59,
+            "name" : "Maserati GranSport Trofeo #40"
+          },
+          {
+            "id" : 60,
+            "name" : "Maserati GranSport Trofeo #42"
+          },
+          {
+            "id" : 61,
+            "name" : "Maserati GranSport Trofeo #48"
+          },
+          {
+            "id" : 62,
+            "name" : "Maserati GranSport Trofeo #50"
+          },
+          {
+            "id" : 63,
+            "name" : "Maserati GranSport Trofeo #51"
+          },
+          {
+            "id" : 64,
+            "name" : "Maserati GranSport Trofeo #55"
+          },
+          {
+            "id" : 65,
+            "name" : "Maserati GranSport Trofeo #63"
+          },
+          {
+            "id" : 66,
+            "name" : "Maserati GranSport Trofeo #72"
+          },
+          {
+            "id" : 67,
+            "name" : "Maserati GranSport Trofeo #74"
+          },
+          {
+            "id" : 68,
+            "name" : "Maserati GranSport Trofeo #80"
+          },
+          {
+            "id" : 69,
+            "name" : "Maserati GranSport Trofeo #99"
+          }
+        ],
+        "class" : "Trofeo_2005"
+      },
+      {
         "id" : 1025465700,
         "name" : "Maserati GT2 Stradale",
         "liveries" : [
@@ -7151,6 +7284,37 @@
         "class" : "GT1_05"
       },
       {
+        "id" : 760386338,
+        "name" : "Milano GT55",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Milano GT55 #4"
+          },
+          {
+            "id" : 51,
+            "name" : "Milano GT55 #6"
+          },
+          {
+            "id" : 52,
+            "name" : "Milano GT55 #11"
+          },
+          {
+            "id" : 53,
+            "name" : "Milano GT55 #13"
+          },
+          {
+            "id" : 54,
+            "name" : "Milano GT55 #15"
+          },
+          {
+            "id" : 55,
+            "name" : "Milano GT55 #55"
+          }
+        ],
+        "class" : "GT1_05"
+      },
+      {
         "id" : -1941368649,
         "name" : "Milano GT36",
         "liveries" : [
@@ -7176,31 +7340,15 @@
           },
           {
             "id" : 55,
-            "name" : "Milano GT36 #34"
-          },
-          {
-            "id" : 56,
-            "name" : "Milano GT36 #42"
-          },
-          {
-            "id" : 57,
             "name" : "Milano GT36 #43"
           },
           {
-            "id" : 58,
+            "id" : 56,
             "name" : "Milano GT36 #51"
           },
           {
-            "id" : 59,
-            "name" : "Milano GT36 #59"
-          },
-          {
-            "id" : 60,
+            "id" : 57,
             "name" : "Milano GT36 #64"
-          },
-          {
-            "id" : 61,
-            "name" : "Milano GT36 #00"
           }
         ],
         "class" : "GT2_05"
@@ -8047,6 +8195,29 @@
           }
         ],
         "class" : "Group C"
+      },
+      {
+        "id" : -1609635929,
+        "name" : "Spyker C8 Spyder GT2-R",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Spyker C8 Spyder GT2-R #86"
+          },
+          {
+            "id" : 51,
+            "name" : "Spyker C8 Spyder GT2-R #87"
+          },
+          {
+            "id" : 52,
+            "name" : "Spyker C8 Spyder GT2-R #88"
+          },
+          {
+            "id" : 53,
+            "name" : "Spyker C8 Spyder GT2-R #89"
+          }
+        ],
+        "class" : "GT2_05"
       },
       {
         "id" : 1630268373,
@@ -10980,6 +11151,29 @@
         "class" : "STT"
       },
       {
+        "id" : 1475475090,
+        "name" : "TVR Tuscan T400R GT2",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "TVR Tuscan T400R GT2 #5"
+          },
+          {
+            "id" : 51,
+            "name" : "TVR Tuscan T400R GT2 #6"
+          },
+          {
+            "id" : 52,
+            "name" : "TVR Tuscan T400R GT2 #7"
+          },
+          {
+            "id" : 53,
+            "name" : "TVR Tuscan T400R GT2 #8"
+          }
+        ],
+        "class" : "GT2_05"
+      },
+      {
         "id" : 1560162507,
         "name" : "Ultima GTR",
         "liveries" : [
@@ -11311,6 +11505,37 @@
           }
         ],
         "class" : "P3"
+      },
+      {
+        "id" : 109500005,
+        "name" : "Saleen S7-R GT1",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Saleen S7-R GT1 #90"
+          },
+          {
+            "id" : 51,
+            "name" : "Saleen S7-R GT1 #91"
+          },
+          {
+            "id" : 52,
+            "name" : "Saleen S7-R GT1 #92"
+          },
+          {
+            "id" : 53,
+            "name" : "Saleen S7-R GT1 #93"
+          },
+          {
+            "id" : 54,
+            "name" : "Saleen S7-R GT1 #94"
+          },
+          {
+            "id" : 55,
+            "name" : "Saleen S7-R GT1 #95"
+          }
+        ],
+        "class" : "GT1_05"
       },
       {
         "id" : -1870819346,
@@ -12271,6 +12496,29 @@
           }
         ],
         "class" : "CopaClassicB"
+      },
+      {
+        "id" : 2134184300,
+        "name" : "Panoz Esperante GTLM",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Panoz Esperante GTLM #21"
+          },
+          {
+            "id" : 51,
+            "name" : "Panoz Esperante GTLM #22"
+          },
+          {
+            "id" : 52,
+            "name" : "Panoz Esperante GTLM #78"
+          },
+          {
+            "id" : 53,
+            "name" : "Panoz Esperante GTLM #81"
+          }
+        ],
+        "class" : "GT2_05"
       },
       {
         "id" : 1661024873,

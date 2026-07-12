@@ -223,8 +223,8 @@
         <prop name="PostRace Script name" data="default_post_race.script" />
         <prop name="Track Properties File" data="TrackProperties" />
         <prop name="Crowd Pak Filename" data="" />
-		<prop name="AIWidthScalarToReduceCorridors" data="0.24" />
-		<prop name="AIWidthScalarToReduceCorridorsFullThrottle" data="0.12" />
+		<prop name="AIWidthScalarToReduceCorridors" data="0.25" />
+		<prop name="AIWidthScalarToReduceCorridorsFullThrottle" data="0.125" />
 		<prop name="AIDisableCorridorsReductionAgainstLapped" data="false" />
 		<prop name="AIDisableCorridorsReductionAgainstHuman" data="true" />
         <prop name="FogMaxDistanceScalar" data="1.25" />	

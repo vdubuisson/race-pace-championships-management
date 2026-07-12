@@ -120,7 +120,7 @@
         <prop name="TrackName" data="Monza_2005" />
         <prop name="ShortTrackName" data="Monza_2005" />
         <prop name="XLASTID" data="254" />
-        <prop name="DLC ID" data="" />
+        <prop name="DLC ID" data="monzapack" />
         <prop name="InstTexturePakFilename" data="" />
         <prop name="ScenegraphFile" data="Monza_2005.sgx" />
         <prop name="Year" data="2005" />
@@ -128,7 +128,7 @@
         <prop name="Location" data="Italy" />
         <prop name="Country" data="IT" />
         <prop name="TrackGradeFilter" data="Grade1" />
-        <prop name="PresetFilter" data="00sG1_Historic,FormulaV10Gen2,FormulaV10Gen3,FormulaV8Gen1,FormulaV8Gen2,EUEnduroGT2004,EUEnduroGT2005,EUEnduroLM2005" />
+        <prop name="PresetFilter" data="00sG1_Historic,FormulaV10Gen2,FormulaV10Gen3,FormulaV8Gen1,FormulaV8Gen2,EUEnduroGT2004,EUEnduroGT2005,EUEnduroLM2005,TrofeoEUSeries2005" />
         <prop name="Track Type" data="Circuit" />
         <prop name="Oval Type" data="3" />
         <prop name="Allowed Weather" data="Weather_Clear,Weather_LightCloud,Weather_MedCloud,Weather_HeavyCloud,Weather_Overcast,Weather_LightRain,Weather_Rainy,Weather_Stormy,Weather_SuperStorm,Weather_Foggy,weather_fog_with_rain,weather_heavy_fog,weather_heavy_fog_with_rain,Weather_Hazy,Weather_Random" />

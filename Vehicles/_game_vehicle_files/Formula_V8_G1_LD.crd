@@ -77,7 +77,7 @@
     <data class="VehicleDetails" id="0xD8D56D0">
         <prop name="Name" data="Formula_V8_G1_LD" />
         <prop name="Vehicle Name" data="Formula V8 Gen1 (M) - Low Downforce" />
-        <prop name="ShortVehicleName" data="F-V8 Gen1 (M)" />
+        <prop name="ShortVehicleName" data="F-V8 Gen1 M1 (M)" />
         <prop name="XLASTID" data="429" />
         <prop name="VehicleManufacturer" data="Reiza" />
         <prop name="VehicleModel" data="Formula V8" />

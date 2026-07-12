@@ -119,7 +119,7 @@
         <prop name="TrackName" data="Indianapolis_2001_Oval" />
         <prop name="ShortTrackName" data="Indianapolis_2001_Oval" />
         <prop name="XLASTID" data="250" />
-        <prop name="DLC ID" data="" />
+        <prop name="DLC ID" data="historicaltrackpt4pack" />
         <prop name="InstTexturePakFilename" data="" />
         <prop name="ScenegraphFile" data="Indianapolis_2001_Oval.sgx" />
         <prop name="Year" data="2001" />

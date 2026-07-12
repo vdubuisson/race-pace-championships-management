@@ -115,7 +115,7 @@
         <prop name="TrackName" data="Barcelona_GP_1999" />
         <prop name="ShortTrackName" data="Barcelona_GP_1999" />
         <prop name="XLASTID" data="245" />
-        <prop name="DLC ID" data="" />
+        <prop name="DLC ID" data="historicaltrackpt4pack" />
         <prop name="InstTexturePakFilename" data="" />
         <prop name="ScenegraphFile" data="Barcelona_GP_1999.sgx" />
         <prop name="Year" data="1999" />

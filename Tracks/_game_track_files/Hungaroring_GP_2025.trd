@@ -122,7 +122,7 @@
         <prop name="TrackName" data="Hungaroring_GP_2025" />
         <prop name="ShortTrackName" data="Hungaroring_GP_2025" />
         <prop name="XLASTID" data="242" />
-        <prop name="DLC ID" data="" />
+        <prop name="DLC ID" data="hungaroringpack" />
         <prop name="InstTexturePakFilename" data="" />
         <prop name="ScenegraphFile" data="Hungaroring_GP_2025.sgx" />
         <prop name="Year" data="2025" />
@@ -130,7 +130,7 @@
         <prop name="Location" data="Hungary" />
         <prop name="Country" data="HU" />
         <prop name="TrackGradeFilter" data="Grade1" />
-        <prop name="PresetFilter" data="Grade1,FormulaV10Gen3,FormulaV8Gen1,FormulaV8Gen2,FormulaReiza,FormulaUltimateGen1,FormulaUltimateGen2,FormulaUltimateGen3,EuroEnduro19,EuroEnduro24,GT3,GT4,LES2025" />
+        <prop name="PresetFilter" data="Grade1,FormulaV10Gen3,FormulaV8Gen1,FormulaV8Gen2,FormulaReiza,FormulaUltimateGen1,FormulaUltimateGen2,FormulaUltimateGen3,EuroEnduro19,EuroEnduro24,GT3,GT4,LES2025,TrofeoEUSeries2005" />
         <prop name="Track Type" data="Circuit" />
         <prop name="Oval Type" data="7" />			
         <prop name="Allowed Weather" data="Weather_Clear,Weather_LightCloud,Weather_MedCloud,Weather_HeavyCloud,Weather_Overcast,Weather_LightRain,Weather_Rainy,Weather_Stormy,Weather_SuperStorm,Weather_Foggy,weather_fog_with_rain,weather_heavy_fog,weather_heavy_fog_with_rain,Weather_Hazy,Weather_Random" />

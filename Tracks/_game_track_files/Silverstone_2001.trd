@@ -120,7 +120,7 @@
         <prop name="Location" data="England" />
         <prop name="Country" data="GB" />
         <prop name="TrackGradeFilter" data="Historic" />
-        <prop name="PresetFilter" data="00sG1_Historic,FormulaV12,FormulaV10Gen1,FormulaV10Gen2,FormulaV10Gen3,FormulaV8Gen1,FormulaV8Gen2,GT1,ST96,EUEnduroLM2005" />		
+        <prop name="PresetFilter" data="00sG1_Historic,FormulaV12,FormulaV10Gen1,FormulaV10Gen2,FormulaV10Gen3,FormulaV8Gen1,FormulaV8Gen2,GT1,ST96,EUEnduroLM2005,TrofeoEUSeries2005" />		
         <prop name="Track Type" data="Circuit" />
         <prop name="Allowed Weather" data="Weather_Clear,Weather_LightCloud,Weather_MedCloud,Weather_HeavyCloud,Weather_Overcast,Weather_LightRain,Weather_Rainy,Weather_Stormy,Weather_SuperStorm,Weather_Foggy,weather_fog_with_rain,weather_heavy_fog,weather_heavy_fog_with_rain,Weather_Hazy,Weather_Random" />
         <prop name="Weather Weights" data="10,16,16,16,12,8,3,2,1,1,0.5,0.5,0.5,0.5,0.0" />  

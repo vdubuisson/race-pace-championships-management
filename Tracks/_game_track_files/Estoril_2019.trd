@@ -118,7 +118,7 @@
         <prop name="Location" data="Portugal" />
         <prop name="Country" data="PT" />
         <prop name="TrackGradeFilter" data="Grade1" />
-        <prop name="PresetFilter" data="Grade1,GT1,GT3,GT4,PorscheCup,LES2025,EUEnduroGT2004,EUEnduroGT2005,EUEnduroLM2005" />
+        <prop name="PresetFilter" data="Grade1,GT1,GT3,GT4,PorscheCup,LES2025,EUEnduroGT2004,EUEnduroGT2005,EUEnduroLM2005,TrofeoEUSeries2005" />
         <prop name="Track Type" data="Circuit" />
         <prop name="Allowed Weather" data="Weather_Clear,Weather_LightCloud,Weather_MedCloud,Weather_HeavyCloud,Weather_Overcast,Weather_LightRain,Weather_Rainy,Weather_Stormy,Weather_SuperStorm,Weather_Foggy,weather_fog_with_rain,weather_heavy_fog,weather_heavy_fog_with_rain,Weather_Hazy,Weather_Random" />
         <prop name="Weather Weights" data="10,20,20,10,10,4,2,1,1,0.5,0.5,0.0,0.0,0.5,0.0" />

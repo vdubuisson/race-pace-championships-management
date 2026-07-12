@@ -120,7 +120,7 @@
         <prop name="TrackName" data="Spielberg_2001" />
         <prop name="ShortTrackName" data="Spielberg_2001" />
         <prop name="XLASTID" data="247" />
-        <prop name="DLC ID" data="" />
+        <prop name="DLC ID" data="historicaltrackpt4pack" />
         <prop name="InstTexturePakFilename" data="International_adv" />
         <prop name="ScenegraphFile" data="Spielberg_2001.sgx" />
         <prop name="Year" data="2001" />

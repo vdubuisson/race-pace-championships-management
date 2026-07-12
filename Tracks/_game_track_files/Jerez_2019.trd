@@ -119,7 +119,7 @@
         <prop name="Location" data="Spain" />
         <prop name="Country" data="ES" />
         <prop name="TrackGradeFilter" data="Grade1" />
-        <prop name="PresetFilter" data="Grade1,FormulaV10Gen1,GT3,PorscheCup,LamboST,GT3,GT4,SuperTrofeo" />
+        <prop name="PresetFilter" data="Grade1,FormulaV10Gen1,GT3,PorscheCup,LamboST,GT3,GT4,SuperTrofeo,TrofeoEUSeries2005" />
         <prop name="Track Type" data="Circuit" />
         <prop name="Oval Type" data="7" />
         <prop name="Allowed Weather" data="Weather_Clear,Weather_LightCloud,Weather_MedCloud,Weather_HeavyCloud,Weather_Overcast,Weather_LightRain,Weather_Rainy,Weather_Stormy,Weather_SuperStorm,Weather_Foggy,weather_fog_with_rain,weather_heavy_fog,weather_heavy_fog_with_rain,Weather_Hazy,Weather_Random" />

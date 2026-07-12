@@ -1093,18 +1093,16 @@ F-V10_Gen2,Formula V10 Gen2 (B),Bolt G.P. #22,57,FALSE
 F-V10_Gen2,Formula V10 Gen2 (B),Bolt G.P. #23,58,FALSE
 F-V10_Gen2,Formula V10 Gen2 (B),TAB Racing #24,59,FALSE
 F-V10_Gen2,Formula V10 Gen2 (B),TAB Racing #25,60,FALSE
-F-V10_Gen2,Formula V10 Gen2 (B),Full Force Racing #43,61,FALSE
 F-V10_Gen2,Formula V10 Gen2 (M),Didcot Racing #1,51,FALSE
 F-V10_Gen2,Formula V10 Gen2 (M),Didcot Racing #2,52,FALSE
 F-V10_Gen2,Formula V10 Gen2 (M),Puma Racing #5,53,FALSE
 F-V10_Gen2,Formula V10 Gen2 (M),Puma Racing #6,54,FALSE
 F-V10_Gen2,Formula V10 Gen2 (M),Roch G.P. #7,55,FALSE
 F-V10_Gen2,Formula V10 Gen2 (M),Roch G.P. #8,56,FALSE
-F-V10_Gen2,Formula V10 Gen2 (M),Strike G.P. #12,57,FALSE
-F-V10_Gen2,Formula V10 Gen2 (M),Scuderia Faenza Girardi #14,58,FALSE
-F-V10_Gen2,Formula V10 Gen2 (M),Scuderia Faenza Girardi #15,59,FALSE
-F-V10_Gen2,Formula V10 Gen2 (M),United Racing #26,60,FALSE
-F-V10_Gen2,Formula V10 Gen2 (M),United Racing #27,61,FALSE
+F-V10_Gen2,Formula V10 Gen2 (M),Scuderia Faenza Girardi #14,57,FALSE
+F-V10_Gen2,Formula V10 Gen2 (M),Scuderia Faenza Girardi #15,58,FALSE
+F-V10_Gen2,Formula V10 Gen2 (M),United Racing #26,59,FALSE
+F-V10_Gen2,Formula V10 Gen2 (M),United Racing #27,60,FALSE
 F-V10_Gen3,Formula V10 Gen3 (M),TAB Racing #3,51,FALSE
 F-V10_Gen3,Formula V10 Gen3 (M),TAB Racing #4,52,FALSE
 F-V10_Gen3,Formula V10 Gen3 (M),Didcot Racing #7,53,FALSE
@@ -1245,10 +1243,10 @@ F-Vintage_Gen2,Brabham BT26A,Motor Racing Developments Ltd #3,51,FALSE
 F-Vintage_Gen2,Brabham BT26A,Motor Racing Developments Ltd #4,52,FALSE
 F-Vintage_Gen2,Brabham BT26A,Frankfurt Racing #19,53,FALSE
 F-Vintage_Gen2,Brabham BT26A,Frankfurt Racing #20,54,FALSE
-F-Vintage_Gen2,Lotus 49C,Team Lotus #2,51,FALSE
-F-Vintage_Gen2,Lotus 49C,Team Lotus #3,52,FALSE
-F-Vintage_Gen2,Lotus 49C,Team Lotus #15,53,FALSE
-F-Vintage_Gen2,Lotus 49C,Team Lotus #16,54,FALSE
+F-Vintage_Gen2,Lotus 49C,Team Lotus 49C #2,51,FALSE
+F-Vintage_Gen2,Lotus 49C,Team Lotus 49C #3,52,FALSE
+F-Vintage_Gen2,Lotus 49C,Team Lotus 49C #15,53,FALSE
+F-Vintage_Gen2,Lotus 49C,Team Lotus 49C #16,54,FALSE
 F1-1996,Benetton B196 - Renault,Livery #1,51,TRUE
 F1-1996,Benetton B196 - Renault,Livery #2,52,TRUE
 F1-1996,Ferrari F310 - Ferrari,Livery #1,51,TRUE
@@ -1303,14 +1301,14 @@ f488 series,Ferrari 488 Challenge (EU),CDP #20,51,TRUE
 f488 series,Ferrari 488 Challenge (EU),Rossocorsa #23,52,TRUE
 f488 series,Ferrari 488 Challenge (EU),CDP #25,53,TRUE
 f488 series,Ferrari 488 Challenge (EU),Rossocorsa - Pellin Racing #27,54,TRUE
-f488 series,Ferrari 488 Challenge (EU),Ferrari Budapest #30,55,TRUE
+f488 series,Ferrari 488 Challenge (EU),Ferrari Budapest  #30,55,TRUE
 f488 series,Ferrari 488 Challenge (EU),Kessel Racing #42,56,TRUE
 f488 series,Ferrari 488 Challenge (EU),Graypaul Nottingham #80,57,TRUE
 f488 series,Ferrari 488 Challenge (EU),Rossocorsa #91,58,TRUE
 f488 series,Ferrari 488 Challenge (EU),Stratstone #92,59,TRUE
 f488 series,Ferrari 488 Challenge (EU),HR Owen #93,60,TRUE
 f488 series,Ferrari 488 Challenge (EU),Rossocorsa #97,61,TRUE
-f488 series,Ferrari 488 Challenge (EU),Formula Racing #100,62,TRUE
+f488 series,Ferrari 488 Challenge (EU),Formula Racing  #100,62,TRUE
 f488 series,Ferrari 488 Challenge (EU),Kessel Racing #102,63,TRUE
 f488 series,Ferrari 488 Challenge (EU),Kessel Racing #112,64,TRUE
 f488 series,Ferrari 488 Challenge (EU),Scuderia Praha #117,65,TRUE
@@ -1926,6 +1924,12 @@ GT1_05,Dodge Viper GTS-R,Dodge Viper GTS-R #12,53,FALSE
 GT1_05,Dodge Viper GTS-R,Dodge Viper GTS-R #32,54,FALSE
 GT1_05,Dodge Viper GTS-R,Dodge Viper GTS-R #36,55,FALSE
 GT1_05,Dodge Viper GTS-R,Dodge Viper GTS-R #40,56,FALSE
+GT1_05,Lister Storm GTM,Lister Storm GTM #14,51,FALSE
+GT1_05,Lister Storm GTM,Lister Storm GTM #16,52,FALSE
+GT1_05,Lister Storm GTM,Lister Storm GTM #18,53,FALSE
+GT1_05,Lister Storm GTM,Lister Storm GTM #19,54,FALSE
+GT1_05,Lister Storm GTM,Lister Storm GTM #20,55,FALSE
+GT1_05,Lister Storm GTM,Lister Storm GTM #21,56,FALSE
 GT1_05,Chevrolet Corvette C5-R,Chevrolet Corvette C5-R #2,51,FALSE
 GT1_05,Chevrolet Corvette C5-R,Chevrolet Corvette C5-R #5,52,FALSE
 GT1_05,Chevrolet Corvette C5-R,Chevrolet Corvette C5-R #7,53,FALSE
@@ -1946,6 +1950,18 @@ GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #61,53,FALSE
 GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #66,54,FALSE
 GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #72,55,FALSE
 GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #86,56,FALSE
+GT1_05,Milano GT55,Milano GT55 #4,51,FALSE
+GT1_05,Milano GT55,Milano GT55 #6,52,FALSE
+GT1_05,Milano GT55,Milano GT55 #11,53,FALSE
+GT1_05,Milano GT55,Milano GT55 #13,54,FALSE
+GT1_05,Milano GT55,Milano GT55 #15,55,FALSE
+GT1_05,Milano GT55,Milano GT55 #55,56,FALSE
+GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #90,51,FALSE
+GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #91,52,FALSE
+GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #92,53,FALSE
+GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #93,54,FALSE
+GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #94,55,FALSE
+GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #95,56,FALSE
 GT1SportsClub,Porsche 918 Spyder Weissach Racing,KAOS MARTINI Motorsport #377,70,TRUE
 GT1SportsClub,Porsche 918 Spyder Weissach Racing,Keaveneys Motorsport #23,71,TRUE
 GT1SportsClub,Porsche 918 Spyder Weissach Racing,Keaveneys Motorsport #3,72,TRUE
@@ -2060,13 +2076,9 @@ GT2_05,Milano GT36,Milano GT36 #17,52,FALSE
 GT2_05,Milano GT36,Milano GT36 #20,53,FALSE
 GT2_05,Milano GT36,Milano GT36 #25,54,FALSE
 GT2_05,Milano GT36,Milano GT36 #31,55,FALSE
-GT2_05,Milano GT36,Milano GT36 #34,56,FALSE
-GT2_05,Milano GT36,Milano GT36 #42,57,FALSE
-GT2_05,Milano GT36,Milano GT36 #43,58,FALSE
-GT2_05,Milano GT36,Milano GT36 #51,59,FALSE
-GT2_05,Milano GT36,Milano GT36 #59,60,FALSE
-GT2_05,Milano GT36,Milano GT36 #64,61,FALSE
-GT2_05,Milano GT36,Milano GT36 #00,62,FALSE
+GT2_05,Milano GT36,Milano GT36 #43,56,FALSE
+GT2_05,Milano GT36,Milano GT36 #51,57,FALSE
+GT2_05,Milano GT36,Milano GT36 #64,58,FALSE
 GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #1,51,FALSE
 GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #2,52,FALSE
 GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #11,53,FALSE
@@ -2079,6 +2091,18 @@ GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #85,59,FALSE
 GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #115,60,FALSE
 GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #121,61,FALSE
 GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #155,62,FALSE
+GT2_05,Spyker C8 Spyder GT2-R,Spyker C8 Spyder GT2-R #86,51,FALSE
+GT2_05,Spyker C8 Spyder GT2-R,Spyker C8 Spyder GT2-R #87,52,FALSE
+GT2_05,Spyker C8 Spyder GT2-R,Spyker C8 Spyder GT2-R #88,53,FALSE
+GT2_05,Spyker C8 Spyder GT2-R,Spyker C8 Spyder GT2-R #89,54,FALSE
+GT2_05,TVR Tuscan T400R GT2,TVR Tuscan T400R GT2 #5,51,FALSE
+GT2_05,TVR Tuscan T400R GT2,TVR Tuscan T400R GT2 #6,52,FALSE
+GT2_05,TVR Tuscan T400R GT2,TVR Tuscan T400R GT2 #7,53,FALSE
+GT2_05,TVR Tuscan T400R GT2,TVR Tuscan T400R GT2 #8,54,FALSE
+GT2_05,Panoz Esperante GTLM,Panoz Esperante GTLM #21,51,FALSE
+GT2_05,Panoz Esperante GTLM,Panoz Esperante GTLM #22,52,FALSE
+GT2_05,Panoz Esperante GTLM,Panoz Esperante GTLM #78,53,FALSE
+GT2_05,Panoz Esperante GTLM,Panoz Esperante GTLM #81,54,FALSE
 GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #22,51,FALSE
 GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #69,52,FALSE
 GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #79,53,FALSE
@@ -2859,6 +2883,10 @@ GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #66,59,FALSE
 GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #68,60,FALSE
 GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #75,61,FALSE
 GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #98,62,FALSE
+GTR_04,Gillet Vertigo Streiff,Gillet Vertigo Streiff #100,51,FALSE
+GTR_04,Gillet Vertigo Streiff,Gillet Vertigo Streiff #101,52,FALSE
+GTR_04,Gillet Vertigo Streiff,Gillet Vertigo Streiff #102,53,FALSE
+GTR_04,Gillet Vertigo Streiff,Gillet Vertigo Streiff #103,54,FALSE
 Hot Cars,Fusca 1 Hot Cars,Fusca HC1 #23,51,FALSE
 Hot Cars,Fusca 1 Hot Cars,Fusca HC1 #24,52,FALSE
 Hot Cars,Fusca 1 Hot Cars,Fusca HC1 #70,53,FALSE
@@ -3822,7 +3850,7 @@ Opala86,Chevrolet Opala Stock Cars 1986,Agip-Blindex - Lian Duarte #38,65,FALSE
 Opala86,Chevrolet Opala Stock Cars 1986,Action - Paulo de T.Marques #51,66,FALSE
 Opala86,Chevrolet Opala Stock Cars 1986,Action - Oscar Chanosky #52,67,FALSE
 Opala86,Chevrolet Opala Stock Cars 1986,Havolion-Texaco - Luis Pereira #62,68,FALSE
-Opala86,Chevrolet Opala Stock Cars 1986,Havolion-Texaco - Marcos Gracia #67,69,FALSE
+Opala86,Chevrolet Opala Stock Cars 1986,Havolion-Texaco - Marcos Gracia  #67,69,FALSE
 Opala86,Chevrolet Opala Stock Cars 1986,Dudacar - Regina Calderoni #64,70,FALSE
 P1,Ginetta G58,Ginetta G58 #1,51,FALSE
 P1,Ginetta G58,Ginetta G58 #20,52,FALSE
@@ -4067,7 +4095,7 @@ Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#9 - Team Parker Racing - David Fairbr
 Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#71 - Redline Racing - David Stirling,75,TRUE
 Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#75 - PORSCHE TEAM,76,TRUE
 Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#28 - PORSCHE PINK PIG - Henrique Freitas,77,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#04 Georgi Donchev ProfilDoors by Huber Racing,51,TRUE
+Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#04 Georgi Donchev  ProfilDoors by Huber Racing,51,TRUE
 Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#13 Alexander Tauscher Huber Racing,52,TRUE
 Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#23 Lukas Ertl HP Racing Int. with Huber,53,TRUE
 Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#31 Sebastian Freymuth Team Huber Racing,54,TRUE
@@ -4076,7 +4104,7 @@ Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#77 Leon Köhler Huber Racing,56,TRUE
 Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#87 Ariel Levi Team Huber Racing,57,TRUE
 Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#92 Luca Rettenbacher Huber Racing,58,TRUE
 Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#98 Jan Seyffert HP Racing Int. with Huber,59,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#05 Sören Spreng GP Elite,60,TRUE
+Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#05 Sören Spreng  GP Elite,60,TRUE
 Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#24 Loek Hartog Team GP Elite,61,TRUE
 Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#25 Larry ten Voorde Team GP Elite,62,TRUE
 Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#27 Ghislain Cordeel GP Elite,63,TRUE
@@ -5570,7 +5598,7 @@ TCR_X,Honda Civic TypeR TCR 2016,Team ARP #33,79,TRUE
 TCR_X,Honda Civic TypeR TCR 2016,Team ACT #106,81,TRUE
 TCR_X,Honda Civic TypeR TCR 2016,Team BC Racing #14,83,TRUE
 TCR_X,Honda Civic TypeR TCR 2016,Team Sabelt #6,87,TRUE
-TCR_X,Honda Civic TypeR TCR 2016,Team Alpinestars #128,89,TRUE
+TCR_X,Honda Civic TypeR TCR 2016,Team  Alpinestars #128,89,TRUE
 TCR_X,Renault Megane R.S. TCR 2019,Team Sabelt #352,71,TRUE
 TCR_X,Renault Megane R.S. TCR 2019,Team Sabelt #353,72,TRUE
 TCR_X,Renault Megane R.S. TCR 2019,Team Megan Racing #408,73,TRUE
@@ -5658,6 +5686,26 @@ trackdB,KTM X-Bow R,X-Bow R Design Orange,51,TRUE
 trackdB,KTM X-Bow R,X-Bow R Design Red,52,TRUE
 trackdB,KTM X-Bow R,X-Bow R Design Green,53,TRUE
 trackdB,KTM X-Bow R,X-Bow R Design Blue,54,TRUE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #00,51,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #1,52,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #7,53,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #14,54,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #20,55,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #23,56,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #27,57,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #32,58,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #37,59,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #40,60,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #42,61,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #48,62,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #50,63,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #51,64,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #55,65,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #63,66,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #72,67,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #74,68,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #80,69,FALSE
+Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #99,70,FALSE
 TSICup,Volkswagen Polo,VW Polo #002,51,FALSE
 TSICup,Volkswagen Polo,VW Polo #1,52,FALSE
 TSICup,Volkswagen Polo,VW Polo #2,53,FALSE
@@ -5752,11 +5800,11 @@ Vintage Prototype A,Ferrari 512 M,Ecurie Francorchamps #9,64,TRUE
 Vintage Prototype A,Ferrari 512 M,David Piper #16,65,TRUE
 Vintage Prototype A,Ferrari 512 M,Gelo Racing Team #7,66,TRUE
 Vintage Prototype A,Ferrari 512 M,Custom Livery,99,TRUE
-Vintage Prototype A,Ferrari 512 S,S.E.F.A.C. Ferrari #5,51,TRUE
-Vintage Prototype A,Ferrari 512 S,S.E.F.A.C. Ferrari #6,52,TRUE
-Vintage Prototype A,Ferrari 512 S,S.E.F.A.C. Ferrari #7,53,TRUE
-Vintage Prototype A,Ferrari 512 S,S.E.F.A.C. Ferrari #8,54,TRUE
-Vintage Prototype A,Ferrari 512 S,North American Racing Team #11,55,TRUE
+Vintage Prototype A,Ferrari 512 S,S.E.F.A.C. Ferrari  #5,51,TRUE
+Vintage Prototype A,Ferrari 512 S,S.E.F.A.C. Ferrari  #6,52,TRUE
+Vintage Prototype A,Ferrari 512 S,S.E.F.A.C. Ferrari  #7,53,TRUE
+Vintage Prototype A,Ferrari 512 S,S.E.F.A.C. Ferrari  #8,54,TRUE
+Vintage Prototype A,Ferrari 512 S,North American Racing Team  #11,55,TRUE
 Vintage Prototype A,Ferrari 512 S,Ecurie Francorchamps #12,56,TRUE
 Vintage Prototype A,Ferrari 512 S,Scuderia Filipinetti #14,57,TRUE
 Vintage Prototype A,Ferrari 512 S,Scuderia Filipinetti #15,58,TRUE

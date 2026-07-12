@@ -2,6 +2,7 @@ import { ValidatorFn } from '@angular/forms';
 import { TuiValidationError } from '@taiga-ui/cdk/classes';
 
 export const REQUIRED_FILES = ['cars.csv', 'championships.csv', 'events.csv', 'teams.csv'];
+export const OPTIONAL_FILES = ['drivers.csv'];
 
 export const filesCountValidator: ValidatorFn = (control) => {
   const files: File[] = control.value ?? [];
@@ -23,10 +24,10 @@ export const filesCountValidator: ValidatorFn = (control) => {
       ),
     };
   }
-  if (files.length > REQUIRED_FILES.length) {
+  if (files.length > REQUIRED_FILES.length + OPTIONAL_FILES.length) {
     return {
       filesCount: new TuiValidationError(
-        `Too many files. Expected ${REQUIRED_FILES.length}, got ${files.length}.`,
+        `Too many files. Expected a maximum of ${REQUIRED_FILES.length + OPTIONAL_FILES.length} files, got ${files.length}.`,
       ),
     };
   }
@@ -37,11 +38,11 @@ export const fileNamesValidator: ValidatorFn = (control) => {
   const files: File[] = control.value ?? [];
   if (
     files.every((file) => !file.name.endsWith('.zip')) &&
-    files.some((file) => !REQUIRED_FILES.includes(file.name))
+    files.some((file) => ![...REQUIRED_FILES, ...OPTIONAL_FILES].includes(file.name))
   ) {
     return {
       fileNames: new TuiValidationError(
-        `Some invalid file names. Expected: ${REQUIRED_FILES.join(', ')}.`,
+        `Some invalid file names. Expected: ${[...REQUIRED_FILES, ...OPTIONAL_FILES].join(', ')}.`,
       ),
     };
   }

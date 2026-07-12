@@ -8,6 +8,7 @@ import { TuiHeader } from '@taiga-ui/layout';
 import { map } from 'rxjs';
 import { RejectedFilePipe } from './rejected-file-pipe/rejected-file-pipe';
 import {
+  OPTIONAL_FILES,
   REQUIRED_FILES,
   fileNamesValidator,
   filesCountValidator,
@@ -37,6 +38,7 @@ export class ImportCustomSection {
   readonly import = output<File[]>();
 
   protected readonly REQUIRED_FILES = REQUIRED_FILES;
+  protected readonly OPTIONAL_FILES = OPTIONAL_FILES;
 
   protected readonly filesControl = new FormControl<File[]>([], {
     validators: [filesCountValidator, fileNamesValidator],
@@ -48,7 +50,11 @@ export class ImportCustomSection {
     map((files) => {
       const validFiles: File[] = [];
       files.forEach((file) => {
-        if (REQUIRED_FILES.includes(file.name) || file.name.endsWith('.zip')) {
+        if (
+          REQUIRED_FILES.includes(file.name) ||
+          OPTIONAL_FILES.includes(file.name) ||
+          file.name.endsWith('.zip')
+        ) {
           validFiles.push(file);
         } else {
           this.onReject([file]);

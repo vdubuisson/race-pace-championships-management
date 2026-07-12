@@ -1,5 +1,6 @@
 import { Car, CsvCar } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
+import { Driver } from '@/shared/models/driver';
 import { Livery } from '@/shared/models/livery';
 import { RaceEvent } from '@/shared/models/race-event';
 import { Team } from '@/shared/models/team';
@@ -15,7 +16,7 @@ type CsvHeader = {
   mandatory: boolean;
 };
 
-type CsvFile = 'cars.csv' | 'championships.csv' | 'events.csv' | 'teams.csv';
+type CsvFile = 'cars.csv' | 'championships.csv' | 'drivers.csv' | 'events.csv' | 'teams.csv';
 
 const EXPECTED_HEADERS: Record<CsvFile, CsvHeader[]> = {
   'cars.csv': [
@@ -47,6 +48,35 @@ const EXPECTED_HEADERS: Record<CsvFile, CsvHeader[]> = {
     { name: 'start_year', mandatory: false },
     { name: 'end_year', mandatory: false },
     { name: 'default_included', mandatory: false },
+  ],
+  'drivers.csv': [
+    { name: 'name', mandatory: true },
+    { name: 'surname', mandatory: true },
+    { name: 'championship_name', mandatory: true },
+    { name: 'category', mandatory: true },
+    { name: 'team_name', mandatory: true },
+    { name: 'end_year', mandatory: true },
+    { name: 'expected_standing', mandatory: true },
+    { name: 'team_loyalty', mandatory: true },
+    { name: 'country', mandatory: true },
+    { name: 'dob', mandatory: true },
+    { name: 'elo', mandatory: true },
+    { name: 'race_skill', mandatory: true },
+    { name: 'qualifying_skill', mandatory: true },
+    { name: 'aggression', mandatory: true },
+    { name: 'defending', mandatory: true },
+    { name: 'stamina', mandatory: true },
+    { name: 'consistency', mandatory: true },
+    { name: 'start_reactions', mandatory: true },
+    { name: 'wet_skill', mandatory: true },
+    { name: 'tyre_management', mandatory: true },
+    { name: 'fuel_management', mandatory: true },
+    { name: 'blue_flag_conceding', mandatory: true },
+    { name: 'weather_tyre_changes', mandatory: true },
+    { name: 'avoidance_of_mistakes', mandatory: true },
+    { name: 'avoidance_of_forced_mistakes', mandatory: true },
+    { name: 'setup_downforce', mandatory: true },
+    { name: 'setup_downforce_randomness', mandatory: true },
   ],
   'events.csv': [
     { name: 'championship_name', mandatory: true },
@@ -127,6 +157,40 @@ export class CsvParser {
           parc_ferme: this.parseBoolean(record['parc_ferme']),
           field_type: this.parseString(record['field_type']),
         }) as Championship,
+    });
+  }
+
+  parseDrivers(text: string): Driver[] {
+    this.validateMandatoryHeaders('drivers.csv', text);
+    return parse<Driver, Record<string, string>>(text, {
+      bom: true,
+      columns: (headers) => this.getHeadersFromCsv('drivers.csv', headers),
+      skip_empty_lines: true,
+      trim: true,
+      on_record: (record) =>
+        ({
+          ...record,
+          end_year: this.parseNumber(record['end_year']),
+          expected_standing: this.parseNumber(record['expected_standing']),
+          team_loyalty: this.parseNumber(record['team_loyalty']),
+          elo: this.parseNumber(record['elo']),
+          race_skill: this.parseNumber(record['race_skill']),
+          qualifying_skill: this.parseNumber(record['qualifying_skill']),
+          aggression: this.parseNumber(record['aggression']),
+          defending: this.parseNumber(record['defending']),
+          stamina: this.parseNumber(record['stamina']),
+          consistency: this.parseNumber(record['consistency']),
+          start_reactions: this.parseNumber(record['start_reactions']),
+          wet_skill: this.parseNumber(record['wet_skill']),
+          tyre_management: this.parseNumber(record['tyre_management']),
+          fuel_management: this.parseNumber(record['fuel_management']),
+          blue_flag_conceding: this.parseNumber(record['blue_flag_conceding']),
+          weather_tyre_changes: this.parseNumber(record['weather_tyre_changes']),
+          avoidance_of_mistakes: this.parseNumber(record['avoidance_of_mistakes']),
+          avoidance_of_forced_mistakes: this.parseNumber(record['avoidance_of_forced_mistakes']),
+          setup_downforce: this.parseNumber(record['setup_downforce']),
+          setup_downforce_randomness: this.parseNumber(record['setup_downforce_randomness']),
+        }) as Driver,
     });
   }
 

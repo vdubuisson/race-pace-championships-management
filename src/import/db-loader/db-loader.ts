@@ -1,6 +1,7 @@
 import { AppDatabase } from '@/db/app-database';
 import { Car } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
+import { Driver } from '@/shared/models/driver';
 import { Livery } from '@/shared/models/livery';
 import { RaceEvent } from '@/shared/models/race-event';
 import { Team } from '@/shared/models/team';
@@ -13,6 +14,7 @@ import { Table } from 'dexie';
 type ChampionshipsDbData = {
   cars: Car[];
   championships: Championship[];
+  drivers: Driver[];
   events: RaceEvent[];
   teams: Team[];
 };
@@ -31,11 +33,13 @@ export class DbLoader {
   async loadChampionshipsIntoDb({
     cars,
     championships,
+    drivers,
     events,
     teams,
   }: ChampionshipsDbData): Promise<void> {
     const tablesMap: Map<Table, unknown[]> = new Map();
     tablesMap.set(this.db.cars, cars);
+    tablesMap.set(this.db.drivers, drivers);
     tablesMap.set(this.db.championships, championships);
     tablesMap.set(this.db.events, events);
     tablesMap.set(this.db.teams, teams);

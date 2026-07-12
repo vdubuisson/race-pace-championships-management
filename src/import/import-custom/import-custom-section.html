@@ -1,10 +1,18 @@
 <header tuiHeader="h5">
   <h2 tuiTitle>
     Import custom championships
+    <span tuiSubtitle> Upload as CSV files or as a ZIP file. </span>
     <span tuiSubtitle>
-      Upload {{ REQUIRED_FILES.length }} CSV files to replace all existing data:
+      Required files:
       @for (requiredFile of REQUIRED_FILES; track requiredFile; let isLast = $last) {
         <strong>{{ requiredFile }}</strong
+        >{{ isLast ? '.' : ', ' }}
+      }
+    </span>
+    <span tuiSubtitle>
+      Optional files:
+      @for (optionalFile of OPTIONAL_FILES; track optionalFile; let isLast = $last) {
+        <strong>{{ optionalFile }}</strong
         >{{ isLast ? '.' : ', ' }}
       }
     </span>

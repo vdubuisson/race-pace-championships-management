@@ -1,6 +1,7 @@
 import { CsvParser } from '@/import/csv-parser/csv-parser';
 import { Car } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
+import { Driver } from '@/shared/models/driver';
 import { Livery } from '@/shared/models/livery';
 import { RaceEvent } from '@/shared/models/race-event';
 import { Team } from '@/shared/models/team';
@@ -57,13 +58,15 @@ export default class ResourceImporter {
     return forkJoin({
       championships: this.loadChampionships(path),
       cars: this.loadCars(path),
+      drivers: this.loadDrivers(path),
       events: this.loadEvents(path),
       teams: this.loadTeams(path),
     }).pipe(
-      switchMap(({ championships, cars, events, teams }) => {
+      switchMap(({ championships, cars, drivers, events, teams }) => {
         return this.dbLoader.loadChampionshipsIntoDb({
           cars,
           championships,
+          drivers,
           events,
           teams,
         });
@@ -81,6 +84,12 @@ export default class ResourceImporter {
     return this.http
       .get(`resources/${path}/cars.csv`, { responseType: 'text' })
       .pipe(map((text) => this.csvParser.parseCars(text)));
+  }
+
+  private loadDrivers(path: string): Observable<Driver[]> {
+    return this.http
+      .get(`resources/${path}/drivers.csv`, { responseType: 'text' })
+      .pipe(map((text) => this.csvParser.parseDrivers(text)));
   }
 
   private loadEvents(path: string): Observable<RaceEvent[]> {

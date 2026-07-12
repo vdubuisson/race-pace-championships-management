@@ -9,6 +9,10 @@
         <prop name="ShortVehicleName" type="String" />
         <prop name="XLASTID" type="U32" />
         <prop name="VehicleManufacturer" type="String" />
+        <prop name="Vehicle Name DLC Override DLC ID" type="String" />
+        <prop name="Vehicle Name DLC Override" type="String" />
+        <prop name="ShortVehicleName DLC Override" type="String" />
+        <prop name="VehicleManufacturer DLC Override" type="String" />
         <prop name="VehicleModel" type="String" />
         <prop name="Vehicle Render Model" type="String" />
         <prop name="Driver Character" type="String" />
@@ -72,6 +76,14 @@
         <prop name="Drafting Contrail Max Temperature" type="F32" />
         <prop name="Drafting Contrail Min Humidity" type="F32" />
         <prop name="Drafting Contrail Disable When DRS Opened" type="Bool" />
+        <prop name="Livery DLC ID 1" type="String" />
+        <prop name="Livery DLC Name 1" type="String" />
+        <prop name="Livery DLC ID 2" type="String" />
+        <prop name="Livery DLC Name 2" type="String" />
+        <prop name="Livery DLC ID 3" type="String" />
+        <prop name="Livery DLC Name 3" type="String" />
+        <prop name="Livery DLC ID 4" type="String" />
+        <prop name="Livery DLC Name 4" type="String" />
     </class>
     <data class="VehicleDetails" id="0xD8D56D0">
         <prop name="Name" data="Renault_R26_LD" />
@@ -79,6 +91,10 @@
         <prop name="ShortVehicleName" data="Renault R26" />
         <prop name="XLASTID" data="515" />
         <prop name="VehicleManufacturer" data="Renault" />
+        <prop name="Vehicle Name DLC Override DLC ID" data="basegameformula2026branded" />
+        <prop name="Vehicle Name DLC Override" data="Renault R26 - Low Downforce" />
+        <prop name="ShortVehicleName DLC Override" data="Renault R26" />
+        <prop name="VehicleManufacturer DLC Override" data="Renault" />
         <prop name="VehicleModel" data="Renault R26" />
         <prop name="Vehicle Render Model" data="Renault_R26_LD.vhf" />
         <prop name="Driver Character" data="Renault_R26" />
@@ -142,5 +158,13 @@
         <prop name="Drafting Contrail Max Temperature" data="25" />
         <prop name="Drafting Contrail Min Humidity" data="0.75" />
         <prop name="Drafting Contrail Disable When DRS Opened" data="false" />
+        <prop name="Livery DLC ID 1" data="basegameformula2026branded" />
+        <prop name="Livery DLC Name 1" data="Renault R26 #1" />
+        <prop name="Livery DLC ID 2" data="basegameformula2026branded" />
+        <prop name="Livery DLC Name 2" data="Renault R26 #2" />
+        <prop name="Livery DLC ID 3" data="basegameformula2026debranded" />
+        <prop name="Livery DLC Name 3" data="Team Virystone #1" />
+        <prop name="Livery DLC ID 4" data="basegameformula2026debranded" />
+        <prop name="Livery DLC Name 4" data="Team Virystone #2" />
     </data>
 </Reflection>

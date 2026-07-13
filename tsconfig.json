@@ -18,6 +18,7 @@
     "paths": {
       "@/championships/*": ["./src/championships/*"],
       "@/db/*": ["./src/db/*"],
+      "@/drivers/*": ["./src/drivers/*"],
       "@/export/*": ["./src/export/*"],
       "@/import/*": ["./src/import/*"],
       "@/resources/*": ["./src/resources/*"],

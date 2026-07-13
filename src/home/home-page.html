@@ -32,16 +32,6 @@
     </header>
     <div class="buttons">
       <a
-        [routerLink]="['/teams']"
-        tuiButton
-        tuiButtonVertical
-        appearance="info"
-        iconStart="@tui.users"
-        class="button"
-      >
-        Teams
-      </a>
-      <a
         [routerLink]="['/championships']"
         tuiButton
         tuiButtonVertical
@@ -50,6 +40,26 @@
         class="button"
       >
         Championships
+      </a>
+      <a
+        [routerLink]="['/teams']"
+        tuiButton
+        tuiButtonVertical
+        appearance="info"
+        iconStart="@tui.briefcase-business"
+        class="button"
+      >
+        Teams
+      </a>
+      <a
+        [routerLink]="['/drivers']"
+        tuiButton
+        tuiButtonVertical
+        appearance="info"
+        iconStart="@tui.id-card-lanyard"
+        class="button"
+      >
+        Drivers
       </a>
     </div>
   </section>

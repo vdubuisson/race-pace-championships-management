@@ -1,0 +1,12 @@
+.driver-list {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.filters-row th {
+  padding: 0;
+
+  input {
+    font-style: italic;
+  }
+}

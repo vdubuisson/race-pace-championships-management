@@ -15,4 +15,8 @@ export class DriverRepository {
   getDriverById(id: number): Promise<Driver | undefined> {
     return this.store.get(id);
   }
+
+  deleteDriver(id: number): Promise<void> {
+    return this.store.delete(id);
+  }
 }

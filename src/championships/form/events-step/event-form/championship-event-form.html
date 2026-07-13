@@ -15,7 +15,7 @@
                 <div class="chips">
                   @for (country of countries(); track country) {
                     <label tuiChip appearance="">
-                      <img [src]="country | countryCode: '2' | tuiFlag" class="flag" />
+                      <img [src]="country | countryCode: 2 | tuiFlag" class="flag" />
                       {{ country }}
                       <input
                         tuiChip
@@ -73,7 +73,7 @@
                 [value]="track"
                 class="layout-option"
               >
-                <img class="flag" alt="" [src]="track.country | countryCode: '2' | tuiFlag" />
+                <img class="flag" alt="" [src]="track.country | countryCode: 2 | tuiFlag" />
                 <div tuiTitle>
                   {{ track.name }}
                   <span tuiSubtitle>{{ track.real_name || 'N/A' }}</span>

@@ -1,12 +1,13 @@
 import { CarRepository } from '@/db/car-repository';
 import { ChampionshipRepository } from '@/db/championship-repository';
+import { PercentChartCard } from '@/shared/components/percent-chart-card/percent-chart-card';
 import { Team } from '@/shared/models/team';
 import { TeamStatsMapper } from '@/teams/team-stats-mapper/team-stats-mapper';
 import { PercentPipe } from '@angular/common';
 import { Component, computed, inject, input, resource, signal } from '@angular/core';
-import { TuiArcChart, TuiLegendItem, TuiRingChart } from '@taiga-ui/addon-charts';
+import { TuiLegendItem, TuiRingChart } from '@taiga-ui/addon-charts';
 import { TuiHovered } from '@taiga-ui/cdk';
-import { TuiCell, TuiIcon, TuiTitle } from '@taiga-ui/core';
+import { TuiIcon, TuiTitle } from '@taiga-ui/core';
 import { TuiAutoColorPipe, TuiAvatar, TuiChip, TuiTooltip } from '@taiga-ui/kit';
 import { TuiCardLarge, TuiCardMedium, TuiHeader, TuiItemGroup } from '@taiga-ui/layout';
 
@@ -15,13 +16,12 @@ import { TuiCardLarge, TuiCardMedium, TuiHeader, TuiItemGroup } from '@taiga-ui/
   templateUrl: './team-global-tab.html',
   styleUrl: './team-global-tab.css',
   imports: [
+    PercentChartCard,
     PercentPipe,
-    TuiArcChart,
     TuiAutoColorPipe,
     TuiAvatar,
     TuiCardLarge,
     TuiCardMedium,
-    TuiCell,
     TuiChip,
     TuiHeader,
     TuiHovered,

@@ -260,10 +260,10 @@ const iso3ToIso2: Record<string, string> = Object.fromEntries(
   name: 'countryCode',
 })
 export class CountryCodePipe implements PipeTransform {
-  transform(value: string | null | undefined, iso: '2' | '3' = '2'): string {
+  transform(value: string | null | undefined, iso: 2 | 3 = 2): string {
     if (!value) {
       return '';
     }
-    return iso === '2' ? iso3ToIso2[value] || value : iso2ToIso3[value] || value;
+    return iso === 2 ? iso3ToIso2[value] || value : iso2ToIso3[value] || value;
   }
 }

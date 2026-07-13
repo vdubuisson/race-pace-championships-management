@@ -1,0 +1,122 @@
+<a
+  [routerLink]="['/drivers']"
+  appearance="outline"
+  iconStart="@tui.chevron-left"
+  size="xs"
+  tuiButton
+  class="back-btn"
+>
+  Back
+</a>
+
+<header tuiHeader="h3">
+  <h1 tuiTitle>Driver details</h1>
+  <aside tuiAccessories>
+    <a
+      tuiButton
+      appearance="primary"
+      [routerLink]="['/drivers/form', driver().id]"
+      iconStart="@tui.pencil"
+    >
+      Edit
+    </a>
+    <button
+      tuiButton
+      appearance="primary-destructive"
+      iconStart="@tui.trash-2"
+      (click)="deleteDriver()"
+    >
+      Delete
+    </button>
+  </aside>
+</header>
+
+<main>
+  <section class="info">
+    <div tuiCardLarge appearance="floating" class="info-card">
+      <header tuiHeader>
+        <h2 tuiTitle>Identity</h2>
+      </header>
+      <section class="cell-list">
+        <div tuiCell>
+          <div appearance="neutral" tuiAvatar="@tui.id-card"></div>
+          <div tuiTitle>{{ driver().name }} {{ driver().surname }}</div>
+        </div>
+        <div tuiCell>
+          <div appearance="neutral" tuiAvatar="@tui.calendar-days"></div>
+          <div tuiTitle>{{ driver().dob | date: 'mediumDate' }}</div>
+        </div>
+        <div tuiCell>
+          <div appearance="neutral" tuiAvatar="@tui.flag">
+            <img [src]="driver().country | countryCode: 2 | tuiFlag" />
+          </div>
+          <div tuiTitle>{{ driver().country | countryName }}</div>
+        </div>
+        <div tuiCell>
+          <div appearance="neutral" tuiAvatar="@tui.handshake"></div>
+          <div tuiTitle>{{ driver().team_loyalty | percent }} loyalty</div>
+        </div>
+        <div tuiCell>
+          <div appearance="neutral" tuiAvatar="@tui.star"></div>
+          <div tuiTitle>{{ driver().elo | number }} ELO</div>
+        </div>
+      </section>
+    </div>
+
+    <div tuiCardLarge appearance="floating" class="info-card">
+      <header tuiHeader>
+        <h2 tuiTitle>Contract</h2>
+      </header>
+      <section class="cell-list">
+        <div tuiCell>
+          <div appearance="neutral" tuiAvatar="@tui.trophy"></div>
+          <div tuiTitle>{{ driver().championship_name }}</div>
+        </div>
+        <div tuiCell>
+          <div appearance="neutral" tuiAvatar="@tui.car"></div>
+          <div tuiTitle>{{ driver().category }}</div>
+        </div>
+        <div tuiCell>
+          <div appearance="neutral" tuiAvatar="@tui.briefcase-business"></div>
+          <div tuiTitle>{{ driver().team_name }}</div>
+        </div>
+        <div tuiCell>
+          <div appearance="neutral" tuiAvatar="@tui.calendar"></div>
+          <div tuiTitle>Until {{ driver().end_year }}</div>
+        </div>
+        <div tuiCell>
+          <div appearance="neutral" tuiAvatar="@tui.podium"></div>
+          <div tuiTitle>Expected {{ driver().expected_standing | ordinal }}</div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section class="charts">
+    <app-percent-chart-card title="Race skill" [value]="driver().race_skill" />
+    <app-percent-chart-card title="Qualifying skill" [value]="driver().qualifying_skill" />
+    <app-percent-chart-card title="Aggression" [value]="driver().aggression" />
+    <app-percent-chart-card title="Defending" [value]="driver().defending" />
+    <app-percent-chart-card title="Stamina" [value]="driver().stamina" />
+    <app-percent-chart-card title="Consistency" [value]="driver().consistency" />
+    <app-percent-chart-card title="Start reactions" [value]="driver().start_reactions" />
+    <app-percent-chart-card title="Wet skill" [value]="driver().wet_skill" />
+    <app-percent-chart-card title="Tyre management" [value]="driver().tyre_management" />
+    <app-percent-chart-card title="Fuel management" [value]="driver().fuel_management" />
+    <app-percent-chart-card title="Blue flag conceding" [value]="driver().blue_flag_conceding" />
+    <app-percent-chart-card title="Weather tyre changes" [value]="driver().weather_tyre_changes" />
+    <app-percent-chart-card
+      title="Avoidance of mistakes"
+      [value]="driver().avoidance_of_mistakes"
+    />
+    <app-percent-chart-card
+      title="Avoidance of forced mistakes"
+      [value]="driver().avoidance_of_forced_mistakes"
+    />
+    <app-percent-chart-card title="Setup downforce" [value]="driver().setup_downforce" />
+    <app-percent-chart-card
+      title="Setup downforce randomness"
+      [value]="driver().setup_downforce_randomness"
+    />
+  </section>
+</main>

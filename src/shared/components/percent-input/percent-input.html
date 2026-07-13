@@ -1,0 +1,24 @@
+<div class="form-field">
+  <label tuiLabel>
+    <span>
+      {{ title() }}
+      @if (tooltip()) {
+        <tui-icon [tuiTooltip]="tooltip()" />
+      }
+    </span>
+    <tui-textfield [tuiTextfieldSize]="size()">
+      <input
+        tuiInputSlider
+        [min]="0"
+        [max]="100"
+        [step]="1"
+        postfix="%"
+        placeholder="0%"
+        [formControl]="control()"
+        #input
+      />
+      <input tuiSlider type="range" />
+    </tui-textfield>
+  </label>
+  <tui-error [formControl]="control()" />
+</div>

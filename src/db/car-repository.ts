@@ -18,6 +18,10 @@ export class CarRepository {
     return this.store.where('team_name').equals(teamName).toArray();
   }
 
+  getCarsByChampionshipNameAndCategory(championshipName: string, category: string): Promise<Car[]> {
+    return this.store.where({ championship_name: championshipName, category }).toArray();
+  }
+
   async deleteCarsByChampionshipNames(championshipNames: string[]): Promise<void> {
     await this.store.where('championship_name').anyOf(championshipNames).delete();
   }

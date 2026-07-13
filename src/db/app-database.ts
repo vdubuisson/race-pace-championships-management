@@ -39,6 +39,7 @@ export class AppDatabase extends Dexie {
       liveries: '++id, class, livery_name',
     });
     this.version(3).stores({
+      cars: '++id, team_name, [championship_name+category]',
       drivers: '++id, championship_name, team_name',
     });
   }

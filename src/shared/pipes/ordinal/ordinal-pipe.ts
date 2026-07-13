@@ -4,7 +4,7 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'ordinal',
 })
 export class OrdinalPipe implements PipeTransform {
-  transform(value: number | string | null | undefined): string {
+  transform(value: number | string | null | undefined, onlySuffix = false): string {
     if (value === null || value === undefined || value === '') {
       return '';
     }
@@ -16,21 +16,28 @@ export class OrdinalPipe implements PipeTransform {
     }
 
     const absoluteValue = Math.abs(Math.trunc(numericValue));
-    const lastTwoDigits = absoluteValue % 100;
+
+    const suffix = this.getOrdinalSuffix(absoluteValue);
+
+    return onlySuffix ? suffix : `${absoluteValue}${suffix}`;
+  }
+
+  private getOrdinalSuffix(value: number): string {
+    const lastTwoDigits = value % 100;
 
     if (lastTwoDigits >= 11 && lastTwoDigits <= 13) {
-      return `${numericValue}th`;
+      return 'th';
     }
 
-    switch (absoluteValue % 10) {
+    switch (value % 10) {
       case 1:
-        return `${numericValue}st`;
+        return 'st';
       case 2:
-        return `${numericValue}nd`;
+        return 'nd';
       case 3:
-        return `${numericValue}rd`;
+        return 'rd';
       default:
-        return `${numericValue}th`;
+        return 'th';
     }
   }
 }

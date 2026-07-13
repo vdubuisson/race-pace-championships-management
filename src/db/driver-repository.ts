@@ -19,4 +19,12 @@ export class DriverRepository {
   deleteDriver(id: number): Promise<void> {
     return this.store.delete(id);
   }
+
+  addDriver(driver: Driver): Promise<number> {
+    return this.store.add(driver);
+  }
+
+  async updateDriver(id: number, driver: Partial<Driver>): Promise<void> {
+    await this.store.update(id, driver);
+  }
 }

@@ -74,7 +74,7 @@
           [style.background-color]="car().category ?? '' | tuiAutoColor"
           iconStart="@tui.folder"
         >
-          {{ car().category }}
+          {{ car().category ?? '' | vehicleClassName }}
         </span>
       }
     }

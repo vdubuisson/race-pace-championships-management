@@ -28,7 +28,7 @@
     @let category = entry.key;
     @let categoryCars = entry.value;
     <h2 tuiHeader class="tab-header">
-      <span>{{ category }}</span>
+      <span>{{ category | vehicleClassName }}</span>
     </h2>
 
     <div class="cars-list">

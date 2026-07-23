@@ -150,12 +150,20 @@
     <div class="form-field">
       <label tuiLabel>
         Category
-        <tui-textfield tuiChevron [tuiTextfieldCleaner]="false">
+        <tui-textfield tuiChevron [tuiTextfieldCleaner]="false" [stringify]="stringifyCategory">
           <input tuiComboBox [formControl]="form.controls.category" />
-          <tui-data-list-wrapper
-            *tuiDropdown
-            [items]="formManager.categoryOptions() | tuiFilterByInput"
-          />
+          <tui-data-list *tuiDropdown>
+            @for (cat of formManager.categoryOptions() | tuiFilterByInput; track cat) {
+              <button tuiOption type="button" [value]="cat">
+                <span>
+                  {{ cat | vehicleClassName }}
+                  @if (cat | vehicleClassMod) {
+                    <tui-icon icon="@tui.astroid" class="option-icon" />
+                  }
+                </span>
+              </button>
+            }
+          </tui-data-list>
         </tui-textfield>
       </label>
       <tui-error [formControl]="form.controls.category" />

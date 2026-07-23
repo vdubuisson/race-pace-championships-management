@@ -56,7 +56,7 @@
           </tui-textfield>
         </th>
         <th tuiTh>
-          <tui-textfield tuiChevron [tuiTextfieldCleaner]="true">
+          <tui-textfield tuiChevron [tuiTextfieldCleaner]="true" [stringify]="stringifyCategory">
             <input
               tuiComboBox
               [formControl]="filters.form.controls.category"
@@ -107,7 +107,7 @@
           <td tuiTd>{{ driver.name }}</td>
           <td tuiTd>{{ driver.surname }}</td>
           <td tuiTd>{{ driver.championship_name }}</td>
-          <td tuiTd>{{ driver.category }}</td>
+          <td tuiTd>{{ driver.category | vehicleClassName }}</td>
           <td tuiTd>{{ driver.team_name }}</td>
           <td tuiTd>{{ driver.end_year }}</td>
           <td tuiTd>{{ driver.elo | number }}</td>

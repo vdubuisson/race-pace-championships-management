@@ -2,12 +2,10 @@ import { AppDatabase } from '@/db/app-database';
 import { CarRepository } from '@/db/car-repository';
 import { ChampionshipRepository } from '@/db/championship-repository';
 import { EventRepository } from '@/db/event-repository';
-import { VehicleClassRepository } from '@/db/vehicle-class-repository';
 import { Car } from '@/shared/models/car';
-import { Championship, ChampionshipWithClasses } from '@/shared/models/championship';
+import { Championship } from '@/shared/models/championship';
 import { RaceEvent } from '@/shared/models/race-event';
 import { inject, Service } from '@angular/core';
-import { Observable, switchMap } from 'rxjs';
 
 type SaveChampionshipPayload = {
   championship: Championship;
@@ -21,35 +19,8 @@ type SaveChampionshipPayload = {
 export class ChampionshipsService {
   private readonly appDatabase = inject(AppDatabase);
   private readonly championshipRepository = inject(ChampionshipRepository);
-  private readonly vehicleClassRepository = inject(VehicleClassRepository);
   private readonly eventRepository = inject(EventRepository);
   private readonly carRepository = inject(CarRepository);
-
-  async getChampionship(id: number): Promise<ChampionshipWithClasses> {
-    const championship = await this.championshipRepository.getChampionshipById(id);
-    if (!championship) {
-      throw new Error(`Championship with id ${id} not found`);
-    }
-    const classes = await this.vehicleClassRepository.getVehicleClassesByIds(
-      championship.categories,
-    );
-    return { ...championship, classes };
-  }
-
-  getChampionships(): Observable<ChampionshipWithClasses[]> {
-    return this.championshipRepository.getAllChampionships().pipe(
-      switchMap(async (championships) => {
-        const classes = await this.vehicleClassRepository.getAllVehicleClasses();
-        const classesById = new Map(classes.map((c) => [c.id, c]));
-        return championships.map((championship) => ({
-          ...championship,
-          classes: championship.categories
-            .map((categoryId) => classesById.get(categoryId))
-            .filter((c): c is NonNullable<typeof c> => !!c),
-        }));
-      }),
-    );
-  }
 
   async saveChampionshipWithRelations({
     championship,

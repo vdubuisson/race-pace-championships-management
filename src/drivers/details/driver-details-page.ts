@@ -4,6 +4,7 @@ import { Driver } from '@/shared/models/driver';
 import { CountryCodePipe } from '@/shared/pipes/country-code/country-code-pipe';
 import { CountryNamePipe } from '@/shared/pipes/country-name/country-name-pipe';
 import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
+import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
 import { DatePipe, DecimalPipe, PercentPipe } from '@angular/common';
 import { Component, inject, input } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
@@ -38,6 +39,7 @@ import { of, switchMap } from 'rxjs';
     TuiFlagPipe,
     TuiHeader,
     TuiTitle,
+    VehicleClassNamePipe,
   ],
 })
 export default class DriverDetailsPage {

@@ -1,4 +1,6 @@
 import { DriverRepository } from '@/db/driver-repository';
+import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
+import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
 import { DecimalPipe, SlicePipe } from '@angular/common';
 import { Component, computed, inject, signal } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -44,6 +46,7 @@ import { DriversListFilters } from './drivers-list-filters';
     TuiTable,
     TuiTablePagination,
     TuiTitle,
+    VehicleClassNamePipe,
   ],
   providers: [DriversListFilters],
 })
@@ -52,6 +55,7 @@ export class DriversListPage {
   private readonly driverRepository = inject(DriverRepository);
   private readonly dialogs = inject(TuiDialogService);
   private readonly notifications = inject(TuiNotificationService);
+  private readonly vehicleClassUtils = inject(VehicleClassUtils);
 
   protected readonly pageSize = signal(20);
   protected readonly pageIndex = signal(0);
@@ -59,6 +63,9 @@ export class DriversListPage {
   protected totalPages = computed(() =>
     Math.ceil(this.filters.filteredDrivers().length / this.pageSize()),
   );
+
+  protected readonly stringifyCategory = (catId: string) =>
+    this.vehicleClassUtils.getVehicleClassName(catId) ?? catId;
 
   onPagination(event: TuiTablePaginationEvent) {
     this.pageIndex.set(event.page);

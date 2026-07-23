@@ -36,6 +36,9 @@ import { TuiForm, TuiHeader } from '@taiga-ui/layout';
 import { DriverFormManager } from './driver-form-manager';
 import { TuiDay } from '@taiga-ui/cdk';
 import { PercentInput } from '@/shared/components/percent-input/percent-input';
+import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
+import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
+import { VehicleClassModPipe } from '@/shared/pipes/vehicle-class-mod/vehicle-class-mod-pipe';
 
 @Component({
   selector: 'app-driver-form',
@@ -67,6 +70,8 @@ import { PercentInput } from '@/shared/components/percent-input/percent-input';
     TuiScrollRef,
     TuiTitle,
     TuiTooltip,
+    VehicleClassModPipe,
+    VehicleClassNamePipe,
   ],
   providers: [
     DriverFormManager,
@@ -98,6 +103,7 @@ export default class DriverForm {
 
   private readonly router = inject(Router);
   private readonly notifications = inject(TuiNotificationService);
+  private readonly vehicleClassUtils = inject(VehicleClassUtils);
 
   readonly driver = input<Driver | undefined>(undefined);
 
@@ -129,6 +135,9 @@ export default class DriverForm {
     this.COUNTRIES.find((country) => country.iso3 === iso3)?.name ?? iso3;
   protected readonly countryItemHeight = 40;
   protected readonly countryItemCount = 10;
+
+  protected readonly stringifyCategory = (catId: string) =>
+    this.vehicleClassUtils.getVehicleClassName(catId) ?? catId;
 
   protected readonly endYearTooltip = 'Last year where the contract will be active.';
   protected readonly expectedStandingTooltip = `The team expects the driver to finish in this position.

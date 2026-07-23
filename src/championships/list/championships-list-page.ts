@@ -1,3 +1,5 @@
+import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
+import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
 import { SlicePipe } from '@angular/common';
 import { Component, computed, inject, signal } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -54,6 +56,7 @@ import { ChampionshipsListFilters } from './championships-list-filters';
     TuiTable,
     TuiTablePagination,
     TuiTitle,
+    VehicleClassNamePipe,
   ],
   providers: [ChampionshipsListFilters],
 })
@@ -62,6 +65,7 @@ export class ChampionshipsListPage {
   readonly filters = inject(ChampionshipsListFilters);
   private readonly dialogs = inject(TuiDialogService);
   private readonly notifications = inject(TuiNotificationService);
+  private readonly vehicleClassUtils = inject(VehicleClassUtils);
 
   protected readonly pageSize = signal(20);
   protected readonly pageIndex = signal(0);
@@ -69,6 +73,9 @@ export class ChampionshipsListPage {
   protected totalPages = computed(() =>
     Math.ceil(this.filters.filteredChampionships().length / this.pageSize()),
   );
+
+  protected readonly stringifyCategory = (catId: string) =>
+    this.vehicleClassUtils.getVehicleClassName(catId) ?? catId;
 
   onPagination(event: TuiTablePaginationEvent) {
     this.pageIndex.set(event.page);

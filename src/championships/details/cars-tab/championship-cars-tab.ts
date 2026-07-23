@@ -1,7 +1,8 @@
 import { CarCard } from '@/shared/components/car-card/car-card';
 import { Car } from '@/shared/models/car';
-import { ChampionshipWithClasses } from '@/shared/models/championship';
+import { Championship } from '@/shared/models/championship';
 import { Livery } from '@/shared/models/livery';
+import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
 import { Component, computed, input } from '@angular/core';
 import { TuiHeader } from '@taiga-ui/layout';
 
@@ -9,11 +10,11 @@ import { TuiHeader } from '@taiga-ui/layout';
   selector: 'app-championship-cars-tab',
   templateUrl: './championship-cars-tab.html',
   styleUrl: './championship-cars-tab.css',
-  imports: [CarCard, TuiHeader],
+  imports: [CarCard, TuiHeader, VehicleClassNamePipe],
 })
 export default class ChampionshipCarsTab {
   readonly cars = input.required<Car[]>();
-  readonly championship = input.required<ChampionshipWithClasses>();
+  readonly championship = input.required<Championship>();
   readonly liveries = input.required<Livery[]>();
 
   readonly carsByCategory = computed(() => {

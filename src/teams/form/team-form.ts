@@ -19,6 +19,7 @@ import {
 } from '@taiga-ui/core';
 import { TuiInputNumber, TuiTooltip } from '@taiga-ui/kit';
 import { TuiForm, TuiHeader } from '@taiga-ui/layout';
+import { TeamsService } from '../teams-service/teams-service';
 
 @Component({
   selector: 'app-team-form',
@@ -40,6 +41,7 @@ import { TuiForm, TuiHeader } from '@taiga-ui/layout';
 })
 export default class TeamForm {
   private readonly teamRepository = inject(TeamRepository);
+  private readonly teamsService = inject(TeamsService);
   private readonly router = inject(Router);
   private readonly notifications = inject(TuiNotificationService);
 
@@ -134,7 +136,11 @@ export default class TeamForm {
     if (this.teamForm.valid) {
       try {
         if (!isNaN(this.id())) {
-          await this.teamRepository.updateTeam(this.id() as number, this.teamForm.value as Team);
+          await this.teamsService.updateTeam(
+            this.id(),
+            this.originalName()!,
+            this.teamForm.value as Team,
+          );
           this.notifications
             .open('Team updated successfully', {
               appearance: 'positive',

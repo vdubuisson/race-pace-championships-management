@@ -1,16 +1,21 @@
 import { CarRepository } from '@/db/car-repository';
 import { ChampionshipRepository } from '@/db/championship-repository';
+import { DriverRepository } from '@/db/driver-repository';
 import { EventRepository } from '@/db/event-repository';
 import { ModelRepository } from '@/db/model-repository';
 import { TeamRepository } from '@/db/team-repository';
 import { TrackRepository } from '@/db/track-repository';
-import { CsvCar } from '@/shared/models/car';
+import { Car, CsvCar } from '@/shared/models/car';
+import { Championship } from '@/shared/models/championship';
+import { Driver } from '@/shared/models/driver';
 import { RaceEvent } from '@/shared/models/race-event';
+import { Team } from '@/shared/models/team';
 import { Track } from '@/shared/models/track';
 import { inject, Service } from '@angular/core';
 import JSZip from '@progress/jszip-esm';
 import { stringify } from 'csv-stringify/browser/esm/sync';
 import { firstValueFrom } from 'rxjs';
+import { RelationChecker } from './relation-checker';
 
 @Service()
 export default class CsvExporter {
@@ -20,24 +25,46 @@ export default class CsvExporter {
   private readonly teamRepository = inject(TeamRepository);
   private readonly trackRepository = inject(TrackRepository);
   private readonly modelRepository = inject(ModelRepository);
+  private readonly driverRepository = inject(DriverRepository);
 
-  async downloadCsvsZipWithoutMods(zipName = 'race_pace_custom_championships.zip'): Promise<void> {
+  private readonly relationChecker = inject(RelationChecker);
+
+  async downloadCsvsZip(
+    noMods = false,
+    zipName = 'race_pace_custom_championships.zip',
+  ): Promise<void> {
+    const cars = await this.carRepository.getAllCars();
+    const championships = await firstValueFrom(this.championshipRepository.getAllChampionships());
     const events = await this.eventRepository.getAllEvents();
-    const noModTracks = (await this.trackRepository.getAllTracks()).filter(
-      (track) => !track.is_mod,
-    );
+    const teams = await firstValueFrom(this.teamRepository.getAllTeams());
+    let tracks = await this.trackRepository.getAllTracks();
+    const drivers = await firstValueFrom(this.driverRepository.getAllDrivers());
 
-    if (events.some((event) => !noModTracks.some((track) => track.id === event.track_id))) {
-      throw new Error('Cannot export without mods because some events use track mods');
+    if (noMods) {
+      tracks = tracks.filter((track) => !track.is_mod);
     }
 
-    const [carsCsv, championshipsCsv, eventsCsv, teamsCsv, tracksCsv] = await Promise.all([
-      this.createCarsCsv(),
-      this.createChampionshipsCsv(),
-      this.createEventsCsv(events),
-      this.createTeamsCsv(),
-      this.createTracksCsv(noModTracks),
-    ]);
+    const relationErrors = this.relationChecker.getRelationErrors(
+      cars,
+      championships,
+      drivers,
+      events,
+      teams,
+      tracks,
+    );
+    if (relationErrors.length > 0) {
+      throw new Error(relationErrors.join('<br/>'));
+    }
+
+    const [carsCsv, championshipsCsv, eventsCsv, teamsCsv, tracksCsv, driversCsv] =
+      await Promise.all([
+        this.createCarsCsv(cars),
+        this.createChampionshipsCsv(championships),
+        this.createEventsCsv(events),
+        this.createTeamsCsv(teams),
+        this.createTracksCsv(tracks),
+        this.createDriversCsv(drivers),
+      ]);
 
     await this.createZipAndDownload({
       carsCsv,
@@ -45,34 +72,13 @@ export default class CsvExporter {
       eventsCsv,
       teamsCsv,
       tracksCsv,
+      driversCsv,
       zipName,
     });
   }
 
-  async downloadCsvsZip(zipName = 'race_pace_custom_championships.zip'): Promise<void> {
-    const [carsCsv, championshipsCsv, eventsCsv, teamsCsv, tracksCsv] = await Promise.all([
-      this.createCarsCsv(),
-      this.createChampionshipsCsv(),
-      this.createEventsCsv(),
-      this.createTeamsCsv(),
-      this.createTracksCsv(),
-    ]);
-
-    await this.createZipAndDownload({
-      carsCsv,
-      championshipsCsv,
-      eventsCsv,
-      teamsCsv,
-      tracksCsv,
-      zipName,
-    });
-  }
-
-  private async createCarsCsv(): Promise<string> {
-    const [cars, models] = await Promise.all([
-      this.carRepository.getAllCars(),
-      this.modelRepository.getAllModels(),
-    ]);
+  private async createCarsCsv(cars: Car[]): Promise<string> {
+    const models = await this.modelRepository.getAllModels();
     const groupedCars = new Map<string, CsvCar>();
 
     for (const car of cars) {
@@ -120,8 +126,7 @@ export default class CsvExporter {
     });
   }
 
-  private async createChampionshipsCsv(): Promise<string> {
-    const championships = await firstValueFrom(this.championshipRepository.getAllChampionships());
+  private async createChampionshipsCsv(championships: Championship[]): Promise<string> {
     const records = championships.map((championship) => ({
       ...championship,
       categories: championship.categories.join(','),
@@ -162,9 +167,7 @@ export default class CsvExporter {
     });
   }
 
-  private async createEventsCsv(fetchedEvents?: RaceEvent[]): Promise<string> {
-    const events = fetchedEvents ?? (await this.eventRepository.getAllEvents());
-
+  private async createEventsCsv(events: RaceEvent[]): Promise<string> {
     const records = events.map((event) => ({
       ...event,
       mandatory: this.toCsvBoolean(event.mandatory),
@@ -187,9 +190,7 @@ export default class CsvExporter {
     });
   }
 
-  private async createTeamsCsv(): Promise<string> {
-    const teams = await this.teamRepository.getAllTeams();
-
+  private async createTeamsCsv(teams: Team[]): Promise<string> {
     const records = teams.map((team) => ({
       ...team,
       driver_loyalty: team.driver_loyalty ?? '',
@@ -215,9 +216,42 @@ export default class CsvExporter {
     });
   }
 
-  private async createTracksCsv(fetchedTracks?: Track[]): Promise<string> {
-    const tracks = fetchedTracks ?? (await this.trackRepository.getAllTracks());
+  private async createDriversCsv(drivers: Driver[]): Promise<string> {
+    return stringify(drivers, {
+      header: true,
+      columns: [
+        'name',
+        'surname',
+        'championship_name',
+        'category',
+        'team_name',
+        'end_year',
+        'expected_standing',
+        'team_loyalty',
+        'country',
+        'dob',
+        'elo',
+        'race_skill',
+        'qualifying_skill',
+        'aggression',
+        'defending',
+        'stamina',
+        'consistency',
+        'start_reactions',
+        'wet_skill',
+        'tyre_management',
+        'fuel_management',
+        'blue_flag_conceding',
+        'weather_tyre_changes',
+        'avoidance_of_mistakes',
+        'avoidance_of_forced_mistakes',
+        'setup_downforce',
+        'setup_downforce_randomness',
+      ],
+    });
+  }
 
+  private async createTracksCsv(tracks: Track[]): Promise<string> {
     const records = tracks.map((track) => ({
       ...track,
       end_year: track.end_year ?? '',
@@ -250,6 +284,7 @@ export default class CsvExporter {
     eventsCsv,
     teamsCsv,
     tracksCsv,
+    driversCsv,
     zipName,
   }: {
     carsCsv: string;
@@ -257,6 +292,7 @@ export default class CsvExporter {
     eventsCsv: string;
     teamsCsv: string;
     tracksCsv: string;
+    driversCsv: string;
     zipName: string;
   }): Promise<void> {
     const zip = new JSZip();
@@ -265,6 +301,7 @@ export default class CsvExporter {
     zip.file('events.csv', eventsCsv);
     zip.file('teams.csv', teamsCsv);
     zip.file('tracks.csv', tracksCsv);
+    zip.file('drivers.csv', driversCsv);
 
     const blob = await zip.generateAsync({
       type: 'blob',

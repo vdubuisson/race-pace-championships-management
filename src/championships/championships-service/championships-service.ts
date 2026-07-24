@@ -1,6 +1,7 @@
 import { AppDatabase } from '@/db/app-database';
 import { CarRepository } from '@/db/car-repository';
 import { ChampionshipRepository } from '@/db/championship-repository';
+import { DriverRepository } from '@/db/driver-repository';
 import { EventRepository } from '@/db/event-repository';
 import { Car } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
@@ -21,6 +22,7 @@ export class ChampionshipsService {
   private readonly championshipRepository = inject(ChampionshipRepository);
   private readonly eventRepository = inject(EventRepository);
   private readonly carRepository = inject(CarRepository);
+  private readonly driverRepository = inject(DriverRepository);
 
   async saveChampionshipWithRelations({
     championship,
@@ -36,6 +38,7 @@ export class ChampionshipsService {
       this.championshipRepository.store,
       this.eventRepository.store,
       this.carRepository.store,
+      this.driverRepository.store,
       async () => {
         if (typeof championshipId === 'number') {
           await this.championshipRepository.updateChampionship(championshipId, championship);
@@ -57,6 +60,13 @@ export class ChampionshipsService {
         await this.carRepository.addCars(
           cars.map((car) => ({ ...car, championship_name: championship.name })),
         );
+
+        if (previousName && previousName !== championship.name) {
+          await this.driverRepository.updateDriversChampionshipName(
+            previousName,
+            championship.name,
+          );
+        }
       },
     );
 
@@ -73,6 +83,7 @@ export class ChampionshipsService {
       this.championshipRepository.store,
       this.eventRepository.store,
       this.carRepository.store,
+      this.driverRepository.store,
       async () => {
         const championship = await this.championshipRepository.getChampionshipById(id);
         if (!championship) {
@@ -82,7 +93,12 @@ export class ChampionshipsService {
         await this.championshipRepository.deleteChampionship(id);
         await this.eventRepository.deleteEventsByChampionshipNames([championship.name]);
         await this.carRepository.deleteCarsByChampionshipNames([championship.name]);
+        await this.driverRepository.deleteDriversByChampionshipName(championship.name);
       },
     );
+  }
+
+  async hasDrivers(name: string): Promise<boolean> {
+    return (await this.driverRepository.getDriversByChampionshipName(name)).length > 0;
   }
 }

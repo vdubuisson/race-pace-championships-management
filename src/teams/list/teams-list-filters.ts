@@ -20,17 +20,12 @@ export class TeamsListFilters {
   private readonly championships = toSignal(this.championshipRepository.getAllChampionships(), {
     initialValue: [],
   });
-  private readonly teams = resource({
-    loader: () => this.teamRepository.getAllTeams(),
-    defaultValue: [],
-  });
+  private readonly teams = toSignal(this.teamRepository.getAllTeams(), { initialValue: [] });
 
   protected readonly teamsWithStats = computed(() =>
-    this.teams
-      .value()
-      .map((team) =>
-        this.teamStatsMapper.getTeamWithStats(team, this.cars.value(), this.championships()),
-      ),
+    this.teams().map((team) =>
+      this.teamStatsMapper.getTeamWithStats(team, this.cars.value(), this.championships()),
+    ),
   );
 
   readonly tagsOptions = computed(() => {

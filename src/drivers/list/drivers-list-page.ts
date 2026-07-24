@@ -23,7 +23,7 @@ import {
   TuiInputNumber,
 } from '@taiga-ui/kit';
 import { TuiHeader } from '@taiga-ui/layout';
-import { of, switchMap } from 'rxjs';
+import { from, of, switchMap } from 'rxjs';
 import { DriversListFilters } from './drivers-list-filters';
 
 @Component({
@@ -87,14 +87,17 @@ export class DriversListPage {
         data,
       })
       .pipe(
-        switchMap(async (response) => {
+        switchMap((response) => {
           if (response) {
-            await this.driverRepository.deleteDriver(id);
-            return this.notifications.open('Driver deleted', {
-              appearance: 'positive',
-              autoClose: 3000,
-              closable: false,
-            });
+            return from(this.driverRepository.deleteDriver(id)).pipe(
+              switchMap(() =>
+                this.notifications.open('Driver deleted', {
+                  appearance: 'positive',
+                  autoClose: 3000,
+                  closable: false,
+                }),
+              ),
+            );
           } else {
             return of(undefined);
           }

@@ -36,7 +36,7 @@ export class HomePage {
     this.isExportingWithoutMods.set(true);
     try {
       const csvExporter = await this.csvExporter();
-      await csvExporter.downloadCsvsZipWithoutMods();
+      await csvExporter.downloadCsvsZip(true);
     } catch (error) {
       this.displayError(error as Error);
     } finally {

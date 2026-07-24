@@ -125,6 +125,16 @@
             >
               Edit
             </a>
+            <button
+              (click)="deleteTeam(team.id!, team.name)"
+              appearance="action-destructive"
+              iconStart="@tui.trash"
+              size="xs"
+              tuiIconButton
+              type="button"
+            >
+              Delete
+            </button>
           </td>
         </tr>
       }

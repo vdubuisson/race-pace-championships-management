@@ -27,7 +27,7 @@ import {
   TuiSwitch,
 } from '@taiga-ui/kit';
 import { TuiHeader, TuiItemGroup } from '@taiga-ui/layout';
-import { of, switchMap } from 'rxjs';
+import { from, of, switchMap } from 'rxjs';
 import { ChampionshipsService } from '../championships-service/championships-service';
 import { ChampionshipsListFilters } from './championships-list-filters';
 
@@ -82,9 +82,14 @@ export class ChampionshipsListPage {
     this.pageSize.set(event.size);
   }
 
-  deleteChampionship(id: number, name: string) {
+  async deleteChampionship(id: number, name: string): Promise<void> {
+    const hasDrivers = await this.championshipService.hasDrivers(name);
+    const message = hasDrivers
+      ? `The championship ${name} is linked to drivers.<br/>Are you sure you want to delete this championship and its drivers?`
+      : `Are you sure you want to delete the championship ${name}?`;
+
     const data: TuiConfirmData = {
-      content: 'Are you sure you want to delete the championship ' + name + '?',
+      content: message,
       yes: 'Yes',
       no: 'No',
       appearance: 'primary-destructive',
@@ -97,14 +102,17 @@ export class ChampionshipsListPage {
         data,
       })
       .pipe(
-        switchMap(async (response) => {
+        switchMap((response) => {
           if (response) {
-            await this.championshipService.deleteChampionship(id);
-            return this.notifications.open('Championship deleted', {
-              appearance: 'positive',
-              autoClose: 3000,
-              closable: false,
-            });
+            return from(this.championshipService.deleteChampionship(id)).pipe(
+              switchMap(() =>
+                this.notifications.open('Championship deleted', {
+                  appearance: 'positive',
+                  autoClose: 3000,
+                  closable: false,
+                }),
+              ),
+            );
           } else {
             return of(undefined);
           }

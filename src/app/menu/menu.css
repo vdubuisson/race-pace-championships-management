@@ -1,0 +1,8 @@
+:host {
+  display: flex;
+}
+
+.menubar {
+  height: 100vh;
+  top: 0;
+}

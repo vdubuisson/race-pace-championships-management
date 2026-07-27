@@ -4,10 +4,11 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { RouterOutlet } from '@angular/router';
 import { TUI_DARK_MODE, TuiLoader, TuiNotificationService, TuiRoot } from '@taiga-ui/core';
 import { catchError, from, of, switchMap, tap } from 'rxjs';
+import { Menu } from './menu/menu';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TuiLoader, TuiRoot],
+  imports: [Menu, RouterOutlet, TuiLoader, TuiRoot],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })

@@ -5,8 +5,10 @@
     [overlay]="true"
     textContent="Importing base resources..."
   >
-    <div class="container">
-      <router-outlet />
-    </div>
+    <app-menu>
+      <div class="container">
+        <router-outlet />
+      </div>
+    </app-menu>
   </tui-loader>
 </tui-root>

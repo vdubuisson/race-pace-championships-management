@@ -14,6 +14,10 @@ export class EventRepository {
     return this.store.where('championship_name').equals(championshipName).toArray();
   }
 
+  getEventsByChampionshipNames(championshipNames: string[]): Promise<RaceEvent[]> {
+    return this.store.where('championship_name').anyOf(championshipNames).toArray();
+  }
+
   async deleteEventsByChampionshipNames(championshipNames: string[]): Promise<void> {
     await this.store.where('championship_name').anyOf(championshipNames).delete();
   }

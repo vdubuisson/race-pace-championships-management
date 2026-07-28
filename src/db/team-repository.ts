@@ -20,6 +20,10 @@ export class TeamRepository {
     return this.store.where('name').equals(name).first();
   }
 
+  async getTeamsByNames(names: string[]): Promise<Team[]> {
+    return this.store.where('name').anyOf(names).toArray();
+  }
+
   async addTeam(team: Team): Promise<void> {
     await this.store.add(team);
   }

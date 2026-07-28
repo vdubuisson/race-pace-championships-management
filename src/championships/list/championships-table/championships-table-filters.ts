@@ -5,7 +5,7 @@ import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
 import { FormControl, FormGroup } from '@angular/forms';
 
 @Service({ autoProvided: false })
-export class ChampionshipsListFilters {
+export class ChampionshipsTableFilters {
   private readonly championshipRepository = inject(ChampionshipRepository);
 
   protected readonly championships = toSignal(this.championshipRepository.getAllChampionships(), {
@@ -56,6 +56,7 @@ export class ChampionshipsListFilters {
     eventsCount: new FormControl<number | null>(null),
     tag: new FormControl(''),
     defaultIncluded: new FormControl(false, { nonNullable: true }),
+    selected: new FormControl<number[]>([], { nonNullable: true }),
   });
 
   readonly filteredChampionships = linkedSignal(() => this.applyFilters(this.championships()));

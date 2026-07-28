@@ -1,0 +1,20 @@
+.section-header {
+  margin-bottom: 1rem;
+}
+
+fieldset.vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: fit-content;
+  padding-left: 2rem;
+
+  [tuiCell]:hover {
+    background: none;
+  }
+
+  [tuiTitle] {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+}

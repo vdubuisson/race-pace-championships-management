@@ -14,7 +14,6 @@ import { Track } from '@/shared/models/track';
 import { inject, Service } from '@angular/core';
 import JSZip from '@progress/jszip-esm';
 import { stringify } from 'csv-stringify/browser/esm/sync';
-import { firstValueFrom } from 'rxjs';
 import { RelationChecker } from './relation-checker';
 
 @Service()
@@ -29,20 +28,34 @@ export default class CsvExporter {
 
   private readonly relationChecker = inject(RelationChecker);
 
-  async downloadCsvsZip(
-    noMods = false,
-    zipName = 'race_pace_custom_championships.zip',
-  ): Promise<void> {
-    const cars = await this.carRepository.getAllCars();
-    const championships = await firstValueFrom(this.championshipRepository.getAllChampionships());
-    const events = await this.eventRepository.getAllEvents();
-    const teams = await firstValueFrom(this.teamRepository.getAllTeams());
-    let tracks = await this.trackRepository.getAllTracks();
-    const drivers = await firstValueFrom(this.driverRepository.getAllDrivers());
+  async downloadCsvsZip({
+    withDrivers,
+    withTrackMods,
+    filename,
+    championshipIds,
+  }: {
+    withDrivers: boolean;
+    withTrackMods: boolean;
+    filename: string;
+    championshipIds: number[];
+  }): Promise<void> {
+    const championships =
+      await this.championshipRepository.getAllChampionshipsByIds(championshipIds);
+    const championshipNames = championships.map((championship) => championship.name);
+    const cars = await this.carRepository.getCarsByChampionshipNames(championshipNames);
+    const events = await this.eventRepository.getEventsByChampionshipNames(championshipNames);
 
-    if (noMods) {
+    const teamNames = new Set(cars.map((car) => car.team_name));
+    const teams = await this.teamRepository.getTeamsByNames(Array.from(teamNames));
+
+    let tracks = await this.trackRepository.getAllTracks();
+    if (!withTrackMods) {
       tracks = tracks.filter((track) => !track.is_mod);
     }
+
+    const drivers = withDrivers
+      ? await this.driverRepository.getDriversByChampionshipNames(championshipNames)
+      : [];
 
     const relationErrors = this.relationChecker.getRelationErrors(
       cars,
@@ -73,7 +86,7 @@ export default class CsvExporter {
       teamsCsv,
       tracksCsv,
       driversCsv,
-      zipName,
+      filename,
     });
   }
 
@@ -285,7 +298,7 @@ export default class CsvExporter {
     teamsCsv,
     tracksCsv,
     driversCsv,
-    zipName,
+    filename,
   }: {
     carsCsv: string;
     championshipsCsv: string;
@@ -293,7 +306,7 @@ export default class CsvExporter {
     teamsCsv: string;
     tracksCsv: string;
     driversCsv: string;
-    zipName: string;
+    filename: string;
   }): Promise<void> {
     const zip = new JSZip();
     zip.file('cars.csv', carsCsv);
@@ -308,7 +321,7 @@ export default class CsvExporter {
       compression: 'DEFLATE',
       compressionOptions: { level: 6 },
     });
-    this.downloadBlob(blob, zipName);
+    this.downloadBlob(blob, `${filename}.zip`);
   }
 
   private downloadBlob(blob: Blob, fileName: string): void {

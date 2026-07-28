@@ -24,6 +24,10 @@ export class DriverRepository {
     return this.store.where('championship_name').equals(championshipName).toArray();
   }
 
+  getDriversByChampionshipNames(championshipNames: string[]): Promise<Driver[]> {
+    return this.store.where('championship_name').anyOf(championshipNames).toArray();
+  }
+
   deleteDriver(id: number): Promise<void> {
     return this.store.delete(id);
   }

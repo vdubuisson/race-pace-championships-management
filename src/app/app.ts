@@ -1,5 +1,6 @@
 import VersionChecker from '@/import/version-checker/version-checker';
-import { Component, inject, injectAsync, signal } from '@angular/core';
+import { GlobalLoader } from '@/shared/services/global-loader/global-loader';
+import { Component, inject, injectAsync } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { RouterOutlet } from '@angular/router';
 import { TUI_DARK_MODE, TuiLoader, TuiNotificationService, TuiRoot } from '@taiga-ui/core';
@@ -21,7 +22,7 @@ export class App {
     () => import('@/import/resource-importer/resource-importer'),
   );
 
-  protected readonly importingBaseResources = signal(false);
+  protected readonly globalLoader = inject(GlobalLoader);
 
   constructor() {
     // this.darkMode.set(true);
@@ -29,7 +30,7 @@ export class App {
   }
 
   private checkAndImportBaseResources(): void {
-    this.importingBaseResources.set(true);
+    this.globalLoader.showLoader('Importing base resources...');
 
     this.versionChecker
       .needToImportBaseResources()
@@ -56,7 +57,7 @@ export class App {
       )
       .subscribe({
         complete: () => {
-          this.importingBaseResources.set(false);
+          this.globalLoader.hideLoader();
         },
       });
   }

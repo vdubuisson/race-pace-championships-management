@@ -1,9 +1,10 @@
 <tui-root>
   <tui-loader
-    [loading]="importingBaseResources()"
+    [loading]="globalLoader.isLoading()"
     size="xl"
     [overlay]="true"
-    textContent="Importing base resources..."
+    [textContent]="globalLoader.text()"
+    [class.more-visible]="globalLoader.moreVisible()"
   >
     <app-menu>
       <div class="container">

@@ -1,58 +1,12 @@
-import { Component, computed, inject, injectAsync, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { TuiButton, TuiIcon, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
-import { TuiButtonLoading } from '@taiga-ui/kit';
+import { TuiButton, TuiTitle } from '@taiga-ui/core';
 import { TuiHeader } from '@taiga-ui/layout';
 
 @Component({
   selector: 'app-home-page',
   templateUrl: './home-page.html',
   styleUrl: './home-page.css',
-  imports: [RouterLink, TuiHeader, TuiIcon, TuiTitle, TuiButton, TuiButtonLoading],
+  imports: [RouterLink, TuiHeader, TuiTitle, TuiButton],
 })
-export class HomePage {
-  private readonly csvExporter = injectAsync(() => import('@/export/csv-exporter'));
-  private readonly notifications = inject(TuiNotificationService);
-
-  readonly isExportingWithMods = signal(false);
-  readonly isExportingWithoutMods = signal(false);
-  readonly isExporting = computed(
-    () => this.isExportingWithMods() || this.isExportingWithoutMods(),
-  );
-
-  async exportDataWithMods(): Promise<void> {
-    this.isExportingWithMods.set(true);
-    try {
-      const csvExporter = await this.csvExporter();
-      await csvExporter.downloadCsvsZip();
-    } catch (error) {
-      this.displayError(error as Error);
-    } finally {
-      this.isExportingWithMods.set(false);
-    }
-  }
-
-  async exportDataWithoutMods(): Promise<void> {
-    this.isExportingWithoutMods.set(true);
-    try {
-      const csvExporter = await this.csvExporter();
-      await csvExporter.downloadCsvsZip(true);
-    } catch (error) {
-      this.displayError(error as Error);
-    } finally {
-      this.isExportingWithoutMods.set(false);
-    }
-  }
-
-  private displayError(error: Error): void {
-    console.error('Error exporting data:', error);
-    this.notifications
-      .open(error.message, {
-        label: 'Error exporting data',
-        appearance: 'negative',
-        autoClose: 0,
-        closable: true,
-      })
-      .subscribe();
-  }
-}
+export class HomePage {}

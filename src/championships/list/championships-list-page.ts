@@ -1,88 +1,26 @@
-import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
-import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
-import { SlicePipe } from '@angular/common';
-import { Component, computed, inject, signal } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import { Championship } from '@/shared/models/championship';
+import { Component, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { TuiTable, TuiTablePagination, TuiTablePaginationEvent } from '@taiga-ui/addon-table';
-import {
-  TuiButton,
-  TuiCell,
-  TuiDialogService,
-  TuiFilterByInputPipe,
-  TuiIcon,
-  TuiInput,
-  TuiNotificationService,
-  TuiTitle,
-} from '@taiga-ui/core';
-import {
-  TUI_CONFIRM,
-  TuiAutoColorPipe,
-  TuiChevron,
-  TuiChip,
-  TuiComboBox,
-  TuiConfirmData,
-  TuiDataListWrapper,
-  TuiInputNumber,
-  TuiSwitch,
-} from '@taiga-ui/kit';
-import { TuiHeader, TuiItemGroup } from '@taiga-ui/layout';
+import { TuiButton, TuiDialogService, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
+import { TUI_CONFIRM, TuiConfirmData } from '@taiga-ui/kit';
+import { TuiHeader } from '@taiga-ui/layout';
 import { from, of, switchMap } from 'rxjs';
 import { ChampionshipsService } from '../championships-service/championships-service';
-import { ChampionshipsListFilters } from './championships-list-filters';
+import { ChampionshipsTable } from './championships-table/championships-table';
 
 @Component({
   selector: 'app-championships-list-page',
   templateUrl: './championships-list-page.html',
   styleUrl: './championships-list-page.css',
-  imports: [
-    ReactiveFormsModule,
-    RouterLink,
-    SlicePipe,
-    TuiAutoColorPipe,
-    TuiButton,
-    TuiCell,
-    TuiChevron,
-    TuiChip,
-    TuiComboBox,
-    TuiDataListWrapper,
-    TuiFilterByInputPipe,
-    TuiHeader,
-    TuiIcon,
-    TuiInput,
-    TuiInputNumber,
-    TuiItemGroup,
-    TuiSwitch,
-    TuiTable,
-    TuiTablePagination,
-    TuiTitle,
-    VehicleClassNamePipe,
-  ],
-  providers: [ChampionshipsListFilters],
+  imports: [ChampionshipsTable, RouterLink, TuiButton, TuiHeader, TuiTitle],
 })
 export class ChampionshipsListPage {
   private readonly championshipService = inject(ChampionshipsService);
-  readonly filters = inject(ChampionshipsListFilters);
   private readonly dialogs = inject(TuiDialogService);
   private readonly notifications = inject(TuiNotificationService);
-  private readonly vehicleClassUtils = inject(VehicleClassUtils);
 
-  protected readonly pageSize = signal(20);
-  protected readonly pageIndex = signal(0);
-
-  protected totalPages = computed(() =>
-    Math.ceil(this.filters.filteredChampionships().length / this.pageSize()),
-  );
-
-  protected readonly stringifyCategory = (catId: string) =>
-    this.vehicleClassUtils.getVehicleClassName(catId) ?? catId;
-
-  onPagination(event: TuiTablePaginationEvent) {
-    this.pageIndex.set(event.page);
-    this.pageSize.set(event.size);
-  }
-
-  async deleteChampionship(id: number, name: string): Promise<void> {
+  async deleteChampionship(championship: Championship): Promise<void> {
+    const { id, name } = championship;
     const hasDrivers = await this.championshipService.hasDrivers(name);
     const message = hasDrivers
       ? `The championship ${name} is linked to drivers.<br/>Are you sure you want to delete this championship and its drivers?`
@@ -104,7 +42,7 @@ export class ChampionshipsListPage {
       .pipe(
         switchMap((response) => {
           if (response) {
-            return from(this.championshipService.deleteChampionship(id)).pipe(
+            return from(this.championshipService.deleteChampionship(id!)).pipe(
               switchMap(() =>
                 this.notifications.open('Championship deleted', {
                   appearance: 'positive',

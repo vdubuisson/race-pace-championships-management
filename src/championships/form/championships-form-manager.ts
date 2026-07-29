@@ -129,16 +129,20 @@ export class ChampionshipsFormManager {
       .subscribe((value) => this.eventsFormValid.set(this.championshipEvents().length >= value));
     this.globalForm.controls.categories.valueChanges
       .pipe(takeUntilDestroyed())
-      .subscribe(async (value) => {
-        this.championshipClasses.set(value);
+      .subscribe(async (selectedCategories) => {
+        this.championshipClasses.set(selectedCategories);
 
-        if (value.length === 0) {
+        if (selectedCategories.length === 0) {
           this.liveriesForSelectedClasses.set([]);
           return;
         }
-        const selectedCategoriesIds = value.map((cat) => cat.id);
+        const selectedCategoriesIds = selectedCategories.map((cat) => cat.id);
         const liveries = await this.liveryRepository.getLiveriesByClasses(selectedCategoriesIds);
         this.liveriesForSelectedClasses.set(liveries);
+
+        this.championshipCars.update((cars) =>
+          cars.filter((car) => selectedCategoriesIds.includes(car.category)),
+        );
       });
   }
 

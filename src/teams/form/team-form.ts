@@ -84,10 +84,7 @@ export default class TeamForm {
       asyncValidators: [this.teamNameAvailableValidator],
       updateOn: 'blur',
     }),
-    principal: new FormControl<string>('', {
-      nonNullable: true,
-      validators: [Validators.required],
-    }),
+    principal: new FormControl<string>(''),
     driver_loyalty: new FormControl<number | null>(null, {
       validators: [Validators.min(0), Validators.max(1)],
     }),

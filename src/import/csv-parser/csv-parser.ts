@@ -91,7 +91,7 @@ const EXPECTED_HEADERS: Record<CsvFile, CsvHeader[]> = {
   ],
   'teams.csv': [
     { name: 'name', mandatory: true },
-    { name: 'principal', mandatory: true },
+    { name: 'principal', mandatory: false },
     { name: 'driver_loyalty', mandatory: false },
     { name: 'expectation_level', mandatory: false },
     { name: 'performance_rating', mandatory: false },
@@ -223,6 +223,7 @@ export class CsvParser {
       on_record: (record) =>
         ({
           ...record,
+          principal: this.parseString(record['principal']),
           driver_loyalty: this.parseNumber(record['driver_loyalty']),
           expectation_level: this.parseNumber(record['expectation_level']),
           performance_rating: this.parseNumber(record['performance_rating']),

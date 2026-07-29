@@ -1,7 +1,7 @@
 export type Team = {
   id?: number;
   name: string;
-  principal: string;
+  principal: string | null;
   driver_loyalty: number | null;
   expectation_level: number | null;
   performance_rating: number | null;

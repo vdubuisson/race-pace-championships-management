@@ -1,6 +1,15 @@
-import { Component, computed, inject, input, linkedSignal, output, signal } from '@angular/core';
+import {
+  Component,
+  computed,
+  effect,
+  inject,
+  input,
+  linkedSignal,
+  output,
+  signal,
+} from '@angular/core';
 import { ChampionshipsTableFilters } from './championships-table-filters';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {
   TuiTable,
   TuiTableControl,
@@ -26,7 +35,7 @@ import {
 } from '@taiga-ui/kit';
 import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
 import { SlicePipe } from '@angular/common';
-import { TuiItemGroup } from '@taiga-ui/layout';
+import { TuiForm, TuiItemGroup } from '@taiga-ui/layout';
 import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
 import { RouterLink } from '@angular/router';
 import { Championship } from '@/shared/models/championship';
@@ -38,6 +47,7 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
   styleUrl: './championships-table.css',
   imports: [
     ReactiveFormsModule,
+    FormsModule,
     RouterLink,
     SlicePipe,
     TuiAutoColorPipe,
@@ -66,6 +76,7 @@ export class ChampionshipsTable {
   private readonly vehicleClassUtils = inject(VehicleClassUtils);
 
   readonly mode = input<'list' | 'export'>('list');
+  readonly excludedTags = input<string[]>([]);
 
   readonly onDeleteChampionship = output<Championship>();
   readonly selectedIds = output<number[]>();
@@ -83,6 +94,7 @@ export class ChampionshipsTable {
   );
 
   constructor() {
+    effect(() => this.filters.excludedTags.set(this.excludedTags()));
     this.filters.form.controls.selected.valueChanges
       .pipe(takeUntilDestroyed())
       .subscribe((selected) => this.selectedIds.emit(selected));

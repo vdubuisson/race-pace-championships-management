@@ -5,6 +5,7 @@ import { LiveryRepository } from '@/db/livery-repository';
 import { TeamRepository } from '@/db/team-repository';
 import { TrackRepository } from '@/db/track-repository';
 import { VehicleClassRepository } from '@/db/vehicle-class-repository';
+import { CAR_MODS_TAG, DRAFT_TAG, TRACK_MODS_TAG } from '@/shared/constants/tags';
 import { Car } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
 import { RaceEvent } from '@/shared/models/race-event';
@@ -114,6 +115,7 @@ export class ChampionshipsFormManager {
   readonly allFormsValid = computed(
     () => this.globalFormValid() && this.eventsFormValid() && this.carsFormValid(),
   );
+  readonly canSaveAsDraft = signal(this.globalForm.controls.name.valid);
 
   readonly championshipName = computed(() => this.globalForm.controls.name.value || 'championship');
 
@@ -144,6 +146,9 @@ export class ChampionshipsFormManager {
           cars.filter((car) => selectedCategoriesIds.includes(car.category)),
         );
       });
+    this.globalForm.controls.name.statusChanges
+      .pipe(takeUntilDestroyed())
+      .subscribe((status) => this.canSaveAsDraft.set(status === 'VALID'));
   }
 
   loadChampionshipInForm(championship?: Championship): void {
@@ -197,11 +202,11 @@ export class ChampionshipsFormManager {
       .then((cars) => this.championshipCars.set(cars));
   }
 
-  async save(): Promise<number> {
+  async save(asDraft = false): Promise<number> {
     this.isSaving.set(true);
 
     try {
-      const championship = this.buildChampionship();
+      const championship = this.buildChampionship(asDraft);
       const events = this.championshipEvents().map((event) => ({
         ...event,
         id: (event.id ?? -1) >= 0 ? event.id : undefined,
@@ -308,7 +313,7 @@ export class ChampionshipsFormManager {
     this.championshipCars.set([]);
   }
 
-  private buildChampionship(): Championship {
+  private buildChampionship(asDraft = false): Championship {
     const rawValue = this.globalForm.getRawValue();
 
     const categoriesIds = rawValue.categories
@@ -333,14 +338,19 @@ export class ChampionshipsFormManager {
       rawValue.tags.map((value) => value.trim()).filter((value) => value.length > 0),
     );
     if (hasTrackMods) {
-      tags.add('Track mods');
+      tags.add(TRACK_MODS_TAG);
     } else {
-      tags.delete('Track mods');
+      tags.delete(TRACK_MODS_TAG);
     }
     if (hasCarMods) {
-      tags.add('Car mods');
+      tags.add(CAR_MODS_TAG);
     } else {
-      tags.delete('Car mods');
+      tags.delete(CAR_MODS_TAG);
+    }
+    if (asDraft) {
+      tags.add(DRAFT_TAG);
+    } else {
+      tags.delete(DRAFT_TAG);
     }
 
     return {

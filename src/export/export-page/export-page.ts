@@ -7,6 +7,7 @@ import { TuiButton, TuiCell, TuiInput, TuiNotificationService, TuiTitle } from '
 import { TuiSwitch } from '@taiga-ui/kit';
 import { TuiForm, TuiHeader } from '@taiga-ui/layout';
 import CsvExporter from '../csv-exporter';
+import { DRAFT_TAG } from '@/shared/constants/tags';
 
 @Component({
   selector: 'app-export-page',
@@ -42,6 +43,8 @@ export class ExportPage {
     withDrivers: new FormControl(true, { nonNullable: true }),
     withTrackMods: new FormControl(false, { nonNullable: true }),
   });
+
+  protected readonly excludedTags = [DRAFT_TAG];
 
   protected selectChampionships(ids: number[]) {
     this.form.controls.championshipIds.setValue(ids);

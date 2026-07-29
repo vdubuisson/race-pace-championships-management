@@ -1,6 +1,6 @@
 import { ChampionshipRepository } from '@/db/championship-repository';
 import { Championship } from '@/shared/models/championship';
-import { computed, inject, linkedSignal, Service } from '@angular/core';
+import { computed, inject, linkedSignal, Service, signal } from '@angular/core';
 import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
 import { FormControl, FormGroup } from '@angular/forms';
 
@@ -8,9 +8,11 @@ import { FormControl, FormGroup } from '@angular/forms';
 export class ChampionshipsTableFilters {
   private readonly championshipRepository = inject(ChampionshipRepository);
 
-  protected readonly championships = toSignal(this.championshipRepository.getAllChampionships(), {
+  private readonly championships = toSignal(this.championshipRepository.getAllChampionships(), {
     initialValue: [],
   });
+
+  readonly excludedTags = signal<string[]>([]);
 
   readonly categoriesOptions = computed(() => {
     const categoriesSet = new Set<string>();
@@ -25,6 +27,7 @@ export class ChampionshipsTableFilters {
     this.championships()
       .flatMap((championship) => championship.tags)
       .filter((tag) => tag?.length)
+      .filter((tag) => !this.excludedTags().includes(tag))
       .forEach((tag) => tagsSet.add(tag));
     return Array.from(tagsSet).toSorted();
   });
@@ -59,13 +62,20 @@ export class ChampionshipsTableFilters {
     selected: new FormControl<number[]>([], { nonNullable: true }),
   });
 
-  readonly filteredChampionships = linkedSignal(() => this.applyFilters(this.championships()));
+  readonly filteredChampionships = linkedSignal(() =>
+    this.applyExclusionsAndFilters(this.championships()),
+  );
 
   constructor() {
     this.form.valueChanges.pipe(takeUntilDestroyed()).subscribe(() => {
-      const filtered = this.applyFilters(this.championships());
+      const filtered = this.applyExclusionsAndFilters(this.championships());
       this.filteredChampionships.set(filtered);
     });
+  }
+
+  private applyExclusionsAndFilters(championships: Championship[]): Championship[] {
+    let filteredChampionships = this.applyTagsExclusion(championships);
+    return this.applyFilters(filteredChampionships);
   }
 
   private applyFilters(championships: Championship[]): Championship[] {
@@ -110,5 +120,11 @@ export class ChampionshipsTableFilters {
       filtered = filtered.filter((championship) => championship.default_included);
     }
     return filtered;
+  }
+
+  private applyTagsExclusion(championships: Championship[]) {
+    return championships.filter(
+      (championship) => !championship.tags.some((tag) => this.excludedTags().includes(tag)),
+    );
   }
 }

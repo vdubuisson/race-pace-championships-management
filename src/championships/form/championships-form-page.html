@@ -66,6 +66,16 @@
       Previous
     </button>
 
+    <button
+      tuiButton
+      type="button"
+      appearance="outline"
+      (click)="save(true)"
+      [disabled]="isSaving() || !canSaveAsDraft()"
+    >
+      {{ isSaving() ? 'Saving...' : 'Save as draft' }}
+    </button>
+
     @if (activeStepIndex() < stepsCount - 1) {
       <button
         tuiButton

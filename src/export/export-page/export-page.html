@@ -61,6 +61,10 @@
     <header tuiHeader="h5" class="section-header">
       <h2 tuiTitle>Championships</h2>
     </header>
-    <app-championships-table mode="export" (selectedIds)="selectChampionships($event)" />
+    <app-championships-table
+      mode="export"
+      [excludedTags]="excludedTags"
+      (selectedIds)="selectChampionships($event)"
+    />
   </section>
 </form>

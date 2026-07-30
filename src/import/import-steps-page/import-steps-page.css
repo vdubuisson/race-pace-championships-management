@@ -25,3 +25,12 @@
   justify-content: space-between;
   gap: 0.75rem;
 }
+
+.hidden {
+  display: none;
+}
+
+.step-info {
+  display: block;
+  padding-bottom: 1rem;
+}

@@ -1,5 +1,4 @@
-.driver-list {
-  margin-top: 1rem;
+.driver-table {
   width: 100%;
 }
 
@@ -9,8 +8,4 @@
   input {
     font-style: italic;
   }
-}
-
-.page-header {
-  margin-bottom: 1rem;
 }

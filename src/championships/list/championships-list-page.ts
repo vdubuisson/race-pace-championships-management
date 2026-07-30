@@ -1,12 +1,13 @@
 import { Championship } from '@/shared/models/championship';
 import { Component, inject } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
 import { RouterLink } from '@angular/router';
 import { TuiButton, TuiDialogService, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
 import { TUI_CONFIRM, TuiConfirmData } from '@taiga-ui/kit';
 import { TuiHeader } from '@taiga-ui/layout';
 import { from, of, switchMap } from 'rxjs';
 import { ChampionshipsService } from '../championships-service/championships-service';
-import { ChampionshipsTable } from './championships-table/championships-table';
+import { ChampionshipsTable } from '../championships-table/championships-table';
 
 @Component({
   selector: 'app-championships-list-page',
@@ -18,6 +19,10 @@ export class ChampionshipsListPage {
   private readonly championshipService = inject(ChampionshipsService);
   private readonly dialogs = inject(TuiDialogService);
   private readonly notifications = inject(TuiNotificationService);
+
+  protected readonly championships = toSignal(this.championshipService.getAllChampionships(), {
+    initialValue: [],
+  });
 
   async deleteChampionship(championship: Championship): Promise<void> {
     const { id, name } = championship;

@@ -63,7 +63,7 @@
     </header>
     <app-championships-table
       mode="export"
-      [excludedTags]="excludedTags"
+      [championships]="championships()"
       (selectedIds)="selectChampionships($event)"
     />
   </section>

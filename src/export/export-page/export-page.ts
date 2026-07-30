@@ -1,4 +1,4 @@
-import { ChampionshipsTable } from '@/championships/list/championships-table/championships-table';
+import { ChampionshipsTable } from '@/championships/championships-table/championships-table';
 import { GlobalLoader } from '@/shared/services/global-loader/global-loader';
 import { Component, inject } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
@@ -8,6 +8,8 @@ import { TuiSwitch } from '@taiga-ui/kit';
 import { TuiForm, TuiHeader } from '@taiga-ui/layout';
 import CsvExporter from '../csv-exporter';
 import { DRAFT_TAG } from '@/shared/constants/tags';
+import { ChampionshipsService } from '@/championships/championships-service/championships-service';
+import { toSignal } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-export-page',
@@ -30,6 +32,12 @@ export class ExportPage {
   private readonly csvExporter = inject(CsvExporter);
   private readonly notifications = inject(TuiNotificationService);
   private readonly globalLoader = inject(GlobalLoader);
+  private readonly championshipService = inject(ChampionshipsService);
+
+  protected readonly championships = toSignal(
+    this.championshipService.getExportableChampionships(),
+    { initialValue: [] },
+  );
 
   protected readonly form = new FormGroup({
     championshipIds: new FormControl<number[]>([], {

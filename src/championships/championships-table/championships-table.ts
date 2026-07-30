@@ -1,3 +1,7 @@
+import { Championship } from '@/shared/models/championship';
+import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
+import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
+import { SlicePipe } from '@angular/common';
 import {
   Component,
   computed,
@@ -8,8 +12,9 @@ import {
   output,
   signal,
 } from '@angular/core';
-import { ChampionshipsTableFilters } from './championships-table-filters';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RouterLink } from '@angular/router';
 import {
   TuiTable,
   TuiTableControl,
@@ -33,13 +38,8 @@ import {
   TuiInputNumber,
   TuiSwitch,
 } from '@taiga-ui/kit';
-import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
-import { SlicePipe } from '@angular/common';
-import { TuiForm, TuiItemGroup } from '@taiga-ui/layout';
-import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
-import { RouterLink } from '@angular/router';
-import { Championship } from '@/shared/models/championship';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { TuiItemGroup } from '@taiga-ui/layout';
+import { ChampionshipsTableFilters } from './championships-table-filters';
 
 @Component({
   selector: 'app-championships-table',
@@ -75,14 +75,16 @@ export class ChampionshipsTable {
   protected readonly filters = inject(ChampionshipsTableFilters);
   private readonly vehicleClassUtils = inject(VehicleClassUtils);
 
-  readonly mode = input<'list' | 'export'>('list');
-  readonly excludedTags = input<string[]>([]);
+  readonly mode = input<'list' | 'export' | 'import'>('list');
+  readonly championships = input.required<Championship[]>();
 
   readonly onDeleteChampionship = output<Championship>();
   readonly selectedIds = output<number[]>();
 
   protected readonly pageSize = linkedSignal(() =>
-    this.mode() === 'export' ? this.filters.filteredChampionships().length : 20,
+    this.mode() === 'export' || this.mode() === 'import'
+      ? this.filters.filteredChampionships().length
+      : 20,
   );
   protected readonly pageIndex = signal(0);
 
@@ -94,8 +96,8 @@ export class ChampionshipsTable {
   );
 
   constructor() {
-    effect(() => this.filters.excludedTags.set(this.excludedTags()));
-    this.filters.form.controls.selected.valueChanges
+    effect(() => this.filters.championships.set(this.championships()));
+    this.filters.form.controls.selectedIds.valueChanges
       .pipe(takeUntilDestroyed())
       .subscribe((selected) => this.selectedIds.emit(selected));
   }

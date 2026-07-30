@@ -1,0 +1,101 @@
+<form [formGroup]="filters.form">
+  <table tuiTable [formControl]="filters.form.controls.selectedIds" class="team-list">
+    <thead>
+      <tr>
+        <th tuiTh [style.width.%]="1">
+          <div tuiCell>
+            <input tuiCheckbox tuiCheckboxTable type="checkbox" />
+          </div>
+        </th>
+        <th tuiTh [sorter]="'name' | tuiSorter">Name</th>
+        <th tuiTh [sorter]="'driver_loyalty' | tuiSorter">Driver loyalty</th>
+        <th tuiTh [sorter]="'expectation_level' | tuiSorter">Expectation level</th>
+        <th tuiTh [sorter]="'performance_rating' | tuiSorter">Performance rating</th>
+        <th tuiTh [sorter]="'engineering_weight' | tuiSorter">Engineering weight</th>
+        <th tuiTh [sorter]="'engineering_drag' | tuiSorter">Engineering drag</th>
+        <th tuiTh [sorter]="'engineering_power' | tuiSorter">Engineering power</th>
+      </tr>
+      <tr class="filters-row">
+        <th tuiTh></th>
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input [formControl]="filters.form.controls.name" tuiInput placeholder="Filter" />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input
+              tuiInputNumber
+              [formControl]="filters.form.controls.driver_loyalty"
+              placeholder="Filter"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input
+              tuiInputNumber
+              [formControl]="filters.form.controls.expectation_level"
+              placeholder="Filter"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input
+              tuiInputNumber
+              [formControl]="filters.form.controls.performance_rating"
+              placeholder="Filter"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input
+              tuiInputNumber
+              [formControl]="filters.form.controls.engineering_weight"
+              placeholder="Filter"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input
+              tuiInputNumber
+              [formControl]="filters.form.controls.engineering_drag"
+              placeholder="Filter"
+            />
+          </tui-textfield>
+        </th>
+        <th tuiTh>
+          <tui-textfield [tuiTextfieldCleaner]="true">
+            <input
+              tuiInputNumber
+              [formControl]="filters.form.controls.engineering_power"
+              placeholder="Filter"
+            />
+          </tui-textfield>
+        </th>
+      </tr>
+    </thead>
+    <tbody tuiTbody>
+      @let tableData = filters.filteredTeams() | tuiTableSort;
+      @for (team of tableData; track team.name) {
+        <tr tuiTr>
+          <td tuiTd>
+            <div tuiCell>
+              <input tuiCheckbox [tuiCheckboxRow]="team.id" type="checkbox" />
+            </div>
+          </td>
+          <td tuiTd>{{ team.name }}</td>
+          <td tuiTd>{{ team.driver_loyalty }}</td>
+          <td tuiTd>{{ team.expectation_level }}</td>
+          <td tuiTd>{{ team.performance_rating }}</td>
+          <td tuiTd>{{ team.engineering_weight }}</td>
+          <td tuiTd>{{ team.engineering_drag }}</td>
+          <td tuiTd>{{ team.engineering_power }}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</form>

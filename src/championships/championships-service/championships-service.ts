@@ -3,10 +3,12 @@ import { CarRepository } from '@/db/car-repository';
 import { ChampionshipRepository } from '@/db/championship-repository';
 import { DriverRepository } from '@/db/driver-repository';
 import { EventRepository } from '@/db/event-repository';
+import { DRAFT_TAG } from '@/shared/constants/tags';
 import { Car } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
 import { RaceEvent } from '@/shared/models/race-event';
 import { inject, Service } from '@angular/core';
+import { map, Observable } from 'rxjs';
 
 type SaveChampionshipPayload = {
   championship: Championship;
@@ -23,6 +25,20 @@ export class ChampionshipsService {
   private readonly eventRepository = inject(EventRepository);
   private readonly carRepository = inject(CarRepository);
   private readonly driverRepository = inject(DriverRepository);
+
+  getAllChampionships(): Observable<Championship[]> {
+    return this.championshipRepository.getAllChampionships();
+  }
+
+  getExportableChampionships(): Observable<Championship[]> {
+    return this.championshipRepository
+      .getAllChampionships()
+      .pipe(
+        map((championships) =>
+          championships.filter((championship) => !championship.tags.includes(DRAFT_TAG)),
+        ),
+      );
+  }
 
   async saveChampionshipWithRelations({
     championship,

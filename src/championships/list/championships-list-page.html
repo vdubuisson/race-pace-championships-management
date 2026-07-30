@@ -18,4 +18,8 @@
   </aside>
 </header>
 
-<app-championships-table (onDeleteChampionship)="deleteChampionship($event)" />
+<app-championships-table
+  mode="list"
+  [championships]="championships()"
+  (onDeleteChampionship)="deleteChampionship($event)"
+/>

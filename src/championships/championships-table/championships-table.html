@@ -1,9 +1,9 @@
 @let form = filters.form;
 <form [formGroup]="form">
-  <table tuiTable [formControl]="form.controls.selected">
+  <table tuiTable [formControl]="form.controls.selectedIds">
     <thead>
       <tr>
-        @if (mode() === 'export') {
+        @if (mode() === 'export' || mode() === 'import') {
           <th tuiTh [style.width.%]="1">
             <div tuiCell>
               <input tuiCheckbox tuiCheckboxTable type="checkbox" />
@@ -23,7 +23,7 @@
         }
       </tr>
       <tr class="filters-row">
-        @if (mode() === 'export') {
+        @if (mode() === 'export' || mode() === 'import') {
           <th tuiTh></th>
         }
         <th tuiTh>
@@ -94,7 +94,7 @@
         filters.filteredChampionships() | tuiTableSort | slice: sliceStart : sliceEnd;
       @for (championship of tableData; track championship.name) {
         <tr tuiTr>
-          @if (mode() === 'export') {
+          @if (mode() === 'export' || mode() === 'import') {
             <td tuiTd>
               <div tuiCell>
                 <input tuiCheckbox [tuiCheckboxRow]="championship.id" type="checkbox" />

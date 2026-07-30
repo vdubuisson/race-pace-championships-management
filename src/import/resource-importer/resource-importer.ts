@@ -12,6 +12,7 @@ import { HttpClient } from '@angular/common/http';
 import { inject, Service } from '@angular/core';
 import { forkJoin, map, Observable, switchMap } from 'rxjs';
 import { DbLoader } from '../db-loader/db-loader';
+import { ImportStore } from '../import-store/import-store';
 
 export const BASE_RESOURCE_PATH = 'base';
 const ORIGINAL_RESOURCE_PATH = 'original';
@@ -23,6 +24,7 @@ export default class ResourceImporter {
   private readonly http = inject(HttpClient);
   private readonly csvParser = inject(CsvParser);
   private readonly dbLoader = inject(DbLoader);
+  private readonly importStore = inject(ImportStore);
 
   importOriginalChampionships(): Observable<void> {
     return this.importChampionshipsResources(ORIGINAL_RESOURCE_PATH);
@@ -62,8 +64,8 @@ export default class ResourceImporter {
       events: this.loadEvents(path),
       teams: this.loadTeams(path),
     }).pipe(
-      switchMap(({ championships, cars, drivers, events, teams }) => {
-        return this.dbLoader.loadChampionshipsIntoDb({
+      map(({ championships, cars, drivers, events, teams }) => {
+        return this.importStore.storeChampionships({
           cars,
           championships,
           drivers,

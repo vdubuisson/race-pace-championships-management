@@ -1,14 +1,11 @@
-import { DriverRepository } from '@/db/driver-repository';
 import { Driver } from '@/shared/models/driver';
-import { computed, inject, linkedSignal, Service } from '@angular/core';
-import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
+import { computed, linkedSignal, Service, signal } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { FormControl, FormGroup } from '@angular/forms';
 
 @Service({ autoProvided: false })
-export class DriversListFilters {
-  private readonly driverRepository = inject(DriverRepository);
-
-  private readonly drivers = toSignal(this.driverRepository.getAllDrivers(), { initialValue: [] });
+export class DriversTableFilters {
+  readonly drivers = signal<Driver[]>([]);
 
   readonly championshipOptions = computed(() => {
     const championshipsSet = new Set<string>();
@@ -55,6 +52,7 @@ export class DriversListFilters {
     teamName: new FormControl(''),
     endYear: new FormControl<number | null>(null),
     elo: new FormControl<number | null>(null),
+    selectedIds: new FormControl<number[]>([], { nonNullable: true }),
   });
 
   readonly filteredDrivers = linkedSignal(() => this.applyFilters(this.drivers()));

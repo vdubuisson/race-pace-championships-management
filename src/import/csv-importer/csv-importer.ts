@@ -2,7 +2,7 @@ import { inject, Service } from '@angular/core';
 import JSZip from '@progress/jszip-esm';
 import { from, map, Observable, of, switchMap, tap } from 'rxjs';
 import { CsvParser } from '../csv-parser/csv-parser';
-import { DbLoader } from '../db-loader/db-loader';
+import { ImportStore } from '../import-store/import-store';
 
 type FileList = {
   carsFile?: Blob;
@@ -18,7 +18,7 @@ const EMPTY_DRIVERS_FILE =
 @Service()
 export class CsvImporter {
   private readonly csvParser = inject(CsvParser);
-  private readonly dbLoader = inject(DbLoader);
+  private readonly importStore = inject(ImportStore);
 
   importCustomChampionships(files: File[]): Observable<void> {
     return of(files).pipe(
@@ -50,10 +50,8 @@ export class CsvImporter {
 
         return { cars, championships, drivers, events, teams };
       }),
-      switchMap(({ cars, championships, drivers, events, teams }) =>
-        from(
-          this.dbLoader.loadChampionshipsIntoDb({ cars, championships, drivers, events, teams }),
-        ),
+      map(({ cars, championships, drivers, events, teams }) =>
+        this.importStore.storeChampionships({ cars, championships, drivers, events, teams }),
       ),
     );
   }

@@ -1,5 +1,10 @@
-.driver-list {
-  margin-top: 1rem;
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+table {
   width: 100%;
 }
 
@@ -9,8 +14,4 @@
   input {
     font-style: italic;
   }
-}
-
-.page-header {
-  margin-bottom: 1rem;
 }

@@ -1,18 +1,11 @@
-import { ChampionshipRepository } from '@/db/championship-repository';
 import { Championship } from '@/shared/models/championship';
-import { computed, inject, linkedSignal, Service, signal } from '@angular/core';
-import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
+import { computed, linkedSignal, Service, signal } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { FormControl, FormGroup } from '@angular/forms';
 
 @Service({ autoProvided: false })
 export class ChampionshipsTableFilters {
-  private readonly championshipRepository = inject(ChampionshipRepository);
-
-  private readonly championships = toSignal(this.championshipRepository.getAllChampionships(), {
-    initialValue: [],
-  });
-
-  readonly excludedTags = signal<string[]>([]);
+  readonly championships = signal<Championship[]>([]);
 
   readonly categoriesOptions = computed(() => {
     const categoriesSet = new Set<string>();
@@ -27,7 +20,6 @@ export class ChampionshipsTableFilters {
     this.championships()
       .flatMap((championship) => championship.tags)
       .filter((tag) => tag?.length)
-      .filter((tag) => !this.excludedTags().includes(tag))
       .forEach((tag) => tagsSet.add(tag));
     return Array.from(tagsSet).toSorted();
   });
@@ -59,23 +51,16 @@ export class ChampionshipsTableFilters {
     eventsCount: new FormControl<number | null>(null),
     tag: new FormControl(''),
     defaultIncluded: new FormControl(false, { nonNullable: true }),
-    selected: new FormControl<number[]>([], { nonNullable: true }),
+    selectedIds: new FormControl<number[]>([], { nonNullable: true }),
   });
 
-  readonly filteredChampionships = linkedSignal(() =>
-    this.applyExclusionsAndFilters(this.championships()),
-  );
+  readonly filteredChampionships = linkedSignal(() => this.applyFilters(this.championships()));
 
   constructor() {
     this.form.valueChanges.pipe(takeUntilDestroyed()).subscribe(() => {
-      const filtered = this.applyExclusionsAndFilters(this.championships());
+      const filtered = this.applyFilters(this.championships());
       this.filteredChampionships.set(filtered);
     });
-  }
-
-  private applyExclusionsAndFilters(championships: Championship[]): Championship[] {
-    let filteredChampionships = this.applyTagsExclusion(championships);
-    return this.applyFilters(filteredChampionships);
   }
 
   private applyFilters(championships: Championship[]): Championship[] {
@@ -120,11 +105,5 @@ export class ChampionshipsTableFilters {
       filtered = filtered.filter((championship) => championship.default_included);
     }
     return filtered;
-  }
-
-  private applyTagsExclusion(championships: Championship[]) {
-    return championships.filter(
-      (championship) => !championship.tags.some((tag) => this.excludedTags().includes(tag)),
-    );
   }
 }

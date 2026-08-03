@@ -1,0 +1,1 @@
+import"./chunk-DPFzOaph.js";import"./chunk-DSNgISAp.js";import{i as xe,n as me}from"./chunk-DYrtyDuS2.js";export{me as BASE_RESOURCE_PATH,xe as default};

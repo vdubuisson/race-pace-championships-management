@@ -1,0 +1,79 @@
+<a
+  [routerLink]="['/import']"
+  appearance="outline"
+  iconStart="@tui.chevron-left"
+  size="xs"
+  tuiButton
+  class="back-btn"
+>
+  Back
+</a>
+
+<header tuiHeader="h3">
+  <h1 tuiTitle>Choose what to import</h1>
+</header>
+
+<main class="wizard-layout">
+  <tui-stepper [(activeItemIndex)]="activeStepIndex" class="wizard-stepper">
+    @for (step of steps; track step.id) {
+      @if (step.separator) {
+        <div class="step-separator"></div>
+      } @else {
+        <button tuiStep [icon]="step.icon!" [appearance]="'none'">
+          {{ step.label }}
+        </button>
+      }
+    }
+  </tui-stepper>
+
+  <section class="step-content">
+    <div [class.hidden]="activeStepIndex() !== 0">
+      <em class="step-info">Choose the championships you want to import.</em>
+      <app-championships-table
+        mode="import"
+        [championships]="importStore.championships()"
+        (selectedIds)="selectChampionshipIds($event)"
+      />
+    </div>
+
+    <div [class.hidden]="activeStepIndex() !== 1">
+      <em class="step-info"
+        >The teams used in the selected championships are already included. Choose the additional
+        teams you want to import.</em
+      >
+      <app-teams-table
+        [teams]="importStore.additionalTeams()"
+        (selectedIds)="selectTeamIds($event)"
+      />
+    </div>
+
+    <div [class.hidden]="activeStepIndex() !== 2">
+      <em class="step-info">Choose the drivers you want to import.</em>
+      <app-drivers-table
+        mode="import"
+        [drivers]="importStore.drivers()"
+        (selectedIds)="selectDriverIds($event)"
+      />
+    </div>
+  </section>
+
+  <footer class="wizard-actions">
+    <button
+      tuiButton
+      type="button"
+      appearance="secondary"
+      (click)="goToPreviousStep()"
+      [disabled]="activeStepIndex() === 0"
+    >
+      Previous
+    </button>
+
+    @if (activeStepIndex() < stepsCount - 1) {
+      <button tuiButton type="button" appearance="primary" (click)="goToNextStep()">Next</button>
+    } @else {
+      <button tuiButton type="button" appearance="primary" (click)="showConfirmAndImport()">
+        Import
+      </button>
+    }
+  </footer>
+</main>

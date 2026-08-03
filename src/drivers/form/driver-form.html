@@ -1,0 +1,296 @@
+<a
+  [routerLink]="['/drivers']"
+  appearance="outline"
+  iconStart="@tui.chevron-left"
+  size="xs"
+  tuiButton
+  class="back-btn"
+>
+  Back
+</a>
+
+@let form = formManager.form;
+<form tuiForm [formGroup]="form" (submit)="save()">
+  <header tuiHeader>
+    <h1 tuiTitle="l">{{ pageTitle() }}</h1>
+  </header>
+
+  <header tuiHeader>
+    <h2 tuiTitle>Identity</h2>
+  </header>
+
+  <fieldset>
+    <div class="form-field">
+      <label tuiLabel>
+        Name
+        <tui-textfield>
+          <input tuiInput placeholder="John" [formControl]="form.controls.name" />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form.controls.name" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        Surname
+        <tui-textfield>
+          <input tuiInput placeholder="Smith" [formControl]="form.controls.surname" />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form.controls.surname" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        Date of birth
+        <tui-textfield>
+          <input tuiInputDate placeholder="1990-01-01" [formControl]="form.controls.dob" />
+          <tui-calendar *tuiDropdown />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form.controls.dob" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        Country
+        <tui-textfield tuiChevron [stringify]="stringifyCountry">
+          <input tuiComboBox placeholder="France" [formControl]="form.controls.country" />
+          <tui-data-list *tuiDropdown>
+            @let countryItems = COUNTRIES | tuiFilterByInput: filterCountryByInput;
+
+            <cdk-virtual-scroll-viewport
+              tuiScrollRef
+              class="tui-zero-scrollbar"
+              [itemSize]="countryItemHeight"
+              [style.height.px]="
+                (countryItems.length < countryItemCount ? countryItems.length : countryItemCount) *
+                countryItemHeight
+              "
+            >
+              <tui-scroll-controls />
+              <button
+                tuiOption
+                type="button"
+                *cdkVirtualFor="let country of countryItems; trackBy: (_, item) => item.iso2"
+                [value]="country.iso3"
+                class="country-option"
+              >
+                {{ country.name }}
+              </button>
+            </cdk-virtual-scroll-viewport>
+          </tui-data-list>
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form.controls.country" />
+    </div>
+
+    <app-percent-input
+      title="Team loyalty"
+      [control]="form.controls.team_loyalty"
+      [tooltip]="teamLoyaltyTooltip"
+      size="l"
+    />
+  </fieldset>
+
+  <section class="elo-section">
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Initial ELO
+          <tui-icon [tuiTooltip]="eloTooltip" />
+        </span>
+        <tui-textfield>
+          <input tuiInputNumber placeholder="1000" [formControl]="form.controls.elo" />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form.controls.elo" />
+    </div>
+
+    <div class="level-gen">
+      <span>Generate random ELO</span>
+      <div class="levels">
+        @for (eloLevel of formManager.eloOptions; track eloLevel) {
+          <button
+            tuiButton
+            type="button"
+            size="xs"
+            appearance="outline"
+            class="level-{{ $index }}"
+            (click)="formManager.setRandomElo(eloLevel)"
+          >
+            {{ eloLevel }}
+          </button>
+        }
+      </div>
+    </div>
+  </section>
+
+  <div class="separator"></div>
+
+  <header tuiHeader>
+    <h2 tuiTitle>Contract</h2>
+  </header>
+
+  <fieldset>
+    <div class="form-field">
+      <label tuiLabel>
+        Championship
+        <tui-textfield tuiChevron [tuiTextfieldCleaner]="false">
+          <input tuiComboBox [formControl]="form.controls.championship_name" />
+          <tui-data-list-wrapper
+            *tuiDropdown
+            [items]="formManager.championshipOptions() | tuiFilterByInput"
+          />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form.controls.championship_name" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        Category
+        <tui-textfield tuiChevron [tuiTextfieldCleaner]="false" [stringify]="stringifyCategory">
+          <input tuiComboBox [formControl]="form.controls.category" />
+          <tui-data-list *tuiDropdown>
+            @for (cat of formManager.categoryOptions() | tuiFilterByInput; track cat) {
+              <button tuiOption type="button" [value]="cat">
+                <span>
+                  {{ cat | vehicleClassName }}
+                  @if (cat | vehicleClassMod) {
+                    <tui-icon icon="@tui.astroid" class="option-icon" />
+                  }
+                </span>
+              </button>
+            }
+          </tui-data-list>
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form.controls.category" />
+    </div>
+  </fieldset>
+  <fieldset>
+    <div class="form-field">
+      <label tuiLabel>
+        Team
+        <tui-textfield tuiChevron [tuiTextfieldCleaner]="false">
+          <input tuiComboBox [formControl]="form.controls.team_name" />
+          <tui-data-list-wrapper
+            *tuiDropdown
+            [items]="formManager.teamOptions.value() | tuiFilterByInput"
+          />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form.controls.team_name" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Contract end year
+          <tui-icon [tuiTooltip]="endYearTooltip" />
+        </span>
+        <tui-textfield>
+          <input tuiInputYear placeholder="End year" [formControl]="form.controls.end_year" />
+          <tui-calendar-year *tuiDropdown />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form.controls.end_year" />
+    </div>
+
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Expected standing
+          <tui-icon [tuiTooltip]="expectedStandingTooltip" />
+        </span>
+        <tui-textfield>
+          <input
+            tuiInputNumber
+            placeholder="1st"
+            [formControl]="form.controls.expected_standing"
+            [postfix]="form.controls.expected_standing.value | ordinal: true"
+            [step]="1"
+            [min]="1"
+          />
+        </tui-textfield>
+      </label>
+      <tui-error [formControl]="form.controls.expected_standing" />
+    </div>
+  </fieldset>
+
+  <div class="separator"></div>
+
+  <header tuiHeader>
+    <h2 tuiTitle class="skills-title">
+      Skills
+      <tui-icon [tuiTooltip]="skillsTooltip" />
+    </h2>
+  </header>
+
+  <section class="level-gen">
+    <span>Generate random skills</span>
+    <div class="levels">
+      @for (skillLevel of formManager.skillOptions; track skillLevel) {
+        <button
+          tuiButton
+          type="button"
+          size="s"
+          appearance="outline"
+          class="level-{{ $index }}"
+          (click)="formManager.setRandomSkills(skillLevel)"
+        >
+          {{ skillLevel }}
+        </button>
+      }
+    </div>
+  </section>
+
+  <fieldset>
+    <app-percent-input title="Race skill" [control]="form.controls.race_skill" />
+
+    <app-percent-input title="Qualifying skill" [control]="form.controls.qualifying_skill" />
+
+    <app-percent-input title="Aggression" [control]="form.controls.aggression" />
+
+    <app-percent-input title="Defending" [control]="form.controls.defending" />
+
+    <app-percent-input title="Stamina" [control]="form.controls.stamina" />
+
+    <app-percent-input title="Consistency" [control]="form.controls.consistency" />
+
+    <app-percent-input title="Start reactions" [control]="form.controls.start_reactions" />
+
+    <app-percent-input title="Wet skill" [control]="form.controls.wet_skill" />
+
+    <app-percent-input title="Tyre management" [control]="form.controls.tyre_management" />
+
+    <app-percent-input title="Fuel management" [control]="form.controls.fuel_management" />
+
+    <app-percent-input title="Blue flag conceding" [control]="form.controls.blue_flag_conceding" />
+
+    <app-percent-input
+      title="Weather tyre changes"
+      [control]="form.controls.weather_tyre_changes"
+    />
+
+    <app-percent-input
+      title="Avoidance of mistakes"
+      [control]="form.controls.avoidance_of_mistakes"
+    />
+
+    <app-percent-input
+      title="Avoidance of forced mistakes"
+      [control]="form.controls.avoidance_of_forced_mistakes"
+    />
+
+    <app-percent-input title="Setup downforce" [control]="form.controls.setup_downforce" />
+
+    <app-percent-input
+      title="Setup downforce randomness"
+      [control]="form.controls.setup_downforce_randomness"
+    />
+  </fieldset>
+
+  <button tuiButton type="submit" size="m" [disabled]="form.invalid">Save</button>
+</form>

@@ -1,0 +1,40 @@
+<aside [tuiNavigationAside]="expanded()" class="menubar">
+  <header>
+    <a
+      iconStart="@tui.home"
+      type="button"
+      [routerLink]="['/']"
+      [routerLinkActiveOptions]="{ exact: true }"
+      tuiAsideItem
+      >Home</a
+    >
+  </header>
+  <a iconStart="@tui.import" type="button" [routerLink]="['/import']" tuiAsideItem>Import</a>
+  <hr />
+  <a iconStart="@tui.trophy" type="button" [routerLink]="['/championships']" tuiAsideItem
+    >Championships</a
+  >
+  <a iconStart="@tui.briefcase-business" type="button" [routerLink]="['/teams']" tuiAsideItem
+    >Teams</a
+  >
+  <a iconStart="@tui.id-card-lanyard" type="button" [routerLink]="['/drivers']" tuiAsideItem
+    >Drivers</a
+  >
+  <hr />
+  <a iconStart="@tui.download" type="button" [routerLink]="['/export']" tuiAsideItem>Export</a>
+
+  <footer>
+    <button
+      tuiAsideItem
+      type="button"
+      [iconStart]="expanded() ? '@tui.chevron-left' : '@tui.chevron-right'"
+      (click)="toggle()"
+    >
+      {{ expanded() ? 'Collapse' : 'Expand' }}
+    </button>
+  </footer>
+</aside>
+
+<main tuiNavigationMain>
+  <ng-content />
+</main>

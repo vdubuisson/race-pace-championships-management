@@ -24,6 +24,10 @@ export class ChampionshipRepository {
     return this.store.where('name').anyOfIgnoreCase(names).toArray();
   }
 
+  getAllChampionshipsByIds(ids: number[]): Promise<Championship[]> {
+    return this.store.where('id').anyOf(ids).toArray();
+  }
+
   addChampionship(championship: Championship): Promise<number> {
     return this.store.add(championship);
   }

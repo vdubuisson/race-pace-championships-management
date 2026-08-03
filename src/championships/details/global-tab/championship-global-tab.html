@@ -70,10 +70,10 @@
       </header>
       <section>
         <ul tuiList>
-          @for (cat of championship().classes; track cat.id) {
+          @for (cat of championship().categories; track cat) {
             <li>
-              {{ cat.name }}
-              @if (cat.is_mod) {
+              {{ cat | vehicleClassName }}
+              @if (cat | vehicleClassMod) {
                 <tui-icon
                   icon="@tui.astroid"
                   tuiHint="Car mod"

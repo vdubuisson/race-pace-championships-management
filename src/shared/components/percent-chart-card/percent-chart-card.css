@@ -1,0 +1,19 @@
+.chart-card {
+  header {
+    [tuiTitle] {
+      text-align: center;
+    }
+
+    [tuiAccessories] {
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}

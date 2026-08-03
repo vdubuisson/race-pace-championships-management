@@ -1,6 +1,8 @@
-import { ChampionshipWithClasses } from '@/shared/models/championship';
+import { Championship } from '@/shared/models/championship';
 import { MonthPipe } from '@/shared/pipes/month/month-pipe';
 import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
+import { VehicleClassModPipe } from '@/shared/pipes/vehicle-class-mod/vehicle-class-mod-pipe';
+import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
 import { I18nPluralPipe, TitleCasePipe } from '@angular/common';
 import { Component, input } from '@angular/core';
 import { TuiCell, TuiHint, TuiIcon, TuiTitle } from '@taiga-ui/core';
@@ -26,8 +28,10 @@ import { TuiCardLarge, TuiHeader, TuiItemGroup, TuiList } from '@taiga-ui/layout
     TuiItemGroup,
     TuiList,
     TuiTitle,
+    VehicleClassModPipe,
+    VehicleClassNamePipe,
   ],
 })
 export default class ChampionshipGlobalTab {
-  readonly championship = input.required<ChampionshipWithClasses>();
+  readonly championship = input.required<Championship>();
 }

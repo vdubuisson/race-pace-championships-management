@@ -1,23 +1,17 @@
-import { ChampionshipWithClasses } from '@/shared/models/championship';
-import { computed, inject, linkedSignal, Service } from '@angular/core';
-import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
+import { Championship } from '@/shared/models/championship';
+import { computed, linkedSignal, Service, signal } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { FormControl, FormGroup } from '@angular/forms';
-import { ChampionshipsService } from '../championships-service/championships-service';
 
 @Service({ autoProvided: false })
-export class ChampionshipsListFilters {
-  private readonly championshipService = inject(ChampionshipsService);
-
-  protected readonly championships = toSignal(this.championshipService.getChampionships(), {
-    initialValue: [],
-  });
+export class ChampionshipsTableFilters {
+  readonly championships = signal<Championship[]>([]);
 
   readonly categoriesOptions = computed(() => {
     const categoriesSet = new Set<string>();
     this.championships()
-      .flatMap((championship) => championship.classes)
-      .filter((cat) => cat.name?.length)
-      .forEach((cat) => categoriesSet.add(cat.name!));
+      .flatMap((championship) => championship.categories)
+      .forEach((cat) => categoriesSet.add(cat));
     return Array.from(categoriesSet).toSorted();
   });
 
@@ -50,13 +44,14 @@ export class ChampionshipsListFilters {
 
   readonly form = new FormGroup({
     name: new FormControl(''),
-    categoryName: new FormControl(''),
+    category: new FormControl(''),
     startYear: new FormControl<number | null>(null),
     endYear: new FormControl<number | null>(null),
     prestige: new FormControl<number | null>(null),
     eventsCount: new FormControl<number | null>(null),
     tag: new FormControl(''),
     defaultIncluded: new FormControl(false, { nonNullable: true }),
+    selectedIds: new FormControl<number[]>([], { nonNullable: true }),
   });
 
   readonly filteredChampionships = linkedSignal(() => this.applyFilters(this.championships()));
@@ -68,10 +63,10 @@ export class ChampionshipsListFilters {
     });
   }
 
-  private applyFilters(championships: ChampionshipWithClasses[]): ChampionshipWithClasses[] {
+  private applyFilters(championships: Championship[]): Championship[] {
     let filtered = [...championships];
     const nameFilter = this.form.controls.name.value || '';
-    const categoryNameFilter = this.form.controls.categoryName.value || '';
+    const categoryFilter = this.form.controls.category.value || '';
     const tagFilter = this.form.controls.tag.value || '';
     const startYearFilter = this.form.controls.startYear.value;
     const endYearFilter = this.form.controls.endYear.value;
@@ -84,9 +79,9 @@ export class ChampionshipsListFilters {
         championship.name.toLowerCase().includes(nameFilter.toLowerCase()),
       );
     }
-    if (categoryNameFilter?.length > 0) {
+    if (categoryFilter?.length > 0) {
       filtered = filtered.filter((championship) =>
-        championship.classes.some((cat) => cat.name === categoryNameFilter),
+        championship.categories.includes(categoryFilter),
       );
     }
     if (startYearFilter !== null) {

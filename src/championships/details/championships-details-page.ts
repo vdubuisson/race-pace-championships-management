@@ -27,9 +27,14 @@ export default class ChampionshipsDetailsPage {
     { label: 'Cars', url: 'cars', icon: '@tui.car' },
   ];
 
-  deleteChampionship() {
+  async deleteChampionship(): Promise<void> {
+    const hasDrivers = await this.championshipService.hasDrivers(this.championship().name);
+    const message = hasDrivers
+      ? `The championship ${this.championship().name} is linked to drivers.<br/>Are you sure you want to delete this championship and its drivers?`
+      : `Are you sure you want to delete the championship ${this.championship().name}?`;
+
     const data: TuiConfirmData = {
-      content: 'Are you sure you want to delete the championship ' + this.championship().name + '?',
+      content: message,
       yes: 'Yes',
       no: 'No',
       appearance: 'primary-destructive',

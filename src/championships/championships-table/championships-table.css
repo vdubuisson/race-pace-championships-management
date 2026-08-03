@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+}
+
+.included-icon {
+  color: var(--tui-status-negative);
+
+  &.included {
+    color: var(--tui-status-positive);
+  }
+}
+
+.filters-row th {
+  padding: 0;
+
+  input {
+    font-style: italic;
+  }
+
+  .switch-cell {
+    border-radius: 0;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

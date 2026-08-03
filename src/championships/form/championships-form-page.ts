@@ -50,6 +50,7 @@ export default class ChampionshipsFormPage {
   protected readonly liveriesForSelectedClasses = this.formService.liveriesForSelectedClasses;
   protected readonly minTracksGarages = this.formService.minTracksGarages;
   protected readonly allFormsValid = this.formService.allFormsValid;
+  protected readonly canSaveAsDraft = this.formService.canSaveAsDraft;
 
   protected readonly isEditMode = computed(() => this.championship() !== undefined);
   protected readonly pageTitle = computed(() =>
@@ -118,8 +119,8 @@ export default class ChampionshipsFormPage {
     this.activeStepIndex.update((value) => Math.min(value + 1, this.stepsCount - 1));
   }
 
-  protected async save(): Promise<void> {
-    if (!this.allFormsValid()) {
+  protected async save(asDraft = false): Promise<void> {
+    if ((asDraft && !this.canSaveAsDraft()) || (!asDraft && !this.allFormsValid())) {
       this.notifications.open('Invalid form', {
         appearance: 'negative',
         autoClose: 3000,
@@ -129,7 +130,7 @@ export default class ChampionshipsFormPage {
     }
 
     try {
-      const championshipId = await this.formService.save();
+      const championshipId = await this.formService.save(asDraft);
 
       this.canDeactivate.set(true);
 

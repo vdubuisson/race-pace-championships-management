@@ -1,5 +1,6 @@
 import { Car } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
+import { Driver } from '@/shared/models/driver';
 import { Livery } from '@/shared/models/livery';
 import { RaceEvent } from '@/shared/models/race-event';
 import { Team } from '@/shared/models/team';
@@ -14,6 +15,7 @@ export class AppDatabase extends Dexie {
   cars!: Table<Car, number>;
   championships!: Table<Championship, number>;
   classes!: Table<VehicleClass, string>;
+  drivers!: Table<Driver, number>;
   events!: Table<RaceEvent, number>;
   liveries!: Table<Livery, number>;
   models!: Table<VehicleModel, number>;
@@ -35,6 +37,10 @@ export class AppDatabase extends Dexie {
     Dexie.delete('RacePaceChampionshipsManagementDB');
     this.version(2).stores({
       liveries: '++id, class, livery_name',
+    });
+    this.version(3).stores({
+      cars: '++id, team_name, [championship_name+category]',
+      drivers: '++id, championship_name, team_name',
     });
   }
 }

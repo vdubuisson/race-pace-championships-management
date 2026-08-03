@@ -1,0 +1,70 @@
+<a
+  [routerLink]="['/']"
+  appearance="outline"
+  iconStart="@tui.chevron-left"
+  size="xs"
+  tuiButton
+  class="back-btn"
+>
+  Back
+</a>
+
+<form tuiForm [formGroup]="form" (submit)="export()">
+  <header tuiHeader="h3">
+    <h1 tuiTitle>Export championships</h1>
+    <aside tuiAccessories>
+      <button
+        tuiButton
+        appearance="primary"
+        type="submit"
+        iconStart="@tui.download"
+        [disabled]="form.invalid"
+      >
+        Export
+      </button>
+    </aside>
+  </header>
+
+  <section>
+    <header tuiHeader="h5" class="section-header">
+      <h2 tuiTitle>Configuration</h2>
+    </header>
+    <fieldset>
+      <div class="form-field">
+        <label tuiLabel>
+          File name
+          <tui-textfield>
+            <input tuiInput [formControl]="form.controls.filename" />
+          </tui-textfield>
+        </label>
+      </div>
+
+      <fieldset class="vertical">
+        <div class="form-field">
+          <label tuiCell>
+            <span tuiTitle>With drivers</span>
+            <input tuiSwitch [formControl]="form.controls.withDrivers" type="checkbox" />
+          </label>
+        </div>
+
+        <div class="form-field">
+          <label tuiCell>
+            <span tuiTitle>With track mods</span>
+            <input tuiSwitch [formControl]="form.controls.withTrackMods" type="checkbox" />
+          </label>
+        </div>
+      </fieldset>
+    </fieldset>
+  </section>
+
+  <section>
+    <header tuiHeader="h5" class="section-header">
+      <h2 tuiTitle>Championships</h2>
+    </header>
+    <app-championships-table
+      mode="export"
+      [championships]="championships()"
+      (selectedIds)="selectChampionships($event)"
+    />
+  </section>
+</form>

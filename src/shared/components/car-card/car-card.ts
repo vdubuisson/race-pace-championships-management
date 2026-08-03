@@ -1,4 +1,5 @@
 import { Car } from '@/shared/models/car';
+import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
 import { Component, computed, input, output } from '@angular/core';
 import { TuiButton, TuiGroup, TuiHint, TuiIcon, TuiTitle } from '@taiga-ui/core';
 import { TuiAutoColorPipe, TuiChip } from '@taiga-ui/kit';
@@ -20,6 +21,7 @@ type CardMode = 'team' | 'championship' | 'category';
     TuiHint,
     TuiIcon,
     TuiTitle,
+    VehicleClassNamePipe,
   ],
 })
 export class CarCard {

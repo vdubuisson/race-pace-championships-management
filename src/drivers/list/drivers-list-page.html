@@ -1,0 +1,21 @@
+<a
+  [routerLink]="['/']"
+  appearance="outline"
+  iconStart="@tui.chevron-left"
+  size="xs"
+  tuiButton
+  class="back-btn"
+>
+  Back
+</a>
+
+<header tuiHeader="h3" class="page-header">
+  <h1 tuiTitle>Drivers</h1>
+  <aside tuiAccessories>
+    <a tuiButton appearance="primary" [routerLink]="['/drivers/form']" iconStart="@tui.plus"
+      >New Driver</a
+    >
+  </aside>
+</header>
+
+<app-drivers-table mode="list" [drivers]="drivers()" (onDeleteDriver)="deleteDriver($event)" />

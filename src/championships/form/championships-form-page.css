@@ -1,7 +1,3 @@
-:host {
-  /* --tui-text-action: var(--tui-text-secondary); */
-}
-
 .wizard-layout {
   display: flex;
   flex-direction: column;

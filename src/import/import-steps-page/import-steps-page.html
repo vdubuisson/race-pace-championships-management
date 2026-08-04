@@ -21,40 +21,35 @@
       } @else {
         <button tuiStep [icon]="step.icon!" [appearance]="'none'">
           {{ step.label }}
+          <tui-icon [tuiTooltip]="step.tooltip" />
         </button>
       }
     }
   </tui-stepper>
 
   <section class="step-content">
-    <div [class.hidden]="activeStepIndex() !== 0">
-      <em class="step-info">Choose the championships you want to import.</em>
-      <app-championships-table
-        mode="import"
-        [championships]="importStore.championships()"
-        (selectedIds)="selectChampionshipIds($event)"
-      />
-    </div>
+    <app-championships-table
+      [class.hidden]="activeStepIndex() !== 0"
+      mode="import"
+      [championships]="importStore.championships()"
+      [conflictingChampionships]="importStore.conflictingChampionships.value()"
+      (selectedIds)="selectChampionshipIds($event)"
+    />
 
-    <div [class.hidden]="activeStepIndex() !== 1">
-      <em class="step-info"
-        >The teams used in the selected championships are already included. Choose the additional
-        teams you want to import.</em
-      >
-      <app-teams-table
-        [teams]="importStore.additionalTeams()"
-        (selectedIds)="selectTeamIds($event)"
-      />
-    </div>
+    <app-teams-table
+      [class.hidden]="activeStepIndex() !== 1"
+      [teams]="importStore.teams()"
+      [conflictingTeams]="importStore.conflictingTeams.value()"
+      [preSelectedTeamNames]="importStore.preSelectedTeamNames()"
+      (selectedIds)="selectTeamIds($event)"
+    />
 
-    <div [class.hidden]="activeStepIndex() !== 2">
-      <em class="step-info">Choose the drivers you want to import.</em>
-      <app-drivers-table
-        mode="import"
-        [drivers]="importStore.drivers()"
-        (selectedIds)="selectDriverIds($event)"
-      />
-    </div>
+    <app-drivers-table
+      [class.hidden]="activeStepIndex() !== 2"
+      mode="import"
+      [drivers]="importStore.drivers()"
+      (selectedIds)="selectDriverIds($event)"
+    />
   </section>
 
   <footer class="wizard-actions">

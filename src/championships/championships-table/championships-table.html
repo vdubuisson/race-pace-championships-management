@@ -1,14 +1,22 @@
 @let form = filters.form;
 <form [formGroup]="form">
-  <table tuiTable [formControl]="form.controls.selectedIds">
-    <thead>
+  <table tuiTable size="m">
+    <thead tuiThead>
       <tr>
         @if (mode() === 'export' || mode() === 'import') {
           <th tuiTh [style.width.%]="1">
-            <div tuiCell>
-              <input tuiCheckbox tuiCheckboxTable type="checkbox" />
+            <div tuiCell (click)="selectAll()" class="checkbox-cell">
+              <input
+                tuiCheckbox
+                type="checkbox"
+                [checked]="isAllSelected()"
+                [indeterminate]="isAtLeastOneSelected() && !isAllSelected()"
+              />
             </div>
           </th>
+        }
+        @if (mode() === 'import') {
+          <th tuiTh [style.width.%]="1"></th>
         }
         <th tuiTh [sorter]="'name' | tuiSorter" [style.width.%]="26">Name</th>
         <th tuiTh [style.width.%]="15">Categories</th>
@@ -24,6 +32,9 @@
       </tr>
       <tr class="filters-row">
         @if (mode() === 'export' || mode() === 'import') {
+          <th tuiTh></th>
+        }
+        @if (mode() === 'import') {
           <th tuiTh></th>
         }
         <th tuiTh>
@@ -87,89 +98,32 @@
         }
       </tr>
     </thead>
-    <tbody tuiTbody>
-      @let sliceStart = pageIndex() * pageSize();
-      @let sliceEnd = (pageIndex() + 1) * pageSize();
-      @let tableData =
-        filters.filteredChampionships() | tuiTableSort | slice: sliceStart : sliceEnd;
-      @for (championship of tableData; track championship.name) {
-        <tr tuiTr>
-          @if (mode() === 'export' || mode() === 'import') {
-            <td tuiTd>
-              <div tuiCell>
-                <input tuiCheckbox [tuiCheckboxRow]="championship.id" type="checkbox" />
-              </div>
-            </td>
-          }
-          <td tuiTd>{{ championship.name }}</td>
-          <td tuiTd>
-            <div tuiItemGroup>
-              @for (cat of championship.categories; track cat) {
-                <span appearance="custom" tuiChip [style.background-color]="cat | tuiAutoColor">
-                  {{ cat | vehicleClassName }}
-                </span>
-              }
-            </div>
-          </td>
-          <td tuiTd>{{ championship.start_year }}</td>
-          <td tuiTd>{{ championship.end_year }}</td>
-          <td tuiTd>{{ championship.prestige }}</td>
-          <td tuiTd>{{ championship.events_count }}</td>
-          <td tuiTd>
-            <div tuiItemGroup>
-              @for (tag of championship.tags; track tag) {
-                <span appearance="custom" tuiChip [style.background-color]="tag | tuiAutoColor">
-                  {{ tag }}
-                </span>
-              }
-            </div>
-          </td>
-          <td tuiTd>
-            <tui-icon
-              [icon]="championship.default_included ? '@tui.check' : '@tui.x'"
-              [class.included]="championship.default_included"
-              class="included-icon"
-            ></tui-icon>
-          </td>
-          @if (mode() === 'list') {
-            <td tuiTd>
-              <a
-                [routerLink]="['details', championship.id]"
-                appearance="action"
-                iconStart="@tui.eye"
-                size="xs"
-                tuiIconButton
-              >
-                View
-              </a>
-              <a
-                [routerLink]="['form', championship.id]"
-                appearance="action"
-                iconStart="@tui.pencil"
-                size="xs"
-                tuiIconButton
-              >
-                Edit
-              </a>
-              <button
-                (click)="deleteChampionship(championship)"
-                appearance="action-destructive"
-                iconStart="@tui.trash"
-                size="xs"
-                tuiIconButton
-                type="button"
-              >
-                Delete
-              </button>
-            </td>
-          }
-        </tr>
+    @let sliceStart = pageIndex() * pageSize();
+    @let sliceEnd = (pageIndex() + 1) * pageSize();
+    @let tableData = filters.filteredChampionships() | tuiTableSort | slice: sliceStart : sliceEnd;
+    @for (championship of tableData; track championship.name) {
+      @let conflictingChampionship = championship.conflict;
+      <tbody tuiTbody>
+        <ng-container
+          [ngTemplateOutlet]="championshipRow"
+          ngTemplateOutletInjector="outlet"
+          [ngTemplateOutletContext]="{ championship, isConflict: false }"
+        />
+      </tbody>
+      @if (mode() === 'import' && conflictingChampionship) {
+        <tbody tuiTableExpand [expanded]="expandedState()[championship.id!] ?? false">
+          <ng-container
+            [ngTemplateOutlet]="championshipRow"
+            ngTemplateOutletInjector="outlet"
+            [ngTemplateOutletContext]="{ championship: conflictingChampionship, isConflict: true }"
+          />
+        </tbody>
       }
-    </tbody>
+    }
     @if (totalPages() > 1) {
       <tfoot>
         <tr>
-          <td [colSpan]="9">
+          <td [colSpan]="mode() === 'import' ? 10 : 9">
             <tui-table-pagination
               [page]="pageIndex()"
               [size]="pageSize()"
@@ -182,3 +136,97 @@
     }
   </table>
 </form>
+
+<ng-template #championshipRow let-championship="championship" let-isConflict="isConflict">
+  @let conflictingChampionship = championship.conflict;
+  <tr tuiTr [class.conflict-row]="isConflict" [class.has-conflict]="!!conflictingChampionship">
+    @if (mode() === 'export' || mode() === 'import') {
+      <td tuiTd>
+        @if (!isConflict) {
+          <div tuiCell (click)="selectRow(championship.id!)" class="checkbox-cell">
+            <input tuiCheckbox type="checkbox" [checked]="isCheckedById()[championship.id]" />
+          </div>
+        }
+      </td>
+    }
+    @if (mode() === 'import') {
+      <td tuiTd>
+        @if (conflictingChampionship) {
+          <button
+            appearance="flat-grayscale"
+            size="xs"
+            tuiIconButton
+            type="button"
+            [style.border-radius.%]="100"
+            [tuiChevron]="expandedState()[championship.id!] ?? false"
+            (click)="toggleRow(championship.id!)"
+          >
+            Toggle
+          </button>
+        }
+      </td>
+    }
+    <td tuiTd>{{ championship.name }}</td>
+    <td tuiTd>
+      <div tuiItemGroup>
+        @for (cat of championship.categories; track cat) {
+          <span appearance="custom" tuiChip [style.background-color]="cat | tuiAutoColor">
+            {{ cat | vehicleClassName }}
+          </span>
+        }
+      </div>
+    </td>
+    <td tuiTd>{{ championship.start_year }}</td>
+    <td tuiTd>{{ championship.end_year }}</td>
+    <td tuiTd>{{ championship.prestige }}</td>
+    <td tuiTd>{{ championship.events_count }}</td>
+    <td tuiTd>
+      <div tuiItemGroup>
+        @for (tag of championship.tags; track tag) {
+          <span appearance="custom" tuiChip [style.background-color]="tag | tuiAutoColor">
+            {{ tag }}
+          </span>
+        }
+      </div>
+    </td>
+    <td tuiTd>
+      <tui-icon
+        [icon]="championship.default_included ? '@tui.check' : '@tui.x'"
+        [class.included]="championship.default_included"
+        class="included-icon"
+      ></tui-icon>
+    </td>
+    @if (mode() === 'list') {
+      <td tuiTd>
+        <a
+          [routerLink]="['details', championship.id]"
+          appearance="action"
+          iconStart="@tui.eye"
+          size="xs"
+          tuiIconButton
+        >
+          View
+        </a>
+        <a
+          [routerLink]="['form', championship.id]"
+          appearance="action"
+          iconStart="@tui.pencil"
+          size="xs"
+          tuiIconButton
+        >
+          Edit
+        </a>
+        <button
+          (click)="deleteChampionship(championship)"
+          appearance="action-destructive"
+          iconStart="@tui.trash"
+          size="xs"
+          tuiIconButton
+          type="button"
+        >
+          Delete
+        </button>
+      </td>
+    }
+  </tr>
+</ng-template>

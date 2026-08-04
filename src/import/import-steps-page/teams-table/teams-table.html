@@ -1,12 +1,18 @@
 <form [formGroup]="filters.form">
-  <table tuiTable [formControl]="filters.form.controls.selectedIds" class="team-list">
-    <thead>
+  <table tuiTable class="team-list">
+    <thead tuiThead>
       <tr>
         <th tuiTh [style.width.%]="1">
-          <div tuiCell>
-            <input tuiCheckbox tuiCheckboxTable type="checkbox" />
+          <div tuiCell (click)="selectAll()" class="checkbox-cell">
+            <input
+              tuiCheckbox
+              type="checkbox"
+              [checked]="isAllSelected()"
+              [indeterminate]="isAtLeastOneSelected() && !isAllSelected()"
+            />
           </div>
         </th>
+        <th tuiTh [style.width.%]="1"></th>
         <th tuiTh [sorter]="'name' | tuiSorter">Name</th>
         <th tuiTh [sorter]="'driver_loyalty' | tuiSorter">Driver loyalty</th>
         <th tuiTh [sorter]="'expectation_level' | tuiSorter">Expectation level</th>
@@ -16,6 +22,7 @@
         <th tuiTh [sorter]="'engineering_power' | tuiSorter">Engineering power</th>
       </tr>
       <tr class="filters-row">
+        <th tuiTh></th>
         <th tuiTh></th>
         <th tuiTh>
           <tui-textfield [tuiTextfieldCleaner]="true">
@@ -78,24 +85,74 @@
         </th>
       </tr>
     </thead>
-    <tbody tuiTbody>
-      @let tableData = filters.filteredTeams() | tuiTableSort;
-      @for (team of tableData; track team.name) {
-        <tr tuiTr>
-          <td tuiTd>
-            <div tuiCell>
-              <input tuiCheckbox [tuiCheckboxRow]="team.id" type="checkbox" />
-            </div>
-          </td>
-          <td tuiTd>{{ team.name }}</td>
-          <td tuiTd>{{ team.driver_loyalty }}</td>
-          <td tuiTd>{{ team.expectation_level }}</td>
-          <td tuiTd>{{ team.performance_rating }}</td>
-          <td tuiTd>{{ team.engineering_weight }}</td>
-          <td tuiTd>{{ team.engineering_drag }}</td>
-          <td tuiTd>{{ team.engineering_power }}</td>
-        </tr>
+    @let sliceStart = pageIndex() * pageSize();
+    @let sliceEnd = (pageIndex() + 1) * pageSize();
+    @let tableData = filters.filteredTeams() | tuiTableSort | slice: sliceStart : sliceEnd;
+    @for (team of tableData; track team.name) {
+      <tbody tuiTbody>
+        <ng-container
+          [ngTemplateOutlet]="teamRow"
+          ngTemplateOutletInjector="outlet"
+          [ngTemplateOutletContext]="{ team, isConflict: false }"
+        />
+      </tbody>
+      @if (team.conflict) {
+        <tbody tuiTableExpand [expanded]="expandedState()[team.id!] ?? false">
+          <ng-container
+            [ngTemplateOutlet]="teamRow"
+            ngTemplateOutletInjector="outlet"
+            [ngTemplateOutletContext]="{ team: team.conflict, isConflict: true }"
+          />
+        </tbody>
       }
-    </tbody>
+    }
+    @if (totalPages() > 1) {
+      <tfoot>
+        <tr>
+          <td [colSpan]="10">
+            <tui-table-pagination
+              [page]="pageIndex()"
+              [size]="pageSize()"
+              [total]="filters.filteredTeams().length"
+              (paginationChange)="onPagination($event)"
+            />
+          </td>
+        </tr>
+      </tfoot>
+    }
   </table>
 </form>
+
+<ng-template #teamRow let-team="team" let-isConflict="isConflict">
+  <tr tuiTr [class.conflict-row]="isConflict" [class.has-conflict]="!!team.conflict">
+    <td tuiTd>
+      @if (!isConflict) {
+        <div tuiCell (click)="selectRow(team.id!)" class="checkbox-cell">
+          <input tuiCheckbox type="checkbox" [checked]="isCheckedById()[team.id]" />
+        </div>
+      }
+    </td>
+    <td tuiTd>
+      @if (team.conflict) {
+        <button
+          appearance="flat-grayscale"
+          size="xs"
+          tuiIconButton
+          type="button"
+          [style.border-radius.%]="100"
+          [tuiChevron]="expandedState()[team.id!] ?? false"
+          (click)="toggleRow(team.id!)"
+        >
+          Toggle
+        </button>
+      }
+    </td>
+    <td tuiTd>{{ team.name }}</td>
+    <td tuiTd>{{ team.driver_loyalty }}</td>
+    <td tuiTd>{{ team.expectation_level }}</td>
+    <td tuiTd>{{ team.performance_rating }}</td>
+    <td tuiTd>{{ team.engineering_weight }}</td>
+    <td tuiTd>{{ team.engineering_drag }}</td>
+    <td tuiTd>{{ team.engineering_power }}</td>
+  </tr>
+</ng-template>

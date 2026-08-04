@@ -2,28 +2,13 @@ import { Driver } from '@/shared/models/driver';
 import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
 import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
 import { DecimalPipe, SlicePipe } from '@angular/common';
-import {
-  Component,
-  computed,
-  effect,
-  inject,
-  input,
-  linkedSignal,
-  output,
-  signal,
-} from '@angular/core';
+import { Component, computed, effect, inject, input, output, signal } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
-import {
-  TuiTable,
-  TuiTableControl,
-  TuiTablePagination,
-  TuiTablePaginationEvent,
-} from '@taiga-ui/addon-table';
+import { TuiTable, TuiTablePagination, TuiTablePaginationEvent } from '@taiga-ui/addon-table';
 import { TuiButton, TuiCell, TuiCheckbox, TuiFilterByInputPipe, TuiInput } from '@taiga-ui/core';
 import { TuiChevron, TuiComboBox, TuiDataListWrapper, TuiInputNumber } from '@taiga-ui/kit';
 import { DriversTableFilters } from './drivers-table-filters';
-import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-drivers-table',
@@ -44,7 +29,6 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
     TuiInput,
     TuiInputNumber,
     TuiTable,
-    TuiTableControl,
     TuiTablePagination,
     VehicleClassNamePipe,
   ],
@@ -60,9 +44,26 @@ export class DriversTable {
   readonly selectedIds = output<number[]>();
   readonly onDeleteDriver = output<Driver>();
 
-  protected readonly pageSize = linkedSignal(() =>
-    this.mode() === 'import' ? this.filters.filteredDrivers().length : 20,
+  protected readonly isAllSelected = computed(
+    () => this.checkedIds().length === this.filters.filteredDrivers().length,
   );
+
+  protected readonly isAtLeastOneSelected = computed(() => this.checkedIds().length > 0);
+
+  protected readonly checkedIds = signal<number[]>([]);
+
+  protected readonly isCheckedById = computed<Record<number, boolean>>(() => {
+    const checkedIdsSet = new Set(this.checkedIds());
+    return this.filters.filteredDrivers().reduce(
+      (acc, driver) => {
+        acc[driver.id!] = checkedIdsSet.has(driver.id!);
+        return acc;
+      },
+      {} as Record<number, boolean>,
+    );
+  });
+
+  protected readonly pageSize = signal(20);
   protected readonly pageIndex = signal(0);
 
   protected totalPages = computed(() =>
@@ -74,17 +75,36 @@ export class DriversTable {
 
   constructor() {
     effect(() => this.filters.drivers.set(this.drivers()));
-    this.filters.form.controls.selectedIds.valueChanges
-      .pipe(takeUntilDestroyed())
-      .subscribe((selected) => this.selectedIds.emit(selected));
+    effect(() => {
+      const filteredIds = this.filters.filteredDrivers().map((d) => d.id!);
+      this.checkedIds.update((ids) => ids.filter((id) => filteredIds.includes(id)));
+    });
+    effect(() => this.selectedIds.emit(this.checkedIds()));
   }
 
-  onPagination(event: TuiTablePaginationEvent) {
+  protected onPagination(event: TuiTablePaginationEvent) {
     this.pageIndex.set(event.page);
     this.pageSize.set(event.size);
   }
 
-  deleteDriver(driver: Driver): void {
+  protected selectAll(): void {
+    if (this.isAllSelected()) {
+      this.checkedIds.set([]);
+    } else {
+      this.checkedIds.set(this.filters.filteredDrivers().map((d) => d.id!));
+    }
+  }
+
+  protected selectRow(driverId: number): void {
+    const isChecked = this.isCheckedById()[driverId];
+    if (isChecked) {
+      this.checkedIds.update((ids) => ids.filter((id) => id !== driverId));
+    } else {
+      this.checkedIds.update((ids) => [...ids, driverId]);
+    }
+  }
+
+  protected deleteDriver(driver: Driver): void {
     this.onDeleteDriver.emit(driver);
   }
 }

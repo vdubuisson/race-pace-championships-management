@@ -3,9 +3,11 @@ import { linkedSignal, Service, signal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { FormControl, FormGroup } from '@angular/forms';
 
+export type TeamWithConflict = Team & { conflict?: Team };
+
 @Service({ autoProvided: false })
 export class TeamsTableFilters {
-  readonly teams = signal<Team[]>([]);
+  readonly teams = signal<TeamWithConflict[]>([]);
 
   readonly form = new FormGroup({
     name: new FormControl(''),
@@ -15,10 +17,9 @@ export class TeamsTableFilters {
     engineering_weight: new FormControl<number | null>(null),
     engineering_drag: new FormControl<number | null>(null),
     engineering_power: new FormControl<number | null>(null),
-    selectedIds: new FormControl<number[]>([], { nonNullable: true }),
   });
 
-  readonly filteredTeams = linkedSignal(() => this.applyFilters(this.teams()));
+  readonly filteredTeams = linkedSignal<TeamWithConflict[]>(() => this.applyFilters(this.teams()));
 
   constructor() {
     this.form.valueChanges.pipe(takeUntilDestroyed()).subscribe(() => {

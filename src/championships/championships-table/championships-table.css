@@ -24,8 +24,15 @@ table {
   }
 }
 
-thead {
-  position: sticky;
-  top: 0;
-  z-index: 1;
+.has-conflict td {
+  background-color: var(--tui-status-warning-pale);
+}
+
+.conflict-row td {
+  background-color: var(--tui-status-negative-pale);
+  vertical-align: middle;
+}
+
+.checkbox-cell {
+  cursor: pointer;
 }

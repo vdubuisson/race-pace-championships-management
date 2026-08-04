@@ -9,3 +9,7 @@
     font-style: italic;
   }
 }
+
+.checkbox-cell {
+  cursor: pointer;
+}

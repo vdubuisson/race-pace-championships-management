@@ -3,9 +3,11 @@ import { computed, linkedSignal, Service, signal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { FormControl, FormGroup } from '@angular/forms';
 
+export type ChampionshipWithConflict = Championship & { conflict?: Championship };
+
 @Service({ autoProvided: false })
 export class ChampionshipsTableFilters {
-  readonly championships = signal<Championship[]>([]);
+  readonly championships = signal<ChampionshipWithConflict[]>([]);
 
   readonly categoriesOptions = computed(() => {
     const categoriesSet = new Set<string>();
@@ -51,10 +53,11 @@ export class ChampionshipsTableFilters {
     eventsCount: new FormControl<number | null>(null),
     tag: new FormControl(''),
     defaultIncluded: new FormControl(false, { nonNullable: true }),
-    selectedIds: new FormControl<number[]>([], { nonNullable: true }),
   });
 
-  readonly filteredChampionships = linkedSignal(() => this.applyFilters(this.championships()));
+  readonly filteredChampionships = linkedSignal<ChampionshipWithConflict[]>(() =>
+    this.applyFilters(this.championships()),
+  );
 
   constructor() {
     this.form.valueChanges.pipe(takeUntilDestroyed()).subscribe(() => {

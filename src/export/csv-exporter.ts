@@ -119,10 +119,18 @@ export default class CsvExporter {
       });
     }
 
-    const records = Array.from(groupedCars.values()).map((groupedCar) => ({
-      ...groupedCar,
-      championship_names: groupedCar.championship_names.join(','),
-    }));
+    const records = Array.from(groupedCars.values())
+      .map((groupedCar) => ({
+        ...groupedCar,
+        championship_names: groupedCar.championship_names.join(','),
+      }))
+      .toSorted(
+        (a, b) =>
+          a.team_name.localeCompare(b.team_name) ||
+          a.category.localeCompare(b.category) ||
+          a.model.localeCompare(b.model) ||
+          a.livery.localeCompare(b.livery),
+      );
 
     return stringify(records, {
       header: true,
@@ -140,18 +148,20 @@ export default class CsvExporter {
   }
 
   private async createChampionshipsCsv(championships: Championship[]): Promise<string> {
-    const records = championships.map((championship) => ({
-      ...championship,
-      categories: championship.categories.join(','),
-      points: championship.points.join(','),
-      pit_stop: this.toCsvBoolean(championship.pit_stop),
-      field_type: championship.field_type ?? '',
-      tags: championship.tags.join(','),
-      start_year: championship.start_year ?? '',
-      end_year: championship.end_year ?? '',
-      default_included: this.toCsvBoolean(championship.default_included),
-      parc_ferme: this.toCsvBoolean(championship.parc_ferme),
-    }));
+    const records = championships
+      .map((championship) => ({
+        ...championship,
+        categories: championship.categories.join(','),
+        points: championship.points.join(','),
+        pit_stop: this.toCsvBoolean(championship.pit_stop),
+        field_type: championship.field_type ?? '',
+        tags: championship.tags.join(','),
+        start_year: championship.start_year ?? '',
+        end_year: championship.end_year ?? '',
+        default_included: this.toCsvBoolean(championship.default_included),
+        parc_ferme: this.toCsvBoolean(championship.parc_ferme),
+      }))
+      .toSorted((a, b) => a.name.localeCompare(b.name));
 
     return stringify(records, {
       header: true,
@@ -159,12 +169,6 @@ export default class CsvExporter {
         'name',
         'categories',
         'prestige',
-        'init_month',
-        'init_day',
-        'registration_start_month',
-        'registration_start_day',
-        'registration_end_month',
-        'registration_end_day',
         'points',
         'pit_stop',
         'start_type',
@@ -172,6 +176,12 @@ export default class CsvExporter {
         'parc_ferme',
         'events_count',
         'tags',
+        'init_month',
+        'init_day',
+        'registration_start_month',
+        'registration_start_day',
+        'registration_end_month',
+        'registration_end_day',
         'start_year',
         'end_year',
         'default_included',
@@ -181,11 +191,18 @@ export default class CsvExporter {
   }
 
   private async createEventsCsv(events: RaceEvent[]): Promise<string> {
-    const records = events.map((event) => ({
-      ...event,
-      mandatory: this.toCsvBoolean(event.mandatory),
-      start_time: event.start_time ?? '',
-    }));
+    const records = events
+      .map((event) => ({
+        ...event,
+        mandatory: this.toCsvBoolean(event.mandatory),
+        start_time: event.start_time ?? '',
+      }))
+      .toSorted(
+        (a, b) =>
+          a.championship_name.localeCompare(b.championship_name) ||
+          a.month - b.month ||
+          a.week_end - b.week_end,
+      );
 
     return stringify(records, {
       header: true,
@@ -204,15 +221,17 @@ export default class CsvExporter {
   }
 
   private async createTeamsCsv(teams: Team[]): Promise<string> {
-    const records = teams.map((team) => ({
-      ...team,
-      driver_loyalty: team.driver_loyalty ?? '',
-      expectation_level: team.expectation_level ?? '',
-      performance_rating: team.performance_rating ?? '',
-      engineering_weight: team.engineering_weight ?? '',
-      engineering_drag: team.engineering_drag ?? '',
-      engineering_power: team.engineering_power ?? '',
-    }));
+    const records = teams
+      .map((team) => ({
+        ...team,
+        driver_loyalty: team.driver_loyalty ?? '',
+        expectation_level: team.expectation_level ?? '',
+        performance_rating: team.performance_rating ?? '',
+        engineering_weight: team.engineering_weight ?? '',
+        engineering_drag: team.engineering_drag ?? '',
+        engineering_power: team.engineering_power ?? '',
+      }))
+      .toSorted((a, b) => a.name.localeCompare(b.name));
 
     return stringify(records, {
       header: true,
@@ -230,7 +249,15 @@ export default class CsvExporter {
   }
 
   private async createDriversCsv(drivers: Driver[]): Promise<string> {
-    return stringify(drivers, {
+    const records = drivers.toSorted(
+      (a, b) =>
+        a.championship_name.localeCompare(b.championship_name) ||
+        a.team_name.localeCompare(b.team_name) ||
+        a.surname.localeCompare(b.surname) ||
+        a.name.localeCompare(b.name),
+    );
+
+    return stringify(records, {
       header: true,
       columns: [
         'name',
@@ -265,11 +292,13 @@ export default class CsvExporter {
   }
 
   private async createTracksCsv(tracks: Track[]): Promise<string> {
-    const records = tracks.map((track) => ({
-      ...track,
-      end_year: track.end_year ?? '',
-      is_mod: this.toCsvBoolean(track.is_mod),
-    }));
+    const records = tracks
+      .map((track) => ({
+        ...track,
+        end_year: track.end_year ?? '',
+        is_mod: this.toCsvBoolean(track.is_mod),
+      }))
+      .toSorted((a, b) => a.name.localeCompare(b.name));
 
     return stringify(records, {
       header: true,

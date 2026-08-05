@@ -30,13 +30,10 @@ type BaseDbData = {
 export class DbLoader {
   private readonly db = inject(AppDatabase);
 
-  async loadChampionshipsIntoDb({
-    cars,
-    championships,
-    drivers,
-    events,
-    teams,
-  }: ChampionshipsDbData): Promise<void> {
+  async loadChampionshipsIntoDb(
+    { cars, championships, drivers, events, teams }: ChampionshipsDbData,
+    isOverwrite: boolean,
+  ): Promise<void> {
     const tablesMap: Map<Table, unknown[]> = new Map();
     tablesMap.set(this.db.cars, cars);
     tablesMap.set(this.db.drivers, drivers);
@@ -44,7 +41,7 @@ export class DbLoader {
     tablesMap.set(this.db.events, events);
     tablesMap.set(this.db.teams, teams);
 
-    return this.loadTables(tablesMap);
+    return this.loadTables(tablesMap, isOverwrite);
   }
 
   async loadBaseIntoDb({ tracks, classes, models, liveries }: BaseDbData): Promise<void> {
@@ -54,21 +51,47 @@ export class DbLoader {
     tablesMap.set(this.db.models, models);
     tablesMap.set(this.db.liveries, liveries);
 
-    return this.loadTables(tablesMap);
+    return this.loadTables(tablesMap, true);
   }
 
-  private async loadTables(tablesData: Map<Table, unknown[]>): Promise<void> {
+  private async loadTables(tablesData: Map<Table, unknown[]>, isOverwrite: boolean): Promise<void> {
     return this.db.transaction('rw', Array.from(tablesData.keys()), async () => {
       const promises: Promise<void>[] = [];
       for (const [table, data] of tablesData) {
-        promises.push(this.loadTable(table, data));
+        promises.push(this.loadTable(table, data, isOverwrite));
       }
       await Promise.all(promises);
     });
   }
 
-  private async loadTable(table: Table, data: unknown[]): Promise<void> {
-    await table.clear();
+  private async loadTable(table: Table, data: unknown[], isOverwrite: boolean): Promise<void> {
+    if (isOverwrite) {
+      await table.clear();
+    } else {
+      await this.clearConflictingData(table, data);
+    }
     await table.bulkAdd(data);
+  }
+
+  private async clearConflictingData(table: Table, data: unknown[]): Promise<void> {
+    switch (table.name) {
+      case 'championships':
+        const championshipNames = (data as Championship[]).map((championship) => championship.name);
+        await table.where('name').anyOf(championshipNames).delete();
+        break;
+      case 'teams':
+        const teamNames = (data as Team[]).map((team) => team.name);
+        await table.where('name').anyOf(teamNames).delete();
+        break;
+      case 'cars':
+      case 'events':
+        const linkedChampionshipNames = (data as Car[] | RaceEvent[]).map(
+          (item) => item.championship_name,
+        );
+        await table.where('championship_name').anyOf(linkedChampionshipNames).delete();
+        break;
+      default:
+        break;
+    }
   }
 }

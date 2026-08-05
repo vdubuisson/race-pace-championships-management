@@ -52,7 +52,6 @@ export class DriversTableFilters {
     teamName: new FormControl(''),
     endYear: new FormControl<number | null>(null),
     elo: new FormControl<number | null>(null),
-    selectedIds: new FormControl<number[]>([], { nonNullable: true }),
   });
 
   readonly filteredDrivers = linkedSignal(() => this.applyFilters(this.drivers()));

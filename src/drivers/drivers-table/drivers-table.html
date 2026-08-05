@@ -1,11 +1,16 @@
 <form [formGroup]="filters.form">
-  <table tuiTable class="driver-table" [formControl]="filters.form.controls.selectedIds">
-    <thead>
+  <table tuiTable class="driver-table">
+    <thead tuiThead>
       <tr>
         @if (mode() === 'import') {
           <th tuiTh [style.width.%]="1">
-            <div tuiCell>
-              <input tuiCheckbox tuiCheckboxTable type="checkbox" />
+            <div tuiCell (click)="selectAll()" class="checkbox-cell">
+              <input
+                tuiCheckbox
+                type="checkbox"
+                [checked]="isAllSelected()"
+                [indeterminate]="isAtLeastOneSelected() && !isAllSelected()"
+              />
             </div>
           </th>
         }
@@ -100,8 +105,8 @@
         <tr tuiTr>
           @if (mode() === 'import') {
             <td tuiTd>
-              <div tuiCell>
-                <input tuiCheckbox [tuiCheckboxRow]="driver.id" type="checkbox" />
+              <div tuiCell (click)="selectRow(driver.id!)" class="checkbox-cell">
+                <input tuiCheckbox type="checkbox" [checked]="isCheckedById()[driver.id!]" />
               </div>
             </td>
           }

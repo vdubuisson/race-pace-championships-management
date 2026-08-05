@@ -4,8 +4,14 @@ import { GlobalLoader } from '@/shared/services/global-loader/global-loader';
 import { Component, DestroyRef, inject, signal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { Router, RouterLink } from '@angular/router';
-import { TuiButton, TuiDialogService, TuiNotificationService, TuiTitle } from '@taiga-ui/core';
-import { TUI_CONFIRM, TuiStepper } from '@taiga-ui/kit';
+import {
+  TuiButton,
+  TuiDialogService,
+  TuiIcon,
+  TuiNotificationService,
+  TuiTitle,
+} from '@taiga-ui/core';
+import { TUI_CONFIRM, TuiStepper, TuiTooltip } from '@taiga-ui/kit';
 import { TuiHeader } from '@taiga-ui/layout';
 import { catchError, from, Observable, of, switchMap, tap } from 'rxjs';
 import { ImportStore } from '../import-store/import-store';
@@ -22,8 +28,10 @@ import { TeamsTable } from './teams-table/teams-table';
     TeamsTable,
     TuiButton,
     TuiHeader,
+    TuiIcon,
     TuiStepper,
     TuiTitle,
+    TuiTooltip,
   ],
 })
 export default class ImportStepsPage {
@@ -41,6 +49,8 @@ export default class ImportStepsPage {
       id: 0,
       label: 'Championships',
       icon: '@tui.trophy',
+      tooltip:
+        'Select the championships you want to import. <br> <strong>Note:</strong> Orange lines indicate an existing championship with the same name. If selected, the imported championship will overwrite the existing one.',
     },
     {
       id: -1,
@@ -48,8 +58,10 @@ export default class ImportStepsPage {
     },
     {
       id: 1,
-      label: 'Additional teams',
+      label: 'Teams',
       icon: '@tui.briefcase-business',
+      tooltip:
+        'Select the teams you want to import.<br> Teams from the selected championships are already selected. <br> <strong>Note:</strong> Orange lines indicate an existing team with the same name. If selected, the imported team will overwrite the existing one.',
     },
     {
       id: -2,
@@ -59,6 +71,7 @@ export default class ImportStepsPage {
       id: 2,
       label: 'Drivers',
       icon: '@tui.id-card-lanyard',
+      tooltip: 'Select the drivers you want to import.',
     },
   ];
   protected readonly stepsCount = this.steps.filter((step) => !step.separator).length;
@@ -76,7 +89,7 @@ export default class ImportStepsPage {
   }
 
   protected selectTeamIds(selectedIds: number[]): void {
-    this.importStore.selectedAdditionalTeamIds.set(selectedIds);
+    this.importStore.selectedTeamIds.set(selectedIds);
   }
 
   protected selectDriverIds(selectedIds: number[]): void {
@@ -86,24 +99,19 @@ export default class ImportStepsPage {
   protected async showConfirmAndImport(): Promise<void> {
     this.dialogs
       .open<boolean>(TUI_CONFIRM, {
-        label: 'Import selected championships',
-        size: 's',
+        label: 'Import selected content',
+        size: 'm',
         data: {
           content:
-            'This will overwrite all existing championships. Are you sure you want to continue?',
-          yes: 'Yes',
-          no: 'No',
+            'Do you want to completely overwrite your existing data with the selected content, or do you want to import the selected content while keeping your existing data? <small>(in case of conflict, the selected content will overwrite the existing one)</small>',
+          yes: 'Import with overwrite',
+          no: 'Import with keeping',
           appearance: 'primary',
         },
       })
       .pipe(
-        switchMap((confirmed) => {
-          if (confirmed) {
-            this.globalLoader.showLoader('Importing selected items...');
-            return this.doImport();
-          }
-          return of(undefined);
-        }),
+        tap(() => this.globalLoader.showLoader('Importing selected items...')),
+        switchMap((isOverwrite) => this.doImport(isOverwrite)),
         takeUntilDestroyed(this.destroyRef),
       )
       .subscribe({
@@ -111,8 +119,8 @@ export default class ImportStepsPage {
       });
   }
 
-  private doImport(): Observable<void> {
-    return from(this.importStore.loadIntoDb()).pipe(
+  private doImport(isOverwrite: boolean): Observable<void> {
+    return from(this.importStore.loadIntoDb(isOverwrite)).pipe(
       tap(() => {
         this.notifications
           .open('Data imported successfully!', {

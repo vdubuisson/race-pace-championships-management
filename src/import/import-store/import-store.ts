@@ -1,14 +1,18 @@
+import { ChampionshipRepository } from '@/db/championship-repository';
+import { TeamRepository } from '@/db/team-repository';
 import { Car } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
 import { Driver } from '@/shared/models/driver';
 import { RaceEvent } from '@/shared/models/race-event';
 import { Team } from '@/shared/models/team';
-import { computed, inject, Service, signal } from '@angular/core';
+import { computed, inject, resource, Service, signal } from '@angular/core';
 import { DbLoader } from '../db-loader/db-loader';
 
 @Service()
 export class ImportStore {
   private readonly dbLoader = inject(DbLoader);
+  private readonly championshipRepository = inject(ChampionshipRepository);
+  private readonly teamRepository = inject(TeamRepository);
 
   readonly championships = signal<Championship[]>([]);
   readonly cars = signal<Car[]>([]);
@@ -17,7 +21,7 @@ export class ImportStore {
   readonly teams = signal<Team[]>([]);
 
   readonly selectedChampionshipIds = signal<number[]>([]);
-  readonly selectedAdditionalTeamIds = signal<number[]>([]);
+  readonly selectedTeamIds = signal<number[]>([]);
   readonly selectedDriverIds = signal<number[]>([]);
 
   private readonly selectedChampionships = computed(() =>
@@ -39,23 +43,33 @@ export class ImportStore {
       ),
     ),
   );
-  private readonly preSelectedTeamNames = computed(
+  readonly preSelectedTeamNames = computed(
     () => new Set(this.selectedCars().map((car) => car.team_name)),
   );
   private readonly selectedTeams = computed(() =>
-    this.teams().filter(
-      (team) =>
-        this.preSelectedTeamNames().has(team.name) ||
-        this.selectedAdditionalTeamIds().includes(team.id!),
-    ),
+    this.teams().filter((team) => this.selectedTeamIds().includes(team.id!)),
   );
   private readonly selectedDrivers = computed(() =>
     this.drivers().filter((driver) => this.selectedDriverIds().includes(driver.id!)),
   );
 
-  readonly additionalTeams = computed(() =>
-    this.teams().filter((team) => !this.preSelectedTeamNames().has(team.name)),
-  );
+  readonly conflictingChampionships = resource({
+    params: () => ({
+      names: this.championships().map((championship) => championship.name),
+    }),
+    loader: ({ params: { names } }) =>
+      names.length > 0
+        ? this.championshipRepository.getAllChampionshipsByNames(names)
+        : Promise.resolve([]),
+    defaultValue: [],
+  });
+
+  readonly conflictingTeams = resource({
+    params: () => ({ names: this.teams().map((team) => team.name) }),
+    loader: ({ params: { names } }) =>
+      names.length > 0 ? this.teamRepository.getTeamsByNames(names) : Promise.resolve([]),
+    defaultValue: [],
+  });
 
   storeChampionships({
     cars,
@@ -79,16 +93,19 @@ export class ImportStore {
     this.teams.set(teams.map((team, index) => ({ ...team, id: index })));
   }
 
-  loadIntoDb(): Promise<void> {
-    return this.dbLoader.loadChampionshipsIntoDb({
-      championships: this.selectedChampionships().map((championship) => ({
-        ...championship,
-        id: undefined,
-      })),
-      cars: this.selectedCars().map((car) => ({ ...car, id: undefined })),
-      events: this.selectedEvents().map((event) => ({ ...event, id: undefined })),
-      teams: this.selectedTeams().map((team) => ({ ...team, id: undefined })),
-      drivers: this.selectedDrivers().map((driver) => ({ ...driver, id: undefined })),
-    });
+  loadIntoDb(isOverwrite: boolean): Promise<void> {
+    return this.dbLoader.loadChampionshipsIntoDb(
+      {
+        championships: this.selectedChampionships().map((championship) => ({
+          ...championship,
+          id: undefined,
+        })),
+        cars: this.selectedCars().map((car) => ({ ...car, id: undefined })),
+        events: this.selectedEvents().map((event) => ({ ...event, id: undefined })),
+        teams: this.selectedTeams().map((team) => ({ ...team, id: undefined })),
+        drivers: this.selectedDrivers().map((driver) => ({ ...driver, id: undefined })),
+      },
+      isOverwrite,
+    );
   }
 }

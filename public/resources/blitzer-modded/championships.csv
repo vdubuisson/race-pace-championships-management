@@ -1,9 +1,12 @@
 name,categories,prestige,points,pit_stop,start_type,field_type,parc_ferme,events_count,tags,init_month,init_day,registration_start_month,registration_start_day,registration_end_month,registration_end_day,start_year,end_year,default_included
+American Le Mans Series,"LMP1_05,LMP2_05,GT1_05,GT2_05",95,"23,19,16,13,11,9,7,6,5,4",FALSE,rolling,,TRUE,8,"Multiclass,GT,Prototype,North America",1,3,1,12,1,19,2000,2013,FALSE
 ARCA Menards Series (Gen 3),Stock_USA_Gen1,60,"175,170,165,160,155,150,146,142,138,134,130,127,124,121,118,115,112,109,106,103,100,97,94,91,88,85,82,79,76,73,70,67,64,61,58,55,52,49,46,43",TRUE,rolling,identical,TRUE,12,"Stock Car,North America,NASCAR,Track mods",1,3,1,12,1,19,1981,2005,FALSE
 ARCA Menards Series (Gen 4),Stock_USA_Gen2,60,"40,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1",TRUE,rolling,identical,TRUE,12,"Stock Car,North America,NASCAR,Track mods",1,3,1,12,1,19,2006,,FALSE
 Aussie Racing Cars Super Series,ARC_Cam,50,"51,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,30",FALSE,rolling,,TRUE,6,"ARC,Australia,Track mods",1,3,1,12,1,19,2001,,FALSE
+BFGoodrich Langstreckenmeisterschaft,"GT1_05,GT2_05,GTR_04",65,"10,8,6,5,4,3,2,1",FALSE,rolling,,TRUE,9,"Multiclass,GT,Germany",1,3,1,12,1,19,2005,2009,FALSE
 Brazil Karting Club,KartGX390,10,"25,18,15,12,10,8,6,4,2,1",FALSE,standing,identical,FALSE,8,"Karting,Brazil",1,3,1,12,1,19,2016,,FALSE
 British GT Championship,"GT3_Gen2,GT4",77,"25,18,15,12,10,8,6,4,2,1",TRUE,rolling,,TRUE,8,"GT,United Kingdom",1,3,1,12,1,20,2022,,FALSE
+British GT Championship (00's),GT2_05,30,"10,8,6,5,4,3,2,1",TRUE,rolling,,TRUE,7,"GT,United Kingdom",1,3,1,12,1,19,2000,2010,FALSE
 British GT Open,GTOpen,60,"25,18,15,12,10,8,6,4,2,1",TRUE,rolling,,TRUE,8,"GT,United Kingdom",1,3,1,12,1,19,2013,,FALSE
 Campeonato Brasileiro de Endurance,"P3,P4",75,"150,130,115,105,100,95,90,85,80,75",TRUE,rolling,,TRUE,8,"Prototype,Multiclass,South America",1,3,1,12,1,19,2009,2016,FALSE
 Caterham Academy,Cat_Academy,30,"25,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,standing,,TRUE,6,"Caterham,One Make,United Kingdom,Track mods",1,3,1,12,1,19,2014,,FALSE
@@ -15,6 +18,7 @@ Copa Truck,CopaTruck,55,"18,16,14,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,rolling,,TRU
 European Le Mans Series,"GT3,P1Gen2,LMP2_Gen1",84,"25,18,15,12,10,8,6,4,2,1",TRUE,rolling,,TRUE,6,"Multiclass,GT,Prototype,Europe,WEC",1,3,1,12,1,20,2023,,FALSE
 European Truck Racing Championship,CopaTruck,70,"10,9,8,7,6,5,4,3,2,1",FALSE,rolling,,TRUE,8,"Truck,Europe,Track mods",1,3,1,12,1,19,2017,,FALSE
 F1600,F-Trainer,35,"50,42,37,34,31,29,27,25,23,21,19,17,15,13,11,9,8,7,6,5,4,3,2,1",FALSE,standing,,FALSE,7,"Open Wheel,North America",1,3,1,12,1,23,2011,,FALSE
+FIA GT Championship,"GT1_05,GT2_05",80,"10,8,6,5,4,3,2,1",FALSE,rolling,,TRUE,8,"Multiclass,GT,Europe",1,3,1,12,1,19,2000,2013,FALSE
 Fiat Uno ASM,CopaUno,35,"18,15,13,11,10,9,8,7,6,5,4,3,2",FALSE,standing,identical,TRUE,5,"GT,South America,Retro",1,3,1,12,1,19,2015,,FALSE
 Formula 1 (Classic Gen 1),F-Classic_Gen1,100,"9,6,4,3,2,1",FALSE,standing,,FALSE,13,"Open Wheel,World,F1",1,3,1,12,1,19,1986,1987,FALSE
 Formula 1 (Classic Gen 2),F-Classic_Gen2,100,"9,6,4,3,2,1",FALSE,standing,,FALSE,13,"Open Wheel,World,F1",1,3,1,12,1,19,1988,1989,FALSE
@@ -72,6 +76,7 @@ Intercontinental GT Challenge,GT3_Gen2,88,"25,18,15,12,10,8,6,4,2,1",TRUE,rollin
 KZ Karting World Championship,KartShifter,28,"25,18,15,12,10,8,6,4,2,1",FALSE,standing,identical,FALSE,10,"Karting,World",1,3,1,12,1,19,2016,,FALSE
 Lamborghini Super Trofeo Europe,Super Trofeo,71,"15,12,10,8,6,5,4,3,2,1",TRUE,rolling,,TRUE,6,"GT,One Make,Europe",1,3,1,12,1,21,2024,,FALSE
 Lamborghini Super Trofeo North America,Super Trofeo,69,"15,12,10,8,6,5,4,3,2,1",TRUE,rolling,,TRUE,6,"GT,One Make,North America",1,3,1,12,1,21,2024,,FALSE
+Le Mans Endurance Series,"LMP1_05,LMP2_05,GT1_05,GT2_05",100,"10,8,6,5,4,3,2,1",FALSE,rolling,,TRUE,6,"Multiclass,GT,Prototype,Europe",1,3,1,12,1,19,2000,2010,FALSE
 Ligier European Series,LES_2025,39,"25,18,15,12,10,8,6,4,2,1",TRUE,standing,identical,TRUE,6,"Prototype,Europe",1,3,1,12,1,23,2023,,FALSE
 Lurani Trophy Formula Junior,F-Junior,50,"10,8,6,4,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1",FALSE,standing,identical,TRUE,5,"Historic,Open Wheel,Europe,Track mods",1,3,1,12,1,19,1998,,FALSE
 Michelin Le Mans Cup,"GT3,P1Gen2",47,"25,18,15,12,10,8,6,4,2,1",TRUE,rolling,,TRUE,6,"GT,Multiclass,Europe,WEC",1,3,1,12,1,22,2023,,FALSE
@@ -86,6 +91,7 @@ NASCAR Second Division (Gen 3),Stock_USA_Gen1,75,"175,170,165,160,155,150,146,14
 NASCAR Second Division (Gen 4),Stock_USA_Gen2,75,"180,170,165,160,155,150,146,142,138,134,130,127,124,121,118,115,112,109,106,103,100,97,94,91,88,85,82,79,76,73,70,67,64,61,58,55,52,49,46,43",TRUE,rolling,identical,TRUE,14,"Stock Car,North America,NASCAR,Track mods",1,3,1,12,1,19,1992,2021,FALSE
 NASCAR Second Division (Next Gen),Stock_USA_Gen3,75,"40,35,34,33,32,31,30,29,28,27,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1",TRUE,rolling,identical,TRUE,14,"Stock Car,North America,NASCAR,Track mods",1,3,1,12,1,19,2022,,FALSE
 National Formula Ford Championship,F-Trainer,41,"30,27,24,22,20,18,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,standing,,FALSE,8,"Open Wheel,United Kingdom",1,3,1,12,1,23,2012,,FALSE
+Northern Europe GT Championship,"GT1_05,GT2_05,GTR_04",70,"10,8,6,5,4,3,2,1",FALSE,rolling,,TRUE,8,"Multiclass,GT,Europe",1,3,1,12,1,19,2000,2010,FALSE
 NTT IndyCar,F-USA_2023,94,"50,40,35,32,30,28,26,24,22,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1",TRUE,rolling,identical,FALSE,16,"Open Wheel,North America,Indy",1,3,1,12,1,19,2000,,FALSE
 Nürburgring Langstrecken-Serie,"GT3_Gen2,GT4",82,"15,11,8,6,4,3,2,1",TRUE,rolling,,FALSE,8,"GT,Multiclass,Europe",1,3,1,12,1,20,2022,,FALSE
 OK Karting World Championship,Kart125cc,24,"25,18,15,12,10,8,6,4,2,1",FALSE,standing,identical,FALSE,9,"Karting,World",1,3,1,12,1,19,2016,,FALSE
@@ -97,6 +103,9 @@ Porsche Carrera Supercup,Carrera Cup,83,"25,20,17,14,12,10,9,8,7,6,5,4,3,2,1",FA
 Puma GT5 Desafio,GT5,35,"25,20,17,14,12,10,9,8,7,6,5,4,3,2,1",FALSE,standing,,TRUE,6,"GT,South America",1,3,1,12,1,19,2013,,FALSE
 Radical Cup Europe,P4,60,"40,35,30,27,24,22,20,16,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,rolling,,TRUE,6,"Prototype,Europe",1,3,1,12,1,21,2012,,FALSE
 Radical Cup North America,P4,61,"40,35,30,27,24,22,20,16,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,rolling,,TRUE,6,"Prototype,North America",1,3,1,12,1,21,2012,,FALSE
+Rolex Sports Car Series,"GT2_05,GTR_04",60,"35,32,30,28,26,25,24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,rolling,,TRUE,9,"Multiclass,GT,North America",1,3,1,12,1,19,2002,2013,FALSE
+Southern Europe GT Championship,"GT1_05,GT2_05,Trofeo_2005",70,"10,8,6,5,4,3,2,1",FALSE,rolling,,TRUE,8,"Multiclass,GT,Europe",1,3,1,12,1,19,2000,2010,FALSE
+Speed World Challenge,GT1_05,45,"25,23,21,19,17,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1",FALSE,standing,,TRUE,8,"GT,North America",1,3,1,12,1,19,2002,2010,FALSE
 Stock Car Brasil (1979),Opala79,90,"25,20,16,14,12,10,9,8,7,6,5,4,3,2,1",FALSE,rolling,identical,FALSE,10,"Stock Car,South America",1,3,1,12,1,19,1979,1985,FALSE
 Stock Car Brasil (1986),Opala86,90,"25,20,16,14,12,10,9,8,7,6,5,4,3,2,1",FALSE,rolling,identical,FALSE,10,"Stock Car,South America",1,3,1,12,1,19,1986,1998,FALSE
 Stock Car Brasil (1999),StockCar99,90,"25,20,16,14,12,10,9,8,7,6,5,4,3,2,1",FALSE,rolling,identical,FALSE,10,"Stock Car,South America",1,3,1,12,1,19,1999,2009,FALSE

@@ -45,6 +45,19 @@ export class RelationChecker {
           `Car "${car.livery}" in "${car.championship_name}" is affected to a non-existing team.`,
         );
       }
+      if (
+        cars.some(
+          (otherCar) =>
+            otherCar.id !== car.id &&
+            otherCar.model === car.model &&
+            otherCar.livery === car.livery &&
+            otherCar.championship_name === car.championship_name,
+        )
+      ) {
+        errors.push(
+          `Car "${car.livery}" in "${car.championship_name}" has a duplicate model/livery combination.`,
+        );
+      }
     }
     return errors;
   }

@@ -47,6 +47,8 @@ Alpine Track Operations,GT3_Gen2,McLaren 720S GT3 Evo,McLaren 720S GT3 Evo #41,"
 Alpine Track Operations,GT3_Gen2,McLaren 720S GT3 Evo,McLaren 720S GT3 Evo #59,"GT World Challenge Europe,Intercontinental GT Challenge,Nürburgring Langstrecken-Serie",56,mclaren_720s_gt3_evo
 Alpine Track Operations,GT4,Alpine A110 GT4 Evo,Alpine A110 GT4 Evo #36,Nürburgring Langstrecken-Serie,51,alpine_a110_gt4_evo
 Alpine Track Operations,GT4,Alpine A110 GT4 Evo,Alpine A110 GT4 Evo #63,Nürburgring Langstrecken-Serie,53,alpine_a110_gt4_evo
+Alpine Track Operations,Hypercars,McLaren Senna,Trophy Kyanos Blue,Gran Turismo Hyper Series,52,mclaren_senna
+Alpine Track Operations,Hypercars,McLaren Senna,Trophy Mira Orange,Gran Turismo Hyper Series,53,mclaren_senna
 Alpine Track Operations,LES_2025,Ligier JS2 R,Ligier JS2 R #02,Ligier European Series,53,ligier_js2r
 Alpine Track Operations,LES_2025,Ligier JS2 R,Ligier JS2 R #03,Ligier European Series,54,ligier_js2r
 Alpine Track Operations,LMDh,Alpine A424,Alpine A424 #36,World Endurance Championship,51,alpine_a424
@@ -59,6 +61,8 @@ Alpine Track Operations,P4,MCR S2000,MCR S2000 #5,Radical Cup Europe,54,mcr2000
 Alpine Track Operations,P4,MCR S2000,MCR S2000 #6,Radical Cup Europe,55,mcr2000
 Alpine Track Operations,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #55,Lamborghini Super Trofeo Europe,67,lamborghini_huracan_supertrofeo_evo2
 Alpine Track Operations,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #64,Lamborghini Super Trofeo Europe,68,lamborghini_huracan_supertrofeo_evo2
+Alpine Track Operations,Supercars,McLaren F1 LM,McLaren F1 LM #03,Gran Turismo Super Series,53,mclaren_f1_lm
+Alpine Track Operations,Supercars,McLaren F1 LM,McLaren F1 LM #04,Gran Turismo Super Series,54,mclaren_f1_lm
 Andretti Global,F-3,Dallara F309,Granado Racing #59,USF Pro 2000,64,f309
 Andretti Global,F-3,Dallara F309,GRNDWRK Racing #18 - R.Souza Skin,USF Pro 2000,59,f309
 Andretti Global,F-Inter,Formula Inter MG-15,F.Inter MG-15 #11,USF2000,59,formula_inter
@@ -74,8 +78,12 @@ Andretti Global,GT1_05,Milano GT55,Milano GT55 #11,"American Le Mans Series,Sout
 Andretti Global,GT1_05,Milano GT55,Milano GT55 #13,"American Le Mans Series,Southern Europe GT Championship",54,milano_gt55
 Andretti Global,GT3_Gen2,Chevrolet Corvette Z06 GT3.R,Chevrolet Corvette Z06 GT3.R #13 (IMSA 2024),"GT World Challenge America,GT World Challenge Sprint,IMSA WeatherTech SportsCar Championship,World Endurance Championship",53,corvette_z06_gt3r
 Andretti Global,GT3_Gen2,Chevrolet Corvette Z06 GT3.R,Chevrolet Corvette Z06 GT3.R #17 (IMSA 2024),"GT World Challenge America,GT World Challenge Sprint,IMSA WeatherTech SportsCar Championship,World Endurance Championship",54,corvette_z06_gt3r
+Andretti Global,Hypercars,McLaren Senna,British Racing Green,Gran Turismo Hyper Series,57,mclaren_senna
+Andretti Global,Hypercars,McLaren Senna,Vision Pure White,Gran Turismo Hyper Series,54,mclaren_senna
 Andretti Global,LMDh,Cadillac V-Series.R,Cadillac V-Series.R #01 (IMSA 2024),"IMSA WeatherTech SportsCar Championship,World Endurance Championship",51,cadillac_v-series_r
 Andretti Global,LMDh,Cadillac V-Series.R,Cadillac V-Series.R #31 (IMSA 2024),"IMSA WeatherTech SportsCar Championship,World Endurance Championship",52,cadillac_v-series_r
+Andretti Global,Supercars,Ultima GTR,Ultima GTR #1,Gran Turismo Super Series,51,ultima
+Andretti Global,Supercars,Ultima GTR,Ultima GTR #2,Gran Turismo Super Series,52,ultima
 Anglo American Racers,F-Vintage_Gen1,Formula Vintage Gen1 Model1,McLean G.P. #17,Formula 1 (Vintage Gen 1),57,formula_vintage_g1m1
 Anglo American Racers,F-Vintage_Gen1,Formula Vintage Gen1 Model1,McLean G.P. #18,Formula 1 (Vintage Gen 1),58,formula_vintage_g1m1
 Anglo American Racers,F-Vintage_Gen2,Formula Vintage Gen2 Model1,McLean G.P. #7,Formula 1 (Vintage Gen 2),55,formula_vintage_g2m1
@@ -92,6 +100,12 @@ Apex Precision Competizione,GT3_Gen2,Porsche 992 GT3 R,Porsche 992 GT3 R #43 (IM
 Apex Precision Competizione,GT3_Gen2,Porsche 992 GT3 R,Porsche 992 GT3 R #92 (IMSA 2024),GT World Challenge Sprint,54,porsche_992_gt3r
 Apex Precision Competizione,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #43,"BFGoodrich Langstreckenmeisterschaft,Rolex Sports Car Series",55,bmw_m3_gtr
 Apex Precision Competizione,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #48,"BFGoodrich Langstreckenmeisterschaft,Rolex Sports Car Series",56,bmw_m3_gtr
+Apex Precision Competizione,Hypercars,Lamborghini Revuelto,Giallo Auge,Gran Turismo Hyper Series,53,lamborghini_revuelto
+Apex Precision Competizione,Hypercars,Lamborghini Revuelto,Verde Viper,Gran Turismo Hyper Series,54,lamborghini_revuelto
+Apex Precision Competizione,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #15,Gran Turismo Street Series,65,camaro_ss
+Apex Precision Competizione,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #16,Gran Turismo Street Series,66,camaro_ss
+Apex Precision Competizione,Supercars,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),Riptide Blue Metallic,Gran Turismo Super Series,54,corvette_c8_sc
+Apex Precision Competizione,Supercars,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),Torch Red,Gran Turismo Super Series,53,corvette_c8_sc
 Apex-Works North,Cat_Academy,Caterham Academy,Caterham Academy - Carolyn Jenners #63,Caterham Academy,52,caterham_academy
 Apex-Works North,Cat_Academy,Caterham Academy,Caterham Academy - Tim Childress #00,Caterham Academy,51,caterham_academy
 Apex-Works North,Cat_Superlight,Caterham Superlight,Caterham Superlight #00,Caterham Seven Championship,51,caterham_superlight
@@ -166,6 +180,10 @@ Astraea Endurance,P1Gen2,Ligier JS P320,Ligier JS P320 #117,Michelin Le Mans Cup
 Astraea Endurance,P1Gen2,Sigma P1 G5,Sigma P1 G5 #85,Michelin Le Mans Cup,54,sigma_p1_g5
 Astraea Endurance,P4,MCR S2000,MCR S2000 #19,Radical Cup Europe,66,mcr2000
 Astraea Endurance,P4,MCR S2000,MCR S2000 #30,Radical Cup Europe,75,mcr2000
+Astraea Endurance,TSICup,Volkswagen Polo,VW Polo #4,TSI Cup Europe,55,vw_polo
+Astraea Endurance,TSICup,Volkswagen Polo GTS,VW Polo GTS #6,TSI Cup World,57,vw_polo_gts
+Astraea Endurance,TSICup,Volkswagen Virtus,VW Virtus #018,TSI Cup Europe,51,vw_virtus
+Astraea Endurance,TSICup,Volkswagen Virtus GTS,VW Virtus GTS #018,TSI Cup World,51,vw_virtus_gts
 Atlantic Racing Union,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #62,"Ginetta Junior Championship Europe,Ginetta Junior Championship North America,Ginetta Junior Championship UK",69,ginetta_g40_cup
 Atlantic Racing Union,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #66,"Ginetta Junior Championship Europe,Ginetta Junior Championship North America,Ginetta Junior Championship UK",70,ginetta_g40_cup
 Atlantic Racing Union,G55Supercup,Ginetta G55 GT4 Supercup,Valerio Racing #13,Ginetta GT4 Supercup,53,ginetta_g55_gt4
@@ -208,6 +226,12 @@ Bayside Trackside Services,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #50,Ginetta Ju
 Bayside Trackside Services,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #53,Ginetta Junior Championship North America,67,ginetta_g40_cup
 Bayside Trackside Services,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #58,"BFGoodrich Langstreckenmeisterschaft,Rolex Sports Car Series",57,bmw_m3_gtr
 Bayside Trackside Services,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #64,"BFGoodrich Langstreckenmeisterschaft,Rolex Sports Car Series",58,bmw_m3_gtr
+Bayside Trackside Services,Hypercars,Aston Martin Valkyrie,Carbon Red,Gran Turismo Hyper Series,61,aston_martin_valkyrie
+Bayside Trackside Services,Hypercars,Aston Martin Valkyrie,Magnetic Silver,Gran Turismo Hyper Series,56,aston_martin_valkyrie
+Bayside Trackside Services,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #05,Gran Turismo Street Series,55,camaro_ss
+Bayside Trackside Services,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #06,Gran Turismo Street Series,56,camaro_ss
+Bayside Trackside Services,Supercars,Audi R8 V10 GT,Goodwood Green,Gran Turismo Super Series,55,audi_r8_v10_gt
+Bayside Trackside Services,Supercars,Audi R8 V10 GT,Viper Green,Gran Turismo Super Series,56,audi_r8_v10_gt
 Bebeto Tyres,ARC_Cam,ARC Camaro,Bebeto Tyres #41,Aussie Racing Cars Super Series,65,arc_camaro
 Bebeto Tyres,ARC_Cam,ARC Camaro,Bebeto Tyres #42,Aussie Racing Cars Super Series,66,arc_camaro
 Blackwood Racing Systems,Carrera Cup,Porsche 911 GT3 Cup 3.8,Porsche 911 GT3 Cup 3.8 #16,"Porsche Carrera Cup North America,Porsche Carrera Cup UK,Porsche Carrera Supercup",54,porsche_991_gt3
@@ -318,8 +342,14 @@ Brickyard Performance Lab,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #17,Ginetta Jun
 Brickyard Performance Lab,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #22,Ginetta Junior Championship North America,57,ginetta_g40_cup
 Brickyard Performance Lab,GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #52,Rolex Sports Car Series,55,porsche_996_gt3rsr
 Brickyard Performance Lab,GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #61,Rolex Sports Car Series,56,porsche_996_gt3rsr
+Brickyard Performance Lab,Hypercars,Lamborghini Veneno Roadster,Lamborghini Veneno #01,Gran Turismo Hyper Series,51,lamborghini_veneno
+Brickyard Performance Lab,Hypercars,Lamborghini Veneno Roadster,Lamborghini Veneno #02,Gran Turismo Hyper Series,52,lamborghini_veneno
+Brickyard Performance Lab,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #07,Gran Turismo Street Series,57,camaro_ss
+Brickyard Performance Lab,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #08,Gran Turismo Street Series,58,camaro_ss
 Brickyard Performance Lab,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #55,Lamborghini Super Trofeo North America,67,lamborghini_huracan_supertrofeo_evo2
 Brickyard Performance Lab,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #64,Lamborghini Super Trofeo North America,68,lamborghini_huracan_supertrofeo_evo2
+Brickyard Performance Lab,Supercars,Dodge Viper ACR,Adrenaline Red,Gran Turismo Super Series,52,dodge_viper_acr
+Brickyard Performance Lab,Supercars,Dodge Viper ACR,Viper White,Gran Turismo Super Series,51,dodge_viper_acr
 British Racing Motors,F-Classic_Gen1,Formula Classic Gen1 Model1,Surrey Racing #14,Formula 1 (Classic Gen 1),51,formula_classic_g1m1
 British Racing Motors,F-Classic_Gen1,Formula Classic Gen1 Model1,Surrey Racing #99,Formula 1 (Classic Gen 1),52,formula_classic_g1m1
 British Racing Motors,F-Classic_Gen2,Formula Classic Gen2 Model3,Newcyan Racing #5,Formula 1 (Classic Gen 2),51,formula_classic_g2m3
@@ -845,8 +875,20 @@ Golden Gate Racing Group,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #42,Ginetta Juni
 Golden Gate Racing Group,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #46,Ginetta Junior Championship North America,65,ginetta_g40_cup
 Golden Gate Racing Group,GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #92,Speed World Challenge,53,saleen_s7r_gt1
 Golden Gate Racing Group,GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #93,Speed World Challenge,54,saleen_s7r_gt1
+Golden Gate Racing Group,Hypercars,Aston Martin Valkyrie,Ethanol Silver,Gran Turismo Hyper Series,54,aston_martin_valkyrie
+Golden Gate Racing Group,Hypercars,Aston Martin Valkyrie,Maximum Orange,Gran Turismo Hyper Series,53,aston_martin_valkyrie
+Golden Gate Racing Group,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #03,Gran Turismo Street Series,53,camaro_ss
+Golden Gate Racing Group,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #04,Gran Turismo Street Series,54,camaro_ss
+Golden Gate Racing Group,Supercars,Audi R8 V10 GT,Daytona Grey Metallic,Gran Turismo Super Series,54,audi_r8_v10_gt
+Golden Gate Racing Group,Supercars,Audi R8 V10 GT,Tango Red Metallic,Gran Turismo Super Series,53,audi_r8_v10_gt
 Granite State Garage,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #28,Ginetta Junior Championship North America,60,ginetta_g40_cup
 Granite State Garage,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #32,Ginetta Junior Championship North America,61,ginetta_g40_cup
+Granite State Garage,Hypercars,Aston Martin Valkyrie,Almond Green,Gran Turismo Hyper Series,51,aston_martin_valkyrie
+Granite State Garage,Hypercars,Aston Martin Valkyrie,Zaffre Blue,Gran Turismo Hyper Series,52,aston_martin_valkyrie
+Granite State Garage,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #01,Gran Turismo Street Series,51,camaro_ss
+Granite State Garage,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #02,Gran Turismo Street Series,52,camaro_ss
+Granite State Garage,Supercars,Audi R8 V10 GT,Mythos Black Metallic,Gran Turismo Super Series,52,audi_r8_v10_gt
+Granite State Garage,Supercars,Audi R8 V10 GT,Suzuka Grey Matte,Gran Turismo Super Series,51,audi_r8_v10_gt
 Gravel Pit Racing,Stock_USA_Gen1,Stock USA Gen1,Stock USA Gen1 #75,"ARCA Menards Series (Gen 3),NASCAR Cup Series (Gen 3),NASCAR Second Division (Gen 3)",81,stock_usa_g1
 Gravel Pit Racing,Stock_USA_Gen1,Stock USA Gen1,Stock USA Gen1 #79,"ARCA Menards Series (Gen 3),NASCAR Cup Series (Gen 3),NASCAR Second Division (Gen 3)",82,stock_usa_g1
 Gravel Pit Racing,Stock_USA_Gen2,Stock USA Gen2,Stock USA Gen2 #77,"ARCA Menards Series (Gen 4),NASCAR Cup Series (Gen 4),NASCAR Euro Series (Gen 4),NASCAR Second Division (Gen 4)",81,stock_usa_g2
@@ -861,8 +903,14 @@ Gulf Coast Competition,GT2_05,Panoz Esperante GTLM,Panoz Esperante GTLM #78,Amer
 Gulf Coast Competition,GT2_05,Panoz Esperante GTLM,Panoz Esperante GTLM #81,American Le Mans Series,54,panoz_esperante_gtlm
 Gulf Coast Competition,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #66,"BFGoodrich Langstreckenmeisterschaft,Rolex Sports Car Series",59,bmw_m3_gtr
 Gulf Coast Competition,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #68,"BFGoodrich Langstreckenmeisterschaft,Rolex Sports Car Series",60,bmw_m3_gtr
+Gulf Coast Competition,Hypercars,Lamborghini Revuelto,Blu Eleos,Gran Turismo Hyper Series,55,lamborghini_revuelto
+Gulf Coast Competition,Hypercars,Lamborghini Revuelto,Rosso Efesto,Gran Turismo Hyper Series,59,lamborghini_revuelto
+Gulf Coast Competition,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #17,Gran Turismo Street Series,67,camaro_ss
+Gulf Coast Competition,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #18,Gran Turismo Street Series,68,camaro_ss
 Gulf Coast Competition,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #48,Lamborghini Super Trofeo North America,65,lamborghini_huracan_supertrofeo_evo2
 Gulf Coast Competition,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #50,Lamborghini Super Trofeo North America,66,lamborghini_huracan_supertrofeo_evo2
+Gulf Coast Competition,Supercars,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),Cacti Green,Gran Turismo Super Series,61,corvette_c8_sc
+Gulf Coast Competition,Supercars,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),Hysteria Purple Metallic,Gran Turismo Super Series,55,corvette_c8_sc
 Haas,F-3,Dallara F301,Anderson Motorsport #19,Formula 3,51,f301
 Haas,F-3,Dallara F301,Anderson Motorsport #21,Formula 3,52,f301
 Haas,F-Reiza,Formula V8 Gen3,Roch G.P. #22,Formula 2,71,formula_reiza
@@ -899,6 +947,10 @@ Heritage Racing Collective,LMP2_05,Lola B05/40 V8,Lola B05/40 V8 #95,American Le
 Heritage Racing Collective,LMP2_05,Lola B05/40 V8,Lola B05/40 V8 #96,American Le Mans Series,58,lola_b0540_lmp2_v8
 Heritage Racing Collective,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #27,"Lamborghini Super Trofeo Europe,Lamborghini Super Trofeo North America",59,lamborghini_huracan_supertrofeo_evo2
 Heritage Racing Collective,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #28,"Lamborghini Super Trofeo Europe,Lamborghini Super Trofeo North America",60,lamborghini_huracan_supertrofeo_evo2
+Heritage Racing Collective,TSICup,Volkswagen Virtus,VW Virtus #3,TSI Cup Europe,54,vw_virtus
+Heritage Racing Collective,TSICup,Volkswagen Virtus,VW Virtus #4,TSI Cup Europe,55,vw_virtus
+Heritage Racing Collective,TSICup,Volkswagen Virtus GTS,VW Virtus GTS #1,TSI Cup World,52,vw_virtus_gts
+Heritage Racing Collective,TSICup,Volkswagen Virtus GTS,VW Virtus GTS #2,TSI Cup World,53,vw_virtus_gts
 Hesketh Racing,F-Classic_Gen1,Formula Classic Gen1 Model1,Didcot Racing #17,Formula 1 (Classic Gen 1),55,formula_classic_g1m1
 Hesketh Racing,F-Classic_Gen1,Formula Classic Gen1 Model1,Didcot Racing #18,Formula 1 (Classic Gen 1),56,formula_classic_g1m1
 Hesketh Racing,F-Classic_Gen2,Formula Classic Gen2 Model1,Didcot Racing #17,Formula 1 (Classic Gen 2),55,formula_classic_g2m1
@@ -1041,6 +1093,10 @@ Ipiranga Racing,StockCarV8_2023,Toyota Corolla Stock Car 2023,Ipiranga Racing - 
 Ipiranga Racing,StockCarV8_2023,Toyota Corolla Stock Car 2023,Ipiranga Racing - T.Camilo #21,"Stock Car Pro Series (2023),Turismo Carretera",54,stock_corolla_23
 Ipiranga Racing,StockCarV8_2024,Toyota Corolla Stock Car 2024,Ipiranga Racing - C.Ramos #30,Stock Car Pro Series,54,stock_corolla_24
 Ipiranga Racing,StockCarV8_2024,Toyota Corolla Stock Car 2024,Ipiranga Racing - T.Camilo #21,Stock Car Pro Series,53,stock_corolla_24
+Ipiranga Racing,TSICup,Volkswagen Virtus,VW Virtus #3,TSI Cup Brasil,54,vw_virtus
+Ipiranga Racing,TSICup,Volkswagen Virtus,VW Virtus #4,TSI Cup Brasil,55,vw_virtus
+Ipiranga Racing,TSICup,Volkswagen Virtus GTS,VW Virtus GTS #3,TSI Cup World,54,vw_virtus_gts
+Ipiranga Racing,TSICup,Volkswagen Virtus GTS,VW Virtus GTS #4,TSI Cup World,55,vw_virtus_gts
 Ironclad Racing Group,Stock_USA_Gen1,Stock USA Gen1,Stock USA Gen1 #7,"ARCA Menards Series (Gen 3),NASCAR Cup Series (Gen 3),NASCAR Second Division (Gen 3)",55,stock_usa_g1
 Ironclad Racing Group,Stock_USA_Gen1,Stock USA Gen1,Stock USA Gen1 #8,"ARCA Menards Series (Gen 3),NASCAR Cup Series (Gen 3),NASCAR Second Division (Gen 3)",56,stock_usa_g1
 Ironclad Racing Group,Stock_USA_Gen2,Stock USA Gen2,Stock USA Gen2 #5,"ARCA Menards Series (Gen 4),NASCAR Cup Series (Gen 4),NASCAR Euro Series (Gen 4),NASCAR Second Division (Gen 4)",55,stock_usa_g2
@@ -1134,6 +1190,10 @@ KTF Racing,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,KTF Racing - F.Baptist
 KTF Racing,StockCarV8_2023,Chevrolet Cruze Stock Car 2023,KTF Racing - G.Salas #85,"Stock Car Pro Series (2023),Turismo Carretera",67,stock_cruze_23
 KTF Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,KTF Racing - C.Bueno #0,Stock Car Pro Series,51,stock_cruze_24
 KTF Racing,StockCarV8_2024,Chevrolet Cruze Stock Car 2024,KTF Sports - Z.Muggiati #38,Stock Car Pro Series,52,stock_cruze_24
+KTF Racing,TSICup,Volkswagen Polo GTS,VW Polo GTS #2,TSI Cup World,53,vw_polo_gts
+KTF Racing,TSICup,Volkswagen Polo GTS,VW Polo GTS #3,TSI Cup World,54,vw_polo_gts
+KTF Racing,TSICup,Volkswagen Virtus,VW Virtus #1,TSI Cup Brasil,52,vw_virtus
+KTF Racing,TSICup,Volkswagen Virtus,VW Virtus #2,TSI Cup Brasil,53,vw_virtus
 KTF Sports,CopaClassicB,Puma GTE,Puma GTE #3,Copa Classic RS,51,puma_gte
 KTF Sports,CopaClassicB,Puma GTE,Puma GTE #7,Copa Classic RS,52,puma_gte
 KTF Sports,CopaFusca,Copa Fusca,Copa Fusca #7,Copa Fusca,51,fusca_copa
@@ -1181,12 +1241,22 @@ Lemanic Motorsport,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #38,Ginetta Junior Cha
 Lemanic Motorsport,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #42,Ginetta Junior Championship Europe,64,ginetta_g40_cup
 Lemanic Motorsport,GT1_05,Chevrolet Corvette C5-R,Chevrolet Corvette C5-R #2,GT Revival Series,51,corvette_c5r
 Lemanic Motorsport,GT1_05,Chevrolet Corvette C5-R,Chevrolet Corvette C5-R #5,GT Revival Series,52,corvette_c5r
+Lemanic Motorsport,Hypercars,Lamborghini Veneno Roadster,Lamborghini Veneno #03,Gran Turismo Hyper Series,53,lamborghini_veneno
+Lemanic Motorsport,Hypercars,Lamborghini Veneno Roadster,Lamborghini Veneno #04,Gran Turismo Hyper Series,54,lamborghini_veneno
 Lemanic Motorsport,LES_2025,Ligier JS2 R,Ligier JS2 R #121,Ligier European Series,74,ligier_js2r
 Lemanic Motorsport,LES_2025,Ligier JS2 R,Ligier JS2 R #132,Ligier European Series,75,ligier_js2r
 Lemanic Motorsport,P1Gen2,MetalMoro AJR Gen2 Chevrolet,MM AJR Chev Gen2 #232,Michelin Le Mans Cup,54,metalmoro_ajr_gen2_chevy
 Lemanic Motorsport,P1Gen2,MetalMoro AJR Gen2 Chevrolet,MM AJR Chev Gen2 #55,Michelin Le Mans Cup,52,metalmoro_ajr_gen2_chevy
 Lemanic Motorsport,P4,MCR S2000,MCR S2000 #17,Radical Cup Europe,64,mcr2000
 Lemanic Motorsport,P4,MCR S2000,MCR S2000 #18,Radical Cup Europe,65,mcr2000
+Lemanic Motorsport,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #09,Gran Turismo Street Series,59,camaro_ss
+Lemanic Motorsport,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #10,Gran Turismo Street Series,60,camaro_ss
+Lemanic Motorsport,Supercars,Dodge Viper ACR,Billet Silver Metallic,Gran Turismo Super Series,53,dodge_viper_acr
+Lemanic Motorsport,Supercars,Dodge Viper ACR,Stryker Orange,Gran Turismo Super Series,54,dodge_viper_acr
+Lemanic Motorsport,TSICup,Volkswagen Polo,VW Polo #002,TSI Cup Europe,51,vw_polo
+Lemanic Motorsport,TSICup,Volkswagen Polo,VW Polo #1,TSI Cup Europe,52,vw_polo
+Lemanic Motorsport,TSICup,Volkswagen Polo GTS,VW Polo GTS #4,TSI Cup World,55,vw_polo_gts
+Lemanic Motorsport,TSICup,Volkswagen Polo GTS,VW Polo GTS #5,TSI Cup World,56,vw_polo_gts
 Leo Panthera Autosports,ARC_Cam,ARC Camaro,Leo Panthera Autosports #1,Aussie Racing Cars Super Series,51,arc_camaro
 Leo Panthera Autosports,ARC_Cam,ARC Camaro,Leo Panthera Autosports #2,Aussie Racing Cars Super Series,52,arc_camaro
 Levante Motorsport Kart,Kart125cc,Kart 2-Stroke 125cc Direct,Kart 2-Stroke 125cc Direct #96,OK Karting World Championship,67,kart_01
@@ -1386,10 +1456,14 @@ Meridian Cup Racing,GT5,Ginetta G40,Ginetta G40 GT5 #58,GT5 Intercontinental Cla
 Meridian Cup Racing,GT5,Ginetta G40,Ginetta G40 GT5 #62,GT5 Intercontinental Clash,66,ginetta_g40
 Meridian Cup Racing,GTOpen,Ginetta G55 GT3,Ginetta G55 #16,British GT Open,57,ginetta_g55_gt3
 Meridian Cup Racing,GTOpen,Ginetta G55 GT3,Ginetta G55 #19,British GT Open,58,ginetta_g55_gt3
+Meridian Cup Racing,Hypercars,McLaren Senna,Stealth Cosmos Black,Gran Turismo Hyper Series,51,mclaren_senna
+Meridian Cup Racing,Hypercars,McLaren Senna,Vision Victory Grey,Gran Turismo Hyper Series,55,mclaren_senna
 Meridian Cup Racing,MiniChallenge,MINI Cooper JCW,MINI Cooper JCW #97,Mini Challenge,73,mini_cooper
 Meridian Cup Racing,MiniChallenge,MINI Cooper JCW,MINI Cooper JCW #99,Mini Challenge,74,mini_cooper
 Meridian Cup Racing,STT,Super Trophy Trucks,Super Trophy Trucks #10,Super Trophy Trucks,57,super_trophy_truck
 Meridian Cup Racing,STT,Super Trophy Trucks,Super Trophy Trucks #11,Super Trophy Trucks,58,super_trophy_truck
+Meridian Cup Racing,Supercars,McLaren F1 LM,McLaren F1 LM #01,Gran Turismo Super Series,51,mclaren_f1_lm
+Meridian Cup Racing,Supercars,McLaren F1 LM,McLaren F1 LM #02,Gran Turismo Super Series,52,mclaren_f1_lm
 Meyer Shank Racing,F-Junior,Formula Junior,F-Junior #66,Formula Junior Historics North America,65,formula_junior
 Meyer Shank Racing,F-Junior,Formula Junior,F-Junior #71,Formula Junior Historics North America,66,formula_junior
 Meyer Shank Racing,F-USA_2023,Formula USA 2023,F-USA 2023 #21,NTT IndyCar,70,formula_usa_2023
@@ -1423,10 +1497,14 @@ MOBIL ALE,StockCarV8_2023,Toyota Corolla Stock Car 2023,MOBIL ALE - E.Barrichell
 MOBIL ALE,StockCarV8_2023,Toyota Corolla Stock Car 2023,MOBIL ALE - R.Barrichello #111,"Stock Car Pro Series (2023),Turismo Carretera",61,stock_corolla_23
 MOBIL ALE,StockCarV8_2024,Toyota Corolla Stock Car 2024,MOBIL ALE - E.Barrichello #91,Stock Car Pro Series,59,stock_corolla_24
 MOBIL ALE,StockCarV8_2024,Toyota Corolla Stock Car 2024,MOBIL ALE - R.Barrichello #111,Stock Car Pro Series,60,stock_corolla_24
+MOBIL ALE,TSICup,Volkswagen Polo,VW Polo #4,TSI Cup Brasil,55,vw_polo
+MOBIL ALE,TSICup,Volkswagen Virtus,VW Virtus #018,TSI Cup Brasil,51,vw_virtus
 Mobius Autosports,ARC_Cam,ARC Camaro,Mobius Autosports #98,Aussie Racing Cars Super Series,71,arc_camaro
 Mobius Autosports,ARC_Cam,ARC Camaro,Mobius Autosports #99,Aussie Racing Cars Super Series,72,arc_camaro
 Nexus Prototype Racing,GT3_Gen2,Lamborghini Huracan GT3 EVO2,Lamborghini Huracan GT3 EVO2 #19 (IMSA 2024),"GT World Challenge America,Intercontinental GT Challenge",51,lamborghini_huracan_gt3_evo2
 Nexus Prototype Racing,GT3_Gen2,Lamborghini Huracan GT3 EVO2,Lamborghini Huracan GT3 EVO2 #78 (IMSA 2024),"GT World Challenge America,Intercontinental GT Challenge",54,lamborghini_huracan_gt3_evo2
+Nexus Prototype Racing,Hypercars,Lamborghini Veneno Roadster,Lamborghini Veneno #05,Gran Turismo Hyper Series,55,lamborghini_veneno
+Nexus Prototype Racing,Hypercars,Lamborghini Veneno Roadster,Lamborghini Veneno #06,Gran Turismo Hyper Series,56,lamborghini_veneno
 Nexus Prototype Racing,LMDh,Lamborghini SC63,Lamborghini SC63 #63 (IMSA 2024),IMSA WeatherTech SportsCar Championship,51,lamborghini_sc63
 Nexus Prototype Racing,LMDh,Lamborghini SC63,Lamborghini SC63 #64,IMSA WeatherTech SportsCar Championship,52,lamborghini_sc63
 Nexus Prototype Racing,LMP2,Ligier JS P217,Ligier JS P217 #61,IMSA WeatherTech SportsCar Championship,58,ligier_js_p217
@@ -1435,6 +1513,10 @@ Nexus Prototype Racing,P1Gen2,Sigma P1 G5,Sigma P1 G5 #5,IMSA VP Racing SportsCa
 Nexus Prototype Racing,P1Gen2,Sigma P1 G5,Sigma P1 G5 #85,IMSA VP Racing SportsCar Challenge,54,sigma_p1_g5
 Nexus Prototype Racing,P4,MCR S2000,MCR S2000 #42 - S.de Boer Skin,Radical Cup North America,77,mcr2000
 Nexus Prototype Racing,P4,MCR S2000,MCR S2000 #8,Radical Cup North America,56,mcr2000
+Nexus Prototype Racing,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #11,Gran Turismo Street Series,61,camaro_ss
+Nexus Prototype Racing,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #12,Gran Turismo Street Series,62,camaro_ss
+Nexus Prototype Racing,Supercars,Dodge Viper ACR,GTS-R Blue Pearl,Gran Turismo Super Series,56,dodge_viper_acr
+Nexus Prototype Racing,Supercars,Dodge Viper ACR,Stryker Purple,Gran Turismo Super Series,55,dodge_viper_acr
 Nordic Speed Academy,F-Inter,Formula Inter MG-15,F.Inter MG-15 #13,FRECA,61,formula_inter
 Nordic Speed Academy,F-Inter,Formula Inter MG-15,F.Inter MG-15 #18,FRECA,62,formula_inter
 Nordic Speed Academy,F-Junior,Formula Junior,F-Junior #10,Lurani Trophy Formula Junior,60,formula_junior
@@ -1481,6 +1563,8 @@ Olympus Euro-Racing,F-Vee_Gen2,Formula Vee Gen2,Jairo Rozenblit #18,"Formula Vee
 Olympus Euro-Racing,F-Vee_Gen2,Formula Vee Gen2,Joao Dante #128,"Formula Vee Germany,Formula Vee UK",65,formula_vee_gen2
 Orion Automotive,GT3_Gen2,BMW M4 GT3,BMW M4 GT3 #7,"GT World Challenge America,Intercontinental GT Challenge",54,bmw_m4_gt3
 Orion Automotive,GT3_Gen2,Mercedes-AMG GT3 Evo,Mercedes-AMG GT3 Evo #80 (IMSA 2024),"GT World Challenge America,Intercontinental GT Challenge",54,mercedes_amg_gt3_evo
+Orion Automotive,Hypercars,Brabham BT62,Brabham BT62 #01,Gran Turismo Hyper Series,51,brabham_bt62
+Orion Automotive,Hypercars,Brabham BT62,Brabham BT62 #02,Gran Turismo Hyper Series,52,brabham_bt62
 Orion Automotive,LMDh,BMW M Hybrid V8,BMW M Hybrid V8 #24 (IMSA 2024),IMSA WeatherTech SportsCar Championship,51,bmw_m_hybrid_v8
 Orion Automotive,LMDh,BMW M Hybrid V8,BMW M Hybrid V8 #25 (IMSA 2024),IMSA WeatherTech SportsCar Championship,52,bmw_m_hybrid_v8
 Orion Automotive,LMP2,Ligier JS P217,Ligier JS P217 #44,IMSA WeatherTech SportsCar Championship,56,ligier_js_p217
@@ -1489,8 +1573,12 @@ Orion Automotive,P1Gen2,MetalMoro AJR Gen2 Chevrolet,MM AJR Chev Gen2 #232,IMSA 
 Orion Automotive,P1Gen2,MetalMoro AJR Gen2 Chevrolet,MM AJR Chev Gen2 #55,IMSA VP Racing SportsCar Challenge,52,metalmoro_ajr_gen2_chevy
 Orion Automotive,P4,MCR S2000,MCR S2000 #5,Radical Cup North America,54,mcr2000
 Orion Automotive,P4,MCR S2000,MCR S2000 #6,Radical Cup North America,55,mcr2000
+Orion Automotive,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #19,Gran Turismo Street Series,69,camaro_ss
+Orion Automotive,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #20,Gran Turismo Street Series,70,camaro_ss
 Orion Automotive,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #86,Lamborghini Super Trofeo North America,73,lamborghini_huracan_supertrofeo_evo2
 Orion Automotive,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #88,Lamborghini Super Trofeo North America,74,lamborghini_huracan_supertrofeo_evo2
+Orion Automotive,Supercars,Maserati GT2 Stradale,Grigio Incognito,Gran Turismo Super Series,52,maserati_gt2_stradale
+Orion Automotive,Supercars,Maserati GT2 Stradale,Nero Essenza,Gran Turismo Super Series,51,maserati_gt2_stradale
 Owen Racing Organisation,F-Vintage_Gen1,Formula Vintage Gen1 Model1,North Racing #15,Formula 1 (Vintage Gen 1),55,formula_vintage_g1m1
 Owen Racing Organisation,F-Vintage_Gen1,Formula Vintage Gen1 Model1,North Racing #16,Formula 1 (Vintage Gen 1),56,formula_vintage_g1m1
 Owen Racing Organisation,F-Vintage_Gen2,Formula Vintage Gen2 Model2,North Racing #15,Formula 1 (Vintage Gen 2),55,formula_vintage_g2m2
@@ -1505,6 +1593,8 @@ Palmetto State Racing,GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #115,Rolex 
 Palmetto State Racing,GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #85,Rolex Sports Car Series,59,porsche_996_gt3rsr
 Palmetto State Racing,P4,MCR S2000,MCR S2000 #25,Radical Cup North America,70,mcr2000
 Palmetto State Racing,P4,MCR S2000,MCR S2000 #26,Radical Cup North America,71,mcr2000
+Palmetto State Racing,TSICup,Volkswagen Virtus,VW Virtus #1,TSI Cup Europe,52,vw_virtus
+Palmetto State Racing,TSICup,Volkswagen Virtus,VW Virtus #2,TSI Cup Europe,53,vw_virtus
 Pannonian Speed Group,F-Junior,Formula Junior,F-Junior #44,Lurani Trophy Formula Junior,63,formula_junior
 Pannonian Speed Group,F-Junior,Formula Junior,F-Junior #55,Lurani Trophy Formula Junior,64,formula_junior
 Pannonian Speed Group,F-Trainer,Formula Trainer,Formula Trainer #8,National Formula Ford Championship,58,formula_trainer
@@ -1533,6 +1623,8 @@ Pennine Raceworks,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #28,"GT
 Pennine Raceworks,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #87,"GT World Challenge Europe,Intercontinental GT Challenge,World Endurance Championship",54,audi_r8_lms_gt3_evo2
 Pennine Raceworks,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #75,"BFGoodrich Langstreckenmeisterschaft,Northern Europe GT Championship",61,bmw_m3_gtr
 Pennine Raceworks,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #98,"BFGoodrich Langstreckenmeisterschaft,Northern Europe GT Championship",62,bmw_m3_gtr
+Pennine Raceworks,Hypercars,McLaren Senna,Gloss Carbon,Gran Turismo Hyper Series,60,mclaren_senna
+Pennine Raceworks,Hypercars,McLaren Senna,Zenith Black Satin/Carbon Red,Gran Turismo Hyper Series,67,mclaren_senna
 Pennine Raceworks,LES_2025,Ligier JS2 R,Ligier JS2 R #00,Ligier European Series,51,ligier_js2r
 Pennine Raceworks,LES_2025,Ligier JS2 R,Ligier JS2 R #01,Ligier European Series,52,ligier_js2r
 Pennine Raceworks,LMDh,Aston Martin Valkyrie Hypercar,Aston Martin Valkyrie Hypercar #007,World Endurance Championship,52,aston_martin_valkyrie_lmh
@@ -1544,6 +1636,8 @@ Pennine Raceworks,P4,MCR S2000,MCR S2000 #3,Radical Cup Europe,52,mcr2000
 Pennine Raceworks,P4,MCR S2000,MCR S2000 #4,Radical Cup Europe,53,mcr2000
 Pennine Raceworks,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #48,Lamborghini Super Trofeo Europe,65,lamborghini_huracan_supertrofeo_evo2
 Pennine Raceworks,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #50,Lamborghini Super Trofeo Europe,66,lamborghini_huracan_supertrofeo_evo2
+Pennine Raceworks,Supercars,Ultima GTR,Ultima GTR #3,Gran Turismo Super Series,53,ultima
+Pennine Raceworks,Supercars,Ultima GTR,Ultima GTR #4,Gran Turismo Super Series,54,ultima
 Piedmont Racing Co.,Stock_USA_Gen1,Stock USA Gen1,Stock USA Gen1 #59,"ARCA Menards Series (Gen 3),NASCAR Cup Series (Gen 3),NASCAR Second Division (Gen 3)",77,stock_usa_g1
 Piedmont Racing Co.,Stock_USA_Gen1,Stock USA Gen1,Stock USA Gen1 #61,"ARCA Menards Series (Gen 3),NASCAR Cup Series (Gen 3),NASCAR Second Division (Gen 3)",78,stock_usa_g1
 Piedmont Racing Co.,Stock_USA_Gen2,Stock USA Gen2,Stock USA Gen2 #59,"ARCA Menards Series (Gen 4),NASCAR Cup Series (Gen 4),NASCAR Euro Series (Gen 4),NASCAR Second Division (Gen 4)",77,stock_usa_g2
@@ -1682,6 +1776,10 @@ RCM Motorsport,StockCarV8_2023,Toyota Corolla Stock Car 2023,RCM Motorsport - B.
 RCM Motorsport,StockCarV8_2023,Toyota Corolla Stock Car 2023,RCM Motorsport - R.Zonta #10,"Stock Car Pro Series (2023),Turismo Carretera",52,stock_corolla_23
 RCM Motorsport,StockCarV8_2024,Toyota Corolla Stock Car 2024,RCM Motorsport - B.Baptista #44,Stock Car Pro Series,52,stock_corolla_24
 RCM Motorsport,StockCarV8_2024,Toyota Corolla Stock Car 2024,RCM Motorsport - R.Zonta #10,Stock Car Pro Series,51,stock_corolla_24
+RCM Motorsport,TSICup,Volkswagen Polo,VW Polo #2,TSI Cup Brasil,53,vw_polo
+RCM Motorsport,TSICup,Volkswagen Polo,VW Polo #3,TSI Cup Brasil,54,vw_polo
+RCM Motorsport,TSICup,Volkswagen Virtus GTS,VW Virtus GTS #5,TSI Cup World,56,vw_virtus_gts
+RCM Motorsport,TSICup,Volkswagen Virtus GTS,VW Virtus GTS #6,TSI Cup World,57,vw_virtus_gts
 Red Bull Racing,F-3,Dallara F309,BR Motorsport #9,Formula 3,56,f309
 Red Bull Racing,F-3,Dallara F309,Carbone G.P. #13,Formula 3,57,f309
 Red Bull Racing,F-Reiza,Formula V8 Gen3,energyX Racing #20,"Formula 1 (V8 Gen 3),Formula 2",69,formula_reiza
@@ -1846,6 +1944,10 @@ Scuderia Chiarelli,StockCarV8_2022,Toyota Corolla Stock Car 2022,Scuderia CJ - B
 Scuderia Chiarelli,StockCarV8_2022,Toyota Corolla Stock Car 2022,Scuderia CJ - S.Jimenez #73,Stock Car Pro Series (2022),58,stock_corolla_22
 Scuderia Chiarelli,StockCarV8_2023,Toyota Corolla Stock Car 2023,Scuderia Chiarelli - R.Teixeira #37,"Stock Car Pro Series (2023),Turismo Carretera",58,stock_corolla_23
 Scuderia Chiarelli,StockCarV8_2023,Toyota Corolla Stock Car 2023,Scuderia Chiarelli - S.Jimenez #73,"Stock Car Pro Series (2023),Turismo Carretera",59,stock_corolla_23
+Scuderia Chiarelli,TSICup,Volkswagen Polo,VW Polo #002,TSI Cup Brasil,51,vw_polo
+Scuderia Chiarelli,TSICup,Volkswagen Polo,VW Polo #1,TSI Cup Brasil,52,vw_polo
+Scuderia Chiarelli,TSICup,Volkswagen Polo GTS,VW Polo GTS #002,TSI Cup World,51,vw_polo_gts
+Scuderia Chiarelli,TSICup,Volkswagen Polo GTS,VW Polo GTS #1,TSI Cup World,52,vw_polo_gts
 Scuderia Corsa International,GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #72,GT Revival Series,55,maserati_mc12_gt1
 Scuderia Corsa International,GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #86,GT Revival Series,56,maserati_mc12_gt1
 Scuderia Corsa International,GT1_05,Milano GT55,Milano GT55 #15,FIA GT Championship,55,milano_gt55
@@ -2135,6 +2237,8 @@ Titanium Endurance Racing,GT3_Gen2,Lamborghini Huracan GT3 EVO2,Lamborghini Hura
 Titanium Endurance Racing,GT3_Gen2,Lamborghini Huracan GT3 EVO2,Lamborghini Huracan GT3 EVO2 #83 (IMSA 2024),"GT World Challenge America,GT World Challenge Sprint",55,lamborghini_huracan_gt3_evo2
 Titanium Endurance Racing,GT4,McLaren 570S GT4,McLaren 570S GT4 #001,"GT4 America,IMSA Michelin Pilot Challenge",51,mclaren_570s_gt4
 Titanium Endurance Racing,GT4,McLaren 570S GT4,McLaren 570S GT4 #002,"GT4 America,IMSA Michelin Pilot Challenge",52,mclaren_570s_gt4
+Titanium Endurance Racing,Hypercars,Brabham BT62,Brabham BT62 #05,Gran Turismo Hyper Series,55,brabham_bt62
+Titanium Endurance Racing,Hypercars,Brabham BT62,Brabham BT62 #06,Gran Turismo Hyper Series,56,brabham_bt62
 Titanium Endurance Racing,LMDh,Alpine A424,Alpine A424 #36,IMSA WeatherTech SportsCar Championship,51,alpine_a424
 Titanium Endurance Racing,LMDh,Alpine A424,Alpine A424 #37,IMSA WeatherTech SportsCar Championship,52,alpine_a424
 Titanium Endurance Racing,LMP2,Ligier JS P217,Ligier JS P217 #33 (IMSA 2024),IMSA WeatherTech SportsCar Championship,51,ligier_js_p217
@@ -2145,6 +2249,8 @@ Titanium Endurance Racing,P4,MCR S2000,MCR S2000 #3,Radical Cup North America,52
 Titanium Endurance Racing,P4,MCR S2000,MCR S2000 #4,Radical Cup North America,53,mcr2000
 Titanium Endurance Racing,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #72,Lamborghini Super Trofeo North America,71,lamborghini_huracan_supertrofeo_evo2
 Titanium Endurance Racing,Super Trofeo,Lamborghini Huracan Super Trofeo EVO2,Lamborghini Huracan Super Trofeo EVO2 #77,Lamborghini Super Trofeo North America,72,lamborghini_huracan_supertrofeo_evo2
+Titanium Endurance Racing,Supercars,Maserati GT2 Stradale,Giallo Genio,Gran Turismo Super Series,57,maserati_gt2_stradale
+Titanium Endurance Racing,Supercars,Maserati GT2 Stradale,Rosso Vincente,Gran Turismo Super Series,56,maserati_gt2_stradale
 TMG Racing,CopaClassicB,Puma GTE,Puma GTE #48,Copa Classic RS,55,puma_gte
 TMG Racing,CopaClassicB,Puma GTE,Puma GTE #57,Copa Classic RS,56,puma_gte
 TMG Racing,CopaFusca,Copa Fusca,Copa Fusca #14,Copa Fusca,55,fusca_copa
@@ -2291,12 +2397,20 @@ Vitesse Pro-Racing,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #32,Ginetta Junior Cha
 Vitesse Pro-Racing,G40Cup,Ginetta G40 Cup,Ginetta G40 Cup #34,Ginetta Junior Championship Europe,62,ginetta_g40_cup
 Vitesse Pro-Racing,GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #1,BFGoodrich Langstreckenmeisterschaft,51,porsche_996_gt3rsr
 Vitesse Pro-Racing,GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #2,BFGoodrich Langstreckenmeisterschaft,52,porsche_996_gt3rsr
+Vitesse Pro-Racing,Hypercars,Lamborghini Revuelto,Arancio Xanto,Gran Turismo Hyper Series,51,lamborghini_revuelto
+Vitesse Pro-Racing,Hypercars,Lamborghini Revuelto,Bianco Monocerus,Gran Turismo Hyper Series,52,lamborghini_revuelto
 Vitesse Pro-Racing,LES_2025,Ligier JS2 R,Ligier JS2 R #55,Ligier European Series,63,ligier_js2r
 Vitesse Pro-Racing,LES_2025,Ligier JS2 R,Ligier JS2 R #60,Ligier European Series,64,ligier_js2r
 Vitesse Pro-Racing,P1Gen2,Sigma P1 G5,Sigma P1 G5 #13,Michelin Le Mans Cup,53,sigma_p1_g5
 Vitesse Pro-Racing,P1Gen2,Sigma P1 G5,Sigma P1 G5 #5,Michelin Le Mans Cup,52,sigma_p1_g5
 Vitesse Pro-Racing,P4,MCR S2000,MCR S2000 #15,Radical Cup Europe,63,mcr2000
 Vitesse Pro-Racing,P4,MCR S2000,MCR S2000 #29,Radical Cup Europe,74,mcr2000
+Vitesse Pro-Racing,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #13,Gran Turismo Street Series,63,camaro_ss
+Vitesse Pro-Racing,Street,Chevrolet Camaro SS,Chevrolet Camaro SS #14,Gran Turismo Street Series,64,camaro_ss
+Vitesse Pro-Racing,Supercars,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),Arctic White,Gran Turismo Super Series,51,corvette_c8_sc
+Vitesse Pro-Racing,Supercars,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),Black,Gran Turismo Super Series,52,corvette_c8_sc
+Vitesse Pro-Racing,TSICup,Volkswagen Polo,VW Polo #2,TSI Cup Europe,53,vw_polo
+Vitesse Pro-Racing,TSICup,Volkswagen Polo,VW Polo #3,TSI Cup Europe,54,vw_polo
 Vogel Motorsport,CopaClassicB,Chevrolet Chevette,Chevrolet Chevette #21,Copa Classic RS,53,chevette
 Vogel Motorsport,CopaClassicB,Chevrolet Chevette,Chevrolet Chevette #28,Copa Classic RS,54,chevette
 Vogel Motorsport,CopaClassicFL,Puma GTB,Puma GTB #52,Gold Classic,53,puma_gtb
@@ -2435,9 +2549,13 @@ Zenith Autosport,GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #69,IMSA VP Racing SportsCa
 Zenith Autosport,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #181,"GT World Challenge America,Intercontinental GT Challenge",56,audi_r8_lms_gt3_evo2
 Zenith Autosport,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #24,"GT World Challenge America,GT World Challenge Sprint,Intercontinental GT Challenge",51,audi_r8_lms_gt3_evo2
 Zenith Autosport,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #28,GT World Challenge Sprint,52,audi_r8_lms_gt3_evo2
+Zenith Autosport,Hypercars,Brabham BT62,Brabham BT62 #03,Gran Turismo Hyper Series,53,brabham_bt62
+Zenith Autosport,Hypercars,Brabham BT62,Brabham BT62 #04,Gran Turismo Hyper Series,54,brabham_bt62
 Zenith Autosport,LMDh,Aston Martin Valkyrie Hypercar,Aston Martin Valkyrie Hypercar #009,IMSA WeatherTech SportsCar Championship,53,aston_martin_valkyrie_lmh
 Zenith Autosport,LMDh,Aston Martin Valkyrie Hypercar,Aston Martin Valkyrie Hypercar #23 (IMSA 2025),IMSA WeatherTech SportsCar Championship,51,aston_martin_valkyrie_lmh
 Zenith Autosport,LMP2,Ligier JS P217,Ligier JS P217 #88,IMSA WeatherTech SportsCar Championship,62,ligier_js_p217
 Zenith Autosport,LMP2,Oreca 07,Oreca 07 #74 (IMSA 2024),IMSA WeatherTech SportsCar Championship,59,oreca_07
 Zenith Autosport,P4,MCR S2000,MCR S2000 #10,Radical Cup North America,58,mcr2000
 Zenith Autosport,P4,MCR S2000,MCR S2000 #9,Radical Cup North America,57,mcr2000
+Zenith Autosport,Supercars,Maserati GT2 Stradale,Blu Corse,Gran Turismo Super Series,60,maserati_gt2_stradale
+Zenith Autosport,Supercars,Maserati GT2 Stradale,Devil Orange,Gran Turismo Super Series,54,maserati_gt2_stradale

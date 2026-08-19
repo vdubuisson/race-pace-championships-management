@@ -160,6 +160,7 @@ export default class CsvExporter {
         end_year: championship.end_year ?? '',
         default_included: this.toCsvBoolean(championship.default_included),
         parc_ferme: this.toCsvBoolean(championship.parc_ferme),
+        intro: championship.intro ?? '',
       }))
       .toSorted((a, b) => a.name.localeCompare(b.name));
 
@@ -185,6 +186,7 @@ export default class CsvExporter {
         'start_year',
         'end_year',
         'default_included',
+        'intro',
       ],
       quoted_match: /,/,
     });

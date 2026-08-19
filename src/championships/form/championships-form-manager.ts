@@ -35,6 +35,7 @@ export type GlobalFormGroup = FormGroup<{
   start_year: FormControl<number | null>;
   end_year: FormControl<number | null>;
   default_included: FormControl<boolean>;
+  intro: FormControl<string | null>;
 }>;
 
 @Service({ autoProvided: false })
@@ -189,6 +190,7 @@ export class ChampionshipsFormManager {
         start_year: championship.start_year,
         end_year: championship.end_year,
         default_included: championship.default_included,
+        intro: championship.intro,
       });
     });
 
@@ -291,6 +293,7 @@ export class ChampionshipsFormManager {
       start_year: new FormControl<number | null>(null),
       end_year: new FormControl<number | null>(null),
       default_included: new FormControl(false, { nonNullable: true }),
+      intro: new FormControl<string | null>(null),
     });
   }
 
@@ -354,30 +357,16 @@ export class ChampionshipsFormManager {
     }
 
     return {
+      ...rawValue,
       id: this.loadedChampionshipId() ?? undefined,
       name: rawValue.name.trim(),
       categories: categoriesIds,
-      prestige: rawValue.prestige,
-      init_month: rawValue.init_month,
-      init_day: rawValue.init_day,
-      registration_start_month: rawValue.registration_start_month,
-      registration_start_day: rawValue.registration_start_day,
-      registration_end_month: rawValue.registration_end_month,
-      registration_end_day: rawValue.registration_end_day,
-      points: rawValue.points,
-      pit_stop: rawValue.pit_stop,
-      start_type: rawValue.start_type,
       field_type: this.championshipCars().every(
         (car) => car.model === this.championshipCars()[0]?.model,
       )
         ? 'identical'
         : null,
-      parc_ferme: rawValue.parc_ferme,
-      events_count: rawValue.events_count,
       tags: Array.from(tags),
-      start_year: rawValue.start_year,
-      end_year: rawValue.end_year,
-      default_included: rawValue.default_included,
     };
   }
 }

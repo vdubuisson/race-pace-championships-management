@@ -48,6 +48,7 @@ const EXPECTED_HEADERS: Record<CsvFile, CsvHeader[]> = {
     { name: 'start_year', mandatory: false },
     { name: 'end_year', mandatory: false },
     { name: 'default_included', mandatory: false },
+    { name: 'intro', mandatory: false },
   ],
   'drivers.csv': [
     { name: 'name', mandatory: true },
@@ -156,6 +157,7 @@ export class CsvParser {
           default_included: this.parseBoolean(record['default_included']),
           parc_ferme: this.parseBoolean(record['parc_ferme']),
           field_type: this.parseString(record['field_type']),
+          intro: this.parseString(record['intro']),
         }) as Championship,
     });
   }

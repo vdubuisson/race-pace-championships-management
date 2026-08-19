@@ -236,6 +236,26 @@
     </fieldset>
   </fieldset>
 
+  <fieldset>
+    <div class="form-field">
+      <label tuiLabel>
+        <span>
+          Introduction
+          <tui-icon [tuiTooltip]="introTooltip" />
+        </span>
+        <tui-textfield>
+          <textarea
+            tuiTextarea
+            placeholder="Championship introduction"
+            [formControl]="form().controls.intro"
+            [min]="2"
+            [max]="4"
+          ></textarea>
+        </tui-textfield>
+      </label>
+    </div>
+  </fieldset>
+
   <div tuiTitle>Scoring system</div>
   <fieldset class="points">
     @for (pointControl of pointsForms.controls; track pointControl; let index = $index) {

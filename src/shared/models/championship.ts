@@ -19,6 +19,7 @@ export type Championship = {
   start_year: number | null;
   end_year: number | null;
   default_included: boolean;
+  intro: string | null;
 };
 
 export type StartType = 'standing' | 'rolling';

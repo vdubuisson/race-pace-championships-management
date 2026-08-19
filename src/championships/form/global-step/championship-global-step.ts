@@ -25,6 +25,7 @@ import {
   TuiMultiSelect,
   TuiSelect,
   TuiSwitch,
+  TuiTextarea,
   TuiTooltip,
 } from '@taiga-ui/kit';
 import { TuiForm } from '@taiga-ui/layout';
@@ -56,6 +57,7 @@ import { GlobalFormGroup } from '../championships-form-manager';
     TuiMultiSelect,
     TuiSelect,
     TuiSwitch,
+    TuiTextarea,
     TuiTitle,
     TuiTooltip,
   ],
@@ -100,6 +102,7 @@ export class ChampionshipGlobalStep {
     You will receive contract offers based on the prestige and your current score.`;
   protected eventsCountTooltip = `How many events will take place in one season of this championship.`;
   protected parcFermeTooltip = `Whether that championship enforces Parc Fermé rules.`;
+  protected introTooltip = `An optional blurb of text introducing the championship to the player.`;
 
   protected endYearMin = signal(0);
   protected startYearMax = signal(9999);

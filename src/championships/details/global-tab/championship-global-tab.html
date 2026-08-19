@@ -16,23 +16,12 @@
 
   <div class="column">
     <div tuiCardLarge appearance="floating">
-      <div tuiCell>
-        <div tuiTitle="m">New season</div>
-        <div class="line"></div>
-        <div tuiTitle>
-          {{ championship().init_month | month: 'short' }} {{ championship().init_day | ordinal }}
-        </div>
-      </div>
-      <div tuiCell>
-        <div tuiTitle="m">Recruitment</div>
-        <div class="line"></div>
-        <div tuiTitle>
-          {{ championship().registration_start_month | month: 'short' }}
-          {{ championship().registration_start_day | ordinal }} -
-          {{ championship().registration_end_month | month: 'short' }}
-          {{ championship().registration_end_day | ordinal }}
-        </div>
-      </div>
+      <header tuiHeader>
+        <h2 tuiTitle>Introduction</h2>
+      </header>
+      <section>
+        {{ championship().intro ?? 'Not defined' }}
+      </section>
     </div>
   </div>
 </div>
@@ -86,7 +75,8 @@
         </ul>
       </section>
     </div>
-    <div tuiCardLarge appearance="floating" class="block-1-3">
+
+    <div tuiCardLarge appearance="floating">
       <header tuiHeader>
         <h2 tuiTitle>Period</h2>
       </header>
@@ -97,6 +87,26 @@
           No period defined
         }
       </section>
+    </div>
+
+    <div tuiCardLarge appearance="floating">
+      <div tuiCell>
+        <div tuiTitle="m">New season</div>
+        <div class="line"></div>
+        <div tuiTitle>
+          {{ championship().init_month | month: 'short' }} {{ championship().init_day | ordinal }}
+        </div>
+      </div>
+      <div tuiCell>
+        <div tuiTitle="m">Recruitment</div>
+        <div class="line"></div>
+        <div tuiTitle>
+          {{ championship().registration_start_month | month: 'short' }}
+          {{ championship().registration_start_day | ordinal }} -
+          {{ championship().registration_end_month | month: 'short' }}
+          {{ championship().registration_end_day | ordinal }}
+        </div>
+      </div>
     </div>
   </div>
 

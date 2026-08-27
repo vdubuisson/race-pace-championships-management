@@ -48,6 +48,21 @@ Aussie Racing Cars Super Series,Ruapuna_Park_GP,New Zealand Trip,5,1,TRUE,time,2
 Aussie Racing Cars Super Series,Ruapuna_Park_Outer_Loop,New Zealand Goodbyes,5,2,TRUE,time,20,
 Aussie Racing Cars Super Series,Adelaide_Modern,Return to Adelaide,6,1,TRUE,time,20,
 Aussie Racing Cars Super Series,Bathurst_2020,Mount Panorama Finale,7,2,TRUE,time,20,
+Autocross World Championship,Tykki_DIRT1,Tykki Autocross,2,1,FALSE,laps,8,
+Autocross World Championship,Ascurra_DIRT,Ascurra Autocross,3,1,FALSE,laps,8,
+Autocross World Championship,Foz_RX,XGames Autocross,4,1,FALSE,laps,8,
+Autocross World Championship,Lydden_Hill_Rx,Lydden Hill Autocross,4,3,FALSE,laps,8,
+Autocross World Championship,Circuit_de_Catalunya_RX,Barcelona Autocross,5,1,FALSE,laps,8,
+Autocross World Championship,Brands Hatch Rallycross,Brands Hatch Autocross,5,3,FALSE,laps,8,
+Autocross World Championship,Hockenheim_RX,Hockenheim Autocross,6,1,FALSE,laps,8,
+Autocross World Championship,Knockhill_Tri_Oval,Knockhill Speciale Autocross,6,2,FALSE,laps,16,
+Autocross World Championship,Knockhill_Rallycross,Knockhill Autocross,6,3,FALSE,laps,8,
+Autocross World Championship,Nurb_2020_RX,Nürburgring Autocross,7,1,FALSE,laps,8,
+Autocross World Championship,Wildcrest_Rallycross,Wildcrest Autocross,7,3,FALSE,laps,8,
+Autocross World Championship,Spa_Francorchamps_2022_RX,Spa-Francorchamps Autocross,8,1,FALSE,laps,8,
+Autocross World Championship,Rallycross_of_Loheac,Lohéac Autocross,8,3,FALSE,laps,8,
+Autocross World Championship,Tykki_Tarmac,Tykki Speciale Autocross,9,1,FALSE,laps,8,
+Autocross World Championship,Tykki_DIRT2,Finale at Tykki Autocross,9,2,TRUE,laps,8,
 BFGoodrich Langstreckenmeisterschaft,Nordschleife_2020_24hr,47. ADAC-ACAS-H&R-Cup,4,3,TRUE,time,240,12:00
 BFGoodrich Langstreckenmeisterschaft,Nordschleife_2020_24hr,36. Adenauer ADAC Rundstrecken-Trophy,6,2,TRUE,time,240,12:00
 BFGoodrich Langstreckenmeisterschaft,Nordschleife_2020_24hr,45. ADAC-Reinoldus Langstreckenrennen,7,1,TRUE,time,240,12:00
@@ -165,6 +180,23 @@ Copa Truck,GoianiaMixed,Autódromo Internacional Ayrton Senna (Goiânia),5,3,TRU
 Copa Truck,CurveloLong,Circuito dos Cristais,6,1,TRUE,time,25,
 Copa Truck,Brasilia_Full,Autódromo Internacional de Brasília,6,3,TRUE,time,25,
 Copa Truck,Londrina_long,Autódromo Internacional Ayrton Senna (Londrina),7,2,TRUE,time,25,
+Deutsche Tourenwagen Meisterschaft,Zolder,"AvD ""Bergischer Löwe""",3,4,FALSE,laps,25,"24,93143854"
+Deutsche Tourenwagen Meisterschaft,Nurb_GP_2020,ADAC-Eifelrennen,4,2,TRUE,laps,20,"19,42501943"
+Deutsche Tourenwagen Meisterschaft,Hockenheim_1988,Hockenheim 500 km,4,4,TRUE,laps,74,"73,56186553"
+Deutsche Tourenwagen Meisterschaft,Nurb_GP_2020_Sprint,Grosser Preis der Tourenwagen,5,1,TRUE,laps,28,"27,5558005"
+Deutsche Tourenwagen Meisterschaft,Mugello_GP,AvD Mugello Gold Cup,5,3,FALSE,laps,19,"19,06577693"
+Deutsche Tourenwagen Meisterschaft,Nurb_GP_2020_Veedol,200 Meilen von Nürburg,6,1,TRUE,laps,39,"38,93322951"
+Deutsche Tourenwagen Meisterschaft,Jerez_GP1988,AvD Jerez Gold Cup,6,3,FALSE,laps,24,"23,70791844"
+Deutsche Tourenwagen Meisterschaft,Nordschleife_2020_24hr,Int. ADAC 24h-Rennen,7,2,TRUE,time,1440,"3,940420837"
+Deutsche Tourenwagen Meisterschaft,Hockenheim_1988,AvD/MAC Rennsport-Festival,7,4,TRUE,laps,15,
+Deutsche Tourenwagen Meisterschaft,Brno_GP,"AvD/MHSTC ""100 Meilen von Brünn""",8,2,FALSE,laps,19,"18,50823617"
+Deutsche Tourenwagen Meisterschaft,Spielberg_Historic,ADAC-Spielberg,8,4,FALSE,laps,17,"16,90331305"
+Deutsche Tourenwagen Meisterschaft,Hungaroring_GP_2025,ADAC-Rundstrecken-Rennen Hungaroring,9,2,FALSE,laps,23,"22,82583885"
+Deutsche Tourenwagen Meisterschaft,Nurb_GP_2020_Sprint_S,ADAC-Bilstein Super Sprint Nürburgring,9,3,TRUE,laps,33,"32,69042171"
+Deutsche Tourenwagen Meisterschaft,Hockenheim_1988_short,Sportwagen-Festival,10,1,TRUE,laps,38,"37,93626707"
+Deutsche Tourenwagen Meisterschaft,Donington_GP,DTM ITR Cup Race Meeting Donington,10,3,FALSE,laps,25,"24,85707184"
+Deutsche Tourenwagen Meisterschaft,Hockenheim_1988,Preis der Stadt Esslingen,11,2,TRUE,laps,15,"14,71237311"
+Deutsche Tourenwagen Meisterschaft,Kyalami_2019,Yellow Pages 200,12,1,FALSE,laps,45,"44,15985869"
 European Le Mans Series,Circuit_de_Catalunya_GP,4 Hours of Barcelona,4,2,TRUE,time,240,
 European Le Mans Series,Le_Mans_24h,4 Hours of Le Mans,5,1,TRUE,time,240,
 European Le Mans Series,Imola_GP_2018,4 Hours of Imola,7,1,TRUE,time,240,
@@ -892,6 +924,17 @@ GT5 Intercontinental Clash,CurveloLong,Curvelo Round,7,2,FALSE,time,30,
 GT5 Intercontinental Clash,VeloCitta1,Velo Cittá Round,8,1,FALSE,time,30,
 GT5 Intercontinental Clash,Guapore,Guaporé Round,8,2,FALSE,time,30,
 GT5 Intercontinental Clash,Brasilia_Full,Brazil Finale,9,1,TRUE,time,30,10:00
+Hot Cars Brasileiros,Guapore,Hot Cars Guaporé,2,1,TRUE,laps,12,
+Hot Cars Brasileiros,Brasilia_Full,Hot Cars Brasília,2,3,TRUE,laps,10,
+Hot Cars Brasileiros,Interlagos_Historic_Outer,Hot Cars Interlagos 2h,3,1,TRUE,time,120,16:00
+Hot Cars Brasileiros,Interlagos_Historic,Hot Cars Interlagos,3,2,TRUE,laps,15,
+Hot Cars Brasileiros,Jacarepagua_Historic,Hot Cars Jacarepaguá,3,3,TRUE,laps,10,
+Hot Cars Brasileiros,GoianiaMixed,Hot Cars Goiânia,4,1,TRUE,laps,15,
+Hot Cars Brasileiros,GoianiaShort,Hot Cars Goiânia Short,5,2,TRUE,laps,20,
+Hot Cars Brasileiros,GoianiaOuter,Hot Cars Goiânia 2h,7,1,TRUE,time,120,
+Hot Cars Brasileiros,Taruma_Internacional,Hot Cars Tarumã,8,1,TRUE,laps,15,
+Hot Cars Brasileiros,Cascavel2,Hot Cars Cascavel,8,3,TRUE,laps,12,
+Hot Cars Brasileiros,Brasilia_Outer,Hot Cars Brasília 2h,9,2,TRUE,time,120,10:00
 Império Endurance Brasil,Taruma_Chicane,3 Horas de Tarumã,3,3,FALSE,time,180,
 Império Endurance Brasil,Guapore,3 Horas de Guaporé,4,2,FALSE,time,180,
 Império Endurance Brasil,SantaCruzDoSul,3 Horas de Santa Cruz do Sul,5,1,FALSE,time,180,
@@ -984,6 +1027,21 @@ Intercontinental GT Challenge,Nordschleife_2025_24hr,24h Nürburgring,5,3,TRUE,t
 Intercontinental GT Challenge,Spa_Francorchamps_2022,24 Hours of Spa,6,4,TRUE,time,1440,16:30
 Intercontinental GT Challenge,Kansai_GP,Suzuka 1000km,9,2,TRUE,laps,172,12:50
 Intercontinental GT Challenge,Indianapolis_2022_RC,Indianapolis 8 Hour,10,2,TRUE,time,480,12:20
+Kart Cross World Championship,Tykki_DIRT1,Tykki Kart cross,2,1,FALSE,laps,8,
+Kart Cross World Championship,Ascurra_DIRT,Ascurra Kart cross,3,1,FALSE,laps,8,
+Kart Cross World Championship,Foz_RX,XGames Kart cross,4,1,FALSE,laps,8,
+Kart Cross World Championship,Lydden_Hill_Rx,Lydden Hill Kart cross,4,3,FALSE,laps,8,
+Kart Cross World Championship,Circuit_de_Catalunya_RX,Barcelona Kart cross,5,1,FALSE,laps,8,
+Kart Cross World Championship,Brands Hatch Rallycross,Brands Hatch Kart cross,5,3,FALSE,laps,8,
+Kart Cross World Championship,Hockenheim_RX,Hockenheim Kart cross,6,1,FALSE,laps,8,
+Kart Cross World Championship,Knockhill_Tri_Oval,Knockhill Speciale,6,2,FALSE,laps,16,
+Kart Cross World Championship,Knockhill_Rallycross,Knockhill Kart cross,6,3,FALSE,laps,8,
+Kart Cross World Championship,Nurb_2020_RX,Nürburgring Kart cross,7,1,FALSE,laps,8,
+Kart Cross World Championship,Wildcrest_Rallycross,Wildcrest Kart cross,7,3,FALSE,laps,8,
+Kart Cross World Championship,Spa_Francorchamps_2022_RX,Spa-Francorchamps Kart cross,8,1,FALSE,laps,8,
+Kart Cross World Championship,Rallycross_of_Loheac,Lohéac Kart cross,8,3,FALSE,laps,8,
+Kart Cross World Championship,Tykki_Tarmac,Tykki Speciale,9,1,FALSE,laps,8,
+Kart Cross World Championship,Tykki_DIRT2,Kart cross Finale at Tykki,9,2,TRUE,laps,8,
 KZ Karting World Championship,LondrinaKart1,Londrina Start,4,1,FALSE,laps,20,
 KZ Karting World Championship,LondrinaKart2,Londrina Challenge,4,2,FALSE,laps,20,
 KZ Karting World Championship,InterlagosKart3,Interlagos Step,5,1,TRUE,laps,20,
@@ -1332,6 +1390,40 @@ Radical Cup North America,Watkins_Glen_GP,Empire State Prototype Shootout,5,2,TR
 Radical Cup North America,Road_America_RC,Elkhart Lake National Sprint,6,3,TRUE,time,40,
 Radical Cup North America,Road_Atlanta,Red Clay Continental,7,2,TRUE,time,40,
 Radical Cup North America,Virginia_Full,Old Dominion Finals,9,1,TRUE,time,40,
+Retro DTM '90,Zolder,"AvD ""Bergischer Löwe""",3,4,FALSE,laps,25,
+Retro DTM '90,Nurb_GP_2025,ADAC-Eifelrennen,4,2,FALSE,laps,20,
+Retro DTM '90,Hockenheim_GP,Hockenheim 500 km,4,4,TRUE,laps,110,
+Retro DTM '90,Nurb_GP_2020_Sprint,Grosser Preis der Tourenwagen,5,1,FALSE,laps,28,
+Retro DTM '90,Mugello_GP,AvD Mugello Gold Cup,5,3,FALSE,laps,19,
+Retro DTM '90,Nurb_GP_2020_Veedol,200 Meilen von Nürburg,6,1,FALSE,laps,39,
+Retro DTM '90,Jerez_GP2019,AvD Jerez Gold Cup,6,3,FALSE,laps,23,
+Retro DTM '90,Nordschleife_2025_24hr,Int. ADAC 24h-Rennen,7,2,TRUE,time,1440,
+Retro DTM '90,Hockenheim_ShortB,AvD/MAC Rennsport-Festival,7,4,FALSE,laps,39,
+Retro DTM '90,Brno_GP,"AvD/MHSTC ""100 Meilen von Brünn""",8,2,FALSE,laps,19,
+Retro DTM '90,Spielberg_Modern,ADAC-Spielberg,8,4,FALSE,laps,23,
+Retro DTM '90,Hungaroring_GP_2025,ADAC-Rundstrecken-Rennen Hungaroring,9,2,FALSE,laps,23,
+Retro DTM '90,Nurb_GP_2020_Sprint_S,ADAC-Bilstein Super Sprint Nürburgring,9,3,FALSE,laps,33,
+Retro DTM '90,Hockenheim_ShortA,Sportwagen-Festival,10,1,FALSE,laps,38,
+Retro DTM '90,Donington_GP,DTM ITR Cup Race Meeting Donington,10,3,FALSE,laps,25,
+Retro DTM '90,Hockenheim_National,Preis der Stadt Esslingen,11,2,FALSE,laps,27,
+Retro DTM '90,Kyalami_2019,Yellow Pages 200,12,1,FALSE,laps,45,
+Retro Hot Cars Brasileiros,Taruma_Chicane,Retro HC Tarumã,2,1,FALSE,laps,12,
+Retro Hot Cars Brasileiros,Cascavel2,Retro HC Cascavel,2,2,FALSE,laps,10,
+Retro Hot Cars Brasileiros,Velopark_2017,Retro HC Velopark,2,3,FALSE,laps,15,
+Retro Hot Cars Brasileiros,GoianiaShort,Retro HC Goiânia Short,3,1,FALSE,laps,20,
+Retro Hot Cars Brasileiros,GoianiaMixed,Retro HC Goiânia,3,2,FALSE,laps,15,
+Retro Hot Cars Brasileiros,GoianiaOuter,Retro HC Goiânia 2h,3,3,FALSE,time,120,
+Retro Hot Cars Brasileiros,Londrina_short,Retro HC Londrina Short,4,1,FALSE,laps,20,
+Retro Hot Cars Brasileiros,Londrina_long,Retro HC Londrina,4,2,FALSE,laps,12,
+Retro Hot Cars Brasileiros,Guapore,Retro HC Guaporé,5,1,FALSE,laps,15,
+Retro Hot Cars Brasileiros,CampoGrande1,Retro HC Campo Grande,6,1,FALSE,laps,15,
+Retro Hot Cars Brasileiros,Brasilia_Full,Retro HC Brasília,8,1,FALSE,laps,10,
+Retro Hot Cars Brasileiros,Brasilia_Outer,Retro HC Brasília 2h,8,2,FALSE,time,120,
+Retro Hot Cars Brasileiros,SantaCruzDoSul,Retro HC Santa Cruz,8,4,FALSE,laps,15,
+Retro Hot Cars Brasileiros,VeloCittaTD,Retro HC Velo Cittá,9,1,FALSE,laps,10,
+Retro Hot Cars Brasileiros,Termas_Rio_Hondo,Retro HC Argentina,10,1,FALSE,laps,20,
+Retro Hot Cars Brasileiros,Interlagos_GP,Retro HC Interlagos,10,3,FALSE,laps,10,
+Retro Hot Cars Brasileiros,CurveloLong,Retro HC Curvelo,11,1,FALSE,laps,12,
 Rolex Sports Car Series,Daytona_Road_Course,Rolex 24 At Daytona,2,1,TRUE,time,1440,12:00
 Rolex Sports Car Series,Road_America_RC,Rolex Sports Car Series 250,3,2,FALSE,time,120,11:00
 Rolex Sports Car Series,Fontana_SCC,Ferrari Maserati 400,4,1,FALSE,laps,89,13:00
@@ -1629,3 +1721,15 @@ World Endurance Championship,Interlagos_GP,6 Hours of São Paulo,7,2,TRUE,time,3
 World Endurance Championship,Watkins_Glen_GP,Lone Star Le Mans,9,1,TRUE,time,360,
 World Endurance Championship,Kansai_GP,6 Hours of Suzuka,9,4,TRUE,time,360,
 World Endurance Championship,Monza_2020,8 Hours of Monza,11,1,TRUE,time,480,16:00
+World Rallycross Championship,Brands Hatch Rallycross,World RX of Great Britain,3,2,FALSE,laps,6,
+World Rallycross Championship,Knockhill_Rallycross,World RX of Scotland,4,1,FALSE,laps,6,
+World Rallycross Championship,Lydden_Hill_Rx,World RX of United Kingdom,4,3,FALSE,laps,6,
+World Rallycross Championship,Circuit_de_Catalunya_RX,World RX of Spain,5,2,FALSE,laps,6,
+World Rallycross Championship,Hockenheim_RX,World RX of Germany,6,2,FALSE,laps,6,
+World Rallycross Championship,Rallycross_of_Loheac,World RX of France,7,1,FALSE,laps,6,
+World Rallycross Championship,Nurb_2020_RX,World RX of Europe,7,2,FALSE,laps,6,
+World Rallycross Championship,Spa_Francorchamps_2022_RX,World RX of Belgium,8,2,FALSE,laps,6,
+World Rallycross Championship,Tykki_RX,World RX of Finland,8,4,FALSE,laps,6,
+World Rallycross Championship,Foz_RX,World RX X Games,9,2,FALSE,laps,6,
+World Rallycross Championship,Ascurra_RX,World RX of Brazil,9,3,FALSE,laps,6,
+World Rallycross Championship,Wildcrest_Rallycross,World RX of South Africa,10,1,FALSE,laps,6,

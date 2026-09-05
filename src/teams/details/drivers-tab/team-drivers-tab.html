@@ -1,0 +1,56 @@
+<div tuiGroup class="btn-group">
+  <button
+    (click)="viewMode.set('championship')"
+    tuiButton
+    iconStart="@tui.trophy"
+    type="button"
+    appearance="outline-grayscale"
+    size="m"
+    [tuiAppearanceMode]="viewMode() === 'championship' ? 'checked' : ''"
+  >
+    By championship
+  </button>
+  <button
+    (click)="viewMode.set('category')"
+    tuiButton
+    iconStart="@tui.folder"
+    type="button"
+    appearance="outline-grayscale"
+    size="m"
+    [tuiAppearanceMode]="viewMode() === 'category' ? 'checked' : ''"
+  >
+    By category
+  </button>
+</div>
+
+@if (viewMode() === 'category') {
+  @for (entry of driversByCategory() | keyvalue; track entry.key) {
+    @let category = entry.key;
+    @let categoryDrivers = entry.value;
+    <h2 tuiHeader class="tab-header">
+      <span>{{ category | vehicleClassName }}</span>
+    </h2>
+
+    <div class="drivers-list">
+      @for (driver of categoryDrivers; track driver.id) {
+        <app-driver-card [driver]="driver" mode="championship" />
+      }
+    </div>
+  }
+}
+
+@if (viewMode() === 'championship') {
+  @for (entry of driversByChampionship() | keyvalue; track entry.key) {
+    @let championship = entry.key;
+    @let championshipDrivers = entry.value;
+    <h2 tuiHeader class="tab-header">
+      <span>{{ championship }}</span>
+    </h2>
+
+    <div class="drivers-list">
+      @for (driver of championshipDrivers; track driver.id) {
+        <app-driver-card [driver]="driver" mode="category" />
+      }
+    </div>
+  }
+}

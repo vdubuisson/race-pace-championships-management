@@ -24,6 +24,7 @@ export default class TeamDetailsPage {
   protected readonly tabs = [
     { label: 'Global', url: 'global', icon: '@tui.info' },
     { label: 'Cars', url: 'cars', icon: '@tui.car' },
+    { label: 'Drivers', url: 'drivers', icon: '@tui.id-card-lanyard' },
   ];
 
   async deleteTeam(): Promise<void> {

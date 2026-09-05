@@ -1,8 +1,9 @@
 import { canLeaveFormGuard } from '@/shared/guards/can-leave-form/can-leave-form-guard';
 import { Routes } from '@angular/router';
 import { TeamsListPage } from '../teams/list/teams-list-page';
-import { teamResolver } from './details/resolvers/team-resolver';
 import { teamCarsResolver } from './details/resolvers/team-cars-resolver';
+import { teamDriversResolver } from './details/resolvers/team-drivers-resolver';
+import { teamResolver } from './details/resolvers/team-resolver';
 
 export default [
   { path: '', pathMatch: 'full', component: TeamsListPage },
@@ -21,6 +22,11 @@ export default [
         path: 'cars',
         loadComponent: () => import('./details/cars-tab/team-cars-tab'),
         resolve: { cars: teamCarsResolver },
+      },
+      {
+        path: 'drivers',
+        loadComponent: () => import('./details/drivers-tab/team-drivers-tab'),
+        resolve: { drivers: teamDriversResolver },
       },
       { path: '**', redirectTo: 'global' },
     ],

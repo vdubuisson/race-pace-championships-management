@@ -1,11 +1,13 @@
 import { Car } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
+import { Driver } from '@/shared/models/driver';
 import { Team } from '@/shared/models/team';
 import { Service } from '@angular/core';
 
 export type TeamWithStats = Team & {
   championshipsCount: number;
   carsCount: number;
+  driversCount: number;
   tags: Set<string>;
   startYear: number | null;
   endYear: number | null;
@@ -13,7 +15,12 @@ export type TeamWithStats = Team & {
 
 @Service()
 export class TeamStatsMapper {
-  getTeamWithStats(team: Team, cars: Car[], championships: Championship[]): TeamWithStats {
+  getTeamWithStats(
+    team: Team,
+    cars: Car[],
+    championships: Championship[],
+    drivers: Driver[],
+  ): TeamWithStats {
     const teamCars = cars.filter((car) => car.team_name === team.name);
     const teamChampionshipsSet = new Set(
       teamCars
@@ -23,12 +30,14 @@ export class TeamStatsMapper {
         .flat(),
     );
     const teamChampionships = Array.from(teamChampionshipsSet);
+    const teamDrivers = drivers.filter((driver) => driver.team_name === team.name);
 
     if (teamChampionships.length === 0 || teamCars.length === 0) {
       return {
         ...team,
         championshipsCount: 0,
         carsCount: 0,
+        driversCount: teamDrivers.length,
         tags: new Set<string>(),
         startYear: null,
         endYear: null,
@@ -56,6 +65,7 @@ export class TeamStatsMapper {
       ...team,
       championshipsCount: teamChampionships.length,
       carsCount: teamCars.length,
+      driversCount: teamDrivers.length,
       tags: tagsSet,
       startYear: startYear,
       endYear: endYear,

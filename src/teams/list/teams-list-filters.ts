@@ -1,5 +1,6 @@
 import { CarRepository } from '@/db/car-repository';
 import { ChampionshipRepository } from '@/db/championship-repository';
+import { DriverRepository } from '@/db/driver-repository';
 import { TeamRepository } from '@/db/team-repository';
 import { computed, inject, linkedSignal, resource, Service } from '@angular/core';
 import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
@@ -11,6 +12,7 @@ export class TeamsListFilters {
   private readonly teamRepository = inject(TeamRepository);
   private readonly championshipRepository = inject(ChampionshipRepository);
   private readonly carRepository = inject(CarRepository);
+  private readonly driverRepository = inject(DriverRepository);
   private readonly teamStatsMapper = inject(TeamStatsMapper);
 
   private readonly cars = resource({
@@ -20,11 +22,19 @@ export class TeamsListFilters {
   private readonly championships = toSignal(this.championshipRepository.getAllChampionships(), {
     initialValue: [],
   });
+  private readonly drivers = toSignal(this.driverRepository.getAllDrivers(), {
+    initialValue: [],
+  });
   private readonly teams = toSignal(this.teamRepository.getAllTeams(), { initialValue: [] });
 
   protected readonly teamsWithStats = computed(() =>
     this.teams().map((team) =>
-      this.teamStatsMapper.getTeamWithStats(team, this.cars.value(), this.championships()),
+      this.teamStatsMapper.getTeamWithStats(
+        team,
+        this.cars.value(),
+        this.championships(),
+        this.drivers(),
+      ),
     ),
   );
 
@@ -60,6 +70,7 @@ export class TeamsListFilters {
     tag: new FormControl(''),
     championshipsCount: new FormControl<number | null>(null),
     carsCount: new FormControl<number | null>(null),
+    driversCount: new FormControl<number | null>(null),
     startYear: new FormControl<number | null>(null),
     endYear: new FormControl<number | null>(null),
   });
@@ -80,6 +91,7 @@ export class TeamsListFilters {
     const tagFilter = this.form.controls.tag.value || '';
     const championshipsCountFilter = this.form.controls.championshipsCount.value;
     const carsCountFilter = this.form.controls.carsCount.value;
+    const driversCountFilter = this.form.controls.driversCount.value;
     const startYearFilter = this.form.controls.startYear.value;
     const endYearFilter = this.form.controls.endYear.value;
 
@@ -96,6 +108,9 @@ export class TeamsListFilters {
     }
     if (carsCountFilter !== null) {
       filtered = filtered.filter((team) => team.carsCount === carsCountFilter);
+    }
+    if (driversCountFilter !== null) {
+      filtered = filtered.filter((team) => team.driversCount === driversCountFilter);
     }
     if (startYearFilter !== null) {
       filtered = filtered.filter((team) => team.startYear === startYearFilter);

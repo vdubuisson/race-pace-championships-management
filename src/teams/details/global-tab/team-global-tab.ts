@@ -1,5 +1,6 @@
 import { CarRepository } from '@/db/car-repository';
 import { ChampionshipRepository } from '@/db/championship-repository';
+import { DriverRepository } from '@/db/driver-repository';
 import { PercentChartCard } from '@/shared/components/percent-chart-card/percent-chart-card';
 import { Team } from '@/shared/models/team';
 import { TeamStatsMapper } from '@/teams/team-stats-mapper/team-stats-mapper';
@@ -36,6 +37,7 @@ import { TuiCardLarge, TuiCardMedium, TuiHeader, TuiItemGroup } from '@taiga-ui/
 export default class TeamGlobalTab {
   private readonly carRepository = inject(CarRepository);
   private readonly championshipRepository = inject(ChampionshipRepository);
+  private readonly driverRepository = inject(DriverRepository);
   private readonly teamStatsMapper = inject(TeamStatsMapper);
 
   readonly team = input.required<Team>();
@@ -52,11 +54,18 @@ export default class TeamGlobalTab {
     defaultValue: [],
   });
 
+  private readonly teamDrivers = resource({
+    params: () => this.team().name,
+    loader: ({ params: teamName }) => this.driverRepository.getDriversByTeamName(teamName),
+    defaultValue: [],
+  });
+
   protected readonly teamWithStats = computed(() =>
     this.teamStatsMapper.getTeamWithStats(
       this.team(),
       this.teamCars.value(),
       this.teamChampionships.value(),
+      this.teamDrivers.value(),
     ),
   );
 

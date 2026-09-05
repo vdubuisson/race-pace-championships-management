@@ -1,10 +1,11 @@
 import { canLeaveFormGuard } from '@/shared/guards/can-leave-form/can-leave-form-guard';
 import { Routes } from '@angular/router';
 import { championshipCarsResolver } from './details/resolvers/championship-cars-resolver';
+import { championshipDriversResolver } from './details/resolvers/championship-drivers-resolver';
 import { championshipEventsResolver } from './details/resolvers/championship-events-resolver';
+import { championshipLiveriesResolver } from './details/resolvers/championship-liveries-resolver';
 import { championshipResolver } from './details/resolvers/championship-resolver';
 import { ChampionshipsListPage } from './list/championships-list-page';
-import { championshipLiveriesResolver } from './details/resolvers/championship-liveries-resolver';
 
 export default [
   { path: '', pathMatch: 'full', component: ChampionshipsListPage },
@@ -28,6 +29,11 @@ export default [
         path: 'cars',
         loadComponent: () => import('./details/cars-tab/championship-cars-tab'),
         resolve: { cars: championshipCarsResolver, liveries: championshipLiveriesResolver },
+      },
+      {
+        path: 'drivers',
+        loadComponent: () => import('./details/drivers-tab/championship-drivers-tab'),
+        resolve: { drivers: championshipDriversResolver },
       },
       { path: '**', redirectTo: 'global' },
     ],

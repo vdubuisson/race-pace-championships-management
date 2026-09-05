@@ -1,0 +1,12 @@
+@for (category of championship().categories; track category) {
+  @let categoryDrivers = driversByCategory().get(category) ?? [];
+  <h2 tuiHeader class="tab-header">
+    <span>{{ category | vehicleClassName }}</span>
+  </h2>
+
+  <div class="drivers-list">
+    @for (driver of categoryDrivers; track driver.id) {
+      <app-driver-card [driver]="driver" mode="team" />
+    }
+  </div>
+}

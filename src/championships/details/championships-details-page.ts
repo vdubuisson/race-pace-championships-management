@@ -25,6 +25,7 @@ export default class ChampionshipsDetailsPage {
     { label: 'Global', url: 'global', icon: '@tui.info' },
     { label: 'Events', url: 'events', icon: '@tui.calendars' },
     { label: 'Cars', url: 'cars', icon: '@tui.car' },
+    { label: 'Drivers', url: 'drivers', icon: '@tui.id-card-lanyard' },
   ];
 
   async deleteChampionship(): Promise<void> {

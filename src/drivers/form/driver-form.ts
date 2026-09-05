@@ -1,10 +1,15 @@
+import { PercentInput } from '@/shared/components/percent-input/percent-input';
 import { COUNTRIES, Country } from '@/shared/constants/countries';
 import { Driver } from '@/shared/models/driver';
 import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
+import { VehicleClassModPipe } from '@/shared/pipes/vehicle-class-mod/vehicle-class-mod-pipe';
+import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
+import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { Component, computed, effect, inject, input, signal } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
+import { TuiDay } from '@taiga-ui/cdk';
 import {
   TuiButton,
   TuiDataList,
@@ -15,7 +20,6 @@ import {
   TuiIcon,
   TuiInput,
   TuiNotificationService,
-  TuiScrollable,
   TuiScrollControls,
   TuiScrollRef,
   TuiTitle,
@@ -34,11 +38,6 @@ import {
 } from '@taiga-ui/kit';
 import { TuiForm, TuiHeader } from '@taiga-ui/layout';
 import { DriverFormManager } from './driver-form-manager';
-import { TuiDay } from '@taiga-ui/cdk';
-import { PercentInput } from '@/shared/components/percent-input/percent-input';
-import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
-import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
-import { VehicleClassModPipe } from '@/shared/pipes/vehicle-class-mod/vehicle-class-mod-pipe';
 
 @Component({
   selector: 'app-driver-form',

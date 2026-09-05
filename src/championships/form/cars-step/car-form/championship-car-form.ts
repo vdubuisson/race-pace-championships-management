@@ -12,7 +12,8 @@ import {
   TuiFilterByInputOptions,
   TuiFilterByInputPipe,
   TuiPopup,
-  TuiScrollable,
+  TuiScrollControls,
+  TuiScrollRef,
   TuiTitle,
 } from '@taiga-ui/core';
 import {
@@ -47,7 +48,8 @@ type TeamWithCarsCount = Team & { cars: number };
     TuiForm,
     TuiHeader,
     TuiPopup,
-    TuiScrollable,
+    TuiScrollControls,
+    TuiScrollRef,
     TuiSwitch,
     TuiTitle,
   ],

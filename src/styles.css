@@ -24,8 +24,8 @@ body {
 tui-dropdown {
   max-height: 600px !important;
 
-  .t-content.t-content_delegated {
-    min-inline-size: 0;
+  .t-content {
+    min-inline-size: 0 !important;
   }
 }
 

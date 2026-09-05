@@ -25,7 +25,7 @@
             @let liveryItems = filteredAvailableLiveries() | tuiFilterByInput: filterLiveryByInput;
 
             <cdk-virtual-scroll-viewport
-              tuiScrollable
+              tuiScrollRef
               class="scroll"
               [itemSize]="liveryItemHeight"
               [style.height.px]="
@@ -33,6 +33,7 @@
                 liveryItemHeight
               "
             >
+              <tui-scroll-controls />
               <button
                 tuiOption
                 type="button"

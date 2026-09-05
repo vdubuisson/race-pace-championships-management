@@ -2,7 +2,16 @@ import { Championship } from '@/shared/models/championship';
 import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
 import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
 import { NgTemplateOutlet, SlicePipe } from '@angular/common';
-import { Component, computed, effect, inject, input, output, signal } from '@angular/core';
+import {
+  Component,
+  computed,
+  effect,
+  inject,
+  input,
+  linkedSignal,
+  output,
+  signal,
+} from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import { TuiTable, TuiTablePagination, TuiTablePaginationEvent } from '@taiga-ui/addon-table';
@@ -25,6 +34,7 @@ import {
 } from '@taiga-ui/kit';
 import { TuiItemGroup } from '@taiga-ui/layout';
 import { ChampionshipsTableFilters, ChampionshipWithConflict } from './championships-table-filters';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-championships-table',
@@ -116,6 +126,9 @@ export class ChampionshipsTable {
       this.checkedIds.update((ids) => ids.filter((id) => filteredIds.includes(id)));
     });
     effect(() => this.selectedIds.emit(this.checkedIds()));
+    this.filters.form.valueChanges.pipe(takeUntilDestroyed()).subscribe(() => {
+      this.pageIndex.set(0);
+    });
   }
 
   protected onPagination(event: TuiTablePaginationEvent) {

@@ -23,6 +23,10 @@ body {
 
 tui-dropdown {
   max-height: 600px !important;
+
+  .t-content {
+    min-inline-size: 0 !important;
+  }
 }
 
 [tuiTheme='light'] tui-loader.more-visible .t-loader .t-text {

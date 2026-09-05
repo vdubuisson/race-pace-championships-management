@@ -16,6 +16,7 @@ import {
   signal,
   WritableSignal,
 } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { maskitoParseTime } from '@maskito/kit';
 import { TuiTime } from '@taiga-ui/cdk/date-time';
@@ -29,7 +30,8 @@ import {
   TuiInput,
   TuiLabel,
   TuiPopup,
-  TuiScrollable,
+  TuiScrollControls,
+  TuiScrollRef,
   TuiTextfield,
   TuiTitle,
 } from '@taiga-ui/core';
@@ -92,7 +94,8 @@ import { TuiForm, TuiHeader } from '@taiga-ui/layout';
     TuiInputTime,
     TuiLabel,
     TuiPopup,
-    TuiScrollable,
+    TuiScrollControls,
+    TuiScrollRef,
     TuiSelect,
     TuiSwitch,
     TuiTextfield,
@@ -113,6 +116,15 @@ export class ChampionshipEventForm {
   protected readonly trackItemHeight = 84;
   protected readonly trackItemCount = 5;
 
+  protected readonly eventTypeOptions = [
+    'time',
+    'laps',
+    'distance (miles)',
+    'distance (km)',
+  ] as const;
+
+  protected readonly eventDurationPostfix = signal(' min');
+
   protected readonly eventForm = new FormGroup({
     track: new FormControl<Track | null>(null, {
       validators: [Validators.required],
@@ -130,7 +142,7 @@ export class ChampionshipEventForm {
       validators: [Validators.required, Validators.min(1), Validators.max(4)],
     }),
     mandatory: new FormControl(false, { nonNullable: true }),
-    type: new FormControl<RaceEventType>('time', {
+    type: new FormControl<(typeof this.eventTypeOptions)[number]>('time', {
       nonNullable: true,
       validators: [Validators.required],
     }),
@@ -202,6 +214,22 @@ export class ChampionshipEventForm {
         this.eventForm.reset();
       }
     });
+    this.eventForm.controls.type.valueChanges.pipe(takeUntilDestroyed()).subscribe((type) => {
+      switch (type) {
+        case 'time':
+          this.eventDurationPostfix.set(' min');
+          break;
+        case 'laps':
+          this.eventDurationPostfix.set(' laps');
+          break;
+        case 'distance (miles)':
+          this.eventDurationPostfix.set(' mi');
+          break;
+        case 'distance (km)':
+          this.eventDurationPostfix.set(' km');
+          break;
+      }
+    });
   }
 
   protected toggleChipFilter(filters: WritableSignal<string[]>, value: string): void {
@@ -225,13 +253,44 @@ export class ChampionshipEventForm {
         month: formValue.month,
         week_end: formValue.week_end,
         mandatory: formValue.mandatory,
-        type: formValue.type,
-        duration: formValue.duration,
+        type: this.getEventType(formValue.type!),
+        duration: this.getEventDuration(
+          formValue.duration!,
+          formValue.type!,
+          formValue.track!.length,
+        ),
         start_time: formValue.start_time ?? null,
       } as RaceEvent);
       this.eventForm.reset();
     } else {
       this.eventForm.markAllAsTouched();
+    }
+  }
+
+  private getEventType(formType: (typeof this.eventTypeOptions)[number]): RaceEventType {
+    switch (formType) {
+      case 'time':
+        return 'time';
+      case 'laps':
+      case 'distance (miles)':
+      case 'distance (km)':
+        return 'laps';
+    }
+  }
+
+  private getEventDuration(
+    formDuration: number,
+    formType: (typeof this.eventTypeOptions)[number],
+    trackLength: number,
+  ): number {
+    switch (formType) {
+      case 'time':
+      case 'laps':
+        return formDuration;
+      case 'distance (miles)':
+        return Math.ceil((formDuration * 1609.34) / trackLength);
+      case 'distance (km)':
+        return Math.ceil((formDuration * 1000) / trackLength);
     }
   }
 }

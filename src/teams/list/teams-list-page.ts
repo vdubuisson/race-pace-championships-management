@@ -25,6 +25,7 @@ import { TuiHeader, TuiItemGroup } from '@taiga-ui/layout';
 import { from, of, switchMap } from 'rxjs';
 import { TeamsService } from '../teams-service/teams-service';
 import { TeamsListFilters } from './teams-list-filters';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-teams-list-page',
@@ -64,6 +65,12 @@ export class TeamsListPage {
   protected totalPages = computed(() =>
     Math.ceil(this.filters.filteredTeams().length / this.pageSize()),
   );
+
+  constructor() {
+    this.filters.form.valueChanges.pipe(takeUntilDestroyed()).subscribe(() => {
+      this.pageIndex.set(0);
+    });
+  }
 
   onPagination(event: TuiTablePaginationEvent) {
     this.pageIndex.set(event.page);

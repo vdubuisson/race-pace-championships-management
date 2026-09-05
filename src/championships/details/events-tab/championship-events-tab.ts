@@ -15,6 +15,20 @@ export default class ChampionshipEventsTab {
   readonly championship = input.required<Championship>();
   readonly events = input.required<RaceEventWithTrack[]>();
 
+  protected readonly sortedEvents = computed(() =>
+    this.events().toSorted((a, b) => {
+      if (a.month !== b.month) {
+        return a.month - b.month;
+      }
+
+      if (a.week_end !== b.week_end) {
+        return a.week_end - b.week_end;
+      }
+
+      return a.id! - b.id!;
+    }),
+  );
+
   readonly mandatoryEventsCount = computed(
     () => this.events().filter((event) => event.mandatory).length,
   );

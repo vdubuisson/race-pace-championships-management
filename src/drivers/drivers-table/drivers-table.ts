@@ -9,6 +9,7 @@ import { TuiTable, TuiTablePagination, TuiTablePaginationEvent } from '@taiga-ui
 import { TuiButton, TuiCell, TuiCheckbox, TuiFilterByInputPipe, TuiInput } from '@taiga-ui/core';
 import { TuiChevron, TuiComboBox, TuiDataListWrapper, TuiInputNumber } from '@taiga-ui/kit';
 import { DriversTableFilters } from './drivers-table-filters';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-drivers-table',
@@ -80,6 +81,9 @@ export class DriversTable {
       this.checkedIds.update((ids) => ids.filter((id) => filteredIds.includes(id)));
     });
     effect(() => this.selectedIds.emit(this.checkedIds()));
+    this.filters.form.valueChanges.pipe(takeUntilDestroyed()).subscribe(() => {
+      this.pageIndex.set(0);
+    });
   }
 
   protected onPagination(event: TuiTablePaginationEvent) {

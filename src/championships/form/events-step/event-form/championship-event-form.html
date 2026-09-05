@@ -145,7 +145,7 @@
           <span>Type</span>
           <tui-textfield tuiChevron [tuiTextfieldCleaner]="false">
             <input tuiSelect [formControl]="eventForm.controls.type" />
-            <tui-data-list-wrapper *tuiDropdown [items]="['laps', 'time']" />
+            <tui-data-list-wrapper *tuiDropdown [items]="eventTypeOptions" />
           </tui-textfield>
         </label>
         <tui-error [formControl]="eventForm.controls.type" />
@@ -157,7 +157,7 @@
             <input
               tuiInputNumber
               [formControl]="eventForm.controls.duration"
-              [postfix]="eventForm.controls.type.value === 'laps' ? ' laps' : ' min'"
+              [postfix]="eventDurationPostfix()"
             />
           </tui-textfield>
         </label>

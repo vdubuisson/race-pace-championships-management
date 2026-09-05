@@ -12,7 +12,7 @@
 </div>
 
 <div class="events-list">
-  @for (event of events(); track event.id) {
+  @for (event of sortedEvents(); track event.id) {
     <app-event-card [event]="event" />
   }
 </div>

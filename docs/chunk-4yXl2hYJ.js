@@ -1,0 +1,1 @@
+import{ai as w}from"./chunk-DS5RVEe6.js";import{y as Fe}from"./chunk-DZlRb8Um.js";import{n as Zi,t as Ai}from"./chunk-DrThXawh.js";var s=r=>r.canDeactivate()||w(Ai).open(Zi,{label:`Abort changes?`,size:`s`,data:{content:`Are you sure you want to leave the form and abort your changes?`,yes:`Yes`,no:`No`,appearance:`primary-destructive`}}).pipe(Fe());export{s as t};

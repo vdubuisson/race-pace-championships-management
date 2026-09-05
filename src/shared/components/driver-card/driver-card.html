@@ -1,0 +1,40 @@
+<div tuiCardLarge="compact" appearance="floating">
+  <header tuiHeader="body-m">
+    <h2 tuiTitle>{{ driver().name }} {{ driver().surname }}</h2>
+  </header>
+  <section>Until {{ driver().end_year }}</section>
+  <footer>
+    @switch (mode()) {
+      @case ('team') {
+        <span
+          appearance="custom"
+          tuiChip
+          [style.background-color]="driver().team_name ?? '' | tuiAutoColor"
+          iconStart="@tui.briefcase-business"
+        >
+          {{ driver().team_name }}
+        </span>
+      }
+      @case ('championship') {
+        <span
+          appearance="custom"
+          tuiChip
+          [style.background-color]="driver().championship_name ?? '' | tuiAutoColor"
+          iconStart="@tui.trophy"
+        >
+          {{ driver().championship_name }}
+        </span>
+      }
+      @case ('category') {
+        <span
+          appearance="custom"
+          tuiChip
+          [style.background-color]="driver().category ?? '' | tuiAutoColor"
+          iconStart="@tui.car"
+        >
+          {{ driver().category ?? '' | vehicleClassName }}
+        </span>
+      }
+    }
+  </footer>
+</div>

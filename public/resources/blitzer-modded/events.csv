@@ -72,6 +72,34 @@ BFGoodrich Langstreckenmeisterschaft,Nordschleife_2020_24hr,37. ADAC-Barbarossap
 BFGoodrich Langstreckenmeisterschaft,Nordschleife_2020_24hr,29. DMV-250 Meilen Rennen,10,1,TRUE,time,240,12:00
 BFGoodrich Langstreckenmeisterschaft,Nordschleife_2020_24hr,30. DMV-Münsterlandpokal,10,3,TRUE,time,240,12:00
 BFGoodrich Langstreckenmeisterschaft,Nordschleife_2020_24hr,30. DMV-4-Stunden Rennen,11,1,TRUE,time,240,12:00
+BPR Global GT Series,Jerez_Standard,4 Hours of Jerez,2,4,FALSE,time,240,17:00
+BPR Global GT Series,Daytona_Nascar_Road_Course,4 Hours of Daytona,3,1,FALSE,time,240,10:00
+BPR Global GT Series,Monza_1991,4 Hours of Monza,3,4,FALSE,time,240,14:00
+BPR Global GT Series,GoianiaMixed,4 Hours of Goiania,4,2,FALSE,time,240,16:00
+BPR Global GT Series,Jacarepagua_SCB,3 Hours of Jacarepaguá,4,3,FALSE,time,180,09:00
+BPR Global GT Series,Cordoba_International,4 Hours of Córdoba,5,1,FALSE,time,240,08:00
+BPR Global GT Series,Buenos_Aires_Circuito_6,4 Hours of Buenos Aires,5,2,FALSE,time,240,14:00
+BPR Global GT Series,Donington_GP,4 Hours of Donington,5,4,FALSE,time,240,15:00
+BPR Global GT Series,Hockenheim_1988,4 Hours of Hockenheim,6,2,FALSE,time,240,14:00
+BPR Global GT Series,Nurb_GP_2020_Veedol,4 Hours of Nürburgring,6,3,FALSE,time,240,16:00
+BPR Global GT Series,Road_Atlanta_2005,4 Hours of Atlanta,6,4,FALSE,time,240,12:00
+BPR Global GT Series,Pocono_RC3,4 Hours of Pocono,7,1,FALSE,time,240,10:00
+BPR Global GT Series,Zolder,Zolder 500 km,7,2,FALSE,laps,125,16:00
+BPR Global GT Series,Spa_Francorchamps_1993,4 Hours of Spa,7,3,FALSE,time,240,15:00
+BPR Global GT Series,Hungaroring_GP_2025,Budapest 500 km,7,4,FALSE,laps,115,10:00
+BPR Global GT Series,Spielberg_2001,Zeltweg 4 Hours,8,1,FALSE,time,240,12:00
+BPR Global GT Series,Kansai_GP,1000km of Suzuka,8,4,FALSE,laps,173,15:00
+BPR Global GT Series,BrandsHatch_GP,Gulf Oil Global GT Endurance,9,1,FALSE,time,240,10:00
+BPR Global GT Series,Silverstone_1991,British Empire Trophy,9,2,FALSE,time,240,14:00
+BPR Global GT Series,CadwellPark,4 Hours of Cadwell,9,3,FALSE,time,240,10:00
+BPR Global GT Series,Mugello_GP,4 Hours of Mugello,9,4,FALSE,time,240,08:00
+BPR Global GT Series,Watkins_Glen_GP,Bosch Sportscar Oktoberfest,10,1,FALSE,laps,149,09:00
+BPR Global GT Series,Road_America_RC,500 miles of America,10,2,FALSE,laps,124,16:00
+BPR Global GT Series,Sebring,Sebring 3 Hours,10,3,FALSE,time,180,15:00
+BPR Global GT Series,Laguna_Seca_2020,Laguna Seca 3 Hours,10,4,FALSE,time,180,14:00
+BPR Global GT Series,Bathurst_2020,4 Hours of Bathurst,11,1,FALSE,time,240,13:00
+BPR Global GT Series,Watkins_Glen_S,4 Hours of Watkins,11,2,FALSE,time,240,16:00
+BPR Global GT Series,CuritibaInternacional,2 Hours of Curitiba,12,1,FALSE,time,120,12:00
 Brazil Karting Club,Speedland3,Speedland Indoor Weekend,4,1,TRUE,laps,10,
 Brazil Karting Club,Speedland4,Speedland Outdoor Weekend,5,1,TRUE,laps,10,
 Brazil Karting Club,Speedland2,Speedland Mixed Weekend,6,1,TRUE,laps,10,
@@ -223,17 +251,68 @@ F1600,Daytona_Road_Course,Tri-Oval Tussle,6,3,TRUE,time,25,
 F1600,Virginia_South,Piedmont Pursuit,7,2,TRUE,time,25,
 F1600,Watkins_Glen_S,Finger Lakes Flyer,8,3,TRUE,time,25,
 F1600,Road_America_RC,The Kettle Moraine Cup,9,1,TRUE,laps,13,
+FIA GT Championship,Kyalami_2019,Super Racing Weekend Kyalami,2,2,FALSE,laps,111,14:00
+FIA GT Championship,CuritibaInternacional,Super Racing Weekend Curitiba,2,3,FALSE,laps,136,13:00
+FIA GT Championship,Brno_GP,Super Racing Weekend Brno,3,1,FALSE,laps,93,15:00
 FIA GT Championship,Circuit_de_Catalunya_GP,Barcelona Supercar 500,3,3,FALSE,laps,106,11:00
+FIA GT Championship,Cordoba_GP,Super Racing Weekend Córdoba,3,4,FALSE,laps,124,12:00
+FIA GT Championship,Cascais,Estoril 500 km,4,1,FALSE,laps,120,16:00
 FIA GT Championship,Monza_2005,Monza Supercar 500,4,2,FALSE,laps,87,12:00
+FIA GT Championship,Barcelona_GP_2001,Super Racing Weekend Barcelona,4,2,FALSE,laps,106,16:00
+FIA GT Championship,Monza_2005,Trofeo Mario Angiolini,4,3,FALSE,laps,87,14:00
+FIA GT Championship,Silverstone_2001,Days of Thunder Silverstone,5,1,FALSE,laps,98,10:00
 FIA GT Championship,Silverstone_2001_International,Tourist Trophy,5,2,FALSE,laps,139,11:00
+FIA GT Championship,Hockenheim_GP,Super Racing Weekend Hockenheim,5,2,FALSE,laps,110,09:00
+FIA GT Championship,Adelaide_Modern,Super Racing Weekend Adelaide,5,3,FALSE,laps,156,12:00
 FIA GT Championship,Imola_GP_2005,Imola Supercar 500,5,4,FALSE,laps,102,11:00
+FIA GT Championship,Mugello_GP,Super Racing Weekend Mugello,5,4,FALSE,laps,96,14:00
+FIA GT Championship,Pocono_RC3,Pocono 200,6,1,FALSE,laps,81,15:00
 FIA GT Championship,Donington_GP,Donington Supercar 500,6,3,FALSE,laps,125,11:00
+FIA GT Championship,Spielberg_2001,500 km A1-Ring,6,4,FALSE,laps,116,12:00
+FIA GT Championship,Hungaroring_GP_2025,MOL FIA GT Hungaroring,7,1,FALSE,laps,115,10:00
+FIA GT Championship,Jacarepagua_SCB,Super Racing Weekend Jacarepaguá,7,2,FALSE,laps,152,11:00
+FIA GT Championship,Zolder,Super Racing Weekend Zolder,7,3,FALSE,laps,125,14:00
 FIA GT Championship,Spa_Francorchamps_2005_EC,Spa 24 Hours,7,4,TRUE,time,1440,16:00
+FIA GT Championship,Spa_Francorchamps_2005_EC,Proximus Spa 24 Hours,8,1,FALSE,time,1440,16:00
 FIA GT Championship,Hockenheim_GP,Hockenheim Supercar 500,8,2,FALSE,laps,110,11:00
+FIA GT Championship,Jerez_GP2019,Super Racing Weekend Jerez,8,2,FALSE,laps,113,08:00
+FIA GT Championship,Road_America_RC,Super Racing Weekend America,8,3,FALSE,laps,77,14:00
 FIA GT Championship,Spielberg_2001,A1-Ring Supercar 500,8,4,FALSE,laps,116,12:00
+FIA GT Championship,Road_Atlanta_2005,Super Racing Weekend Atlanta,8,4,FALSE,laps,123,14:00
+FIA GT Championship,Imola_GP_2001,Super Racing Weekend Imola,9,1,FALSE,laps,102,15:00
 FIA GT Championship,Cascais,Estoril Supercar 500,9,2,FALSE,laps,120,10:00
+FIA GT Championship,Nurb_GP_2020_Veedol,Super Racing Weekend Nürburgring,9,2,FALSE,laps,98,18:00
 FIA GT Championship,Nurb_GP_2020,Nürburgring Supercar 500,9,3,FALSE,laps,98,11:00
+FIA GT Championship,Virginia_Full,Super Racing Weekend Virginia,9,3,FALSE,laps,96,12:00
+FIA GT Championship,CadwellPark,Super Racing Weekend Cadwell,9,4,FALSE,laps,143,14:00
 FIA GT Championship,Hungaroring_GP_2025,Budapest Supercar 500,10,1,FALSE,laps,115,13:00
+FIA GT Championship,Donington_GP,Super Racing Weekend Donington,10,1,FALSE,laps,125,08:00
+FIA GT Championship,OultonPark_Classic,Super Racing Weekend Oulton,10,2,FALSE,laps,117,10:00
+FIA GT Championship,Sebring,Super Racing Weekend Sebring,10,3,FALSE,laps,86,11:00
+FIA GT Championship,Dubai_Autodrome_GP,Super Racing Weekend Dubai,10,4,FALSE,laps,94,12:00
+FIA GT Championship,Fontana_SCC,Super Racing Weekend Fontana,11,1,FALSE,laps,156,13:00
+FIA GT Championship,Montreal_Modern,Super Racing Weekend Montréal,11,2,FALSE,laps,115,16:00
+FIA GT Championship,GoianiaMixed,Super Racing Weekend Goiânia,11,3,FALSE,laps,131,14:00
+FIA GT Championship,Buenos_Aires_Circuito_15,Super Racing Weekend Buenos Aires,11,4,FALSE,laps,85,16:00
+FIA GT1 World Championship,Nurb_GP_2020_Veedol,Blancpain Race Weekends Nürburgring,3,2,FALSE,time,60,14:00
+FIA GT1 World Championship,OultonPark_Island,Oulton Park GT1 Weekend,4,1,FALSE,time,60,13:00
+FIA GT1 World Championship,Virginia_Full,Virginia Super GT1,4,3,FALSE,time,60,15:00
+FIA GT1 World Championship,Silverstone_GP,Silverstone Supercar,5,1,FALSE,time,60,12:00
+FIA GT1 World Championship,Brno_GP,Brno GT1,5,4,FALSE,time,60,16:00
+FIA GT1 World Championship,Hockenheim_National,Hockenheim GT1,6,2,FALSE,time,60,16:00
+FIA GT1 World Championship,Monza_2020_Junior,GT1 Supercar Monza,6,3,FALSE,time,60,14:00
+FIA GT1 World Championship,Road_America_RC,GT1 Road America,7,1,FALSE,time,60,10:00
+FIA GT1 World Championship,Zolder,Zolder Supercar,7,2,FALSE,time,60,09:00
+FIA GT1 World Championship,Mosport,Mosport Super GT1,7,3,FALSE,time,60,12:00
+FIA GT1 World Championship,Laguna_Seca_2020,Laguna Seca Supercar,7,4,FALSE,time,60,14:00
+FIA GT1 World Championship,Spa_Francorchamps_2020,24 Hours of Spa,8,1,FALSE,time,1440,16:00
+FIA GT1 World Championship,Nurb_GP_2020,GT1 WM Nürburgring,8,4,FALSE,time,60,12:00
+FIA GT1 World Championship,Donington_GP,Donington FIA GT1 World Championship,9,2,FALSE,time,60,10:00
+FIA GT1 World Championship,Cascais,GT1 World Estoril,9,3,TRUE,time,60,11:00
+FIA GT1 World Championship,Indianapolis_2001_RC,Indianapolis Super GT1,10,4,TRUE,time,60,14:00
+FIA GT1 World Championship,Kansai_GP,GT1 Suzuka,11,2,FALSE,time,60,16:00
+FIA GT1 World Championship,Interlagos_GP,GT1 Interlagos,11,4,FALSE,time,60,08:00
+FIA GT1 World Championship,Buenos_Aires_Circuito_15,Buenos Aires Super GT1,12,1,FALSE,time,60,14:00
 Fiat Uno ASM,Buenos_Aires_Circuito_6,Autódromo Oscar y Juan Gálvez,3,1,FALSE,time,30,
 Fiat Uno ASM,Cordoba_GP,Autódromo Oscar Cabalén,4,2,FALSE,time,30,
 Fiat Uno ASM,Buenos_Aires_Circuito_8,Autódromo Oscar y Juan Gálvez,5,1,FALSE,time,30,
@@ -1027,6 +1106,40 @@ Intercontinental GT Challenge,Nordschleife_2025_24hr,24h Nürburgring,5,3,TRUE,t
 Intercontinental GT Challenge,Spa_Francorchamps_2022,24 Hours of Spa,6,4,TRUE,time,1440,16:30
 Intercontinental GT Challenge,Kansai_GP,Suzuka 1000km,9,2,TRUE,laps,172,12:50
 Intercontinental GT Challenge,Indianapolis_2022_RC,Indianapolis 8 Hour,10,2,TRUE,time,480,12:20
+International Championship for GT Manufacturers,Buenos_Aires_Circuito_15,Buenos Aires 3 Hours,2,1,FALSE,time,180,08:00
+International Championship for GT Manufacturers,Daytona_Road_Course,Daytona Continental 3 Hours,2,3,TRUE,time,180,15:00
+International Championship for GT Manufacturers,Sebring,Sebring 3 Hours,3,2,FALSE,time,180,13:00
+International Championship for GT Manufacturers,Sebring,Sebring 12 Hours,3,3,TRUE,time,720,10:00
+International Championship for GT Manufacturers,Monza_1971_Junior,Monza Sprint,4,2,FALSE,time,60,
+International Championship for GT Manufacturers,Nurb_1971_Suds,Südschleife 3 Hours,4,4,FALSE,time,180,
+International Championship for GT Manufacturers,Nurb_1971_Nords,ADAC 1000 km Rennen Nürburgring,5,2,TRUE,laps,44,
+International Championship for GT Manufacturers,Le_Mans_24h_2005,24 Heures du Mans,5,4,TRUE,time,1440,16:00
+International Championship for GT Manufacturers,Le_Mans_Circuit_Bugatti,3 Heures du Mans,6,2,FALSE,time,180,
+International Championship for GT Manufacturers,OultonPark_Island,Oulton Park 3 Hours,6,3,FALSE,time,180,15:00
+International Championship for GT Manufacturers,Nurb_1971_Nords,International ADAC 500 km Nürburgring,7,1,TRUE,laps,22,11:00
+International Championship for GT Manufacturers,Spa_Francorchamps_1970_1000km,Grand Prix Spa 1000 km,7,3,TRUE,laps,71,13:00
+International Championship for GT Manufacturers,Imola_GP_1972,Gran Premio Shell Coppa Bologna,8,1,FALSE,laps,100,
+International Championship for GT Manufacturers,OultonPark_International,RAC Senior Service Tourist Trophy,8,3,FALSE,time,180,15:00
+International Championship for GT Manufacturers,BrandsHatch_GP,BOAC 500 6 Hours,8,4,FALSE,time,360,
+International Championship for GT Manufacturers,Monza_1971,Monza 3 Hours,9,1,FALSE,time,180,16:00
+International Championship for GT Manufacturers,Mugello_GP,Mugello 3 Hours,9,2,FALSE,time,180,
+International Championship for GT Manufacturers,Monza_1971,Coppa Inter-Europea/1000 km Monza,9,3,FALSE,laps,174,
+International Championship for GT Manufacturers,Mosport,Mosport 500 km,10,1,FALSE,laps,127,11:00
+International Championship for GT Manufacturers,Watkins_Glen_S,Watkins Glen 3 Hours,10,3,FALSE,time,180,13:00
+International Championship for GT Manufacturers,Interlagos_Historic,Interlagos 500 km,11,1,FALSE,laps,63,15:00
+International Championship for GT Manufacturers,Kansai_Classic,Suzuka 3 Hours,11,3,FALSE,time,180,
+International Championship for GT Manufacturers,Bathurst_1983,Mount Panorama 500 km,12,1,FALSE,laps,81,12:00
+International Championship for Makes,Buenos_Aires_Circuito_15,1000 km of Buenos Aires,2,1,TRUE,laps,169,10:00
+International Championship for Makes,Daytona_Road_Course,24 Hours of Daytona,2,3,TRUE,time,1440,16:00
+International Championship for Makes,Sebring,12 Hours of Sebring,3,3,TRUE,time,720,10:00
+International Championship for Makes,BrandsHatch_GP,BOAC 500 6 Hours,4,1,TRUE,time,360,12:00
+International Championship for Makes,Monza_1971_10k,1000 km of Monza,4,4,TRUE,laps,100,14:00
+International Championship for Makes,Imola_GP_1972,Coppa Bologna,5,1,TRUE,laps,100,15:00
+International Championship for Makes,Nurb_1971_Nords,1000km of Nürburgring,5,3,TRUE,laps,44,14:00
+International Championship for Makes,Spa_Francorchamps_1970_1000km,1000 km of Spa,5,4,TRUE,laps,71,13:00
+International Championship for Makes,Watkins_Glen_S,Watkins Glen 6 Hours,7,2,TRUE,time,360,09:00
+International Championship for Makes,Spielberg_Vintage,1000 km of Zeltweg,8,4,TRUE,laps,170,08:00
+International Championship for Makes,Le_Mans_24h_2005,24 Hours of Le Mans,9,4,TRUE,time,1440,16:00
 Kart Cross World Championship,Tykki_DIRT1,Tykki Kart cross,2,1,FALSE,laps,8,
 Kart Cross World Championship,Ascurra_DIRT,Ascurra Kart cross,3,1,FALSE,laps,8,
 Kart Cross World Championship,Foz_RX,XGames Kart cross,4,1,FALSE,laps,8,
@@ -1713,14 +1826,72 @@ USF2000,Cascais,Estoril Digital Speed Cup,8,2,FALSE,laps,16,
 USF2000,Le_Mans_Circuit_Bugatti,Ontario Street Racers Indy,8,3,FALSE,laps,16,
 USF2000,Daytona_Speedway_Tri_Oval,Daytona Flat-Out Mile,8,4,FALSE,laps,20,
 USF2000,Laguna_Seca_2020,Monterey Velocity GP,9,1,FALSE,laps,18,
-World Endurance Championship,Sebring,Sebring 1812km,3,4,TRUE,time,600,11:00
-World Endurance Championship,Imola_GP_2018,6 Hours of Imola,4,3,TRUE,time,360,
-World Endurance Championship,Spa_Francorchamps_2022,6 Hours of Spa,5,2,TRUE,time,360,
-World Endurance Championship,Le_Mans_24h,24 Hours of Le Mans,6,2,TRUE,time,1440,16:00
-World Endurance Championship,Interlagos_GP,6 Hours of São Paulo,7,2,TRUE,time,360,
-World Endurance Championship,Watkins_Glen_GP,Lone Star Le Mans,9,1,TRUE,time,360,
-World Endurance Championship,Kansai_GP,6 Hours of Suzuka,9,4,TRUE,time,360,
-World Endurance Championship,Monza_2020,8 Hours of Monza,11,1,TRUE,time,480,16:00
+World Championship for Makes,Buenos_Aires_Circuito_15,1000 km of Buenos Aires,2,1,FALSE,laps,169,13:00
+World Championship for Makes,Daytona_Road_Course,24 Hours of Daytona,2,3,FALSE,time,1440,16:00
+World Championship for Makes,Road_Atlanta_2005,Road Atlanta 6 Hours,3,2,FALSE,time,360,14:00
+World Championship for Makes,Sebring,12 Hours of Sebring,3,4,FALSE,time,720,10:00
+World Championship for Makes,BrandsHatch_GP,BOAC 1000 km,4,2,FALSE,laps,256,16:00
+World Championship for Makes,Silverstone_1975,6 Hours of Silverstone,4,3,FALSE,time,360,10:00
+World Championship for Makes,Monza_1971,Trofeo Filippo Caracciolo,4,4,FALSE,laps,174,14:00
+World Championship for Makes,Spa_Francorchamps_1970_1000km,1000 km of Spa,5,1,FALSE,laps,71,15:00
+World Championship for Makes,Imola_GP_1972,1000 km of Imola,5,3,FALSE,laps,200,13:00
+World Championship for Makes,Nurb_1971_Nords,ADAC 1000km of Nürburgring,5,4,TRUE,laps,44,10:00
+World Championship for Makes,Azure_Circuit_2021,Azure 3 Hours,6,1,FALSE,time,180,12:00
+World Championship for Makes,Le_Mans_24h_2005,24 Hours of Le Mans,6,2,FALSE,time,1440,16:00
+World Championship for Makes,Spielberg_Vintage,1000 km of Zeltweg,6,4,FALSE,laps,170,14:00
+World Championship for Makes,Road_America_RC,Pabst 500,7,2,FALSE,laps,124,11:00
+World Championship for Makes,Watkins_Glen_GP,Watkins Glen 6 Hours,7,3,TRUE,time,360,12:00
+World Championship for Makes,Virginia_Full,Virginia 200,7,4,FALSE,laps,62,15:00
+World Championship for Makes,Cascais_1988,Prémio International de Costa do Sol,8,1,FALSE,time,150,16:00
+World Championship for Makes,Hockenheim_1977,Hessen Preis 6 Hours,8,3,FALSE,time,360,08:00
+World Championship for Makes,Mosport,Player's 200 Weekend,9,3,FALSE,laps,51,15:00
+World Championship for Makes,Cordoba_International,3 Hours of Córdoba,10,1,FALSE,time,180,17:00
+World Championship for Makes,Interlagos_Historic,2 Hours of Interlagos,10,2,FALSE,time,120,14:00
+World Championship for Makes,Taruma_Chicane,6 Hours of Tarumã,10,3,FALSE,time,360,14:00
+World Championship for Makes,Kyalami_Historic,6 Hours of Kyalami,11,1,FALSE,time,360,10:00
+World Championship for Makes,Mugello_GP,6 Hours of Mugello,11,2,FALSE,time,360,09:00
+World Championship for Makes,Kansai_Classic,3 Hours of Suzuka,11,3,FALSE,time,180,15:00
+World Endurance Championship,Kyalami_2019,6 Hours of Kyalami,2,2,FALSE,time,360,14:00
+World Endurance Championship,Sebring,Sebring 1812km,3,4,FALSE,time,600,11:00
+World Endurance Championship,Nurb_GP_2025,8 Hours of Nürburgring,4,2,FALSE,time,480,10:00
+World Endurance Championship,Imola_GP_2018,6 Hours of Imola,4,3,FALSE,time,360,14:00
+World Endurance Championship,Silverstone_GP,6 Hours of Silverstone,5,1,FALSE,time,360,14:00
+World Endurance Championship,Spa_Francorchamps_2022,6 Hours of Spa,5,2,FALSE,time,360,11:00
+World Endurance Championship,Le_Mans_24h,24 Heures du Mans,6,2,TRUE,time,1440,16:00
+World Endurance Championship,Cascais,6 Hours of Estoril,6,3,FALSE,time,360,08:00
+World Endurance Championship,Montreal_Modern,6 Hours of Montréal,7,1,FALSE,time,360,12:00
+World Endurance Championship,Interlagos_GP,6 Hours of São Paulo,7,2,FALSE,time,360,14:00
+World Endurance Championship,Circuit_of_the_Americas_GP,Lone Star Le Mans,7,4,FALSE,time,360,14:00
+World Endurance Championship,Virginia_Grand,6 Hours of Virginia,8,1,FALSE,time,360,15:00
+World Endurance Championship,Indianapolis_2022_RC,8 Hours of Indianapolis,8,3,FALSE,time,480,08:00
+World Endurance Championship,Jerez_GP2019,6 Hours of Jerez,9,1,FALSE,time,360,10:00
+World Endurance Championship,Fuji_GP,6 Hours of Fuji,9,4,FALSE,time,360,16:00
+World Endurance Championship,Hockenheim_GP,6 Hours of Hockenheim,10,2,FALSE,time,360,13:00
+World Endurance Championship,Circuit_de_Catalunya_GP,6 Hours of Barcelona,10,3,FALSE,time,360,11:00
+World Endurance Championship,Hungaroring_GP_2025,8 Hours of Hungaroring,10,4,FALSE,time,480,14:00
+World Endurance Championship,Monza_2020,8 Hours of Monza,11,1,FALSE,time,480,16:00
+World Endurance Championship,Termas_Rio_Hondo,6 Hours of Rio Hondo,12,1,FALSE,time,360,10:00
+World Endurance Championship (2023),Sebring,1000 Miles of Sebring,3,2,TRUE,laps,275,08:00
+World Endurance Championship (2023),Cascais,6 Hours of Estoril,4,2,TRUE,time,360,07:00
+World Endurance Championship (2023),Spa_Francorchamps_2022,6 Hours of Spa-Francorchamps,4,4,TRUE,time,360,14:00
+World Endurance Championship (2023),Le_Mans_24h,24 Heures du Mans,6,1,TRUE,time,1440,16:00
+World Endurance Championship (2023),Monza_2020,6 Hours of Monza,7,1,TRUE,time,360,15:00
+World Endurance Championship (2023),Kansai_GP,6 Hours of Suzuka,9,1,TRUE,time,360,17:00
+World Endurance Championship (2023),Watkins_Glen_GPIL,8 Hours of Watkins,11,1,TRUE,time,480,14:00
+World Endurance Championship (LMP),Kyalami_2019,6 Hours of Kyalami,2,2,FALSE,time,360,14:00
+World Endurance Championship (LMP),Buenos_Aires_Circuito_6,6 Hours of Buenos Aires,3,1,FALSE,time,360,10:00
+World Endurance Championship (LMP),Silverstone_GP,6 Hours of Silverstone,4,2,FALSE,time,360,08:00
+World Endurance Championship (LMP),Spa_Francorchamps_2020,6 Hours of Spa-Francorchamps,5,1,TRUE,time,360,16:00
+World Endurance Championship (LMP),Le_Mans_24h,24 Heures du Mans,6,2,TRUE,time,1440,16:00
+World Endurance Championship (LMP),Cascais,6 Hours of Estoril,7,1,FALSE,time,360,07:00
+World Endurance Championship (LMP),Monza_2020,6 Hours of Monza,8,1,FALSE,time,360,10:00
+World Endurance Championship (LMP),Nurb_GP_2020,6 Hours of Nürburgring,8,4,FALSE,time,360,12:00
+World Endurance Championship (LMP),Sebring,1000 Miles of Sebring,9,2,FALSE,laps,275,12:00
+World Endurance Championship (LMP),Circuit_of_the_Americas_GP,6 Hours of Austin,9,3,FALSE,time,360,14:00
+World Endurance Championship (LMP),Fuji_GP,6 Hours of Fuji,10,2,FALSE,time,360,14:00
+World Endurance Championship (LMP),Watkins_Glen_GPIL,1000 Miles of Watkins,11,1,FALSE,laps,290,15:00
+World Endurance Championship (LMP),Fontana_SCC,6 Hours of Fontana,11,3,FALSE,time,360,10:00
+World Endurance Championship (LMP),Interlagos_GP,6 Hours of São Paulo,12,1,FALSE,time,360,08:00
 World Rallycross Championship,Brands Hatch Rallycross,World RX of Great Britain,3,2,FALSE,laps,6,
 World Rallycross Championship,Knockhill_Rallycross,World RX of Scotland,4,1,FALSE,laps,6,
 World Rallycross Championship,Lydden_Hill_Rx,World RX of United Kingdom,4,3,FALSE,laps,6,
@@ -1733,3 +1904,29 @@ World Rallycross Championship,Tykki_RX,World RX of Finland,8,4,FALSE,laps,6,
 World Rallycross Championship,Foz_RX,World RX X Games,9,2,FALSE,laps,6,
 World Rallycross Championship,Ascurra_RX,World RX of Brazil,9,3,FALSE,laps,6,
 World Rallycross Championship,Wildcrest_Rallycross,World RX of South Africa,10,1,FALSE,laps,6,
+World Sports-Prototype Championship,Kyalami_Historic,Castrol 1000 km,2,2,FALSE,laps,248,10:00
+World Sports-Prototype Championship,Cordoba_International,Córdoba Run,2,3,FALSE,laps,219,12:00
+World Sports-Prototype Championship,Brno_GP,Grand Prix CSSR,3,1,FALSE,laps,67,13:00
+World Sports-Prototype Championship,Hockenheim_1988,Duschfrish ADAC,3,3,FALSE,laps,148,14:00
+World Sports-Prototype Championship,Jerez_GP1988,Trofeo Silk Cut,3,4,FALSE,laps,86,10:00
+World Sports-Prototype Championship,Nurb_GP_2020_Veedol,ADAC Kouros Nürburgring,4,1,FALSE,laps,195,14:00
+World Sports-Prototype Championship,Monza_1991,Trofeo Filippo Caracciolo,4,3,FALSE,laps,174,15:00
+World Sports-Prototype Championship,Donington_GP,Wheatcroft Gold Cup,5,1,FALSE,laps,120,12:00
+World Sports-Prototype Championship,Silverstone_1975_No_Chicane,The Pace Petroleum,5,2,FALSE,time,360,14:00
+World Sports-Prototype Championship,Nordschleife_2020,Rudolf Caracciola Wanderpreis,5,4,FALSE,laps,49,13:00
+World Sports-Prototype Championship,Cascais_1988,Grande Prêmio Fortuna,6,1,FALSE,laps,83,16:00
+World Sports-Prototype Championship,Le_Mans_24h_2005,24 Heures du Mans,6,3,TRUE,time,1440,16:00
+World Sports-Prototype Championship,Spielberg_Historic,Hessen Preis,7,1,FALSE,laps,82,13:00
+World Sports-Prototype Championship,Mosport,Budweiser GT,7,3,FALSE,laps,253,15:00
+World Sports-Prototype Championship,Montreal_Historic,Players Ltée Mondial,7,4,FALSE,laps,109,12:00
+World Sports-Prototype Championship,Mugello_GP,Trofeo Banca Toscana,8,1,FALSE,laps,191,09:00
+World Sports-Prototype Championship,Pocono_RC5,200 miles at Pocono,8,2,FALSE,laps,147,08:00
+World Sports-Prototype Championship,Daytona_Road_Course,Daytona Cup,8,3,FALSE,laps,84,14:00
+World Sports-Prototype Championship,Spa_Francorchamps_1993,Trophee Diners Club,9,1,FALSE,laps,145,14:00
+World Sports-Prototype Championship,OultonPark_Classic,Oulton World Sports-Prototype,9,3,FALSE,laps,84,16:00
+World Sports-Prototype Championship,Fuji_GP,WSPC Fuji 6 Hours,10,1,FALSE,time,180,10:00
+World Sports-Prototype Championship,Imola_GP_1988,1000 km Imola,10,2,FALSE,laps,199,14:00
+World Sports-Prototype Championship,BrandsHatch_GP,Shell Oils 1000 km,10,3,FALSE,laps,256,15:00
+World Sports-Prototype Championship,Kansai_GP,WSPC Suzuka 480 km,10,4,FALSE,laps,83,17:00
+World Sports-Prototype Championship,Adelaide_Historic,Lucas Supersprint,11,1,FALSE,laps,265,10:00
+World Sports-Prototype Championship,Ibarra2,Yahuarcocha Resistencia,11,3,FALSE,time,360,13:00

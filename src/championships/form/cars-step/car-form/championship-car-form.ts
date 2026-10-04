@@ -1,3 +1,4 @@
+import { EMPTY_TEAM_NAME } from '@/shared/constants/special-values';
 import { Car } from '@/shared/models/car';
 import { Livery } from '@/shared/models/livery';
 import { Team } from '@/shared/models/team';
@@ -62,6 +63,7 @@ export class ChampionshipCarForm {
   readonly isShown = input.required<boolean>();
   readonly editedCar = input<Partial<Car> | null>(null);
   readonly editedCategory = input<string | null>(null);
+  readonly isInvitational = input<boolean>(false);
 
   readonly formCancel = output<void>();
   readonly formSubmit = output<Partial<Car>>();
@@ -147,6 +149,15 @@ export class ChampionshipCarForm {
         this.carForm.reset();
       }
     });
+
+    effect(() => {
+      if (!this.isInvitational()) {
+        this.carForm.controls.team_name.setValidators([Validators.required]);
+      } else {
+        this.carForm.controls.team_name.clearValidators();
+      }
+      this.carForm.controls.team_name.updateValueAndValidity();
+    });
   }
 
   cancelForm(): void {
@@ -163,7 +174,7 @@ export class ChampionshipCarForm {
         model: formValue.livery!.car_name,
         livery: formValue.livery!.livery_name,
         livery_id: formValue.livery!.livery_id,
-        team_name: formValue.team_name,
+        team_name: this.isInvitational() ? EMPTY_TEAM_NAME : formValue.team_name,
       });
       this.carForm.reset();
     } else {

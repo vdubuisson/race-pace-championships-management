@@ -4,79 +4,48 @@
       {{ car().livery }}
     </h2>
     @if (isMod()) {
-      <aside tuiAccessories>
-        <tui-icon
-          class="mod-icon"
-          icon="@tui.astroid"
-          tuiHint="Car mod"
-          tuiHintAppearance="floating"
-        />
-      </aside>
+    <aside tuiAccessories>
+      <tui-icon class="mod-icon" icon="@tui.astroid" tuiHint="Car mod" tuiHintAppearance="floating" />
+    </aside>
     }
   </header>
   @if (shouldShowModel()) {
-    <section>{{ car().model }}</section>
+  <section>{{ car().model }}</section>
   }
   @if (editable()) {
-    <div class="btn-overlay">
-      <div tuiGroup class="btn-group">
-        <button
-          (click)="edit.emit()"
-          tuiButton
-          iconStart="@tui.pencil"
-          type="button"
-          appearance="info"
-          size="m"
-        >
-          Edit
-        </button>
-        <button
-          (click)="delete.emit()"
-          tuiButton
-          iconStart="@tui.trash-2"
-          type="button"
-          appearance="negative"
-          size="m"
-        >
-          Delete
-        </button>
-      </div>
+  <div class="btn-overlay">
+    <div tuiGroup class="btn-group">
+      <button (click)="edit.emit()" tuiButton iconStart="@tui.pencil" type="button" appearance="info" size="m">
+        Edit
+      </button>
+      <button (click)="delete.emit()" tuiButton iconStart="@tui.trash-2" type="button" appearance="negative" size="m">
+        Delete
+      </button>
     </div>
+  </div>
   }
   <footer>
     @switch (mode()) {
-      @case ('team') {
-        @if (car().team_name) {
-          <span
-            appearance="custom"
-            tuiChip
-            [style.background-color]="car().team_name ?? '' | tuiAutoColor"
-            iconStart="@tui.briefcase-business"
-          >
-            {{ car().team_name }}
-          </span>
-        }
-      }
-      @case ('championship') {
-        <span
-          appearance="custom"
-          tuiChip
-          [style.background-color]="car().championship_name ?? '' | tuiAutoColor"
-          iconStart="@tui.trophy"
-        >
-          {{ car().championship_name }}
-        </span>
-      }
-      @case ('category') {
-        <span
-          appearance="custom"
-          tuiChip
-          [style.background-color]="car().category ?? '' | tuiAutoColor"
-          iconStart="@tui.folder"
-        >
-          {{ car().category ?? '' | vehicleClassName }}
-        </span>
-      }
+    @case ('team') {
+    @if (car().team_name && !hasEmptyTeam()) {
+    <span appearance="custom" tuiChip [style.background-color]="car().team_name ?? '' | tuiAutoColor"
+      iconStart="@tui.briefcase-business">
+      {{ car().team_name }}
+    </span>
+    }
+    }
+    @case ('championship') {
+    <span appearance="custom" tuiChip [style.background-color]="car().championship_name ?? '' | tuiAutoColor"
+      iconStart="@tui.trophy">
+      {{ car().championship_name }}
+    </span>
+    }
+    @case ('category') {
+    <span appearance="custom" tuiChip [style.background-color]="car().category ?? '' | tuiAutoColor"
+      iconStart="@tui.folder">
+      {{ car().category ?? '' | vehicleClassName }}
+    </span>
+    }
     }
   </footer>
 </div>

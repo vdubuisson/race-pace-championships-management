@@ -25,6 +25,7 @@ export default class ChampionshipsDetailsPage {
     { label: 'Global', url: 'global', icon: '@tui.info' },
     { label: 'Events', url: 'events', icon: '@tui.calendars' },
     { label: 'Cars', url: 'cars', icon: '@tui.car' },
+    { label: 'Invitational cars', url: 'invitational-cars', icon: '@tui.ticket-plus' },
     { label: 'Drivers', url: 'drivers', icon: '@tui.id-card-lanyard' },
   ];
 

@@ -15,6 +15,7 @@ import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
 import { AsyncValidatorFn, FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 import { from } from 'rxjs';
 import { ChampionshipsService } from '../championships-service/championships-service';
+import { EMPTY_TEAM_NAME } from '@/shared/constants/special-values';
 
 export type GlobalFormGroup = FormGroup<{
   name: FormControl<string>;
@@ -57,6 +58,11 @@ export class ChampionshipsFormManager {
   });
   readonly championshipEvents = signal<RaceEvent[]>([]);
   readonly championshipCars = signal<Car[]>([]);
+  readonly championshipInvitationalCars = signal<Car[]>([]);
+  readonly championshipAllCars = computed(() => [
+    ...this.championshipCars(),
+    ...this.championshipInvitationalCars(),
+  ]);
   readonly championshipClasses = signal<VehicleClass[]>([]);
   readonly liveriesForSelectedClasses = linkedSignal(() => {
     const selectedCategoriesIds = this.globalForm.controls.categories.value.map((cat) => cat.id);
@@ -101,6 +107,15 @@ export class ChampionshipsFormManager {
         .map((trackId) => this.tracks().find((track) => track.id === trackId)?.garages ?? 0),
     ),
   );
+  readonly maxInvitationalCars = computed(() =>
+    Math.max(
+      this.championshipCars().length,
+      ...this.championshipEvents()
+        .filter((event) => event.invitational)
+        .map((event) => event.track_id)
+        .map((trackId) => this.tracks().find((track) => track.id === trackId)?.garages ?? 0),
+    ) - this.championshipCars().length,
+  );
 
   readonly globalForm: GlobalFormGroup = this.createGlobalForm();
 
@@ -113,8 +128,14 @@ export class ChampionshipsFormManager {
       this.championshipCars().length > 0 &&
       this.championshipCars().length <= this.minTracksGarages(),
   );
+  readonly invitationalCarsFormValid = computed(
+    () =>
+      this.championshipEvents().filter((event) => event.invitational).length === 0 ||
+      (this.championshipInvitationalCars().length > 0 &&
+        this.championshipInvitationalCars().length <= this.maxInvitationalCars()),
+  );
   readonly allFormsValid = computed(
-    () => this.globalFormValid() && this.eventsFormValid() && this.carsFormValid(),
+    () => this.globalFormValid() && this.eventsFormValid() && this.carsFormValid() && this.invitationalCarsFormValid(),
   );
   readonly canSaveAsDraft = signal(this.globalForm.controls.name.valid);
 
@@ -144,6 +165,9 @@ export class ChampionshipsFormManager {
         this.liveriesForSelectedClasses.set(liveries);
 
         this.championshipCars.update((cars) =>
+          cars.filter((car) => selectedCategoriesIds.includes(car.category)),
+        );
+        this.championshipInvitationalCars.update((cars) =>
           cars.filter((car) => selectedCategoriesIds.includes(car.category)),
         );
       });
@@ -201,7 +225,13 @@ export class ChampionshipsFormManager {
       .then((events) => this.championshipEvents.set(events));
     this.carRepository
       .getCarsByChampionshipName(championship.name)
-      .then((cars) => this.championshipCars.set(cars));
+      .then((cars) => {
+        const gridCars = cars.filter((car) => car.team_name !== EMPTY_TEAM_NAME);
+        const invitationalCars = cars.filter((car) => car.team_name === EMPTY_TEAM_NAME);
+
+        this.championshipCars.set(gridCars);
+        this.championshipInvitationalCars.set(invitationalCars);
+      });
   }
 
   async save(asDraft = false): Promise<number> {
@@ -213,7 +243,7 @@ export class ChampionshipsFormManager {
         ...event,
         id: (event.id ?? -1) >= 0 ? event.id : undefined,
       }));
-      const cars = this.championshipCars().map((car) => ({
+      const cars = this.championshipAllCars().map((car) => ({
         ...car,
         id: (car.id ?? -1) >= 0 ? car.id : undefined,
       }));
@@ -314,19 +344,20 @@ export class ChampionshipsFormManager {
     this.globalForm.reset();
     this.championshipEvents.set([]);
     this.championshipCars.set([]);
+    this.championshipInvitationalCars.set([]);
   }
 
   private buildChampionship(asDraft = false): Championship {
     const rawValue = this.globalForm.getRawValue();
 
     const categoriesIds = rawValue.categories
-      .filter((cat) => this.championshipCars().some((car) => car.category === cat.id))
+      .filter((cat) => this.championshipAllCars().some((car) => car.category === cat.id))
       .map((cat) => cat.id);
 
     const hasTrackMods = this.championshipEvents()
       .map((event) => this.tracks().find((track) => track.id === event.track_id))
       .some((track) => track?.is_mod);
-    const hasCarMods = this.championshipCars()
+    const hasCarMods = this.championshipAllCars()
       .map((car) =>
         this.liveriesForSelectedClasses().find(
           (livery) =>
@@ -361,8 +392,8 @@ export class ChampionshipsFormManager {
       id: this.loadedChampionshipId() ?? undefined,
       name: rawValue.name.trim(),
       categories: categoriesIds,
-      field_type: this.championshipCars().every(
-        (car) => car.model === this.championshipCars()[0]?.model,
+      field_type: this.championshipAllCars().every(
+        (car) => car.model === this.championshipAllCars()[0]?.model,
       )
         ? 'identical'
         : null,

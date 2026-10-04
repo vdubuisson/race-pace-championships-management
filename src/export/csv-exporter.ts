@@ -15,6 +15,7 @@ import { inject, Service } from '@angular/core';
 import JSZip from '@progress/jszip-esm';
 import { stringify } from 'csv-stringify/browser/esm/sync';
 import { RelationChecker } from './relation-checker';
+import { EMPTY_TEAM_NAME } from '@/shared/constants/special-values';
 
 @Service()
 export default class CsvExporter {
@@ -123,6 +124,7 @@ export default class CsvExporter {
       .map((groupedCar) => ({
         ...groupedCar,
         championship_names: groupedCar.championship_names.join(','),
+        team_name: groupedCar.team_name === EMPTY_TEAM_NAME ? '' : groupedCar.team_name,
       }))
       .toSorted(
         (a, b) =>
@@ -198,6 +200,7 @@ export default class CsvExporter {
         ...event,
         mandatory: this.toCsvBoolean(event.mandatory),
         start_time: event.start_time ?? '',
+        invitational: this.toCsvBoolean(event.invitational),
       }))
       .toSorted(
         (a, b) =>
@@ -218,6 +221,7 @@ export default class CsvExporter {
         'type',
         'duration',
         'start_time',
+        'invitational',
       ],
     });
   }

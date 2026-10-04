@@ -1,3 +1,4 @@
+import { EMPTY_TEAM_NAME } from '@/shared/constants/special-values';
 import { Car } from '@/shared/models/car';
 import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
 import { Component, computed, input, output } from '@angular/core';
@@ -34,4 +35,5 @@ export class CarCard {
   readonly edit = output<void>();
 
   readonly shouldShowModel = computed(() => !this.car().livery?.includes(this.car().model!));
+  readonly hasEmptyTeam = computed(() => this.car().team_name === EMPTY_TEAM_NAME);
 }

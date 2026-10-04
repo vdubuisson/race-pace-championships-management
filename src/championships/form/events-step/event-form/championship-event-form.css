@@ -11,6 +11,21 @@ fieldset.grid2-1-1 {
   }
 }
 
+fieldset.vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+
+  [tuiCell]:hover {
+    background: none;
+  }
+
+  [tuiTitle] {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+}
+
 .duration-hint {
   margin-block-start: -1rem;
   font: var(--tui-typography-body-xs);

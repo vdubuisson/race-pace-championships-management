@@ -1,3 +1,4 @@
+import { EMPTY_TEAM_NAME } from '@/shared/constants/special-values';
 import { Car, CsvCar } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
 import { Driver } from '@/shared/models/driver';
@@ -20,7 +21,7 @@ type CsvFile = 'cars.csv' | 'championships.csv' | 'drivers.csv' | 'events.csv' |
 
 const EXPECTED_HEADERS: Record<CsvFile, CsvHeader[]> = {
   'cars.csv': [
-    { name: 'team_name', mandatory: true },
+    { name: 'team_name', mandatory: false },
     { name: 'category', mandatory: true },
     { name: 'model', mandatory: true },
     { name: 'livery', mandatory: true },
@@ -89,6 +90,7 @@ const EXPECTED_HEADERS: Record<CsvFile, CsvHeader[]> = {
     { name: 'type', mandatory: true },
     { name: 'duration', mandatory: true },
     { name: 'start_time', mandatory: false },
+    { name: 'invitational', mandatory: false },
   ],
   'teams.csv': [
     { name: 'name', mandatory: true },
@@ -119,6 +121,7 @@ export class CsvParser {
             .map((s) => s.trim())
             .filter((name) => name.length > 0),
           livery_id: this.parseNumber(record['livery_id']),
+          team_name: this.parseString(record['team_name']) ?? EMPTY_TEAM_NAME,
         }) as CsvCar,
     });
 
@@ -211,6 +214,7 @@ export class CsvParser {
           duration: this.parseNumber(record['duration']),
           mandatory: this.parseBoolean(record['mandatory']),
           start_time: this.parseString(record['start_time']),
+          invitational: this.parseBoolean(record['invitational']),
         }) as RaceEvent,
     });
   }

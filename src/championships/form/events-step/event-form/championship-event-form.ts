@@ -151,6 +151,7 @@ export class ChampionshipEventForm {
       validators: [Validators.required, Validators.min(1)],
     }),
     start_time: new FormControl<string | null>(null),
+    invitational: new FormControl(false, { nonNullable: true }),
     no_modded_tracks: new FormControl(false, { nonNullable: true }),
   });
 
@@ -260,6 +261,7 @@ export class ChampionshipEventForm {
           formValue.track!.length,
         ),
         start_time: formValue.start_time ?? null,
+        invitational: formValue.invitational,
       } as RaceEvent);
       this.eventForm.reset();
     } else {

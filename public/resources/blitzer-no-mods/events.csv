@@ -64,6 +64,17 @@ BFGoodrich Langstreckenmeisterschaft,Nordschleife_2020_24hr,37. ADAC-Barbarossap
 BFGoodrich Langstreckenmeisterschaft,Nordschleife_2020_24hr,29. DMV-250 Meilen Rennen,10,1,TRUE,time,240,12:00
 BFGoodrich Langstreckenmeisterschaft,Nordschleife_2020_24hr,30. DMV-Münsterlandpokal,10,3,TRUE,time,240,12:00
 BFGoodrich Langstreckenmeisterschaft,Nordschleife_2020_24hr,30. DMV-4-Stunden Rennen,11,1,TRUE,time,240,12:00
+BMW M1 Procar,Donington_GP,International Procar Meeting,4,4,TRUE,laps,40,15:30
+BMW M1 Procar,Azure_Circuit_2021,Grand Prix Automobile de Monaco,5,1,TRUE,laps,15,10:00
+BMW M1 Procar,OultonPark_International,Oulton Grand Prix,5,2,FALSE,laps,20,10:00
+BMW M1 Procar,CadwellPark,Cadwell Grand Prix,5,3,TRUE,laps,20,10:00
+BMW M1 Procar,BrandsHatch_GP,Great Britain Grand Prix,7,2,FALSE,laps,20,10:00
+BMW M1 Procar,Silverstone_1975,British Grand Prix,7,3,FALSE,laps,20,10:00
+BMW M1 Procar,Hockenheim_1977,Großer Preis von Deutschland,7,4,TRUE,laps,15,10:00
+BMW M1 Procar,Spielberg_Historic,Grand Prix von Österreich,8,2,TRUE,laps,20,10:00
+BMW M1 Procar,Cascais_1988,Grande Prémio de Portugal,8,4,TRUE,laps,20,10:00
+BMW M1 Procar,Monza_1991,Gran Premio d'Italia,9,1,FALSE,laps,20,10:00
+BMW M1 Procar,Imola_GP_1988,Gran Premio di San Marino,9,2,FALSE,laps,20,10:00
 BPR Global GT Series,Jerez_Standard,4 Hours of Jerez,2,4,FALSE,time,240,17:00
 BPR Global GT Series,Daytona_Nascar_Road_Course,4 Hours of Daytona,3,1,FALSE,time,240,10:00
 BPR Global GT Series,Monza_1991,4 Hours of Monza,3,4,FALSE,time,240,14:00
@@ -140,6 +151,36 @@ Campeonato Brasileiro de Endurance,CuritibaInternacional,4 Horas de Curitiba,10,
 Campeonato Brasileiro de Endurance,CampoGrande1,3 Horas de Campo Grande,11,1,FALSE,time,180,
 Campeonato Brasileiro de Endurance,SantaCruzDoSul,3 Horas de Santa Cruz do Sul,11,3,FALSE,time,180,
 Campeonato Brasileiro de Endurance,Londrina_long,6 Horas de Londrina,12,2,TRUE,time,360,
+CART Championship Series,Kansai_GP,Budweiser 500k,3,1,TRUE,laps,130,
+CART Championship Series,Long_Beach,Grand Prix of Long Beach,3,3,TRUE,laps,150,
+CART Championship Series,Jacarepagua_OVAL,IndyCar Rio 400,4,1,TRUE,laps,215,
+CART Championship Series,Adelaide_Historic,Sunbelt Indy Carnival,4,4,TRUE,laps,86,
+CART Championship Series,Gateway_OVAL,Motorola 300,5,2,TRUE,laps,240,
+CART Championship Series,Montreal_Historic_1991,Grand Prix of Montréal,5,4,TRUE,laps,110,
+CART Championship Series,Cleveland_GP,Grand Prix of Cleveland,6,2,TRUE,laps,190,
+CART Championship Series,Road_America_RCB,Texaco/Havoline 200,6,3,TRUE,laps,50,
+CART Championship Series,Laguna_Seca_2020,Grand Prix of Monterey,6,4,TRUE,laps,135,
+CART Championship Series,Fontana_OVAL_Historic,Marlboro 500,7,1,TRUE,laps,250,
+CART Championship Series,Bathurst_2020,Indy Festival,7,3,TRUE,laps,50,
+CART Championship Series,Daytona_Speedway_Tri_Oval,Grand Prix of Daytona,8,1,TRUE,laps,160,
+CART Championship Series,Mosport,Indy Mosport,8,3,TRUE,laps,80,
+CART Championship Series,Pocono_Oval,Pocono 500,9,1,TRUE,laps,200,
+CART Championship Series,Pocono_RC3,Pocono 300,9,2,TRUE,laps,120,
+CART Championship Series,Indianapolis_2001_Oval,Indianapolis 500,9,4,TRUE,laps,200,
+CART Indy Car World Series,Cleveland_GP,Grand Prix of Cleveland,3,1,TRUE,laps,190,
+CART Indy Car World Series,Road_America_RCB,Texaco/Havoline 200,3,2,TRUE,laps,50,
+CART Indy Car World Series,Long_Beach,Grand Prix of Long Beach,3,4,TRUE,laps,150,
+CART Indy Car World Series,Adelaide_Historic,Sunbelt Indy Carnival,4,2,TRUE,laps,86,
+CART Indy Car World Series,Indianapolis_2001_Oval,Indianapolis 500,4,4,TRUE,laps,200,
+CART Indy Car World Series,Montreal_Historic_1991,Grand Prix of Montréal,5,2,TRUE,laps,110,
+CART Indy Car World Series,Laguna_Seca_2020,Kodalux Processing 300K,5,4,TRUE,laps,135,
+CART Indy Car World Series,Jacarepagua_OVAL,IndyCar Rio 400,6,2,TRUE,laps,215,
+CART Indy Car World Series,Bathurst_2020,Indy Festival,7,1,TRUE,laps,50,
+CART Indy Car World Series,Daytona_Speedway_Tri_Oval,Grand Prix of Daytona,7,3,TRUE,laps,160,
+CART Indy Car World Series,Mosport,Indy Mosport,8,1,TRUE,laps,80,
+CART Indy Car World Series,Pocono_Oval,Pocono 500,8,3,TRUE,laps,200,
+CART Indy Car World Series,Pocono_RC3,Pocono 300,8,4,TRUE,laps,120,
+CART Indy Car World Series,Road_Atlanta_2005,Grand Prix of Atlanta,9,1,TRUE,laps,120,
 Caterham Academy,Donington_Nat,Donington Dash,3,2,TRUE,time,20,
 Caterham Academy,BrandsHatch_Indy,Indy Initiation,4,1,TRUE,time,20,
 Caterham Academy,Silverstone_2001_International,Silverstone Awakening,5,1,FALSE,time,20,
@@ -172,6 +213,25 @@ Caterham Seven Championship,Silverstone_2001_National,National Glory Run,7,2,FAL
 Caterham Seven Championship,Snetterton_200,Seven Sprint 200,8,1,FALSE,time,20,
 Caterham Seven Championship,Snetterton_300,300 Seven Charge,8,2,FALSE,time,20,
 Caterham Seven Championship,Spa_Francorchamps_2022,Spa Seven Spectacular,9,2,TRUE,time,20,
+Champ Car World Series,Long_Beach,Grand Prix of Long Beach,3,1,TRUE,laps,150,
+Champ Car World Series,Jacarepagua_OVAL,Rio 200,3,3,TRUE,laps,108,
+Champ Car World Series,Kansai_GP,Budweiser 500k,4,1,TRUE,laps,130,
+Champ Car World Series,Cleveland_GP,Grand Prix of Cleveland,4,4,TRUE,laps,190,
+Champ Car World Series,Road_America_RCB,Texaco/Havoline 200,5,2,TRUE,laps,50,
+Champ Car World Series,Laguna_Seca_2020,Grand Prix of Monterey,5,4,TRUE,laps,135,
+Champ Car World Series,Gateway_OVAL,Motorola 300,6,2,TRUE,laps,240,
+Champ Car World Series,Fontana_OVAL,Marlboro 500,6,3,TRUE,laps,250,
+Champ Car World Series,Montreal_Historic_1991,Molson Indy Montreal,6,4,TRUE,laps,110,
+Champ Car World Series,BrandsHatch_GP,The London Champ Car Trophy,7,1,TRUE,laps,85,
+Champ Car World Series,Hockenheim_2001,German 500,7,3,TRUE,laps,120,
+Champ Car World Series,Bathurst_2020,Indy Festival,8,1,TRUE,laps,50,
+Champ Car World Series,Daytona_Speedway_Tri_Oval,Grand Prix of Daytona,8,3,TRUE,laps,160,
+Champ Car World Series,Mosport,Indy Mosport,9,1,TRUE,laps,80,
+Champ Car World Series,Pocono_Oval,Pocono 500,9,2,TRUE,laps,200,
+Champ Car World Series,Pocono_RC3,Pocono 300,9,4,TRUE,laps,120,
+Champ Car World Series,Indianapolis_2001_Oval,Indianapolis 500,10,1,TRUE,laps,200,
+Champ Car World Series,GoianiaOuter,Goiânia 300,10,3,TRUE,laps,185,
+Champ Car World Series,Road_Atlanta_2005,Grand Prix of Atlanta,11,1,TRUE,laps,120,
 Copa Classic RS,Taruma_Chicane,Autódromo Internacional de Tarumã,3,1,TRUE,time,30,
 Copa Classic RS,Guapore,Autódromo Internacional de Guaporé,4,2,FALSE,time,30,
 Copa Classic RS,Taruma_Internacional,Autódromo Internacional de Tarumã,4,2,FALSE,time,30,
@@ -804,12 +864,24 @@ Formula Vee Brasil,Interlagos_GP,Autódromo José Carlos Pace,6,2,TRUE,time,15,
 Formula Vee Brasil,Interlagos_GP,Autódromo José Carlos Pace,7,1,TRUE,time,15,
 Formula Vee Brasil,VeloCitta1,Autódromo Velo Città,8,1,TRUE,time,15,
 Formula Vee Brasil,Interlagos_GP,Autódromo José Carlos Pace,9,1,TRUE,time,15,
+Formula Vee Brasil (Gen 2),Interlagos_GP,Autódromo José Carlos Pace,4,1,TRUE,time,15,
+Formula Vee Brasil (Gen 2),VeloCitta1,Autódromo Velo Città,5,1,TRUE,time,15,
+Formula Vee Brasil (Gen 2),Interlagos_GP,Autódromo José Carlos Pace,6,2,TRUE,time,15,
+Formula Vee Brasil (Gen 2),Interlagos_GP,Autódromo José Carlos Pace,7,1,TRUE,time,15,
+Formula Vee Brasil (Gen 2),VeloCitta1,Autódromo Velo Città,8,1,TRUE,time,15,
+Formula Vee Brasil (Gen 2),Interlagos_GP,Autódromo José Carlos Pace,9,1,TRUE,time,15,
 Formula Vee Germany,Hockenheim_National,Rhine Valley Blast,4,3,FALSE,time,15,
 Formula Vee Germany,Spielberg_Short,Alpine Ascent,5,2,FALSE,time,15,
 Formula Vee Germany,Spa_Francorchamps_2022,Ardennes Odyssey,6,2,FALSE,time,15,
 Formula Vee Germany,Spielberg_Modern,Styrian Grand Prix,7,3,FALSE,time,15,
 Formula Vee Germany,Hockenheim_GP,Black Forest Gate,8,3,FALSE,time,15,
 Formula Vee Germany,Nurb_GP_2020_Sprint,The Eifel Encounter,9,1,FALSE,time,15,
+Formula Vee Germany (Gen 2),Hockenheim_National,Rhine Valley Blast,4,3,FALSE,time,15,
+Formula Vee Germany (Gen 2),Spielberg_Short,Alpine Ascent,5,2,FALSE,time,15,
+Formula Vee Germany (Gen 2),Spa_Francorchamps_2022,Ardennes Odyssey,6,2,FALSE,time,15,
+Formula Vee Germany (Gen 2),Spielberg_Modern,Styrian Grand Prix,7,3,FALSE,time,15,
+Formula Vee Germany (Gen 2),Hockenheim_GP,Black Forest Gate,8,3,FALSE,time,15,
+Formula Vee Germany (Gen 2),Nurb_GP_2020_Sprint,The Eifel Encounter,9,1,FALSE,time,15,
 Formula Vee North America,Virginia_North,Danville Draft,4,3,FALSE,time,15,
 Formula Vee North America,Gateway_RC1,Mid-West Momentum,5,2,FALSE,time,15,
 Formula Vee North America,Watkins_Glen_S,Glen Grand Prix,6,1,FALSE,time,15,
@@ -818,12 +890,26 @@ Formula Vee North America,Sebring_Club,Air-Cooled Airfield,7,1,FALSE,time,15,
 Formula Vee North America,Road_America_RC,The Redline Rise,7,3,FALSE,time,15,
 Formula Vee North America,Virginia_South,Oak Grove Scramble,8,2,FALSE,time,15,
 Formula Vee North America,Daytona_Road_Course,High-Bank Slipstream,9,1,FALSE,time,15,
+Formula Vee North America (Gen 2),Virginia_North,Danville Draft,4,3,FALSE,time,15,
+Formula Vee North America (Gen 2),Gateway_RC1,Mid-West Momentum,5,2,FALSE,time,15,
+Formula Vee North America (Gen 2),Watkins_Glen_S,Glen Grand Prix,6,1,FALSE,time,15,
+Formula Vee North America (Gen 2),Road_Atlanta_2005_short,Elkhart 1200,6,3,FALSE,time,15,
+Formula Vee North America (Gen 2),Sebring_Club,Air-Cooled Airfield,7,1,FALSE,time,15,
+Formula Vee North America (Gen 2),Road_America_RC,The Redline Rise,7,3,FALSE,time,15,
+Formula Vee North America (Gen 2),Virginia_South,Oak Grove Scramble,8,2,FALSE,time,15,
+Formula Vee North America (Gen 2),Daytona_Road_Course,High-Bank Slipstream,9,1,FALSE,time,15,
 Formula Vee UK,Donington_Nat,Leicestershire Loop,4,3,FALSE,time,15,
 Formula Vee UK,BrandsHatch_Indy,Paddock Hill Punch,5,2,FALSE,time,15,
 Formula Vee UK,OultonPark_Fosters,Knickerbrook Knockout,6,1,FALSE,time,15,
 Formula Vee UK,Silverstone_2001_National,Woodcote Whirr,7,2,FALSE,time,15,
 Formula Vee UK,CadwellPark,Wolds Wonder,8,3,FALSE,time,15,
 Formula Vee UK,Snetterton_200,Flat-Four Finale,9,1,FALSE,time,15,
+Formula Vee UK (Gen 2),Donington_Nat,Leicestershire Loop,4,3,FALSE,time,15,
+Formula Vee UK (Gen 2),BrandsHatch_Indy,Paddock Hill Punch,5,2,FALSE,time,15,
+Formula Vee UK (Gen 2),OultonPark_Fosters,Knickerbrook Knockout,6,1,FALSE,time,15,
+Formula Vee UK (Gen 2),Silverstone_2001_National,Woodcote Whirr,7,2,FALSE,time,15,
+Formula Vee UK (Gen 2),CadwellPark,Wolds Wonder,8,3,FALSE,time,15,
+Formula Vee UK (Gen 2),Snetterton_200,Flat-Four Finale,9,1,FALSE,time,15,
 FRECA,Monza_2020,Gran Premio d'Italia,4,3,FALSE,time,30,
 FRECA,Imola_GP_2018,Gran Premio dell'Emilia-Romagna,5,2,FALSE,time,30,
 FRECA,Hungaroring_GP_2025,Hungarian Grand Prix,5,2,FALSE,time,30,
@@ -1057,17 +1143,32 @@ IMSA VP Racing SportsCar Challenge,Road_America_RC,Opening for Road America 500,
 IMSA VP Racing SportsCar Challenge,Virginia_Full,Opening for GT Challenge at Virginia,8,3,TRUE,time,45,
 IMSA VP Racing SportsCar Challenge,Indianapolis_2022_RC,Opening for Indianapolis Battle on the Bricks,9,3,TRUE,time,45,
 IMSA VP Racing SportsCar Challenge,Road_Atlanta,Opening for Petit Le Mans,10,2,TRUE,time,45,
-IMSA WeatherTech SportsCar Championship,Daytona_Road_Course,24 Hours of Daytona,2,1,TRUE,time,1440,
+IMSA WeatherTech SportsCar Championship,Daytona_Road_Course,Rolex 24 At Daytona,2,1,TRUE,time,1440,13:00
 IMSA WeatherTech SportsCar Championship,Sebring,12 Hours of Sebring,3,2,TRUE,time,720,10:00
-IMSA WeatherTech SportsCar Championship,Long_Beach,Long Beach Grand Prix,4,2,TRUE,time,100,
-IMSA WeatherTech SportsCar Championship,Laguna_Seca_2020,Monterey Grand Prix,5,2,TRUE,time,160,
-IMSA WeatherTech SportsCar Championship,Adelaide_Modern,Detroit Grand Prix,5,4,TRUE,time,100,
-IMSA WeatherTech SportsCar Championship,Watkins_Glen_GP,Six Hours of The Glen,6,3,TRUE,time,360,
-IMSA WeatherTech SportsCar Championship,Mosport,Grand Prix of Mosport,7,2,TRUE,time,160,
-IMSA WeatherTech SportsCar Championship,Road_America_RC,Road America 500,8,1,TRUE,time,160,
-IMSA WeatherTech SportsCar Championship,Virginia_Full,GT Challenge at Virginia,8,3,TRUE,time,45,
-IMSA WeatherTech SportsCar Championship,Indianapolis_2022_RC,Indianapolis Battle on the Bricks,9,3,TRUE,time,45,
+IMSA WeatherTech SportsCar Championship,Long_Beach,Long Beach Grand Prix,4,2,TRUE,time,100,14:00
+IMSA WeatherTech SportsCar Championship,Laguna_Seca_2020,Monterey Grand Prix,5,2,TRUE,time,160,12:00
+IMSA WeatherTech SportsCar Championship,Montreal_Modern,Montreal Grand Prix,5,4,FALSE,time,100,15:00
+IMSA WeatherTech SportsCar Championship,Watkins_Glen_GP,Six Hours of The Glen,6,3,TRUE,time,360,10:00
+IMSA WeatherTech SportsCar Championship,Mosport,Chevrolet Grand Prix,7,2,TRUE,time,160,12:00
+IMSA WeatherTech SportsCar Championship,Road_Atlanta_2005_short,SportsCar Challenge Road Atlanta,7,3,FALSE,time,160,12:00
+IMSA WeatherTech SportsCar Championship,Road_America_RC,IMSA Sportscar Weekend,8,1,TRUE,time,160,10:00
+IMSA WeatherTech SportsCar Championship,Virginia_Full,Michelin GT Challenge at VIR,8,3,TRUE,time,160,14:00
+IMSA WeatherTech SportsCar Championship,Indianapolis_2022_RC,Indianapolis Battle on the Bricks,9,3,TRUE,time,160,13:00
 IMSA WeatherTech SportsCar Championship,Road_Atlanta,Petit Le Mans,10,2,TRUE,time,600,12:00
+IMSA WeatherTech SportsCar Championship (DPi),Daytona_Road_Course,Rolex 24 At Daytona,2,1,TRUE,time,1440,14:30
+IMSA WeatherTech SportsCar Championship (DPi),Sebring,12 Hours of Sebring,3,2,TRUE,time,720,10:40
+IMSA WeatherTech SportsCar Championship (DPi),Long_Beach,SportsCar Grand Prix at Long Beach,4,1,FALSE,time,100,16:00
+IMSA WeatherTech SportsCar Championship (DPi),Virginia_Grand,Advance Auto Parts SportsCar Showdown,5,1,FALSE,time,160,14:30
+IMSA WeatherTech SportsCar Championship (DPi),Montreal_Modern,Chevrolet Sports Car Classic,6,1,FALSE,time,100,12:30
+IMSA WeatherTech SportsCar Championship (DPi),Watkins_Glen_GP,6 Hours of The Glen,6,4,FALSE,time,360,10:00
+IMSA WeatherTech SportsCar Championship (DPi),Mosport,SportsCar Grand Prix at Mosport,7,1,FALSE,time,160,12:00
+IMSA WeatherTech SportsCar Championship (DPi),Road_Atlanta_2005_short,SportsCar Challenge Road Atlanta,7,3,FALSE,time,160,15:00
+IMSA WeatherTech SportsCar Championship (DPi),Road_America_RC,Road Race Showcase Road America,8,1,TRUE,time,160,14:30
+IMSA WeatherTech SportsCar Championship (DPi),Virginia_Full,Michelin GT Challenge at VIR,8,4,TRUE,time,160,13:30
+IMSA WeatherTech SportsCar Championship (DPi),Virginia_North,SportsCar Grand Prix at VIR,9,1,FALSE,time,160,13:00
+IMSA WeatherTech SportsCar Championship (DPi),Laguna_Seca_2020,Monterey Grand Prix at Laguna Seca,9,4,TRUE,time,160,17:00
+IMSA WeatherTech SportsCar Championship (DPi),Road_Atlanta,Petit Le Mans,10,1,TRUE,time,600,11:00
+IMSA WeatherTech SportsCar Championship (DPi),Indianapolis_2022_RC,Indianapolis SportsCar Showdown,10,2,FALSE,time,100,21:00
 Indy NXT,Sebring_School,Grand Prix of St. Petersburg,3,1,TRUE,laps,40,10:00
 Indy NXT,Adelaide_Modern,Grand Prix of Arlington,3,2,TRUE,laps,40,11:00
 Indy NXT,VeloCitta1,Grand Prix of Alabama,3,4,TRUE,laps,38,13:00
@@ -1080,6 +1181,33 @@ Indy NXT,Fontana_OVAL,Nashville Music City GP,7,3,TRUE,laps,40,13:00
 Indy NXT,Velopark_2010,Grand Prix of Portland,8,1,TRUE,laps,60,14:00
 Indy NXT,Pocono_Oval,Milwaukee Mile,8,4,TRUE,laps,32,11:00
 Indy NXT,Laguna_Seca_2020,Grand Prix of Monterey,9,1,TRUE,laps,30,17:00
+IndyCar Series,Adelaide_Modern,Sunbelt Indy Carnival,2,1,FALSE,laps,100,
+IndyCar Series,Brasilia_Outer,Brasília 300,2,3,FALSE,laps,165,
+IndyCar Series,Salvador_Street_Circuit,Grand Prix of Salvador,3,1,FALSE,laps,120,
+IndyCar Series,Cleveland_GP,Grand Prix of Cleveland,3,3,FALSE,laps,190,
+IndyCar Series,Daytona_Speedway_Tri_Oval,Grand Prix of Daytona,4,1,TRUE,laps,160,
+IndyCar Series,Daytona_Nascar_Road_Course,Daytona 200,4,2,FALSE,laps,55,
+IndyCar Series,Gateway_OVAL,Motorola 300,4,3,TRUE,laps,240,
+IndyCar Series,Gateway_RC1,Indy Gateway,4,4,FALSE,laps,125,
+IndyCar Series,Montreal_Modern,Molson Indy Montreal,5,3,FALSE,laps,75,
+IndyCar Series,Indianapolis_2001_Oval,Indianapolis 500,6,1,TRUE,laps,200,
+IndyCar Series,Indianapolis_2001_RC,Indianapolis 300,6,2,FALSE,laps,125,
+IndyCar Series,Jacarepagua_OVAL,Rio 200,7,1,TRUE,laps,108,
+IndyCar Series,Kansai_GP,Budweiser 500k,7,3,FALSE,laps,130,
+IndyCar Series,Laguna_Seca_2020,Grand Prix of Monterey,8,1,FALSE,laps,135,
+IndyCar Series,Road_America_RCB,Texaco/Havoline 200,8,2,FALSE,laps,50,
+IndyCar Series,Fontana_OVAL,Marlboro 500,8,3,TRUE,laps,250,
+IndyCar Series,Fontana_SCC,Fontana 200,8,4,FALSE,laps,70,
+IndyCar Series,Long_Beach,Grand Prix of Long Beach,9,2,FALSE,laps,150,
+IndyCar Series,Mosport,Indy Mosport,9,4,FALSE,laps,80,
+IndyCar Series,Pocono_Oval,Pocono 500,10,2,TRUE,laps,200,
+IndyCar Series,Pocono_RC2,Pocono 300,10,3,FALSE,laps,130,
+IndyCar Series,Road_Atlanta,Grand Prix of Atlanta,10,4,FALSE,laps,80,
+IndyCar Series,Sebring,Grand Prix of Sebring,11,1,FALSE,laps,55,
+IndyCar Series,Watkins_Glen_GP,Indy at The Glen,11,2,FALSE,laps,90,
+IndyCar Series,GoianiaOuter,Goiânia 300,11,4,FALSE,laps,185,
+IndyCar Series,Curitiba_outer,Curitiba 300,12,1,FALSE,laps,185,
+IndyCar Series,Bathurst_2020,Indy Festival,12,3,FALSE,laps,50,
 Intercontinental GT Challenge,Bathurst_2020,Bathurst 12 Hour,2,2,TRUE,time,720,05:45
 Intercontinental GT Challenge,Nordschleife_2025_24hr,24h Nürburgring,5,3,TRUE,time,1440,15:00
 Intercontinental GT Challenge,Spa_Francorchamps_2022,24 Hours of Spa,6,4,TRUE,time,1440,16:30
@@ -1143,6 +1271,21 @@ KZ Karting World Championship,Ortona3,Ortona Trial,8,3,FALSE,laps,20,
 KZ Karting World Championship,Ortona4,Ortona Challenge,8,4,FALSE,laps,20,
 KZ Karting World Championship,Buskerud_Short,Buskerud Warm-up,9,1,FALSE,laps,20,
 KZ Karting World Championship,Buskerud_Long,Buskerud Finale,9,2,TRUE,laps,20,
+Lamborghini Diablo Trophy Anniversary,Jerez_Standard,Diablo Jerez,2,4,FALSE,time,30,10:00
+Lamborghini Diablo Trophy Anniversary,Monza_2020,Diablo Monza,3,4,FALSE,time,30,08:00
+Lamborghini Diablo Trophy Anniversary,Circuit_de_Catalunya_NATL_NC,Diablo Barcelona,5,2,FALSE,time,60,08:00
+Lamborghini Diablo Trophy Anniversary,Donington_Nat,Diablo Donington,5,4,FALSE,time,30,12:00
+Lamborghini Diablo Trophy Anniversary,Le_Mans_Circuit_Bugatti,Diablo Le Mans,6,1,FALSE,time,60,10:00
+Lamborghini Diablo Trophy Anniversary,Hockenheim_National,Diablo Hockenheim,6,2,FALSE,time,30,11:00
+Lamborghini Diablo Trophy Anniversary,Nurb_GP_2020_Sprint,Diablo Nürburgring,6,3,FALSE,time,30,09:00
+Lamborghini Diablo Trophy Anniversary,Spa_Francorchamps_2022,Diablo Spa-Francorchamps,7,3,FALSE,time,30,11:00
+Lamborghini Diablo Trophy Anniversary,Hungaroring_GP_2025,Diablo Hungaroring,7,4,FALSE,time,60,09:00
+Lamborghini Diablo Trophy Anniversary,Spielberg_Short,Diablo Spielberg,8,1,FALSE,time,30,11:00
+Lamborghini Diablo Trophy Anniversary,BrandsHatch_GP,Diablo Brands Hatch,9,1,FALSE,time,60,10:00
+Lamborghini Diablo Trophy Anniversary,Silverstone_Intl_2019,Diablo Silverstone,9,2,FALSE,time,30,09:00
+Lamborghini Diablo Trophy Anniversary,CadwellPark,Diablo Cadwell Park,9,3,FALSE,time,30,10:00
+Lamborghini Diablo Trophy Anniversary,Imola_GP_2018,Diablo Imola,9,4,FALSE,time,60,08:00
+Lamborghini Diablo Trophy Anniversary,Cascais,Diablo Estoril,10,1,FALSE,time,60,10:00
 Lamborghini Super Trofeo Europe,Imola_GP_2018,Santerno Super-Sprints,4,3,TRUE,time,50,
 Lamborghini Super Trofeo Europe,Circuit_de_Catalunya_GP,Mediterranean Trophy,5,3,TRUE,time,50,
 Lamborghini Super Trofeo Europe,Nurb_GP_2020,Green Hell Bull-Run,6,2,FALSE,time,50,
@@ -1158,6 +1301,20 @@ Lamborghini Super Trofeo North America,Road_America_RC,Road America,8,1,FALSE,ti
 Lamborghini Super Trofeo North America,Bathurst_2020,Bathurst Special,9,1,FALSE,time,50,
 Lamborghini Super Trofeo North America,Indianapolis_2022_RC,Indianapolis Motor Speedway,9,3,TRUE,time,50,
 Lamborghini Super Trofeo North America,Monza_2020,Monza World Finals,10,2,TRUE,time,50,
+Lamborghini SuperSport Trophy,Jerez_Standard,4 Hours of Jerez Support,2,4,FALSE,time,30,10:00
+Lamborghini SuperSport Trophy,Monza_1991,4 Hours of Monza Support,3,4,FALSE,time,30,08:00
+Lamborghini SuperSport Trophy,Barcelona_GP_1999,4 Hours of Barcelona Support,5,2,FALSE,time,60,08:00
+Lamborghini SuperSport Trophy,Donington_Nat,4 Hours of Donington Support,5,4,FALSE,time,30,12:00
+Lamborghini SuperSport Trophy,Le_Mans_Circuit_Bugatti,24 Hours of Le Mans Support,6,1,FALSE,time,60,10:00
+Lamborghini SuperSport Trophy,Hockenheim_1988_short,4 Hours of Hockenheim Support,6,2,FALSE,time,30,11:00
+Lamborghini SuperSport Trophy,Nurb_GP_2020_Sprint,4 Hours of Nürburgring Support,6,3,FALSE,time,30,09:00
+Lamborghini SuperSport Trophy,Spa_Francorchamps_1993,4 Hours of Spa Support,7,3,FALSE,time,30,11:00
+Lamborghini SuperSport Trophy,Hungaroring_GP_2025,Budapest 500 km Support,7,4,FALSE,time,60,09:00
+Lamborghini SuperSport Trophy,Spielberg_2001,Zeltweg 4 Hours Support,8,1,FALSE,time,30,11:00
+Lamborghini SuperSport Trophy,BrandsHatch_GP,Gulf Oil Global GT Endurance,9,1,FALSE,time,60,10:00
+Lamborghini SuperSport Trophy,Silverstone_1991,British Empire Trophy Support,9,2,FALSE,time,30,09:00
+Lamborghini SuperSport Trophy,CadwellPark,4 Hours of Cadwell Support,9,3,FALSE,time,30,10:00
+Lamborghini SuperSport Trophy,Imola_GP_2001,4 Hours of Imola Support,9,4,FALSE,time,60,08:00
 Le Mans Endurance Series,Circuit_de_Catalunya_GP_NC,1000 km of Catalunya,4,1,FALSE,laps,215,12:00
 Le Mans Endurance Series,Spa_Francorchamps_2005_EC,1000 km of Spa,4,3,TRUE,laps,144,12:00
 Le Mans Endurance Series,Donington_GP,1000 km of Donington,5,2,FALSE,laps,249,12:00
@@ -1196,6 +1353,36 @@ Mini Challenge,OultonPark_Fosters,The Island Bend Duel,6,4,FALSE,time,20,
 Mini Challenge,Snetterton_300,The Norfolk Flat-Out,7,3,FALSE,time,20,
 Mini Challenge,CadwellPark,The Mountain Scramble,8,3,FALSE,time,20,
 Mini Challenge,Silverstone_2001_National,Stowe Circuit Shootout,9,4,FALSE,time,20,
+Mitsubishi Lancer Cup Brasil Light,GoianiaShort,Lancer Cup Goiânia,2,1,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,Cordoba_NATL,Lancer Cup Córdoba,2,2,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,Velopark_2010,Lancer Cup Velopark,2,3,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,Taruma_Internacional,Lancer Cup Tarumã,3,1,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,Guapore,Lancer Cup Guaporé,3,2,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,Londrina_long,Lancer Cup Londrina,3,3,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,Cascavel2,Lancer Cup Cascavel,4,1,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,SantaCruzDoSul,Lancer Cup Santa Cruz,4,2,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,CampoGrande1,Lancer Cup Campo Grande,4,3,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,CuritibaInternacional,Lancer Cup Curitiba,5,1,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,Buenos_Aires_Circuito_9,Lancer Cup Buenos Aires,6,1,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,Ibarra2,Lancer Cup Yahuarcocha,7,2,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,Termas_Rio_Hondo,Lancer Cup Termas de Rio Hondo,8,1,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,Interlagos_GP,Lancer Cup Interlagos,9,3,FALSE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Light,Brasilia_Full,Lancer Cup Finale at Brasília,10,1,TRUE,time,25,10:00
+Mitsubishi Lancer Cup Brasil Master,GoianiaShort,Lancer Cup Goiânia,2,1,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,Cordoba_NATL,Lancer Cup Córdoba,2,2,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,Velopark_2010,Lancer Cup Velopark,2,3,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,Taruma_Internacional,Lancer Cup Tarumã,3,1,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,Guapore,Lancer Cup Guaporé,3,2,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,Londrina_long,Lancer Cup Londrina,3,3,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,Cascavel2,Lancer Cup Cascavel,4,1,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,SantaCruzDoSul,Lancer Cup Santa Cruz,4,2,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,CampoGrande1,Lancer Cup Campo Grande,4,3,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,CuritibaInternacional,Lancer Cup Curitiba,5,1,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,Buenos_Aires_Circuito_9,Lancer Cup Buenos Aires,6,1,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,Ibarra2,Lancer Cup Yahuarcocha,7,2,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,Termas_Rio_Hondo,Lancer Cup Termas de Rio Hondo,8,1,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,Interlagos_GP,Lancer Cup Interlagos,9,3,FALSE,time,25,14:00
+Mitsubishi Lancer Cup Brasil Master,Brasilia_Full,Lancer Cup Finale at Brasília,10,1,TRUE,time,25,14:00
 NASCAR Brasil Series,Interlagos_SCB,GP de São Paulo,3,3,FALSE,time,25,
 NASCAR Brasil Series,Curitiba_outer,GP de Curitiba,4,1,FALSE,time,25,
 NASCAR Brasil Series,Londrina_long,GP de Londrina,4,3,FALSE,time,25,
@@ -1360,26 +1547,32 @@ Northern Europe GT Championship,CadwellPark,Cadwell Euro Park,8,4,FALSE,time,60,
 Northern Europe GT Championship,Hockenheim_GP,Hockenheim Euro Race,9,2,FALSE,time,120,
 Northern Europe GT Championship,Silverstone_2001_International,Silverstone Sprint,10,1,FALSE,laps,20,
 Northern Europe GT Championship,Nurb_GP_2020_Veedol,1000 km of Nürburgring,11,1,FALSE,time,120,14:00
-NTT IndyCar,Adelaide_Modern,Grand Prix of Adelaide,3,1,TRUE,laps,90,
-NTT IndyCar,Pocono_Oval,Good Poconers,3,2,TRUE,laps,125,
-NTT IndyCar,Salvador_Street_Circuit,IndyCar Grand Prix of San Salvador,3,3,TRUE,laps,70,
-NTT IndyCar,BrandsHatch_GP,Childrens of Kent Indy Grand Prix,3,4,TRUE,laps,90,
-NTT IndyCar,Watkins_Glen_GP,Indy at the Glen,4,2,TRUE,laps,73,
-NTT IndyCar,Road_Atlanta,Dixie Grand Prix,4,2,TRUE,laps,78,
-NTT IndyCar,Long_Beach,Grand Prix of Long Beach,4,3,TRUE,laps,90,
-NTT IndyCar,Indianapolis_2022_RC,Sonsio Grand Prix,5,2,TRUE,laps,85,
-NTT IndyCar,Indianapolis_2022_Oval,Indy 500,5,3,TRUE,laps,200,
-NTT IndyCar,Montreal_Modern,IndyCar Canadian Grand Prix,5,4,TRUE,laps,70,
-NTT IndyCar,Gateway_OVAL,Bommarito Automotive Group 500,6,2,TRUE,laps,260,
-NTT IndyCar,Sebring,Flying High Sebring,6,3,TRUE,laps,85,
-NTT IndyCar,Road_America_RC,Grand Prix at Road America,6,4,TRUE,laps,55,
-NTT IndyCar,Donington_GP,Indy 200 at Donington,7,1,TRUE,laps,90,
-NTT IndyCar,Fontana_OVAL,Borchetta Bourbon 400,7,3,TRUE,laps,85,
-NTT IndyCar,Jacarepagua_OVAL,Brazilian Indy Race,7,4,TRUE,laps,120,
-NTT IndyCar,Cascais,Grand Prix of Estoril,8,2,TRUE,laps,80,
-NTT IndyCar,Le_Mans_Circuit_Bugatti,Indy at Le Mans,8,3,TRUE,laps,80,
-NTT IndyCar,Daytona_Speedway_Tri_Oval,Daytona Mile,8,4,TRUE,laps,100,
-NTT IndyCar,Laguna_Seca_2020,IndyCar Grand Prix of Monterey,9,1,TRUE,laps,95,
+NTT IndyCar,Adelaide_Modern,Sunbelt Indy Carnival,2,1,FALSE,laps,100,
+NTT IndyCar,Brasilia_Outer,Brasília 300,2,3,FALSE,laps,165,
+NTT IndyCar,Buenos_Aires_Circuito_7,Argentina IndyCar,2,4,FALSE,laps,120,
+NTT IndyCar,BrandsHatch_GP,UK IndyCar,3,3,FALSE,laps,120,
+NTT IndyCar,Daytona_Speedway_Tri_Oval,Grand Prix of Daytona,4,1,TRUE,laps,160,
+NTT IndyCar,Daytona_Nascar_Road_Course,Daytona 200,4,2,FALSE,laps,55,
+NTT IndyCar,Gateway_OVAL,Motorola 300,4,3,TRUE,laps,240,
+NTT IndyCar,Gateway_RC2,Indy Gateway,4,4,FALSE,laps,100,
+NTT IndyCar,Montreal_Modern,Molson Indy Montreal,5,3,FALSE,laps,75,
+NTT IndyCar,Indianapolis_2022_Oval,Indianapolis 500,6,1,TRUE,laps,200,
+NTT IndyCar,Indianapolis_2022_RC,Indianapolis 300,6,2,FALSE,laps,120,
+NTT IndyCar,Kansai_GP,Budweiser 500k,7,3,FALSE,laps,130,
+NTT IndyCar,Laguna_Seca_2020,Grand Prix of Monterey,8,1,FALSE,laps,135,
+NTT IndyCar,Road_America_RCB,Texaco/Havoline 200,8,2,FALSE,laps,50,
+NTT IndyCar,Fontana_OVAL,Marlboro 500,8,3,TRUE,laps,250,
+NTT IndyCar,Fontana_SCC,Fontana 200,8,4,FALSE,laps,70,
+NTT IndyCar,Long_Beach,Grand Prix of Long Beach,9,2,FALSE,laps,150,
+NTT IndyCar,Mosport,Indy Mosport,9,4,FALSE,laps,80,
+NTT IndyCar,Pocono_Oval,Pocono 500,10,2,TRUE,laps,200,
+NTT IndyCar,Pocono_RC2,Pocono 300,10,3,FALSE,laps,130,
+NTT IndyCar,Road_Atlanta,Grand Prix of Atlanta,10,4,FALSE,laps,80,
+NTT IndyCar,Sebring,Grand Prix of Sebring,11,1,FALSE,laps,55,
+NTT IndyCar,Watkins_Glen_GP,Indy at The Glen,11,2,FALSE,laps,90,
+NTT IndyCar,GoianiaOuter,Goiânia 300,11,4,FALSE,laps,185,
+NTT IndyCar,Curitiba_outer,Curitiba 300,12,1,FALSE,laps,185,
+NTT IndyCar,Bathurst_2020,Indy Festival,12,3,FALSE,laps,50,
 Nürburgring Langstrecken-Serie,Nordschleife_2025_24hr,NLS1 Westfalenfahrt,3,2,TRUE,time,240,12:00
 Nürburgring Langstrecken-Serie,Nordschleife_2025_24hr,NLS2 Barbarossapreis,4,1,TRUE,time,240,12:00
 Nürburgring Langstrecken-Serie,Nordschleife_2025_24hr,NLS3 24h Qualifiers,4,3,TRUE,time,240,12:00
@@ -1679,6 +1872,12 @@ Super Trophy Trucks,Sebring_STT,Super Sebring,9,2,FALSE,time,20,
 Super Trophy Trucks,Guapore_STT,Guapore Trophy,10,2,FALSE,time,20,
 Super Trophy Trucks,Adelaide_Modern_STT,Adelaide Trucks,11,2,FALSE,time,20,
 Super Trophy Trucks,Spielberg_STT,Spielberg Trophy,12,2,FALSE,time,20,
+Supercars Championship,Bathurst_2020,Mount Panorama First Round,3,1,TRUE,time,60,16:00
+Supercars Championship,Adelaide_Modern,Adelaide Challenge,4,1,TRUE,time,60,16:00
+Supercars Championship,Sebring,USA Trip,5,1,TRUE,time,60,16:00
+Supercars Championship,Virginia_Full,USA Goodbyes,5,2,TRUE,time,60,16:00
+Supercars Championship,Adelaide_Modern,Return to Adelaide,6,1,TRUE,time,60,16:00
+Supercars Championship,Bathurst_2020,Mount Panorama Finale,7,2,TRUE,time,60,16:00
 SuperKart World Championship,Spielberg_Short,Europe Warm-Up,3,1,TRUE,laps,16,
 SuperKart World Championship,Hockenheim_ShortB,Hockenheim Race,3,3,FALSE,laps,14,
 SuperKart World Championship,BrandsHatch_Indy,Brands Hatch Challenge,4,1,FALSE,laps,19,

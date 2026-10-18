@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="26" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="1" NAME="Rosso Corsa" />
+    <NAME LIVERY="2" NAME="Giallo Modena" />
+    <NAME LIVERY="3" NAME="Bianco Avus" />
+    <NAME LIVERY="4" NAME="Nero" />
+    <NAME LIVERY="5" NAME="Rosso Scuderia" />
+    <NAME LIVERY="6" NAME="Blu Pozzi" />
+    <NAME LIVERY="7" NAME="Nero Daytona Met." />
+    <NAME LIVERY="8" NAME="Rosso Mugello Met." />
+    <NAME LIVERY="9" NAME="Argento Nurburgring Met." />
+    <NAME LIVERY="10" NAME="Blu Tour de France Met." />
+    <NAME LIVERY="11" NAME="Blu Abu Dhabi Met." />
+    <NAME LIVERY="12" NAME="Blu Mirabeau Met." />
+    <NAME LIVERY="13" NAME="Grigio Alloy Met." />
+    <NAME LIVERY="14" NAME="Grigio Titanio Met." />
+    <NAME LIVERY="15" NAME="Grigio Ingrid Met." />
+    <NAME LIVERY="16" NAME="Grigio Silverstone Met." />
+    <NAME LIVERY="71" NAME="Livery 1" />
+    <NAME LIVERY="72" NAME="Livery 2" />
+    <NAME LIVERY="73" NAME="Livery 3" />
+    <NAME LIVERY="74" NAME="Livery 4" />
+    <NAME LIVERY="75" NAME="Livery 5" />
+    <NAME LIVERY="76" NAME="Livery 6" />
+    <NAME LIVERY="101" NAME="Rosso Dino" />
+    <NAME LIVERY="102" NAME="Rosso Barchetta" />
+    <NAME LIVERY="103" NAME="Bianco Fuji" />
+    <NAME LIVERY="104" NAME="Grigio Scuro" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="1">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\paint\paint_ferrari_rosso_corsa.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_interior_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather_black2_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_red2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_nero_stitching2_red_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_red2_stitching2_black_diff.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_1" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\paint\paint_ferrari_giallo_modena.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_2" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\paint\paint_ferrari_bianco_avus.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_3" />
+  </CONDITION>
+  <CONDITION LIVERY="4">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\paint\paint_ferrari_nero.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_interior_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather_black2_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_red2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_nero_stitching2_red_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_red2_stitching2_black_diff.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_4" />
+  </CONDITION>
+  <CONDITION LIVERY="5">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\paint\paint_ferrari_rosso_scuderia.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_5" />
+  </CONDITION>
+  <CONDITION LIVERY="6">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\paint\paint_ferrari_blu_pozzi.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_6" />
+  </CONDITION>
+  <CONDITION LIVERY="7">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_nero_daytona.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_nero_daytona_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_nero_daytona_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_nero_daytona_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_7" />
+  </CONDITION>
+  <CONDITION LIVERY="8">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_rosso_mugello.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_rosso_mugello_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_rosso_mugello_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_rosso_mugello_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_8" />
+  </CONDITION>
+  <CONDITION LIVERY="9">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_argento_nurburgring.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_argento_nurburgring_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_argento_nurburgring_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_argento_nurburgring_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_interior_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather_black2_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_red2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_nero_stitching2_red_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_red2_stitching2_black_diff.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_9" />
+  </CONDITION>
+  <CONDITION LIVERY="10">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_tdf.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_tdf_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_tdf_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_tdf_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_10" />
+  </CONDITION>
+  <CONDITION LIVERY="11">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_abu_dhabi.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_abu_dhabi_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_abu_dhabi_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_abu_dhabi_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_11" />
+  </CONDITION>
+  <CONDITION LIVERY="12">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_mirabeau.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_mirabeau_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_mirabeau_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_mirabeau_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_12" />
+  </CONDITION>
+  <CONDITION LIVERY="13">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_alloy.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_alloy_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_alloy_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_alloy_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_13" />
+  </CONDITION>
+  <CONDITION LIVERY="14">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_titanio.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_titanio_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_titanio_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_titanio_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_14" />
+  </CONDITION>
+  <CONDITION LIVERY="15">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_ingrid.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_ingrid_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_ingrid_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_ingrid_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_15" />
+  </CONDITION>
+  <CONDITION LIVERY="16">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_silverstone.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_silverstone_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_silverstone_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_grigio_silverstone_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_interior_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather_black2_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_red2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_nero_stitching2_red_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_red2_stitching2_black_diff.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_16" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\liveries\ferrari_enzo_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_black_blur_spec.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_71" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\liveries\ferrari_enzo_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\liveries\ferrari_enzo_livery02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_interior_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather_black2_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_red2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_nero_stitching2_red_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_red2_stitching2_black_diff.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_72" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\livery_jplm_05.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\livery_jplm_05_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\livery_jplm_05_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\livery_jplm_05_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\liveries\palmer_jplm_livery05.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\liveries\ferrari_enzo_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_gold_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_gold_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_gold_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_wheel_gold_blur_spec.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_73" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\liveries\ferrari_enzo_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_interior_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\ferrari_enzo_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather_black2_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_red2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_nero_stitching2_red_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_leather02_red2_stitching2_black_diff.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_74" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_argento_nurburgring_stripes.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_argento_nurburgring_stripes_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_argento_nurburgring_stripes_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_argento_nurburgring_stripes_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\liveries\ferrari_enzo_livery05.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_75" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_tdf_stripes.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_tdf_stripes_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_tdf_stripes_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\_generic_materials\paint_ferrari_blu_tdf_stripes_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\liveries\ferrari_enzo_livery06.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_76" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="101">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_rosso_dino.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_rosso_dino_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_rosso_dino_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_rosso_dino_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_blur_spec.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_101" />
+  </CONDITION>
+  <CONDITION LIVERY="102">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_rosso_barchetta.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_rosso_barchetta_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_rosso_barchetta_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_rosso_barchetta_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_blur_spec.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_102" />
+  </CONDITION>
+  <CONDITION LIVERY="103">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_bianco_avus.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_bianco_avus_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_bianco_avus_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_bianco_avus_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_blur_spec.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_103" />
+  </CONDITION>
+  <CONDITION LIVERY="104">
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_grigio_scuro.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_grigio_scuro_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_grigio_scuro_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\fer_enzo_paint_cpit_skin" NEWMATERIAL="vehicles\ms_ferrari_enzo\shared\pc2\_generic_materials\paint_ferrari_grigio_scuro_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_ferrari_enzo\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\ms_ferrari_enzo\shared\pc2\textures\tire_mcl_p14_blur_spec.dds" />
+    <REPLACE MATERIAL="vehicles\ms_ferrari_enzo\generic_licplate" NEWMATERIAL="vehicles\ms_ferrari_enzo\generic_licplate_plate_104" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

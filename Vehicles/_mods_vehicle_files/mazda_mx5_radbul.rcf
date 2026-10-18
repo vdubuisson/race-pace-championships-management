@@ -10,7 +10,7 @@
 	<NAMES INPUT ="LIVERY">
 		<NAME LIVERY="51" NAME="Mad Mike Radbul" />
 		<NAME LIVERY="52" NAME="Mad Mike Radbul Digital Camo" />
-		<NAME LIVERY="99" NAME="Custom Livery" />
+	
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -69,9 +69,7 @@
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_01.dds" />
 	</CONDITION>
 
-	<CONDITION LIVERY="99">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Customliveries\mazda_mx5_radbul_livery.dds" />
-	</CONDITION>
+
 
 	<!-- 'Soft' Semi-slick track tire. Nitto NT01 -->
 	<CONDITION TIRE="1">

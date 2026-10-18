@@ -19,9 +19,9 @@
         <prop name="Vehicle Properties" type="String" />
         <prop name="Vehicle Variant Oval" type="String" />
         <prop name="Vehicle Variant Short Oval" type="String" />
-	    <prop name="Vehicle Variant Short Track" type="String" />		
+	<prop name="Vehicle Variant Short Track" type="String" />		
         <prop name="Vehicle Variant Speedway" type="String" />
-        <prop name="Vehicle Variant Super Speedway" type="String" /> 
+        <prop name="Vehicle Variant Super Speedway" type="String" />
         <prop name="Vehicle Year" type="S32" />
         <prop name="Shadow Width" type="F32" />
         <prop name="Shadow Length" type="F32" />
@@ -81,11 +81,11 @@
         <prop name="Vehicle Physics Model" data="nis_zxt" />
         <prop name="Cockpit properties" data="nis_gtp_zxt_Cockpit.bin" />
         <prop name="Vehicle Properties" data="nis_gtp_zxt" />
-        <prop name="Vehicle Variant Oval" data="nis_gtp_zxt" />
-		<prop name="Vehicle Variant Short Oval" data="nis_gtp_zxt" />
-        <prop name="Vehicle Variant Short Track" data="nis_gtp_zxt" />		
-        <prop name="Vehicle Variant Speedway" data="nis_gtp_zxt" />
-        <prop name="Vehicle Variant Super Speedway" data="nis_gtp_zxt" />			
+        <prop name="Vehicle Variant Oval" data="Nissan_GTP_ZX-Turbo_ld" />
+        <prop name="Vehicle Variant Short Oval" data="Nissan_GTP_ZX-Turbo_ld" />
+	<prop name="Vehicle Variant Short Track" data="Nissan_GTP_ZX-Turbo_ld" />		
+        <prop name="Vehicle Variant Speedway" data="Nissan_GTP_ZX-Turbo_ld" />
+        <prop name="Vehicle Variant Super Speedway" data="Nissan_GTP_ZX-Turbo_ld" />			
         <prop name="Vehicle Year" data="1988" />
         <prop name="Shadow Width" data="5.0" />
         <prop name="Shadow Length" data="7.7" />
@@ -93,7 +93,7 @@
         <prop name="Shadow Offset Forward" data="0" />
         <prop name="Shadow Texture" data="Nissan_GTP_ZX-Turbo_ambsh.dds" />
         <prop name="Grid Grouping" data="2" />
-        <prop name="Vehicle Class" data="Group C mod" />
+        <prop name="Vehicle Class" data="Group C" />
         <prop name="Vehicle Group" data="Prototype" />
         <prop name="Vehicle Shape" data="Prototype" />
         <prop name="Engine Placement" data="Mid" />

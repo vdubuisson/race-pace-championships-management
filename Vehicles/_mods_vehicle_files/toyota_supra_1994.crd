@@ -63,7 +63,7 @@
         <prop name="Name" data="Toyota_Supra_1994" />
         <prop name="Vehicle Name" data="Toyota Supra MkIV Turbo" />
         <prop name="ShortVehicleName" data="Supra MkIV" />
-        <prop name="XLASTID" data="331" />
+        <prop name="XLASTID" data="577" />
         <prop name="VehicleManufacturer" data="Toyota" />
         <prop name="VehicleModel" data="Supra MkIV Turbo" />
         <prop name="Vehicle Render Model" data="Toyota_Supra_1994.vhf" />

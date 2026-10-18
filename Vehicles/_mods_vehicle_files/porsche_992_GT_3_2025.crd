@@ -7,7 +7,7 @@
     <class name="VehicleDetails" base="BPersistent">
         <prop name="Vehicle Name" type="String" />
         <prop name="ShortVehicleName" type="String" />
-        <prop name="XLASTID" type="U32" />
+        <prop name="XLASTID" type="S32" />
         <prop name="VehicleManufacturer" type="String" />
         <prop name="VehicleModel" type="String" />
         <prop name="Vehicle Render Model" type="String" />
@@ -67,7 +67,7 @@
         <prop name="Name" data="porsche_992_GT_3_2025" />
         <prop name="Vehicle Name" data="Porsche 911 GT3 2025" />
         <prop name="ShortVehicleName" data="911 GT3 2025" />
-        <prop name="XLASTID" data="336" />
+        <prop name="XLASTID" data="569" />
         <prop name="VehicleManufacturer" data="Porsche" />
         <prop name="VehicleModel" data="911 gt3 2022" />
         <prop name="Vehicle Render Model" data="porsche_992_GT_3_2025.vhf" />

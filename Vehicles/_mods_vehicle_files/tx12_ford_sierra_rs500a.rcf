@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="24" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="71" NAME="Mixlub Racing Team #61" />
+    <NAME LIVERY="72" NAME="Mixlub Racing Team #62" />
+    <NAME LIVERY="73" NAME="Zipanol Motor Racing #86" />
+    <NAME LIVERY="74" NAME="Zipanol Motor Racing #87" />
+    <NAME LIVERY="75" NAME="Team Beldo #51" />
+    <NAME LIVERY="76" NAME="Team Beldo #52" />
+    <NAME LIVERY="77" NAME="Luigo Racing #66" />
+    <NAME LIVERY="78" NAME="Luigo Racing #67" />
+    <NAME LIVERY="79" NAME="Millgo Motorsport #91" />
+    <NAME LIVERY="80" NAME="Millgo Motorsport #92" />
+    <NAME LIVERY="81" NAME="Team Vanolinol #31" />
+    <NAME LIVERY="82" NAME="Team Vanolinol #32" />
+    <NAME LIVERY="83" NAME="Keaveneys Racing Team #40" />
+    <NAME LIVERY="84" NAME="Keaveneys Racing Team #41" />
+    <NAME LIVERY="85" NAME="Domino Motorsports #95" />
+    <NAME LIVERY="86" NAME="Domino Motorsports #96" />
+    <NAME LIVERY="87" NAME="Gersten Felder Rennsport #35" />
+    <NAME LIVERY="88" NAME="Gersten Felder Rennsport #36" />
+    <NAME LIVERY="89" NAME="Edwardo Racing #71" />
+    <NAME LIVERY="90" NAME="Edwardo Racing #72" />
+    <NAME LIVERY="91" NAME="Team VP Racing #18" />
+    <NAME LIVERY="92" NAME="Team VP Racing #19" />
+    <NAME LIVERY="93" NAME="Truran Racing #26" />
+    <NAME LIVERY="94" NAME="Truran Racing #27" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_rain_02b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_rain_02b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_rain_02b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_rain_02b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_rain_02b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_rain_02b_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_body_snow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint_skin" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint_cpit" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint_skin" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint_cpit" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="79">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="80">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="81">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="82">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="83">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery13.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="84">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="85">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="86">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="87">
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint_skin" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint_cpit" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="88">
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint_skin" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint_cpit" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ford_sierra_rs500a\ford_rs500a_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ford_sierra_rs500a\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="89">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery19.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="90">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery20.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="91">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery21.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="92">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery22.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_silver_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="93">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery23.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="94">
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_sierra_cosworth_livery24.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\ford_rs500a_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ford_sierra_rs500a\shared\textures\liveries\ford_rs500a_banner01.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

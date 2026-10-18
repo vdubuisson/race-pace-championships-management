@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="16" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="Team Penske #2" />
+    <NAME LIVERY="52" NAME="Team Penske #3" />
+    <NAME LIVERY="53" NAME="Lazier Burns Racing #4" />
+    <NAME LIVERY="54" NAME="Ed Carpenter Racing #6" />
+    <NAME LIVERY="55" NAME="Chip Ganassi Racing #8" />
+    <NAME LIVERY="56" NAME="Chip Ganassi Racing #9" />
+    <NAME LIVERY="57" NAME="Chip Ganassi Racing #10" />
+    <NAME LIVERY="58" NAME="KVSH Racing #11" />
+    <NAME LIVERY="59" NAME="Team Penske #12" />
+    <NAME LIVERY="60" NAME="Ed Carpenter Racing #20" />
+    <NAME LIVERY="61" NAME="Ed Carpenter Racing #21" />
+    <NAME LIVERY="62" NAME="Team Penske #22" />
+    <NAME LIVERY="63" NAME="Dreyer and Reinbold Racing #24" />
+    <NAME LIVERY="64" NAME="KVSH Racing #25" />
+    <NAME LIVERY="65" NAME="Chip Ganassi Racing #83" />
+    <NAME LIVERY="66" NAME="Pirtek Team Murray #61" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_cpit" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_01.dds" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_carbon_ext_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\dal_dw12_chrome_ext_skin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_01.dds" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_carbon_ext_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\dal_dw12_chrome_ext_skin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery03.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_x4_01.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_x4_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_cpit" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_x4_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_x4_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\audi_a4_dtm_livery01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_black_diff_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="55">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="56">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_cpit" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_01.dds" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_carbon_ext_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\dal_dw12_chrome_ext_skin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="60">
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_cpit" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_black_diff_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_x4_01.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_x4_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_cpit" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_x4_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_x4_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\audi_a4_dtm_livery01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_black_diff_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="62">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_01.dds" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_carbon_ext_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\dal_dw12_chrome_ext_skin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="63">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery13.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_silver_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="64">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery14.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="65">
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_cpit" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_dw12_c_2016_speedway\dal_dw12_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_dw12_c_2016_speedway\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery15_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12_wheel_black_diff_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="66">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\liveries\dal_dw12c_oval_livery16.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_soft_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_soft_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_soft_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_soft_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_rain_05_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_rain_05_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_rain_05_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_rain_05_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_rain_05_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_rain_05_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_00.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_01.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tire_firestone_indy_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\dal_dw12c_oval_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_body_snow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_dw12_c_2016_speedway\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

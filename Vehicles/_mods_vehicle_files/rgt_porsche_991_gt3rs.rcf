@@ -1,0 +1,1100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="26" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="1" NAME="White" />
+    <NAME LIVERY="2" NAME="Black" />
+    <NAME LIVERY="3" NAME="Guards Red" />
+    <NAME LIVERY="4" NAME="Racing Yellow" />
+    <NAME LIVERY="5" NAME="GT Silver Metallic" />
+    <NAME LIVERY="6" NAME="Crayon" />
+    <NAME LIVERY="7" NAME="Voodooblau" />
+    <NAME LIVERY="8" NAME="Lava Orange" />
+    <NAME LIVERY="9" NAME="Lizard Green" />
+    <NAME LIVERY="71" NAME="Livery 1" />
+    <NAME LIVERY="72" NAME="Livery 2" />
+    <NAME LIVERY="73" NAME="Livery 3" />
+    <NAME LIVERY="74" NAME="Livery 4" />
+    <NAME LIVERY="75" NAME="Livery 5" />
+    <NAME LIVERY="76" NAME="Livery 6" />
+    <NAME LIVERY="77" NAME="DLC Livery 1" />
+    <NAME LIVERY="78" NAME="DLC Livery 2" />
+    <NAME LIVERY="101" NAME="Ultraviolett" />
+    <NAME LIVERY="102" NAME="Hellgruen" />
+    <NAME LIVERY="103" NAME="Tiffanyblau" />
+    <NAME LIVERY="104" NAME="Signalorange" />
+    <NAME LIVERY="105" NAME="Birkengruen" />
+    <NAME LIVERY="106" NAME="RS Gruen" />
+    <NAME LIVERY="107" NAME="Mexicoblau" />
+    <NAME LIVERY="108" NAME="Sternrubin" />
+    <NAME LIVERY="109" NAME="Saphirblau Metallic" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="1">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\paint\paint_porsche_white.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_white_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\paint\paint_porsche_black.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_black_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\paint\paint_porsche_guards_red.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_guards_red_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="4">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\paint\paint_porsche_racing_yellow.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_racing_yellow_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="5">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\paint\paint_porsche_gt_silver.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_gt_silver_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="6">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\paint\paint_porsche_chalk_grey.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_chalk_grey_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="7">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\paint\paint_porsche_miami_blue.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_miami_blue_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="8">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\paint\paint_porsche_lava_orange.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lava_orange_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="9">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\paint\paint_porsche_lizard_green.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\paint_porsche_lizard_green_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\liveries\por_991_gt3rs_livery01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\liveries\por_991_gt3rs_livery02.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\liveries\por_991_gt3rs_livery03.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\liveries\por_991_gt3rs_livery04.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\liveries\por_991_gt3rs_livery05.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\liveries\por_991_gt3rs_livery06.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\liveries\por_991_gt3rs_livery07.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\liveries\por_991_gt3rs_livery07.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_black_metallic_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\liveries\por_991_gt3rs_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\liveries\por_991_gt3rs_livery08_fresnel.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\liveries\por_991_gt3rs_livery08.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\_generic_materials\livery_matte_darkgrey_metallic_chrome_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pzero_trofeo_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pzero_trofeo_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_nitto_funha_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_tread_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_tread_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_tread_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_tread_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_tread_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_tread_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_nitto_ice_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="101">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\pc2\textures\paint\paint_porsche_ultra_violet.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ultra_violet_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="102">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\pc2\textures\paint\paint_porsche_pale_green.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_pale_green_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="103">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\pc2\textures\paint\paint_porsche_tiffany_blue.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_tiffany_blue_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="104">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\pc2\textures\paint\paint_porsche_signal_orange.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_signal_orange_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="105">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\pc2\textures\paint\paint_porsche_birch_green.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_birch_green_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="106">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\pc2\textures\paint\paint_porsche_rs_green.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_rs_green_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="107">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\pc2\textures\paint\paint_porsche_mexico_blue.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_mexico_blue_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="108">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\pc2\textures\paint\paint_porsche_ruby_star.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_ruby_star_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="109">
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_93ADE18AE2BA0ED5129C" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_porsche_991_gt3rs\shared\pc2\textures\paint\paint_porsche_sapphire_blue.dds" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_3D7A614D71CCF88ACBF0" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_DE66DB4F1449AE58C651" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_991_GT3RS_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_25DAE5C1BC4BEC2830F3" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\por_991_gt3rs_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\shared\pc2\_generic_materials\paint_porsche_sapphire_blue_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="1">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_1.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_1.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_1.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_1.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_1.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_1.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_1.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_1.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_1.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_1.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_2.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_2.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_2.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_2.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_2.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_2.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_3.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_3.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_3.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_3.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_3.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_3.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_3.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_3.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_3.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_3.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="4">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_4.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_4.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_4.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_4.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_4.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_4.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="5">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_5.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_5.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_5.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_5.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_5.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_5.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_5.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_5.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_5.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_5.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="6">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_6.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_6.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_6.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_6.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_6.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_6.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_6.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_6.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_6.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_6.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="7">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_7.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_7.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_7.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_7.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_7.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_7.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_7.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_7.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_7.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_7.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="8">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_8.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_8.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_8.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_8.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_8.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_8.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_8.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_8.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_8.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_8.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="9">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_9.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_9.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_9.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_9.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_9.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_9.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_71.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_71.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_71.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_71.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_71.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_71.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_71.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_71.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_71.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_71.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_72.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_72.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_72.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_72.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_72.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_72.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_72.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_72.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_72.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_72.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_73.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_73.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_73.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_73.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_73.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_73.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_73.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_73.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_73.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_73.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_74.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_74.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_74.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_74.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_74.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_74.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_74.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_74.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_74.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_74.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_75.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_75.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_75.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_75.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_75.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_75.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_75.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_75.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_75.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_75.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_76.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_76.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_76.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_76.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_76.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_76.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_76.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_76.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_76.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_76.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_77.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_77.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_77.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_77.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_77.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_77.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_77.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_77.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_77.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_77.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_78.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_78.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_78.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_78.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_78.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_78.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_78.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_78.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_78.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_78.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="101">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_101.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_101.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_101.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_101.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_101.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_101.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_101.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_101.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_101.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_101.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="102">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_102.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_102.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_102.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_102.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_102.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_102.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_102.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_102.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_102.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_102.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="103">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_103.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_103.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_103.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_103.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_103.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_103.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_103.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_103.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_103.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_103.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="104">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_104.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_104.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_104.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_104.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_104.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_104.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_104.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_104.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_104.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_104.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="105">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_105.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_105.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_105.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_105.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_105.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_105.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_105.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_105.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_105.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_105.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="106">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_106.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_106.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_106.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_106.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_106.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_106.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_106.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_106.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_106.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_106.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="107">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_107.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_107.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_107.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_107.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_107.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_107.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_107.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_107.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_107.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_107.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="108">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_108.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_108.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_108.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_108.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_108.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_108.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_108.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_108.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_108.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_108.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="109">
+    <REPLACE MATERIAL="RGT_PLATE_051A3DC5FC7E8547F658" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_109.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_109.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_109.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_109.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_front_plate_109.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_47A35A9E15E87616C7EE" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_109.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_109.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_109.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_109.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_porsche_991_gt3rs\generic_licplate_euro_rear_plate_109.mtx" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

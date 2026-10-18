@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="20" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="HXC Equipment Team #8" />
+    <NAME LIVERY="52" NAME="HXC Equipment Team #9" />
+    <NAME LIVERY="53" NAME="Flak Motor Racing #10" />
+    <NAME LIVERY="54" NAME="Flak Motor Racing #11" />
+    <NAME LIVERY="55" NAME="Team Arbet Racing #21" />
+    <NAME LIVERY="56" NAME="Team Arbet Racing #22" />
+    <NAME LIVERY="57" NAME="Flynn Air Filters #23" />
+    <NAME LIVERY="58" NAME="Flynn Air Filters #24" />
+    <NAME LIVERY="59" NAME="Equipe Dambreville #26" />
+    <NAME LIVERY="60" NAME="Equipe Dambreville #27" />
+    <NAME LIVERY="61" NAME="Zipanol Motor Racing #31" />
+    <NAME LIVERY="62" NAME="Zipanol Motor Racing #32" />
+    <NAME LIVERY="63" NAME="Team Baysted Accoustics #33" />
+    <NAME LIVERY="64" NAME="Team Baysted Accoustics #34" />
+    <NAME LIVERY="65" NAME="Exta Auto Sports #45" />
+    <NAME LIVERY="66" NAME="Exta Auto Sports #46" />
+    <NAME LIVERY="67" NAME="Piston Motorsports #79" />
+    <NAME LIVERY="68" NAME="Piston Motorsports #78" />
+    <NAME LIVERY="69" NAME="Nalan Automatics #98" />
+    <NAME LIVERY="70" NAME="Nalan Automatics #99" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner02.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="55">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="56">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="60">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="62">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="63">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery13.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="64">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="65">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="66">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="67">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="68">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="69">
+    <REPLACE MATERIAL="vehicles\imsa_ford_mustang_cobra_transam\cob_scca_97_paint" NEWMATERIAL="vehicles\imsa_ford_mustang_cobra_transam\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\imsa_ford_mustang_cobra_transam\cob_scca_97_paint_carbon" NEWMATERIAL="vehicles\imsa_ford_mustang_cobra_transam\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\imsa_ford_mustang_cobra_transam\cob_scca_97_paint_skin" NEWMATERIAL="vehicles\imsa_ford_mustang_cobra_transam\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\imsa_ford_mustang_cobra_transam\cob_scca_97_paint_cpit" NEWMATERIAL="vehicles\imsa_ford_mustang_cobra_transam\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\imsa_ford_mustang_cobra_transam\cob_scca_97_paint_carbon_cpit" NEWMATERIAL="vehicles\imsa_ford_mustang_cobra_transam\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\imsa_ford_mustang_cobra_transam\cob_scca_97_paint_cpit_skin" NEWMATERIAL="vehicles\imsa_ford_mustang_cobra_transam\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery19.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="70">
+    <REPLACE MATERIAL="vehicles\imsa_ford_mustang_cobra_transam\cob_scca_97_paint" NEWMATERIAL="vehicles\imsa_ford_mustang_cobra_transam\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\imsa_ford_mustang_cobra_transam\cob_scca_97_paint_carbon" NEWMATERIAL="vehicles\imsa_ford_mustang_cobra_transam\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\imsa_ford_mustang_cobra_transam\cob_scca_97_paint_skin" NEWMATERIAL="vehicles\imsa_ford_mustang_cobra_transam\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\imsa_ford_mustang_cobra_transam\cob_scca_97_paint_cpit" NEWMATERIAL="vehicles\imsa_ford_mustang_cobra_transam\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\imsa_ford_mustang_cobra_transam\cob_scca_97_paint_carbon_cpit" NEWMATERIAL="vehicles\imsa_ford_mustang_cobra_transam\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\imsa_ford_mustang_cobra_transam\cob_scca_97_paint_cpit_skin" NEWMATERIAL="vehicles\imsa_ford_mustang_cobra_transam\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_livery20.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\cob_scca_97_banner_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\liveries\cob_scca_97_banner01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_rain_02_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_rain_02_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_rain_02_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_rain_02_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_rain_02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_rain_02_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\imsa_ford_mustang_cobra_transam\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

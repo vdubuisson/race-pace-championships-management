@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+
+	<CONFIG>
+		<ALLOWUSEROVERRIDES VALUE="1" />
+		<USEROVERRIDESFILE VALUE="Vehicles\Textures\CustomLiveries\Overrides\audi_rs3_lms_tcr_2024\audi_rs3_lms_tcr_2024.xml" />
+	</CONFIG>
+
+	<BASELIVERIES>
+		<BASELIVERY NAME="Default">
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="Matte">
+			<REPLACE MATERIAL="vehicles\audi_rs3_lms_tcr_2024\ars3_ext_carpaint" NEWMATERIAL="vehicles\audi_rs3_lms_tcr_2024\ars3_ext_carpaint_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="Chrome">
+			<REPLACE MATERIAL="vehicles\audi_rs3_lms_tcr_2024\ars3_ext_carpaint" NEWMATERIAL="vehicles\audi_rs3_lms_tcr_2024\ars3_ext_carpaint_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="GreenMetallic">
+			<REPLACE MATERIAL="vehicles\audi_rs3_lms_tcr_2024\ars3_ext_carpaint" NEWMATERIAL="vehicles\audi_rs3_lms_tcr_2024\ars3_ext_carpaint_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="RedMetallic">
+			<REPLACE MATERIAL="vehicles\audi_rs3_lms_tcr_2024\ars3_ext_carpaint" NEWMATERIAL="vehicles\audi_rs3_lms_tcr_2024\ars3_ext_carpaint_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="BlueMetallic">
+			<REPLACE MATERIAL="vehicles\audi_rs3_lms_tcr_2024\ars3_ext_carpaint" NEWMATERIAL="vehicles\audi_rs3_lms_tcr_2024\ars3_ext_carpaint_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="SilverMetallic">
+			<REPLACE MATERIAL="vehicles\audi_rs3_lms_tcr_2024\ars3_ext_carpaint" NEWMATERIAL="vehicles\audi_rs3_lms_tcr_2024\ars3_ext_carpaint_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\susp_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+	</BASELIVERIES>
+
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="16" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="121 Vallers TCR EE" />
+		<NAME LIVERY="52" NAME="12 R. Fernandez TCR E" />
+		<NAME LIVERY="53" NAME="19 F. Fernandez TCR E" />
+		<NAME LIVERY="54" NAME="2025 N24h Goroyan RT" />
+		<NAME LIVERY="55" NAME="2026 Baker Racing NO. 52" />
+		<NAME LIVERY="56" NAME="2026 Baker Racing NO. 56" />
+		<NAME LIVERY="57" NAME="2026 RVA Graphics Motorsports NO. 31" />
+		<NAME LIVERY="58" NAME="22 Pauwels TCR E" />
+		<NAME LIVERY="59" NAME="27 Filippi TCR E" />
+		<NAME LIVERY="60" NAME="301 Kadlecik TCR EE" />
+		<NAME LIVERY="61" NAME="34 Coronel TCR E" />
+		<NAME LIVERY="62" NAME="38 Adamek TCR EE" />
+		<NAME LIVERY="63" NAME="97 Groszek TCR EE" />
+		<NAME LIVERY="64" NAME="Vannin 5 TCR UK 2026" />
+		<NAME LIVERY="65" NAME="Audi Sport" />
+		<NAME LIVERY="66" NAME="Factory" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\121_vallers_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\121_vallers_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="52">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\12_fernandez_r_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\12_fernandez_r_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\19_fernandez_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\19_fernandez_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\2025_n24h_goroyanrt_776_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\2025_n24h_goroyanrt_776_tire_2022.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\2025_n24h_goroyanrt_776_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\2026_baker_racing_no__52_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\2026_baker_racing_no__52_tire_2022.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\2026_baker_racing_no__52_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\2026_baker_racing_no__56_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\2026_baker_racing_no__56_tire_2022.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\2026_baker_racing_no__56_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\2026_rva_graphics_motorsports_no__31_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\2026_rva_graphics_motorsports_no__31_tire_2022.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\2026_rva_graphics_motorsports_no__31_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\22_pauwels_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\22_pauwels_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\maps_carpaint_map_089_085.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\22_pauwels_maps_carpaint_map_089_085.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\27_filippi_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\27_filippi_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\maps_carpaint_map_089_085.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\27_filippi_maps_carpaint_map_089_085.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\301_kadlecik_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\301_kadlecik_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\34_coronel_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\34_coronel_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\38_adamek_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\38_adamek_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="63">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\97_groszek_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\97_groszek_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\vannin_5_2026_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\vannin_5_2026_tire_2022.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\vannin_5_2026_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\audi_sport_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\audi_sport_tire_2022.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\audi_sport_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\carpaint.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\default_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\windows_decals.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\liveries\default_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\audi_rs3_lms_tcr_2024\tire_2022_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+
+</REPLACEMENT_SYSTEM>

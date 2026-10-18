@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+
+	<CONFIG>
+		<ALLOWUSEROVERRIDES VALUE="1" />
+		<USEROVERRIDESFILE VALUE="Vehicles\Textures\CustomLiveries\Overrides\renault_clio_cup_v\renault_clio_cup_v.xml" />
+	</CONFIG>
+
+	<BASELIVERIES>
+		<BASELIVERY NAME="Default">
+			<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="Matte">
+			<REPLACE MATERIAL="vehicles\renault_clio_cup_v\clc5_carpaint" NEWMATERIAL="vehicles\renault_clio_cup_v\clc5_carpaint_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="Chrome">
+			<REPLACE MATERIAL="vehicles\renault_clio_cup_v\clc5_carpaint" NEWMATERIAL="vehicles\renault_clio_cup_v\clc5_carpaint_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="GreenMetallic">
+			<REPLACE MATERIAL="vehicles\renault_clio_cup_v\clc5_carpaint" NEWMATERIAL="vehicles\renault_clio_cup_v\clc5_carpaint_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="RedMetallic">
+			<REPLACE MATERIAL="vehicles\renault_clio_cup_v\clc5_carpaint" NEWMATERIAL="vehicles\renault_clio_cup_v\clc5_carpaint_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="BlueMetallic">
+			<REPLACE MATERIAL="vehicles\renault_clio_cup_v\clc5_carpaint" NEWMATERIAL="vehicles\renault_clio_cup_v\clc5_carpaint_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="SilverMetallic">
+			<REPLACE MATERIAL="vehicles\renault_clio_cup_v\clc5_carpaint" NEWMATERIAL="vehicles\renault_clio_cup_v\clc5_carpaint_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+	</BASELIVERIES>
+
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="23" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="Clio Cup Series" />
+		<NAME LIVERY="52" NAME="1 Pekar Bohemia" />
+		<NAME LIVERY="53" NAME="23 Gustin Bohemia" />
+		<NAME LIVERY="54" NAME="29 Dziwok Bohemia" />
+		<NAME LIVERY="55" NAME="33 Faye Europe" />
+		<NAME LIVERY="56" NAME="39 Honzik Europe" />
+		<NAME LIVERY="57" NAME="99 Maio Europe" />
+		<NAME LIVERY="58" NAME="133 Chaligne" />
+		<NAME LIVERY="59" NAME="54 Gehin" />
+		<NAME LIVERY="60" NAME="7 Carree" />
+		<NAME LIVERY="61" NAME="10 Glazer" />
+		<NAME LIVERY="62" NAME="8 Chmiel" />
+		<NAME LIVERY="63" NAME="LFM Blue" />
+		<NAME LIVERY="64" NAME="LFM Castrol" />
+		<NAME LIVERY="65" NAME="LFM Green" />
+		<NAME LIVERY="66" NAME="LFM Gulf" />
+		<NAME LIVERY="67" NAME="LFM Martini" />
+		<NAME LIVERY="68" NAME="LFM Pink" />
+		<NAME LIVERY="69" NAME="LFM Red" />
+		<NAME LIVERY="70" NAME="LFM Rothmans" />
+		<NAME LIVERY="71" NAME="LFM R.S." />
+		<NAME LIVERY="72" NAME="LFM Shell" />
+		<NAME LIVERY="73" NAME="LFM Yellow" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\0_default_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\0_default_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="52">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\1_pekar_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\rim.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\1_pekar_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\1_pekar_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\23_gustin_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\23_gustin_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\23_gustin_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\29_dziwok_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\rim.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\29_dziwok_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\29_dziwok_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\33_faye_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\rim.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\33_faye_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\33_faye_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\39_jardier_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\rim.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\39_jardier_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\39_jardier_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\39_jardier_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\99_maio_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\rim.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\99_maio_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\99_maio_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\99_maio_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\ccup_133_chaligne_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\rim.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\ccup_133_chaligne_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\ccup_133_chaligne_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\ccup_133_chaligne_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\ccup_54_genin_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\rim.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\ccup_54_genin_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\ccup_54_genin_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\ccup_54_genin_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\ccup_7_carree_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\rim.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\ccup_7_carree_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\ccup_7_carree_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\ccup_7_carree_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\eset_10_glazer_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\rim.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\eset_10_glazer_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\eset_10_glazer_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\eset_8_chmiel_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\rim.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\eset_8_chmiel_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\eset_8_chmiel_windows_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="63">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_blue_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_blue_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_blue_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_castrol_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_castrol_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_castrol_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_green_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_green_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_green_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_gulf_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_gulf_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_gulf_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="67">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_martini_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_martini_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_martini_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="68">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_pink_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_pink_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_pink_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="69">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_red_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_red_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_red_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="70">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_rothmans_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_rothmans_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_rothmans_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_rs_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_rs_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_rs_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="72">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_shell_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_shell_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_shell_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\carpaint.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_yellow_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\windows_decals.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_yellow_windows_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\maps_carpaint_map_153_060.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\liveries\lfm_yellow_maps_carpaint_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\renault_clio_cup_v\michelin_d_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+
+</REPLACEMENT_SYSTEM>

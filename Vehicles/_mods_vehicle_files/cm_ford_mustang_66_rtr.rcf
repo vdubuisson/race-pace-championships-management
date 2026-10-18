@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="24" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="71" NAME="Arbet Motorsport #95" />
+    <NAME LIVERY="72" NAME="Arbet Motorsport #96" />
+    <NAME LIVERY="73" NAME="Team Barata #64" />
+    <NAME LIVERY="74" NAME="Team Barata #65" />
+    <NAME LIVERY="75" NAME="Magnaflow Team #52" />
+    <NAME LIVERY="76" NAME="Magnaflow Team #53" />
+    <NAME LIVERY="77" NAME="Ringley Motors #4" />
+    <NAME LIVERY="78" NAME="Ringley Motors #5" />
+    <NAME LIVERY="79" NAME="Hummerich Racing #2" />
+    <NAME LIVERY="80" NAME="Hummerich Racing #3" />
+    <NAME LIVERY="81" NAME="Gerhat Racing Team #69" />
+    <NAME LIVERY="82" NAME="Gerhat Racing Team #67" />
+    <NAME LIVERY="83" NAME="Truran Motorsport #72" />
+    <NAME LIVERY="84" NAME="Truran Motorsport #73" />
+    <NAME LIVERY="85" NAME="Jeschke Racing Team #90" />
+    <NAME LIVERY="86" NAME="Jeschke Racing Team #91" />
+    <NAME LIVERY="87" NAME="Team Wakeman #83" />
+    <NAME LIVERY="88" NAME="Team Wakeman #84" />
+    <NAME LIVERY="89" NAME="Karlsson Motors #35" />
+    <NAME LIVERY="90" NAME="Karlsson Motors #36" />
+    <NAME LIVERY="91" NAME="Bouchard Motors #45" />
+    <NAME LIVERY="92" NAME="Bouchard Motors #46" />
+    <NAME LIVERY="101" NAME="RTR Motorsport #66" />
+    <NAME LIVERY="102" NAME="RTR Motorsport #99" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery02.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery03.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery04.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery05.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery06.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery07.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="79">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery09.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="80">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery10.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="81">
+    <REPLACE MATERIAL="vehicles\cm_ford_mustang_66_rtr\for_mus_rtr_66_paint" NEWMATERIAL="vehicles\cm_ford_mustang_66_rtr\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\cm_ford_mustang_66_rtr\for_mus_rtr_66_paint_skin" NEWMATERIAL="vehicles\cm_ford_mustang_66_rtr\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\cm_ford_mustang_66_rtr\for_mus_rtr_66_paint_paint_cpit" NEWMATERIAL="vehicles\cm_ford_mustang_66_rtr\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\cm_ford_mustang_66_rtr\for_mus_rtr_66_paint_cpit_skin" NEWMATERIAL="vehicles\cm_ford_mustang_66_rtr\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery11.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="82">
+    <REPLACE MATERIAL="vehicles\cm_ford_mustang_66_rtr\for_mus_rtr_66_paint" NEWMATERIAL="vehicles\cm_ford_mustang_66_rtr\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\cm_ford_mustang_66_rtr\for_mus_rtr_66_paint_skin" NEWMATERIAL="vehicles\cm_ford_mustang_66_rtr\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\cm_ford_mustang_66_rtr\for_mus_rtr_66_paint_paint_cpit" NEWMATERIAL="vehicles\cm_ford_mustang_66_rtr\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\cm_ford_mustang_66_rtr\for_mus_rtr_66_paint_cpit_skin" NEWMATERIAL="vehicles\cm_ford_mustang_66_rtr\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery12.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="83">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery13.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="84">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery14.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="85">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery15.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="86">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery16.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="87">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery17.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="88">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery18.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="89">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery19.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="90">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery20.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="91">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery21.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="92">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\liveries\for_mus_66_kit01_livery22.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\vintage-racing\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_spec.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="101">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\pc2\textures\liveries\for_mus_rtr_66_livery21.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\pc2\textures\liveries\for_mus_rtr_66_livery21.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="102">
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\pc2\textures\liveries\for_mus_rtr_66_livery22.dds" />
+    <REPLACE TEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_ford_mustang_66_rtr\shared\pc2\textures\liveries\for_mus_rtr_66_livery22.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

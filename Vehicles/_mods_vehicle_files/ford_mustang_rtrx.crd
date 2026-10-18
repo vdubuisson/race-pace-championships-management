@@ -7,7 +7,7 @@
     <class name="VehicleDetails" base="BPersistent">
         <prop name="Vehicle Name" type="String" />
         <prop name="ShortVehicleName" type="String" />
-        <prop name="XLASTID" type="U32" />
+        <prop name="XLASTID" type="S32" />
         <prop name="VehicleManufacturer" type="String" />
         <prop name="VehicleModel" type="String" />
         <prop name="Vehicle Render Model" type="String" />
@@ -63,7 +63,7 @@
         <prop name="Name" data="Ford_Mustang_RTRX" />
         <prop name="Vehicle Name" data="Ford Mustang RTR-X" />
         <prop name="ShortVehicleName" data="RTR-X" />
-        <prop name="XLASTID" data="315" />
+        <prop name="XLASTID" data="563" />
         <prop name="VehicleManufacturer" data="Ford" />
         <prop name="VehicleModel" data="Ford Mustang RTR-X" />
         <prop name="Vehicle Render Model" data="Ford_Mustang_RTRX.vhf" />

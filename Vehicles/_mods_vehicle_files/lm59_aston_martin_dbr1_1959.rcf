@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="29" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="Aston Martin Racing #2" />
+    <NAME LIVERY="52" NAME="Aston Martin Racing #3" />
+    <NAME LIVERY="53" NAME="Aston Martin Racing #4" />
+    <NAME LIVERY="54" NAME="Aston Martin Racing #5" />
+    <NAME LIVERY="55" NAME="Aston Martin Racing #6" />
+    <NAME LIVERY="56" NAME="Aston Martin Racing #7" />
+    <NAME LIVERY="57" NAME="Aston Martin Racing #8" />
+    <NAME LIVERY="58" NAME="Aston Martin Racing #9" />
+    <NAME LIVERY="59" NAME="Aston Martin Racing #19" />
+    <NAME LIVERY="60" NAME="Aston Martin Racing #20" />
+    <NAME LIVERY="61" NAME="Aston Martin Racing Moss #14" />
+    <NAME LIVERY="71" NAME="Clark Racing #17" />
+    <NAME LIVERY="72" NAME="Clark Racing #18" />
+    <NAME LIVERY="73" NAME="Rapa Motors #22" />
+    <NAME LIVERY="74" NAME="Rapa Motors #23" />
+    <NAME LIVERY="75" NAME="Equipe Bouchard #24" />
+    <NAME LIVERY="76" NAME="Equipe Bouchard #25" />
+    <NAME LIVERY="77" NAME="Moll Autosport #28" />
+    <NAME LIVERY="78" NAME="Moll Autosport #29" />
+    <NAME LIVERY="79" NAME="Team Bell Racing #30" />
+    <NAME LIVERY="80" NAME="Team Bell Racing #31" />
+    <NAME LIVERY="81" NAME="Motor Racing Services #32" />
+    <NAME LIVERY="82" NAME="Motor Racing Services #33" />
+    <NAME LIVERY="83" NAME="Hummerich Rennsport #44" />
+    <NAME LIVERY="84" NAME="Hummerich Rennsport #45" />
+    <NAME LIVERY="85" NAME="Karlsson Racing Team #46" />
+    <NAME LIVERY="86" NAME="Karlsson Racing Team #47" />
+    <NAME LIVERY="87" NAME="Baystead Automotive #50" />
+    <NAME LIVERY="88" NAME="Baystead Automotive #51" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery01.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery01.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery01.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery01.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="55">
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery01.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="56">
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery01.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery01.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery01.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery01.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="60">
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery01.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_11.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_11_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_11_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm59_aston_martin_dbr1_1959\aston_dbr1_paint_cpit_skin" NEWMATERIAL="vehicles\lm59_aston_martin_dbr1_1959\shared\_generic_materials\livery_am_dbr1_11_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery11.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_tire_vintage_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery12.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery13.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery14.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery15.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery16.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery17.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery18.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery19.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="79">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery20.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="80">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery21.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="81">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery22.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="82">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery23.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="83">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery24.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="84">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery25.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="85">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery26.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="86">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery27.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="87">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery28.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="88">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\liveries\am_dbr1_1959_livery29.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_nitto_ice_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\lm59_aston_martin_dbr1_1959\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

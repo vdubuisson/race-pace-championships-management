@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+
+	<CONFIG>
+		<ALLOWUSEROVERRIDES VALUE="1" />
+		<USEROVERRIDESFILE VALUE="Vehicles\Textures\CustomLiveries\Overrides\pessio_mustard_bull\pessio_mustard_bull.xml" />
+	</CONFIG>
+
+	<BASELIVERIES>
+		<BASELIVERY NAME="Default">
+			<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="Matte">
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_body" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_body_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_chrome" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_skin" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_skin_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_lampcovers" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_lampcovers_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="Chrome">
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_body" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_body_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_chrome" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_skin" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_skin_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_lampcovers" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_lampcovers_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="GreenMetallic">
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_body" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_body_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_chrome" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_skin" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_skin_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_lampcovers" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_lampcovers_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="RedMetallic">
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_body" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_body_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_chrome" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_skin" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_skin_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_lampcovers" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_lampcovers_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="BlueMetallic">
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_body" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_body_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_chrome" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_skin" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_skin_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_lampcovers" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_lampcovers_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="SilverMetallic">
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_body" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_body_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_chrome" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_skin" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_chrome_skin_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\pessio_mustard_bull\mstb_lampcovers" NEWMATERIAL="vehicles\pessio_mustard_bull\mstb_lampcovers_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+	</BASELIVERIES>
+
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="10" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="avio_1" />
+		<NAME LIVERY="52" NAME="black_11" />
+		<NAME LIVERY="53" NAME="blue_1" />
+		<NAME LIVERY="54" NAME="bordeaux_45" />
+		<NAME LIVERY="55" NAME="green" />
+		<NAME LIVERY="56" NAME="orange_23" />
+		<NAME LIVERY="57" NAME="red_15" />
+		<NAME LIVERY="58" NAME="red_9" />
+		<NAME LIVERY="59" NAME="white_83" />
+		<NAME LIVERY="60" NAME="yellow" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\avio_1_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\interior.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\avio_1_interior.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rim.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\avio_1_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\bodycolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\avio_1_bodycolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rollbarcolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\avio_1_rollbarcolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\maps_bodymap_077_080.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\avio_1_maps_bodymap_077_080.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="52">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\black_11_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\interior.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\black_11_interior.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rim.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\black_11_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\bodycolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\black_11_bodycolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rollbarcolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\black_11_rollbarcolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\maps_llanta_051_070.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\black_11_maps_llanta_051_070.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\blue_1_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\interior.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\blue_1_interior.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\bodycolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\blue_1_bodycolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rollbarcolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\blue_1_rollbarcolor.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\bordeaux_45_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\interior.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\bordeaux_45_interior.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rim.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\bordeaux_45_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\bodycolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\bordeaux_45_bodycolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rollbarcolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\bordeaux_45_rollbarcolor.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\green_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\interior.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\green_interior.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rim.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\green_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\bodycolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\green_bodycolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rollbarcolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\green_rollbarcolor.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\orange_23_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\covers.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\orange_23_covers.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\interior.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\orange_23_interior.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rim.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\orange_23_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\bodycolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\orange_23_bodycolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rollbarcolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\orange_23_rollbarcolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\maps_llanta_051_070.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\orange_23_maps_llanta_051_070.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\red_15_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\covers.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\red_15_covers.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\interior.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\red_15_interior.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\bodycolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\red_15_bodycolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rollbarcolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\red_15_rollbarcolor.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\red_9_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\interior.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\red_9_interior.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\bodycolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\red_9_bodycolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rollbarcolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\red_9_rollbarcolor.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\white_83_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\grille.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\white_83_grille.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\interior.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\white_83_interior.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\bodycolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\white_83_bodycolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rollbarcolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\white_83_rollbarcolor.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\body.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\yellow_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\interior.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\yellow_interior.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rim.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\yellow_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\bodycolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\yellow_bodycolor.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\rollbarcolor.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\liveries\yellow_rollbarcolor.dds" />
+	</CONDITION>
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\pessio_mustard_bull\tyre_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+
+</REPLACEMENT_SYSTEM>

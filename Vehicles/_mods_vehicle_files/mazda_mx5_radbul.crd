@@ -73,7 +73,7 @@
         <prop name="VehicleModel" data="MX-5 Radbul" />
         <prop name="Vehicle Render Model" data="Mazda_MX5_Radbul.vhf" />
         <prop name="Driver Character" data="Mazda_MX5_Radbul" />
-        <prop name="Vehicle Physics Model" data="Mazda_MX5_Radbul" />
+        <prop name="Vehicle Physics Model" data="Mazda_MX5Radbul" />
         <prop name="Cockpit properties" data="Mazda_MX5_Radbul_Cockpit.bin" />
         <prop name="Vehicle Properties" data="Mazda_MX5_Radbul" />
         <prop name="Vehicle Year" data="2015" />

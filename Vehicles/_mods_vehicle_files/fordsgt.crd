@@ -7,7 +7,7 @@
     <class name="VehicleDetails" base="BPersistent">
         <prop name="Vehicle Name" type="String" />
         <prop name="ShortVehicleName" type="String" />
-        <prop name="XLASTID" type="U32" />
+        <prop name="XLASTID" type="S32" />
         <prop name="VehicleManufacturer" type="String" />
         <prop name="VehicleModel" type="String" />
         <prop name="Vehicle Render Model" type="String" />
@@ -58,7 +58,7 @@
         <prop name="Name" data="fordsgt" />
         <prop name="Vehicle Name" data="Ford GT" />
         <prop name="ShortVehicleName" data="Ford GT" />
-        <prop name="XLASTID" data="308" />
+        <prop name="XLASTID" data="559" />
         <prop name="VehicleManufacturer" data="Ford" />
         <prop name="VehicleModel" data="GT" />
         <prop name="Vehicle Render Model" data="Ford_GT.vhf" />

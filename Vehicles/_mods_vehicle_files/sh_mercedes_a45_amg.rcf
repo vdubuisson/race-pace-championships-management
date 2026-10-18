@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="31" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="1" NAME="Mountaingrau Metallic" />
+    <NAME LIVERY="2" NAME="Nachtschwarz" />
+    <NAME LIVERY="3" NAME="Jupiterrot" />
+    <NAME LIVERY="4" NAME="Zirrusweiss" />
+    <NAME LIVERY="5" NAME="Kosmosschwarz Metallic" />
+    <NAME LIVERY="6" NAME="Elbaitgruen Metallic" />
+    <NAME LIVERY="7" NAME="Orientbraun Metallic" />
+    <NAME LIVERY="8" NAME="Polarsilber Metallic" />
+    <NAME LIVERY="9" NAME="Suedseeblau Metallic" />
+    <NAME LIVERY="10" NAME="Cavansitblau Metallic" />
+    <NAME LIVERY="11" NAME="Designo Magno Mountaingrau" />
+    <NAME LIVERY="71" NAME="Livery 1" />
+    <NAME LIVERY="72" NAME="Livery 2" />
+    <NAME LIVERY="73" NAME="Livery 3" />
+    <NAME LIVERY="74" NAME="Livery 4" />
+    <NAME LIVERY="75" NAME="Livery 5" />
+    <NAME LIVERY="76" NAME="Livery 6" />
+    <NAME LIVERY="77" NAME="DLC Livery 1" />
+    <NAME LIVERY="78" NAME="DLC Livery 2" />
+    <NAME LIVERY="101" NAME="Bersmann Motorsport" />
+    <NAME LIVERY="102" NAME="white/Red" />
+    <NAME LIVERY="103" NAME="Bronze" />
+    <NAME LIVERY="104" NAME="Blue" />
+    <NAME LIVERY="105" NAME="Green" />
+    <NAME LIVERY="106" NAME="Tudor Valves" />
+    <NAME LIVERY="107" NAME="Silver/Red" />
+    <NAME LIVERY="108" NAME="Cobell Motorsport" />
+    <NAME LIVERY="109" NAME="Weber Tire Construction" />
+    <NAME LIVERY="110" NAME="Xtremeic" />
+    <NAME LIVERY="111" NAME="Black/Silver" />
+    <NAME LIVERY="112" NAME="ARW/Red" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="1">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_mountaingrau.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_mountaingrau_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_mountaingrau_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_mountaingrau_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_1" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_1" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_nachtschwarz.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_nachtschwarz_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_nachtschwarz_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_nachtschwarz_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_2" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_2" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_jupiterrot.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_jupiterrot_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_jupiterrot_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_jupiterrot_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_3" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_3" />
+  </CONDITION>
+  <CONDITION LIVERY="4">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_zirrusweiss.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_zirrusweiss_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_zirrusweiss_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_zirrusweiss_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_4" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_4" />
+  </CONDITION>
+  <CONDITION LIVERY="5">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_kosmosschwarz.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_kosmosschwarz_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_kosmosschwarz_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_kosmosschwarz_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_5" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_5" />
+  </CONDITION>
+  <CONDITION LIVERY="6">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_elbaitgruen.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_elbaitgruen_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_elbaitgruen_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_elbaitgruen_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_6" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_6" />
+  </CONDITION>
+  <CONDITION LIVERY="7">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_orientbraun.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_orientbraun_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_orientbraun_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_orientbraun_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_7" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_7" />
+  </CONDITION>
+  <CONDITION LIVERY="8">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_polarsilber.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_polarsilber_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_polarsilber_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_polarsilber_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_8" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_8" />
+  </CONDITION>
+  <CONDITION LIVERY="9">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_suedseeblau.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_suedseeblau_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_suedseeblau_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_suedseeblau_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_9" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_9" />
+  </CONDITION>
+  <CONDITION LIVERY="10">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_cavansitblau.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_cavansitblau_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_cavansitblau_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_cavansitblau_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_10" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_10" />
+  </CONDITION>
+  <CONDITION LIVERY="11">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_mountaingrau_magno.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_mountaingrau_magno_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_mountaingrau_magno_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\paint_mercedes_mountaingrau_magno_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_11" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_11" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\merc_a45_livery01.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_71" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_71" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\merc_a45_livery05.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_72" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_72" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_zonda_13.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_zonda_13_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_zonda_13_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_zonda_13_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\pag_zr_livery13.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\merc_a45_livery06.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_73" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_73" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\cat_r500_livery18.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\merc_a45_livery07.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_74" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_74" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_r500_12.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_r500_12_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_r500_12_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_r500_12_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\cat_r500_livery12.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\merc_a45_livery08.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_75" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_75" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\formula_b_livery15.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\merc_a45_livery12.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_76" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_76" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\merc_a45_livery13.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\merc_a45_livery13_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\merc_a45_livery13_spec.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_77" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_77" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\merc_a45_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\merc_a45_livery14_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\merc_a45_livery14_spec.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_78" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_78" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="101">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery01.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_101" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_101" />
+  </CONDITION>
+  <CONDITION LIVERY="102">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery05.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_102" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_102" />
+  </CONDITION>
+  <CONDITION LIVERY="103">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_zonda_13.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_zonda_13_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_zonda_13_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_zonda_13_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\pag_zr_livery13.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\pag_zr_livery13.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery06.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_103" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_103" />
+  </CONDITION>
+  <CONDITION LIVERY="104">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\cat_r500_livery18.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\cat_r500_livery18.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery07.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_104" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_104" />
+  </CONDITION>
+  <CONDITION LIVERY="105">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_r500_12.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_r500_12_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_r500_12_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_r500_12_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\cat_r500_livery12.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\cat_r500_livery12.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery08.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_105" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_105" />
+  </CONDITION>
+  <CONDITION LIVERY="106">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery11.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_106" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_106" />
+  </CONDITION>
+  <CONDITION LIVERY="107">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\formula_b_livery15.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\formula_b_livery15.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery12.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_107" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_107" />
+  </CONDITION>
+  <CONDITION LIVERY="108">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery13.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery13.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_108" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_108" />
+  </CONDITION>
+  <CONDITION LIVERY="109">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery14.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_109" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_109" />
+  </CONDITION>
+  <CONDITION LIVERY="110">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery16.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_110" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_110" />
+  </CONDITION>
+  <CONDITION LIVERY="111">
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\mercedes_a45_paint_cpit_skin" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\shared\pc2\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\liveries\formula_b_livery15.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\formula_b_livery15.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery17.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_111" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_111" />
+  </CONDITION>
+  <CONDITION LIVERY="112">
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_mercedes_a45_amg\shared\pc2\textures\liveries\merc_a45_livery18.dds" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_front_plate_112" />
+    <REPLACE MATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear" NEWMATERIAL="vehicles\sh_mercedes_a45_amg\generic_licplate_eu_rear_plate_112" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

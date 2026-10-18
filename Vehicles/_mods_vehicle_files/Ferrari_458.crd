@@ -7,7 +7,7 @@
     <class name="VehicleDetails" base="BPersistent">
         <prop name="Vehicle Name" type="String" />
         <prop name="ShortVehicleName" type="String" />
-        <prop name="XLASTID" type="U32" />
+        <prop name="XLASTID" type="S32" />
         <prop name="VehicleManufacturer" type="String" />
         <prop name="VehicleModel" type="String" />
         <prop name="Vehicle Render Model" type="String" />
@@ -66,7 +66,7 @@
         <prop name="Name" data="Ferrari_458" />
         <prop name="Vehicle Name" data="Ferrari 458 Italia" />
         <prop name="ShortVehicleName" data="458 Italia" />
-        <prop name="XLASTID" data="324" />
+        <prop name="XLASTID" data="570" />
         <prop name="VehicleManufacturer" data="Ferrari" />
         <prop name="VehicleModel" data="458 Italia" />
         <prop name="Vehicle Render Model" data="Ferrari_458.vhf" />

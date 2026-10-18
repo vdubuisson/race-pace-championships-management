@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="15" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="1" NAME="Ultra Blue" />
+    <NAME LIVERY="2" NAME="Caldera Red" />
+    <NAME LIVERY="3" NAME="Ammonite Grey" />
+    <NAME LIVERY="4" NAME="Glacier White" />
+    <NAME LIVERY="5" NAME="Ultimate Black" />
+    <NAME LIVERY="6" NAME="Rhodium Silver" />
+    <NAME LIVERY="7" NAME="Firesand" />
+    <NAME LIVERY="71" NAME="Livery 1" />
+    <NAME LIVERY="72" NAME="Livery 2" />
+    <NAME LIVERY="73" NAME="Livery 3" />
+    <NAME LIVERY="74" NAME="Livery 4" />
+    <NAME LIVERY="75" NAME="Livery 5" />
+    <NAME LIVERY="76" NAME="Livery 6" />
+    <NAME LIVERY="77" NAME="DLC Livery 1" />
+    <NAME LIVERY="78" NAME="DLC Livery 2" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="1">
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_4620AAD2C6B237D79CBC" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\paint\paint_jaguar_ultra_blue.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_48B32542474ADD61A524" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultra_blue_autoskin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_4620AAD2C6B237D79CBC" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\paint\paint_jaguar_caldera_red.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_48B32542474ADD61A524" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_caldera_red_autoskin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_4620AAD2C6B237D79CBC" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\paint\paint_jaguar_ammonite_grey.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_48B32542474ADD61A524" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ammonite_grey_autoskin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="4">
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_4620AAD2C6B237D79CBC" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\paint\paint_jaguar_glacier_white.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_48B32542474ADD61A524" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_glacier_white_autoskin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="5">
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_4620AAD2C6B237D79CBC" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\paint\paint_jaguar_ultimate_black.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_48B32542474ADD61A524" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_ultimate_black_autoskin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="6">
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_4620AAD2C6B237D79CBC" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\paint\paint_jaguar_rhodium_silver.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_48B32542474ADD61A524" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_rhodium_silver_autoskin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="7">
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_4620AAD2C6B237D79CBC" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\paint\paint_jaguar_firesand.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_48B32542474ADD61A524" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_jaguar_firesand_autoskin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\cat_r500_livery18.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery02.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_4620AAD2C6B237D79CBC" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery02.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_48B32542474ADD61A524" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_r500_18_autoskin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_carbon" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery03.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_4620AAD2C6B237D79CBC" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery03.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_48B32542474ADD61A524" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_CARBON" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_069CDB3EAD79F62C0E04" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_carbon" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_carbon.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_carbon" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_carbon.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_carbon05_black_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery03.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery04.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery05.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery06.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_4620AAD2C6B237D79CBC" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery06.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_48B32542474ADD61A524" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_black" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery07.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_4620AAD2C6B237D79CBC" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery07.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_48B32542474ADD61A524" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_BLACK" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_250945867E022CB9F8A1" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_black" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_black.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_black" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_black.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\livery_matte_black_metallic.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_black.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery07.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_black" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\lotus_exige_livery_metallic_green.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery08.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_4620AAD2C6B237D79CBC" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery08.dds" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_SKIN" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery_autoskin.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_48B32542474ADD61A524" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery_autoskin.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_skin" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_skin.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery_autoskin.mtx" />
+    <REPLACE MATERIAL="JAG_FTYPE_SVR_PAINT_BLACK" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_250945867E022CB9F8A1" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_black" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE MATERIAL="jag_ftype_svr_paint_black.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE MATERIAL="vehicles\jaguar_f-type_svr\jag_ftype_svr_paint_black" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\jag_ftype_svr_paint_black.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\shared\_generic_materials\paint_lotus_metallic_green_livery.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_black.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\liveries\jag_ftype_svr_livery08.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pzero_trofeo_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pzero_trofeo_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_nitto_funha_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_tread_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_tread_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_tread_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_tread_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_tread_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_tread_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_nitto_ice_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\rgt_jaguar_f_type_svr\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="1">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_1.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_1.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_1.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_1.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_1.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_2.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_2.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_2.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_3.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_3.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_3.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_3.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_3.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="4">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_4.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_4.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_4.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="5">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_5.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_5.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_5.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_5.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_5.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="6">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_6.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_6.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_6.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_6.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_6.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="7">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_7.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_7.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_7.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_7.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_7.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_71.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_71.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_71.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_71.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_71.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_72.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_72.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_72.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_72.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_72.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_73.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_73.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_73.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_73.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_73.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_74.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_74.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_74.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_74.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_74.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_75.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_75.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_75.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_75.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_75.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_76.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_76.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_76.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_76.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_76.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_77.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_77.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_77.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_77.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_77.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="RGT_PLATE_1E63DB8EBC02AE37F38F" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_78.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_78.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_78.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_78.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\rgt_jaguar_f_type_svr\generic_licplate_euro_rear_plate_78.mtx" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

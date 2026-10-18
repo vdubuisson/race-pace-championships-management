@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="16" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="S.E.F.A.C. Ferrari #4" />
+    <NAME LIVERY="52" NAME="S.E.F.A.C. Ferrari #22" />
+    <NAME LIVERY="53" NAME="North American Racing Team #22" />
+    <NAME LIVERY="54" NAME="North American Racing Team #12" />
+    <NAME LIVERY="63" NAME="Escuderia Montjuich #3" />
+    <NAME LIVERY="55" NAME="Escuderia Montjuich #15" />
+    <NAME LIVERY="56" NAME="Escuderia Montjuich #142" />
+    <NAME LIVERY="57" NAME="Penske/White Racing #6" />
+    <NAME LIVERY="58" NAME="Penske/White Racing #11" />
+    <NAME LIVERY="59" NAME="Scuderia Filipinetti #6" />
+    <NAME LIVERY="60" NAME="Scuderia Filipinetti #7" />
+    <NAME LIVERY="66" NAME="Gelo Racing Team #7" />
+    <NAME LIVERY="61" NAME="Gelo Racing Team #10" />
+    <NAME LIVERY="62" NAME="Herbert Muller Racing #60" />
+    <NAME LIVERY="64" NAME="Ecurie Francorchamps #9" />
+    <NAME LIVERY="65" NAME="David Piper #16" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery01_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery01_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery02_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery02_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery03_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery03_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery04_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery04_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="55">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery05_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery05_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="56">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery06_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery06_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery07_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery07_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel2_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel2_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel2_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery08_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery08_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel2_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel2_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel2_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery09_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel3_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel3_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel3_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel3_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="60">
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery10_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel3_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel3_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel3_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel3_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery11_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery11_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="62">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery12_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery12_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel4_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel4_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel4_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\fer_512m_70_wheel4_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="63">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery13_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery13_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="64">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery14_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery14_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="65">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery15_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery15_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_goodyear_lm67_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="66">
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_ferrari_512m\fer_512m_70_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_ferrari_512m\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery16_hr.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\liveries\ferrari_512m_70_livery16_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tire_firestone_lm67_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_nitto_ice_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\tread_dunlop_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\lm71_ferrari_512m\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

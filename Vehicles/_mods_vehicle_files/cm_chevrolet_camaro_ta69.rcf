@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="22" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="Penske-Hilton Racing #6" />
+    <NAME LIVERY="52" NAME="Penske-Hilton Racing #9" />
+    <NAME LIVERY="71" NAME="Klerbei Autosport #43" />
+    <NAME LIVERY="72" NAME="Klerbei Autosport #44" />
+    <NAME LIVERY="73" NAME="Jack Tirbnos Auto Repairs #11" />
+    <NAME LIVERY="74" NAME="Jack Tirbnos Auto Repairs #12" />
+    <NAME LIVERY="75" NAME="Falta Racing #62" />
+    <NAME LIVERY="76" NAME="Falta Racing #63" />
+    <NAME LIVERY="77" NAME="Ringley Motors #22" />
+    <NAME LIVERY="78" NAME="Ringley Motors #23" />
+    <NAME LIVERY="79" NAME="Lubrace/Zectrol Racing #26" />
+    <NAME LIVERY="80" NAME="Lubrace/Zectrol Racing #27" />
+    <NAME LIVERY="81" NAME="Arnao Racing Team #92" />
+    <NAME LIVERY="82" NAME="Arnao Racing Team #93" />
+    <NAME LIVERY="83" NAME="Keaveneys Motor Racing #55" />
+    <NAME LIVERY="84" NAME="Keaveneys Motor Racing #56" />
+    <NAME LIVERY="85" NAME="All American Motors #31" />
+    <NAME LIVERY="86" NAME="All American Motors #32" />
+    <NAME LIVERY="87" NAME="CS Motor Racing #74" />
+    <NAME LIVERY="88" NAME="CS Motor Racing #75" />
+    <NAME LIVERY="89" NAME="Mooneyes Racing #77" />
+    <NAME LIVERY="90" NAME="Mooneyes Racing #78" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_interior_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_leather_black2_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_leather_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint_cpit_grey02_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint_cpit_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_interior_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_leather_black2_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_leather_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint_cpit_grey02_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint_cpit_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_tire_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery03.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery04.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery07.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE MATERIAL="vehicles\cm_chevrolet_camaro_ta69\che_pen_69_paint" NEWMATERIAL="vehicles\cm_chevrolet_camaro_ta69\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\cm_chevrolet_camaro_ta69\che_pen_69_paint_skin" NEWMATERIAL="vehicles\cm_chevrolet_camaro_ta69\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\cm_chevrolet_camaro_ta69\che_pen_69_paint_cpit" NEWMATERIAL="vehicles\cm_chevrolet_camaro_ta69\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\cm_chevrolet_camaro_ta69\che_pen_69_paint_cpit_skin" NEWMATERIAL="vehicles\cm_chevrolet_camaro_ta69\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_interior_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_leather_black2_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_leather_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint_cpit_grey02_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint_cpit_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="vehicles\cm_chevrolet_camaro_ta69\che_pen_69_paint" NEWMATERIAL="vehicles\cm_chevrolet_camaro_ta69\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\cm_chevrolet_camaro_ta69\che_pen_69_paint_skin" NEWMATERIAL="vehicles\cm_chevrolet_camaro_ta69\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\cm_chevrolet_camaro_ta69\che_pen_69_paint_cpit" NEWMATERIAL="vehicles\cm_chevrolet_camaro_ta69\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\cm_chevrolet_camaro_ta69\che_pen_69_paint_cpit_skin" NEWMATERIAL="vehicles\cm_chevrolet_camaro_ta69\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_interior_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_leather_black2_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_leather_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint_cpit_grey02_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint_cpit_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="79">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_interior_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_leather_black2_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_leather_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint_cpit_grey02_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint_cpit_red_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="80">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_interior_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_leather_black2_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_leather_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint_cpit_grey02_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint_cpit_red_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="81">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery13.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="82">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="83">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery15.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="84">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery16.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="85">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="86">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="87">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery19.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="88">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery20.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="89">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery21.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="90">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\liveries\chevrolet_camaro_ta69_livery22.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_silver_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\che_pen_69_wheel_grey_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\vintage-racing\tread_dunlop_vintage_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_spec.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\cm_chevrolet_camaro_ta69\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

@@ -7,7 +7,7 @@
     <class name="VehicleDetails" base="BPersistent">
         <prop name="Vehicle Name" type="String" />
         <prop name="ShortVehicleName" type="String" />
-        <prop name="XLASTID" type="U32" />
+        <prop name="XLASTID" type="S32" />
         <prop name="VehicleManufacturer" type="String" />
         <prop name="VehicleModel" type="String" />
         <prop name="Vehicle Render Model" type="String" />
@@ -68,7 +68,7 @@
         <prop name="Name" data="dodge_viper_srt10" />
         <prop name="Vehicle Name" data="Dodge Viper SRT10" />
         <prop name="ShortVehicleName" data="Viper SRT10" />
-        <prop name="XLASTID" data="310" />
+        <prop name="XLASTID" data="563" />
         <prop name="VehicleManufacturer" data="Dodge" />
         <prop name="VehicleModel" data="Viper SRT10" />
         <prop name="Vehicle Render Model" data="dodge_viper_srt10.vhf" />

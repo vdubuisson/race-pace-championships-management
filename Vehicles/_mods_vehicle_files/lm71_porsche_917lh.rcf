@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="5" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="J.W. Automotive Engineering #17" />
+    <NAME LIVERY="52" NAME="J.W. Automotive Engineering #18" />
+    <NAME LIVERY="53" NAME="International Racing Team #21" />
+    <NAME LIVERY="71" NAME="Team Lubrace #26" />
+    <NAME LIVERY="72" NAME="Team Lubrace #27" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\liveries\porsche_917lh_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\liveries\porsche_917lh_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE MATERIAL="vehicles\lm71_porsche_917lh\por_917lh_paint" NEWMATERIAL="vehicles\lm71_porsche_917lh\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_porsche_917lh\por_917lh_paint_skin" NEWMATERIAL="vehicles\lm71_porsche_917lh\shared\_generic_materials\livery_lm11_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_porsche_917lh\por_917lh_paint_cpit" NEWMATERIAL="vehicles\lm71_porsche_917lh\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\lm71_porsche_917lh\por_917lh_paint_cpit_skin" NEWMATERIAL="vehicles\lm71_porsche_917lh\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\liveries\audi_r18_livery18.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\liveries\porsche_917lh_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tire_firestone_lm71_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\liveries\porsche_917lh_livery04.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\liveries\porsche_917lh_livery05.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_blur_nmp8888.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\lm71_porsche_917lh\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

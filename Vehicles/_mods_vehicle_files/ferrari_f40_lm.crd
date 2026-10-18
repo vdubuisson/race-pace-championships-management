@@ -71,10 +71,10 @@
         <prop name="VehicleManufacturer" data="Ferrari" />
         <prop name="VehicleModel" data="F40 LM" />
         <prop name="Vehicle Render Model" data="Ferrari_F40_LM.vhf" />
-        <prop name="Driver Character" data="Ferrari_F40_LM" />
-        <prop name="Vehicle Physics Model" data="Ferrari_F40_LM" />
+        <prop name="Driver Character" data="Ferrari_F40LM" />
+        <prop name="Vehicle Physics Model" data="Ferrari_F40LM" />
         <prop name="Cockpit properties" data="Ferrari_F40_LM_Cockpit.bin" />
-        <prop name="Vehicle Properties" data="Ferrari_F40_LM" />
+        <prop name="Vehicle Properties" data="Ferrari_F40LM" />
         <prop name="Vehicle Year" data="1989" />
         <prop name="Shadow Width" data="5.0" />
         <prop name="Shadow Length" data="7.0" />

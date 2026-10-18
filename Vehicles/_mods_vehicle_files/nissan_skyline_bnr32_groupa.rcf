@@ -119,7 +119,7 @@
 		<REPLACE MATERIAL="Vehicles\nissan_skyline_bnr32_groupa\nis_gtr_r32_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autocpit.mtx" />
 		<REPLACE MATERIAL="Vehicles\nissan_skyline_bnr32_groupa\nis_gtr_r32_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin_autocpit.mtx" />		
 		<REPLACE TEXTURE="Vehicles\Textures\Liveries\AUDI_R18_LIVERY10.dds" NEWTEXTURE="vehicles\textures\liveries\nissan_skyline_r32_groupa_livery06_hr.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\nissan_skyline_r32_groupa_livery09_hr.dds" />				
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\nissan_skyline_r32_groupa_livery06_hr.dds" />				
 		<REPLACE TEXTURE="vehicles\textures\nis_gtr_r32_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_gtr_r32_banner06.dds" />
 		<REPLACE TEXTURE="vehicles\textures\nis_gtr_r32_wheel_diff.dds" NEWTEXTURE="vehicles\textures\nis_gtr_r32_wheel2_diff.dds" />
 		<REPLACE TEXTURE="vehicles\textures\nis_gtr_r32_wheel_spec.dds" NEWTEXTURE="vehicles\textures\nis_gtr_r32_wheel2_spec.dds" />

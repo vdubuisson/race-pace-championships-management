@@ -63,7 +63,7 @@
         <prop name="Name" data="Toyota_Supra_2024" />
         <prop name="Vehicle Name" data="Toyota Supra MkIV Turbo Tuner" />
         <prop name="ShortVehicleName" data="Supra MkIV Tuner" />
-        <prop name="XLASTID" data="332" />
+        <prop name="XLASTID" data="578" />
         <prop name="VehicleManufacturer" data="Toyota" />
         <prop name="VehicleModel" data="Supra MkIV Turbo Tuner" />
         <prop name="Vehicle Render Model" data="Toyota_Supra_2024.vhf" />

@@ -2,15 +2,13 @@
 <REPLACEMENT_SYSTEM>
 	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
 	<INPUTS>
-		<INPUT NAME="LIVERY" OPTIONS="3" />
+		<INPUT NAME="LIVERY" OPTIONS="1" />
 		<INPUT NAME="TIRE" OPTIONS="6" />
 		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
 	</INPUTS>
 
 	<NAMES INPUT ="LIVERY">
 		<NAME LIVERY="81" NAME="JGTC 2000 - Kenwolf with JLOC CORSA #88" />
-		<NAME LIVERY="82" NAME="Valvoline #188" />
-		<NAME LIVERY="83" NAME="JLOC #77" />
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -38,33 +36,6 @@
 
 	<CONDITION LIVERY="81">
 		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\lambo_diablo_gtr_livery31_hr.dds" />
-		<REPLACE TEXTURE="vehicles\textures\lam_diablo_gtr_banner.dds" NEWTEXTURE="vehicles\textures\lam_diablo_gtr_banner1.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\lam_diablo_gtr_wheel_diff.dds" NEWTEXTURE="Vehicles\Textures\lam_diablo_gtr_white_wheel_diff.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\lam_diablo_gtr_wheel_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\lam_diablo_gtr_white_wheel_blur_diff.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\lam_diablo_gtr_wheel_spec.dds" NEWTEXTURE="Vehicles\Textures\lam_diablo_gtr_white_wheel_spec.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\lam_diablo_gtr_wheel_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\lam_diablo_gtr_white_wheel_blur_spec.dds" />		
-		<REPLACE TEXTURE="Vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_90_diff.dds" />
-		<REPLACE TEXTURE="Vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_90_spec.dds" />
-		<REPLACE TEXTURE="Vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_90_nmp8888.dds" />
-		<REPLACE TEXTURE="Vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_90_blur_diff.dds" />
-		<REPLACE TEXTURE="Vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_90_blur_spec.dds" />
-	</CONDITION>
-	
-	<CONDITION LIVERY="82">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\lambo_diablo_gtr_livery32_hr.dds" />
-		<REPLACE TEXTURE="vehicles\textures\lam_diablo_gtr_banner.dds" NEWTEXTURE="vehicles\textures\lam_diablo_gtr_banner1.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\lam_diablo_gtr_wheel_diff.dds" NEWTEXTURE="Vehicles\Textures\lam_diablo_gtr_white_wheel_diff.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\lam_diablo_gtr_wheel_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\lam_diablo_gtr_white_wheel_blur_diff.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\lam_diablo_gtr_wheel_spec.dds" NEWTEXTURE="Vehicles\Textures\lam_diablo_gtr_white_wheel_spec.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\lam_diablo_gtr_wheel_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\lam_diablo_gtr_white_wheel_blur_spec.dds" />		
-		<REPLACE TEXTURE="Vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_90_diff.dds" />
-		<REPLACE TEXTURE="Vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_90_spec.dds" />
-		<REPLACE TEXTURE="Vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_90_nmp8888.dds" />
-		<REPLACE TEXTURE="Vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_90_blur_diff.dds" />
-		<REPLACE TEXTURE="Vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_90_blur_spec.dds" />
-	</CONDITION>
-	<CONDITION LIVERY="83">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\lambo_diablo_gtr_livery33_hr.dds" />
 		<REPLACE TEXTURE="vehicles\textures\lam_diablo_gtr_banner.dds" NEWTEXTURE="vehicles\textures\lam_diablo_gtr_banner1.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\lam_diablo_gtr_wheel_diff.dds" NEWTEXTURE="Vehicles\Textures\lam_diablo_gtr_white_wheel_diff.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\lam_diablo_gtr_wheel_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\lam_diablo_gtr_white_wheel_blur_diff.dds" />

@@ -354,9 +354,6 @@
 		<REPLACE TEXTURE="Vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_pirelli_zr_spec_01.dds" />
 	</CONDITION>
 
-	<CONDITION LIVERY="99">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\mit_evo_sva_livery.dds" />
-	</CONDITION>
 	
 	<!-- 'Soft' Slick tire -->
 	<CONDITION TIRE="1">

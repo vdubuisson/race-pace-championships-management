@@ -114,9 +114,6 @@
 		<REPLACE MATERIAL="vehicles\porsche_959s\por_959s_87_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_nautic_green_autoskin_autocpit.mtx" />
 	</CONDITION>
 
-	<CONDITION LIVERY="99">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\ferrari_f40_livery.dds" />
-	</CONDITION>
 	
 	<!-- Soft Slick tire -->
 	<CONDITION TIRE="1">

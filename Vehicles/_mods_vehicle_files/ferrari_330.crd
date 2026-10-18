@@ -69,7 +69,7 @@
         <prop name="AABBMin" type="Vec3f" />
         <prop name="AABBMax" type="Vec3f" />
     </class>
-    <data class="VehicleDetails" id="0xD8D16D0">
+    <data class="VehicleDetails" id="0xD8D14D0">
         <prop name="Name" data="Ferrari_330_P4" />
         <prop name="Vehicle Name" data="Ferrari 330 P4" />
         <prop name="ShortVehicleName" data="330 P4" />
@@ -78,7 +78,7 @@
         <prop name="VehicleModel" data="Ferrari 330 P4" />
         <prop name="Vehicle Render Model" data="Ferrari_330.vhf" />
         <prop name="Driver Character" data="Ferrari_330" />
-        <prop name="Vehicle Physics Model" data="ferrari_330_p4" />
+        <prop name="Vehicle Physics Model" data="ferrari_330_" />
         <prop name="Cockpit properties" data="Ferrari_330_Cockpit.bin" />
         <prop name="Vehicle Properties" data="Ferrari_330" />
 		<prop name="Safety Car Driver Name" data="SafetyBMW2002Driver" />

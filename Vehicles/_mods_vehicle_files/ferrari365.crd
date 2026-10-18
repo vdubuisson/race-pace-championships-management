@@ -90,7 +90,7 @@
         <prop name="Vehicle Class" data="Vintage Touring-GT A" />
         <prop name="Vehicle Group" data="Ferrari 365 GTB4" />
         <prop name="Vehicle Shape" data="Touring" />
-        <prop name="Engine Placement" data="Front" />
+        <prop name="Engine Placement" data="Mid-Front" />
         <prop name="Number of Exhausts" data="4" />
         <prop name="Exhaust Position 1" data="0.758;0.130;0.452" />
         <prop name="Exhaust Position 2" data="-0.758;0.130;0.452" />
@@ -105,7 +105,7 @@
         <prop name="Engine Heat Position 1" data="0;0.75;-1.00" />
         <prop name="Blown Engine Smoke Position" data="0;0.75;-1.00" />
         <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="2.0" />
-        <prop name="Exhaust Backfire Mesh Length Scale" data="2.0" />
+        <prop name="Exhaust Backfire Mesh Length Scale" data="3.0" />
         <prop name="Vehicle Description" data="" />
         <prop name="AI ONLY" data="false" />
         <prop name="PLAYER ONLY" data="false" />

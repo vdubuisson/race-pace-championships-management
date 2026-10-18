@@ -7,7 +7,7 @@
     <class name="VehicleDetails" base="BPersistent">
         <prop name="Vehicle Name" type="String" />
         <prop name="ShortVehicleName" type="String" />
-        <prop name="XLASTID" type="U32" />
+        <prop name="XLASTID" type="S32" />
         <prop name="VehicleManufacturer" type="String" />
         <prop name="VehicleModel" type="String" />
         <prop name="Vehicle Render Model" type="String" />
@@ -64,7 +64,7 @@
         <prop name="Name" data="Ruf_CTR_Yellowbird" />
         <prop name="Vehicle Name" data="Ruf CTR Yellowbird" />
         <prop name="ShortVehicleName" data="CTR Yellowbird" />
-        <prop name="XLASTID" data="361" />
+        <prop name="XLASTID" data="574" />
         <prop name="VehicleManufacturer" data="Ruf" />
         <prop name="VehicleModel" data="CTR Yellowbird" />
         <prop name="Vehicle Render Model" data="Ruf_CTR_Yellowbird.vhf" />

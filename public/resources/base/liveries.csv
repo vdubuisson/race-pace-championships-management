@@ -70,7 +70,6 @@ class,car_name,livery_name,livery_id,is_mod
 90' Supercars,McLaren F1,Grey Green Metallic,13,TRUE
 90' Supercars,McLaren F1,Dark Green Metallic,14,TRUE
 90' Supercars,McLaren F1,Burgundy,15,TRUE
-90' Supercars,McLaren F1,Custom Livery,99,TRUE
 90' Supercars TD,Jaguar XJ220S Track Days,Yellow,1,TRUE
 90' Supercars TD,Jaguar XJ220S Track Days,Lightblue,2,TRUE
 90' Supercars TD,Jaguar XJ220S Track Days,Red,3,TRUE
@@ -94,7 +93,21 @@ class,car_name,livery_name,livery_id,is_mod
 90' Supercars TD,McLaren F1 Track Days,Grey Green Metallic,13,TRUE
 90' Supercars TD,McLaren F1 Track Days,Dark Green Metallic,14,TRUE
 90' Supercars TD,McLaren F1 Track Days,Burgundy,15,TRUE
-90' Supercars TD,McLaren F1 Track Days,Custom Livery,99,TRUE
+Alpine,Alpine A110 Cup,#37,1,TRUE
+Alpine,Alpine A110 Cup,#38,2,TRUE
+Alpine,Alpine A110 Cup,#60,3,TRUE
+Alpine,Alpine A110 Cup,#61,4,TRUE
+Alpine,Alpine A110 Cup,#110,110,TRUE
+Alpine,Alpine A110 Cup,#69,69,TRUE
+Alpine,Alpine A110 Cup,#11,11,TRUE
+Alpine,Alpine A110 Cup,#27,5,TRUE
+Alpine,Alpine A110 Cup,#28,6,TRUE
+Alpine,Alpine A110 Cup,#24,7,TRUE
+Alpine,Alpine A110 Cup,#25,8,TRUE
+Alpine,Alpine A110 Cup,#21,9,TRUE
+Alpine,Alpine A110 Cup,#22,10,TRUE
+Alpine,Alpine A110 Cup,#8,13,TRUE
+Alpine,Alpine A110 Cup,#9,14,TRUE
 ARC_Cam,ARC Camaro,Leo Panthera Autosports #1,51,FALSE
 ARC_Cam,ARC Camaro,Leo Panthera Autosports #2,52,FALSE
 ARC_Cam,ARC Camaro,Team Hudson Hire Racing #3,53,FALSE
@@ -1247,28 +1260,16 @@ F-Vintage_Gen2,Lotus 49C,Team Lotus 49C #2,51,FALSE
 F-Vintage_Gen2,Lotus 49C,Team Lotus 49C #3,52,FALSE
 F-Vintage_Gen2,Lotus 49C,Team Lotus 49C #15,53,FALSE
 F-Vintage_Gen2,Lotus 49C,Team Lotus 49C #16,54,FALSE
-F1-1996,Benetton B196 - Renault,Livery #1,51,TRUE
-F1-1996,Benetton B196 - Renault,Livery #2,52,TRUE
-F1-1996,Ferrari F310 - Ferrari,Livery #1,51,TRUE
-F1-1996,Ferrari F310 - Ferrari,Livery #2,52,TRUE
-F1-1996,Footwork FA17 - Hart,Livery #1,51,TRUE
-F1-1996,Footwork FA17 - Hart,Livery #2,52,TRUE
-F1-1996,Forti FG01B - Ford,Livery #1,51,TRUE
-F1-1996,Forti FG01B - Ford,Livery #2,52,TRUE
-F1-1996,Jordan 196 - Peugeot,Livery #1,51,TRUE
-F1-1996,Jordan 196 - Peugeot,Livery #2,52,TRUE
-F1-1996,Ligier JS43 - Mugen,Livery #1,51,TRUE
-F1-1996,Ligier JS43 - Mugen,Livery #2,52,TRUE
-F1-1996,McLaren MP4/11 - Mercedes,Livery #1,51,TRUE
-F1-1996,McLaren MP4/11 - Mercedes,Livery #2,52,TRUE
-F1-1996,Minardi 195B - Ford,Livery #1,51,TRUE
-F1-1996,Minardi 195B - Ford,Livery #2,52,TRUE
-F1-1996,Sauber C15 - Ford,Livery #1,51,TRUE
-F1-1996,Sauber C15 - Ford,Livery #2,52,TRUE
-F1-1996,Tyrrell 024 - Yamaha,Livery #1,51,TRUE
-F1-1996,Tyrrell 024 - Yamaha,Livery #2,52,TRUE
-F1-1996,Williams FW18 - Renault,Livery #1,51,TRUE
-F1-1996,Williams FW18 - Renault,Livery #2,52,TRUE
+F-Vintage_Gen2,Brabham BT26 High Downforce,Motor Racing Developments Ltd #3,51,TRUE
+F-Vintage_Gen2,Brabham BT26 High Downforce,Motor Racing Developments Ltd #4,52,TRUE
+F-Vintage_Gen2,Brabham BT26 High Downforce,Frankfurt Racing #19,53,TRUE
+F-Vintage_Gen2,Brabham BT26 High Downforce,Frankfurt Racing #20,54,TRUE
+F-Vintage_Gen2,Ferrari 312 High Downforce,Scuderia Ferrari,51,TRUE
+F-Vintage_Gen2,Ferrari 312 High Downforce,North American Racing Team,52,TRUE
+F-Vintage_Gen2,Lotus 49B High Downforce,Team Lotus #2,51,TRUE
+F-Vintage_Gen2,Lotus 49B High Downforce,Team Lotus #3,52,TRUE
+F-Vintage_Gen2,Lotus 49B High Downforce,Team Lotus #15,53,TRUE
+F-Vintage_Gen2,Lotus 49B High Downforce,Team Lotus #16,54,TRUE
 f355 series,Ferrari F355 Challenge,Rosso #110,67,TRUE
 f355 series,Ferrari F355 Challenge,Rosso #111,68,TRUE
 f355 series,Ferrari F355 Challenge,Giallo Blu #18,51,TRUE
@@ -1321,10 +1322,6 @@ f488 series,Ferrari 488 Challenge (EU),Formula Racing #168,71,TRUE
 f488 series,Ferrari 488 Challenge (EU),Formula Racing #171,72,TRUE
 f488 series,Ferrari 488 Challenge (EU),Rossocorsa #193,73,TRUE
 f488 series,Ferrari 488 Challenge (EU),Formula Racing #198,74,TRUE
-F488challEVO,Ferrari 488 Challenge Evo,#28 Debut Evo - Finali Mondiali,51,TRUE
-F488challEVO,Ferrari 488 Challenge Evo,#66 LMM Nero,52,TRUE
-F488challEVO,Ferrari 488 Challenge Evo,#42 LMM Giallo,53,TRUE
-F488challEVO,Ferrari 488 Challenge Evo,#07 LMM Bianco,54,TRUE
 FE-G1,Formula Edge Model1,EuroTech Racing #11,51,FALSE
 FE-G1,Formula Edge Model1,EuroTech Racing #12,52,FALSE
 FE-G1,Formula Edge Model1,Scuderia Forza #27,53,FALSE
@@ -1416,7 +1413,6 @@ forc,USF Pro 2000,OBX Watches Racing #9,67,TRUE
 forc,USF Pro 2000,OBX Watches Racing #10,68,TRUE
 forc,USF Pro 2000,Stargenley Motorsport #2,69,TRUE
 forc,USF Pro 2000,Stargenley Motorsport #3,70,TRUE
-forc,USF Pro 2000,Custom Livery,99,TRUE
 FordRS,Ford Escort RS1600 (Racing),Hummerich Rennsport #14,51,TRUE
 FordRS,Ford Escort RS1600 (Racing),Hummerich Rennsport #15,52,TRUE
 FordRS,Ford Escort RS1600 (Racing),White Racing #10,53,TRUE
@@ -1532,7 +1528,7 @@ Formula Renault,Formula Renault 3.5,AVF #20 Z. Amberg,67,TRUE
 Formula Renault,Formula Renault 3.5,Zeta Corse #21 R. Mavlanov,68,TRUE
 Formula Renault,Formula Renault 3.5,Zeta Corse #22 R. Mehri,69,TRUE
 Formula Renault,Formula Renault 3.5,Pons Racing #25 O. Webb,70,TRUE
-Formula Renault,Formula Renault 3.5,Pons Racing #26 M. van Buuren,71,TRUE
+Formula Renault,Formula Renault 3.5,Pons Racing #26 M van Buuren,71,TRUE
 Formula Renault,Formula Renault 3.5,Comtec Racing #27 C. Twynham,72,TRUE
 Formula Renault,Formula Renault 3.5,Comtec Racing #28 E. Ocon,73,TRUE
 Formula Renault,Formula Renault 3.5,SMS Besmone Racing Team #30,74,TRUE
@@ -1630,22 +1626,23 @@ Gr5,Porsche 908/03 Spyder,Custom Livery,99,TRUE
 Gr5,BMW 320 Turbo Gr5,BMW Junior Team #11,51,TRUE
 Gr5,BMW 320 Turbo Gr5,BMW Junior Team #12,52,TRUE
 Gr5,BMW 320 Turbo Gr5,BMW Junior Team #13,53,TRUE
-Gr5,BMW 320 Turbo Gr5,Rodenstock Wurth #4,54,TRUE
-Gr5,BMW 320 Turbo Gr5,Team Albert Rodenstock,55,TRUE
-Gr5,BMW 320 Turbo Gr5,Sachs Sporting,56,TRUE
-Gr5,BMW 320 Turbo Gr5,BMW Faltz Essen,57,TRUE
-Gr5,BMW 320 Turbo Gr5,Jagermeister BMW,58,TRUE
-Gr5,BMW 320 Turbo Gr5,BMW Belgium,59,TRUE
-Gr5,BMW 320 Turbo Gr5,Heidegger Becks,60,TRUE
-Gr5,BMW 320 Turbo Gr5,Jim Busby Coors,61,TRUE
-Gr5,BMW 320 Turbo Gr5,Schnitzer Shell,62,TRUE
-Gr5,BMW 320 Turbo Gr5,Wurth Hat,63,TRUE
-Gr5,BMW 320 Turbo Gr5,Fruit of the Loom - GS Sport,64,TRUE
-Gr5,BMW 320 Turbo Gr5,HAT - Hothmann Automations Technik,65,TRUE
-Gr5,BMW 320 Turbo Gr5,Gosser - BMW Faltz Essen,66,TRUE
-Gr5,BMW 320 Turbo Gr5,Buler - BMW Schweiz,67,TRUE
-Gr5,BMW 320 Turbo Gr5,Glysantin Rennsport Team,68,TRUE
-Gr5,BMW 320 Turbo Gr5,Team Warsteiner GS Tuning,69,TRUE
+Gr5,BMW 320 Turbo Gr5,Equipe Dambreville #3,54,TRUE
+Gr5,BMW 320 Turbo Gr5,Equipe Dambreville #4,55,TRUE
+Gr5,BMW 320 Turbo Gr5,Stetz + Grindner Racing #32,56,TRUE
+Gr5,BMW 320 Turbo Gr5,Stetz + Grindner Racing #33,57,TRUE
+Gr5,BMW 320 Turbo Gr5,Liezenbach Motorport #14,58,TRUE
+Gr5,BMW 320 Turbo Gr5,Liezenbach Motorport #15,59,TRUE
+Gr5,BMW 320 Turbo Gr5,Gerhardt Electronics Team #18,60,TRUE
+Gr5,BMW 320 Turbo Gr5,Gerhardt Electronics Team #19,61,TRUE
+Gr5,BMW 320 Turbo Gr5,Gerstenfelder Rennsport #21,62,TRUE
+Gr5,BMW 320 Turbo Gr5,Gerstenfelder Rennsport #22,63,TRUE
+Gr5,BMW 320 Turbo Gr5,Kolomiets Sport #47,64,TRUE
+Gr5,BMW 320 Turbo Gr5,Kolomiets Sport #48,65,TRUE
+Gr5,BMW 320 Turbo Gr5,Rexxar Team #49,66,TRUE
+Gr5,BMW 320 Turbo Gr5,Rexxar Team #51,67,TRUE
+Gr5,BMW 320 Turbo Gr5,GJL Racing Team #54,68,TRUE
+Gr5,BMW 320 Turbo Gr5,GJL Racing Team #57,69,TRUE
+Gr5,BMW 320 Turbo Gr5,GJL Racing Team #56,70,TRUE
 Gr5,BMW 320 Turbo Gr5,Custom Livery,99,TRUE
 Gr5,Zakspeed Ford Capri Group 5,Sachs Zakspeed Racing #1,51,TRUE
 Gr5,Zakspeed Ford Capri Group 5,Wurth Zakspeed Racing #1,52,TRUE
@@ -1720,18 +1717,24 @@ Group A,Mercedes-Benz 190E 2.5-16 Evo II DTM,ALPS Motorsport #37,59,FALSE
 Group A,Mercedes-Benz 190E 2.5-16 Evo II DTM,ALPS Motorsport #38,60,FALSE
 Group A,Mercedes-Benz 190E 2.5-16 Evo II DTM,Dietrich Autosports #48,61,FALSE
 Group A,Mercedes-Benz 190E 2.5-16 Evo II DTM,Dietrich Autosports #49,62,FALSE
-Group A mod,Ford Sierra Cosworth RS500 Group A,Hein Gericke Ford Grab Motorsport #1,51,TRUE
-Group A mod,Ford Sierra Cosworth RS500 Group A,Benson & Hedges Racing #25,52,TRUE
-Group A mod,Ford Sierra Cosworth RS500 Group A,Bastos Racing Team #1,53,TRUE
-Group A mod,Ford Sierra Cosworth RS500 Group A,Mobil 1 Racing #5,54,TRUE
-Group A mod,Ford Sierra Cosworth RS500 Group A,Team Marlboro #4,57,TRUE
-Group A mod,Ford Sierra Cosworth RS500 Group A,Andy Rouse Engineering #26,58,TRUE
-Group A mod,Ford Sierra Cosworth RS500 Group A,Eggenberger Motorsport #2,59,TRUE
-Group A mod,Ford Sierra Cosworth RS500 Group A,Arquati Racing Team #16,60,TRUE
-Group A mod,Ford Sierra Cosworth RS500 Group A,Eggenberger Motorsport #6,63,TRUE
-Group A mod,Ford Sierra Cosworth RS500 Group A,Arquati Racing Team #18,64,TRUE
-Group A mod,Ford Sierra Cosworth RS500 Group A,Object T #18,65,TRUE
-Group A mod,Ford Sierra Cosworth RS500 Group A,Shell Ultra-Hi Racing #17,66,TRUE
+Group A mod,DTM Omega Evo,Team Irmscher - Franz Engstler #36,51,TRUE
+Group A mod,DTM Omega Evo,Team Irmscher - Volker Strycek #37,52,TRUE
+Group A mod,DTM Omega Evo,Team Schübel - Peter Oberndorfer #66,53,TRUE
+Group A mod,DTM Omega Evo,Team Schübel - Manuel Reuter #99,54,TRUE
+Group A mod,DTM Omega Evo,Eggenberger Motorenbau - Klaus Niedzwiedz #25,55,TRUE
+Group A mod,DTM Omega Evo,Eggenberger Motorenbau - Alain Ferté #26,56,TRUE
+Group A mod,Ford Sierra Cosworth RS500 Group A,Mixlub Racing Team #61,51,TRUE
+Group A mod,Ford Sierra Cosworth RS500 Group A,Mixlub Racing Team #62,52,TRUE
+Group A mod,Ford Sierra Cosworth RS500 Group A,Zipanol Motor Racing #86,53,TRUE
+Group A mod,Ford Sierra Cosworth RS500 Group A,Zipanol Motor Racing #87,54,TRUE
+Group A mod,Ford Sierra Cosworth RS500 Group A,Luigo Racing #66,57,TRUE
+Group A mod,Ford Sierra Cosworth RS500 Group A,Luigo Racing #67,58,TRUE
+Group A mod,Ford Sierra Cosworth RS500 Group A,Millgo Motorsport #91,59,TRUE
+Group A mod,Ford Sierra Cosworth RS500 Group A,Millgo Motorsport #92,60,TRUE
+Group A mod,Ford Sierra Cosworth RS500 Group A,Keaveneys Racing Team #40,63,TRUE
+Group A mod,Ford Sierra Cosworth RS500 Group A,Keaveneys Racing Team #41,64,TRUE
+Group A mod,Ford Sierra Cosworth RS500 Group A,Domino Motorsports #95,65,TRUE
+Group A mod,Ford Sierra Cosworth RS500 Group A,Domino Motorsports #96,66,TRUE
 Group A mod,Nissan Skyline GT-R (BNR32) Group A,JTCC 1991 - Napolex Racing Team #12,56,TRUE
 Group A mod,Nissan Skyline GT-R (BNR32) Group A,24H Spa 1991 - Nissan Team Zexel #25,54,TRUE
 Group A mod,Nissan Skyline GT-R (BNR32) Group A,JTCC 1992 - Team Taisan #2,52,TRUE
@@ -1805,21 +1808,20 @@ Group C,Sauber Mercedes C9,Petrocelli Wakeman Racing #47,57,FALSE
 Group C,Sauber Mercedes C9,Blistering Performance Auto #50,58,FALSE
 Group C,Sauber Mercedes C9,Bremen Mototsport #60,59,FALSE
 Group C,Sauber Mercedes C9,BRS Auto #65,60,FALSE
-Group C mod,Jaguar XJR-9,Castrol Jaguar Racing #60,51,TRUE
-Group C mod,Jaguar XJR-9,Castrol Jaguar Racing #61,52,TRUE
-Group C mod,Jaguar XJR-9,Castrol Jaguar Racing #66,53,TRUE
-Group C mod,Jaguar XJR-9,Jaguar Racing #21,54,TRUE
-Group C mod,Jaguar XJR-9,Jaguar Racing #22,55,TRUE
-Group C mod,Jaguar XJR-9,Jaguar Racing #2,57,TRUE
-Group C mod,Mazda 787b,Renown,1,TRUE
-Group C mod,Mazda 787b,Renown LM,2,TRUE
-Group C mod,Mazda 787b,Mazda 18,3,TRUE
-Group C mod,Mazda 787b,Mazda 56,4,TRUE
-Group C mod,Mazda 787b,Mazda 201,5,TRUE
-Group C mod,Nissan GTP ZX-Turbo,Electramotive Engineering #83,51,TRUE
-Group C mod,Nissan GTP ZX-Turbo,Electramotive Engineering #84,52,TRUE
-Group C mod,Nissan GTP ZX-Turbo,Busby Racing #67,53,TRUE
-Group C mod,Nissan GTP ZX-Turbo,Custom Livery,99,TRUE
+Group C,Jaguar XJR-9,Castrol Jaguar Racing #60,51,TRUE
+Group C,Jaguar XJR-9,Castrol Jaguar Racing #61,52,TRUE
+Group C,Jaguar XJR-9,Castrol Jaguar Racing #66,53,TRUE
+Group C,Jaguar XJR-9,Jaguar Racing #21,54,TRUE
+Group C,Jaguar XJR-9,Jaguar Racing #22,55,TRUE
+Group C,Jaguar XJR-9,Jaguar Racing #2,57,TRUE
+Group C,Mazda 787b,Renown,1,TRUE
+Group C,Mazda 787b,Renown LM,2,TRUE
+Group C,Mazda 787b,Mazda 18,3,TRUE
+Group C,Mazda 787b,Mazda 56,4,TRUE
+Group C,Mazda 787b,Mazda 201,5,TRUE
+Group C,Nissan GTP ZX-Turbo,Electramotive Engineering #83,51,TRUE
+Group C,Nissan GTP ZX-Turbo,Electramotive Engineering #84,52,TRUE
+Group C,Nissan GTP ZX-Turbo,Busby Racing #67,53,TRUE
 Group6,Porsche 936 Spyder,Porsche System #3,51,TRUE
 Group6,Porsche 936 Spyder,Porsche System #4,52,TRUE
 Group6,Porsche 936 Spyder,Reinhold Joest Racing #5,53,TRUE
@@ -1901,6 +1903,16 @@ GT1,Nissan R390 GT1,Nissan R390 GT1 #33,57,FALSE
 GT1,Nissan R390 GT1,Nissan R390 GT1 #34,58,FALSE
 GT1,Nissan R390 GT1,Nissan R390 GT1 #38,59,FALSE
 GT1,Nissan R390 GT1,Nissan R390 GT1 #39,60,FALSE
+GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #18,51,FALSE
+GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #19,52,FALSE
+GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #20,53,FALSE
+GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #21,54,FALSE
+GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #22,55,FALSE
+GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #23,56,FALSE
+GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #24,57,FALSE
+GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #42,58,FALSE
+GT1,Ferrari F50 GT,Le Mans 24h 1997 - Scuderia Ferrari #34,34,TRUE
+GT1,Ferrari F50 GT,Le Mans 24h 1997 - Scuderia Ferrari #35,35,TRUE
 GT1,Panoz Esperante GTR1,Panoz Motor Sports #44,51,TRUE
 GT1,Panoz Esperante GTR1,Panoz Motor Sports #45,52,TRUE
 GT1,Panoz Esperante GTR1,Panoz Motor Sports #4,53,TRUE
@@ -1962,27 +1974,6 @@ GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #92,53,FALSE
 GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #93,54,FALSE
 GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #94,55,FALSE
 GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #95,56,FALSE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,KAOS MARTINI Motorsport #377,70,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Keaveneys Motorsport #23,71,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Keaveneys Motorsport #3,72,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Hummerich Racing #2,73,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Hummerich Racing #35,74,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Karlsson Motorsport #362,75,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Karlsson Motorsport #363,76,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team Recaro #412,77,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team Recaro #413,78,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team KN #374,79,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team KN #375,80,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team CSF #59,81,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team CSF #61,82,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team Alcon #1,83,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team Alcon #5,84,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team Falken #315,85,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team Falken #316,86,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team Comp Cams #6,87,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team Comp Cams #7,88,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team Greddy #427,89,TRUE
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,Team Greddy #428,90,TRUE
 GT1SportsClub,Aston Martin Vulcan AMR PRO,Yellow / Orange,1,TRUE
 GT1SportsClub,Aston Martin Vulcan AMR PRO,Hardly Green / Yellow,2,TRUE
 GT1SportsClub,Aston Martin Vulcan AMR PRO,Silver Fox / Red,3,TRUE
@@ -2050,27 +2041,34 @@ GT1SportsClub,Lamborghini Essenza SCV12,Livery 15,15,TRUE
 GT1SportsClub,Lamborghini Essenza SCV12,Livery 16,16,TRUE
 GT1SportsClub,Lamborghini Essenza SCV12,Livery 17,17,TRUE
 GT1SportsClub,Lamborghini Essenza SCV12,Livery 18,18,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Zonda Revolucion #1,51,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Zonda Revolucion #2,52,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Carbon Racing #1,53,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Carbon Racing #2,54,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Team Pirelli #1,55,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Team Pirelli #2,56,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Incredible Cars Racing #58,57,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Incredible Cars Racing #59,58,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Sheriftizer Motorsport #8,59,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Sheriftizer Motorsport #9,60,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Team Project Cars #5,61,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Team Project Cars #6,62,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Besmone Automotive #65,63,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Besmone Automotive #66,64,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Elbregsen Racing #24,65,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Elbregsen Racing #25,66,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Vollmer Racing Team #38,67,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Vollmer Racing Team #39,68,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Adrenaline Racing #20,69,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Adrenaline Racing #21,70,TRUE
-GT1SportsClub,PaganiZondaRevolucion,Adrenaline Racing #33,71,TRUE
+GT1SportsClub,Porsche 935,Porsche Racing #70,51,TRUE
+GT1SportsClub,Porsche 935,Mentos Racing #8,52,TRUE
+GT1SportsClub,Porsche 935,Herberth Motorsport #96,53,TRUE
+GT1SportsClub,Porsche 935,Grasser Racing Team #29,54,TRUE
+GT1SportsClub,Porsche 935,Livery 1,71,TRUE
+GT1SportsClub,Porsche 935,Livery 2,72,TRUE
+GT1SportsClub,Porsche 935,Livery 3,73,TRUE
+GT1SportsClub,Porsche 935,Livery 4,74,TRUE
+GT1SportsClub,Porsche 935,Livery 5,75,TRUE
+GT1SportsClub,Porsche 935,Livery 6,76,TRUE
+GT1SportsClub,Porsche 935,Livery 7,77,TRUE
+GT1SportsClub,Porsche 935,Livery 8,78,TRUE
+GT1SportsClub,Porsche 935,Livery 9,79,TRUE
+GT1SportsClub,Porsche 935,Livery 10,80,TRUE
+GT1SportsClub,Porsche 935,Livery 11,81,TRUE
+GT1SportsClub,Porsche 935,Livery 12,82,TRUE
+GT1SportsClub,Porsche 935,Livery 13,83,TRUE
+GT1SportsClub,Porsche 935,Livery 14,84,TRUE
+GT1SportsClub,Porsche 935,Livery 15,85,TRUE
+GT1SportsClub,Porsche 935,Livery 16,86,TRUE
+GT1SportsClub,Porsche 935,Livery 17,87,TRUE
+GT1SportsClub,Porsche 935,Livery 18,88,TRUE
+GT1SportsClub,Porsche 935,Livery 19,89,TRUE
+GT1SportsClub,Porsche 935,Livery 20,90,TRUE
+GT1SportsClub,Porsche 935,Team Bisimoto #35,91,TRUE
+GT1SportsClub,Porsche 935,Team Bisimoto #36,92,TRUE
+GT1SportsClub,Porsche 935,Livery 21,93,TRUE
+GT1SportsClub,Porsche 935,Tenner Racing #71,94,TRUE
 GT2_05,Milano GT36,Milano GT36 #12,51,FALSE
 GT2_05,Milano GT36,Milano GT36 #17,52,FALSE
 GT2_05,Milano GT36,Milano GT36 #20,53,FALSE
@@ -2143,70 +2141,6 @@ GT3,McLaren 720S GT3,McLaren 720S GT3 #27,53,FALSE
 GT3,McLaren 720S GT3,McLaren 720S GT3 #90,54,FALSE
 GT3,McLaren 720S GT3,McLaren 720S GT3 #92,55,FALSE
 GT3,McLaren 720S GT3,McLaren 720S GT3 #94,56,FALSE
-GT3,Dodge Viper ACR GT3,Boland Motorsport #259,72,TRUE
-GT3,Dodge Viper ACR GT3,Boland Motorsport #256,71,TRUE
-GT3,Dodge Viper ACR GT3,Team Barata #327,73,TRUE
-GT3,Dodge Viper ACR GT3,Team Barata #328,74,TRUE
-GT3,Dodge Viper ACR GT3,Team Accel #342,75,TRUE
-GT3,Dodge Viper ACR GT3,Team Accel #343,76,TRUE
-GT3,Dodge Viper ACR GT3,Team Motul #263,77,TRUE
-GT3,Dodge Viper ACR GT3,Team Motul #276,78,TRUE
-GT3,Dodge Viper ACR GT3,Team Superpro #266,79,TRUE
-GT3,Dodge Viper ACR GT3,Team Superpro #267,80,TRUE
-GT3,Dodge Viper ACR GT3,Team VP Racing #414,81,TRUE
-GT3,Dodge Viper ACR GT3,Team VP Racing #415,82,TRUE
-GT3,Dodge Viper ACR GT3,Team Racetech #387,83,TRUE
-GT3,Dodge Viper ACR GT3,Team Racetech #388,84,TRUE
-GT3,Dodge Viper ACR GT3,Team Ohlins #502,85,TRUE
-GT3,Dodge Viper ACR GT3,Team Ohlins #503,86,TRUE
-GT3,Dodge Viper ACR GT3,Team Mr Gasket #356,87,TRUE
-GT3,Dodge Viper ACR GT3,Team Mr Gasket #357,88,TRUE
-GT3,Dodge Viper ACR GT3,Team Advan #344,89,TRUE
-GT3,Dodge Viper ACR GT3,Team Advan #345,90,TRUE
-GT3,Dodge Viper ACR GT3,KAOS Viper Team #333,91,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Haltech #27,71,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Haltech #28,72,TRUE
-GT3,Jaguar F-Type SVR GT3,Team ilabb #11,73,TRUE
-GT3,Jaguar F-Type SVR GT3,Team ilabb #12,74,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Aorus #37,75,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Aorus #38,76,TRUE
-GT3,Jaguar F-Type SVR GT3,Team RSR #18,77,TRUE
-GT3,Jaguar F-Type SVR GT3,Team RSR #19,78,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Superpro #71,79,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Superpro #72,80,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Alcon #31,81,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Alcon #32,82,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Stillen #57,83,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Stillen #58,84,TRUE
-GT3,Jaguar F-Type SVR GT3,Team ACT #93,85,TRUE
-GT3,Jaguar F-Type SVR GT3,Team ACT #94,86,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Sabelt #22,87,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Sabelt #23,88,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Sparco #124,89,TRUE
-GT3,Jaguar F-Type SVR GT3,Team Sparco #125,90,TRUE
-GT3,Toyota GR Supra GT3,Team HKS #332,71,TRUE
-GT3,Toyota GR Supra GT3,Team HKS #333,72,TRUE
-GT3,Toyota GR Supra GT3,Team Garrett #402,73,TRUE
-GT3,Toyota GR Supra GT3,Team Garrett #403,74,TRUE
-GT3,Toyota GR Supra GT3,Team Falken #418,75,TRUE
-GT3,Toyota GR Supra GT3,Team Falken #419,76,TRUE
-GT3,Toyota GR Supra GT3,Team Motul #450,77,TRUE
-GT3,Toyota GR Supra GT3,Team Motul #451,78,TRUE
-GT3,Toyota GR Supra GT3,Team TDS #389,79,TRUE
-GT3,Toyota GR Supra GT3,Team TDS #390,80,TRUE
-GT3,Toyota GR Supra GT3,Team RS*R #431,81,TRUE
-GT3,Toyota GR Supra GT3,Team RS*R #432,82,TRUE
-GT3,Toyota GR Supra GT3,Team Greddy #378,83,TRUE
-GT3,Toyota GR Supra GT3,Team Greddy #379,84,TRUE
-GT3,Toyota GR Supra GT3,Team Rays #344,85,TRUE
-GT3,Toyota GR Supra GT3,Team Rays #345,86,TRUE
-GT3,Toyota GR Supra GT3,Team AEM #431,87,TRUE
-GT3,Toyota GR Supra GT3,Team AEM #432,88,TRUE
-GT3,Toyota GR Supra GT3,Team Sabelt #397,89,TRUE
-GT3,Toyota GR Supra GT3,Team Sabelt #398,90,TRUE
-GT3,Toyota GR Supra GT3,Team RAD #86,91,TRUE
-GT3,Toyota GR Supra GT3,Team RAD #87,92,TRUE
-GT3,Toyota GR Supra GT3,Team KAOS GR #455,93,TRUE
 GT3_Gen0,Mercedes-AMG GT3,ADAC 2016 Zakspeed #1,51,TRUE
 GT3_Gen0,Mercedes-AMG GT3,ADAC 2018 HTP Mann-Filter #47,52,TRUE
 GT3_Gen0,Mercedes-AMG GT3,Blancpain 2016 Akka ASP #87,53,TRUE
@@ -2316,6 +2250,14 @@ GT3_Gen0,Ferrari 488 GT3,GTWC 2021 Tempesta Racing Team #99,61,TRUE
 GT3_Gen0,Ferrari 488 GT3,Ferrari Challenge Asia 2017 M Auto Hiroshima #24,62,TRUE
 GT3_Gen0,Ferrari 488 GT3,Ferrari Challenge Asia 2019 M Auto Hiroshima #424,63,TRUE
 GT3_Gen0,Honda NSX GT3,Spa 24h 2018 Castrol Honda Racing #30,51,TRUE
+GT3_Gen0,Honda NSX GT3,Blancpain 2019 Team Jenson #22,52,TRUE
+GT3_Gen0,Honda NSX GT3,Bath 12h 2020 JAS Motorsport Honda #30,53,TRUE
+GT3_Gen0,Honda NSX GT3,IMSA 2017 Michael Shank Racing with CurbAgajanian #86,54,TRUE
+GT3_Gen0,Honda NSX GT3,IMSA 2017 Michael Shank Racing with Curb/Agajanian #93,55,TRUE
+GT3_Gen0,Honda NSX GT3,IMSA 2018 HART #69 Rolex 24 Daytona,56,TRUE
+GT3_Gen0,Honda NSX GT3,IMSA 2018 HART #69 Sahlen's 6hrs of The Glen,57,TRUE
+GT3_Gen0,Honda NSX GT3,IMSA 2021 Gradient Racing #66,58,TRUE
+GT3_Gen0,Honda NSX GT3,SGT 2018 Modulo Kenwood #34,59,TRUE
 GT3_Gen0,Lamborghini Huracan GT3,ADAC 2017 GRT Racing #63,51,TRUE
 GT3_Gen0,Lamborghini Huracan GT3,Blancpain 2016 Barwell Motorsports #78,52,TRUE
 GT3_Gen0,Lamborghini Huracan GT3,Blancpain 2016 Barwell Motorsports #666,53,TRUE
@@ -2556,10 +2498,10 @@ GT3_LMS_MP412CP,McLaren MP4-12C GT3,2014 K-PAX Racing #9,59,TRUE
 GT3_LMS_MP412CP,McLaren MP4-12C GT3,2013 Sebastien Loeb Racing #9,60,TRUE
 GT3_LMS_MP412CP,McLaren MP4-12C GT3,factory #59,61,TRUE
 GT3_LMS_MP412CP,McLaren MP4-12C GT3,MRS_2014,62,TRUE
-GT3_Nurb24h,BMW M3 GT3 spec,BMW Motorsport Nürburgring24h 2010 #25,54,TRUE
-GT3_Nurb24h,BMW M3 GT3 spec,BMW Motorsport Nürburgring24h 2010 #26,55,TRUE
-GT3_Nurb24h,BMW M3 GT3 spec,BMW Motorsport ALMS 2010 #90,75,TRUE
-GT3_Nurb24h,BMW M3 GT3 spec,BMW Motorsport ALMS 2010 #92,76,TRUE
+GT3spec,BMW M3 GT3 spec,BMW Motorsport ALMS 2010 #90,75,TRUE
+GT3spec,BMW M3 GT3 spec,BMW Motorsport ALMS 2010 #92,76,TRUE
+GT3spec,BMW M3 GT3 spec,BMW Motorsport Nürburgring24h 2010 #25,54,TRUE
+GT3spec,BMW M3 GT3 spec,BMW Motorsport Nürburgring24h 2010 #26,55,TRUE
 GT4,Alpine A110 GT4 Evo,Alpine A110 GT4 Evo #36,51,FALSE
 GT4,Alpine A110 GT4 Evo,Alpine A110 GT4 Evo #36b,52,FALSE
 GT4,Alpine A110 GT4 Evo,Alpine A110 GT4 Evo #63,53,FALSE
@@ -2791,6 +2733,27 @@ GTE,BMW M8 GTE,BMW M8 GTE #87,57,FALSE
 GTE,BMW M8 GTE,BMW M8 GTE #88,58,FALSE
 GTE,BMW M8 GTE,BMW M8 GTE #89,59,FALSE
 GTE,BMW M8 GTE,BMW M8 GTE #90,60,FALSE
+GTE,Ford GT LM,Ford Ganassi Racing IMSA 2018 #66,51,TRUE
+GTE,Ford GT LM,Ford Ganassi Racing IMSA 2018 #67,52,TRUE
+GTE,Ford GT LM,Ford Chip Ganassi Team USA Daytona 24h 2019 #66,53,TRUE
+GTE,Ford GT LM,Ford Chip Ganassi Team USA Daytona 24h 2019 #67,54,TRUE
+GTE,Ford GT LM,Ford Chip Ganassi Racing LeMans 24h 2019 #67,55,TRUE
+GTE,Ford GT LM,Ford Chip Ganassi Racing LeMans 24h 2019 #69,56,TRUE
+GTE,Ford GT LM,Keating Motorsport Wynn's LeMans 24h 2019 #85,57,TRUE
+GTE,Aston Martin Vantage GTE,Team Aston Martin GULF Racing LeMans 24h 2014 #95,51,FALSE
+GTE,Aston Martin Vantage GTE,Team Aston Martin GULF Racing LeMans 24h 2014 #97,52,FALSE
+GTE,Aston Martin Vantage GTE,Team Aston Martin GULF Racing LeMans 24h 2014 #98,53,FALSE
+GTE,Aston Martin Vantage GTE,Team Aston Martin GULF Racing LeMans 24h 2014 #99,54,FALSE
+GTE,Aston Martin Vantage GTE,Team Aston Martin Racing LeMans 24h 2017 #97,55,FALSE
+GTE,Aston Martin Vantage GTE,TF Sport Spa 6h 2019 #90,56,FALSE
+GTE,Ferrari 488 GTE,Clearwater Racing LeMans 2018 #61,50,TRUE
+GTE,Ferrari 488 GTE,Scuderia Corsa IMSA 2016 #68,51,TRUE
+GTE,Ferrari 488 GTE,AF Corse Team LeMans 24h 2017 #51,52,TRUE
+GTE,Ferrari 488 GTE,JMW Motorsport LeMans 24h 2017 #84,53,TRUE
+GTE,Ferrari 488 GTE,Krohn Aviation DH Racing LeMans 24h 2017 #83,54,TRUE
+GTE,Ferrari 488 GTE,AF Corse Team LeMans 24h 2018 #71,55,TRUE
+GTE,Ferrari 488 GTE,Spirit Of Race LeMans 24h 2018 #54,56,TRUE
+GTE,Ferrari 488 GTE,WeatherTech Racing LeMans 24h 2019 #62,57,TRUE
 GTE mod,Chevrolet Corvette C7.R GTE 2016,Corvette Racing #3,51,TRUE
 GTE mod,Chevrolet Corvette C7.R GTE 2016,Corvette Racing #4,52,TRUE
 GTE mod,Chevrolet Corvette C7.R GTE 2016,Corvette Racing #63,53,TRUE
@@ -2800,13 +2763,6 @@ GTE mod,Chevrolet Corvette C7.R GTE 2016,Green Team #50,56,TRUE
 GTE mod,Chevrolet Corvette C7.R GTE 2016,Orange Team #21,57,TRUE
 GTE mod,Chevrolet Corvette C7.R GTE 2016,Green_2,58,TRUE
 GTE mod,Chevrolet Corvette C7.R GTE 2016,Custom Livery,99,TRUE
-GTE mod,Ford GT LM,Ford Ganassi Racing IMSA 2018 #66,51,TRUE
-GTE mod,Ford GT LM,Ford Ganassi Racing IMSA 2018 #67,52,TRUE
-GTE mod,Ford GT LM,Ford Chip Ganassi Team USA Daytona 24h 2019 #66,53,TRUE
-GTE mod,Ford GT LM,Ford Chip Ganassi Team USA Daytona 24h 2019 #67,54,TRUE
-GTE mod,Ford GT LM,Ford Chip Ganassi Racing LeMans 24h 2019 #67,55,TRUE
-GTE mod,Ford GT LM,Ford Chip Ganassi Racing LeMans 24h 2019 #69,56,TRUE
-GTE mod,Ford GT LM,Keating Motorsport Wynn's LeMans 24h 2019 #85,57,TRUE
 GTE mod,Aston Martin Vantage GTE '19,AMR LeMans 2020 #95,51,TRUE
 GTE mod,Aston Martin Vantage GTE '19,AMR LeMans 2020 #97,52,TRUE
 GTE mod,Aston Martin Vantage GTE '19,AMR LeMans 2020 #98,53,TRUE
@@ -2817,21 +2773,30 @@ GTE mod,Aston Martin Vantage GTE '19,TF Sport 2021 #33,57,TRUE
 GTE mod,Aston Martin Vantage GTE '19,TF Sport 2021 #95,58,TRUE
 GTE mod,Aston Martin Vantage GTE '19,TF Sport 2021 #98,59,TRUE
 GTE mod,Aston Martin Vantage GTE '19,TF Sport 2021 #777,60,TRUE
-GTE mod,Aston Martin Vantage GTE,Team Aston Martin GULF Racing LeMans 24h 2014 #95,51,TRUE
-GTE mod,Aston Martin Vantage GTE,Team Aston Martin GULF Racing LeMans 24h 2014 #97,52,TRUE
-GTE mod,Aston Martin Vantage GTE,Team Aston Martin GULF Racing LeMans 24h 2014 #98,53,TRUE
-GTE mod,Aston Martin Vantage GTE,Team Aston Martin GULF Racing LeMans 24h 2014 #99,54,TRUE
-GTE mod,Aston Martin Vantage GTE,Team Aston Martin Racing LeMans 24h 2015 #97 Art Car,55,TRUE
-GTE mod,Aston Martin Vantage GTE,Team Aston Martin Racing LeMans 24h 2017 #97,56,TRUE
-GTE mod,Aston Martin Vantage GTE,TF Sport Spa 6h 2018 #90,57,TRUE
-GTE mod,Ferrari 488 GTE,Clearwater Racing LeMans 2018 #61,50,TRUE
-GTE mod,Ferrari 488 GTE,Scuderia Corsa IMSA 2016 #68,51,TRUE
-GTE mod,Ferrari 488 GTE,AF Corse Team LeMans 24h 2017 #51,52,TRUE
-GTE mod,Ferrari 488 GTE,JMW Motorsport LeMans 24h 2017 #84,53,TRUE
-GTE mod,Ferrari 488 GTE,Krohn Aviation DH Racing LeMans 24h 2017 #83,54,TRUE
-GTE mod,Ferrari 488 GTE,AF Corse Team LeMans 24h 2018 #71,55,TRUE
-GTE mod,Ferrari 488 GTE,Spirit Of Race LeMans 24h 2018 #54,56,TRUE
-GTE mod,Ferrari 488 GTE,WeatherTech Racing LeMans 24h 2019 #62,57,TRUE
+GTELM,BMW M3 GT2,BMW Motorsport LeMans 2011 #55,51,TRUE
+GTELM,BMW M3 GT2,BMW Motorsport LeMans 2011 #56,52,TRUE
+GTELM,BMW M3 GT2,BMW Motorsport LeMans 2010 #79,53,TRUE
+GTELM,BMW M3 GT2,BMW Motorsport ALMS 2010 #90,54,TRUE
+GTELM,BMW M3 GT2,BMW Motorsport ALMS 2010 #92,55,TRUE
+GTELM,BMW M3 GT2,Zipanol #29,56,TRUE
+GTELM,BMW M3 GT2,RST #64,57,TRUE
+GTELM,BMW M3 GT2,RST #65,58,TRUE
+GTELM,BMW M3 GT2,Jancon Mobile #1,59,TRUE
+GTELM,BMW M3 GT2,Jancon Mobile #2,60,TRUE
+GTELM,BMW M3 GT2,Oilzanol #45,61,TRUE
+GTELM,BMW M3 GT2,Oilzanol #46,62,TRUE
+GTELM,BMW M3 GT2,RGB #14,63,TRUE
+GTELM,BMW M3 GT2,Grizzly #99,64,TRUE
+GTELM,BMW M3 GT2,Vail #85,65,TRUE
+GTELM,BMW M3 GT2,Vail #86,66,TRUE
+GTELM,BMW M3 GT2,10 Strikes Team #25,67,TRUE
+GTELM,BMW M3 GT2,10 Strikes Team #26,68,TRUE
+GTELM,BMW M3 GT2,Strodia #4,69,TRUE
+GTELM,BMW M3 GT2,Sheriftizer #76,70,TRUE
+GTELM,BMW M3 GT2,Race-It Simulators #27,71,TRUE
+GTELM,BMW M3 GT2,Houser Shoes #8,72,TRUE
+GTELM,BMW M3 GT2,pArispherique #28,73,TRUE
+GTELM,BMW M3 GT2,PVS #20,74,TRUE
 GTO,Ferrari F40 LM,IMSA 1989 - Team France #60,52,TRUE
 GTO,Ferrari F40 LM,IMSA 1990 - Team France #40,51,TRUE
 GTO,Ferrari F40 LM,24h Le Mans 1994 - Strandell/Obermaier Racing #29,53,TRUE
@@ -2839,7 +2804,6 @@ GTO,Ferrari F40 LM,24h Le Mans 1995 - Club Italia #40,54,TRUE
 GTO,Ferrari F40 LM,4h Silverstone 1995 - Club Italia #61,55,TRUE
 GTO,Ferrari F40 LM,24h Le Mans 1995 - Pilot Aldix Racing #34,56,TRUE
 GTO,Ferrari F40 LM,BPR GT Series 1995 - Pilot Aldix Racing #40,57,TRUE
-GTO,Ferrari F40 LM,Custom Livery,99,TRUE
 GTO,Nissan 300ZX Turbo LM,24h Le mans 1994 - Cunningham Racing #75,51,TRUE
 GTO,Nissan 300ZX Turbo LM,24h Le mans 1994 - Cunningham Racing #76,52,TRUE
 GTO,Porsche 961,24h Le mans 1986 - Porsche AG #180,51,TRUE
@@ -2971,111 +2935,6 @@ Hypercars,McLaren Senna,Gloss Carbon Green,62,FALSE
 Hypercars,McLaren Senna,Gloss Carbon Purple,63,FALSE
 Hypercars,McLaren Senna,Gloss Carbon Red,65,FALSE
 Hypercars,McLaren Senna,Satin Carbon,64,FALSE
-Hypercars,Ferrari SF90 Stradale,Rosso Corsa,1,TRUE
-Hypercars,Ferrari SF90 Stradale,Giallo Modena,2,TRUE
-Hypercars,Ferrari SF90 Stradale,Nero,3,TRUE
-Hypercars,Ferrari SF90 Stradale,Nero Daytona Met.,4,TRUE
-Hypercars,Ferrari SF90 Stradale,Bianco Avus,5,TRUE
-Hypercars,Ferrari SF90 Stradale,Rosso Mugello,6,TRUE
-Hypercars,Ferrari SF90 Stradale,Rosso Scuderia,7,TRUE
-Hypercars,Ferrari SF90 Stradale,Argento Nurburgring Met.,8,TRUE
-Hypercars,Ferrari SF90 Stradale,Blu TDF Met.,9,TRUE
-Hypercars,Ferrari SF90 Stradale,Blu Abu Dhabi Met.,10,TRUE
-Hypercars,Ferrari SF90 Stradale,Blu Mirabeau Met.,11,TRUE
-Hypercars,Ferrari SF90 Stradale,Blu Pozzi,12,TRUE
-Hypercars,Ferrari SF90 Stradale,Grigio Alloy Met.,13,TRUE
-Hypercars,Ferrari SF90 Stradale,Grigio Titanio Met.,14,TRUE
-Hypercars,Ferrari SF90 Stradale,Grigio Ingrid Met.,15,TRUE
-Hypercars,Ferrari SF90 Stradale,Grigio Silverstone Met.,16,TRUE
-Hypercars,Ferrari SF90 Stradale,Livery 1,71,TRUE
-Hypercars,Ferrari SF90 Stradale,Livery 2,72,TRUE
-Hypercars,Ferrari SF90 Stradale,Livery 3,73,TRUE
-Hypercars,Ferrari SF90 Stradale,Livery 4,74,TRUE
-Hypercars,Ferrari SF90 Stradale,Livery 5,75,TRUE
-Hypercars,Ferrari SF90 Stradale,Livery 6,76,TRUE
-Hypercars,Lamborghini Sian FKP 37,Olive Matte Metallic,1,TRUE
-Hypercars,Lamborghini Sian FKP 37,Aqua Metallic,2,TRUE
-Hypercars,Lamborghini Sian FKP 37,Matte Black,3,TRUE
-Hypercars,Lamborghini Sian FKP 37,Grigio Estoque,4,TRUE
-Hypercars,Lamborghini Sian FKP 37,Rosso Mars,5,TRUE
-Hypercars,Lamborghini Sian FKP 37,Blu Herra,6,TRUE
-Hypercars,Lamborghini Sian FKP 37,Bianco Canopus,7,TRUE
-Hypercars,Lamborghini Sian FKP 37,Giallo Evros,8,TRUE
-Hypercars,Lamborghini Sian FKP 37,Verde Faunus,9,TRUE
-Hypercars,Lamborghini Sian FKP 37,Grigio Telesto,10,TRUE
-Hypercars,Lamborghini Sian FKP 37,Livery 1,71,TRUE
-Hypercars,Lamborghini Sian FKP 37,Livery 2,72,TRUE
-Hypercars,Lamborghini Sian FKP 37,Livery 3,73,TRUE
-Hypercars,Lamborghini Sian FKP 37,Livery 4,74,TRUE
-Hypercars,Lamborghini Sian FKP 37,Livery 5,75,TRUE
-Hypercars,Lamborghini Sian FKP 37,Livery 6,76,TRUE
-Hypercars,Pagani Huayra BC,White / Carbon 1,1,TRUE
-Hypercars,Pagani Huayra BC,Matte Grey Metallic / Carbon,2,TRUE
-Hypercars,Pagani Huayra BC,Carbon / Red,3,TRUE
-Hypercars,Pagani Huayra BC,Blue / Carbon,4,TRUE
-Hypercars,Pagani Huayra BC,Blue Metallic / Carbon,5,TRUE
-Hypercars,Pagani Huayra BC,Purple Metallic / Carbon,6,TRUE
-Hypercars,Pagani Huayra BC,White / Carbon 2,7,TRUE
-Hypercars,Pagani Huayra BC,Blue Carbon,8,TRUE
-Hypercars,Pagani Huayra BC,Silver Metallic / Carbon,9,TRUE
-Hypercars,Pagani Huayra BC,Red Carbon,10,TRUE
-Hypercars,Pagani Huayra BC,Yellow,11,TRUE
-Hypercars,Pagani Huayra BC,Light Blue Metallic,12,TRUE
-Hypercars,Pagani Huayra BC,Supreme Gold,13,TRUE
-Hypercars,Pagani Huayra BC,Dark Grey Carbon,14,TRUE
-Hypercars,Pagani Huayra BC,Bronzo Aymara,15,TRUE
-Hypercars,Pagani Huayra BC,Orange Metallic,16,TRUE
-Hypercars,Pagani Huayra BC,White / Red Carbon,17,TRUE
-Hypercars,Pagani Huayra BC,Red Italia,18,TRUE
-Hypercars,Pagani Huayra BC,DarkGreen Metallic,19,TRUE
-Hypercars,Pagani Huayra BC,Yellow Metallic,20,TRUE
-Hypercars,Pagani Huayra BC,Livery 1,71,TRUE
-Hypercars,Pagani Huayra BC,Livery 2,72,TRUE
-Hypercars,Pagani Huayra BC,Livery 3,73,TRUE
-Hypercars,Pagani Huayra BC,Livery 4,74,TRUE
-Hypercars,Pagani Huayra BC,Livery 5,75,TRUE
-Hypercars,Pagani Huayra BC,Livery 6,76,TRUE
-Hypercars,Aston Martin DBS Superleggera,Appletree Green,1,TRUE
-Hypercars,Aston Martin DBS Superleggera,Arden Green,2,TRUE
-Hypercars,Aston Martin DBS Superleggera,Sea Storm,3,TRUE
-Hypercars,Aston Martin DBS Superleggera,Ocellus Teal,4,TRUE
-Hypercars,Aston Martin DBS Superleggera,Silver Fox,5,TRUE
-Hypercars,Aston Martin DBS Superleggera,Hammerhead Silver,6,TRUE
-Hypercars,Aston Martin DBS Superleggera,Magnetic Silver,7,TRUE
-Hypercars,Aston Martin DBS Superleggera,Gloss Xenon Grey,8,TRUE
-Hypercars,Aston Martin DBS Superleggera,Onyx Black,9,TRUE
-Hypercars,Aston Martin DBS Superleggera,China Grey,10,TRUE
-Hypercars,Aston Martin DBS Superleggera,Jet Black,11,TRUE
-Hypercars,Aston Martin DBS Superleggera,Ultramarine Black,12,TRUE
-Hypercars,Aston Martin DBS Superleggera,Midnight Blue,13,TRUE
-Hypercars,Aston Martin DBS Superleggera,Intense Blue,14,TRUE
-Hypercars,Aston Martin DBS Superleggera,Lightning Silver,15,TRUE
-Hypercars,Aston Martin DBS Superleggera,Skyfall Silver,16,TRUE
-Hypercars,Aston Martin DBS Superleggera,Frosted Glass Blue,17,TRUE
-Hypercars,Aston Martin DBS Superleggera,Concours Blue,18,TRUE
-Hypercars,Aston Martin DBS Superleggera,Mariana Blue,19,TRUE
-Hypercars,Aston Martin DBS Superleggera,Hyper Red,20,TRUE
-Hypercars,Aston Martin DBS Superleggera,Diavolo Red,21,TRUE
-Hypercars,Aston Martin DBS Superleggera,Divine Red,22,TRUE
-Hypercars,Aston Martin DBS Superleggera,Kopi Bronze,23,TRUE
-Hypercars,Aston Martin DBS Superleggera,Marron Black,24,TRUE
-Hypercars,Aston Martin DBS Superleggera,Cinnabar Orange,25,TRUE
-Hypercars,Aston Martin DBS Superleggera,Lime Essence,26,TRUE
-Hypercars,Aston Martin DBS Superleggera,Yellow Tang,27,TRUE
-Hypercars,Aston Martin DBS Superleggera,Pearl Blonde,28,TRUE
-Hypercars,Aston Martin DBS Superleggera,Lunar White,29,TRUE
-Hypercars,Aston Martin DBS Superleggera,Stratus White,30,TRUE
-Hypercars,Aston Martin DBS Superleggera,Morning Frost White,31,TRUE
-Hypercars,Aston Martin DBS Superleggera,Selene Bronze,32,TRUE
-Hypercars,Aston Martin DBS Superleggera,Arizona Bronze,33,TRUE
-Hypercars,Aston Martin DBS Superleggera,Satin Xenon Grey,34,TRUE
-Hypercars,Aston Martin DBS Superleggera,Pentland Green,35,TRUE
-Hypercars,Aston Martin DBS Superleggera,Satin Concours Blue,36,TRUE
-Hypercars,Aston Martin DBS Superleggera,Zaffre Blue,37,TRUE
-Hypercars,Aston Martin DBS Superleggera,AM Heritage Racing Green,38,TRUE
-Hypercars,Aston Martin DBS Superleggera,Platinium White,39,TRUE
-Hypercars,Aston Martin DBS Superleggera,Golden Saffron,40,TRUE
-Hypercars,Aston Martin DBS Superleggera,Satin Titanium Silver,41,TRUE
 Hypercars,Ferrari 488 Pista,Rosso Corsa/Bianco Avus/Blu NART,1,TRUE
 Hypercars,Ferrari 488 Pista,Argento Nuerburgring/Blu Pozzi,2,TRUE
 Hypercars,Ferrari 488 Pista,Blu Tour de France/Argento Nuerburgring,3,TRUE
@@ -3100,81 +2959,6 @@ Hypercars,Ferrari 488 Pista,Piloti Ferrari Rosso Corsa,51,TRUE
 Hypercars,Ferrari 488 Pista,Piloti Ferrari Argento Nuerburgring,52,TRUE
 Hypercars,Ferrari 488 Pista,Piloti Ferrari Nero Daytona,53,TRUE
 Hypercars,Ferrari 488 Pista,Piloti Ferrari Blu TDF,54,TRUE
-Hypercars,Ferrari 812 Superfast,Rosso Corsa,1,TRUE
-Hypercars,Ferrari 812 Superfast,Rosso Scuderia,2,TRUE
-Hypercars,Ferrari 812 Superfast,Rosso Fiorano,3,TRUE
-Hypercars,Ferrari 812 Superfast,Rosso 70 Anni,23,TRUE
-Hypercars,Ferrari 812 Superfast,Rosso Berlinetta,24,TRUE
-Hypercars,Ferrari 812 Superfast,Giallo Modena,4,TRUE
-Hypercars,Ferrari 812 Superfast,Giallo Tristrato,5,TRUE
-Hypercars,Ferrari 812 Superfast,Bianco Avus,6,TRUE
-Hypercars,Ferrari 812 Superfast,Bianco Fuji,25,TRUE
-Hypercars,Ferrari 812 Superfast,Nero,7,TRUE
-Hypercars,Ferrari 812 Superfast,Nero Daytona,8,TRUE
-Hypercars,Ferrari 812 Superfast,Argento Nurburgring,9,TRUE
-Hypercars,Ferrari 812 Superfast,Grigio Titanio,10,TRUE
-Hypercars,Ferrari 812 Superfast,Grigio Alloy,11,TRUE
-Hypercars,Ferrari 812 Superfast,Grigio Silverstone,12,TRUE
-Hypercars,Ferrari 812 Superfast,Grigio Scuro,13,TRUE
-Hypercars,Ferrari 812 Superfast,Grigio Ferro,14,TRUE
-Hypercars,Ferrari 812 Superfast,Azzurro California,15,TRUE
-Hypercars,Ferrari 812 Superfast,Blu Nart,16,TRUE
-Hypercars,Ferrari 812 Superfast,Blu Tour de France,17,TRUE
-Hypercars,Ferrari 812 Superfast,Blu Pozzi,18,TRUE
-Hypercars,Ferrari 812 Superfast,Blu Scozia,19,TRUE
-Hypercars,Ferrari 812 Superfast,Grigio Silverstone Opaco,20,TRUE
-Hypercars,Ferrari 812 Superfast,Aluminio Opaco,21,TRUE
-Hypercars,Ferrari 812 Superfast,Nero Opaco,22,TRUE
-Hypercars,Ferrari F8 Tributo,Rosso Corsa,1,TRUE
-Hypercars,Ferrari F8 Tributo,Rosso Scuderia,2,TRUE
-Hypercars,Ferrari F8 Tributo,Rosso Fiorano,3,TRUE
-Hypercars,Ferrari F8 Tributo,Giallo Modena,4,TRUE
-Hypercars,Ferrari F8 Tributo,Giallo Tristrato,5,TRUE
-Hypercars,Ferrari F8 Tributo,Bianco Avus,6,TRUE
-Hypercars,Ferrari F8 Tributo,Nero,7,TRUE
-Hypercars,Ferrari F8 Tributo,Nero Daytona,8,TRUE
-Hypercars,Ferrari F8 Tributo,Argento Nurburgring,9,TRUE
-Hypercars,Ferrari F8 Tributo,Grigio Titanio,10,TRUE
-Hypercars,Ferrari F8 Tributo,Grigio Alloy,11,TRUE
-Hypercars,Ferrari F8 Tributo,Grigio Silverstone,12,TRUE
-Hypercars,Ferrari F8 Tributo,Grigio Scuro,13,TRUE
-Hypercars,Ferrari F8 Tributo,Grigio Ferro,14,TRUE
-Hypercars,Ferrari F8 Tributo,Azzurro California,15,TRUE
-Hypercars,Ferrari F8 Tributo,Blu Nart,16,TRUE
-Hypercars,Ferrari F8 Tributo,Blu Tour de France,17,TRUE
-Hypercars,Ferrari F8 Tributo,Blu Pozzi,18,TRUE
-Hypercars,Ferrari F8 Tributo,Blu Scozia,19,TRUE
-Hypercars,Ferrari F8 Tributo,Blu Corsa,20,TRUE
-Hypercars,Ferrari F12 TDF,Rosso Corsa 1,1,TRUE
-Hypercars,Ferrari F12 TDF,Rosso Corsa 2,2,TRUE
-Hypercars,Ferrari F12 TDF,Giallo Modena 1,3,TRUE
-Hypercars,Ferrari F12 TDF,Giallo Modena 2,4,TRUE
-Hypercars,Ferrari F12 TDF,Nero,5,TRUE
-Hypercars,Ferrari F12 TDF,Bianco Avus 1,6,TRUE
-Hypercars,Ferrari F12 TDF,Bianco Avus 2,7,TRUE
-Hypercars,Ferrari F12 TDF,Rosso Scuderia,8,TRUE
-Hypercars,Ferrari F12 TDF,Blu Pozzi,9,TRUE
-Hypercars,Ferrari F12 TDF,Nero Daytona Met.,10,TRUE
-Hypercars,Ferrari F12 TDF,Rosso Mugello Met. 1,11,TRUE
-Hypercars,Ferrari F12 TDF,Rosso Mugello Met. 2,12,TRUE
-Hypercars,Ferrari F12 TDF,Argento Nurburgring Met. 1,13,TRUE
-Hypercars,Ferrari F12 TDF,Argento Nurburgring Met. 2,14,TRUE
-Hypercars,Ferrari F12 TDF,Blu Tour de France Met. 1,15,TRUE
-Hypercars,Ferrari F12 TDF,Blu Tour de France Met. 2,16,TRUE
-Hypercars,Ferrari F12 TDF,Blu Abu Dhabi Met.,17,TRUE
-Hypercars,Ferrari F12 TDF,Blu Mirabeau Met.,18,TRUE
-Hypercars,Ferrari F12 TDF,Grigio Alloy Met.,19,TRUE
-Hypercars,Ferrari F12 TDF,Grigio Titanio Met.,20,TRUE
-Hypercars,Ferrari F12 TDF,Grigio Ingrid Met. 1,21,TRUE
-Hypercars,Ferrari F12 TDF,Grigio Ingrid Met. 2,22,TRUE
-Hypercars,Ferrari F12 TDF,Grigio Silverstone Met. 1,23,TRUE
-Hypercars,Ferrari F12 TDF,Grigio Silverstone Met. 2,24,TRUE
-Hypercars,Ferrari F12 TDF,Livery 1,71,TRUE
-Hypercars,Ferrari F12 TDF,Livery 2,72,TRUE
-Hypercars,Ferrari F12 TDF,Livery 3,73,TRUE
-Hypercars,Ferrari F12 TDF,Livery 4,74,TRUE
-Hypercars,Ferrari F12 TDF,Livery 5,75,TRUE
-Hypercars,Ferrari F12 TDF,Livery 6,76,TRUE
 Hypercars,Ferrari LaFerrari,Rosso Corsa,1,TRUE
 Hypercars,Ferrari LaFerrari,Giallo Modena,2,TRUE
 Hypercars,Ferrari LaFerrari,Nero,3,TRUE
@@ -3185,29 +2969,6 @@ Hypercars,Ferrari LaFerrari,Argento Nurburgring,8,TRUE
 Hypercars,Ferrari LaFerrari,Blu Tour de France metallic,9,TRUE
 Hypercars,Ferrari LaFerrari,Blu Mirabeau metallic,11,TRUE
 Hypercars,Ferrari LaFerrari,Blu Pozzi,12,TRUE
-Hypercars,Lotus Evija,Mercurial Silver,1,TRUE
-Hypercars,Lotus Evija,Absolute Black,2,TRUE
-Hypercars,Lotus Evija,Cirrus Grey,3,TRUE
-Hypercars,Lotus Evija,Dark Amethyst,4,TRUE
-Hypercars,Lotus Evija,Pebble Grey,5,TRUE
-Hypercars,Lotus Evija,Venom Green,6,TRUE
-Hypercars,Lotus Evija,Arctic White,7,TRUE
-Hypercars,Lotus Evija,Ardent Green,8,TRUE
-Hypercars,Lotus Evija,Atomic Red,9,TRUE
-Hypercars,Lotus Evija,Carbon Black,10,TRUE
-Hypercars,Lotus Evija,Lapis Blue,11,TRUE
-Hypercars,Lotus Evija,Liquid Gold,12,TRUE
-Hypercars,Lotus Evija,Solar Flare,13,TRUE
-Hypercars,Lotus Evija,Solaris Yellow,14,TRUE
-Hypercars,Lotus Evija,Vanadium Grey,15,TRUE
-Hypercars,Lotus Evija,Livery 1,71,TRUE
-Hypercars,Lotus Evija,Livery KAOS Evija,72,TRUE
-Hypercars,Lotus Evija,Livery 3,73,TRUE
-Hypercars,Lotus Evija,Livery 4,74,TRUE
-Hypercars,Lotus Evija,Livery 5,75,TRUE
-Hypercars,Lotus Evija,Livery 6,76,TRUE
-Hypercars,Lotus Evija,DLC Livery 1,77,TRUE
-Hypercars,Lotus Evija,DLC Livery 2,78,TRUE
 Hypercars,McLarenP1,Volcano Yellow Metallic,1,TRUE
 Hypercars,McLarenP1,Volcano Orange Metallic,2,TRUE
 Hypercars,McLarenP1,Volcano Red Metallic,3,TRUE
@@ -3217,7 +2978,6 @@ Hypercars,McLarenP1,Jet Black,6,TRUE
 Hypercars,McLarenP1,McLaren Orange,7,TRUE
 Hypercars,McLarenP1,Standard Silver Metallic,9,TRUE
 Hypercars,McLarenP1,Azure Blue Metallic,13,TRUE
-Hypercars,McLarenP1,Custom Livery,99,TRUE
 Hypercars,Porsche 918 Spyder Weissach,GT Silber Metallic,1,TRUE
 Hypercars,Porsche 918 Spyder Weissach,Basaltschwarz Metallic,2,TRUE
 Hypercars,Porsche 918 Spyder Weissach,Dunkelblau Metallic,3,TRUE
@@ -3232,34 +2992,6 @@ Hypercars,Porsche 918 Spyder Weissach,Saphirblau Metallic,11,TRUE
 Hypercars,Porsche 918 Spyder Weissach,Speedgelb,12,TRUE
 Hypercars,Porsche 918 Spyder Weissach,Weiss,13,TRUE
 iconic,Porsche 919 Hybrid Evo,Porsche Team #1,51,TRUE
-Indycar_2023,A.J. Foyt Enterprises,A.J. Foyt Enterprises #14,63,TRUE
-Indycar_2023,A.J. Foyt Enterprises,A.J. Foyt Enterprises #55,64,TRUE
-Indycar_2023,Andretti Autosport,Andretti Autosport #26,72,TRUE
-Indycar_2023,Andretti Autosport,Andretti Autosport #27,73,TRUE
-Indycar_2023,Andretti Autosport,Andretti Autosport #28,74,TRUE
-Indycar_2023,Andretti Autosport,Andretti Autosport #29,75,TRUE
-Indycar_2023,Arrow McLaren,Arrow McLaren #5,54,TRUE
-Indycar_2023,Arrow McLaren,Arrow McLaren #6,55,TRUE
-Indycar_2023,Arrow McLaren,Arrow McLaren #7,56,TRUE
-Indycar_2023,Chip Ganassi Racing,Chip Ganassi Racing #8,59,TRUE
-Indycar_2023,Chip Ganassi Racing,Chip Ganassi Racing #9,60,TRUE
-Indycar_2023,Chip Ganassi Racing,Chip Ganassi Racing #10,61,TRUE
-Indycar_2023,Chip Ganassi Racing,Chip Ganassi Racing #11,62,TRUE
-Indycar_2023,Dale Coyne Racing,Dale Coyne Racing #18,68,TRUE
-Indycar_2023,Dale Coyne Racing,Dale Coyne Racing #51,69,TRUE
-Indycar_2023,Ed Carpenter Racing,Ed Carpenter Racing #20,70,TRUE
-Indycar_2023,Ed Carpenter Racing,Ed Carpenter Racing #21,71,TRUE
-Indycar_2023,Juncos Hollinger Racing,Juncos Hollinger Racing #77,76,TRUE
-Indycar_2023,Juncos Hollinger Racing,Juncos Hollinger Racing #78,77,TRUE
-Indycar_2023,Meyer Shank Racing,Meyer Shank Racing #06,57,TRUE
-Indycar_2023,Meyer Shank Racing,Meyer Shank Racing #60,58,TRUE
-Indycar_2023,My Custom Team,My Team #99,78,TRUE
-Indycar_2023,Rahal Letterman Lanigan Racing,Rahal Letterman Lanigan Racing #15,65,TRUE
-Indycar_2023,Rahal Letterman Lanigan Racing,Rahal Letterman Lanigan Racing #30,66,TRUE
-Indycar_2023,Rahal Letterman Lanigan Racing,Rahal Letterman Lanigan Racing #45,67,TRUE
-Indycar_2023,Team Penske,Team Penske #2,51,TRUE
-Indycar_2023,Team Penske,Team Penske #3,52,TRUE
-Indycar_2023,Team Penske,Team Penske #12,53,TRUE
 InitD,Initial D - Mitsubishi Lancer Evolution VI T.M.E.,Ichijo's Mitsubishi Lancer Evo VI,51,TRUE
 InitD,Initial D - Mazda RX-7 (FD3S),Keisuke Takahashi's Mazda RX-7,51,TRUE
 InitD,Initial D - Mazda RX-7 Turbo (FC3S),Ryosuke Takahashi's Mazda RX-7,51,TRUE
@@ -3278,8 +3010,6 @@ JGTC500,Honda NSX GT500,JGTC 2000 - Team Autobac #8,75,TRUE
 JGTC500,Ferrari F40 LM JGTC,JGTC 1994 - Team Taisan #40,61,TRUE
 JGTC500,Ferrari F40 LM JGTC,JGTC 1995 - Team Taisan #34,60,TRUE
 JGTC500,Lamborghini Diablo GTR,JGTC 2000 - Kenwolf with JLOC CORSA #88,81,TRUE
-JGTC500,Lamborghini Diablo GTR,Valvoline #188,82,TRUE
-JGTC500,Lamborghini Diablo GTR,JLOC #77,83,TRUE
 JGTC500,McLaren F1 GTR Long Tail JGTC,JGTC 2000 - Team Hitotsuyama Racing #21,51,TRUE
 JGTC500,McLaren F1 GTR Long Tail JGTC,JGTC 2000 - Team Take One #30,52,TRUE
 JGTC500,McLaren F1 GTR Long Tail JGTC,JGTC 2001 - Team Hitotsuyama Racing #21,53,TRUE
@@ -3293,9 +3023,6 @@ JGTC500,Toyota Supra GT500,JGTC 1994 - BLITZ Racing Team #5,70,TRUE
 JGTC500,Toyota Supra GT500,JGTC 1995 - FET Racing Team #8,73,TRUE
 JGTC500,Toyota Supra GT500,JGTC 1996 - Toyota Castrol Team TOM'S #36,71,TRUE
 JGTC500,Toyota Supra GT500,JGTC 1996 - Toyota Castrol Team Cerumo #37,72,TRUE
-JGTC500,Toyota Supra GT500,JGTC 1995 - Tom's Zuhai 3h #37,74,TRUE
-JGTC500,Toyota Supra GT500,JGTC - Team SARD #39,75,TRUE
-JGTC500,Toyota Supra GT500,JGTC - Team ESSO #6,76,TRUE
 Kart125cc,Kart 2-Stroke 125cc Direct,Kart 2-Stroke 125cc Direct #3,51,FALSE
 Kart125cc,Kart 2-Stroke 125cc Direct,Kart 2-Stroke 125cc Direct #4,52,FALSE
 Kart125cc,Kart 2-Stroke 125cc Direct,Kart 2-Stroke 125cc Direct #7,53,FALSE
@@ -3495,30 +3222,6 @@ LMDh,Porsche 963,Porsche 963 #5 (IMSA 2024),51,FALSE
 LMDh,Porsche 963,Porsche 963 #6 (IMSA 2024),52,FALSE
 LMDh,Porsche 963,Porsche 963 #7 (IMSA 2024),53,FALSE
 LMDh,Porsche 963,Porsche 963 #85 (IMSA 2024),54,FALSE
-LMGT2,BMW M3 GT2,BMW Motorsport LeMans 2011 #55,51,TRUE
-LMGT2,BMW M3 GT2,BMW Motorsport LeMans 2011 #56,52,TRUE
-LMGT2,BMW M3 GT2,BMW Motorsport LeMans 2010 #79,53,TRUE
-LMGT2,BMW M3 GT2,BMW Motorsport ALMS 2010 #90,54,TRUE
-LMGT2,BMW M3 GT2,BMW Motorsport ALMS 2010 #92,55,TRUE
-LMGT2,BMW M3 GT2,Zipanol #29,56,TRUE
-LMGT2,BMW M3 GT2,RST #64,57,TRUE
-LMGT2,BMW M3 GT2,RST #65,58,TRUE
-LMGT2,BMW M3 GT2,Jancon Mobile #1,59,TRUE
-LMGT2,BMW M3 GT2,Jancon Mobile #2,60,TRUE
-LMGT2,BMW M3 GT2,Oilzanol #45,61,TRUE
-LMGT2,BMW M3 GT2,Oilzanol #46,62,TRUE
-LMGT2,BMW M3 GT2,RGB #14,63,TRUE
-LMGT2,BMW M3 GT2,Grizzly #99,64,TRUE
-LMGT2,BMW M3 GT2,Vail #85,65,TRUE
-LMGT2,BMW M3 GT2,Vail #86,66,TRUE
-LMGT2,BMW M3 GT2,10 Strikes Team #25,67,TRUE
-LMGT2,BMW M3 GT2,10 Strikes Team #26,68,TRUE
-LMGT2,BMW M3 GT2,Strodia #4,69,TRUE
-LMGT2,BMW M3 GT2,Sheriftizer #76,70,TRUE
-LMGT2,BMW M3 GT2,Race-It Simulators #27,71,TRUE
-LMGT2,BMW M3 GT2,Houser Shoes #8,72,TRUE
-LMGT2,BMW M3 GT2,pArispherique #28,73,TRUE
-LMGT2,BMW M3 GT2,PVS #20,74,TRUE
 LMP1 2016,Audi R18 2016,Audi Sport Team Joest #7,51,TRUE
 LMP1 2016,Audi R18 2016,Audi Sport Team Joest #8,52,TRUE
 LMP1 2016,Audi R18 2016,Audi Team ByKolles Racing #4,53,TRUE
@@ -3647,6 +3350,64 @@ LMP2_Gen1,Oreca 07,Oreca 07 #35,53,FALSE
 LMP2_Gen1,Oreca 07,Oreca 07 #47,54,FALSE
 LMP2_Gen1,Oreca 07,Oreca 07 #50,55,FALSE
 LMP2_Gen1,Oreca 07,Oreca 07 #62,56,FALSE
+LMP3_Gen1,Ligier LMP3,ELMS 2016 Graff Racing #9,51,TRUE
+LMP3_Gen1,Ligier LMP3,ELMS 2016 Graff Racing #10,52,TRUE
+LMP3_Gen1,Ligier LMP3,JDC Motorsports #10,53,TRUE
+LMP3_Gen1,Ligier LMP3,JDC Motorsports #55,54,TRUE
+LMP3_Gen1,Ligier LMP3,JDC Motorsports #25,55,TRUE
+LMP3_Gen1,Ligier LMP3,JDC Motorsports #25,56,TRUE
+LMP3_Gen1,Ligier LMP3,OAK Racing #24,57,TRUE
+LMP3_Gen1,Ligier LMP3,MLMC 2017 United Autosports #22,58,TRUE
+LMP3_Gen1,Ligier LMP3,ELMS 2016 United Autosports Team #2,59,TRUE
+LMP3_Gen1,Ligier LMP3,ELMS 2016 United Autosports Team #3,60,TRUE
+LMP3_Gen1,Ligier LMP3,Serious Racing Team #22,61,TRUE
+LMP3_Gen1,Ligier LMP3,Serious Racing Team #23,62,TRUE
+LMP3_Gen1,Ligier LMP3,OCH Racing #74,63,TRUE
+LMP3_Gen1,Ligier LMP3,OCH Racing #75,64,TRUE
+LMP3_Gen1,Ligier LMP3,WRB Motorsport #45,65,TRUE
+LMP3_Gen1,Ligier LMP3,WRB Motorsport #46,66,TRUE
+LMP3_Gen1,Ligier LMP3,Gruppo Ancoderro Racing #82,67,TRUE
+LMP3_Gen1,Ligier LMP3,Gruppo Ancoderro Racing #83,68,TRUE
+LMP3_Gen1,Ligier LMP3,Borda Racing #14,69,TRUE
+LMP3_Gen1,Ligier LMP3,Borda Racing #15,70,TRUE
+LMP3_Gen1,Ligier LMP3,VittR Motorsport #18,71,TRUE
+LMP3_Gen1,Ligier LMP3,VittR Motorsport #19,72,TRUE
+LMP3_Gen1,Ligier LMP3,ELMS 2017 Inter Europol Competition #13,73,TRUE
+LMP3_Gen1,Ligier LMP3,ELMS 2017 Panis Barthez Competition #16,74,TRUE
+LMP3_Gen1,Ligier LMP3,IMSA 2017 Extreme Speed Motorsports #3,75,TRUE
+LMP3_Gen1,Ligier LMP3,IMSA 2017 Extreme Speed Motorsports #33,76,TRUE
+LMP3_Gen1,Ligier LMP3,ELMS 2017 Eurointernational #11,77,TRUE
+LMP3_Gen1,Ligier LMP3,ELMS 2017 Eurointernational #12,78,TRUE
+LMP3_Gen1,Ligier LMP3,IMSA 2017 Eurointernational #11,79,TRUE
+LMP3_Gen1,Ligier LMP3,VdeV 2017 Racing For Poland #95,80,TRUE
+LMP3_Gen1,Ligier LMP3,Dubai 3X3H 2018 Speedworks Motorsport #22,81,TRUE
+LMP3_Gen1,Ligier LMP3,IMSA 2020 JR III Racing #3,82,TRUE
+LMP3_Gen2,Ligier JSP320,Team Virage #8,51,TRUE
+LMP3_Gen2,Ligier JSP320,Eurointernational #11,52,TRUE
+LMP3_Gen2,Ligier JSP320,RLR M Sport #15,53,TRUE
+LMP3_Gen2,Ligier JSP320,CLX Motorsport #17,54,TRUE
+LMP3_Gen2,Ligier JSP320,Racing Spirit Of Le Man #31,55,TRUE
+LMP3_Gen2,Ligier JSP320,Ultimate #35,56,TRUE
+LMP3_Gen2,Ligier JSP320,M Racing #68,57,TRUE
+LMP3_Gen2,Ligier JSP320,Inter Europol Competition #88,58,TRUE
+LMP3_Gen2,Ligier JSP320,Cetilar #16,59,TRUE
+LMP3_Gen2,Ligier JSP320,Yangtze #7,60,TRUE
+LMP3_Gen2,Ligier JSP320,Phoenixx Racing #53,61,TRUE
+LMP3_Gen2,Ligier JSP320,Team Fanatec #73,62,TRUE
+LMP3_Gen2,Ligier JSP320,Coral Fish Competition #33,63,TRUE
+LMP3_Gen2,Ligier JSP320,BTZ Motorsport #117,64,TRUE
+LMP3_Gen2,Ligier JSP320,Zwicker #14,65,TRUE
+LMP3_Gen2,Ligier JSP320,Leyton House Racing #40,66,TRUE
+LMP3_Gen2,Ligier JSP320,Nismo Gran Turismo #42,67,TRUE
+LMP3_Gen2,Ligier JSP320,ConAir Windrise #56,68,TRUE
+LMP3_Gen2,Ligier JSP320,Team Tonnerre #84,69,TRUE
+LMP3_Gen2,Ligier JSP320,Black Rifle Coffee Co. #64,70,TRUE
+LMP3_Gen2,Ligier JSP320,Black Rifle Coffee Co. #65,71,TRUE
+LMP3_Gen2,Ligier JSP320,Hot Wheels #1,72,TRUE
+LMP3_Gen2,Ligier JSP320,Advan Racing #96,73,TRUE
+LMP3_Gen2,Ligier JSP320,Advan Racing #69,74,TRUE
+LMP3_Gen2,Ligier JSP320,Black Thorn #13,75,TRUE
+LMP3_Gen2,Ligier JSP320,Wham! Bam! Racing #93,76,TRUE
 LMSeries,Audi R8 (LMP900),24H Le Mans 2002 - Audi Sport Team Joest #1,51,TRUE
 LMSeries,Audi R8 (LMP900),24H Le Mans 2002 - Audi Sport Team Joest #2,52,TRUE
 LMSeries,Audi R8 (LMP900),24H Le Mans 2002 - Audi Sport Team Joest #3,53,TRUE
@@ -3673,8 +3434,6 @@ LMSeries,Ferrari 333 SP,ALMS 1999 Doyle-Risi Olive Garden #11,56,TRUE
 LMSeries,Ferrari 333 SP,ALMS 1999 Doyle-Risi Olive Garden #12,57,TRUE
 LMSeries,Ferrari 333 SP,ALMS 1999 Dollahite Racing #18,62,TRUE
 LMSeries,Ferrari 333 SP,ALMS 1999 Dollahite Racing #88,63,TRUE
-LMSeries,Ferrari F50 GT,Le Mans 24h 1997 - Scuderia Ferrari #34,34,TRUE
-LMSeries,Ferrari F50 GT,Le Mans 24h 1997 - Scuderia Ferrari #35,35,TRUE
 LMSeries,Toyota GT-One (1999),Le Mans 24h 1999 - Toyota Motorsport #01,51,TRUE
 LMSeries,Toyota GT-One (1999),Le Mans 24h 1999 - Toyota Motorsport #02,52,TRUE
 LMSeries,Toyota GT-One (1999),Le Mans 24h 1999 - Toyota Motorsport #03,53,TRUE
@@ -4011,159 +3770,32 @@ PaganiX,Pagani Zonda Cinque Roadster,Skyblue,19,TRUE
 PaganiX,Pagani Zonda Cinque Roadster,Red/Italia stripes,20,TRUE
 PaganiX,Pagani Zonda Cinque Roadster,Aron Racing,21,TRUE
 PaganiX,Pagani Zonda Cinque Roadster,Custom Livery,99,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#1 Alceu Feldmann,51,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#5 Sylvio de Barros,52,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#7 Miguel Paludo,53,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#8 Werner Neugebauer,54,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#9 Edu Guedes,55,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#20 Pedro Aguiar,56,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#16 Renan Pizii,57,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#17 Leonardo Sanchez,58,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#25 Paulo Sousa,59,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#26 Christian Hahn,60,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#29 Rodrigo Mello,63,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#33 Bruno Campos,64,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#44 Gustavo Farah,65,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#70 Lucas Salles,66,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#73 Enzo Elias,67,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#77 Francisco Horta,68,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#80 Rouman Ziemkiewicz,69,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#85 Eduardo Menossi,70,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#87 Nelson Monteiro,71,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#88 Georgios Frangulis,72,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#99 Jeff Giassi,73,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#544 Marçal Müller,74,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#888 Lineu Pires,75,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#116 Allam Khodair,76,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#121 João Barbosa,77,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#3 Franco Giaffone,78,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#28 OAKBERRY,79,TRUE
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),#75 PORSCHE,80,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#1 - HUBERT RACING,51,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#2 - HUBERT RACING,52,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#3 - SSR HUBERT RACING,53,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#4 - SSR HUBERT RACING,54,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#5 - BWT LECHNER RACING,55,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#6 - BWT LECHNER RACING,56,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#7 - BWT LECHNER RACING,57,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#8 - FACH AUTO TECH,58,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#9 - FACH AUTO TECH,59,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#10 - FACH AUTO TECH,60,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#11 - CLRT,61,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#12 - CLRT,62,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#13 - CLRT,63,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#14 - DINAMIC MOTORSPORT,64,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#15 - DINAMIC MOTORSPORT,65,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#16 - DINAMIC MOTORSPORT,66,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#17 - OMBRA RACING,67,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#18 - OMBRA RACING,68,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#19 - MARTINET BY ALMERAS,69,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#20 - MARTINET BY ALMERAS,70,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#21 - MARTINET BY ALMERAS,71,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#22 - MARTINET BY ALMERAS,72,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#23 - MARTINET BY ALMERAS,73,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#24 - TEAM GP ELITE,74,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#25 - TEAM GP ELITE,75,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#26 - TEAM GP ELITE,76,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#27 - GP ELITE,77,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#28 - GP ELITE,78,TRUE
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),#75 - PORSCHE TEAM,79,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#5 - Richardson Racing - Micah Stanley,51,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#46 - Richardson Racing - Robert de Haan,52,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#8 - JTR - Hugo Ellis,53,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#13 - Century Motorsport - James Kellett,54,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#57 - Century Motorsport - Gus Burton,55,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#14 - Redline Racing - Matthew Graham,56,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#54 - Redline Racing - Theo Edgerton,57,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#16 - Team Parker Racing - Harry Foster,58,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#21 - Team Parker Racing - Adam Smalley,59,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#99 - CCK Motorsport - Charles Rainford,60,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#11 - Team Parker Racing - Will Aspin,61,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#33 - Team Parker Racing - Ryan Ratcliffe,62,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#41 - Team Parker Racing - Jake Giddings,63,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#44 - Redline Racing - Max Bird,64,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#59 - Redline Racing - Ross Wylie,65,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#48 - JTR - Ollie Jackson,66,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#95 - JTR - Josh Stanton,67,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#52 - Century Motorsport - Angus Whiteside,68,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#58 - Century Motorsport - Henry Dawes,69,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#77 - Toro Verde GT - Frazer McFadden,70,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#88 - Richardson Racing - Seb Melrose,71,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#315 - EXCELR8 Motorsport - Jason Lockwood,72,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#7 - Team Parker Racing - Justin Sherwood,73,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#9 - Team Parker Racing - David Fairbrother,74,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#71 - Redline Racing - David Stirling,75,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#75 - PORSCHE TEAM,76,TRUE
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),#28 - PORSCHE PINK PIG - Henrique Freitas,77,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#04 Georgi Donchev  ProfilDoors by Huber Racing,51,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#13 Alexander Tauscher Huber Racing,52,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#23 Lukas Ertl HP Racing Int. with Huber,53,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#31 Sebastian Freymuth Team Huber Racing,54,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#44 Jonas Greif ProfilDoors by Huber Racing,55,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#77 Leon Köhler Huber Racing,56,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#87 Ariel Levi Team Huber Racing,57,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#92 Luca Rettenbacher Huber Racing,58,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#98 Jan Seyffert HP Racing Int. with Huber,59,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#05 Sören Spreng  GP Elite,60,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#24 Loek Hartog Team GP Elite,61,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#25 Larry ten Voorde Team GP Elite,62,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#27 Ghislain Cordeel GP Elite,63,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#28 Huub van Eijndhoven GP Elite,64,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#06 Vincent Andronaco Allied-Racing,65,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#19 Harry King Allied-Racing,66,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#99 Bastian Buus Allied-Racing,67,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#07 Jasin Ferati FACH AUTO TECH,68,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#08 Alexander Fach FACH AUTO TECH,69,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#14 Morris Schuring FACH AUTO TECH,70,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#12 Harri Jones Scherer Sport PHX,71,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#22 Matteo Ferrer-Aza Scherer Sport PHX,72,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#34 Theo Oeverhaus CarTech Motorsport Bonk,73,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#54 Michael Essmann CarTech Motorsport Bonk,74,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#84 Ahmad Alshehab CarTech Motorsport Bonk,75,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#40 Janne Stiak ID Racing,76,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#41 Diego Stifter ID Racing,77,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#55 Lorenzo Ferrari Proton Competition,78,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#88 Horst Felix Felbermayr Proton Competition,79,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#65 Kai Pfister HRT Performance,80,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#68 Tim Stender HRT Performance,81,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#69 Holger Harmsen HRT Performance,82,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#75 PORSCHE TEAM,83,TRUE
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),#26 HENRY FREITAS Scherer Sport PHX,84,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#3 Kay van Berlo,51,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#7 Michael McCarthy,52,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#53 Riley Dickinson,53,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#2 Sean Varwig,54,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#6 Trenton Estep,55,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#43 Mark Kvamme,56,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#8 Michael McCann,57,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#9 Parker Thompson,58,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#58 TJ Fischer,59,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#77 Travis Wiley,60,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#11 Dimitri Dimakos,61,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#12 Leh Keen,62,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#88 Hutton McKenna,63,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#13 Varun Choksey,64,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#95 Conor Flynn,65,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#97 Craig Conway,66,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#24 Adam Adelson,67,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#81 Grant Talkie,68,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#16 Pedro Torres,69,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#17 Curt Swearingin,70,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#18 Richard Edge,71,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#57 John Goetz,72,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#99 Alan Metni,73,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#55 Matt Halcome,74,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#65 Efrin Castro,75,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#69 Thomas Collingwood,76,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#42 Bill Smith,77,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#21 Grady Willingham,78,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#84 Marco Cirone,79,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#28 Henrique Freitas,80,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#47 Justin Oakes,85,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#24 Jeff Gordon,81,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#43 Jeff Kingsley,82,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#91 Matthew Graham,83,TRUE
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),#32 Kyle Washington,84,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),Livery 1,51,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),Livery 2,52,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),Livery 3,53,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),Livery 4,54,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),Livery 5,55,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),Livery 6,56,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),Livery 7,57,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),Livery 8,58,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),Livery 9,59,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),Livery 10,60,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#9 Identica,63,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#132 Ironforce,64,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#96 Ironforce,65,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#8 GoPro,66,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#99 Allied Racing,67,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#13 Allied Racing,74,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#8 Fach Auto Tech,68,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#3 SSR Huber Racing,69,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#25 GP Elite,72,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#27 GP Elite,71,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#28 GP Elite,70,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#20 HP Racing,73,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#6 Black Falcon,75,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#15 Nebulus,76,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#2 Gulf,77,TRUE
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),#1 BWT,78,TRUE
 Procar,BMW M1 Procar,BMW Motorsport #01,51,FALSE
 Procar,BMW M1 Procar,BMW Motorsport #06,52,FALSE
 Procar,BMW M1 Procar,Tres Kings/Goodspeed #02,53,FALSE
@@ -4216,37 +3848,6 @@ rb86,Toyota GT-86 Rocket Bunny,Elbregsen Motorsport #129,94,TRUE
 rb86,Toyota GT-86 Rocket Bunny,Elbregsen Motorsport #130,95,TRUE
 rb86,Toyota GT-86 Rocket Bunny,KMAX Motorsport #27,96,TRUE
 rb86,Toyota GT-86 Rocket Bunny,KMAX Motorsport #28,97,TRUE
-Road D,Chevrolet Camaro ZL-1,Summit White,1,TRUE
-Road D,Chevrolet Camaro ZL-1,Silver Ice Metallic,2,TRUE
-Road D,Chevrolet Camaro ZL-1,DEI_3,3,TRUE
-Road D,Chevrolet Camaro ZL-1,Nightfall Gray Metallic,4,TRUE
-Road D,Chevrolet Camaro ZL-1,Red Hot,5,TRUE
-Road D,Chevrolet Camaro ZL-1,Blue Velvet Metallic,6,TRUE
-Road D,Chevrolet Camaro ZL-1,Hyper Blue Metallic,7,TRUE
-Road D,Chevrolet Camaro ZL-1,Bright Yellow,8,TRUE
-Road D,Chevrolet Camaro ZL-1,Garnet Red Tintcoat,9,TRUE
-Road D,Chevrolet Camaro ZL-1,Mosaic Black Metallic,10,TRUE
-Road D,Chevrolet Camaro ZL-1,green,11,TRUE
-Road D,Chevrolet Camaro ZL-1,orange,12,TRUE
-Road D,Chevrolet Camaro ZL-1,purple,13,TRUE
-Road D,Chevrolet Camaro ZL-1,blue,14,TRUE
-Road D,Chevrolet Camaro ZL-1,darkgreen,15,TRUE
-Road D,Chevrolet Camaro ZL-1,Summit White,16,TRUE
-Road D,Chevrolet Camaro ZL-1,Silver Ice Metallic,17,TRUE
-Road D,Chevrolet Camaro ZL-1,DEI_3,18,TRUE
-Road D,Chevrolet Camaro ZL-1,Nightfall Gray Metallic,19,TRUE
-Road D,Chevrolet Camaro ZL-1,Red Hot,20,TRUE
-Road D,Chevrolet Camaro ZL-1,Blue Velvet Metallic,21,TRUE
-Road D,Chevrolet Camaro ZL-1,Hyper Blue Metallic,22,TRUE
-Road D,Chevrolet Camaro ZL-1,Bright Yellow,23,TRUE
-Road D,Chevrolet Camaro ZL-1,Garnet Red Tintcoat,24,TRUE
-Road D,Chevrolet Camaro ZL-1,Mosaic Black Metallic,25,TRUE
-Road D,Chevrolet Camaro ZL-1,green,26,TRUE
-Road D,Chevrolet Camaro ZL-1,orange,27,TRUE
-Road D,Chevrolet Camaro ZL-1,purple,28,TRUE
-Road D,Chevrolet Camaro ZL-1,blue,29,TRUE
-Road D,Chevrolet Camaro ZL-1,darkgreen,30,TRUE
-Road D,Chevrolet Camaro ZL-1,Custom Livery,99,TRUE
 Road G,Ford_Mustang_Fastback66,Candy Apple Red,1,TRUE
 Road G,Ford_Mustang_Fastback66,Springtime Yellow,2,TRUE
 Road G,Ford_Mustang_Fastback66,Raven Black,3,TRUE
@@ -4283,7 +3884,6 @@ Road G,Ford_Mustang_Fastback66,Green / Stripes,67,TRUE
 Road G,Ford_Mustang_Fastback66,Night Blue Met.,68,TRUE
 Road G,Ford_Mustang_Fastback66,Purple / Stripes,69,TRUE
 Road G,Ford_Mustang_Fastback66,Dark Blue / Bronze Met.,70,TRUE
-Road G,Ford_Mustang_Fastback66,Custom Livery,99,TRUE
 RX,MINI Countryman R60 RX,MINI R60 RX #59,51,FALSE
 RX,MINI Countryman R60 RX,MINI R60 RX #88,52,FALSE
 RX,MINI Countryman R60 RX,MINI R60 RX #725,53,FALSE
@@ -5199,6 +4799,17 @@ Street C,Mazda RX-7 Rocket Bunny Road,GT Silver,2,TRUE
 Street C,Mazda RX-7 Rocket Bunny Road,Mexico Blue,3,TRUE
 Street C,Mazda RX-7 Rocket Bunny Road,White,4,TRUE
 Street C,Mazda RX-7 Rocket Bunny Road,Tiffany Blue,5,TRUE
+Street C,Nissan Silvia S15 Rocket Bunny,Carbon Black,1,TRUE
+Street C,Nissan Silvia S15 Rocket Bunny,Aspen White,2,TRUE
+Street C,Nissan Silvia S15 Rocket Bunny,Racing Yellow,3,TRUE
+Street C,Nissan Silvia S15 Rocket Bunny,Sparkling Silver,4,TRUE
+Street C,Nissan Silvia S15 Rocket Bunny,Super Black,5,TRUE
+Street C,Nissan Silvia S15 Rocket Bunny,Active Red,6,TRUE
+Street C,Nissan Silvia S15 Rocket Bunny,Sonic Silver,7,TRUE
+Street C,Nissan Silvia S15 Rocket Bunny,Brilliant Blue,8,TRUE
+Street C,Nissan Silvia S15 Rocket Bunny,Wicked White,9,TRUE
+Street C,Nissan Silvia S15 Rocket Bunny,Shark Gray,10,TRUE
+Street C,Nissan Silvia S15 Rocket Bunny,Long Beach Red,11,TRUE
 Street C,Ruf CTR Yellowbird,Yellow,1,TRUE
 Street C,Ruf CTR Yellowbird,Bright Green,2,TRUE
 Street C,Ruf CTR Yellowbird,White,3,TRUE
@@ -5471,6 +5082,14 @@ SuperV8,Super V8,GRNDWRK Racing #48,77,FALSE
 SuperV8,Super V8,GRNDWRK Racing #49,78,FALSE
 SuperV8,Super V8,Team Avalone #98,79,FALSE
 SuperV8,Super V8,Team Avalone #99,80,FALSE
+SuperV8Gen3,Chevrolet Camaro SV8,#18 DEWALT Chevrolet Camaro,51,TRUE
+SuperV8Gen3,Chevrolet Camaro SV8,#20 Snowy River Caravans Chevrolet Camaro,52,TRUE
+SuperV8Gen3,Chevrolet Camaro SV8,#31 PremiAir Chevrolet Camaro,53,TRUE
+SuperV8Gen3,Chevrolet Camaro SV8,#777 PremiAir Chevrolet Camaro,54,TRUE
+SuperV8Gen3,Chevrolet Camaro SV8,#9 Chiko Chevrolet Camaro,55,TRUE
+SuperV8Gen3,Chevrolet Camaro SV8,#99 TotalEnergies Chevrolet Camaro,56,TRUE
+SuperV8Gen3,Chevrolet Camaro SV8,#4 Sherrin Rentals Chevrolet Camaro,57,TRUE
+SuperV8Gen3,Chevrolet Camaro SV8,#10 Bendix Chevrolet Camaro,58,TRUE
 TaycanCup,Porsche Taycan R Turbo S,Porsche Taycan Cup #78',51,TRUE
 TaycanCup,Porsche Taycan R Turbo S,Porsche Taycan Cup #79,52,TRUE
 TaycanCup,Porsche Taycan R Turbo S,Porsche Taycan Cup #80,53,TRUE
@@ -5639,7 +5258,6 @@ TCR_X,Opel Astra TCR,PowerMaxed #2,71,TRUE
 TCR_X,Opel Astra TCR,Custom Livery,99,TRUE
 Timeattack,Mazda MX-5 Radbul,Mad Mike Radbul,51,TRUE
 Timeattack,Mazda MX-5 Radbul,Mad Mike Radbul Digital Camo,52,TRUE
-Timeattack,Mazda MX-5 Radbul,Custom Livery,99,TRUE
 Timeattack,Mitsubishi Lancer Evolution VI SVA-Evo,SVA Imports #10,51,TRUE
 Timeattack,Mitsubishi Lancer Evolution VI SVA-Evo,Pirelli #22,52,TRUE
 Timeattack,Volkswagen ID.R Time Attack,Real Livery 1,51,TRUE
@@ -5730,37 +5348,6 @@ TSICup,Volkswagen Virtus GTS,VW Virtus GTS #3,54,FALSE
 TSICup,Volkswagen Virtus GTS,VW Virtus GTS #4,55,FALSE
 TSICup,Volkswagen Virtus GTS,VW Virtus GTS #5,56,FALSE
 TSICup,Volkswagen Virtus GTS,VW Virtus GTS #6,57,FALSE
-Vintage F3 A,Lotus_51,Team Clark #1,51,TRUE
-Vintage F3 A,Lotus_51,Team Clark #2,52,TRUE
-Vintage F3 A,Lotus_51,Neil Motor Racing #44,53,TRUE
-Vintage F3 A,Lotus_51,Neil Motor Racing #45,54,TRUE
-Vintage F3 A,Lotus_51,Gerhat Motorsport #30,55,TRUE
-Vintage F3 A,Lotus_51,Gerhat Motorsport #31,56,TRUE
-Vintage F3 A,Lotus_51,Barron Motor Services #6,57,TRUE
-Vintage F3 A,Lotus_51,Barron Motor Services #7,58,TRUE
-Vintage F3 A,Lotus_51,American Racing Team #42,59,TRUE
-Vintage F3 A,Lotus_51,American Racing Team #43,60,TRUE
-Vintage F3 A,Lotus_51,Bell Racing Inc. #74,61,TRUE
-Vintage F3 A,Lotus_51,Bell Racing Inc. #75,62,TRUE
-Vintage F3 A,Lotus_51,Pressburg Racing #8,63,TRUE
-Vintage F3 A,Lotus_51,Pressburg Racing #9,64,TRUE
-Vintage F3 A,Lotus_51,White Performance #10,65,TRUE
-Vintage F3 A,Lotus_51,White Performance #11,66,TRUE
-Vintage F3 A,Lotus_51,Karlsson Autosport #4,67,TRUE
-Vintage F3 A,Lotus_51,Karlsson Autosport #5,68,TRUE
-Vintage F3 A,Lotus_51,Olivera Motor Racing #16,69,TRUE
-Vintage F3 A,Lotus_51,Olivera Motor Racing #17,70,TRUE
-Vintage F3 A,Lotus_51,Mensik Motorsport #14,71,TRUE
-Vintage F3 A,Lotus_51,Mensik Motorsport #15,72,TRUE
-Vintage F3 A,Lotus_51,Cherry Racing #33,73,TRUE
-Vintage F3 A,Lotus_51,Cherry Racing #34,74,TRUE
-Vintage F3 A,Lotus_51,Fischer Rennsport #22,75,TRUE
-Vintage F3 A,Lotus_51,Fischer Rennsport #23,76,TRUE
-Vintage F3 A,Lotus_51,Equipe Dambreville #35,77,TRUE
-Vintage F3 A,Lotus_51,Equipe Dambreville #36,78,TRUE
-Vintage F3 A,Lotus_51,Team Baystead #67,79,TRUE
-Vintage F3 A,Lotus_51,Team Baystead #68,80,TRUE
-Vintage F3 A,Lotus_51,Custom Livery,99,TRUE
 Vintage Indycar,Agajanian_Watson Roadster,Agajanian Willard Battery #98,51,TRUE
 Vintage Indycar,Agajanian_Watson Roadster,Welker Racing #32,52,TRUE
 Vintage Indycar,Agajanian_Watson Roadster,Welker Racing #35,53,TRUE
@@ -5872,7 +5459,6 @@ Vintage Prototype B,Ford MkIV,Wakeman Racing #71,77,TRUE
 Vintage Prototype B,Ford MkIV,Wakeman Racing #72,78,TRUE
 Vintage Prototype B,Ford MkIV,Arnao Racing #50,79,TRUE
 Vintage Prototype B,Ford MkIV,Arnao Racing #51,80,TRUE
-Vintage Prototype B,Ford MkIV,Custom Livery,99,TRUE
 Vintage Prototype B,Lotus Type 40 Ford,Team Lotus #01,51,TRUE
 Vintage Prototype B,Lotus Type 40 Ford,Team Lotus #30,52,TRUE
 Vintage Prototype B,Lotus Type 40 Ford,Andy Clark Inc. #16,53,TRUE
@@ -5958,31 +5544,6 @@ Vintage Touring-GT A,Ferrari 365 GTB4 Competizione,Ecurie Francorchamps #47,69,T
 Vintage Touring-GT A,Ferrari 365 GTB4 Competizione,Team Castrol GTX #18,70,TRUE
 Vintage Touring-GT A,Ferrari 365 GTB4 Competizione,Marcel Mignot 41,71,TRUE
 Vintage Touring-GT A,Ferrari 365 GTB4 Competizione,Custom Livery,99,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,StanceWorks #53,51,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,StanceWorks #7,52,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,StanceWorks #67,53,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Momo Corse #29,54,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Welker Racing #5,55,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Welker Racing #6,56,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Wallington Team #09,57,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Wallington Team #10,58,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Arnao Sports #16,59,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Arnao Sports #17,60,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Klark Engineering #80,61,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Klark Engineering #81,62,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Hummerich Rennsport #45,63,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Hummerich Rennsport #70,64,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Frischkorn Motorsport #58,65,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Frischkorn Motorsport #59,66,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Kleiber Motors #88,67,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Kleiber Motors #89,68,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Dino Racing Team #90,69,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Dino Racing Team #91,70,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Zectrol Motorsport #72,71,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Zectrol Motorsport #73,72,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Team Ringley #83,73,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Team Ringley #84,74,TRUE
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,Custom Livery,99,TRUE
 Vintage Touring-GT B,Mercedes-Benz 300 SEL 6.8 AMG,AMG Motorsport #35,51,TRUE
 Vintage Touring-GT B,Mercedes-Benz 300 SEL 6.8 AMG,AMG Motorsport #38,52,TRUE
 Vintage Touring-GT B,Mercedes-Benz 300 SEL 6.8 AMG,Team AMG Motorsport #35,53,TRUE
@@ -6017,7 +5578,6 @@ Vintage Touring-GT B,Mercedes-Benz 300 SEL 6.8 AMG,Hartberg Rennsport #1,81,TRUE
 Vintage Touring-GT B,Mercedes-Benz 300 SEL 6.8 AMG,Hartberg Rennsport #2,82,TRUE
 Vintage Touring-GT B,Mercedes-Benz 300 SEL 6.8 AMG,Blattgold Motorsport #21,83,TRUE
 Vintage Touring-GT B,Mercedes-Benz 300 SEL 6.8 AMG,Blattgold Motorsport #22,84,TRUE
-Vintage Touring-GT B,Mercedes-Benz 300 SEL 6.8 AMG,Custom Livery,99,TRUE
 Vintage Touring-GT F,Chevrolet Camaro Z/28 69 TransAm,4_John Sears,51,TRUE
 Vintage Touring-GT F,Chevrolet Camaro Z/28 69 TransAm,6_Buddy Baker,52,TRUE
 Vintage Touring-GT F,Chevrolet Camaro Z/28 69 TransAm,06_Neil Castles,53,TRUE

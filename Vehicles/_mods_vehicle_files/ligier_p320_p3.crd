@@ -85,8 +85,8 @@
         <prop name="Shadow Offset Forward" data="0" />
         <prop name="Shadow Texture" data="Ligier_JS_P320_ambsh.dds" />
         <prop name="Grid Grouping" data="9" />
-        <prop name="Vehicle Class" data="ELMS-P3" />
-        <prop name="Vehicle Group" data="P1" />
+        <prop name="Vehicle Class" data="LMP3_Gen2" />
+        <prop name="Vehicle Group" data="Prototype" />
         <prop name="Vehicle Shape" data="Prototype" />
         <prop name="Engine Placement" data="Mid-Rear" />
         <prop name="Number of Exhausts" data="2" />

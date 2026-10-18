@@ -73,10 +73,6 @@
 		<REPLACE MATERIAL="vehicles\ferrari_f40\ferrari_f40_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_ferrari_argento_nurburgring_autoskin_autocpit.mtx" />
 	</CONDITION>
 
-	<CONDITION LIVERY="99">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\ferrari_f40_livery.dds" />
-	</CONDITION>
-
 	<!-- 'Soft'. Copy of Medium in case AI use it -->
 	<CONDITION TIRE="1">
 		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_pzero90_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzero90_diff.dds" />

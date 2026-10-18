@@ -131,6 +131,7 @@
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
 	</CONDITION>
+
 			
 	<!-- Soft Slick tire -->
 	<CONDITION TIRE="1">

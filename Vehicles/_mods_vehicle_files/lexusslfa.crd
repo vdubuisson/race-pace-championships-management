@@ -7,7 +7,7 @@
     <class name="VehicleDetails" base="BPersistent">
         <prop name="Vehicle Name" type="String" />
         <prop name="ShortVehicleName" type="String" />
-        <prop name="XLASTID" type="U32" />
+        <prop name="XLASTID" type="S32" />
         <prop name="VehicleManufacturer" type="String" />
         <prop name="VehicleModel" type="String" />
         <prop name="Vehicle Render Model" type="String" />
@@ -68,7 +68,7 @@
         <prop name="Name" data="Lexus_LFA" />
         <prop name="Vehicle Name" data="Lexus LFA" />
         <prop name="ShortVehicleName" data="LFA" />
-        <prop name="XLASTID" data="315" />
+        <prop name="XLASTID" data="564" />
         <prop name="VehicleManufacturer" data="Lexus" />
         <prop name="VehicleModel" data="LFA" />
         <prop name="Vehicle Render Model" data="LEXUS_LFA.vhf" />

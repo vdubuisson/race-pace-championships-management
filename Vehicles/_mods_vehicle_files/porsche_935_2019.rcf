@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="28" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="Porsche Racing #70" />
+		<NAME LIVERY="52" NAME="Mentos Racing #8" />
+		<NAME LIVERY="53" NAME="Herberth Motorsport #96" />
+		<NAME LIVERY="54" NAME="Grasser Racing Team #29" />
+		<NAME LIVERY="71" NAME="Livery 1" />
+		<NAME LIVERY="72" NAME="Livery 2" />
+		<NAME LIVERY="73" NAME="Livery 3" />
+		<NAME LIVERY="74" NAME="Livery 4" />
+		<NAME LIVERY="75" NAME="Livery 5" />
+		<NAME LIVERY="76" NAME="Livery 6" />
+		<NAME LIVERY="77" NAME="Livery 7" />		
+		<NAME LIVERY="78" NAME="Livery 8" />		
+		<NAME LIVERY="79" NAME="Livery 9" />				
+		<NAME LIVERY="80" NAME="Livery 10" />
+		<NAME LIVERY="81" NAME="Livery 11" />
+		<NAME LIVERY="82" NAME="Livery 12" />
+		<NAME LIVERY="83" NAME="Livery 13" />
+		<NAME LIVERY="84" NAME="Livery 14" />
+		<NAME LIVERY="85" NAME="Livery 15" />
+		<NAME LIVERY="86" NAME="Livery 16" />
+		<NAME LIVERY="87" NAME="Livery 17" />
+		<NAME LIVERY="88" NAME="Livery 18" />
+		<NAME LIVERY="89" NAME="Livery 19" />
+		<NAME LIVERY="90" NAME="Livery 20" />
+		<NAME LIVERY="91" NAME="Team Bisimoto #35" />
+		<NAME LIVERY="92" NAME="Team Bisimoto #36" />
+		<NAME LIVERY="93" NAME="Livery 21" />
+		<NAME LIVERY="94" NAME="Tenner Racing #71" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery01.dds" />				
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_wheel_black_diff.dds" NEWTEXTURE="Vehicles\Textures\por_935_2019_wheel_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_wheel_black_spec.dds" NEWTEXTURE="Vehicles\Textures\por_935_2019_wheel_spec.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_wheel_black_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\por_935_2019_wheel_blur_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_wheel_black_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\por_935_2019_wheel_blur_spec.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="52">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\porsche_935_2019_livery02.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_carbon_ext" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />	
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\porsche_935_2019_livery02.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_935_2019_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\porsche_935_2019_banner_white.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\porsche_935_2019_livery03.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_carbon_ext" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />	
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\porsche_935_2019_livery03.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_935_2019_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\porsche_935_2019_banner_white.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="54">
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\porsche_935_2019_livery04.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\textures\liveries\porsche_935_2019_livery04_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\por_935_2019_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\porsche_935_2019_banner_white.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery05.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />						
+	</CONDITION>
+	
+	<CONDITION LIVERY="72">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery06.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery07.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="74">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery08.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="75">
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\pag_zr_livery13.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery09.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="76">
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\pag_zr_livery13.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery10.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="77">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery11.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="78">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery12.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="79">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery13.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="80">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery14.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="81">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery15.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="82">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery16.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="83">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery17.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="84">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery18.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="85">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery19.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="86">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery20.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="87">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery21.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="88">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery22.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="89">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery23.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="90">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery24.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+
+	<CONDITION LIVERY="91">
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_12_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_12_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_12_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY12.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery25.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>
+	
+	<CONDITION LIVERY="92">
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_skin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_14_skin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\pag_zr_livery14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery26.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />				
+	</CONDITION>	
+
+	<CONDITION LIVERY="93">
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery27.dds" />		
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_pilot2_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_pilot2_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_pilot2_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_pilot2_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin_pilot2_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="94">
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_zonda_13_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\pag_zr_livery13.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_livery28.dds" />
+		<REPLACE MATERIAL="vehicles\porsche_935_2019\por_935_2019_carbon_ext" NEWMATERIAL="vehicles\_generic_materials\livery_carbon_gt12.mtx" />	
+		<REPLACE TEXTURE="vehicles\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\textures\liveries\porsche_935_2019_livery28.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\porsche_935_2019_banner_black.dds" />	
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_wheel_black_diff.dds" NEWTEXTURE="Vehicles\Textures\por_935_2019_wheel_gold_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_wheel_black_spec.dds" NEWTEXTURE="Vehicles\Textures\por_935_2019_wheel_gold_spec.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_wheel_black_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\por_935_2019_wheel_gold_blur_diff.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\por_935_2019_wheel_black_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\por_935_2019_wheel_gold_blur_spec.dds" />					
+	</CONDITION>
+	
+	<!-- 'Soft' Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Medium' Slick tire -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Hard' Slick tire -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Intermediate' Rain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Wet' Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- 'Extreme' Rain tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\por_935_2019_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\por_935_2019_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\por_935_2019_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

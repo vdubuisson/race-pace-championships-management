@@ -11,7 +11,7 @@
 		<NAME LIVERY="51" NAME="Electramotive Engineering #83" />
 		<NAME LIVERY="52" NAME="Electramotive Engineering #84" />
 		<NAME LIVERY="53" NAME="Busby Racing #67" />
-		<NAME LIVERY="99" NAME="Custom Livery" />		
+				
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -67,9 +67,6 @@
 		<REPLACE TEXTURE="vehicles\textures\nis_gtp_88_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\nis_gtp_88_banner03_diff.dds" />		
 	</CONDITION>
 
-	<CONDITION LIVERY="99">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\nissan_gtp_zx-turbo_livery.dds" />
-	</CONDITION>
 
 	<!-- Soft Slick tire -->
 	<CONDITION TIRE="1">

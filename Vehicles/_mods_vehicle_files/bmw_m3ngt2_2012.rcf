@@ -2,7 +2,7 @@
 <REPLACEMENT_SYSTEM>
 	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
 	<INPUTS>
-		<INPUT NAME="LIVERY" OPTIONS="4" />
+		<INPUT NAME="LIVERY" OPTIONS="2" />
 		<INPUT NAME="TIRE" OPTIONS="6" />
 		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
 	</INPUTS>
@@ -10,8 +10,6 @@
 	<NAMES INPUT ="LIVERY">
 		<NAME LIVERY="54" NAME="BMW Motorsport Nürburgring24h 2010 #25" />
 		<NAME LIVERY="55" NAME="BMW Motorsport Nürburgring24h 2010 #26" />
-		<NAME LIVERY="75" NAME="BMW Motorsport ALMS 2010 #90" />
-		<NAME LIVERY="76" NAME="BMW Motorsport ALMS 2010 #92" />
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">

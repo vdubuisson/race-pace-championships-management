@@ -8,6 +8,7 @@ class,name,year,folder_name
 90' Supercars,McLaren F1,1992,mclaren_f1
 90' Supercars TD,Jaguar XJ220S Track Days,1994,jaguarxxj220s
 90' Supercars TD,McLaren F1 Track Days,1992,mclarenxf1
+Alpine,Alpine A110 Cup,2018,alpine_a110_cup
 ARC_Cam,ARC Camaro,2019,arc_camaro
 audittscup,Audi TT Cup,2019,audi_tts_racing
 Carrera Cup,Porsche 911 GT3 Cup 3.8,2016,porsche_991_gt3
@@ -40,7 +41,6 @@ DTM13,AUDI RS5 DTM,2013,dtm_audi_t5
 DTM13,BMW M3,2013,dtm_bmw_m3r
 DTM13,Mercedes-Benz,2013,dtmmercedes
 Electric Touring Car,BMW 320 TCE (E90),2020,bmw_320te
-ELMS-P3,Ligier JSP320,2023,ligier_p320_p3
 F-3,Dallara F301,2012,f301
 F-3,Dallara F309,2012,f309
 F-Classic_Gen1,Formula Classic Gen1 Model1,1986,formula_classic_g1m1
@@ -130,20 +130,11 @@ F-Vintage_Gen2,Brabham BT26A,1970,brabham_bt26
 F-Vintage_Gen2,Formula Vintage Gen2 Model1,1964,formula_vintage_g2m1
 F-Vintage_Gen2,Formula Vintage Gen2 Model2,1964,formula_vintage_g2m2
 F-Vintage_Gen2,Lotus 49C,1970,lotus_49c
-F1-1996,Benetton B196 - Renault,1996,formula_v10_g1_benetton
-F1-1996,Ferrari F310 - Ferrari,1996,formula_v10_g1_ferrari
-F1-1996,Footwork FA17 - Hart,1996,formula_v10_g1_footwork
-F1-1996,Forti FG01B - Ford,1996,formula_v10_g1_forti
-F1-1996,Jordan 196 - Peugeot,1996,formula_v10_g1_jordan
-F1-1996,Ligier JS43 - Mugen,1996,formula_v10_g1_ligier
-F1-1996,McLaren MP4/11 - Mercedes,1996,formula_v10_g1_mclaren
-F1-1996,Minardi 195B - Ford,1996,formula_v10_g1_minardi
-F1-1996,Sauber C15 - Ford,1996,formula_v10_g1_sauber
-F1-1996,Tyrrell 024 - Yamaha,1996,formula_v10_g1_tyrrell
-F1-1996,Williams FW18 - Renault,1996,formula_v10_g1_williams
+F-Vintage_Gen2,Brabham BT26 High Downforce,1969,brabham_bt26_hd
+F-Vintage_Gen2,Ferrari 312 High Downforce,1969,ferrari_312_hd
+F-Vintage_Gen2,Lotus 49B High Downforce,1969,lotus_49b_hd
 f355 series,Ferrari F355 Challenge,2001,f355_challenge
 f488 series,Ferrari 488 Challenge (EU),2017,fer488_cha
-F488challEVO,Ferrari 488 Challenge Evo,2019,ferrari_488_chall_evo
 FE-G1,Formula Edge Model1,1995,formula_edge_g1m1
 FE-G1,Formula Edge Model2,1995,formula_edge_g1m2
 FE-G1,Formula Edge Model3,1995,formula_edge_g1m3
@@ -190,15 +181,17 @@ Group C,Chevrolet Corvette GTP,1988,corvette_gtp
 Group C,Nissan R89C,1989,nissan_r89c
 Group C,Porsche 962C,1987,porsche_962c
 Group C,Sauber Mercedes C9,1989,sauber_c9
-Group C mod,Jaguar XJR-9,1988,jag_xjr9
-Group C mod,Mazda 787b,1991,mazda_787b
-Group C mod,Nissan GTP ZX-Turbo,1988,nis_gtp_zxt
+Group C,Jaguar XJR-9,1988,jag_xjr9
+Group C,Mazda 787b,1991,mazda_787b
+Group C,Nissan GTP ZX-Turbo,1988,nis_gtp_zxt
 Group6,Porsche 936 Spyder,1977,porsche_936s
 Group6,Renault_Alpine A442B,1978,renault_alpine_442
 GT1,McLaren F1 GTR,2019,mclaren_f1_gtr
 GT1,Mercedes-Benz CLK LM,1998,mercedes_clk-lm
 GT1,Nissan R390 GT1,1998,nissan_r390_gt1
 GT1,Porsche 911 GT1-98,1998,porsche_911_gt1_98
+GT1,Panoz Esperante GTR-1,1998,panoz_esperante_gtr1
+GT1,Ferrari F50 GT,1996,ferrari_f50gt
 GT1,Panoz Esperante GTR1,1998,pan_esp_gtr1
 GT1,Toyota GT-One (1998),1998,toy_gt-one
 GT1_05,Aston Martin DBR9,2005,aston_martin_dbr9_gt1
@@ -209,11 +202,10 @@ GT1_05,Lister Storm GTM,2005,lister_storm_gtm
 GT1_05,Maserati MC12 GT1,2005,maserati_mc12_gt1
 GT1_05,Milano GT55,2005,milano_gt55
 GT1_05,Saleen S7-R GT1,2005,saleen_s7r_gt1
-GT1SportsClub,Porsche 918 Spyder Weissach Racing,2015,porsche_918_racing
 GT1SportsClub,Aston Martin Vulcan AMR PRO,2016,aston_martin_vulcan
 GT1SportsClub,Lamborghini Aventador LP770-4 SVJ,2018,lamborghini_aventador_svj
 GT1SportsClub,Lamborghini Essenza SCV12,2022,lamborghini_scv12
-GT1SportsClub,PaganiZondaRevolucion,2015,pagani_zonda_revo
+GT1SportsClub,Porsche 935,2019,porsche_935_2019
 GT2_05,Milano GT36,2005,milano_gt36
 GT2_05,Panoz Esperante GTLM,2005,panoz_esperante_gtlm
 GT2_05,Porsche 996 GT3 RSR,2005,porsche_996_gt3rsr
@@ -225,9 +217,6 @@ GT3,McLaren 720S GT3,2017,mclaren_720s_gt3
 GT3,Mercedes-AMG GT3,2015,mercedes_amg_gt3
 GT3,Nissan GT-R Nismo GT3,2016,nissan_gt-r_gt3
 GT3,Porsche 911 GT3 R,2016,porsche_991_gt3r
-GT3,Dodge Viper ACR GT3,2017,dodge_viper_racing17
-GT3,Jaguar F-Type SVR GT3,2016,jaguar_f-type_racing
-GT3,Toyota GR Supra GT3,2020,toyota_gr_supra_racing
 GT3_Gen0,Mercedes-AMG GT3,2015,amg_gt3
 GT3_Gen0,Cadillac ATS-V.R GT3,2016,cad_ats
 GT3_Gen0,Chevrolet Corvette C7.R,2016,corvette_c7r
@@ -255,7 +244,8 @@ GT3_LMS_MP412CP,Mercedes-Benz SLS AMG GT3,2012,mb_sls_gt3
 GT3_LMS_MP412CP,Renault Sport R.S. 01 GT3,2016,renaultrs01gt3x
 GT3_LMS_MP412CP,Audi R8 LMS Ultra '13,2013,audi_r8_lms_ultra
 GT3_LMS_MP412CP,McLaren MP4-12C GT3,2012,mclaren_mp4-12c_gt3
-GT3_Nurb24h,BMW M3 GT3 spec,2002,bmw_m3ngt2_2012
+GT3spec,BMW M3 GT3 spec,2002,bmw_m3agt2_2012
+GT3spec,BMW M3 GT3 spec,2002,bmw_m3ngt2_2012
 GT4,Alpine A110 GT4 Evo,2020,alpine_a110_gt4_evo
 GT4,Aston Martin Vantage GT4 Evo,2024,aston_martin_vantage_gt4_evo
 GT4,Audi R8 LMS GT4,2020,audi_r8_lms_gt4
@@ -281,11 +271,12 @@ GTE,Aston Martin Vantage GTE,2020,aston_martin_vantage_gte
 GTE,BMW M8 GTE,2019,bmw_m8_gte
 GTE,Chevrolet Corvette C8.R,2020,corvette_c8r
 GTE,Porsche 911 RSR GTE,2020,porsche_911_gte
+GTE,Ford GT LM,2016,ford_gtelm
+GTE,Aston Martin Vantage GTE,2014,amr_le_man24_vantagegte
+GTE,Ferrari 488 GTE,2016,ferrari_488gte
 GTE mod,Chevrolet Corvette C7.R GTE 2016,2016,chev_cor_c7r
-GTE mod,Ford GT LM,2016,ford_gtelm
 GTE mod,Aston Martin Vantage GTE '19,2019,aston_martin_vantage19_gte
-GTE mod,Aston Martin Vantage GTE,2014,aston_martin_vantagegte
-GTE mod,Ferrari 488 GTE,2016,ferrari_488gte
+GTELM,BMW M3 GT2,2002,bmw_m3_gt2_2012
 GTO,Ferrari F40 LM,1989,ferrari_f40_lm
 GTO,Nissan 300ZX Turbo LM,1994,nissan_300zxlm
 GTO,Porsche 961,1986,porsche961
@@ -302,34 +293,15 @@ Hypercars,Brabham BT62,2018,brabham_bt62
 Hypercars,Lamborghini Revuelto,2024,lamborghini_revuelto
 Hypercars,Lamborghini Veneno Roadster,2014,lamborghini_veneno
 Hypercars,McLaren Senna,2018,mclaren_senna
-Hypercars,Ferrari SF90 Stradale,2020,ferrari_sf90_stradale
-Hypercars,Lamborghini Sian FKP 37,2020,lamborghini_sian
-Hypercars,Pagani Huayra BC,2016,pagani_huayra_bc
-Hypercars,Aston Martin DBS Superleggera,2019,aston_martin_dbs
 Hypercars,Ferrari 488 Pista,2018,ferrari_488_pista
-Hypercars,Ferrari 812 Superfast,2018,ferrari_812
-Hypercars,Ferrari F8 Tributo,2020,ferrari_f8
-Hypercars,Ferrari F12 TDF,2016,ferrari_f12_tdf
 Hypercars,Ferrari LaFerrari,2015,ferrari_laferrari
-Hypercars,Lotus Evija,2020,lotus_evija
 Hypercars,McLarenP1,2014,mclaren_p1
 Hypercars,Porsche 918 Spyder Weissach,2015,porsche_918
 iconic,Porsche 919 Hybrid Evo,2018,porsche_919_evo
-Indycar_2023,A.J. Foyt Enterprises,2023,ir-18_2023_aj_foyt
-Indycar_2023,Andretti Autosport,2023,ir-18_2023_andretti_autosport
-Indycar_2023,Arrow McLaren,2023,ir-18_2023_arrow_mclaren
-Indycar_2023,Chip Ganassi Racing,2023,ir-18_2023_chip_ganassi
-Indycar_2023,Dale Coyne Racing,2023,ir-18_2023_dale_coyne
-Indycar_2023,Ed Carpenter Racing,2023,ir-18_2023_ed_carpenter_racing
-Indycar_2023,Juncos Hollinger Racing,2023,ir-18_2023_juncos_hollinger
-Indycar_2023,Meyer Shank Racing,2023,ir-18_2023_meyer_shank
-Indycar_2023,My Custom Team,2023,ir-18_2023_my_team
-Indycar_2023,Rahal Letterman Lanigan Racing,2023,ir-18_2023_rahal_letterman
-Indycar_2023,Team Penske,2023,ir-18_2023_team_penske
 InitD,Initial D - Mitsubishi Lancer Evolution VI T.M.E.,1999,lancer_evovitme
 InitD,Initial D - Mazda RX-7 (FD3S),1994,mazda_rx7_94
 InitD,Initial D - Mazda RX-7 Turbo (FC3S),1988,mazda_rx7_turbo_fcid
-InitD,Initial D - Nissan Silvia S15,2000,nissan_s15
+InitD,Initial D - Nissan Silvia S15,2000,nissan_s15_1
 InitD,Initial D - Nissan Skyline GT-R V-Spec (R34),1999,nissan_skyline_r34
 InitD,Initial D - Toyota Sprinter Trueno (AE86),1986,toy_trueno
 InitD,Initial D - Toyota Supra MkIV Turbo,1994,toyota_supra_94
@@ -357,7 +329,6 @@ LMDh,BMW M Hybrid V8,2023,bmw_m_hybrid_v8
 LMDh,Cadillac V-Series.R,2023,cadillac_v-series_r
 LMDh,Lamborghini SC63,2024,lamborghini_sc63
 LMDh,Porsche 963,2023,porsche_963_gtp
-LMGT2,BMW M3 GT2,2002,bmw_m3_gt2_2012
 LMP1 2016,Audi R18 2016,2016,audi_r18lm2016
 LMP1 2016,Porsche 919 Hybrid,2016,porsche919
 LMP1 2016,Toyota TS050 Hybrid,2016,toyotats050_16
@@ -373,11 +344,12 @@ LMP2_05,Lola B05/40 Turbo,2005,lola_b0540_lmp2_turbo
 LMP2_05,Lola B05/40 V8,2005,lola_b0540_lmp2_v8
 LMP2_Gen1,Ligier JS P217,2024,ligier_js_p217
 LMP2_Gen1,Oreca 07,2023,oreca_07
+LMP3_Gen1,Ligier LMP3,2016,ligier_jsp3
+LMP3_Gen2,Ligier JSP320,2023,ligier_p320_p3
 LMSeries,Audi R8 (LMP900),2002,audi_r8lmp900
 LMSeries,Bentley Speed 8,2003,bentley_speed8
 LMSeries,BMW V12 LMR,1999,bmw_lmr
 LMSeries,Ferrari 333 SP,1996,ferrari333sp
-LMSeries,Ferrari F50 GT,1996,ferrari_f50gt
 LMSeries,Toyota GT-One (1999),1999,toy_gt-one99
 Lotus Cup,Lotus Exige V6 Cup,2018,lotus_exige_430_racing
 MD_LeMans,Ferrari 512 BB LM LeMans,1978,fer512bblmxlm
@@ -407,14 +379,9 @@ P3,Roco 001,2019,roco
 P4,MCR S2000,2012,mcr2000
 P4,MetalMoro MRX Duratec P4,2019,metalmoro_mrx
 PaganiX,Pagani Zonda Cinque Roadster,2011,pagzocinque
-Porsche_Cup_BR,Porsche 911 GT3 Cup (992),2021,porsche_992_cup_br
-Porsche_Cup_EU,Porsche 911 GT3 Cup (992),2021,porsche_992_cup_eu
-Porsche_Cup_GBR,Porsche 911 GT3 Cup (992),2021,porsche_992_cup_gb
-Porsche_Cup_GER,Porsche 911 GT3 Cup (992),2021,porsche_992_cup_ger
-Porsche_Cup_USA,Porsche 911 GT3 Cup (992),2021,porsche_992_cup_us
+Porsche Carrera Cup mod,Porsche 911 GT3 Cup (992),2021,porsche_992_cup
 Procar,BMW M1 Procar,1981,bmw_m1_procar
 rb86,Toyota GT-86 Rocket Bunny,2015,toyota_gt86rb
-Road D,Chevrolet Camaro ZL-1,2017,camarozl1
 Road G,Ford_Mustang_Fastback66,1966,fastback66
 RX,Citroen DS3 RX,2017,citroen_ds3_rx
 RX,MINI Countryman R60 RX,2016,mini_rx
@@ -468,6 +435,7 @@ Street C,Aston Martin Vantage,2024,aston_martin_vantage_db9_ams
 Street C,Dodge Challenger Hellcat,2015,dodge_challenger_srth
 Street C,Ford Mustang RTR-X,2010,ford_mustang_rtrx
 Street C,Mazda RX-7 Rocket Bunny Road,1995,mazda_rx7
+Street C,Nissan Silvia S15 Rocket Bunny,2000,nissan_s15
 Street C,Ruf CTR Yellowbird,1987,ruf_ctr_yellowbird
 Street D,Nissan 200SX (S14) Tuned,1998,nissan_200sx_s14a
 Street D,Toyota Supra MkIV Turbo,1994,toyota_supra_1994
@@ -484,6 +452,7 @@ Supercars,Porsche Taycan Turbo S,2020,porsche_taycan
 Supercars,Radical RXC Turbo,2015,radicalrxcturbo
 SuperKart,Superkart 250cc,2019,superkart
 SuperV8,Super V8,2019,super_v8
+SuperV8Gen3,Chevrolet Camaro SV8,2019,sv8camaro
 TaycanCup,Porsche Taycan R Turbo S,2020,porsche_taycanr
 TC60S,BMW 2002 Turbo,1973,bmw_2002_turbo
 TC60S,Chevrolet Corvette C3,1969,corvette_73
@@ -510,7 +479,6 @@ TSICup,Volkswagen Polo,2021,vw_polo
 TSICup,Volkswagen Polo GTS,2021,vw_polo_gts
 TSICup,Volkswagen Virtus,2021,vw_virtus
 TSICup,Volkswagen Virtus GTS,2021,vw_virtus_gts
-Vintage F3 A,Lotus_51,1967,lotus_51
 Vintage Indycar,Agajanian_Watson Roadster,1963,a_watson_1963
 Vintage Prototype A,Ferrari 512 M,1970,ferrari512m
 Vintage Prototype A,Ferrari 512 S,1970,ferrari_512scl
@@ -521,7 +489,6 @@ Vintage Prototype B,Ford MkIV,1967,ford_gt40mkiv
 Vintage Prototype B,Lotus Type 40 Ford,1965,lotus_4
 Vintage Stockcar,Caper Monterey Stockcar,1990,stockcar90
 Vintage Touring-GT A,Ferrari 365 GTB4 Competizione,1971,ferrari365
-Vintage Touring-GT B,BMW 2002 StanceWorks Edition,1973,bmw_2002
 Vintage Touring-GT B,Mercedes-Benz 300 SEL 6.8 AMG,1971,mercedes_300selamg
 Vintage Touring-GT F,Chevrolet Camaro Z/28 69 TransAm,1969,chevroletcamarota69
 Vintage Touring-GT F,Ford Mustang 66 RTR TransAm,1966,ford_mustang66rtr

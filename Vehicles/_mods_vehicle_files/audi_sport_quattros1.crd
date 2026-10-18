@@ -69,14 +69,14 @@
         <prop name="Vehicle Render Model" data="audi_sport_quattros1.vhf" />
         <prop name="Driver Character" data="audi_sport_quattros1" />
         <prop name="Vehicle Physics Model" data="audi_quattro_s1" />
-        <prop name="Cockpit properties" data="audi_sport_quattros1_Cockpit.bin" />
+        <prop name="Cockpit properties" data="audi_sport_quattros1_cockpit.bin" />
         <prop name="Vehicle Properties" data="audi_sport_quattros1" />
         <prop name="Vehicle Year" data="1986" />
         <prop name="Shadow Width" data="5.0" />
         <prop name="Shadow Length" data="7.0" />
         <prop name="Shadow Offset Right" data="0" />
         <prop name="Shadow Offset Forward" data="0" />
-        <prop name="Shadow Texture" data="Audi_Sport_Quattro_S1_ambsh.dds" />
+        <prop name="Shadow Texture" data="audi_sport_quattro_s1_ambsh.dds" />
         <prop name="Grid Grouping" data="9" />
         <prop name="Vehicle Class" data="Group B" />
         <prop name="Vehicle Group" data="WRX" />

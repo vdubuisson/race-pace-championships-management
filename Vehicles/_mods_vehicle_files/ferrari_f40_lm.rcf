@@ -15,7 +15,7 @@
 		<NAME LIVERY="55" NAME="4h Silverstone 1995 - Club Italia #61" />
 		<NAME LIVERY="56" NAME="24h Le Mans 1995 - Pilot Aldix Racing #34" />
 		<NAME LIVERY="57" NAME="BPR GT Series 1995 - Pilot Aldix Racing #40" />
-		<NAME LIVERY="99" NAME="Custom Livery" />
+		
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -110,9 +110,6 @@
 		<REPLACE TEXTURE="Vehicles\textures\ferrari_f40lm_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\liveries\ferrari_f40lm_banner_diff07.dds" />		
 	</CONDITION>
 
-	<CONDITION LIVERY="99">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\ferrari_f40_lm_livery.dds" />
-	</CONDITION>
 
 	<!-- Soft Slick tire -->
 	<CONDITION TIRE="1">

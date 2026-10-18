@@ -28,9 +28,7 @@
         <prop name="Engine Placement" type="String" />
         <prop name="Number of Exhausts" type="S32" />
         <prop name="Exhaust Position 1" type="Vec3f" />
-        <prop name="Exhaust Position 2" type="Vec3f" />
         <prop name="Exhaust Target Position 1" type="Vec3f" />
-        <prop name="Exhaust Target Position 2" type="Vec3f" />
         <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
         <prop name="Number of Engine Heat" type="S32" />
         <prop name="Engine Heat Position 1" type="Vec3f" />
@@ -61,15 +59,15 @@
         <prop name="Scratch Texture" type="String" />
     </class>
     <data class="VehicleDetails" id="0xD8230E0">
-        <prop name="Name" data="Nissan_S15_ID" />
-        <prop name="Vehicle Name" data="Initial D - Nissan Silvia S15" />
-        <prop name="ShortVehicleName" data="Silvia S15 ID" />
-        <prop name="XLASTID" data="1167" />
+        <prop name="Name" data="Nissan_S15_RB" />
+        <prop name="Vehicle Name" data="Nissan Silvia S15 Rocket Bunny" />
+        <prop name="ShortVehicleName" data="Silvia S15 Rocket Bunny" />
+        <prop name="XLASTID" data="565" />
         <prop name="VehicleManufacturer" data="Nissan" />
-        <prop name="VehicleModel" data="Silvia S15 ID" />
+        <prop name="VehicleModel" data="Silvia S15 Rocket Bunny" />
         <prop name="Vehicle Render Model" data="Nissan_S15.vhf" />
         <prop name="Driver Character" data="Nissan_S15" />
-        <prop name="Vehicle Physics Model" data="nissan_s15" />
+        <prop name="Vehicle Physics Model" data="Nissan_S15" />
         <prop name="Cockpit properties" data="nissan_s15_Cockpit.bin" />
         <prop name="Vehicle Properties" data="Nissan_S15" />
         <prop name="Vehicle Year" data="2000" />
@@ -77,31 +75,29 @@
         <prop name="Shadow Length" data="5" />
         <prop name="Shadow Offset Right" data="0" />
         <prop name="Shadow Offset Forward" data="-0.1" />
-        <prop name="Shadow Texture" data="nissan_s15_ambsh.dds" />
-        <prop name="Grid Grouping" data="16" />
-        <prop name="Vehicle Class" data="InitD" />
-        <prop name="Vehicle Group" data="InitD" />
+        <prop name="Shadow Texture" data="Nissan_S15_ambientshadow.dds" />
+        <prop name="Grid Grouping" data="34" />
+        <prop name="Vehicle Class" data="Street C" />
+        <prop name="Vehicle Group" data="GT" />
         <prop name="Vehicle Shape" data="Road" />
         <prop name="Engine Placement" data="Front" />
-        <prop name="Number of Exhausts" data="2" />
-        <prop name="Exhaust Position 1" data="0.435;0.29;2.33" />
-        <prop name="Exhaust Position 2" data="0.362;0.29;2.33" />
-        <prop name="Exhaust Target Position 1" data="0.435;0.31;2.43" />
-        <prop name="Exhaust Target Position 2" data="0.362;0.31;2.43" />
+        <prop name="Number of Exhausts" data="1" />
+        <prop name="Exhaust Position 1" data="0.402;0.330;2.220" />
+        <prop name="Exhaust Target Position 1" data="0.402;0.330;2.45" />        
         <prop name="Exhaust Smoke Amount Multiplier" data="0.6" />
         <prop name="Number of Engine Heat" data="1" />
         <prop name="Engine Heat Position 1" data="0;0.5;-1.35" />
         <prop name="Blown Engine Smoke Position" data="0;0.76;-1.35" />
-        <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="1.2" />
-        <prop name="Exhaust Backfire Mesh Length Scale" data="1.2" />
+        <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="2.00" />
+        <prop name="Exhaust Backfire Mesh Length Scale" data="2.00" />
         <prop name="Exhaust Backfire Visual Effect Type" data="blue" />
         <prop name="Vehicle Description" data="" />
         <prop name="AI ONLY" data="false" />
         <prop name="Vehicle Initial Performance Index" data="79" />
-        <prop name="Body Upgrades" data="" />
-        <prop name="Cockpit Upgrades" data="" />
-        <prop name="Tire Upgrades" data="" />
-        <prop name="Brake Upgrades" data="" />
+        <prop name="Body Upgrades" data="Nissan_S15_body.vud" />
+        <prop name="Cockpit Upgrades" data="Nissan_S15_cockpit.vud" />
+        <prop name="Tire Upgrades" data="Nissan_S15_tire.vud" />
+        <prop name="Brake Upgrades" data="Nissan_S15_brakes.vud" />
         <prop name="Tier" data="5" />
         <prop name="Price" data="22000" />
         <prop name="Region" data="AS" />

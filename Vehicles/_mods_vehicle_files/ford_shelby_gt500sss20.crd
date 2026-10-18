@@ -7,7 +7,7 @@
     <class name="VehicleDetails" base="BPersistent">
         <prop name="Vehicle Name" type="String" />
         <prop name="ShortVehicleName" type="String" />
-        <prop name="XLASTID" type="U32" />
+        <prop name="XLASTID" type="S32" />
         <prop name="VehicleManufacturer" type="String" />
         <prop name="VehicleModel" type="String" />
         <prop name="Vehicle Render Model" type="String" />
@@ -62,7 +62,7 @@
         <prop name="Name" data="ford_shelby_gt500sss20" />
         <prop name="Vehicle Name" data="Ford Shelby GT500" />
         <prop name="ShortVehicleName" data="Ford Shelby 2020" />
-        <prop name="XLASTID" data="312" />
+        <prop name="XLASTID" data="562" />
         <prop name="VehicleManufacturer" data="Ford" />
         <prop name="VehicleModel" data="Ford Shelby GT500" />
         <prop name="Vehicle Render Model" data="ford_shelby_gt500_ss20.vhf" />

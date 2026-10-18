@@ -15,6 +15,11 @@
         <prop name="Vehicle Physics Model" type="String" />
         <prop name="Cockpit properties" type="String" />
         <prop name="Vehicle Properties" type="String" />
+        <prop name="Vehicle Variant Oval" type="String" />
+        <prop name="Vehicle Variant Short Oval" type="String" />
+	<prop name="Vehicle Variant Short Track" type="String" />		
+        <prop name="Vehicle Variant Speedway" type="String" />
+        <prop name="Vehicle Variant Super Speedway" type="String" />
         <prop name="Vehicle Year" type="S32" />
         <prop name="Shadow Width" type="F32" />
         <prop name="Shadow Length" type="F32" />
@@ -70,6 +75,11 @@
         <prop name="Vehicle Physics Model" data="787b" />
         <prop name="Cockpit properties" data="mazda_787b_cockpit.bin" />
         <prop name="Vehicle Properties" data="mazda_787b" />
+        <prop name="Vehicle Variant Oval" data="mazda_787b_ld" />
+        <prop name="Vehicle Variant Short Oval" data="mazda_787b_ld" />
+	<prop name="Vehicle Variant Short Track" data="mazda_787b_ld" />		
+        <prop name="Vehicle Variant Speedway" data="mazda_787b_ld" />
+        <prop name="Vehicle Variant Super Speedway" data="mazda_787b_ld" />
         <prop name="Vehicle Year" data="1991" />
         <prop name="Shadow Width" data="4.3" />
         <prop name="Shadow Length" data="6.90" />
@@ -78,7 +88,7 @@
         <prop name="Shadow Offset Up" data="0.01" />
         <prop name="Shadow Texture" data="ambientshadow_mazda_787b.dds" />
         <prop name="Grid Grouping" data="2" />
-        <prop name="Vehicle Class" data="Group C mod" />
+        <prop name="Vehicle Class" data="Group C" />
         <prop name="Vehicle Group" data="Prototype" />
         <prop name="Vehicle Shape" data="Prototype" />
         <prop name="Engine Placement" data="Mid" />

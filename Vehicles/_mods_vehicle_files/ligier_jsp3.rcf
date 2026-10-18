@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="31" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="ELMS 2016 Graff Racing #9" />
+		<NAME LIVERY="52" NAME="ELMS 2016 Graff Racing #10" />
+		<NAME LIVERY="53" NAME="JDC Motorsports #10" />
+		<NAME LIVERY="54" NAME="JDC Motorsports #55" />
+		<NAME LIVERY="55" NAME="JDC Motorsports #25" />
+		<NAME LIVERY="56" NAME="JDC Motorsports #25" />
+		<NAME LIVERY="57" NAME="OAK Racing #24" />
+		<NAME LIVERY="58" NAME="MLMC 2017 United Autosports #22" />
+		<NAME LIVERY="59" NAME="ELMS 2016 United Autosports Team #2" />
+		<NAME LIVERY="60" NAME="ELMS 2016 United Autosports Team #3" />		
+		<NAME LIVERY="61" NAME="Serious Racing Team #22" />
+		<NAME LIVERY="62" NAME="Serious Racing Team #23" />
+		<NAME LIVERY="63" NAME="OCH Racing #74" />
+		<NAME LIVERY="64" NAME="OCH Racing #75" />
+		<NAME LIVERY="65" NAME="WRB Motorsport #45" />
+		<NAME LIVERY="66" NAME="WRB Motorsport #46" />
+		<NAME LIVERY="67" NAME="Gruppo Ancoderro Racing #82" />
+		<NAME LIVERY="68" NAME="Gruppo Ancoderro Racing #83" />
+		<NAME LIVERY="69" NAME="Borda Racing #14" /> 
+		<NAME LIVERY="70" NAME="Borda Racing #15" />
+		<NAME LIVERY="71" NAME="VittR Motorsport #18" />
+		<NAME LIVERY="72" NAME="VittR Motorsport #19" />
+		<NAME LIVERY="73" NAME="ELMS 2017 Inter Europol Competition #13"/>
+		<NAME LIVERY="74" NAME="ELMS 2017 Panis Barthez Competition #16"/>
+		<NAME LIVERY="75" NAME="IMSA 2017 Extreme Speed Motorsports #3"/>
+		<NAME LIVERY="76" NAME="IMSA 2017 Extreme Speed Motorsports #33"/>
+		<NAME LIVERY="77" NAME="ELMS 2017 Eurointernational #11"/>
+		<NAME LIVERY="78" NAME="ELMS 2017 Eurointernational #12"/>
+		<NAME LIVERY="79" NAME="IMSA 2017 Eurointernational #11"/>
+		<NAME LIVERY="80" NAME="VdeV 2017 Racing For Poland #95"/>
+		<NAME LIVERY="81" NAME="Dubai 3X3H 2018 Speedworks Motorsport #22"/>
+		<NAME LIVERY="82" NAME="IMSA 2020 JR III Racing #3"/>
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<!-- DEPENDENCY section describes inputs which depend on each other in that only some combinations are permitted -->
+	<!-- this will only be used in game for the menu system, and in the editor -->
+
+	<!-- CONDITION sections define what to replace and when to replace it		-->
+	<!-- They are used in the same way for all situations				-->
+	
+	<!-- Simple case - exterior paint effecting two materials -->
+
+	<CONDITION LIVERY="51">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery01.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="52">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery02.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery02_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds"  NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery03.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="54">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds"  NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery04.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="55">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery05.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="56">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery06.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery06_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_lmp16_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="57">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery07.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery07_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />		
+	</CONDITION>
+
+	<CONDITION LIVERY="58">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery09.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_fresnel.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery09_fresnel.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\common_paint_spec.dds" NEWTEXTURE="Vehicles\Textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery09_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery10.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery11.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery12.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery13.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="63"> 
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery14.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery15.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery16.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />	
+	</CONDITION>
+
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery17.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="67">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_12.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_12_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\CAT_R500_LIVERY12.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery18.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="68">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_12.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_12_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_12_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\CAT_R500_LIVERY12.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery19.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="69">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\FORD_GT40_MKIV_LIVERY03.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery20.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="70">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_gt40_03_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\FORD_GT40_MKIV_LIVERY03.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery21.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="71">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds"  NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery22.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="72">
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_fb_15_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Ligier_JSP3\ligier_jsp3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_fb_15_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds"  NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery23.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery24.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="74">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery25.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="75">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery26.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="76">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery27.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="77">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery28.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+	
+	<CONDITION LIVERY="78">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery29.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="79">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery30.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="79">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery30.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="80">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery31.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="81">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery32.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_hankook_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_hankook_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_hankook_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_hankook_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_hankook_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="82">
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\ligier_jsp3\ligier_jsp3_livery33.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_michelin_pilot_spec_01.dds" />
+	</CONDITION>
+
+	<!-- Soft Slick tire -->
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Medium Slick tire. In case AI uses it -->
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Hard Slick tire. In case AI uses it -->
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- All-Terrain tire -->
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Rain tire -->
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_rain_01_blur_spec.dds" />
+	</CONDITION>
+
+	<!-- Studded Ice tire -->
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_ice_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\ligier_jsp3_body_dirt_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+  
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+	
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+	
+</REPLACEMENT_SYSTEM>

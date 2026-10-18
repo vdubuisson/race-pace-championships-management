@@ -42,7 +42,7 @@
 		<NAME LIVERY="82" NAME="Hartberg Rennsport #2" />
 		<NAME LIVERY="83" NAME="Blattgold Motorsport #21" />
 		<NAME LIVERY="84" NAME="Blattgold Motorsport #22" />
-		<NAME LIVERY="99" NAME="Custom Livery" />
+		
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -281,9 +281,7 @@
 		<REPLACE TEXTURE="vehicles\textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\MERC_300SEL_LIVERY34_HR.dds" />
 	</CONDITION>
 
-	<CONDITION LIVERY="99">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\merc_300sel_livery.dds" />
-	</CONDITION>
+	
 
 	<!-- 'Soft' Copy of Hard in case AI use it -->
 	<CONDITION TIRE="1">

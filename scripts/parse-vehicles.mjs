@@ -84,7 +84,7 @@ async function processCrdFiles() {
   const liveriesData = [];
 
   const directories = [
-    { path: GAME_VEHICLE_FILES_DIR, isGameFile: true },
+    // { path: GAME_VEHICLE_FILES_DIR, isGameFile: true },
     { path: MODS_VEHICLE_FILES_DIR, isGameFile: false }
   ];
 

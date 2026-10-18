@@ -69,7 +69,7 @@
         <prop name="VehicleModel" data="300ZX Turbo LM" />
         <prop name="Vehicle Render Model" data="Nissan_300ZX_LM.vhf" />
         <prop name="Driver Character" data="Nissan_300zxlm" />
-        <prop name="Vehicle Physics Model" data="Nissan_300zx_lm" />
+        <prop name="Vehicle Physics Model" data="Nissan_300zxlm" />
         <prop name="Cockpit properties" data="Nissan_300zxlm_Cockpit.bin" />
         <prop name="Vehicle Properties" data="Nissan_300zxlm" />
         <prop name="Vehicle Year" data="1994" />

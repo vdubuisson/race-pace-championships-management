@@ -7,7 +7,7 @@
     <class name="VehicleDetails" base="BPersistent">
         <prop name="Vehicle Name" type="String" />
         <prop name="ShortVehicleName" type="String" />
-        <prop name="XLASTID" type="U32" />
+        <prop name="XLASTID" type="S32" />
         <prop name="VehicleManufacturer" type="String" />
         <prop name="VehicleModel" type="String" />
         <prop name="Vehicle Render Model" type="String" />
@@ -64,7 +64,7 @@
         <prop name="Name" data="fiat_500_abarth" />
         <prop name="Vehicle Name" data="Fiat 500 Abarth Tuned" />
         <prop name="ShortVehicleName" data="500 Abarth Tuned" />
-        <prop name="XLASTID" data="327" />
+        <prop name="XLASTID" data="571" />
         <prop name="VehicleManufacturer" data="Fiat" />
         <prop name="VehicleModel" data="500 Abarth Tuned" />
         <prop name="Vehicle Render Model" data="fiat_500_abarth.vhf" />

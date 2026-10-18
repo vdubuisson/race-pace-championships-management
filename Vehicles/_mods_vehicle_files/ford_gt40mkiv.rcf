@@ -38,7 +38,7 @@
 		<NAME LIVERY="78" NAME="Wakeman Racing #72" />
 		<NAME LIVERY="79" NAME="Arnao Racing #50" />
 		<NAME LIVERY="80" NAME="Arnao Racing #51" />
-		<NAME LIVERY="99" NAME="Custom Livery" />
+		
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -233,9 +233,7 @@
 		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\FORD_GT40_MKIV\FORD_GT40_MKIV_LIVERY30_hr.dds" />
 	</CONDITION>
 		
-	<CONDITION LIVERY="99">
-		<REPLACE TEXTURE="vehicles\textures\ford_gt40_mkiv\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\FORD_GT40_MKIV\ford_gt40_mkiv_livery.dds" />
-	</CONDITION>
+
 
 	<!-- 'Soft' Copy of Hard in case AI use it -->
 	<CONDITION TIRE="1">

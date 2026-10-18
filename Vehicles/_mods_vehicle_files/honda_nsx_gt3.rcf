@@ -2,13 +2,21 @@
 <REPLACEMENT_SYSTEM>
 	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
 	<INPUTS>
-		<INPUT NAME="LIVERY" OPTIONS="1" />
+		<INPUT NAME="LIVERY" OPTIONS="9" />
 		<INPUT NAME="TIRE" OPTIONS="6" />
 		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
 	</INPUTS>
 
 	<NAMES INPUT ="LIVERY">
 		<NAME LIVERY="51" NAME="Spa 24h 2018 Castrol Honda Racing #30" />
+		<NAME LIVERY="52" NAME="Blancpain 2019 Team Jenson #22" />
+		<NAME LIVERY="53" NAME="Bath 12h 2020 JAS Motorsport Honda #30" />
+		<NAME LIVERY="54" NAME="IMSA 2017 Michael Shank Racing with CurbAgajanian #86" />
+		<NAME LIVERY="55" NAME="IMSA 2017 Michael Shank Racing with Curb/Agajanian #93" />
+		<NAME LIVERY="56" NAME="IMSA 2018 HART #69 Rolex 24 Daytona" />
+		<NAME LIVERY="57" NAME="IMSA 2018 HART #69 Sahlen's 6hrs of The Glen" />
+		<NAME LIVERY="58" NAME="IMSA 2021 Gradient Racing #66" />
+		<NAME LIVERY="59" NAME="SGT 2018 Modulo Kenwood #34" />
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -39,8 +47,8 @@
 		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
 		<REPLACE MATERIAL="Vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
 		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\SPA_24h_2018_Castrol_Honda_Racing_30\acura_nsx_gt3_livery.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\acura_nsx_gt3_banner_diff.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\SPA_24h_2018_Castrol_Honda_Racing_30\acura_nsx_gt3_banner.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\acura_nsx_gt3_livery51.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\acura_nsx_gt3_banner_diff.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\acura_nsx_gt3_banner51.dds" />		
 		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_diff.dds" />
 		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_spec.dds" />
 		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_diff.dds" />
@@ -57,8 +65,8 @@
 		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
 		<REPLACE MATERIAL="Vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
 		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\BSS_2019_Team_Jenson_22\acura_nsx_gt3_livery.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\acura_nsx_gt3_banner_diff.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\BSS_2019_Team_Jenson_22\acura_nsx_gt3_banner.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\acura_nsx_gt3_livery52.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\acura_nsx_gt3_banner_diff.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\acura_nsx_gt3_banner52.dds" />	
 		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_diff.dds" />
 		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_spec.dds" />
 		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_diff.dds" />
@@ -68,6 +76,126 @@
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="53">
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\acura_nsx_gt3_livery53.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\acura_nsx_gt3_banner_diff.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\acura_nsx_gt3_banner53.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_spec_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="54">
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\acura_nsx_gt3_livery54.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="55">
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\acura_nsx_gt3_livery55.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="56">
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\acura_nsx_gt3_livery56.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="57">
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\acura_nsx_gt3_livery57.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_continental_norm_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_continental_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\textures\tire_continental_spec_01.dds" />
+	</CONDITION>
+
+	<CONDITION LIVERY="58">
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\acura_nsx_gt3_livery58.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_spec.dds" />
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_00.dds"/>
+   		<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_michelin2_spec_01.dds"/>
+	</CONDITION>
+
+	<CONDITION LIVERY="59">
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autocpit.mtx" />
+		<REPLACE MATERIAL="vehicles\Acura_NSX_GT3\acura_nsx_gt3_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\CustomLiveries\Honda_NSX_GT3\acura_nsx_gt3_livery59.dds" />		
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\acura_nsx_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\acura_nsx_gt3_wheel_dgrey_blur_spec.dds" />
+	    <REPLACE TEXTURE="Vehicles\Textures\common_tire_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_diff_00.dds"/>
+	    <REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_diff.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_diff_01.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_norm_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_spec_00.dds"/>
+    	<REPLACE TEXTURE="Vehicles\Textures\common_tire_blur_spec.dds" NEWTEXTURE="Vehicles\Textures\tire_yokohama_spec_01.dds"/>
 	</CONDITION>
 	
 	<!-- Soft Slick tire -->

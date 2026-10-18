@@ -75,7 +75,7 @@
         <prop name="XLASTID" data="1301" />
         <prop name="VehicleManufacturer" data="BMW" />
         <prop name="VehicleModel" data="M3 GT" />
-        <prop name="Vehicle Render Model" data="bmw_m3_gt2_2012.vhf" />
+        <prop name="Vehicle Render Model" data="bmw_m3ngt2_2012.vhf" />
         <prop name="Driver Character" data="bmw_m3ngt2_2012" />
         <prop name="Vehicle Physics Model" data="BMWnGT2" />
         <prop name="Cockpit properties" data="BMW_M3nGT2_2012_Cockpit.bin" />
@@ -87,7 +87,7 @@
         <prop name="Shadow Offset Forward" data="0" />
         <prop name="Shadow Texture" data="BMW_M3_GT2_2012_ambsh.dds" />
         <prop name="Grid Grouping" data="10" />        
-        <prop name="Vehicle Class" data="GT3_Nurb24h" />
+        <prop name="Vehicle Class" data="GT3spec" />
         <prop name="Vehicle Group" data="GT3" />
         <prop name="Vehicle Shape" data="GT" />
         <prop name="Engine Placement" data="Front" />

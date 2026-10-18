@@ -253,9 +253,6 @@
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_pirelli_gt3_nmp8888.dds" />
 	</CONDITION>
 
-	<CONDITION LIVERY="99">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\rad_sr8_livery.dds" />
-	</CONDITION>
 
 	<!-- Soft slick tire -->
 	<CONDITION TIRE="1">

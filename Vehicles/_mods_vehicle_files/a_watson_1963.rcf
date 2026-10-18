@@ -59,32 +59,32 @@
 		<REPLACE MATERIAL="Vehicles\Agajanian_Watson_1963\aga_indy_63_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_standard_paint_chrome.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery01_hr.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_FRESNEL.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery01_fresnel.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_SPEC.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery01_spec.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="52">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery02.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery02_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="53">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery03.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery03_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="54">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery04.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery04_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="55">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery05.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery05_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="56">
 		<REPLACE MATERIAL="Vehicles\Agajanian_Watson_1963\aga_indy_63_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery06.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery06_hr.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_FRESNEL.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery06_fresnel.dds" />
 	</CONDITION>
 
@@ -92,7 +92,7 @@
 		<REPLACE MATERIAL="Vehicles\Agajanian_Watson_1963\aga_indy_63_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_generic_effects.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autocpit.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery07.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery07_hr.dds" />
 		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT_FRESNEL.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery06_fresnel.dds" />
 	</CONDITION>
 
@@ -100,74 +100,74 @@
 		<REPLACE MATERIAL="Vehicles\Agajanian_Watson_1963\aga_indy_63_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery08.dds" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery08_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="59">
 		<REPLACE MATERIAL="Vehicles\Agajanian_Watson_1963\aga_indy_63_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery09.dds" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery09_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="60">
 		<REPLACE MATERIAL="Vehicles\Agajanian_Watson_1963\aga_indy_63_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_14_autocpit.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery10.dds" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery10_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="61">
 		<REPLACE MATERIAL="Vehicles\Agajanian_Watson_1963\aga_indy_63_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_r500_14_autocpit.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery11.dds" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery11_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="62">
 		<REPLACE MATERIAL="Vehicles\Agajanian_Watson_1963\aga_indy_63_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery12.dds" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery12_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="63">
 		<REPLACE MATERIAL="Vehicles\Agajanian_Watson_1963\aga_indy_63_paint" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autocpit.mtx" />
 		<REPLACE MATERIAL="vehicles\Agajanian_Watson_1963\aga_indy_63_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery13.dds" />
+		<REPLACE TEXTURE="vehicles\textures\Liveries\FORMULA_B_LIVERY15.dds" NEWTEXTURE="Vehicles\Textures\Liveries\agajanian_watson_1963_livery13_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="64">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery14.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery14_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="65">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery15.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery15_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="66">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery16.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery16_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="67">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery17.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery17_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="68">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery18.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery18_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="69">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery19.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery19_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="70">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery20.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery20_hr.dds" />
 	</CONDITION>
 	
 	<CONDITION LIVERY="71">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery21.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\agajanian_watson_1963_livery21_hr.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="99">

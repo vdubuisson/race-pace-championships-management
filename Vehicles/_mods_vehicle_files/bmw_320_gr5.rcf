@@ -2,7 +2,7 @@
 <REPLACEMENT_SYSTEM>
 	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
 	<INPUTS>
-		<INPUT NAME="LIVERY" OPTIONS="19" />
+		<INPUT NAME="LIVERY" OPTIONS="20" />
 		<INPUT NAME="TIRE" OPTIONS="6" />
 		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
 	</INPUTS>
@@ -11,22 +11,23 @@
 		<NAME LIVERY="51" NAME="BMW Junior Team #11" />
 		<NAME LIVERY="52" NAME="BMW Junior Team #12" />
 		<NAME LIVERY="53" NAME="BMW Junior Team #13" />
-		<NAME LIVERY="54" NAME="Rodenstock Wurth #4" />
-		<NAME LIVERY="55" NAME="Team Albert Rodenstock" />
-		<NAME LIVERY="56" NAME="Sachs Sporting" />
-		<NAME LIVERY="57" NAME="BMW Faltz Essen" />
-		<NAME LIVERY="58" NAME="Jagermeister BMW" />
-		<NAME LIVERY="59" NAME="BMW Belgium" />
-		<NAME LIVERY="60" NAME="Heidegger Becks" />
-		<NAME LIVERY="61" NAME="Jim Busby Coors" />
-		<NAME LIVERY="62" NAME="Schnitzer Shell" />
-		<NAME LIVERY="63" NAME="Wurth Hat" />
-		<NAME LIVERY="64" NAME="Fruit of the Loom - GS Sport" />
-		<NAME LIVERY="65" NAME="HAT - Hothmann Automations Technik" />
-		<NAME LIVERY="66" NAME="Gosser - BMW Faltz Essen" />
-		<NAME LIVERY="67" NAME="Buler - BMW Schweiz"  />
-		<NAME LIVERY="68" NAME="Glysantin Rennsport Team" />
-		<NAME LIVERY="69" NAME="Team Warsteiner GS Tuning" />	
+		<NAME LIVERY="54" NAME="Equipe Dambreville #3" />
+		<NAME LIVERY="55" NAME="Equipe Dambreville #4" />
+		<NAME LIVERY="56" NAME="Stetz + Grindner Racing #32" />
+		<NAME LIVERY="57" NAME="Stetz + Grindner Racing #33" />
+		<NAME LIVERY="58" NAME="Liezenbach Motorport #14" />
+		<NAME LIVERY="59" NAME="Liezenbach Motorport #15" />
+		<NAME LIVERY="60" NAME="Gerhardt Electronics Team #18" />
+		<NAME LIVERY="61" NAME="Gerhardt Electronics Team #19" />
+		<NAME LIVERY="62" NAME="Gerstenfelder Rennsport #21" />
+		<NAME LIVERY="63" NAME="Gerstenfelder Rennsport #22" />
+		<NAME LIVERY="64" NAME="Kolomiets Sport #47" />
+		<NAME LIVERY="65" NAME="Kolomiets Sport #48" />
+		<NAME LIVERY="66" NAME="Rexxar Team #49" />
+		<NAME LIVERY="67" NAME="Rexxar Team #51" />
+		<NAME LIVERY="68" NAME="GJL Racing Team #54" />
+		<NAME LIVERY="69" NAME="GJL Racing Team #57" />		
+		<NAME LIVERY="70" NAME="GJL Racing Team #56" />		
 		<NAME LIVERY="99" NAME="Custom Livery" />
 	</NAMES>
 
@@ -146,7 +147,11 @@
 	</CONDITION>
 
 	<CONDITION LIVERY="68">
-		<REPLACE TEXTURE="Vehicles\Textures\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_320_TUR_LIVERY18_HR.dds" />		
+		<REPLACE MATERIAL="Vehicles\bmw_320_group5\bmw_320_tur_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14.mtx" />
+		<REPLACE MATERIAL="Vehicles\bmw_320_group5\bmw_320_tur_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\bmw_320_group5\bmw_320_tur_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\bmw_320_group5\bmw_320_tur_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_320_TUR_LIVERY18_HR.dds" />
 	</CONDITION>
 
 	<CONDITION LIVERY="69">
@@ -155,8 +160,19 @@
 		<REPLACE MATERIAL="Vehicles\bmw_320_group5\bmw_320_tur_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autocpit.mtx" />
 		<REPLACE MATERIAL="Vehicles\bmw_320_group5\bmw_320_tur_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin_autocpit.mtx" />
 		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_320_TUR_LIVERY19_HR.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ford_capri_wheel_diff_00.dds" NEWTEXTURE="vehicles\textures\ford_capri_wheel_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ford_capri_wheel_diff_01.dds" NEWTEXTURE="vehicles\textures\ford_capri_wheel_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ford_capri_wheel_spec_00.dds" NEWTEXTURE="vehicles\textures\ford_capri_wheel_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\ford_capri_wheel_spec_01.dds" NEWTEXTURE="vehicles\textures\ford_capri_wheel_black_spec_01.dds" />
 	</CONDITION>
 	
+	<CONDITION LIVERY="70">
+		<REPLACE MATERIAL="Vehicles\bmw_320_group5\bmw_320_tur_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14.mtx" />
+		<REPLACE MATERIAL="Vehicles\bmw_320_group5\bmw_320_tur_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin.mtx" />
+		<REPLACE MATERIAL="Vehicles\bmw_320_group5\bmw_320_tur_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autocpit.mtx" />
+		<REPLACE MATERIAL="Vehicles\bmw_320_group5\bmw_320_tur_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_r500_14_autoskin_autocpit.mtx" />
+		<REPLACE TEXTURE="Vehicles\Textures\Liveries\CAT_R500_LIVERY14.dds" NEWTEXTURE="Vehicles\Textures\Liveries\BMW_320_TUR_LIVERY20_HR.dds" />
+	</CONDITION>
 
 	<CONDITION LIVERY="99">
 		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\bmw_320_tur_livery.dds" />

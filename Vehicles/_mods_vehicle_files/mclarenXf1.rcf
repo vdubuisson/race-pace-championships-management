@@ -23,7 +23,7 @@
 		<NAME LIVERY="13" NAME="Grey Green Metallic" />
 		<NAME LIVERY="14" NAME="Dark Green Metallic" />
 		<NAME LIVERY="15" NAME="Burgundy" />
-		<NAME LIVERY="99" NAME="Custom Livery" />
+		
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -153,9 +153,6 @@
 		<REPLACE MATERIAL="vehicles\mclaren_f1\mclaren_f1_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_mclaren_burgundy_autoskin_autocpit.mtx" />
 	</CONDITION>
 
-	<CONDITION LIVERY="99">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\mclaren_f1_livery.dds" />
-	</CONDITION>
 
 	<!-- 'Soft'. Semi-Slick road car tire. Pirelli Trofeo R -->
 	<CONDITION TIRE="1">

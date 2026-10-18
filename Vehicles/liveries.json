@@ -1117,6 +1117,10 @@
           {
             "id" : 61,
             "name" : "Gunmetal Pearl"
+          },
+          {
+            "id" : 65,
+            "name" : "Carbon"
           }
         ],
         "class" : "Supercars"
@@ -3173,23 +3177,8 @@
         "class" : "F-V10_Gen1"
       },
       {
-        "id" : 1697202411,
-        "name" : "McLaren MP4/16",
-        "liveries" : [
-          {
-            "id" : 50,
-            "name" : "McLaren MP4/16 #3"
-          },
-          {
-            "id" : 51,
-            "name" : "McLaren MP4/16 #4"
-          }
-        ],
-        "class" : "F-V10_Gen2"
-      },
-      {
         "id" : -1260391192,
-        "name" : "Formula V8 Gen1 (M)",
+        "name" : "Formula V8 Gen1 Model1 (M)",
         "liveries" : [
           {
             "id" : 50,
@@ -3236,7 +3225,7 @@
       },
       {
         "id" : -2125823505,
-        "name" : "Formula V8 Gen1 (B)",
+        "name" : "Formula V8 Gen1 Model1 (B)",
         "liveries" : [
           {
             "id" : 50,
@@ -3283,7 +3272,7 @@
       },
       {
         "id" : 1107719042,
-        "name" : "Formula V8 Gen2",
+        "name" : "Formula V8 Gen2 Model1",
         "liveries" : [
           {
             "id" : 50,
@@ -3456,7 +3445,7 @@
       },
       {
         "id" : -1485318279,
-        "name" : "Formula V10 Gen3 (M)",
+        "name" : "Formula V10 Gen3 Model1 (M)",
         "liveries" : [
           {
             "id" : 50,
@@ -3503,7 +3492,7 @@
       },
       {
         "id" : -456617409,
-        "name" : "Formula V10 Gen3 (B)",
+        "name" : "Formula V10 Gen3 Model1 (B)",
         "liveries" : [
           {
             "id" : 50,
@@ -3531,36 +3520,6 @@
           }
         ],
         "class" : "F-V10_Gen3"
-      },
-      {
-        "id" : 759947567,
-        "name" : "McLaren MP4/20",
-        "liveries" : [
-          {
-            "id" : 50,
-            "name" : "McLaren MP4/20 #9"
-          },
-          {
-            "id" : 51,
-            "name" : "McLaren MP4/20 #10"
-          }
-        ],
-        "class" : "F-V10_Gen3"
-      },
-      {
-        "id" : 1466589629,
-        "name" : "McLaren MP4/23",
-        "liveries" : [
-          {
-            "id" : 50,
-            "name" : "McLaren MP4/23 #22"
-          },
-          {
-            "id" : 51,
-            "name" : "McLaren MP4/23 #23"
-          }
-        ],
-        "class" : "F-V8_Gen2"
       },
       {
         "id" : 1948072701,
@@ -4158,22 +4117,38 @@
       },
       {
         "id" : -1201605905,
-        "name" : "Brabham BT26A",
+        "name" : "Formula Vintage Gen2 Model4",
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Motor Racing Developments Ltd #3"
+            "name" : "Bradley Motorsports #3"
           },
           {
             "id" : 51,
-            "name" : "Motor Racing Developments Ltd #4"
+            "name" : "Bradley Motorsports #4"
           },
           {
             "id" : 52,
-            "name" : "Frankfurt Racing #19"
+            "name" : "Bradley Motorsports #19"
           },
           {
             "id" : 53,
+            "name" : "Bradley Motorsports #20"
+          },
+          {
+            "id" : 54,
+            "name" : "Motor Racing Developments Ltd #3"
+          },
+          {
+            "id" : 55,
+            "name" : "Motor Racing Developments Ltd #4"
+          },
+          {
+            "id" : 56,
+            "name" : "Frankfurt Racing #19"
+          },
+          {
+            "id" : 57,
             "name" : "Frankfurt Racing #20"
           }
         ],
@@ -4181,22 +4156,38 @@
       },
       {
         "id" : 1061494025,
-        "name" : "Lotus 49C",
+        "name" : "Formula Vintage Gen2 Model3",
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Team Lotus 49C #2"
+            "name" : "Team Hornsey #2"
           },
           {
             "id" : 51,
-            "name" : "Team Lotus 49C #3"
+            "name" : "Team Hornsey #3"
           },
           {
             "id" : 52,
-            "name" : "Team Lotus 49C #15"
+            "name" : "Team Hornsey #15"
           },
           {
             "id" : 53,
+            "name" : "Team Hornsey #16"
+          },
+          {
+            "id" : 54,
+            "name" : "Team Lotus 49C #2"
+          },
+          {
+            "id" : 55,
+            "name" : "Team Lotus 49C #3"
+          },
+          {
+            "id" : 56,
+            "name" : "Team Lotus 49C #15"
+          },
+          {
+            "id" : 57,
             "name" : "Team Lotus 49C #16"
           }
         ],
@@ -4204,22 +4195,38 @@
       },
       {
         "id" : 435621847,
-        "name" : "Lotus 72E",
+        "name" : "Formula Retro Gen1 Model4",
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Team Lotus 72E #1"
+            "name" : "Team Hornsey #1"
           },
           {
             "id" : 51,
-            "name" : "Team Lotus 72E #2"
+            "name" : "Team Hornsey #2"
           },
           {
             "id" : 52,
-            "name" : "Team Lotus 72E #29"
+            "name" : "Team Hornsey #29"
           },
           {
             "id" : 53,
+            "name" : "Team Hornsey #30"
+          },
+          {
+            "id" : 54,
+            "name" : "Team Lotus 72E #1"
+          },
+          {
+            "id" : 55,
+            "name" : "Team Lotus 72E #2"
+          },
+          {
+            "id" : 56,
+            "name" : "Team Lotus 72E #29"
+          },
+          {
+            "id" : 57,
             "name" : "Team Lotus 72E #30"
           }
         ],
@@ -4227,14 +4234,22 @@
       },
       {
         "id" : 1959097924,
-        "name" : "Lotus Renault 98T",
+        "name" : "Formula Classic Gen1 Model3",
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Team Lotus 98T #11"
+            "name" : "Team Hornsey #11"
           },
           {
             "id" : 51,
+            "name" : "Team Hornsey #12"
+          },
+          {
+            "id" : 52,
+            "name" : "Team Lotus 98T #11"
+          },
+          {
+            "id" : 53,
             "name" : "Team Lotus 98T #12"
           }
         ],
@@ -4242,22 +4257,38 @@
       },
       {
         "id" : -1025098540,
-        "name" : "Brabham BT44",
+        "name" : "Formula Retro Gen1 Model3",
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Brabham BT44 #7"
+            "name" : "Bradley Motorsports #7"
           },
           {
             "id" : 51,
-            "name" : "Brabham BT44 #8"
+            "name" : "Bradley Motorsports #8"
           },
           {
             "id" : 52,
-            "name" : "Brabham BT44 #17"
+            "name" : "Bradley Motorsports #17"
           },
           {
             "id" : 53,
+            "name" : "Bradley Motorsports #18"
+          },
+          {
+            "id" : 54,
+            "name" : "Brabham BT44 #7"
+          },
+          {
+            "id" : 55,
+            "name" : "Brabham BT44 #8"
+          },
+          {
+            "id" : 56,
+            "name" : "Brabham BT44 #17"
+          },
+          {
+            "id" : 57,
             "name" : "Brabham BT44 #18"
           }
         ],
@@ -4265,7 +4296,7 @@
       },
       {
         "id" : 1437730287,
-        "name" : "Formula Retro V8",
+        "name" : "Formula Retro Gen1 Model1",
         "liveries" : [
           {
             "id" : 50,
@@ -4304,7 +4335,7 @@
       },
       {
         "id" : -532210519,
-        "name" : "Formula Retro V12",
+        "name" : "Formula Retro Gen1 Model2",
         "liveries" : [
           {
             "id" : 50,
@@ -4358,7 +4389,7 @@
       },
       {
         "id" : 369722929,
-        "name" : "Formula Retro Gen2",
+        "name" : "Formula Retro Gen2 Model1",
         "liveries" : [
           {
             "id" : 50,
@@ -4413,30 +4444,54 @@
       },
       {
         "id" : 1439296671,
-        "name" : "Lotus 79",
+        "name" : "Formula Retro Gen2 Model2",
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Team Lotus 79 #6"
+            "name" : "Team Hornsey #6"
           },
           {
             "id" : 51,
-            "name" : "Team Lotus 79 #55"
+            "name" : "Team Hornsey #55"
           },
           {
             "id" : 52,
-            "name" : "Team Lotus 79 #1"
+            "name" : "Team Hornsey #1"
           },
           {
             "id" : 53,
-            "name" : "Team Lotus 79 #2"
+            "name" : "Team Hornsey #2"
           },
           {
             "id" : 54,
-            "name" : "Team Lotus 79 #3"
+            "name" : "Team Hornsey #3"
           },
           {
             "id" : 55,
+            "name" : "Team Hornsey #4"
+          },
+          {
+            "id" : 56,
+            "name" : "Team Lotus 79 #6"
+          },
+          {
+            "id" : 57,
+            "name" : "Team Lotus 79 #55"
+          },
+          {
+            "id" : 58,
+            "name" : "Team Lotus 79 #1"
+          },
+          {
+            "id" : 59,
+            "name" : "Team Lotus 79 #2"
+          },
+          {
+            "id" : 60,
+            "name" : "Team Lotus 79 #3"
+          },
+          {
+            "id" : 61,
             "name" : "Team Lotus 79 #4"
           }
         ],
@@ -4444,14 +4499,22 @@
       },
       {
         "id" : 476615325,
-        "name" : "Brabham Alfa Romeo BT46B",
+        "name" : "Formula Retro Gen2 Model3",
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Brabham BT46B #11"
+            "name" : "Bradley Motorsports #11"
           },
           {
             "id" : 51,
+            "name" : "Bradley Motorsports #22"
+          },
+          {
+            "id" : 52,
+            "name" : "Brabham BT46B #11"
+          },
+          {
+            "id" : 53,
             "name" : "Brabham BT46B #22"
           }
         ],
@@ -4459,14 +4522,22 @@
       },
       {
         "id" : 240609990,
-        "name" : "Brabham Cosworth BT49",
+        "name" : "Formula Retro Gen2 Model4",
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Brabham BT49 #5"
+            "name" : "Bradley Motorsports #5"
           },
           {
             "id" : 51,
+            "name" : "Bradley Motorsports #66"
+          },
+          {
+            "id" : 52,
+            "name" : "Brabham BT49 #5"
+          },
+          {
+            "id" : 53,
             "name" : "Brabham BT49 #66"
           }
         ],
@@ -4474,14 +4545,22 @@
       },
       {
         "id" : 280856873,
-        "name" : "Brabham BMW BT52",
+        "name" : "Formula Retro Gen3 Model2",
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Brabham BT52 #5"
+            "name" : "Bradley Motorsports #5"
           },
           {
             "id" : 51,
+            "name" : "Bradley Motorsports #6"
+          },
+          {
+            "id" : 52,
+            "name" : "Brabham BT52 #5"
+          },
+          {
+            "id" : 53,
             "name" : "Brabham BT52 #6"
           }
         ],
@@ -4867,7 +4946,7 @@
           },
           {
             "id" : 73,
-            "name" : "Formula Trainer #24 - N.Gonçalves Skin"
+            "name" : "Formula Trainer #24 - N.Gonï¿½alves Skin"
           },
           {
             "id" : 74,
@@ -4982,7 +5061,7 @@
           },
           {
             "id" : 73,
-            "name" : "Formula Trainer A #24 - N.Gonçalves Skin"
+            "name" : "Formula Trainer A #24 - N.Gonï¿½alves Skin"
           },
           {
             "id" : 74,
@@ -6684,7 +6763,7 @@
           },
           {
             "id" : 60,
-            "name" : "Viola 30°"
+            "name" : "Viola 30ï¿½"
           },
           {
             "id" : 61,
@@ -8017,6 +8096,68 @@
         "class" : "LMP2_Gen1"
       },
       {
+        "id" : 2134184300,
+        "name" : "Panoz Esperante GTLM",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Panoz Esperante GTLM #21"
+          },
+          {
+            "id" : 51,
+            "name" : "Panoz Esperante GTLM #22"
+          },
+          {
+            "id" : 52,
+            "name" : "Panoz Esperante GTLM #78"
+          },
+          {
+            "id" : 53,
+            "name" : "Panoz Esperante GTLM #81"
+          }
+        ],
+        "class" : "GT2_05"
+      },
+      {
+        "id" : -871253931,
+        "name" : "Panoz Esperante GTR-1",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Panoz Esperante GTR-1 #18"
+          },
+          {
+            "id" : 51,
+            "name" : "Panoz Esperante GTR-1 #19"
+          },
+          {
+            "id" : 52,
+            "name" : "Panoz Esperante GTR-1 #20"
+          },
+          {
+            "id" : 53,
+            "name" : "Panoz Esperante GTR-1 #21"
+          },
+          {
+            "id" : 54,
+            "name" : "Panoz Esperante GTR-1 #22"
+          },
+          {
+            "id" : 55,
+            "name" : "Panoz Esperante GTR-1 #23"
+          },
+          {
+            "id" : 56,
+            "name" : "Panoz Esperante GTR-1 #24"
+          },
+          {
+            "id" : 57,
+            "name" : "Panoz Esperante GTR-1 #42"
+          }
+        ],
+        "class" : "GT1"
+      },
+      {
         "id" : -343023508,
         "name" : "Nissan R390 GT1",
         "liveries" : [
@@ -8195,6 +8336,37 @@
           }
         ],
         "class" : "Group C"
+      },
+      {
+        "id" : 109500005,
+        "name" : "Saleen S7-R GT1",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "Saleen S7-R GT1 #90"
+          },
+          {
+            "id" : 51,
+            "name" : "Saleen S7-R GT1 #91"
+          },
+          {
+            "id" : 52,
+            "name" : "Saleen S7-R GT1 #92"
+          },
+          {
+            "id" : 53,
+            "name" : "Saleen S7-R GT1 #93"
+          },
+          {
+            "id" : 54,
+            "name" : "Saleen S7-R GT1 #94"
+          },
+          {
+            "id" : 55,
+            "name" : "Saleen S7-R GT1 #95"
+          }
+        ],
+        "class" : "GT1_05"
       },
       {
         "id" : -1609635929,
@@ -9287,14 +9459,22 @@
       },
       {
         "id" : -1611902643,
-        "name" : "Renault R25",
+        "name" : "Formula V10 Gen3 Model2",
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Renault R25 #5"
+            "name" : "Team Virystone #5"
           },
           {
             "id" : 51,
+            "name" : "Team Virystone #6"
+          },
+          {
+            "id" : 52,
+            "name" : "Renault R25 #5"
+          },
+          {
+            "id" : 53,
             "name" : "Renault R25 #6"
           }
         ],
@@ -9302,14 +9482,22 @@
       },
       {
         "id" : -1938396064,
-        "name" : "Renault R26",
+        "name" : "Formula V8 Gen1 Model2",
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Renault R26 #1"
+            "name" : "Team Virystone #1"
           },
           {
             "id" : 51,
+            "name" : "Team Virystone #2"
+          },
+          {
+            "id" : 52,
+            "name" : "Renault R26 #1"
+          },
+          {
+            "id" : 53,
             "name" : "Renault R26 #2"
           }
         ],
@@ -9317,14 +9505,22 @@
       },
       {
         "id" : -403158996,
-        "name" : "Renault R28",
+        "name" : "Formula V8 Gen2 Model2",
         "liveries" : [
           {
             "id" : 50,
-            "name" : "Renault R28 #5"
+            "name" : "Team Virystone #5"
           },
           {
             "id" : 51,
+            "name" : "Team Virystone #6"
+          },
+          {
+            "id" : 52,
+            "name" : "Renault R28 #5"
+          },
+          {
+            "id" : 53,
             "name" : "Renault R28 #6"
           }
         ],
@@ -11151,29 +11347,6 @@
         "class" : "STT"
       },
       {
-        "id" : 1475475090,
-        "name" : "TVR Tuscan T400R GT2",
-        "liveries" : [
-          {
-            "id" : 50,
-            "name" : "TVR Tuscan T400R GT2 #5"
-          },
-          {
-            "id" : 51,
-            "name" : "TVR Tuscan T400R GT2 #6"
-          },
-          {
-            "id" : 52,
-            "name" : "TVR Tuscan T400R GT2 #7"
-          },
-          {
-            "id" : 53,
-            "name" : "TVR Tuscan T400R GT2 #8"
-          }
-        ],
-        "class" : "GT2_05"
-      },
-      {
         "id" : 1560162507,
         "name" : "Ultima GTR",
         "liveries" : [
@@ -11505,37 +11678,6 @@
           }
         ],
         "class" : "P3"
-      },
-      {
-        "id" : 109500005,
-        "name" : "Saleen S7-R GT1",
-        "liveries" : [
-          {
-            "id" : 50,
-            "name" : "Saleen S7-R GT1 #90"
-          },
-          {
-            "id" : 51,
-            "name" : "Saleen S7-R GT1 #91"
-          },
-          {
-            "id" : 52,
-            "name" : "Saleen S7-R GT1 #92"
-          },
-          {
-            "id" : 53,
-            "name" : "Saleen S7-R GT1 #93"
-          },
-          {
-            "id" : 54,
-            "name" : "Saleen S7-R GT1 #94"
-          },
-          {
-            "id" : 55,
-            "name" : "Saleen S7-R GT1 #95"
-          }
-        ],
-        "class" : "GT1_05"
       },
       {
         "id" : -1870819346,
@@ -12498,29 +12640,6 @@
         "class" : "CopaClassicB"
       },
       {
-        "id" : 2134184300,
-        "name" : "Panoz Esperante GTLM",
-        "liveries" : [
-          {
-            "id" : 50,
-            "name" : "Panoz Esperante GTLM #21"
-          },
-          {
-            "id" : 51,
-            "name" : "Panoz Esperante GTLM #22"
-          },
-          {
-            "id" : 52,
-            "name" : "Panoz Esperante GTLM #78"
-          },
-          {
-            "id" : 53,
-            "name" : "Panoz Esperante GTLM #81"
-          }
-        ],
-        "class" : "GT2_05"
-      },
-      {
         "id" : 1661024873,
         "name" : "Passat Classic FL",
         "liveries" : [
@@ -12800,6 +12919,29 @@
           }
         ],
         "class" : "ARC_Cam"
+      },
+      {
+        "id" : 1475475090,
+        "name" : "TVR Tuscan T400R GT2",
+        "liveries" : [
+          {
+            "id" : 50,
+            "name" : "TVR Tuscan T400R GT2 #5"
+          },
+          {
+            "id" : 51,
+            "name" : "TVR Tuscan T400R GT2 #6"
+          },
+          {
+            "id" : 52,
+            "name" : "TVR Tuscan T400R GT2 #7"
+          },
+          {
+            "id" : 53,
+            "name" : "TVR Tuscan T400R GT2 #8"
+          }
+        ],
+        "class" : "GT2_05"
       },
       {
         "id" : -1170240161,

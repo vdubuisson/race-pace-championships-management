@@ -82,9 +82,9 @@
         <prop name="Shadow Offset Forward" data="0" />
         <prop name="Shadow Texture" data="Ferrari_F50GT_ambsh.dds" />
         <prop name="Grid Grouping" data="3" />
-       <prop name="Vehicle Class" data="LMSeries" />
+       <prop name="Vehicle Class" data="GT1" />
         <prop name="Vehicle Group" data="Prototype" />
-        <prop name="Vehicle Shape" data="Prototype" />
+        <prop name="Vehicle Shape" data="GT" />
         <prop name="Engine Placement" data="Mid" />
         <prop name="Number of Exhausts" data="4" />
         <prop name="Exhaust Position 1" data="-0.477;0.278;2.12" />

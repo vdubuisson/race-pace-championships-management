@@ -75,7 +75,7 @@
         <prop name="VehicleModel" data="512 M" />
         <prop name="Vehicle Render Model" data="Ferrari512M.vhf" />
         <prop name="Driver Character" data="Ferrari512M" />
-        <prop name="Vehicle Physics Model" data="Ferrari_512M" />
+        <prop name="Vehicle Physics Model" data="Ferrari_512_M" />
         <prop name="Cockpit properties" data="Ferrari512M_Cockpit.bin" />
         <prop name="Vehicle Properties" data="Ferrari512M" />
         <prop name="Vehicle Year" data="1970" />

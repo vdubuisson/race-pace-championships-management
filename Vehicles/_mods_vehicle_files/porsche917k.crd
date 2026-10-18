@@ -71,7 +71,7 @@
         <prop name="VehicleModel" data="917K" />
         <prop name="Vehicle Render Model" data="Porsche917K.vhf" />
         <prop name="Driver Character" data="Porsche917K" />
-        <prop name="Vehicle Physics Model" data="Porsche_917K" />
+        <prop name="Vehicle Physics Model" data="Porsche_917_K" />
         <prop name="Cockpit properties" data="Porsche917K_Cockpit.bin" />
         <prop name="Vehicle Properties" data="Porsche917K" />
         <prop name="Vehicle Year" data="1970" />

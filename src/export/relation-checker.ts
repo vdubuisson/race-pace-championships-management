@@ -1,3 +1,4 @@
+import { EMPTY_TEAM_NAME } from '@/shared/constants/special-values';
 import { Car } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
 import { Driver } from '@/shared/models/driver';
@@ -40,7 +41,7 @@ export class RelationChecker {
   private checkCarsRelations(cars: Car[], teams: Team[]): string[] {
     const errors: string[] = [];
     for (let car of cars) {
-      if (!teams.some((team) => team.name === car.team_name)) {
+      if (car.team_name !== EMPTY_TEAM_NAME && !teams.some((team) => team.name === car.team_name)) {
         errors.push(
           `Car "${car.livery}" in "${car.championship_name}" is affected to a non-existing team.`,
         );

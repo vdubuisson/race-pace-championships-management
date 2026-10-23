@@ -46,9 +46,12 @@ export default class ChampionshipsFormPage {
   protected readonly globalForm = this.formService.globalForm;
   protected readonly championshipEvents = this.formService.championshipEvents;
   protected readonly championshipCars = this.formService.championshipCars;
+  protected readonly championshipInvitationalCars = this.formService.championshipInvitationalCars;
+  protected readonly championshipAllCars = this.formService.championshipAllCars;
   protected readonly championshipClasses = this.formService.championshipClasses;
   protected readonly liveriesForSelectedClasses = this.formService.liveriesForSelectedClasses;
   protected readonly minTracksGarages = this.formService.minTracksGarages;
+  protected readonly maxInvitationalCars = this.formService.maxInvitationalCars;
   protected readonly allFormsValid = this.formService.allFormsValid;
   protected readonly canSaveAsDraft = this.formService.canSaveAsDraft;
 
@@ -102,6 +105,24 @@ export default class ChampionshipsFormPage {
       }),
       disabled: computed(
         () => !this.formService.globalFormValid() || !this.formService.eventsFormValid(),
+      ),
+    },
+    {
+      id: -3,
+      separator: true,
+    },
+    {
+      id: 3,
+      label: 'Invitational cars',
+      icon: '@tui.ticket-plus',
+      state: computed<StepState>(() => {
+        if (this.activeStepIndex() > 3) {
+          return this.formService.invitationalCarsFormValid() ? 'pass' : 'error';
+        }
+        return 'normal';
+      }),
+      disabled: computed(
+        () => !this.formService.globalFormValid() || !this.formService.eventsFormValid() || !this.formService.carsFormValid(),
       ),
     },
   ];

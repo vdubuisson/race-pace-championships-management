@@ -9,6 +9,7 @@ export type RaceEvent = {
   type: RaceEventType;
   duration: number;
   start_time: string | null;
+  invitational: boolean;
 };
 
 export type RaceEventType = 'time' | 'laps';

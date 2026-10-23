@@ -18,30 +18,23 @@ export class ChampionshipCarsStep {
   private readonly notifications = inject(TuiNotificationService);
 
   readonly cars = model<Partial<Car>[]>([]);
-  readonly teams = input.required<Team[]>();
+
   readonly championshipClasses = input.required<VehicleClass[]>();
+  readonly championshipCars = input.required<Partial<Car>[]>();
   readonly liveriesForSelectedClasses = input.required<Livery[]>();
   readonly maxCars = input.required<number>();
 
+  readonly teams = input<Team[]>([]);
+  readonly isInvitational = input<boolean>(false);
+
   readonly carsByCategory = computed<Map<string, Partial<Car>[]>>(() => {
-    const map = new Map<string, Partial<Car>[]>();
-    for (const car of this.cars()) {
-      const category = car.category!;
-      if (!map.has(category)) {
-        map.set(category, [car]);
-      } else {
-        map.get(category)!.push(car);
-      }
-    }
-    map.forEach((cars) => {
-      cars.sort(
-        (a, b) =>
-          a.model!.localeCompare(b.model!) ||
-          (a.team_name ?? '').localeCompare(b.team_name ?? '') ||
-          a.livery!.localeCompare(b.livery!),
-      );
-    });
-    return map;
+    const cars = this.cars();
+    return this.groupCarsByCategory(cars);
+  });
+
+  readonly championshipCarsByCategory = computed<Map<string, Partial<Car>[]>>(() => {
+    const cars = this.championshipCars();
+    return this.groupCarsByCategory(cars);
   });
 
   readonly liveriesByCategory = computed<Map<string, Livery[]>>(() => {
@@ -125,5 +118,26 @@ export class ChampionshipCarsStep {
     this.editedCategory.set(car.category ?? null);
     this.editedCar.set(car);
     this.isFormShown.set(true);
+  }
+
+  private groupCarsByCategory(cars: Partial<Car>[]): Map<string, Partial<Car>[]> {
+    const map = new Map<string, Partial<Car>[]>();
+    for (const car of cars) {
+      const category = car.category!;
+      if (!map.has(category)) {
+        map.set(category, [car]);
+      } else {
+        map.get(category)!.push(car);
+      }
+    }
+    map.forEach((groupedCars) => {
+      groupedCars.sort(
+        (a, b) =>
+          a.model!.localeCompare(b.model!) ||
+          (a.team_name ?? '').localeCompare(b.team_name ?? '') ||
+          a.livery!.localeCompare(b.livery!),
+      );
+    });
+    return map;
   }
 }

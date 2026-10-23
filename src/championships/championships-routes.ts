@@ -29,6 +29,13 @@ export default [
         path: 'cars',
         loadComponent: () => import('./details/cars-tab/championship-cars-tab'),
         resolve: { cars: championshipCarsResolver, liveries: championshipLiveriesResolver },
+        data: { invitational: false }
+      },
+      {
+        path: 'invitational-cars',
+        loadComponent: () => import('./details/cars-tab/championship-cars-tab'),
+        resolve: { cars: championshipCarsResolver, liveries: championshipLiveriesResolver },
+        data: { invitational: true }
       },
       {
         path: 'drivers',

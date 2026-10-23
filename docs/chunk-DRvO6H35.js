@@ -1,0 +1,1 @@
+var E=`_EMPTY_`;export{E as t};

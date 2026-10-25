@@ -1,0 +1,22 @@
+<a
+  [routerLink]="['/']"
+  appearance="outline"
+  iconStart="@tui.chevron-left"
+  size="xs"
+  tuiButton
+  class="back-btn"
+>
+  Back
+</a>
+
+<header tuiHeader="h3" class="page-header">
+  <h1 tuiTitle>Custom Liveries</h1>
+</header>
+
+<div class="content">
+  <app-custom-liveries-import-section />
+
+  <div class="separator"></div>
+
+  <app-custom-liveries-table />
+</div>

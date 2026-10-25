@@ -1,0 +1,36 @@
+<label tuiInputFiles class="file-input">
+  <input
+    tuiInputFiles
+    [multiple]="true"
+    accept="{{ acceptedFileTypes().join(',') }}"
+    [formControl]="filesControl"
+    (reject)="onReject($event)"
+  />
+</label>
+
+<tui-files class="file-list">
+  @for (file of acceptedFiles$ | async; track file) {
+    <tui-file [file]="file" state="normal" (remove)="removeFile(file)" />
+  }
+  @for (file of rejectedFiles(); track file) {
+    <tui-file
+      [file]="file | rejectedFile"
+      state="error"
+      [showDelete]="'always'"
+      (remove)="removeFile(file)"
+    />
+  }
+</tui-files>
+
+<tui-error [formControl]="filesControl" [order]="['filesCount', 'fileNames', 'structure']" />
+
+<button
+  tuiButton
+  appearance="primary"
+  iconStart="@tui.folder-up"
+  type="button"
+  [disabled]="filesControl.invalid"
+  (click)="importFiles()"
+>
+  Import
+</button>

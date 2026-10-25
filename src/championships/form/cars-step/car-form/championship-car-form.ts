@@ -81,7 +81,11 @@ export class ChampionshipCarForm {
 
   protected readonly availableLiveries = computed<Livery[]>(() =>
     this.liveries()
-      .filter((livery) => this.cars().every((car) => car.livery !== livery.livery_name))
+      .filter((livery) =>
+        this.cars().every(
+          (car) => car.model !== livery.car_name || car.livery_id !== livery.livery_id,
+        ),
+      )
       .toSorted(
         (a, b) =>
           a.car_name.localeCompare(b.car_name) || a.livery_name.localeCompare(b.livery_name),

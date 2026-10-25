@@ -1,0 +1,37 @@
+<header tuiHeader="h5">
+  <h2 tuiTitle>Currently loaded</h2>
+</header>
+
+<table tuiTable size="m">
+  <thead tuiThead>
+    <tr>
+      <th tuiTh [sorter]="'class' | tuiSorter">Class</th>
+      <th tuiTh [sorter]="'model' | tuiSorter">Model</th>
+      <th tuiTh [sorter]="'livery_name' | tuiSorter">Livery name</th>
+      <th tuiTh>Livery id</th>
+      <th tuiTh></th>
+    </tr>
+  </thead>
+  <tbody tuiTbody>
+    @for (livery of customLiveries() | tuiTableSort; track livery.id) {
+      <tr>
+        <td tuiTd>{{ livery.class }}</td>
+        <td tuiTd>{{ livery.model }}</td>
+        <td tuiTd>{{ livery.livery_name }}</td>
+        <td tuiTd>{{ livery.livery_id }}</td>
+        <td tuiTd>
+          <button
+            (click)="deleteLivery(livery.id!)"
+            appearance="action-destructive"
+            iconStart="@tui.trash"
+            size="xs"
+            tuiIconButton
+            type="button"
+          >
+            Delete
+          </button>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>

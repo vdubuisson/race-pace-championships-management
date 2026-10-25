@@ -19,39 +19,11 @@
   </h2>
 </header>
 
-<label tuiInputFiles class="file-input">
-  <input
-    tuiInputFiles
-    [multiple]="true"
-    accept=".csv,.zip"
-    [formControl]="filesControl"
-    (reject)="onReject($event)"
-  />
-</label>
-
-<tui-files class="file-list">
-  @for (file of acceptedFiles$ | async; track file) {
-    <tui-file [file]="file" state="normal" (remove)="removeFile(file)" />
-  }
-  @for (file of rejectedFiles(); track file) {
-    <tui-file
-      [file]="file | rejectedFile"
-      state="error"
-      [showDelete]="'always'"
-      (remove)="removeFile(file)"
-    />
-  }
-</tui-files>
-
-<tui-error [formControl]="filesControl" [order]="['filesCount', 'fileNames', 'structure']" />
-
-<button
-  tuiButton
-  appearance="primary"
-  iconStart="@tui.folder-up"
-  type="button"
-  [disabled]="filesControl.invalid"
-  (click)="importFiles()"
->
-  Import custom
-</button>
+<app-import-files-control
+  [controlValidators]="validators"
+  [acceptedFileTypes]="['.csv', '.zip']"
+  [validFileNames]="validFileNames"
+  [validExtensions]="['.zip']"
+  [importError]="importError()"
+  (import)="importFiles($event)"
+/>

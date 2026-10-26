@@ -1,13 +1,17 @@
 import { CarRepository } from '@/db/car-repository';
 import { ChampionshipRepository } from '@/db/championship-repository';
+import { CustomLiveryRepository } from '@/db/custom-livery-repository';
 import { EventRepository } from '@/db/event-repository';
 import { LiveryRepository } from '@/db/livery-repository';
+import { ModelRepository } from '@/db/model-repository';
 import { TeamRepository } from '@/db/team-repository';
 import { TrackRepository } from '@/db/track-repository';
 import { VehicleClassRepository } from '@/db/vehicle-class-repository';
+import { EMPTY_TEAM_NAME } from '@/shared/constants/special-values';
 import { CAR_MODS_TAG, DRAFT_TAG, TRACK_MODS_TAG } from '@/shared/constants/tags';
 import { Car } from '@/shared/models/car';
 import { Championship } from '@/shared/models/championship';
+import { Livery } from '@/shared/models/livery';
 import { RaceEvent } from '@/shared/models/race-event';
 import { VehicleClass } from '@/shared/models/vehicle-class';
 import { computed, inject, linkedSignal, Service, signal } from '@angular/core';
@@ -15,7 +19,6 @@ import { takeUntilDestroyed, toSignal } from '@angular/core/rxjs-interop';
 import { AsyncValidatorFn, FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 import { from } from 'rxjs';
 import { ChampionshipsService } from '../championships-service/championships-service';
-import { EMPTY_TEAM_NAME } from '@/shared/constants/special-values';
 
 export type GlobalFormGroup = FormGroup<{
   name: FormControl<string>;
@@ -48,6 +51,8 @@ export class ChampionshipsFormManager {
   private readonly trackRepository = inject(TrackRepository);
   private readonly teamRepository = inject(TeamRepository);
   private readonly vehicleClassRepository = inject(VehicleClassRepository);
+  private readonly customLiveryRepository = inject(CustomLiveryRepository);
+  private readonly modelRepository = inject(ModelRepository);
   private readonly championshipsService = inject(ChampionshipsService);
 
   readonly isSaving = signal(false);
@@ -69,7 +74,7 @@ export class ChampionshipsFormManager {
     if (selectedCategoriesIds.length === 0) {
       return [];
     }
-    return toSignal(from(this.liveryRepository.getLiveriesByClasses(selectedCategoriesIds)), {
+    return toSignal(from(this.loadLiveriesWithCustom(selectedCategoriesIds)), {
       initialValue: [],
     })();
   });
@@ -107,14 +112,15 @@ export class ChampionshipsFormManager {
         .map((trackId) => this.tracks().find((track) => track.id === trackId)?.garages ?? 0),
     ),
   );
-  readonly maxInvitationalCars = computed(() =>
-    Math.max(
-      this.championshipCars().length,
-      ...this.championshipEvents()
-        .filter((event) => event.invitational)
-        .map((event) => event.track_id)
-        .map((trackId) => this.tracks().find((track) => track.id === trackId)?.garages ?? 0),
-    ) - this.championshipCars().length,
+  readonly maxInvitationalCars = computed(
+    () =>
+      Math.max(
+        this.championshipCars().length,
+        ...this.championshipEvents()
+          .filter((event) => event.invitational)
+          .map((event) => event.track_id)
+          .map((trackId) => this.tracks().find((track) => track.id === trackId)?.garages ?? 0),
+      ) - this.championshipCars().length,
   );
 
   readonly globalForm: GlobalFormGroup = this.createGlobalForm();
@@ -135,7 +141,11 @@ export class ChampionshipsFormManager {
         this.championshipInvitationalCars().length <= this.maxInvitationalCars()),
   );
   readonly allFormsValid = computed(
-    () => this.globalFormValid() && this.eventsFormValid() && this.carsFormValid() && this.invitationalCarsFormValid(),
+    () =>
+      this.globalFormValid() &&
+      this.eventsFormValid() &&
+      this.carsFormValid() &&
+      this.invitationalCarsFormValid(),
   );
   readonly canSaveAsDraft = signal(this.globalForm.controls.name.valid);
 
@@ -161,7 +171,7 @@ export class ChampionshipsFormManager {
           return;
         }
         const selectedCategoriesIds = selectedCategories.map((cat) => cat.id);
-        const liveries = await this.liveryRepository.getLiveriesByClasses(selectedCategoriesIds);
+        const liveries = await this.loadLiveriesWithCustom(selectedCategoriesIds);
         this.liveriesForSelectedClasses.set(liveries);
 
         this.championshipCars.update((cars) =>
@@ -223,15 +233,13 @@ export class ChampionshipsFormManager {
     this.eventRepository
       .getEventsByChampionshipName(championship.name)
       .then((events) => this.championshipEvents.set(events));
-    this.carRepository
-      .getCarsByChampionshipName(championship.name)
-      .then((cars) => {
-        const gridCars = cars.filter((car) => car.team_name !== EMPTY_TEAM_NAME);
-        const invitationalCars = cars.filter((car) => car.team_name === EMPTY_TEAM_NAME);
+    this.carRepository.getCarsByChampionshipName(championship.name).then((cars) => {
+      const gridCars = cars.filter((car) => car.team_name !== EMPTY_TEAM_NAME);
+      const invitationalCars = cars.filter((car) => car.team_name === EMPTY_TEAM_NAME);
 
-        this.championshipCars.set(gridCars);
-        this.championshipInvitationalCars.set(invitationalCars);
-      });
+      this.championshipCars.set(gridCars);
+      this.championshipInvitationalCars.set(invitationalCars);
+    });
   }
 
   async save(asDraft = false): Promise<number> {
@@ -399,5 +407,32 @@ export class ChampionshipsFormManager {
         : null,
       tags: Array.from(tags),
     };
+  }
+
+  private async loadLiveriesWithCustom(selectedCategoriesIds: string[]): Promise<Livery[]> {
+    const liveries = await this.liveryRepository.getLiveriesByClasses(selectedCategoriesIds);
+    const models = await this.modelRepository.getModelsByClasses(selectedCategoriesIds);
+    const folderNames = models.map((model) => model.folder_name);
+    const customLiveries =
+      await this.customLiveryRepository.getCustomLiveriesByFolderNames(folderNames);
+
+    return liveries.map((livery) => {
+      const liveryModel = models.find(
+        (model) => model.class === livery.class && model.name === livery.car_name,
+      );
+      if (!liveryModel) {
+        return livery;
+      }
+      const customLivery = customLiveries.find(
+        (cl) => cl.folder_name === liveryModel.folder_name && cl.livery_id === livery.livery_id,
+      );
+      if (!customLivery) {
+        return livery;
+      }
+      return {
+        ...livery,
+        livery_name: customLivery.livery_name,
+      };
+    });
   }
 }

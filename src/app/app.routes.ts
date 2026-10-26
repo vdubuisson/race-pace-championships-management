@@ -8,5 +8,6 @@ export default [
   { path: 'drivers', loadChildren: () => import('@/drivers/drivers-routes') },
   { path: 'import', loadChildren: () => import('@/import/import-routes') },
   { path: 'export', loadChildren: () => import('@/export/export-routes') },
+  { path: 'custom-liveries', loadChildren: () => import('@/custom-liveries/custom-liveries-routes') },
   { path: '**', redirectTo: '' },
 ] satisfies Routes;

@@ -1,0 +1,13 @@
+<header tuiHeader="h5">
+  <h2 tuiTitle>
+    Import
+    <span tuiSubtitle>Upload ZIP files.</span>
+  </h2>
+</header>
+
+<app-import-files-control
+  [controlValidators]="validators"
+  [acceptedFileTypes]="['.zip']"
+  [validExtensions]="['.zip']"
+  (import)="importFiles($event)"
+/>

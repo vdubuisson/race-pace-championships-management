@@ -17,13 +17,14 @@
     "rootDir": "./src",
     "paths": {
       "@/championships/*": ["./src/championships/*"],
+      "@/custom-liveries/*": ["./src/custom-liveries/*"],
       "@/db/*": ["./src/db/*"],
       "@/drivers/*": ["./src/drivers/*"],
       "@/export/*": ["./src/export/*"],
       "@/import/*": ["./src/import/*"],
       "@/resources/*": ["./src/resources/*"],
       "@/shared/*": ["./src/shared/*"],
-      "@/teams/*": ["./src/teams/*"],
+      "@/teams/*": ["./src/teams/*"]
     }
   },
   "angularCompilerOptions": {
@@ -40,5 +41,5 @@
     {
       "path": "./tsconfig.spec.json"
     }
-  ],
+  ]
 }

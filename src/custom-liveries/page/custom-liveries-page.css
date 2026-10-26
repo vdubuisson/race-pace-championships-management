@@ -1,0 +1,15 @@
+.page-header {
+  margin-bottom: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  .separator {
+    height: 1px;
+    width: 50%;
+    background-color: var(--tui-border-normal);
+  }
+}

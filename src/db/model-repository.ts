@@ -9,4 +9,8 @@ export class ModelRepository {
   async getAllModels(): Promise<VehicleModel[]> {
     return this.store.toArray();
   }
+
+  async getModelsByClasses(classes: string[]): Promise<VehicleModel[]> {
+    return this.store.where('class').anyOf(classes).toArray();
+  }
 }

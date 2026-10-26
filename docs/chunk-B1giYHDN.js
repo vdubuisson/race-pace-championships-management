@@ -1,1 +1,0 @@
-import{Wr as sw,ai as w}from"./chunk-DS5RVEe6.js";import{r as l}from"./chunk-DdNDEda6.js";var a=class e{vehicleClassUtils=w(l);transform(i){return this.vehicleClassUtils.getIsVehicleClassMod(i)}static ɵfac=function(l){return new(l||e)};static ɵpipe=sw({name:`vehicleClassMod`,type:e,pure:!1})};export{a as t};

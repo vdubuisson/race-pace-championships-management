@@ -1,0 +1,1 @@
+import{Z as Kr,vn as b}from"./chunk-p-DvFT3g.js";import{t as kr}from"./chunk-CXyFtnyz.js";var a=class e{store=b(kr).classes;getAllVehicleClasses(){return this.store.toArray()}getVehicleClassesByIds(r){return this.store.where(`id`).anyOf(r).toArray()}static ɵfac=function(o){return new(o||e)};static ɵprov=Kr({token:e,factory:e.ɵfac})};export{a as t};

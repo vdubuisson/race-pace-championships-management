@@ -1,0 +1,1 @@
+import{hn as ab,vn as b}from"./chunk-p-DvFT3g.js";import{n as r}from"./chunk-CUnG2pqd.js";var a=class e{vehicleClassUtils=b(r);transform(i){return this.vehicleClassUtils.getIsVehicleClassMod(i)}static ɵfac=function(l){return new(l||e)};static ɵpipe=ab({name:`vehicleClassMod`,type:e,pure:!1})};export{a as t};

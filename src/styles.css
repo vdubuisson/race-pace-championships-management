@@ -22,9 +22,10 @@ body {
 }
 
 tui-dropdown {
-  max-height: 600px !important;
+  block-size: fit-content !important;
+  max-block-size: 600px !important;
 
-  .t-content {
+  .t-wrapper {
     min-inline-size: 0 !important;
   }
 }

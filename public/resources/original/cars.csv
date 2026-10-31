@@ -839,5 +839,37 @@ Zenith Autosport,GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #22,IMSA VP Racing SportsCa
 Zenith Autosport,GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #69,IMSA VP Racing SportsCar Challenge,52,audi_r8_lms_gt3
 Zenith Autosport,P4,MCR S2000,MCR S2000 #9,Radical Cup North America,57,mcr2000
 Zenith Autosport,P4,MCR S2000,MCR S2000 #10,Radical Cup North America,58,mcr2000
-Zenith Autosport,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #28,"Intercontinental GT Challenge, GT World Challenge America, GT World Challenge Sprint",52,audi_r8_lms_gt3_evo2
+Zenith Autosport,GT3_Gen2,Aston Martin Vantage GT3 Evo,AMR Vantage GT3 Evo #42,"Intercontinental GT Challenge, GT World Challenge America, GT World Challenge Sprint",55,aston_martin_vantage_gt3_evo
 Zenith Autosport,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #24,"Intercontinental GT Challenge, GT World Challenge America, GT World Challenge Sprint",51,audi_r8_lms_gt3_evo2
+,GT3_Gen2,Aston Martin Vantage GT3 Evo,AMR Vantage GT3 Evo #27 (IMSA 2024),"British GT Championship, World Endurance Championship, GT World Challenge America, GT World Challenge Europe, GT World Challenge Sprint, IMSA WeatherTech SportsCar Championship, Intercontinental GT Challenge",52,aston_martin_vantage_gt3_evo
+,GT3_Gen2,BMW M4 GT3,BMW M4 GT3 #1a (IMSA 2024),"British GT Championship, World Endurance Championship, GT World Challenge America, GT World Challenge Europe, GT World Challenge Sprint, IMSA WeatherTech SportsCar Championship, Intercontinental GT Challenge",51,bmw_m4_gt3
+,GT3_Gen2,BMW M4 GT3,BMW M4 GT3 #1b (IMSA 2024),"British GT Championship, World Endurance Championship, GT World Challenge America, GT World Challenge Europe, GT World Challenge Sprint, IMSA WeatherTech SportsCar Championship, Intercontinental GT Challenge",52,bmw_m4_gt3
+,GT3_Gen2,Porsche 992 GT3 R,Porsche 992 GT3 R #120 (IMSA 2024),"British GT Championship, World Endurance Championship, GT World Challenge America, GT World Challenge Europe, GT World Challenge Sprint, IMSA WeatherTech SportsCar Championship, Intercontinental GT Challenge",55,porsche_992_gt3r
+,GT4,Alpine A110 GT4 Evo,Alpine A110 GT4 Evo #36b,"British GT Championship, GT4 European Series, GT4 America, IMSA Michelin Pilot Challenge, IMSA VP Racing SportsCar Challenge",52,alpine_a110_gt4_evo
+,GT4,Aston Martin Vantage GT4 Evo,AMR Vantage GT4 Evo #305,"British GT Championship, GT4 European Series, GT4 America, IMSA Michelin Pilot Challenge, IMSA VP Racing SportsCar Challenge",55,aston_martin_vantage_gt4_evo
+,GT4,Audi R8 LMS GT4,Audi R8 LMS GT4 #00,"British GT Championship, GT4 European Series, GT4 America, IMSA Michelin Pilot Challenge, IMSA VP Racing SportsCar Challenge",51,audi_r8_lms_gt4
+,GT4,Chevrolet Camaro GT4.R,Camaro GT4.R #97,"British GT Championship, GT4 European Series, GT4 America, IMSA Michelin Pilot Challenge, IMSA VP Racing SportsCar Challenge",55,camaro_gt4r
+,GT4,McLaren 570S GT4,McLaren 570S GT4 #22,"British GT Championship, GT4 European Series, GT4 America, IMSA Michelin Pilot Challenge, IMSA VP Racing SportsCar Challenge",56,mclaren_570s_gt4
+,GT4,Mercedes-AMG GT4,Mercedes-AMG GT4 #37,"British GT Championship, GT4 European Series, GT4 America, IMSA Michelin Pilot Challenge, IMSA VP Racing SportsCar Challenge",55,mercedes_amg_gt4
+,GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #89,"European Le Mans Series, IMSA VP Racing SportsCar Challenge, Michelin Le Mans Cup",55,audi_r8_lms_gt3
+,GT3,BMW M6 GT3,BMW M6 GT3 #2,"European Le Mans Series, IMSA VP Racing SportsCar Challenge, Michelin Le Mans Cup",51,bmw_m6_gt3
+,GT3,McLaren 720S GT3,McLaren 720S GT3 #27,"European Le Mans Series, IMSA VP Racing SportsCar Challenge, Michelin Le Mans Cup",53,mclaren_720s_gt3
+,GT3,Mercedes-AMG GT3,Mercedes-AMG GT3 #60,"European Le Mans Series, IMSA VP Racing SportsCar Challenge, Michelin Le Mans Cup",53,mercedes_amg_gt3
+,GT3,Nissan GT-R Nismo GT3,Nissan Nismo GT-R GT3 #205,"European Le Mans Series, IMSA VP Racing SportsCar Challenge, Michelin Le Mans Cup",53,nissan_gt-r_gt3
+,GT3,Porsche 911 GT3 R,Porsche 911 GT3 R #10,"European Le Mans Series, IMSA VP Racing SportsCar Challenge, Michelin Le Mans Cup",52,porsche_991_gt3r
+,P1Gen2,MetalMoro AJR Gen2 Chevrolet,Mottin Racing #46,"European Le Mans Series, IMSA VP Racing SportsCar Challenge, Michelin Le Mans Cup",51,metalmoro_ajr_gen2
+,P1Gen2,MetalMoro AJR Gen2 Honda,JLM Racing #28,"European Le Mans Series, IMSA VP Racing SportsCar Challenge, Michelin Le Mans Cup",51,metalmoro_ajr_gen2
+,P1Gen2,MetalMoro AJR Gen2 Nissan,Power Imports #80,"European Le Mans Series, IMSA VP Racing SportsCar Challenge, Michelin Le Mans Cup",51,metalmoro_ajr_gen2
+,P1Gen2,Sigma P1 G5,Sigma Motorsport #02,"European Le Mans Series, IMSA VP Racing SportsCar Challenge, Michelin Le Mans Cup",51,sigma_p1_g5
+,P4,MCR S2000,MCR S2000 #28 - O.Mocanu Skin,"Radical Cup North America, Radical Cup Europe",73,mcr2000
+,P4,MetalMoro MRX Duratec P4,Metalmoro MRX P4 #2,"Radical Cup North America, Radical Cup Europe",51,metalmoro_mrx
+,P4,MetalMoro MRX Duratec P4,Metalmoro MRX P4 #7,"Radical Cup North America, Radical Cup Europe",52,metalmoro_mrx
+,P4,MetalMoro MRX Duratec P4,Metalmoro MRX P4 #16,"Radical Cup North America, Radical Cup Europe",53,metalmoro_mrx
+,LMDh,Aston Martin Valkyrie Hypercar,Aston Martin Valkyrie Hypercar #909,"IMSA WeatherTech SportsCar Championship, World Endurance Championship",54,aston_martin_valkyrie_lmh
+,LMP2,Ligier JS P217,Ligier JS P217 #12,IMSA WeatherTech SportsCar Championship,52,ligier_js_p217
+,LMP2,Ligier JS P217,Ligier JS P217 #25,IMSA WeatherTech SportsCar Championship,53,ligier_js_p217
+,LMP2,Ligier JS P217,Ligier JS P217 #39,IMSA WeatherTech SportsCar Championship,54,ligier_js_p217
+,LMP2,Ligier JS P217,Ligier JS P217 #42,IMSA WeatherTech SportsCar Championship,55,ligier_js_p217
+,F-Trainer_A,Formula Trainer Advanced,Formula Trainer A #24 - N.Gonçalves Skin,"Formula 4 Southern Europe, Formula 4 UK, Formula 4 Northern Europe, USF Juniors",74,formula_trainer_d
+,F-3,Dallara F309,Scorpion Racing #6 - A.Di Pietro Skin,"Formula 3, USF Pro 2000",53,f309
+,F-Trainer,Formula Trainer,Formula Trainer #24 - N.Gonçalves Skin,"F1600, National Formula Ford Championship",74,formula_trainer

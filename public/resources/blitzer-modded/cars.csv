@@ -1,4 +1,231 @@
 team_name,category,model,livery,championship_names,livery_id,model_folder
+,DPI,Cadillac DPi-VR,Cadillac DPi-V.R #12,IMSA WeatherTech SportsCar Championship (DPi),61,cadillac_dpi-vr
+,DPI,Cadillac DPi-VR,Cadillac DPi-V.R #17,IMSA WeatherTech SportsCar Championship (DPi),62,cadillac_dpi-vr
+,DPI,Cadillac DPi-VR,Cadillac DPi-V.R #22,IMSA WeatherTech SportsCar Championship (DPi),63,cadillac_dpi-vr
+,DPI,Cadillac DPi-VR,Cadillac DPi-V.R #43,IMSA WeatherTech SportsCar Championship (DPi),64,cadillac_dpi-vr
+,F-3,Dallara F309,Scorpion Racing #6 - A.Di Pietro Skin,"Formula 3,USF Pro 2000",53,f309
+,F-Trainer,Formula Trainer,Formula Trainer #24 - N.Gonçalves Skin,"F1600,National Formula Ford Championship",74,formula_trainer
+,F-Trainer_A,Formula Trainer Advanced,Formula Trainer A #24 - N.Gonçalves Skin,"Formula 4 Northern Europe,Formula 4 Southern Europe,Formula 4 UK,USF Juniors",74,formula_trainer_d
+,Group C,Chevrolet Corvette GTP,Chevrolet Corvette GTP #32,World Sports-Prototype Championship,51,corvette_gtp
+,Group C,Chevrolet Corvette GTP,Chevrolet Corvette GTP #59,World Sports-Prototype Championship,56,corvette_gtp
+,Group C,Chevrolet Corvette GTP,Chevrolet Corvette GTP #84,World Sports-Prototype Championship,57,corvette_gtp
+,Group C,Chevrolet Corvette GTP,Chevrolet Corvette GTP #88,World Sports-Prototype Championship,58,corvette_gtp
+,Group C,Nissan R89C,Nissan R89C #82,World Sports-Prototype Championship,57,nissan_r89c
+,Group C,Nissan R89C,Nissan R89C #83,World Sports-Prototype Championship,58,nissan_r89c
+,Group C,Porsche 962C,Phonoway Porsche Racing #55,World Sports-Prototype Championship,59,porsche_962c
+,Group C,Porsche 962C,RSGT Auto #86,World Sports-Prototype Championship,60,porsche_962c
+,Group C,Sauber Mercedes C9,Bremen Mototsport #60,World Sports-Prototype Championship,59,sauber_c9
+,Group C,Sauber Mercedes C9,BRS Auto #65,World Sports-Prototype Championship,60,sauber_c9
+,GT1,McLaren F1 GTR,McLaren F1 GTR #09,BPR Global GT Series,55,mclaren_f1_gtr
+,GT1,McLaren F1 GTR,McLaren F1 GTR #11,BPR Global GT Series,56,mclaren_f1_gtr
+,GT1,Mercedes-Benz CLK LM,Mercedes-Benz CLK LM #62,BPR Global GT Series,57,mercedes_clk-lm
+,GT1,Mercedes-Benz CLK LM,Mercedes-Benz CLK LM #66,BPR Global GT Series,58,mercedes_clk-lm
+,GT1,Nissan R390 GT1,Nissan R390 GT1 #38,BPR Global GT Series,59,nissan_r390_gt1
+,GT1,Nissan R390 GT1,Nissan R390 GT1 #39,BPR Global GT Series,60,nissan_r390_gt1
+,GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #24,BPR Global GT Series,57,panoz_esperante_gtr1
+,GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #42,BPR Global GT Series,58,panoz_esperante_gtr1
+,GT1,Porsche 911 GT1-98,Porsche 911 GT1-98 #45,BPR Global GT Series,59,porsche_911_gt1_98
+,GT1,Porsche 911 GT1-98,Porsche 911 GT1-98 #77,BPR Global GT Series,60,porsche_911_gt1_98
+,GT1_05,Aston Martin DBR9,Aston Martin DBR9 #57,"FIA GT Championship,Speed World Challenge",51,aston_martin_dbr9_gt1
+,GT1_05,Aston Martin DBR9,Aston Martin DBR9 #58,"FIA GT Championship,Speed World Challenge",52,aston_martin_dbr9_gt1
+,GT1_05,Aston Martin DBR9,Aston Martin DBR9 #59,Northern Europe GT Championship,53,aston_martin_dbr9_gt1
+,GT1_05,Aston Martin DBR9,Aston Martin DBR9 #60,Northern Europe GT Championship,54,aston_martin_dbr9_gt1
+,GT1_05,Chevrolet Corvette C5-R,Chevrolet Corvette C5-R #2,FIA GT Championship,51,corvette_c5r
+,GT1_05,Chevrolet Corvette C5-R,Chevrolet Corvette C5-R #5,FIA GT Championship,52,corvette_c5r
+,GT1_05,Chevrolet Corvette C5-R,Chevrolet Corvette C5-R #63,FIA GT1 World Championship,55,corvette_c5r
+,GT1_05,Chevrolet Corvette C5-R,Chevrolet Corvette C5-R #70,FIA GT1 World Championship,56,corvette_c5r
+,GT1_05,Dodge Viper GTS-R,Dodge Viper GTS-R #12,"FIA GT Championship,Le Mans Endurance Series",53,dodge_viper_gts_r
+,GT1_05,Dodge Viper GTS-R,Dodge Viper GTS-R #3,Northern Europe GT Championship,51,dodge_viper_gts_r
+,GT1_05,Dodge Viper GTS-R,Dodge Viper GTS-R #32,Le Mans Endurance Series,54,dodge_viper_gts_r
+,GT1_05,Dodge Viper GTS-R,Dodge Viper GTS-R #36,FIA GT1 World Championship,55,dodge_viper_gts_r
+,GT1_05,Dodge Viper GTS-R,Dodge Viper GTS-R #40,FIA GT1 World Championship,56,dodge_viper_gts_r
+,GT1_05,Dodge Viper GTS-R,Dodge Viper GTS-R #9,Northern Europe GT Championship,52,dodge_viper_gts_r
+,GT1_05,Lamborghini Murcielago R-GT,Lamborghini Murcielago R-GT #10,"FIA GT Championship,Speed World Challenge",51,lamborghini_murcielago_r_gt
+,GT1_05,Lamborghini Murcielago R-GT,Lamborghini Murcielago R-GT #25,Speed World Challenge,52,lamborghini_murcielago_r_gt
+,GT1_05,Lamborghini Murcielago R-GT,Lamborghini Murcielago R-GT #28,Southern Europe GT Championship,53,lamborghini_murcielago_r_gt
+,GT1_05,Lamborghini Murcielago R-GT,Lamborghini Murcielago R-GT #31,Southern Europe GT Championship,54,lamborghini_murcielago_r_gt
+,GT1_05,Lamborghini Murcielago R-GT,Lamborghini Murcielago R-GT #42,FIA GT1 World Championship,55,lamborghini_murcielago_r_gt
+,GT1_05,Lamborghini Murcielago R-GT,Lamborghini Murcielago R-GT #45,FIA GT1 World Championship,56,lamborghini_murcielago_r_gt
+,GT1_05,Lister Storm GTM,Lister Storm GTM #14,"FIA GT Championship,Speed World Challenge",51,lister_storm_gtm
+,GT1_05,Lister Storm GTM,Lister Storm GTM #16,"FIA GT Championship,Speed World Challenge",52,lister_storm_gtm
+,GT1_05,Lister Storm GTM,Lister Storm GTM #21,FIA GT1 World Championship,56,lister_storm_gtm
+,GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #1,Speed World Challenge,51,maserati_mc12_gt1
+,GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #33,Speed World Challenge,52,maserati_mc12_gt1
+,GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #61,Southern Europe GT Championship,53,maserati_mc12_gt1
+,GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #66,Southern Europe GT Championship,54,maserati_mc12_gt1
+,GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #86,FIA GT1 World Championship,56,maserati_mc12_gt1
+,GT1_05,Milano GT55,Milano GT55 #4,Speed World Challenge,51,milano_gt55
+,GT1_05,Milano GT55,Milano GT55 #55,FIA GT1 World Championship,56,milano_gt55
+,GT1_05,Milano GT55,Milano GT55 #6,Speed World Challenge,52,milano_gt55
+,GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #92,Le Mans Endurance Series,53,saleen_s7r_gt1
+,GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #93,Le Mans Endurance Series,54,saleen_s7r_gt1
+,GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #94,FIA GT Championship,55,saleen_s7r_gt1
+,GT1_05,Saleen S7-R GT1,Saleen S7-R GT1 #95,FIA GT1 World Championship,56,saleen_s7r_gt1
+,GT2_05,Milano GT36,Milano GT36 #20,Le Mans Endurance Series,53,milano_gt36
+,GT2_05,Milano GT36,Milano GT36 #25,Le Mans Endurance Series,54,milano_gt36
+,GT2_05,Milano GT36,Milano GT36 #31,Southern Europe GT Championship,55,milano_gt36
+,GT2_05,Milano GT36,Milano GT36 #43,Southern Europe GT Championship,56,milano_gt36
+,GT2_05,Milano GT36,Milano GT36 #51,FIA GT Championship,57,milano_gt36
+,GT2_05,Milano GT36,Milano GT36 #64,FIA GT Championship,58,milano_gt36
+,GT2_05,Panoz Esperante GTLM,Panoz Esperante GTLM #21,"FIA GT Championship,Le Mans Endurance Series,Northern Europe GT Championship,Rolex Sports Car Series",51,panoz_esperante_gtlm
+,GT2_05,Panoz Esperante GTLM,Panoz Esperante GTLM #22,"Le Mans Endurance Series,Northern Europe GT Championship,Rolex Sports Car Series",52,panoz_esperante_gtlm
+,GT2_05,Panoz Esperante GTLM,Panoz Esperante GTLM #78,Southern Europe GT Championship,53,panoz_esperante_gtlm
+,GT2_05,Panoz Esperante GTLM,Panoz Esperante GTLM #81,Southern Europe GT Championship,54,panoz_esperante_gtlm
+,GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #115,FIA GT Championship,60,porsche_996_gt3rsr
+,GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #121,"FIA GT Championship,Le Mans Endurance Series",61,porsche_996_gt3rsr
+,GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #155,"FIA GT Championship,Le Mans Endurance Series",62,porsche_996_gt3rsr
+,GT2_05,Porsche 996 GT3 RSR,Porsche 996 GT3 RSR #85,FIA GT Championship,59,porsche_996_gt3rsr
+,GT2_05,Spyker C8 Spyder GT2-R,Spyker C8 Spyder GT2-R #86,Northern Europe GT Championship,51,spyker_c8_spyder_gt2r
+,GT2_05,Spyker C8 Spyder GT2-R,Spyker C8 Spyder GT2-R #87,Northern Europe GT Championship,52,spyker_c8_spyder_gt2r
+,GT2_05,Spyker C8 Spyder GT2-R,Spyker C8 Spyder GT2-R #89,FIA GT Championship,54,spyker_c8_spyder_gt2r
+,GT2_05,TVR Tuscan T400R GT2,TVR Tuscan T400R GT2 #5,FIA GT Championship,51,tvr_tuscan_t400r_gt2
+,GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #89,"European Le Mans Series,IMSA VP Racing SportsCar Challenge,Michelin Le Mans Cup",55,audi_r8_lms_gt3
+,GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #97,Império Endurance Brasil (2020),57,audi_r8_lms_gt3
+,GT3,BMW M6 GT3,BMW M6 GT3 #2,"European Le Mans Series,IMSA VP Racing SportsCar Challenge,Michelin Le Mans Cup",51,bmw_m6_gt3
+,GT3,McLaren 720S GT3,McLaren 720S GT3 #27,"European Le Mans Series,IMSA VP Racing SportsCar Challenge,Michelin Le Mans Cup",53,mclaren_720s_gt3
+,GT3,McLaren 720S GT3,McLaren 720S GT3 #90,Império Endurance Brasil (2020),54,mclaren_720s_gt3
+,GT3,Mercedes-AMG GT3,Mercedes-AMG GT3 #60,"European Le Mans Series,IMSA VP Racing SportsCar Challenge,Michelin Le Mans Cup",53,mercedes_amg_gt3
+,GT3,Mercedes-AMG GT3,Mercedes-AMG GT3 #99,Império Endurance Brasil (2020),57,mercedes_amg_gt3
+,GT3,Nissan GT-R Nismo GT3,Nissan Nismo GT-R GT3 #205,"European Le Mans Series,IMSA VP Racing SportsCar Challenge,Michelin Le Mans Cup",53,nissan_gt-r_gt3
+,GT3,Porsche 911 GT3 R,Porsche 911 GT3 R #10,"European Le Mans Series,IMSA VP Racing SportsCar Challenge,Michelin Le Mans Cup",52,porsche_991_gt3r
+,GT3,Porsche 911 GT3 R,Porsche 911 GT3 R #93,Império Endurance Brasil (2020),57,porsche_991_gt3r
+,GT3_Gen2,Aston Martin Vantage GT3 Evo,AMR Vantage GT3 Evo #27 (IMSA 2024),"British GT Championship,GT World Challenge America,GT World Challenge Europe,GT World Challenge Sprint,Intercontinental GT Challenge",52,aston_martin_vantage_gt3_evo
+,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #181,Império Endurance Brasil (2023),56,audi_r8_lms_gt3_evo2
+,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #24,"IMSA WeatherTech SportsCar Championship,World Endurance Championship",51,audi_r8_lms_gt3_evo2
+,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #33,"Império Endurance Brasil (2023),World Endurance Championship",53,audi_r8_lms_gt3_evo2
+,GT3_Gen2,BMW M4 GT3,BMW M4 GT3 #10,Império Endurance Brasil (2023),55,bmw_m4_gt3
+,GT3_Gen2,BMW M4 GT3,BMW M4 GT3 #1a (IMSA 2024),"British GT Championship,GT World Challenge America,GT World Challenge Europe,GT World Challenge Sprint,IMSA WeatherTech SportsCar Championship,Intercontinental GT Challenge,World Endurance Championship",51,bmw_m4_gt3
+,GT3_Gen2,BMW M4 GT3,BMW M4 GT3 #1b (IMSA 2024),"British GT Championship,GT World Challenge America,GT World Challenge Europe,GT World Challenge Sprint,Intercontinental GT Challenge,World Endurance Championship",52,bmw_m4_gt3
+,GT3_Gen2,BMW M4 GT3,BMW M4 GT3 #55,Império Endurance Brasil (2023),56,bmw_m4_gt3
+,GT3_Gen2,Lamborghini Huracan GT3 EVO2,Lamborghini Huracan GT3 EVO2 #78 (IMSA 2024),World Endurance Championship,54,lamborghini_huracan_gt3_evo2
+,GT3_Gen2,Lamborghini Huracan GT3 EVO2,Lamborghini Huracan GT3 EVO2 #83 (IMSA 2024),World Endurance Championship,55,lamborghini_huracan_gt3_evo2
+,GT3_Gen2,McLaren 720S GT3 Evo,McLaren 720S GT3 Evo #25,Império Endurance Brasil (2023),53,mclaren_720s_gt3_evo
+,GT3_Gen2,McLaren 720S GT3 Evo,McLaren 720S GT3 Evo #32,Império Endurance Brasil (2023),54,mclaren_720s_gt3_evo
+,GT3_Gen2,McLaren 720S GT3 Evo,McLaren 720S GT3 Evo #41,World Endurance Championship,55,mclaren_720s_gt3_evo
+,GT3_Gen2,McLaren 720S GT3 Evo,McLaren 720S GT3 Evo #59,World Endurance Championship,56,mclaren_720s_gt3_evo
+,GT3_Gen2,Mercedes-AMG GT3 Evo,Mercedes-AMG GT3 Evo #80 (IMSA 2024),IMSA WeatherTech SportsCar Championship,54,mercedes_amg_gt3_evo
+,GT3_Gen2,Porsche 992 GT3 R,Porsche 992 GT3 R #120 (IMSA 2024),"British GT Championship,GT World Challenge America,GT World Challenge Europe,GT World Challenge Sprint,Intercontinental GT Challenge",55,porsche_992_gt3r
+,GT3_Gen2,Porsche 992 GT3 R,Porsche 992 GT3 R #43 (IMSA 2024),IMSA WeatherTech SportsCar Championship,51,porsche_992_gt3r
+,GT3_Gen2,Porsche 992 GT3 R,Porsche 992 GT3 R #77 (IMSA 2024),IMSA WeatherTech SportsCar Championship,52,porsche_992_gt3r
+,GT4,Alpine A110 GT4 Evo,Alpine A110 GT4 Evo #36b,"British GT Championship,GT4 America,GT4 European Series,IMSA Michelin Pilot Challenge,IMSA VP Racing SportsCar Challenge",52,alpine_a110_gt4_evo
+,GT4,Aston Martin Vantage GT4 Evo,AMR Vantage GT4 Evo #305,"British GT Championship,GT4 America,GT4 European Series,IMSA Michelin Pilot Challenge,IMSA VP Racing SportsCar Challenge",55,aston_martin_vantage_gt4_evo
+,GT4,Audi R8 LMS GT4,Audi R8 LMS GT4 #00,"British GT Championship,GT4 America,GT4 European Series,IMSA Michelin Pilot Challenge,IMSA VP Racing SportsCar Challenge",51,audi_r8_lms_gt4
+,GT4,Audi R8 LMS GT4,Audi R8 LMS GT4 #15,Império Endurance Brasil (2023),53,audi_r8_lms_gt4
+,GT4,Audi R8 LMS GT4,Audi R8 LMS GT4 #20,Império Endurance Brasil (2023),54,audi_r8_lms_gt4
+,GT4,BMW M4 GT4,BMW M4 GT4 #8,Império Endurance Brasil (2023),53,bmw_m4_gt4
+,GT4,BMW M4 GT4,BMW M4 GT4 #9,Império Endurance Brasil (2023),54,bmw_m4_gt4
+,GT4,Chevrolet Camaro GT4.R,Camaro GT4.R #97,"British GT Championship,GT4 America,GT4 European Series,IMSA Michelin Pilot Challenge,IMSA VP Racing SportsCar Challenge",55,camaro_gt4r
+,GT4,Ginetta G55 GT4,Ginetta G55 GT4 #117,"Império Endurance Brasil (2020),Império Endurance Brasil (2023)",55,ginetta_g55_gt4_2
+,GT4,Ginetta G55 GT4,Ginetta G55 GT4 #79,"Império Endurance Brasil (2020),Império Endurance Brasil (2023)",54,ginetta_g55_gt4_2
+,GT4,McLaren 570S GT4,McLaren 570S GT4 #001,Império Endurance Brasil (2020),51,mclaren_570s_gt4
+,GT4,McLaren 570S GT4,McLaren 570S GT4 #002,Império Endurance Brasil (2020),52,mclaren_570s_gt4
+,GT4,McLaren 570S GT4,McLaren 570S GT4 #22,"British GT Championship,GT4 America,GT4 European Series,IMSA Michelin Pilot Challenge,IMSA VP Racing SportsCar Challenge",56,mclaren_570s_gt4
+,GT4,Mercedes-AMG GT4,Mercedes-AMG GT4 #34,Império Endurance Brasil (2020),53,mercedes_amg_gt4
+,GT4,Mercedes-AMG GT4,Mercedes-AMG GT4 #35,Império Endurance Brasil (2020),54,mercedes_amg_gt4
+,GT4,Mercedes-AMG GT4,Mercedes-AMG GT4 #37,"British GT Championship,GT4 America,GT4 European Series,IMSA Michelin Pilot Challenge,IMSA VP Racing SportsCar Challenge",55,mercedes_amg_gt4
+,GT4,Porsche Cayman GT4 Clubsport MR,Porsche Cayman GT4 CS MR #102,Império Endurance Brasil (2023),53,porsche_cayman_gt4cs
+,GT4,Porsche Cayman GT4 Clubsport MR,Porsche Cayman GT4 CS MR #104,Império Endurance Brasil (2023),54,porsche_cayman_gt4cs
+,GTE,Aston Martin Vantage GTE,AMR Vantage GTE #12,"World Endurance Championship (2023),World Endurance Championship (LMP)",55,aston_martin_vantage_gte
+,GTE,Aston Martin Vantage GTE,AMR Vantage GTE #22,"World Endurance Championship (2023),World Endurance Championship (LMP)",56,aston_martin_vantage_gte
+,GTE,BMW M8 GTE,BMW M8 GTE #14,IMSA WeatherTech SportsCar Championship (DPi),53,bmw_m8_gte
+,GTE,BMW M8 GTE,BMW M8 GTE #15,IMSA WeatherTech SportsCar Championship (DPi),54,bmw_m8_gte
+,GTE,BMW M8 GTE,BMW M8 GTE #28,"World Endurance Championship (2023),World Endurance Championship (LMP)",56,bmw_m8_gte
+,GTE,BMW M8 GTE,BMW M8 GTE #29,"World Endurance Championship (2023),World Endurance Championship (LMP)",55,bmw_m8_gte
+,GTE,Chevrolet Corvette C8.R,Chevrolet Corvette C8.R #33,IMSA WeatherTech SportsCar Championship (DPi),55,corvette_c8r
+,GTE,Chevrolet Corvette C8.R,Chevrolet Corvette C8.R #68,"IMSA WeatherTech SportsCar Championship (DPi),World Endurance Championship (2023),World Endurance Championship (LMP)",56,corvette_c8r
+,GTE,Chevrolet Corvette C8.R,Chevrolet Corvette C8.R #69,"World Endurance Championship (2023),World Endurance Championship (LMP)",57,corvette_c8r
+,GTE,Porsche 911 RSR GTE,Porsche 911 RSR GTE #06,IMSA WeatherTech SportsCar Championship (DPi),53,porsche_911_gte
+,GTE,Porsche 911 RSR GTE,Porsche 911 RSR GTE #10,IMSA WeatherTech SportsCar Championship (DPi),54,porsche_911_gte
+,GTE,Porsche 911 RSR GTE,Porsche 911 RSR GTE #25,"World Endurance Championship (2023),World Endurance Championship (LMP)",55,porsche_911_gte
+,GTE,Porsche 911 RSR GTE,Porsche 911 RSR GTE #42,"World Endurance Championship (2023),World Endurance Championship (LMP)",56,porsche_911_gte
+,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #01,Northern Europe GT Championship,51,bmw_m3_gtr
+,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #02,Northern Europe GT Championship,52,bmw_m3_gtr
+,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #21,Northern Europe GT Championship,53,bmw_m3_gtr
+,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #23,Northern Europe GT Championship,54,bmw_m3_gtr
+,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #75,Rolex Sports Car Series,61,bmw_m3_gtr
+,GTR_04,BMW M3 E46 GTR,BMW M3 E46 GTR #98,Rolex Sports Car Series,62,bmw_m3_gtr
+,GTR_04,Gillet Vertigo Streiff,Gillet Vertigo Streiff #100,Rolex Sports Car Series,51,gillet_vertigo_streiff_gt2
+,GTR_04,Gillet Vertigo Streiff,Gillet Vertigo Streiff #101,Rolex Sports Car Series,52,gillet_vertigo_streiff_gt2
+,Hypercars,Aston Martin Valkyrie,Iridescent Emerald,Gran Turismo Hyper Series,55,aston_martin_valkyrie
+,Hypercars,Aston Martin Valkyrie,Lunar White,Gran Turismo Hyper Series,58,aston_martin_valkyrie
+,Hypercars,Brabham BT62,Brabham BT62 #07,Gran Turismo Hyper Series,57,brabham_bt62
+,Hypercars,Brabham BT62,Brabham BT62 #08,Gran Turismo Hyper Series,58,brabham_bt62
+,Hypercars,Lamborghini Revuelto,Bronzo Oreadi,Gran Turismo Hyper Series,63,lamborghini_revuelto
+,Hypercars,Lamborghini Revuelto,Grigio Telesto,Gran Turismo Hyper Series,58,lamborghini_revuelto
+,Hypercars,Lamborghini Veneno Roadster,Lamborghini Veneno #07,Gran Turismo Hyper Series,57,lamborghini_veneno
+,Hypercars,Lamborghini Veneno Roadster,Lamborghini Veneno #08,Gran Turismo Hyper Series,58,lamborghini_veneno
+,Hypercars,McLaren Senna,Gloss Carbon Blue,Gran Turismo Hyper Series,61,mclaren_senna
+,Hypercars,McLaren Senna,Supernova Silver,Gran Turismo Hyper Series,59,mclaren_senna
+,LMDh,Aston Martin Valkyrie Hypercar,Aston Martin Valkyrie Hypercar #23 (IMSA 2025),World Endurance Championship,51,aston_martin_valkyrie_lmh
+,LMDh,Aston Martin Valkyrie Hypercar,Aston Martin Valkyrie Hypercar #909,World Endurance Championship,54,aston_martin_valkyrie_lmh
+,LMDh,BMW M Hybrid V8,BMW M Hybrid V8 #24 (IMSA 2024),"World Endurance Championship,World Endurance Championship (2023)",51,bmw_m_hybrid_v8
+,LMDh,BMW M Hybrid V8,BMW M Hybrid V8 #25 (IMSA 2024),"World Endurance Championship,World Endurance Championship (2023)",52,bmw_m_hybrid_v8
+,LMDh,Porsche 963,Porsche 963 #5 (IMSA 2024),IMSA WeatherTech SportsCar Championship,51,porsche_963_gtp
+,LMDh,Porsche 963,Porsche 963 #85 (IMSA 2024),IMSA WeatherTech SportsCar Championship,54,porsche_963_gtp
+,LMP2,Ligier JS P217,Ligier JS P217 #12,"IMSA WeatherTech SportsCar Championship,World Endurance Championship (2023)",52,ligier_js_p217
+,LMP2,Ligier JS P217,Ligier JS P217 #25,World Endurance Championship (2023),53,ligier_js_p217
+,LMP2,Oreca 07,Oreca 07 #81 (IMSA 2024),IMSA WeatherTech SportsCar Championship,60,oreca_07
+,LMP2,Oreca 07,Oreca 07 #88 (IMSA 2024),IMSA WeatherTech SportsCar Championship,61,oreca_07
+,LMP2_05,Lola B05/40 Turbo,Lola B05/40 Turbo #57,Le Mans Endurance Series,57,lola_b0540_lmp2_turbo
+,LMP2_05,Lola B05/40 V8,Lola B05/40 V8 #93,Le Mans Endurance Series,55,lola_b0540_lmp2_v8
+,LMP2_Gen1,Oreca 07,Oreca 07 #50,World Endurance Championship (LMP),55,oreca_07
+,LMP2_Gen1,Oreca 07,Oreca 07 #62,World Endurance Championship (LMP),56,oreca_07
+,P1,Ginetta G58,Ginetta G58 #21,World Endurance Championship (LMP),53,ginetta_g58
+,P1,Ginetta G58,Ginetta G58 #22,World Endurance Championship (LMP),54,ginetta_g58
+,P1,Ginetta G58,Ginetta G58 #53,Império Endurance Brasil (2020),55,ginetta_g58
+,P1,Ginetta G58,Ginetta G58 #54,Império Endurance Brasil (2020),56,ginetta_g58
+,P1,MetalMoro AJR Chevrolet,JLM Racing #113,World Endurance Championship (LMP),53,metalmoro_ajr_chevy
+,P1,MetalMoro AJR Chevrolet,JLM Racing #175,World Endurance Championship (LMP),54,metalmoro_ajr_chevy
+,P1Gen2,Ginetta G58 Gen2,Ginetta G58 Gen2 #53,Império Endurance Brasil (2023),55,ginetta_g58_gen2
+,P1Gen2,Ginetta G58 Gen2,Ginetta G58 Gen2 #54,Império Endurance Brasil (2023),56,ginetta_g58_gen2
+,P1Gen2,MetalMoro AJR Gen2 Chevrolet,Mottin Racing #46,"European Le Mans Series,IMSA VP Racing SportsCar Challenge,Michelin Le Mans Cup",51,metalmoro_ajr_gen2_chevy
+,P1Gen2,MetalMoro AJR Gen2 Honda,JLM Racing #28,"European Le Mans Series,IMSA VP Racing SportsCar Challenge,Michelin Le Mans Cup",51,metalmoro_ajr_gen2_honda
+,P1Gen2,MetalMoro AJR Gen2 Nissan,Power Imports #80,"European Le Mans Series,IMSA VP Racing SportsCar Challenge,Michelin Le Mans Cup",51,metalmoro_ajr_gen2_nissan
+,P1Gen2,Sigma P1 G5,Sigma Motorsport #02,"European Le Mans Series,IMSA VP Racing SportsCar Challenge,Michelin Le Mans Cup",51,sigma_p1_g5
+,P1Gen2,Sigma P1 G5,Sigma P1 G5 #13,Império Endurance Brasil (2023),53,sigma_p1_g5
+,P1Gen2,Sigma P1 G5,Sigma P1 G5 #85,Império Endurance Brasil (2023),54,sigma_p1_g5
+,P2,MetalMoro MRX Duratec Turbo P2,MetalMoro MRX P2 #81,Império Endurance Brasil (2020),58,metalmoro_mrx_sharkfin
+,P2,MetalMoro MRX Duratec Turbo P2,MetalMoro MRX P2 #82,Império Endurance Brasil (2020),59,metalmoro_mrx_sharkfin
+,P2,Sigma P1,Sigma P1 #16,Império Endurance Brasil (2020),55,sigma_p1
+,P2,Sigma P1,Sigma P1 #73,Império Endurance Brasil (2020),56,sigma_p1
+,P3,Roco 001,Roco 001 #21,Campeonato Brasileiro de Endurance,52,roco
+,P3,Roco 001,Roco 001 #46,Campeonato Brasileiro de Endurance,51,roco
+,P3,Roco 001,Roco 001 #69,Campeonato Brasileiro de Endurance,53,roco
+,P3,Roco 001,Roco 001 #70,Campeonato Brasileiro de Endurance,54,roco
+,P3,Roco 001,Roco 001 #71,Campeonato Brasileiro de Endurance,55,roco
+,P3,Roco 001,Roco 001 #98,Campeonato Brasileiro de Endurance,56,roco
+,P4,MCR S2000,MCR S2000 #10,Campeonato Brasileiro de Endurance,58,mcr2000
+,P4,MCR S2000,MCR S2000 #11,Campeonato Brasileiro de Endurance,59,mcr2000
+,P4,MCR S2000,MCR S2000 #12,Campeonato Brasileiro de Endurance,60,mcr2000
+,P4,MCR S2000,MCR S2000 #13,Campeonato Brasileiro de Endurance,61,mcr2000
+,P4,MCR S2000,MCR S2000 #14,Campeonato Brasileiro de Endurance,62,mcr2000
+,P4,MCR S2000,MCR S2000 #28 - O.Mocanu Skin,"Radical Cup Europe,Radical Cup North America",73,mcr2000
+,P4,MCR S2000,MCR S2000 #9,Campeonato Brasileiro de Endurance,57,mcr2000
+,P4,MetalMoro MRX Duratec P4,Metalmoro MRX P4 #16,"Radical Cup Europe,Radical Cup North America",53,metalmoro_mrx
+,P4,MetalMoro MRX Duratec P4,Metalmoro MRX P4 #2,"Radical Cup Europe,Radical Cup North America",51,metalmoro_mrx
+,P4,MetalMoro MRX Duratec P4,Metalmoro MRX P4 #44,Campeonato Brasileiro de Endurance,59,metalmoro_mrx
+,P4,MetalMoro MRX Duratec P4,Metalmoro MRX P4 #56,Campeonato Brasileiro de Endurance,60,metalmoro_mrx
+,P4,MetalMoro MRX Duratec P4,Metalmoro MRX P4 #7,"Radical Cup Europe,Radical Cup North America",52,metalmoro_mrx
+,Supercars,Audi R8 V10 GT,Ara Blue,Gran Turismo Super Series,58,audi_r8_v10_gt
+,Supercars,Audi R8 V10 GT,Vegas Yellow Matte,Gran Turismo Super Series,57,audi_r8_v10_gt
+,Supercars,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),Accelerate Yellow Metallic,Gran Turismo Super Series,64,corvette_c8_sc
+,Supercars,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),Carbon Flash Metallic,Gran Turismo Super Series,63,corvette_c8_sc
+,Supercars,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),Competition Yellow Tintcoat Metallic,Gran Turismo Super Series,57,corvette_c8_sc
+,Supercars,Chevrolet Corvette C8 Z06 (+Z07 Upgrade),Hypersonic Gray Metallic,Gran Turismo Super Series,62,corvette_c8_sc
+,Supercars,Dodge Viper ACR,Competition Blue,Gran Turismo Super Series,61,dodge_viper_acr
+,Supercars,Dodge Viper ACR,Gunmetal Pearl,Gran Turismo Super Series,62,dodge_viper_acr
+,Supercars,Dodge Viper ACR,Stryker Green,Gran Turismo Super Series,59,dodge_viper_acr
+,Supercars,Dodge Viper ACR,Venom Black,Gran Turismo Super Series,57,dodge_viper_acr
+,Supercars,Maserati GT2 Stradale,Azzurro Astro Matte,Gran Turismo Super Series,62,maserati_gt2_stradale
+,Supercars,Maserati GT2 Stradale,Bianco Audace Matte,Gran Turismo Super Series,59,maserati_gt2_stradale
+,Supercars,McLaren F1 LM,McLaren F1 LM #05,Gran Turismo Super Series,55,mclaren_f1_lm
+,Supercars,McLaren F1 LM,McLaren F1 LM #06,Gran Turismo Super Series,56,mclaren_f1_lm
+,Supercars,Ultima GTR,Ultima GTR #10,Gran Turismo Super Series,60,ultima
+,Supercars,Ultima GTR,Ultima GTR #11,Gran Turismo Super Series,61,ultima
+,Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #27,Southern Europe GT Championship,57,maserati_gransport_trofeo
+,Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #32,Southern Europe GT Championship,58,maserati_gransport_trofeo
+,Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #37,Southern Europe GT Championship,59,maserati_gransport_trofeo
+,Trofeo_2005,Maserati GranSport Trofeo,Maserati GranSport Trofeo #40,Southern Europe GT Championship,60,maserati_gransport_trofeo
 A. J. Foyt Racing,F-3,Dallara F309,Power On Racing #86,USF Pro 2000,67,f309
 A. J. Foyt Racing,F-3,Dallara F309,Prop Racing #17,USF Pro 2000,58,f309
 A. J. Foyt Racing,F-Inter,Formula Inter MG-15,F.Inter MG-15 #82,USF2000,69,formula_inter
@@ -2354,8 +2581,8 @@ Scuderia Chiarelli,TSICup,Volkswagen Polo GTS,VW Polo GTS #002,TSI Cup World,51,
 Scuderia Chiarelli,TSICup,Volkswagen Polo GTS,VW Polo GTS #1,TSI Cup World,52,vw_polo_gts
 Scuderia Corsa International,Group A,Audi V8 quattro DTM,Audi V8 quattro DTM #14,Retro DTM '90,57,audi_v8_dtm
 Scuderia Corsa International,Group A,Audi V8 quattro DTM,Audi V8 quattro DTM #17,Retro DTM '90,58,audi_v8_dtm
-Scuderia Corsa International,GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #20,BPR Global GT Series,53,
-Scuderia Corsa International,GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #21,BPR Global GT Series,54,
+Scuderia Corsa International,GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #20,BPR Global GT Series,53,panoz_esperante_gtr1
+Scuderia Corsa International,GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #21,BPR Global GT Series,54,panoz_esperante_gtr1
 Scuderia Corsa International,GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #72,GT Revival Series,55,maserati_mc12_gt1
 Scuderia Corsa International,GT1_05,Maserati MC12 GT1,Maserati MC12 GT1 #86,GT Revival Series,56,maserati_mc12_gt1
 Scuderia Corsa International,GT1_05,Milano GT55,Milano GT55 #15,FIA GT Championship,55,milano_gt55
@@ -2598,8 +2825,8 @@ TCR,P4,MCR S2000,MCR S2000 #23,Radical Cup Europe,69,mcr2000
 TCR,P4,MCR S2000,MCR S2000 #31,Radical Cup Europe,76,mcr2000
 Team Elite,Group C,Porsche 962C,Sorte Total Racing #8,World Sports-Prototype Championship,54,porsche_962c
 Team Elite,Group C,Porsche 962C,Vidtak Porsche Racing #7,World Sports-Prototype Championship,53,porsche_962c
-Team Elite,GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #18,BPR Global GT Series,51,
-Team Elite,GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #19,BPR Global GT Series,52,
+Team Elite,GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #18,BPR Global GT Series,51,panoz_esperante_gtr1
+Team Elite,GT1,Panoz Esperante GTR-1,Panoz Esperante GTR-1 #19,BPR Global GT Series,52,panoz_esperante_gtr1
 Team Elite,GT1_05,Dodge Viper GTS-R,Dodge Viper GTS-R #12,FIA GT1 World Championship,53,dodge_viper_gts_r
 Team Elite,GT1_05,Dodge Viper GTS-R,Dodge Viper GTS-R #32,FIA GT1 World Championship,54,dodge_viper_gts_r
 Team Elite,TC60S,BMW 2002 Turbo,BMW 2002 Turbo #24,International Championship for Makes,57,bmw_2002_turbo
@@ -3088,9 +3315,8 @@ Zenith Autosport,GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #22,IMSA VP Racing SportsCa
 Zenith Autosport,GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #69,IMSA VP Racing SportsCar Challenge,52,audi_r8_lms_gt3
 Zenith Autosport,GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #79,IMSA WeatherTech SportsCar Championship (DPi),53,audi_r8_lms_gt3
 Zenith Autosport,GT3,Audi R8 LMS GT3,Audi R8 LMS GT3 #86,IMSA WeatherTech SportsCar Championship (DPi),54,audi_r8_lms_gt3
-Zenith Autosport,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #181,"GT World Challenge America,Intercontinental GT Challenge",56,audi_r8_lms_gt3_evo2
+Zenith Autosport,GT3_Gen2,Aston Martin Vantage GT3 Evo,AMR Vantage GT3 Evo #42,"GT World Challenge America,GT World Challenge Sprint,Intercontinental GT Challenge",55,aston_martin_vantage_gt3_evo
 Zenith Autosport,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #24,"GT World Challenge America,GT World Challenge Sprint,Intercontinental GT Challenge",51,audi_r8_lms_gt3_evo2
-Zenith Autosport,GT3_Gen2,Audi R8 LMS GT3 evo II,Audi R8 LMS GT3 evo II #28,GT World Challenge Sprint,52,audi_r8_lms_gt3_evo2
 Zenith Autosport,Hypercars,Brabham BT62,Brabham BT62 #03,Gran Turismo Hyper Series,53,brabham_bt62
 Zenith Autosport,Hypercars,Brabham BT62,Brabham BT62 #04,Gran Turismo Hyper Series,54,brabham_bt62
 Zenith Autosport,LMDh,Aston Martin Valkyrie Hypercar,Aston Martin Valkyrie Hypercar #009,IMSA WeatherTech SportsCar Championship,53,aston_martin_valkyrie_lmh

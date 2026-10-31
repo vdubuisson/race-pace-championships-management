@@ -1,0 +1,1 @@
+import{ar as kt,y as E}from"./chunk-CeuvupG9.js";import{t as Pr}from"./chunk-CVjA-tdt.js";var a=class e{store=E(Pr).models;async getAllModels(){return this.store.toArray()}async getModelsByClasses(r){return this.store.where(`class`).anyOf(r).toArray()}static ɵfac=function(i){return new(i||e)};static ɵprov=kt({token:e,factory:e.ɵfac})};export{a as t};

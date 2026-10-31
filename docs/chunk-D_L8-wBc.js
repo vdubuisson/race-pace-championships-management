@@ -1,0 +1,1 @@
+import{ar as kt,y as E}from"./chunk-CeuvupG9.js";import{t as Pr}from"./chunk-CVjA-tdt.js";var a=class e{store=E(Pr).classes;getAllVehicleClasses(){return this.store.toArray()}getVehicleClassesByIds(r){return this.store.where(`id`).anyOf(r).toArray()}static ɵfac=function(o){return new(o||e)};static ɵprov=kt({token:e,factory:e.ɵfac})};export{a as t};

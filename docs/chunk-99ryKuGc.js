@@ -1,0 +1,1 @@
+import{y as E}from"./chunk-CeuvupG9.js";import{fr as xe}from"./chunk-DouJVfZ4.js";import{n as Ga,t as Aa}from"./chunk-Dvuk_2Hg.js";var s=r=>r.canDeactivate()||E(Aa).open(Ga,{label:`Abort changes?`,size:`s`,data:{content:`Are you sure you want to leave the form and abort your changes?`,yes:`Yes`,no:`No`,appearance:`primary-destructive`}}).pipe(xe());export{s as t};

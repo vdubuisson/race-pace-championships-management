@@ -564,7 +564,6 @@ Formula 1 (Hybrid Gen 3),Jerez_GP2019,Gran Premio de Andalucía,8,1,FALSE,laps,6
 Formula 1 (Hybrid Gen 3),Le_Mans_Circuit_Bugatti,Grand Prix de France,8,2,FALSE,laps,72,,FALSE
 Formula 1 (Hybrid Gen 3),Donington_GP,Donington Grand Prix,8,3,FALSE,laps,76,,FALSE
 Formula 1 (Hybrid Gen 3),Spa_Francorchamps_2022,Grand Prix de Belgique,8,4,FALSE,laps,43,,FALSE
-Formula 1 (Hybrid Gen 3),Indianapolis_2022_RC,United States Grand Prix,9,1,FALSE,laps,77,,FALSE
 Formula 1 (Hybrid Gen 3),Circuit_de_Catalunya_NATL_NC,Gran Premio de Catalunya,9,2,FALSE,laps,100,,FALSE
 Formula 1 (Hybrid Gen 3),Monza_2020,Gran Premio d'Italia,9,3,FALSE,laps,52,,FALSE
 Formula 1 (Hybrid Gen 3),Hockenheim_National,Grand Prix of Europe,9,4,FALSE,laps,83,,FALSE
@@ -768,7 +767,7 @@ Formula 1 (Vintage Gen 1),Azure_Circuit_2021,Grand Prix Automobile de Monaco,5,1
 Formula 1 (Vintage Gen 1),OultonPark_International,Oulton Grand Prix,5,2,FALSE,laps,70,,FALSE
 Formula 1 (Vintage Gen 1),Imola_GP_1972,Gran Premio di San Marino,6,1,TRUE,laps,61,,FALSE
 Formula 1 (Vintage Gen 1),Spa_Francorchamps_1970,Grand Prix de Belgique,6,2,TRUE,laps,22,,FALSE
-Formula 1 (Vintage Gen 1),Le_Mans_Circuit_Bugatti,Grand Prix de France,7,1,FALSE,laps,72,,FALSE
+Formula 1 (Vintage Gen 1),Le_Mans_Circuit_Bugatti,Grand Prix Bugatti,7,1,FALSE,laps,72,,FALSE
 Formula 1 (Vintage Gen 1),Silverstone_1975,British Grand Prix,7,2,FALSE,laps,64,,FALSE
 Formula 1 (Vintage Gen 1),BrandsHatch_GP,Great Britain Grand Prix,7,3,FALSE,laps,77,,FALSE
 Formula 1 (Vintage Gen 1),Nurb_1971_Nords,Großer Preis von Deutschland,8,1,TRUE,laps,14,,FALSE
@@ -1875,7 +1874,7 @@ Stock Car Pro Series (2023),GoianiaMixed,GP de Goiânia,8,3,TRUE,time,50,,FALSE
 Stock Car Pro Series (2023),Velopark_2017,GP de Velopark,9,2,TRUE,time,50,,FALSE
 Stock Car Pro Series (2023),Buenos_Aires_Circuito_8,GP de Buenos Aires,10,1,TRUE,time,50,,FALSE
 Stock Car Pro Series (2023),VeloCitta1,GP de Mogi Guaçu,10,3,TRUE,time,50,,FALSE
-Stock Car Pro Series (2023),Cascavel2,GP de Cascavel,11,3,TRUE,time,50,,FALSE
+Stock Car Pro Series (2023),Cascavel2,GP de Cascavel 2,11,3,TRUE,time,50,,FALSE
 Stock Car Pro Series (2023),Interlagos_SCB,Super Final BRB,12,2,TRUE,time,50,,FALSE
 Stock Light Brasil,VeloCitta1,Grande Prêmio VeloCitta,3,1,FALSE,time,40,,FALSE
 Stock Light Brasil,Velopark_2017,Desafio Velopark,3,3,FALSE,time,40,,FALSE

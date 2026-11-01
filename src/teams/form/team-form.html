@@ -9,7 +9,7 @@
   Back
 </a>
 
-<form tuiForm [formGroup]="teamForm" (submit)="onSubmit($event)">
+<form tuiForm [formRoot]="teamForm">
   <header tuiHeader>
     <h1 tuiTitle>{{ pageTitle() }}</h1>
   </header>
@@ -19,20 +19,20 @@
       <label tuiLabel>
         Name
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInput placeholder="Racing Team" [formControl]="teamForm.controls.name" />
+          <input tuiInput placeholder="Racing Team" [formField]="teamForm.name" />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="teamForm.controls.name" />
+      <tui-error [formField]="teamForm.name" />
     </div>
 
     <div class="form-field">
       <label tuiLabel>
         Principal
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInput placeholder="John Smith" [formControl]="teamForm.controls.principal" />
+          <input tuiInput placeholder="John Smith" [formField]="teamForm.principal" />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="teamForm.controls.principal" />
+      <tui-error [formField]="teamForm.principal" />
     </div>
   </fieldset>
 
@@ -44,10 +44,10 @@
           <tui-icon [tuiTooltip]="loyaltyTooltip" />
         </span>
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formControl]="teamForm.controls.driver_loyalty" />
+          <input tuiInputNumber [formField]="teamForm.driver_loyalty" />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="teamForm.controls.driver_loyalty" />
+      <tui-error [formField]="teamForm.driver_loyalty" />
     </div>
 
     <div class="form-field">
@@ -57,10 +57,10 @@
           <tui-icon [tuiTooltip]="expectationLevelTooltip" />
         </span>
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formControl]="teamForm.controls.expectation_level" />
+          <input tuiInputNumber [formField]="teamForm.expectation_level" />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="teamForm.controls.expectation_level" />
+      <tui-error [formField]="teamForm.expectation_level" />
     </div>
 
     <div class="form-field">
@@ -70,10 +70,10 @@
           <tui-icon [tuiTooltip]="performanceRatingTooltip" />
         </span>
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formControl]="teamForm.controls.performance_rating" />
+          <input tuiInputNumber [formField]="teamForm.performance_rating" />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="teamForm.controls.performance_rating" />
+      <tui-error [formField]="teamForm.performance_rating" />
     </div>
   </fieldset>
 
@@ -85,10 +85,10 @@
           <tui-icon [tuiTooltip]="engineeringTooltip" />
         </span>
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formControl]="teamForm.controls.engineering_weight" />
+          <input tuiInputNumber [formField]="teamForm.engineering_weight" />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="teamForm.controls.engineering_weight" />
+      <tui-error [formField]="teamForm.engineering_weight" />
     </div>
 
     <div class="form-field">
@@ -98,10 +98,10 @@
           <tui-icon [tuiTooltip]="engineeringTooltip" />
         </span>
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formControl]="teamForm.controls.engineering_drag" />
+          <input tuiInputNumber [formField]="teamForm.engineering_drag" />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="teamForm.controls.engineering_drag" />
+      <tui-error [formField]="teamForm.engineering_drag" />
     </div>
 
     <div class="form-field">
@@ -111,12 +111,12 @@
           <tui-icon [tuiTooltip]="engineeringTooltip" />
         </span>
         <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formControl]="teamForm.controls.engineering_power" />
+          <input tuiInputNumber [formField]="teamForm.engineering_power" />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="teamForm.controls.engineering_power" />
+      <tui-error [formField]="teamForm.engineering_power" />
     </div>
   </fieldset>
 
-  <button tuiButton type="submit" size="m">Save</button>
+  <button tuiButton type="submit" size="m" [disabled]="teamForm().invalid()">Save</button>
 </form>

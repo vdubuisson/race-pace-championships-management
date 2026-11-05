@@ -1,15 +1,13 @@
 import { PercentInput } from '@/shared/components/percent-input/percent-input';
 import { COUNTRIES, Country } from '@/shared/constants/countries';
-import { Driver } from '@/shared/models/driver';
 import { OrdinalPipe } from '@/shared/pipes/ordinal/ordinal-pipe';
 import { VehicleClassModPipe } from '@/shared/pipes/vehicle-class-mod/vehicle-class-mod-pipe';
 import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-class-name-pipe';
 import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
 import { ScrollingModule } from '@angular/cdk/scrolling';
-import { Component, computed, effect, inject, input, signal } from '@angular/core';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { Router, RouterLink } from '@angular/router';
-import { TuiDay } from '@taiga-ui/cdk';
+import { Component, computed, effect, inject, input, numberAttribute } from '@angular/core';
+import { FormField, FormRoot } from '@angular/forms/signals';
+import { RouterLink } from '@angular/router';
 import {
   TuiButton,
   TuiDataList,
@@ -19,7 +17,6 @@ import {
   TuiFilterByInputPipe,
   TuiIcon,
   TuiInput,
-  TuiNotificationService,
   TuiScrollControls,
   TuiScrollRef,
   TuiTitle,
@@ -29,7 +26,6 @@ import {
   TuiComboBox,
   TuiDataListWrapper,
   TuiInputDate,
-  tuiInputDateOptionsProvider,
   TuiInputNumber,
   TuiInputSlider,
   TuiInputYear,
@@ -44,10 +40,10 @@ import { DriverFormManager } from './driver-form-manager';
   templateUrl: './driver-form.html',
   styleUrl: './driver-form.css',
   imports: [
+    FormRoot,
+    FormField,
     OrdinalPipe,
     PercentInput,
-    ReactiveFormsModule,
-    FormsModule,
     RouterLink,
     ScrollingModule,
     TuiButton,
@@ -73,48 +69,18 @@ import { DriverFormManager } from './driver-form-manager';
     VehicleClassModPipe,
     VehicleClassNamePipe,
   ],
-  providers: [
-    DriverFormManager,
-    tuiInputDateOptionsProvider({
-      valueTransformer: {
-        fromControlValue: (value: string | null): TuiDay | null => {
-          if (!value) {
-            return null;
-          }
-          const [year, month, day] = value.split('-').map(Number);
-          return new TuiDay(year, month - 1, day);
-        },
-        toControlValue: (day: TuiDay | null): string | null => {
-          if (!day) {
-            return null;
-          }
-          const year = day.year;
-          const month = String(day.month + 1).padStart(2, '0');
-          const date = String(day.day).padStart(2, '0');
-          return `${year}-${month}-${date}`;
-        },
-      },
-    }),
-    tuiDateFormatProvider({ mode: 'yyyy/mm/dd', separator: '-' }),
-  ],
+  providers: [DriverFormManager, tuiDateFormatProvider({ mode: 'yyyy/mm/dd', separator: '-' })],
 })
 export default class DriverForm {
   protected readonly formManager = inject(DriverFormManager);
-
-  private readonly router = inject(Router);
-  private readonly notifications = inject(TuiNotificationService);
   private readonly vehicleClassUtils = inject(VehicleClassUtils);
 
-  readonly driver = input<Driver | undefined>(undefined);
+  readonly id = input(NaN, { transform: numberAttribute });
 
-  readonly canDeactivate = signal(false);
+  readonly canDeactivate = this.formManager.canDeactivate;
 
-  protected readonly driverName = computed(() =>
-    `${this.driver()?.name ?? ''} ${this.driver()?.surname ?? ''}`.trim(),
-  );
-  protected readonly isEditMode = computed(() => this.driver() !== undefined);
   protected readonly pageTitle = computed(() =>
-    this.isEditMode() ? `Edit ${this.driverName()}` : 'New driver',
+    this.formManager.isEditMode() ? `Edit ${this.formManager.existingDriverName()}` : 'New driver',
   );
 
   protected readonly COUNTRIES = COUNTRIES;
@@ -149,41 +115,6 @@ export default class DriverForm {
   protected readonly skillsTooltip = `See <a href="https://forum.reizastudios.com/threads/information-for-customizing-ai-drivers-in-ams2.21758/" target="_blank">this forum thread</a> for the skills and what they do.`;
 
   constructor() {
-    effect(() => this.formManager.loadDriver(this.driver()));
-  }
-
-  protected async save(): Promise<void> {
-    if (!this.formManager.form.valid) {
-      this.notifications.open('Invalid form', {
-        appearance: 'negative',
-        autoClose: 3000,
-        closable: false,
-      });
-      return;
-    }
-    try {
-      const driverId = await this.formManager.save();
-
-      this.canDeactivate.set(true);
-
-      this.notifications
-        .open(this.isEditMode() ? 'Driver updated' : 'Driver created', {
-          appearance: 'positive',
-          autoClose: 3000,
-          closable: false,
-        })
-        .subscribe();
-
-      await this.router.navigate(['/drivers/details', driverId]);
-    } catch (error) {
-      console.error('Failed to save driver', error);
-      this.notifications
-        .open('Failed to save driver', {
-          appearance: 'negative',
-          autoClose: 3000,
-          closable: false,
-        })
-        .subscribe();
-    }
+    effect(() => this.formManager.existingDriverId.set(this.id()));
   }
 }

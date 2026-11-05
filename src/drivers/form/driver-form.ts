@@ -7,7 +7,7 @@ import { VehicleClassNamePipe } from '@/shared/pipes/vehicle-class-name/vehicle-
 import { VehicleClassUtils } from '@/shared/services/vehicle-class-utils/vehicle-class-utils';
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { Component, computed, effect, inject, input, signal } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { TuiDay } from '@taiga-ui/cdk';
 import {
@@ -47,6 +47,7 @@ import { DriverFormManager } from './driver-form-manager';
     OrdinalPipe,
     PercentInput,
     ReactiveFormsModule,
+    FormsModule,
     RouterLink,
     ScrollingModule,
     TuiButton,

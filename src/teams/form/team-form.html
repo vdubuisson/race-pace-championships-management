@@ -37,85 +37,43 @@
   </fieldset>
 
   <fieldset>
-    <div class="form-field">
-      <label tuiLabel>
-        <span>
-          Driver loyalty
-          <tui-icon [tuiTooltip]="loyaltyTooltip" />
-        </span>
-        <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formField]="teamForm.driver_loyalty" />
-        </tui-textfield>
-      </label>
-      <tui-error [formField]="teamForm.driver_loyalty" />
-    </div>
+    <app-percent-input
+      title="Driver loyalty"
+      [formField]="teamForm.driver_loyalty"
+      [tooltip]="loyaltyTooltip"
+    />
 
-    <div class="form-field">
-      <label tuiLabel>
-        <span>
-          Expectation level
-          <tui-icon [tuiTooltip]="expectationLevelTooltip" />
-        </span>
-        <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formField]="teamForm.expectation_level" />
-        </tui-textfield>
-      </label>
-      <tui-error [formField]="teamForm.expectation_level" />
-    </div>
+    <app-percent-input
+      title="Expectation level"
+      [formField]="teamForm.expectation_level"
+      [tooltip]="expectationLevelTooltip"
+    />
 
-    <div class="form-field">
-      <label tuiLabel>
-        <span>
-          Performance rating
-          <tui-icon [tuiTooltip]="performanceRatingTooltip" />
-        </span>
-        <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formField]="teamForm.performance_rating" />
-        </tui-textfield>
-      </label>
-      <tui-error [formField]="teamForm.performance_rating" />
-    </div>
+    <app-percent-input
+      title="Performance rating"
+      [formField]="teamForm.performance_rating"
+      [tooltip]="performanceRatingTooltip"
+    />
   </fieldset>
 
   <fieldset>
-    <div class="form-field">
-      <label tuiLabel>
-        <span>
-          Engineering weight
-          <tui-icon [tuiTooltip]="engineeringTooltip" />
-        </span>
-        <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formField]="teamForm.engineering_weight" />
-        </tui-textfield>
-      </label>
-      <tui-error [formField]="teamForm.engineering_weight" />
-    </div>
+    <app-percent-input
+      title="Engineering weight"
+      [formField]="teamForm.engineering_weight"
+      [tooltip]="engineeringTooltip"
+    />
 
-    <div class="form-field">
-      <label tuiLabel>
-        <span>
-          Engineering drag
-          <tui-icon [tuiTooltip]="engineeringTooltip" />
-        </span>
-        <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formField]="teamForm.engineering_drag" />
-        </tui-textfield>
-      </label>
-      <tui-error [formField]="teamForm.engineering_drag" />
-    </div>
+    <app-percent-input
+      title="Engineering drag"
+      [formField]="teamForm.engineering_drag"
+      [tooltip]="engineeringTooltip"
+    />
 
-    <div class="form-field">
-      <label tuiLabel>
-        <span>
-          Engineering power
-          <tui-icon [tuiTooltip]="engineeringTooltip" />
-        </span>
-        <tui-textfield tuiTextfieldSize="m">
-          <input tuiInputNumber [formField]="teamForm.engineering_power" />
-        </tui-textfield>
-      </label>
-      <tui-error [formField]="teamForm.engineering_power" />
-    </div>
+    <app-percent-input
+      title="Engineering power"
+      [formField]="teamForm.engineering_power"
+      [tooltip]="engineeringTooltip"
+    />
   </fieldset>
 
   <button tuiButton type="submit" size="m" [disabled]="teamForm().invalid()">Save</button>

@@ -9,8 +9,8 @@
   Back
 </a>
 
-@let form = formManager.form;
-<form tuiForm [formGroup]="form" (submit)="save()">
+@let form = formManager.driverForm;
+<form tuiForm [formRoot]="form">
   <header tuiHeader>
     <h1 tuiTitle="l">{{ pageTitle() }}</h1>
   </header>
@@ -24,38 +24,38 @@
       <label tuiLabel>
         Name
         <tui-textfield>
-          <input tuiInput placeholder="John" [formControl]="form.controls.name" />
+          <input tuiInput placeholder="John" [formField]="form.name" />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="form.controls.name" />
+      <tui-error [formField]="form.name" />
     </div>
 
     <div class="form-field">
       <label tuiLabel>
         Surname
         <tui-textfield>
-          <input tuiInput placeholder="Smith" [formControl]="form.controls.surname" />
+          <input tuiInput placeholder="Smith" [formField]="form.surname" />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="form.controls.surname" />
+      <tui-error [formField]="form.surname" />
     </div>
 
     <div class="form-field">
       <label tuiLabel>
         Date of birth
         <tui-textfield>
-          <input tuiInputDate placeholder="1990-01-01" [formControl]="form.controls.dob" />
+          <input tuiInputDate placeholder="1990-01-01" [formField]="form.dob" />
           <tui-calendar *tuiDropdown />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="form.controls.dob" />
+      <tui-error [formField]="form.dob" />
     </div>
 
     <div class="form-field">
       <label tuiLabel>
         Country
         <tui-textfield tuiChevron [stringify]="stringifyCountry">
-          <input tuiComboBox placeholder="France" [formControl]="form.controls.country" />
+          <input tuiComboBox placeholder="France" [formField]="form.country" />
           <tui-data-list *tuiDropdown>
             @let countryItems = COUNTRIES | tuiFilterByInput: filterCountryByInput;
 
@@ -82,12 +82,12 @@
           </tui-data-list>
         </tui-textfield>
       </label>
-      <tui-error [formControl]="form.controls.country" />
+      <tui-error [formField]="form.country" />
     </div>
 
     <app-percent-input
       title="Team loyalty"
-      [formControl]="form.controls.team_loyalty"
+      [formField]="form.team_loyalty"
       [tooltip]="teamLoyaltyTooltip"
       size="l"
     />
@@ -101,10 +101,10 @@
           <tui-icon [tuiTooltip]="eloTooltip" />
         </span>
         <tui-textfield>
-          <input tuiInputNumber placeholder="1000" [formControl]="form.controls.elo" />
+          <input tuiInputNumber placeholder="1000" [formField]="form.elo" />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="form.controls.elo" />
+      <tui-error [formField]="form.elo" />
     </div>
 
     <div class="level-gen">
@@ -137,21 +137,21 @@
       <label tuiLabel>
         Championship
         <tui-textfield tuiChevron [tuiTextfieldCleaner]="false">
-          <input tuiComboBox [formControl]="form.controls.championship_name" />
+          <input tuiComboBox [formField]="form.championship_name" />
           <tui-data-list-wrapper
             *tuiDropdown
             [items]="formManager.championshipOptions() | tuiFilterByInput"
           />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="form.controls.championship_name" />
+      <tui-error [formField]="form.championship_name" />
     </div>
 
     <div class="form-field">
       <label tuiLabel>
         Category
         <tui-textfield tuiChevron [tuiTextfieldCleaner]="false" [stringify]="stringifyCategory">
-          <input tuiComboBox [formControl]="form.controls.category" />
+          <input tuiComboBox [formField]="form.category" />
           <tui-data-list *tuiDropdown>
             @for (cat of formManager.categoryOptions() | tuiFilterByInput; track cat) {
               <button tuiOption type="button" [value]="cat">
@@ -166,7 +166,7 @@
           </tui-data-list>
         </tui-textfield>
       </label>
-      <tui-error [formControl]="form.controls.category" />
+      <tui-error [formField]="form.category" />
     </div>
   </fieldset>
   <fieldset>
@@ -174,14 +174,14 @@
       <label tuiLabel>
         Team
         <tui-textfield tuiChevron [tuiTextfieldCleaner]="false">
-          <input tuiComboBox [formControl]="form.controls.team_name" />
+          <input tuiComboBox [formField]="form.team_name" />
           <tui-data-list-wrapper
             *tuiDropdown
             [items]="formManager.teamOptions.value() | tuiFilterByInput"
           />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="form.controls.team_name" />
+      <tui-error [formField]="form.team_name" />
     </div>
 
     <div class="form-field">
@@ -191,11 +191,11 @@
           <tui-icon [tuiTooltip]="endYearTooltip" />
         </span>
         <tui-textfield>
-          <input tuiInputYear placeholder="End year" [formControl]="form.controls.end_year" />
+          <input tuiInputYear placeholder="End year" [formField]="form.end_year" />
           <tui-calendar-year *tuiDropdown />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="form.controls.end_year" />
+      <tui-error [formField]="form.end_year" />
     </div>
 
     <div class="form-field">
@@ -208,14 +208,14 @@
           <input
             tuiInputNumber
             placeholder="1st"
-            [formControl]="form.controls.expected_standing"
-            [postfix]="form.controls.expected_standing.value | ordinal: true"
+            [formField]="form.expected_standing"
+            [postfix]="form.expected_standing().value() | ordinal: true"
             [step]="1"
             [min]="1"
           />
         </tui-textfield>
       </label>
-      <tui-error [formControl]="form.controls.expected_standing" />
+      <tui-error [formField]="form.expected_standing" />
     </div>
   </fieldset>
 
@@ -247,53 +247,44 @@
   </section>
 
   <fieldset>
-    <app-percent-input title="Race skill" [formControl]="form.controls.race_skill" />
+    <app-percent-input title="Race skill" [formField]="form.race_skill" />
 
-    <app-percent-input title="Qualifying skill" [formControl]="form.controls.qualifying_skill" />
+    <app-percent-input title="Qualifying skill" [formField]="form.qualifying_skill" />
 
-    <app-percent-input title="Aggression" [formControl]="form.controls.aggression" />
+    <app-percent-input title="Aggression" [formField]="form.aggression" />
 
-    <app-percent-input title="Defending" [formControl]="form.controls.defending" />
+    <app-percent-input title="Defending" [formField]="form.defending" />
 
-    <app-percent-input title="Stamina" [formControl]="form.controls.stamina" />
+    <app-percent-input title="Stamina" [formField]="form.stamina" />
 
-    <app-percent-input title="Consistency" [formControl]="form.controls.consistency" />
+    <app-percent-input title="Consistency" [formField]="form.consistency" />
 
-    <app-percent-input title="Start reactions" [formControl]="form.controls.start_reactions" />
+    <app-percent-input title="Start reactions" [formField]="form.start_reactions" />
 
-    <app-percent-input title="Wet skill" [formControl]="form.controls.wet_skill" />
+    <app-percent-input title="Wet skill" [formField]="form.wet_skill" />
 
-    <app-percent-input title="Tyre management" [formControl]="form.controls.tyre_management" />
+    <app-percent-input title="Tyre management" [formField]="form.tyre_management" />
 
-    <app-percent-input title="Fuel management" [formControl]="form.controls.fuel_management" />
+    <app-percent-input title="Fuel management" [formField]="form.fuel_management" />
 
-    <app-percent-input
-      title="Blue flag conceding"
-      [formControl]="form.controls.blue_flag_conceding"
-    />
+    <app-percent-input title="Blue flag conceding" [formField]="form.blue_flag_conceding" />
 
-    <app-percent-input
-      title="Weather tyre changes"
-      [formControl]="form.controls.weather_tyre_changes"
-    />
+    <app-percent-input title="Weather tyre changes" [formField]="form.weather_tyre_changes" />
 
-    <app-percent-input
-      title="Avoidance of mistakes"
-      [formControl]="form.controls.avoidance_of_mistakes"
-    />
+    <app-percent-input title="Avoidance of mistakes" [formField]="form.avoidance_of_mistakes" />
 
     <app-percent-input
       title="Avoidance of forced mistakes"
-      [formControl]="form.controls.avoidance_of_forced_mistakes"
+      [formField]="form.avoidance_of_forced_mistakes"
     />
 
-    <app-percent-input title="Setup downforce" [formControl]="form.controls.setup_downforce" />
+    <app-percent-input title="Setup downforce" [formField]="form.setup_downforce" />
 
     <app-percent-input
       title="Setup downforce randomness"
-      [formControl]="form.controls.setup_downforce_randomness"
+      [formField]="form.setup_downforce_randomness"
     />
   </fieldset>
 
-  <button tuiButton type="submit" size="m" [disabled]="form.invalid">Save</button>
+  <button tuiButton type="submit" size="m" [disabled]="form().invalid()">Save</button>
 </form>

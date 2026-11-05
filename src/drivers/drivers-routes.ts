@@ -21,9 +21,6 @@ export default [
     path: 'form/:id',
     loadComponent: () => import('../drivers/form/driver-form'),
     canDeactivate: [canLeaveFormGuard],
-    resolve: {
-      driver: driverResolver,
-    },
   },
   { path: '**', redirectTo: '' },
 ] satisfies Routes;

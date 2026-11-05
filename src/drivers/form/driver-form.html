@@ -87,7 +87,7 @@
 
     <app-percent-input
       title="Team loyalty"
-      [control]="form.controls.team_loyalty"
+      [formControl]="form.controls.team_loyalty"
       [tooltip]="teamLoyaltyTooltip"
       size="l"
     />
@@ -247,48 +247,51 @@
   </section>
 
   <fieldset>
-    <app-percent-input title="Race skill" [control]="form.controls.race_skill" />
+    <app-percent-input title="Race skill" [formControl]="form.controls.race_skill" />
 
-    <app-percent-input title="Qualifying skill" [control]="form.controls.qualifying_skill" />
+    <app-percent-input title="Qualifying skill" [formControl]="form.controls.qualifying_skill" />
 
-    <app-percent-input title="Aggression" [control]="form.controls.aggression" />
+    <app-percent-input title="Aggression" [formControl]="form.controls.aggression" />
 
-    <app-percent-input title="Defending" [control]="form.controls.defending" />
+    <app-percent-input title="Defending" [formControl]="form.controls.defending" />
 
-    <app-percent-input title="Stamina" [control]="form.controls.stamina" />
+    <app-percent-input title="Stamina" [formControl]="form.controls.stamina" />
 
-    <app-percent-input title="Consistency" [control]="form.controls.consistency" />
+    <app-percent-input title="Consistency" [formControl]="form.controls.consistency" />
 
-    <app-percent-input title="Start reactions" [control]="form.controls.start_reactions" />
+    <app-percent-input title="Start reactions" [formControl]="form.controls.start_reactions" />
 
-    <app-percent-input title="Wet skill" [control]="form.controls.wet_skill" />
+    <app-percent-input title="Wet skill" [formControl]="form.controls.wet_skill" />
 
-    <app-percent-input title="Tyre management" [control]="form.controls.tyre_management" />
+    <app-percent-input title="Tyre management" [formControl]="form.controls.tyre_management" />
 
-    <app-percent-input title="Fuel management" [control]="form.controls.fuel_management" />
+    <app-percent-input title="Fuel management" [formControl]="form.controls.fuel_management" />
 
-    <app-percent-input title="Blue flag conceding" [control]="form.controls.blue_flag_conceding" />
+    <app-percent-input
+      title="Blue flag conceding"
+      [formControl]="form.controls.blue_flag_conceding"
+    />
 
     <app-percent-input
       title="Weather tyre changes"
-      [control]="form.controls.weather_tyre_changes"
+      [formControl]="form.controls.weather_tyre_changes"
     />
 
     <app-percent-input
       title="Avoidance of mistakes"
-      [control]="form.controls.avoidance_of_mistakes"
+      [formControl]="form.controls.avoidance_of_mistakes"
     />
 
     <app-percent-input
       title="Avoidance of forced mistakes"
-      [control]="form.controls.avoidance_of_forced_mistakes"
+      [formControl]="form.controls.avoidance_of_forced_mistakes"
     />
 
-    <app-percent-input title="Setup downforce" [control]="form.controls.setup_downforce" />
+    <app-percent-input title="Setup downforce" [formControl]="form.controls.setup_downforce" />
 
     <app-percent-input
       title="Setup downforce randomness"
-      [control]="form.controls.setup_downforce_randomness"
+      [formControl]="form.controls.setup_downforce_randomness"
     />
   </fieldset>
 

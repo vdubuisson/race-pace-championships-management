@@ -12,12 +12,15 @@
         [min]="0"
         [max]="100"
         [step]="1"
+        [(ngModel)]="value"
+        [ngModelOptions]="{ standalone: true }"
         postfix="%"
         placeholder="0%"
-        [formControl]="control()"
       />
       <input tuiSlider type="range" />
     </tui-textfield>
   </label>
-  <tui-error [formControl]="control()" />
+  @for (error of errors(); track error) {
+    <tui-error [error]="error.message!" />
+  }
 </div>

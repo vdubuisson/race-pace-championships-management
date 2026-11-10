@@ -1,0 +1,258 @@
+<header tuiHeader="h3" class="page-header">
+  <h1 tuiTitle>How to use this app</h1>
+</header>
+
+<tui-accordion tuiConnected class="steps-accordion">
+  <button tuiAccordion appearance="icon">
+    <div tuiAvatar="@tui.import"></div>
+    <h2 tuiTitle>
+      <strong>Import</strong>
+      <span tuiSubtitle>Importing existing championships</span>
+    </h2>
+  </button>
+  <tui-expand>
+    <p>
+      If you want to create your own championships from scratch, you can directly go to the
+      "Championships" section.
+    </p>
+
+    <p>If you want to import already existing championships, head to the "Import" page.</p>
+
+    <tui-accordion tuiConnected class="steps-accordion">
+      <button tuiAccordion appearance="icon">
+        <div tuiAvatar="1"></div>
+        Import page
+      </button>
+      <tui-expand>
+        <p>This page allows you to import championships from various sources:</p>
+
+        <img
+          class="page-img"
+          ngSrc="guide-images/import-page.png"
+          alt="Import page"
+          height="598"
+          width="1620"
+        />
+
+        <p>On this page you can:</p>
+        <ol>
+          <li>
+            <b>Import Race Pace original:</b> This button allows you to import the championships
+            available in the Race Pace application.
+          </li>
+          <li>
+            <b>Import Blitzer without mods:</b> This button allows you to import the Blitzer's
+            custom championships which does not use any mod.
+          </li>
+          <li>
+            <b>Import Blitzer with mods:</b> This button allows you to import the Blitzer's custom
+            championships which use mods.
+          </li>
+          <li>
+            <b>Import custom championships:</b> This section allows you to import your own custom
+            championships. In this section, you can either import your championships' files as CSV
+            files or directly packaged as a ZIP file. In addition to the required championships
+            files, you can also import a drivers.csv file, either as a separate CSV file or included
+            within the ZIP package.
+          </li>
+        </ol>
+      </tui-expand>
+
+      <button tuiAccordion appearance="icon">
+        <div tuiAvatar="2"></div>
+        Import process - championships step
+      </button>
+      <tui-expand>
+        <p>
+          Once you chose your source, you will be led to a 3-step import process to precisely select
+          what you want to import from this source.
+        </p>
+
+        <img
+          class="page-img"
+          ngSrc="guide-images/import-championship-step.png"
+          alt="Import championships step"
+          height="793"
+          width="1805"
+        />
+
+        <p>
+          In this step, you can choose which championships you want to import from the source.
+          <br />
+          The table lists every championship available for import, one per row. You can select the
+          championships you want to import by checking the corresponding checkboxes, or simply check
+          the box at the top to select all championships at once. You can also filter the
+          championships by using the filters at the top of the table. In this case, only the
+          championships matching the filter criteria will be displayed and selected for import.
+          <br />
+          If a championship from the source conflicts with a championship already loaded in your
+          browser, the row in the table will be displayed in yellow. In this case, you can expand
+          the row to see some details of the already loaded championship in red. This can help you
+          choose whether you want to import the new championship or not.
+        </p>
+
+        <p>When you are done, you can proceed to the next step.</p>
+      </tui-expand>
+
+      <button tuiAccordion appearance="icon">
+        <div tuiAvatar="3"></div>
+        Import process - teams step
+      </button>
+      <tui-expand>
+        <img
+          class="page-img"
+          ngSrc="guide-images/import-teams-step.png"
+          alt="Import teams step"
+          height="562"
+          width="1803"
+        />
+
+        <p>
+          In this step, you can choose which teams you want to import from the source.
+          <br />
+          The process is the same as the championship step, where you can select the teams you want
+          to import and see the conflicts with already loaded teams.
+          <br />
+          The teams participating in the championships you selected in the previous step are
+          automatically selected.
+        </p>
+
+        <p>When you are done, you can proceed to the next step.</p>
+      </tui-expand>
+
+      <button tuiAccordion appearance="icon">
+        <div tuiAvatar="4"></div>
+        Import process - drivers step
+      </button>
+      <tui-expand>
+        <img
+          class="page-img"
+          ngSrc="guide-images/import-drivers-step.png"
+          alt="Import drivers step"
+          height="565"
+          width="1813"
+        />
+
+        <p>
+          In this step, you can choose which drivers you want to import from the source.
+          <br />
+          The process is the same as the previous steps, where you can select the drivers you want
+          to import.
+        </p>
+
+        <p>
+          When you are done, you can proceed by clicking the <b>"Import"</b> button at the bottom of
+          the page.
+        </p>
+      </tui-expand>
+
+      <button tuiAccordion appearance="icon">
+        <div tuiAvatar="5"></div>
+        Import process - confirmation popup
+      </button>
+      <tui-expand>
+        <img
+          class="page-img"
+          ngSrc="guide-images/import-confirmation.png"
+          alt="Import confirmation"
+          height="263"
+          width="603"
+        />
+
+        <p>
+          After clicking "Import", you are presented with a confirmation popup to choose the type of
+          import you want to perform.
+        </p>
+
+        <p>There are 2 types of import you can choose from:</p>
+        <ul>
+          <li>
+            <b>Import with keeping:</b> The championships, teams, and drivers you already have
+            loaded are kept, and the elements you selected for import are loaded alongside them. If
+            you selected conflicting elements, they will replace the existing ones.
+          </li>
+          <li>
+            <b>Import with overwrite:</b> The championships, teams, and drivers you already have
+            loaded are deleted and fully replaced with the elements you selected for import.
+          </li>
+        </ul>
+
+        <p>
+          Choose the import type that best suits your needs and confirm the action to proceed with
+          the import process.
+        </p>
+      </tui-expand>
+    </tui-accordion>
+  </tui-expand>
+
+  <button tuiAccordion appearance="icon">
+    <div tuiAvatar="@tui.trophy"></div>
+    <h2 tuiTitle>
+      <strong>Championships</strong>
+      <span tuiSubtitle>Viewing, creating, editing and deleting championships</span>
+    </h2>
+  </button>
+  <tui-expand>
+    <p>To view, create, edit or delete championships, head to the "Championships" page.</p>
+
+    <tui-accordion tuiConnected class="steps-accordion">
+      <button tuiAccordion appearance="icon">
+        <div tuiAvatar="@tui.list"></div>
+        Championships list
+      </button>
+      <tui-expand>
+        <img
+          class="page-img"
+          ngSrc="guide-images/championships-list.png"
+          alt="Championships list"
+          height="647"
+          width="1795"
+        />
+      </tui-expand>
+
+      <button tuiAccordion appearance="icon">
+        <div tuiAvatar="@tui.eye"></div>
+        Championships details
+      </button>
+      <tui-expand>
+        <tui-accordion tuiConnected class="steps-accordion">
+          <button tuiAccordion appearance="icon">
+            <div tuiAvatar="@tui.info"></div>
+            Global
+          </button>
+          <tui-expand> </tui-expand>
+
+          <button tuiAccordion appearance="icon">
+            <div tuiAvatar="@tui.calendars"></div>
+            Events
+          </button>
+          <tui-expand></tui-expand>
+
+          <button tuiAccordion appearance="icon">
+            <div tuiAvatar="@tui.car"></div>
+            Cars
+          </button>
+          <tui-expand></tui-expand>
+
+          <button tuiAccordion appearance="icon">
+            <div tuiAvatar="@tui.ticket-plus"></div>
+            Invitational cars
+          </button>
+          <tui-expand></tui-expand>
+
+          <button tuiAccordion appearance="icon">
+            <div tuiAvatar="@tui.id-card-lanyard"></div>
+            Drivers
+          </button>
+          <tui-expand></tui-expand>
+        </tui-accordion>
+      </tui-expand>
+
+      <button tuiAccordion appearance="icon">
+        <div tuiAvatar="@tui.pencil"></div>
+        Championships creation/editing
+      </button>
+      <tui-expand></tui-expand>
+    </tui-accordion>
+  </tui-expand>
+</tui-accordion>

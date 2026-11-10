@@ -1,0 +1,23 @@
+.page-header {
+  margin-bottom: 1rem;
+}
+
+.page-img {
+  width: fit-content;
+  max-width: 80%;
+  height: auto;
+  border: 1px solid var(--tui-border-normal);
+  box-shadow: var(--tui-shadow-small);
+  margin-left: 2rem;
+}
+
+.steps-accordion {
+  [tuiAccordion] {
+    padding: 0;
+  }
+
+  tui-expand {
+    box-shadow: none;
+    padding: 0;
+  }
+}

@@ -1,0 +1,1 @@
+import{sr as kt,y as E}from"./chunk-BB_RfNst.js";import{t as Pr}from"./chunk-aS2AohQG.js";var a=class e{store=E(Pr).models;async getAllModels(){return this.store.toArray()}async getModelsByClasses(r){return this.store.where(`class`).anyOf(r).toArray()}static ɵfac=function(i){return new(i||e)};static ɵprov=kt({token:e,factory:e.ɵfac})};export{a as t};

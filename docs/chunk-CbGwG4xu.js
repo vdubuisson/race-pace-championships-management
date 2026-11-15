@@ -1,0 +1,1 @@
+import{Mn as eb,y as E}from"./chunk-BB_RfNst.js";import{t as a$1}from"./chunk-CBmUqrB0.js";var a=class e{vehicleClassUtils=E(a$1);transform(i){return this.vehicleClassUtils.getIsVehicleClassMod(i)}static ɵfac=function(l){return new(l||e)};static ɵpipe=eb({name:`vehicleClassMod`,type:e,pure:!1})};export{a as t};

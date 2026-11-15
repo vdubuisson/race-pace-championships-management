@@ -39,6 +39,11 @@
   }
 }
 
+.help {
+  display: flex;
+  margin-top: 2rem;
+}
+
 .separator {
   height: 1px;
   width: 70%;
@@ -49,6 +54,12 @@
   .actions {
     flex-direction: row;
     align-items: stretch;
+  }
+
+  .help {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
   }
 
   .separator {

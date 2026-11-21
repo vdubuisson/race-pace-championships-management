@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="34" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="AMG Motorsport #35" />
+    <NAME LIVERY="52" NAME="AMG Motorsport #38" />
+    <NAME LIVERY="53" NAME="Team AMG Motorsport #35" />
+    <NAME LIVERY="54" NAME="Team AMG Motorsport #11" />
+    <NAME LIVERY="71" NAME="Rollins Motorsport #26" />
+    <NAME LIVERY="72" NAME="Rollins Motorsport #27" />
+    <NAME LIVERY="73" NAME="Zectrol Racing Team #36" />
+    <NAME LIVERY="74" NAME="Zectrol racing Team #37" />
+    <NAME LIVERY="75" NAME="Karsten Rennsport #12" />
+    <NAME LIVERY="76" NAME="Karsten Rennsport #13" />
+    <NAME LIVERY="77" NAME="Team Millgo #53" />
+    <NAME LIVERY="78" NAME="Team Millgo #54" />
+    <NAME LIVERY="79" NAME="Mixlub Racing #82" />
+    <NAME LIVERY="80" NAME="Mixlub Racing #83" />
+    <NAME LIVERY="81" NAME="Blattgold Motorsport #21" />
+    <NAME LIVERY="82" NAME="Blattgold Motorsport #22" />
+    <NAME LIVERY="101" NAME="Forpi Racing Team #24" />
+    <NAME LIVERY="102" NAME="Forpi Racing Team #25" />
+    <NAME LIVERY="103" NAME="Clark Motor Services #18" />
+    <NAME LIVERY="104" NAME="Clark Motor Services #19" />
+    <NAME LIVERY="105" NAME="Biffs Racing #15" />
+    <NAME LIVERY="106" NAME="Biffs Racing #16" />
+    <NAME LIVERY="107" NAME="Kings Motor Racing Team #32" />
+    <NAME LIVERY="108" NAME="Kings Motor Racing Team #33" />
+    <NAME LIVERY="109" NAME="Jeschke Motorsport #8" />
+    <NAME LIVERY="110" NAME="Jeschke Motorsport #9" />
+    <NAME LIVERY="111" NAME="Jack Tirbnos Team #78" />
+    <NAME LIVERY="112" NAME="Jack Tirbnos Team #79" />
+    <NAME LIVERY="113" NAME="Gerstenfelder Motorsport #30" />
+    <NAME LIVERY="114" NAME="Gerstenfelder Motorsport #31" />
+    <NAME LIVERY="115" NAME="Zipanol Racing Team #50" />
+    <NAME LIVERY="116" NAME="Zipanol Racing Team #51" />
+    <NAME LIVERY="117" NAME="Hartberg Rennsport #1" />
+    <NAME LIVERY="118" NAME="Hartberg Rennsport #2" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="3" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_tire_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery18.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery19.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery20.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery21.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery22.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="79">
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint_cpit" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery29.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_spec_01.dds" />
+    <REPLACE MATERIAL="MERC_300SEL_PAINT" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="TC71_MERCEDES_300SEL_AMG_7D77A39F74F2" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="MERC_300SEL_PAINT_CPIT" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="MERC_300SEL_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="TC71_MERCEDES_300SEL_AMG_DE254C85B9A6" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="80">
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint_cpit" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery30.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_black_spec_01.dds" />
+    <REPLACE MATERIAL="MERC_300SEL_PAINT" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="TC71_MERCEDES_300SEL_AMG_7D77A39F74F2" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="MERC_300SEL_PAINT_CPIT" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="MERC_300SEL_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="TC71_MERCEDES_300SEL_AMG_DE254C85B9A6" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="81">
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint_cpit" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery33.dds" />
+    <REPLACE MATERIAL="MERC_300SEL_PAINT" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="TC71_MERCEDES_300SEL_AMG_7D77A39F74F2" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="MERC_300SEL_PAINT_CPIT" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="MERC_300SEL_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="TC71_MERCEDES_300SEL_AMG_DE254C85B9A6" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="82">
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint_cpit" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tc71_mercedes_300sel_amg\merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\liveries\merc_300sel_livery34.dds" />
+    <REPLACE MATERIAL="MERC_300SEL_PAINT" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="TC71_MERCEDES_300SEL_AMG_7D77A39F74F2" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="MERC_300SEL_PAINT_CPIT" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="MERC_300SEL_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="TC71_MERCEDES_300SEL_AMG_DE254C85B9A6" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="merc_300sel_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit_skin" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/tc71_mercedes_300sel_amg/merc_300sel_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tc71_mercedes_300sel_amg\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_dunlop_vintage_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\tread_firestone_indy65b_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="101">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery05.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="102">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery06.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="103">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="104">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="105">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery11.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="106">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery12.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="107">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery13.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery13.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="108">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery14.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="109">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="110">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="111">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery23.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery23.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="112">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery24.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery24.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="113">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery25.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery25.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="114">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery26.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery26.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="115">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery27.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery27.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="116">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery28.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery28.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="117">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery31.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery31.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="118">
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery32.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\liveries\merc_300sel_livery32.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_diff_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_00.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_spec_01.dds" NEWTEXTURE="vehicles\tc71_mercedes_300sel_amg\shared\pc2\textures\merc_300sel_wheel_black_spec_01.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

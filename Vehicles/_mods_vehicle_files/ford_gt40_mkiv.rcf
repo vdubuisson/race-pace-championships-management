@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="30" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="Shelby American Inc. #1" />
+    <NAME LIVERY="52" NAME="Shelby American Inc. #2" />
+    <NAME LIVERY="53" NAME="Holman and Moody #3" />
+    <NAME LIVERY="54" NAME="Holman and Moody #4" />
+    <NAME LIVERY="71" NAME="Team V8 Regular #8" />
+    <NAME LIVERY="72" NAME="Team V8 Regular #9" />
+    <NAME LIVERY="73" NAME="Oilzanol Racing #37" />
+    <NAME LIVERY="74" NAME="Oilzanol Racing #38" />
+    <NAME LIVERY="75" NAME="Flak Motorsports #19" />
+    <NAME LIVERY="76" NAME="Flak Motorsports #20" />
+    <NAME LIVERY="77" NAME="Mixlub Racing Team #21" />
+    <NAME LIVERY="78" NAME="Mixlub Racing Team #22" />
+    <NAME LIVERY="79" NAME="Team Pedace #5" />
+    <NAME LIVERY="80" NAME="Team Pedace #6" />
+    <NAME LIVERY="81" NAME="Nillors Team #33" />
+    <NAME LIVERY="82" NAME="Nillors Team #34" />
+    <NAME LIVERY="83" NAME="Equipe Bouchard #25" />
+    <NAME LIVERY="84" NAME="Equipe Bouchard #26" />
+    <NAME LIVERY="85" NAME="Arnao Racing #50" />
+    <NAME LIVERY="86" NAME="Arnao Racing #51" />
+    <NAME LIVERY="101" NAME="Team Pedace #17" />
+    <NAME LIVERY="102" NAME="Team Pedace #18" />
+    <NAME LIVERY="103" NAME="Arbet Motor Racing #29" />
+    <NAME LIVERY="104" NAME="Arbet Motot Racing #30" />
+    <NAME LIVERY="105" NAME="Shield Racing Team #23" />
+    <NAME LIVERY="106" NAME="Shield Racing Team #24" />
+    <NAME LIVERY="107" NAME="HXC Motors #73" />
+    <NAME LIVERY="108" NAME="HXC Motors #74" />
+    <NAME LIVERY="109" NAME="Wakeman Racing #71" />
+    <NAME LIVERY="110" NAME="Wakeman Racing #72" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_gt40_03.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_skin" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_gt40_03_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_cpit" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_gt40_03_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_cpit_skin" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_gt40_03_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery03.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_gt40_04.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_skin" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_gt40_04_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_cpit" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_gt40_04_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_cpit_skin" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_gt40_04_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery04.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tire_goodyear_lm67_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery05.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery06.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery07.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_diff_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_diff_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_spec_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_spec_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery09.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery10.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_skin" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_cpit" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_cpit_skin" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_diff_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_diff_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_spec_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_spec_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_skin" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_cpit" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_cpit_skin" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_diff_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_diff_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_spec_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_spec_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="79">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery13.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_diff_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_diff_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_spec_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_spec_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_gold_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="80">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery14.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="81">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery21.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="82">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery22.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="83">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery25.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="84">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery26.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="85">
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_skin" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_cpit" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_cpit_skin" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery29.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="86">
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_skin" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_cpit" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_gt40_mkiv\ford_mkiv_paint_cpit_skin" NEWMATERIAL="vehicles\ford_gt40_mkiv\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\liveries\ford_gt40_mkiv_livery30.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_norm_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="101">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\liveries\ford_gt40_mkiv_livery15.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="102">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\liveries\ford_gt40_mkiv_livery16.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="103">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\liveries\ford_gt40_mkiv_livery17.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="104">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\liveries\ford_gt40_mkiv_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_diff_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\ford_gt40_wheel_gold_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_diff_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\ford_gt40_wheel_gold_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_spec_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\ford_gt40_wheel_gold_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_spec_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\ford_gt40_wheel_gold_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="105">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\liveries\ford_gt40_mkiv_livery19.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="106">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\liveries\ford_gt40_mkiv_livery20.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="107">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\liveries\ford_gt40_mkiv_livery23.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="108">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\liveries\ford_gt40_mkiv_livery24.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_diff_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\ford_gt40_wheel_gold_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_diff_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\ford_gt40_wheel_gold_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_spec_00.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\ford_gt40_wheel_gold_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\ford_gt40_wheel_spec_01.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\ford_gt40_wheel_gold_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="109">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\liveries\ford_gt40_mkiv_livery27.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="110">
+    <REPLACE TEXTURE="vehicles\ford_gt40_mkiv\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_gt40_mkiv\pc2\textures\liveries\ford_gt40_mkiv_livery28.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

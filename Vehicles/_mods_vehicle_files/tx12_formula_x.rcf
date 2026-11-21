@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="24" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="Monster Energy Team #23" />
+    <NAME LIVERY="52" NAME="Monster Energy Team #24" />
+    <NAME LIVERY="53" NAME="Yokohama Advan Racing #3" />
+    <NAME LIVERY="54" NAME="Yokohama Advan Racing #4" />
+    <NAME LIVERY="55" NAME="Ebblix Racing Team #1" />
+    <NAME LIVERY="56" NAME="Ebblix Racing Team #2" />
+    <NAME LIVERY="57" NAME="Rotmeg Performance #5" />
+    <NAME LIVERY="58" NAME="Rotmeg Performance #6" />
+    <NAME LIVERY="59" NAME="A-PEX Autosports #7" />
+    <NAME LIVERY="60" NAME="A-PEX Autosports #8" />
+    <NAME LIVERY="61" NAME="Machuca Motorsport #9" />
+    <NAME LIVERY="62" NAME="Machuca Motorsport #10" />
+    <NAME LIVERY="63" NAME="Petroblast Racing Team #11" />
+    <NAME LIVERY="64" NAME="Petroblast Racing Team #12" />
+    <NAME LIVERY="65" NAME="Hiramashi Motorsport #26" />
+    <NAME LIVERY="66" NAME="Hiramashi Motorsport #27" />
+    <NAME LIVERY="67" NAME="Molla Racing Team #16" />
+    <NAME LIVERY="68" NAME="Molla Racing Team #17" />
+    <NAME LIVERY="69" NAME="Britgens Racing #33" />
+    <NAME LIVERY="70" NAME="Britgens Racing #34" />
+    <NAME LIVERY="71" NAME="Demonio Energy Team #73" />
+    <NAME LIVERY="72" NAME="Demonio Energy Team #74" />
+    <NAME LIVERY="73" NAME="Beran Racing Team #14" />
+    <NAME LIVERY="74" NAME="Beran Racing Team #15" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery23.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery23_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery24.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery24_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery03.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery04.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="55">
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_standard_paint_chrome.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_standard_paint_chrome_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery01_fresnel.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="56">
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery01_fresnel.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_x4_01.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_x4_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_x4_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_x4_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\audi_a4_dtm_livery01.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery05.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_x4_01.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_x4_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_x4_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_x4_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\audi_a4_dtm_livery01.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery06.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery07.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="60">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery09.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="62">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery10.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="63">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery11.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="64">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery12.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="65">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery13.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="66">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery14.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="67">
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_amg_gt3_01.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_amg_gt3_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_amg_gt3_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_amg_gt3_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery15.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="68">
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_amg_gt3_01.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_amg_gt3_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_amg_gt3_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_formula_x\formulax_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_formula_x\shared\_generic_materials\livery_amg_gt3_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery16.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="69">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery17.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="70">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery18.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery19.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery20.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery21.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\liveries\formula_x_livery22.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_rain_01b_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_rain_01b_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_rain_01b_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_rain_01b_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_rain_01b_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_rain_01b_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\formula_x_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\common_body_snow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_formula_x\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_formula_x\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

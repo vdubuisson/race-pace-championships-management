@@ -2,29 +2,34 @@
 <REPLACEMENT_SYSTEM>
 	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
 	<INPUTS>
-		<INPUT NAME="LIVERY" OPTIONS="16" />
+		<INPUT NAME="LIVERY" OPTIONS="20" />
 		<INPUT NAME="TIRE" OPTIONS="6" />
 		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
 	</INPUTS>
 
 	<NAMES INPUT ="LIVERY">
-		<NAME LIVERY="51" NAME="Tommy Kendall Allsport #11" />
-		<NAME LIVERY="52" NAME="Brian Simo Valvoline #22" />
-		<NAME LIVERY="53" NAME="Jon Gooding Mountain Dew #116" />
-		<NAME LIVERY="54" NAME="Ron Fellows AER #4" />
-		<NAME LIVERY="55" NAME="Roush Racing Whistler #9" />
-		<NAME LIVERY="56" NAME="Mike Borkowski Textron #4" />
-		<NAME LIVERY="57" NAME="Luis Mendez Racing #63" />
-		<NAME LIVERY="58" NAME="Simon Gregg #59" />
-		<NAME LIVERY="59" NAME="Ed Hinchcliff #29" />
-		<NAME LIVERY="60" NAME="Dorsey Schroeder Raybestos #12" />
-		<NAME LIVERY="61" NAME="Boris Said Eagle One #22" />
-		<NAME LIVERY="62" NAME="Tommy Archer Shellzone #3" />
-		<NAME LIVERY="63" NAME="Motorcraft Roush Protofab Racing #65" />
-		<NAME LIVERY="64" NAME="Lynn St.James Secret #34" />
-		<NAME LIVERY="65" NAME="Juan Dibos Yokohama Peru #6" />
-		<NAME LIVERY="66" NAME="Scott Maxwell Multimatic #27" />
-	</NAMES>	
+		<NAME LIVERY="51" NAME="HXC Equipment Team #8" />
+		<NAME LIVERY="52" NAME="HXC Equipment Team #9" />
+		<NAME LIVERY="53" NAME="Flak Motor Racing #10" />
+		<NAME LIVERY="54" NAME="Flak Motor Racing #11" />
+		<NAME LIVERY="55" NAME="Team Arbet Racing #21" />
+		<NAME LIVERY="56" NAME="Team Arbet Racing #22" />
+		<NAME LIVERY="57" NAME="Flynn Air Filters #23" />
+		<NAME LIVERY="58" NAME="Flynn Air Filters #24" />
+		<NAME LIVERY="59" NAME="Equipe Dambreville #26" />
+		<NAME LIVERY="60" NAME="Equipe Dambreville #27" />
+		<NAME LIVERY="61" NAME="Zipanol Motor Racing #31" />
+		<NAME LIVERY="62" NAME="Zipanol Motor Racing #32" />
+		<NAME LIVERY="63" NAME="Team Baysted Accoustics #33" />
+		<NAME LIVERY="64" NAME="Team Baysted Accoustics #34" />
+		<NAME LIVERY="65" NAME="Exta Auto Sports #45" />
+		<NAME LIVERY="66" NAME="Exta Auto Sports #46" />
+		<NAME LIVERY="67" NAME="Piston Motorsports #79" />
+		<NAME LIVERY="68" NAME="Piston Motorsports #78" />
+		<NAME LIVERY="69" NAME="Nalan Automatics #98" />
+		<NAME LIVERY="70" NAME="Nalan Automatics #99" />
+		<NAME LIVERY="99" NAME="Custom Livery" />
+	</NAMES>
 
 	<NAMES INPUT ="TIRE">
 		<NAME TIRE="1" NAME="Soft" />
@@ -125,17 +130,10 @@
 		<REPLACE TEXTURE="Vehicles\Textures\cob_scca_97\cob_scca_97_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\cob_scca_97_banner01.dds" />
 	</CONDITION>
 
-<CONDITION LIVERY="66">
-		<REPLACE MATERIAL="vehicles\ford_mustang_cobra_transam\cob_scca_97_paint" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10.mtx" />
-		<REPLACE MATERIAL="vehicles\ford_mustang_cobra_transam\cob_scca_97_paint_carbon" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10.mtx" />
-		<REPLACE MATERIAL="vehicles\ford_mustang_cobra_transam\cob_scca_97_paint_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin.mtx" />
-		<REPLACE MATERIAL="vehicles\ford_mustang_cobra_transam\cob_scca_97_paint_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autocpit.mtx" />
-		<REPLACE MATERIAL="vehicles\ford_mustang_cobra_transam\cob_scca_97_paint_carbon_cpit" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autocpit.mtx" />
-		<REPLACE MATERIAL="vehicles\ford_mustang_cobra_transam\cob_scca_97_paint_cpit_skin" NEWMATERIAL="Vehicles\_Generic_Materials\livery_lm11_10_autoskin_autocpit.mtx" />
-		<REPLACE TEXTURE="vehicles\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\textures\liveries\COB_SCCA_97_LIVERY16_HR.dds" />
-		<REPLACE TEXTURE="Vehicles\Textures\cob_scca_97\cob_scca_97_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\cob_scca_97\cob_scca_97_banner01.dds" />
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="Vehicles\Textures\cob_scca_97\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\COB_SCCA_97_LIVERY16_HR.dds" />
+		<REPLACE TEXTURE="Vehicles\Textures\cob_scca_97\cob_scca_97_banner_diff.dds" NEWTEXTURE="Vehicles\Textures\Liveries\cob_scca_97_banner01.dds" />
 	</CONDITION>
-	
 
 	<CONDITION LIVERY="67">
 		<REPLACE TEXTURE="Vehicles\Textures\cob_scca_97\COMMON_PAINT.dds" NEWTEXTURE="Vehicles\Textures\Liveries\COB_SCCA_97_LIVERY17_HR.dds" />

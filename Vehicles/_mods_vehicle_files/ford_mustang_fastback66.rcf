@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="40" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="1" NAME="Candy Apple Red" />
+    <NAME LIVERY="2" NAME="Springtime Yellow" />
+    <NAME LIVERY="3" NAME="Raven Black" />
+    <NAME LIVERY="4" NAME="Wimbledon White" />
+    <NAME LIVERY="5" NAME="Arcadian Blue" />
+    <NAME LIVERY="6" NAME="Sahara Beige" />
+    <NAME LIVERY="7" NAME="Signal Flare Red" />
+    <NAME LIVERY="8" NAME="Nightmist Blue" />
+    <NAME LIVERY="9" NAME="Vintage Burgundy" />
+    <NAME LIVERY="10" NAME="Antique Bronze Met." />
+    <NAME LIVERY="11" NAME="Ivy Green Met." />
+    <NAME LIVERY="12" NAME="Tahoe Turquoise Met." />
+    <NAME LIVERY="13" NAME="Emberglo Met." />
+    <NAME LIVERY="14" NAME="Silver Blue Met." />
+    <NAME LIVERY="15" NAME="Sauterne Gold Met." />
+    <NAME LIVERY="16" NAME="Silver Frost Met." />
+    <NAME LIVERY="17" NAME="Anniversary Gold Met." />
+    <NAME LIVERY="71" NAME="Livery 1" />
+    <NAME LIVERY="72" NAME="Livery 2" />
+    <NAME LIVERY="73" NAME="Livery 3" />
+    <NAME LIVERY="74" NAME="Livery 4" />
+    <NAME LIVERY="75" NAME="Livery 5" />
+    <NAME LIVERY="76" NAME="Livery 6" />
+    <NAME LIVERY="77" NAME="DLC Livery 1" />
+    <NAME LIVERY="78" NAME="DLC Livery 2" />
+    <NAME LIVERY="79" NAME="Light Blue Met. / Stripes (PC2, whitewalls)" />
+    <NAME LIVERY="80" NAME="Gold Met. / Stripes (PC2)" />
+    <NAME LIVERY="81" NAME="Burgundy / Stripes (PC2)" />
+    <NAME LIVERY="82" NAME="Orange / Stripes (PC2)" />
+    <NAME LIVERY="83" NAME="Green Apple / Stripes (PC2)" />
+    <NAME LIVERY="84" NAME="Dark Red Met. / Flames (PC2)" />
+    <NAME LIVERY="85" NAME="Cream / Stripes (PC2)" />
+    <NAME LIVERY="86" NAME="Dark Bronze Met. (PC2)" />
+    <NAME LIVERY="87" NAME="Dark Green Met. / Stripes (PC2)" />
+    <NAME LIVERY="88" NAME="Red / Stripes (PC2)" />
+    <NAME LIVERY="89" NAME="Dark Red Met. (PC2)" />
+    <NAME LIVERY="90" NAME="Yellow Met. / Stripes (PC2)" />
+    <NAME LIVERY="91" NAME="Green / Stripes (PC2)" />
+    <NAME LIVERY="92" NAME="Purple / Stripes (PC2)" />
+    <NAME LIVERY="93" NAME="Dark Blue / Bronze Met. (PC2)" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="3" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="1">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_candyapple_red.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_candyapple_red_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_candyapple_red_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_candyapple_red_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_1.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_springtime_yellow.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_springtime_yellow_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_springtime_yellow_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_springtime_yellow_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_2.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_black.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_black_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_black_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_black_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_3.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="4">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_wimbledon_white.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_wimbledon_white_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_wimbledon_white_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_wimbledon_white_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_8.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="5">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_arcadian_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_arcadian_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_arcadian_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_arcadian_blue_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_5.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="6">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_sahara_beige.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_sahara_beige_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_sahara_beige_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_sahara_beige_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_11.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="7">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_signalflare_red.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_signalflare_red_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_signalflare_red_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_signalflare_red_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_7.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="8">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_nightmist_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_nightmist_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_nightmist_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_nightmist_blue_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_4.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="9">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_vintage_burgundy.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_vintage_burgundy_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_vintage_burgundy_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_vintage_burgundy_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_9.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="10">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_antique_bronze.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_antique_bronze_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_antique_bronze_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_antique_bronze_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_10.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="11">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_ivy_green.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_ivy_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_ivy_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_ivy_green_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_6.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="12">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_tahoe_turquoise.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_tahoe_turquoise_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_tahoe_turquoise_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_tahoe_turquoise_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_12.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="13">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_emberglo.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_emberglo_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_emberglo_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_emberglo_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_13.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="14">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_silver_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_silver_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_silver_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_silver_blue_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_14.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="15">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_sauterne_gold.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_sauterne_gold_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_sauterne_gold_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_sauterne_gold_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_15.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="16">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_silver_frost.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_silver_frost_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_silver_frost_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_silver_frost_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_73.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="17">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_anniversary_gold.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_anniversary_gold_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_anniversary_gold_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\paint_ford_anniversary_gold_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_17.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\for_mus_f_66_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_76.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_zonda_14.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_zonda_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_zonda_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_zonda_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\pag_zr_livery14.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\for_mus_f_66_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_82.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\for_mus_f_66_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_16.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\for_mus_f_66_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_74.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\cat_r500_livery18.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\for_mus_f_66_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_75.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_gt40_04.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_gt40_04_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_gt40_04_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_gt40_04_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\ford_gt40_mkiv_livery04.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\for_mus_f_66_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_71.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\for_mus_f_66_livery21.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_77.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_dlc2.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_dlc2_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_dlc2_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_dlc2_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_78.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="79">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_52.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_52_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_52_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_52_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_79.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="80">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_53.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_53_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_53_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_53_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_80.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="81">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\m66_pc2_livery_54.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_81.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="82">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\m66_pc2_livery_55.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_72.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="83">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\m66_pc2_livery_57.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_88.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="84">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_59.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_59_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_59_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_59_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_84.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="85">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\m66_pc2_livery_60.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_85.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="86">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_61.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_61_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_61_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_61_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_86.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="87">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_63.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_63_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_63_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_63_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_87.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="88">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\m66_pc2_livery_64.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_83.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="89">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_65.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_65_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_65_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_65_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_89.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="90">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_66.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_66_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_66_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_66_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_91.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="91">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\liveries\m66_pc2_livery_67.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_90.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="92">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_69.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_69_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_69_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_69_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_92.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="93">
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_70.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_70_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_70_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_mustang_fastback66\for_mus_f_66_paint_cpit_skin" NEWMATERIAL="vehicles\ford_mustang_fastback66\shared\_generic_materials\m66_pc2_70_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tire_vintage02_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\plates\ford_mustang_fastback66_93.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\tread_firestone_f167_spec_01.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\for_mus_f_66_body_snow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ford_mustang_fastback66\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

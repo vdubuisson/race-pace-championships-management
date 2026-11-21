@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+
+	<CONFIG>
+		<ALLOWUSEROVERRIDES VALUE="1" />
+		<USEROVERRIDESFILE VALUE="Vehicles\Textures\CustomLiveries\Overrides\skoda_octavia_cup_2018\skoda_octavia_cup_2018.xml" />
+	</CONFIG>
+
+	<BASELIVERIES>
+		<BASELIVERY NAME="Default">
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NAME="BANNER" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="Matte">
+			<REPLACE MATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_karoseria" NEWMATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_karoseria_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_spz" NEWMATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_spz_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NAME="BANNER" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="Chrome">
+			<REPLACE MATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_karoseria" NEWMATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_karoseria_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_spz" NEWMATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_spz_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NAME="BANNER" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="GreenMetallic">
+			<REPLACE MATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_karoseria" NEWMATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_karoseria_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_spz" NEWMATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_spz_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NAME="BANNER" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="RedMetallic">
+			<REPLACE MATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_karoseria" NEWMATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_karoseria_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_spz" NEWMATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_spz_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NAME="BANNER" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="BlueMetallic">
+			<REPLACE MATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_karoseria" NEWMATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_karoseria_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_spz" NEWMATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_spz_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NAME="BANNER" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="SilverMetallic">
+			<REPLACE MATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_karoseria" NEWMATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_karoseria_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_spz" NEWMATERIAL="vehicles\skoda_octavia_cup_2018\oc18_ext_spz_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NAME="BANNER" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+	</BASELIVERIES>
+
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="35" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="11_tomas_pekar" />
+		<NAME LIVERY="52" NAME="Maciej Laszkiewicz 17" />
+		<NAME LIVERY="53" NAME="Maciej Laszkiewicz 17 Red Bull Ring" />
+		<NAME LIVERY="54" NAME="Martin Machala 18" />
+		<NAME LIVERY="55" NAME="18_machala" />
+		<NAME LIVERY="56" NAME="Martin Machala 18 Red Bull Ring" />
+		<NAME LIVERY="57" NAME="Petr Fulín 222" />
+		<NAME LIVERY="58" NAME="Jonas Karklys 22" />
+		<NAME LIVERY="59" NAME="Jonas Karklys 22 Red Bull Ring" />
+		<NAME LIVERY="60" NAME="Tereza Zajíčková 69" />
+		<NAME LIVERY="61" NAME="Tereza Zajíčková 69 Red Bull Ring" />
+		<NAME LIVERY="62" NAME="Petr ČÍŽEK 76" />
+		<NAME LIVERY="63" NAME="Petr ČÍŽEK 76 Red Bull Ring" />
+		<NAME LIVERY="64" NAME="Petr Fulín jr. 96" />
+		<NAME LIVERY="65" NAME="Petr Fulín jr. 96 Red Bull Ring" />
+		<NAME LIVERY="66" NAME="ac_octavia_33" />
+		<NAME LIVERY="67" NAME="ac_octavia_55" />
+		<NAME LIVERY="68" NAME="ac_octavia_59" />
+		<NAME LIVERY="69" NAME="ac_octavia_66" />
+		<NAME LIVERY="70" NAME="ac_octavia_68" />
+		<NAME LIVERY="71" NAME="ac_octavia_69" />
+		<NAME LIVERY="72" NAME="ac_octavia_83" />
+		<NAME LIVERY="73" NAME="ac_octavia_90" />
+		<NAME LIVERY="74" NAME="ac_octavia_92" />
+		<NAME LIVERY="75" NAME="ac_octavia_94" />
+		<NAME LIVERY="76" NAME="acc_default_01" />
+		<NAME LIVERY="77" NAME="acc_default_02" />
+		<NAME LIVERY="78" NAME="acc_default_03" />
+		<NAME LIVERY="79" NAME="acc_default_04" />
+		<NAME LIVERY="80" NAME="acc_default_05" />
+		<NAME LIVERY="81" NAME="acc_default_06" />
+		<NAME LIVERY="82" NAME="acc_default_07" />
+		<NAME LIVERY="83" NAME="acc_default_08" />
+		<NAME LIVERY="84" NAME="acc_default_09" />
+		<NAME LIVERY="85" NAME="acc_default_10" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\11_tomas_pekar_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\11_tomas_pekar_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\11_tomas_pekar_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="52">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\17_laszkiewicz_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\17_laszkiewicz_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\17_laszkiewicz_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\17_laszkiewicz_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\17_laszkiewicz_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\17_laszkiewicz_rbr_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\17_laszkiewicz_rbr_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\17_laszkiewicz_rbr_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\17_laszkiewicz_rbr_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\17_laszkiewicz_rbr_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_first_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_first_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_first_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_first_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_rbr_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_rbr_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_rbr_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_rbr_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\18_machala_rbr_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\222_petr_fulin_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\222_petr_fulin_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\222_petr_fulin_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\222_petr_fulin_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\222_petr_fulin_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\22_karklys_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\22_karklys_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\22_karklys_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\22_karklys_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\22_karklys_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\22_karklys_rbr_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\22_karklys_rbr_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\22_karklys_rbr_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\22_karklys_rbr_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\22_karklys_rbr_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\69_tereza_zajickova_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\69_tereza_zajickova_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\69_tereza_zajickova_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\69_tereza_zajickova_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_headlight_map_026_100.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\69_tereza_zajickova_maps_headlight_map_026_100.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\69_tereza_zajickova_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\69_tereza_zajickova_rbr_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\69_tereza_zajickova_rbr_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\69_tereza_zajickova_rbr_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\69_tereza_zajickova_rbr_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_headlight_map_026_100.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\69_tereza_zajickova_rbr_maps_headlight_map_026_100.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\69_tereza_zajickova_rbr_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\76_petr_cizek_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\76_petr_cizek_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\76_petr_cizek_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\76_petr_cizek_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\76_petr_cizek_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="63">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\76_petr_cizek_rbr_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\76_petr_cizek_rbr_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\76_petr_cizek_rbr_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\76_petr_cizek_rbr_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\76_petr_cizek_rbr_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\96_petr_fulin_jr_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\96_petr_fulin_jr_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\96_petr_fulin_jr_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\96_petr_fulin_jr_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\96_petr_fulin_jr_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\96_petr_fulin_jr_rbr_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\96_petr_fulin_jr_rbr_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\96_petr_fulin_jr_rbr_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\96_petr_fulin_jr_rbr_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\96_petr_fulin_jr_rbr_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_33_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_33_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_33_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="67">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_55_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_55_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_55_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="68">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_59_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_59_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_59_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="69">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_66_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_66_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_66_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="70">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_68_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_68_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_68_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_69_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_69_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_69_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="72">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\metal_detail_rim.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_83_metal_detail_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_83_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\rim_d.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_83_rim_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_83_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_83_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\banner.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_90_banner.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_90_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_90_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_90_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="74">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\metal_detail_rim.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_92_metal_detail_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_92_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\rim_d.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_92_rim_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_92_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_92_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="75">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\metal_detail_rim.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_94_metal_detail_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_94_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\rim_d.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_94_rim_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_94_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\ac_octavia_94_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="76">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_01_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_01_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_01_window_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\maps_octavia_body_map_153_060.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_01_maps_octavia_body_map_153_060.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="77">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_02_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_02_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_02_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="78">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\metal_detail_rim.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_03_metal_detail_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_03_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\rim_d.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_03_rim_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_03_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_03_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="79">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_04_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_04_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_04_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="80">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\metal_detail_rim.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_05_metal_detail_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_05_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\rim_d.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_05_rim_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_05_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_05_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="81">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_06_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_06_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_06_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="82">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_07_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_07_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_07_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="83">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_08_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_08_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_08_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="84">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\metal_detail_rim.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_09_metal_detail_rim.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_09_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\rim_d.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_09_rim_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_09_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_09_window_decals.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="85">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\octavia_body.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_10_octavia_body.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\track_map.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_10_track_map.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\window_decals.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\liveries\acc_default_10_window_decals.dds" />
+	</CONDITION>
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\skoda_octavia_cup_2018\tire_d_2_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+
+</REPLACEMENT_SYSTEM>

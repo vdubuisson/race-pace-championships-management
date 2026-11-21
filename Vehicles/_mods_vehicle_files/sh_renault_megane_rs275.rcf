@@ -1,0 +1,565 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="14" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="White/Red" />
+    <NAME LIVERY="52" NAME="Yellow/Red" />
+    <NAME LIVERY="53" NAME="Black/Red" />
+    <NAME LIVERY="54" NAME="Grey Metallic/Red" />
+    <NAME LIVERY="57" NAME="Kortex Sport/Silver Metallic" />
+    <NAME LIVERY="58" NAME="Kortex Sport/Blue Metallic" />
+    <NAME LIVERY="59" NAME="Kortex Sport/Yellow" />
+    <NAME LIVERY="61" NAME="Red/Black" />
+    <NAME LIVERY="62" NAME="Bronze Metallic" />
+    <NAME LIVERY="66" NAME="Bolting Motorsports" />
+    <NAME LIVERY="67" NAME="Edge Composites" />
+    <NAME LIVERY="68" NAME="SRT" />
+    <NAME LIVERY="69" NAME="Vail" />
+    <NAME LIVERY="70" NAME="Zoomm Sport" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery01.dds" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery02.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_52" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_52_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_52" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_52_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c3ef4a96ab1ab89f.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c3ef4a96ab1ab89f.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c3ef4a96ab1ab89f.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c3ef4a96ab1ab89f.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c11e0a04bdfbc4b8.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c11e0a04bdfbc4b8.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c11e0a04bdfbc4b8.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c11e0a04bdfbc4b8.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c11e0a04bdfbc4b8.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c1b41be4b086c85d.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c1b41be4b086c85d.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c1b41be4b086c85d.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c1b41be4b086c85d.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e89bf00b8e3972a9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e89bf00b8e3972a9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e89bf00b8e3972a9.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e89bf00b8e3972a9.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e89bf00b8e3972a9.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c3ef4a96ab1ab89f.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c1b41be4b086c85d.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery03.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_53" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_53_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_53" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_53_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_097b8d213aea5531.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_097b8d213aea5531.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_097b8d213aea5531.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_097b8d213aea5531.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_8d0da732c0ce7a38.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_8d0da732c0ce7a38.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_8d0da732c0ce7a38.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_8d0da732c0ce7a38.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_8d0da732c0ce7a38.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_a3ac4fcefe0930e2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_a3ac4fcefe0930e2.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_a3ac4fcefe0930e2.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_a3ac4fcefe0930e2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_fb3ffae9774434e9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_fb3ffae9774434e9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_fb3ffae9774434e9.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_fb3ffae9774434e9.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_fb3ffae9774434e9.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_097b8d213aea5531.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_a3ac4fcefe0930e2.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\audi_r18_livery18.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery04.dds" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT_CPIT" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_54" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_54_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_54" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_54_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_baf36727f6d0a4c8.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_baf36727f6d0a4c8.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_baf36727f6d0a4c8.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_baf36727f6d0a4c8.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_fc3526729e206964.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_fc3526729e206964.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_fc3526729e206964.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_fc3526729e206964.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_fc3526729e206964.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_ba9661ffbe553327.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_ba9661ffbe553327.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_ba9661ffbe553327.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_ba9661ffbe553327.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_546174218bac6a21.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_546174218bac6a21.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_546174218bac6a21.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_546174218bac6a21.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_546174218bac6a21.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_baf36727f6d0a4c8.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_ba9661ffbe553327.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\formula_b_livery15.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery07.dds" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT_CPIT" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_57" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_57_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_57" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_57_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5bd6c102cadb7cfb.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5bd6c102cadb7cfb.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5bd6c102cadb7cfb.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5bd6c102cadb7cfb.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e3a39f4c6aa886d4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e3a39f4c6aa886d4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e3a39f4c6aa886d4.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e3a39f4c6aa886d4.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e3a39f4c6aa886d4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c021ad8463df96d9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c021ad8463df96d9.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c021ad8463df96d9.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c021ad8463df96d9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1d98edab92ce93ae.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1d98edab92ce93ae.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1d98edab92ce93ae.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1d98edab92ce93ae.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1d98edab92ce93ae.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5bd6c102cadb7cfb.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c021ad8463df96d9.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\cat_r500_livery18.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_01.dds" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT_CPIT" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_58" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_58_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_58" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_58_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c244a030a4f853be.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c244a030a4f853be.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c244a030a4f853be.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c244a030a4f853be.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_ee34847bc8e16889.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_ee34847bc8e16889.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_ee34847bc8e16889.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_ee34847bc8e16889.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_ee34847bc8e16889.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_7ede4e077798d26f.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_7ede4e077798d26f.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_7ede4e077798d26f.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_7ede4e077798d26f.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_94acdd569855bed9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_94acdd569855bed9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_94acdd569855bed9.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_94acdd569855bed9.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_94acdd569855bed9.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c244a030a4f853be.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_7ede4e077798d26f.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_01.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_59" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_59_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_59" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_59_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_a15b4c4d9c3584b5.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_a15b4c4d9c3584b5.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_a15b4c4d9c3584b5.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_a15b4c4d9c3584b5.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_07a5578b1e7f73e2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_07a5578b1e7f73e2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_07a5578b1e7f73e2.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_07a5578b1e7f73e2.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_07a5578b1e7f73e2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e989e08efe929048.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e989e08efe929048.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e989e08efe929048.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e989e08efe929048.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c7d6f76daec6b469.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c7d6f76daec6b469.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c7d6f76daec6b469.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c7d6f76daec6b469.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c7d6f76daec6b469.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_a15b4c4d9c3584b5.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e989e08efe929048.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_01.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_61" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_61_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_61" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_61_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c81034e22a707521.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c81034e22a707521.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c81034e22a707521.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c81034e22a707521.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5ac4582a81ef4de7.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5ac4582a81ef4de7.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5ac4582a81ef4de7.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5ac4582a81ef4de7.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5ac4582a81ef4de7.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_b3d192c5c1766052.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_b3d192c5c1766052.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_b3d192c5c1766052.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_b3d192c5c1766052.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_888c148d0406b28f.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_888c148d0406b28f.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_888c148d0406b28f.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_888c148d0406b28f.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_888c148d0406b28f.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c81034e22a707521.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_b3d192c5c1766052.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="62">
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\lotus_49_livery17.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_01.dds" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17.mtx" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT_CPIT" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17_autocpit.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17_autocpit.mtx" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_f68_17_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_62" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_62_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_62" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_62_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e5e9fc8cc971db43.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e5e9fc8cc971db43.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e5e9fc8cc971db43.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e5e9fc8cc971db43.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_cc9fc42f970af857.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_cc9fc42f970af857.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_cc9fc42f970af857.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_cc9fc42f970af857.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_cc9fc42f970af857.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_6b8079114916091f.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_6b8079114916091f.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_6b8079114916091f.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_6b8079114916091f.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_4920268830faddb7.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_4920268830faddb7.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_4920268830faddb7.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_4920268830faddb7.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_4920268830faddb7.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_e5e9fc8cc971db43.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_6b8079114916091f.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="66">
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery16_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery16_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_01.dds" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome.mtx" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT_CPIT" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint_cpit" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="REN_MEG_RS_275_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\ren_meg_rs_275_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_66" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_66_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_66" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_66_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1eae57e4fbb5456d.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1eae57e4fbb5456d.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1eae57e4fbb5456d.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1eae57e4fbb5456d.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_92f0dd9691544ee8.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_92f0dd9691544ee8.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_92f0dd9691544ee8.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_92f0dd9691544ee8.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_92f0dd9691544ee8.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_148343716478bbb0.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_148343716478bbb0.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_148343716478bbb0.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_148343716478bbb0.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c9b778b09e02f037.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c9b778b09e02f037.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c9b778b09e02f037.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c9b778b09e02f037.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c9b778b09e02f037.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1eae57e4fbb5456d.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_148343716478bbb0.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="67">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_01.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_67" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_67_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_67" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_67_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_0b72442b5761bab6.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_0b72442b5761bab6.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_0b72442b5761bab6.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_0b72442b5761bab6.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5a6ad0d8d79e4035.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5a6ad0d8d79e4035.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5a6ad0d8d79e4035.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5a6ad0d8d79e4035.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5a6ad0d8d79e4035.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c511c455e57c06d9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c511c455e57c06d9.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c511c455e57c06d9.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c511c455e57c06d9.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_36c4a6c9c639220b.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_36c4a6c9c639220b.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_36c4a6c9c639220b.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_36c4a6c9c639220b.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_36c4a6c9c639220b.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_0b72442b5761bab6.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_c511c455e57c06d9.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="68">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_01.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_68" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_68_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_68" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_68_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_04f00962a8c7fd41.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_04f00962a8c7fd41.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_04f00962a8c7fd41.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_04f00962a8c7fd41.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_9557a1af5fbccd42.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_9557a1af5fbccd42.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_9557a1af5fbccd42.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_9557a1af5fbccd42.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_9557a1af5fbccd42.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_06205e1759e4dfeb.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_06205e1759e4dfeb.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_06205e1759e4dfeb.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_06205e1759e4dfeb.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1499194320f09f43.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1499194320f09f43.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1499194320f09f43.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1499194320f09f43.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_1499194320f09f43.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_04f00962a8c7fd41.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_06205e1759e4dfeb.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="69">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery19.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_01.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_69" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_69_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_69" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_69_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_98afa7600ee71a04.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_98afa7600ee71a04.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_98afa7600ee71a04.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_98afa7600ee71a04.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_11d384b2059f2b7f.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_11d384b2059f2b7f.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_11d384b2059f2b7f.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_11d384b2059f2b7f.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_11d384b2059f2b7f.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_95cf031ac889263e.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_95cf031ac889263e.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_95cf031ac889263e.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_95cf031ac889263e.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5e7d0fb0ab03c9be.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5e7d0fb0ab03c9be.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5e7d0fb0ab03c9be.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5e7d0fb0ab03c9be.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5e7d0fb0ab03c9be.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_98afa7600ee71a04.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_95cf031ac889263e.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="70">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\liveries\renault_megane_275_livery20.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\ren_meg_rs_275_wheel_black_diff_01.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_70" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_front.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_70_front.dds" />
+    <REPLACE MATERIAL="vehicles\renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_70" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_51_rear.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\plates\plate_70_rear.dds" />
+    <REPLACE MATERIAL="generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_7880be55f9d63158.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_7880be55f9d63158.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_7880be55f9d63158.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_7880be55f9d63158.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_4bce163769042167.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_4bce163769042167.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_4bce163769042167.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_4bce163769042167.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_front_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_4bce163769042167.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5c8d8ffd9c564843.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5c8d8ffd9c564843.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5c8d8ffd9c564843.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5c8d8ffd9c564843.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_f9d586413e25085d.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_f9d586413e25085d.mtx" />
+    <REPLACE MATERIAL="generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_f9d586413e25085d.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_f9d586413e25085d.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_renault_megane_rs275\generic_licplate_euro_rear_plate_51.mtx" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_f9d586413e25085d.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_front_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_7880be55f9d63158.mtx" />
+    <REPLACE MATERIAL="GENERIC_LICPLATE_EURO_rear_51" NEWMATERIAL="vehicles\sh_renault_megane_rs275\shared\plates\materials\sh_renault_megane_rs275_plate_5c8d8ffd9c564843.mtx" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\sh_renault_megane_rs275\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

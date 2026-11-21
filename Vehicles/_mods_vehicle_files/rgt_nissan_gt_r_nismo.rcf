@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="13" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="1" NAME="Brilliant White" />
+    <NAME LIVERY="2" NAME="Phantom Black" />
+    <NAME LIVERY="3" NAME="Vibrant Red" />
+    <NAME LIVERY="4" NAME="Ultimate Silver" />
+    <NAME LIVERY="5" NAME="Mat Grey" />
+    <NAME LIVERY="71" NAME="Livery 1" />
+    <NAME LIVERY="72" NAME="Livery 2" />
+    <NAME LIVERY="73" NAME="Livery 3" />
+    <NAME LIVERY="74" NAME="Livery 4" />
+    <NAME LIVERY="75" NAME="Livery 5" />
+    <NAME LIVERY="76" NAME="Livery 6" />
+    <NAME LIVERY="77" NAME="DLC Livery 1" />
+    <NAME LIVERY="78" NAME="DLC Livery 2" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="1">
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_brilliant_white.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_brilliant_white_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_brilliant_white_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_brilliant_white_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="NISMO_GTR_PAINT" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_brilliant_white.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_152DB212AC080574F67B" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_brilliant_white.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_brilliant_white.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_brilliant_white.mtx" />
+    <REPLACE MATERIAL="vehicles\nissan_gtr_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_brilliant_white.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_brilliant_white.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\paint\paint_nissan_brilliant_white.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_phantom_black.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_phantom_black_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_phantom_black_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_phantom_black_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="NISMO_GTR_PAINT" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_phantom_black.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_152DB212AC080574F67B" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_phantom_black.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_phantom_black.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_phantom_black.mtx" />
+    <REPLACE MATERIAL="vehicles\nissan_gtr_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_phantom_black.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_phantom_black.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\paint\paint_nissan_phantom_black.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_vibrant_red.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_vibrant_red_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_vibrant_red_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_vibrant_red_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="NISMO_GTR_PAINT" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_vibrant_red.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_152DB212AC080574F67B" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_vibrant_red.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_vibrant_red.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_vibrant_red.mtx" />
+    <REPLACE MATERIAL="vehicles\nissan_gtr_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_vibrant_red.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_vibrant_red.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\paint\paint_nissan_vibrant_red.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="4">
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_ultimate_silver.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_ultimate_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_ultimate_silver_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_ultimate_silver_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="NISMO_GTR_PAINT" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_ultimate_silver.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_152DB212AC080574F67B" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_ultimate_silver.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_ultimate_silver.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_ultimate_silver.mtx" />
+    <REPLACE MATERIAL="vehicles\nissan_gtr_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_ultimate_silver.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_ultimate_silver.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\paint\paint_nissan_ultimate_silver.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="5">
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_mat_grey.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_mat_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_mat_grey_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_mat_grey_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="NISMO_GTR_PAINT" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_mat_grey.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_152DB212AC080574F67B" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_mat_grey.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_mat_grey.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_mat_grey.mtx" />
+    <REPLACE MATERIAL="vehicles\nissan_gtr_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_mat_grey.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\paint_nissan_mat_grey.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\paint\paint_nissan_mat_grey.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\liveries\nismo_gtr_livery01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\liveries\nismo_gtr_livery02.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\liveries\nismo_gtr_livery03.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\liveries\nismo_gtr_livery04.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\liveries\nismo_gtr_livery05.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\liveries\nismo_gtr_livery06.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_amg_gt3_01.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_amg_gt3_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_amg_gt3_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_amg_gt3_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\liveries\mercedes_amg_gt3_livery01.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\liveries\nismo_gtr_livery07.dds" />
+    <REPLACE MATERIAL="NISMO_GTR_PAINT" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_amg_gt3_01.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_152DB212AC080574F67B" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_amg_gt3_01.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_amg_gt3_01.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_amg_gt3_01.mtx" />
+    <REPLACE MATERIAL="vehicles\nissan_gtr_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_amg_gt3_01.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_amg_gt3_01.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\liveries\nismo_gtr_livery07.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_ruf_rt12r_01.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_ruf_rt12r_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_ruf_rt12r_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint_cpit_skin" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_ruf_rt12r_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\liveries\ruf_rt12r_livery01.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\liveries\nismo_gtr_livery08.dds" />
+    <REPLACE MATERIAL="NISMO_GTR_PAINT" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_ruf_rt12r_01.mtx" />
+    <REPLACE MATERIAL="XAVIER_RGT_152DB212AC080574F67B" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_ruf_rt12r_01.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_ruf_rt12r_01.mtx" />
+    <REPLACE MATERIAL="nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_ruf_rt12r_01.mtx" />
+    <REPLACE MATERIAL="vehicles\nissan_gtr_nismo\nismo_gtr_paint" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_ruf_rt12r_01.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\nismo_gtr_paint.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\shared\_generic_materials\livery_ruf_rt12r_01.mtx" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\liveries\nismo_gtr_livery08.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pzero_trofeo_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pzero_trofeo_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_nitto_funha_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_tread_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_tread_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_tread_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_tread_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_tread_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_tread_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_nitto_ice_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\rgt_nissan_gt_r_nismo\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="1">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_1.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_1.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_1.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_1.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_1.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_1.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_1.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_1.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_1.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_1.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_2.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_2.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_2.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_2.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_2.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_2.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_2.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_3.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_3.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_3.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_3.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_3.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_3.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_3.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_3.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_3.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_3.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="4">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_4.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_4.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_4.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_4.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_4.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_4.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_4.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="5">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_5.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_5.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_5.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_5.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_5.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_5.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_5.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_5.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_5.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_5.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_71.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_71.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_71.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_71.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_71.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_71.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_71.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_71.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_71.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_71.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_72.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_72.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_72.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_72.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_72.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_72.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_72.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_72.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_72.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_72.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_73.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_73.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_73.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_73.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_73.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_73.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_73.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_73.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_73.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_73.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_74.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_74.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_74.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_74.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_74.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_74.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_74.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_74.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_74.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_74.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_75.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_75.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_75.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_75.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_75.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_75.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_75.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_75.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_75.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_75.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_76.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_76.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_76.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_76.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_76.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_76.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_76.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_76.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_76.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_76.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_77.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_77.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_77.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_77.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_77.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_77.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_77.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_77.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_77.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_77.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="RGT_PLATE_92A0DA6B57DB644530BC" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_78.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_78.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_78.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_78.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_front_plate_78.mtx" />
+    <REPLACE MATERIAL="RGT_PLATE_036892DC10D3C2D00F87" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_78.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_78.mtx" />
+    <REPLACE MATERIAL="generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_78.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_78.mtx" />
+    <REPLACE MATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear.mtx" NEWMATERIAL="vehicles\rgt_nissan_gt_r_nismo\generic_licplate_us_rear_plate_78.mtx" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

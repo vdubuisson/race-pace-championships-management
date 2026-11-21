@@ -86,7 +86,7 @@
         <prop name="Shadow Offset Forward" data="0" />
         <prop name="Shadow Texture" data="BMW_M3_GT2_2012_ambsh.dds" />
         <prop name="Grid Grouping" data="9" />
-        <prop name="Vehicle Class" data="LMGT2" />
+        <prop name="Vehicle Class" data="GTELM" />
         <prop name="Vehicle Group" data="GTE" />
         <prop name="Vehicle Shape" data="GT" />
         <prop name="Engine Placement" data="Front" />

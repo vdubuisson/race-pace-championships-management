@@ -108,9 +108,6 @@
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="Vehicles\Textures\tire_dunlop_denloc_nmp8888.dds" />
 	</CONDITION>
 
-	<CONDITION LIVERY="99">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\jaguar_xjr9_livery.dds" />
-	</CONDITION>
 
 	<!-- Soft Slick tire -->
 	<CONDITION TIRE="1">

@@ -7,7 +7,7 @@
     <class name="VehicleDetails" base="BPersistent">
         <prop name="Vehicle Name" type="String" />
         <prop name="ShortVehicleName" type="String" />
-        <prop name="XLASTID" type="U32" />
+        <prop name="XLASTID" type="S32" />
         <prop name="VehicleManufacturer" type="String" />
         <prop name="VehicleModel" type="String" />
         <prop name="Vehicle Render Model" type="String" />
@@ -62,7 +62,7 @@
         <prop name="Name" data="nissan_200sx_s14a" />
         <prop name="Vehicle Name" data="Nissan 200SX (S14) Tuned" />
         <prop name="ShortVehicleName" data="200SX (S14) Tuned" />
-        <prop name="XLASTID" data="372" />
+        <prop name="XLASTID" data="575" />
         <prop name="VehicleManufacturer" data="Nissan" />
         <prop name="VehicleModel" data="200SX (S14)" />
         <prop name="Vehicle Render Model" data="nissan_200sx_s14a.vhf" />

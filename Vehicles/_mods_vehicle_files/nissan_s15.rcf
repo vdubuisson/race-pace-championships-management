@@ -2,13 +2,23 @@
 <REPLACEMENT_SYSTEM>
 	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
 	<INPUTS>
-		<INPUT NAME="LIVERY" OPTIONS="1" />
+		<INPUT NAME="LIVERY" OPTIONS="11" />
 		<INPUT NAME="TIRE" OPTIONS="6" />
-		<INPUT NAME="DIRTTYPE" OPTIONS="3" />		
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
 	</INPUTS>
 
 	<NAMES INPUT ="LIVERY">
-		<NAME LIVERY="51" NAME="Hiroya Okuyama's Nissan Silvia Spec-R (S15)" />
+		<NAME LIVERY="1" NAME="Carbon Black" />
+		<NAME LIVERY="2" NAME="Aspen White" />
+		<NAME LIVERY="3" NAME="Racing Yellow" />
+		<NAME LIVERY="4" NAME="Sparkling Silver" />
+		<NAME LIVERY="5" NAME="Super Black" />
+		<NAME LIVERY="6" NAME="Active Red" />
+		<NAME LIVERY="7" NAME="Sonic Silver" />
+		<NAME LIVERY="8" NAME="Brilliant Blue" />
+		<NAME LIVERY="9" NAME="Wicked White" />
+		<NAME LIVERY="10" NAME="Shark Gray" />
+		<NAME LIVERY="11" NAME="Long Beach Red" />
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -33,54 +43,130 @@
 	<!-- They are used in the same way for all situations				-->
 	
 	<!-- Simple case - exterior paint effecting two materials -->
-
-	<CONDITION LIVERY="51">
-		<REPLACE MATERIAL="vehicles\nissan_silvia_s15\nissan_s15_paint" NEWMATERIAL="vehicles\_generic_materials\paint_nissan_brilliant_blue.mtx" />	
-		<REPLACE MATERIAL="vehicles\nissan_silvia_s15\nissan_s15_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_nissan_brilliant_blue_autoskin.mtx" />
-		<REPLACE MATERIAL="vehicles\nissan_s15\nissan_s15_paint" NEWMATERIAL="vehicles\_generic_materials\paint_nissan_brilliant_blue.mtx" />	
-		<REPLACE MATERIAL="vehicles\nissan_s15\nissan_s15_paint_skin" NEWMATERIAL="vehicles\_generic_materials\paint_nissan_brilliant_blue_autoskin.mtx" />		
-		<REPLACE MATERIAL="vehicles\nissan_silvia_s15\nissan_s15_paint_cpit" NEWMATERIAL="vehicles\_generic_materials\paint_nissan_brilliant_blue_autocpit.mtx" />	
-		<REPLACE MATERIAL="vehicles\nissan_silvia_s15\nissan_s15_paint_cpit_skin" NEWMATERIAL="vehicles\_generic_materials\paint_nissan_brilliant_blue_autoskin_autocpit.mtx" />	
+	<CONDITION LIVERY="1">
+		<REPLACE MATERIAL="NISSAN_S15_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_mclaren_carbon_black.mtx" />
+		<REPLACE MATERIAL="NISSAN_S15_PAINT_skin" NEWMATERIAL="vehicles\_generic_materials\paint_mclaren_carbon_black_skin.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_diff_00.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_gold_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_diff_01.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_gold_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_spec_00.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_gold_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_spec_01.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_gold_spec_01.dds" />
+		
 	</CONDITION>
 
-	<!-- 'Soft'. Semi-Slick road car tire. Pirelli Trofeo R -->
+	<CONDITION LIVERY="2">
+		<REPLACE MATERIAL="NISSAN_S15_PAINT" NEWMATERIAL="Vehicles\_Paint_Colors\paint_nissan_aspen_white.mtx" />
+		<REPLACE MATERIAL="NISSAN_S15_PAINT_SKIN" NEWMATERIAL="Vehicles\_Paint_Colors\paint_nissan_aspen_white_skin.mtx" />
+        <REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_diff_00.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_diff_01.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_spec_00.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_spec_01.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_black_spec_01.dds" />
+		
+	</CONDITION>
+
+	<CONDITION LIVERY="3">
+		<REPLACE MATERIAL="NISSAN_S15_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_racing_yellow.mtx" />
+		<REPLACE MATERIAL="NISSAN_S15_PAINT_skin" NEWMATERIAL="vehicles\_generic_materials\paint_porsche_racing_yellow_autoskin.mtx" />
+		
+	</CONDITION>
+
+	<CONDITION LIVERY="4">
+		<REPLACE MATERIAL="NISSAN_S15_PAINT" NEWMATERIAL="Vehicles\_Paint_Colors\paint_nissan_sparkling_sliver.mtx" />
+		<REPLACE MATERIAL="NISSAN_S15_PAINT_SKIN" NEWMATERIAL="Vehicles\_Paint_Colors\paint_nissan_sparkling_sliver_skin.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_diff_00.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_diff_01.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_spec_00.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_spec_01.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_black_spec_01.dds" />
+		
+	</CONDITION>
+
+	<CONDITION LIVERY="5">
+		<REPLACE MATERIAL="NISSAN_S15_PAINT" NEWMATERIAL="Vehicles\_Paint_Colors\paint_nissan_super_black.mtx" />
+		<REPLACE MATERIAL="NISSAN_S15_PAINT_SKIN" NEWMATERIAL="Vehicles\_Paint_Colors\paint_nissan_super_black_skin.mtx" />
+		
+	</CONDITION>
+
+	<CONDITION LIVERY="6">	
+		<REPLACE MATERIAL="NISSAN_S15_PAINT" NEWMATERIAL="Vehicles\_Paint_Colors\paint_nissan_active_red.mtx" />
+		<REPLACE MATERIAL="NISSAN_S15_PAINT_SKIN" NEWMATERIAL="Vehicles\_Paint_Colors\paint_nissan_active_red_skin.mtx" />
+        <REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_diff_00.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_black_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_diff_01.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_black_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_spec_00.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_black_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_spec_01.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_black_spec_01.dds" />
+		
+	</CONDITION>
+
+	<CONDITION LIVERY="7">
+		<REPLACE MATERIAL="NISSAN_S15_PAINT" NEWMATERIAL="Vehicles\_Paint_Colors\paint_nissan_sonic_silver.mtx" />
+		<REPLACE MATERIAL="NISSAN_S15_PAINT_SKIN" NEWMATERIAL="Vehicles\_Paint_Colors\paint_nissan_sonic_silver_skin.mtx" />	
+		
+	</CONDITION>
+
+	<CONDITION LIVERY="8">
+		<REPLACE MATERIAL="NISSAN_S15_PAINT" NEWMATERIAL="Vehicles\_Paint_Colors\paint_nissan_brilliant_blue.mtx" />
+		<REPLACE MATERIAL="NISSAN_S15_PAINT_SKIN" NEWMATERIAL="Vehicles\_Paint_Colors\paint_nissan_brilliant_blue_skin.mtx" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_diff_00.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_gold_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_diff_01.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_gold_diff_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_spec_00.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_gold_spec_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\wheel_volk_te37_grey_spec_01.dds" NEWTEXTURE="vehicles\textures\wheel_volk_te37_gold_spec_01.dds" />
+		
+	</CONDITION>
+
+	<CONDITION LIVERY="9">
+	    <REPLACE MATERIAL="NISSAN_S15_PAINT" NEWMATERIAL="vehicles\_Paint_Colors\paint_ford_centennial_white.mtx" />
+		<REPLACE MATERIAL="NISSAN_S15_PAINT_SKIN" NEWMATERIAL="vehicles\_Paint_Colors\paint_ford_centennial_white_skin.mtx" />
+	</CONDITION>
+		
+
+	<CONDITION LIVERY="10">
+		<REPLACE MATERIAL="NISSAN_S15_PAINT" NEWMATERIAL="vehicles\_Paint_Colors\paint_lexus_obsidian.mtx" />
+		<REPLACE MATERIAL="NISSAN_S15_PAINT_SKIN" NEWMATERIAL="vehicles\_Paint_Colors\paint_lexus_obsidian_skin.mtx" />
+		
+	</CONDITION>
+
+	<CONDITION LIVERY="11">
+		<REPLACE MATERIAL="NISSAN_S15_PAINT" NEWMATERIAL="vehicles\_generic_materials\paint_chevrolet_longbeach_red.mtx" />
+		<REPLACE MATERIAL="NISSAN_S15_PAINT_SKIN" NEWMATERIAL="vehicles\_generic_materials\paint_chevrolet_longbeach_red_autoskin.mtx" />
+		
+	</CONDITION>
+
+<!-- 'Soft'. Semi-Slick road car tire. Pirelli Trofeo R -->
 	<CONDITION TIRE="1">
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_diff.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_diff.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_nmp8888.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_spec.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pzero_trofeo_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" />
 	</CONDITION>
 
 	<!-- 'Medium'. R-compound road car tire. Pirelli P Zero Corsa -->
 	<CONDITION TIRE="2">
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" />
 	</CONDITION>
 
 	<!-- 'Hard'. Summer road car tire. Pirelli P Zero -->
 	<CONDITION TIRE="3">
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_diff.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_nmp8888.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_spec.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_pzc_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" />
 	</CONDITION>
 
 	<!-- 'Intermediate'. All-Terrain tire -->
 	<CONDITION TIRE="4">
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_diff.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_diff.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_nmp8888.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_nmp8888.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_spec.dds" />
-		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_nitto_funha_blur_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\textures\tread_pirelli_huayra_blur_spec.dds" />
 	</CONDITION>
 
 	<!-- 'Wet' Winter/Snow tire -->
@@ -119,5 +205,5 @@
 		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
 	</CONDITION>
-
+	
 </REPLACEMENT_SYSTEM>

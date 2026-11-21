@@ -28,7 +28,7 @@
 		<NAME LIVERY="68" NAME="OBX Watches Racing #10" />
 		<NAME LIVERY="69" NAME="Stargenley Motorsport #2" />
 		<NAME LIVERY="70" NAME="Stargenley Motorsport #3" />
-		<NAME LIVERY="99" NAME="Custom Livery" />
+		
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -259,9 +259,7 @@
 		<REPLACE TEXTURE="vehicles\textures\tire_yokohama_nis90_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_yokohama_gt_nmp8888.dds" />
 	</CONDITION>
 
-	<CONDITION LIVERY="99">
-		<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\customliveries\formula_c_livery.dds" />
-	</CONDITION>
+
 
 	<!-- 'Soft' Copy of medium in case AI use it -->
 	<CONDITION TIRE="1">

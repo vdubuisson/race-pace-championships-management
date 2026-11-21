@@ -13,7 +13,7 @@ const VEHICLE_PROPERTIES_TO_EXTRACT = {
   'Vehicle Class': 'class',
   'Vehicle Name': 'name',
   'Vehicle Year': 'year',
-  'AI ONLY': 'ai_only'
+  'AI ONLY': 'ai_only',
 };
 
 async function parseXmlFile(filePath) {
@@ -35,7 +35,7 @@ function extractPropertiesFromData(data) {
     const props = data.Reflection.data.prop;
 
     if (Array.isArray(props)) {
-      props.forEach(prop => {
+      props.forEach((prop) => {
         if (Object.keys(VEHICLE_PROPERTIES_TO_EXTRACT).includes(prop.$.name)) {
           const key = VEHICLE_PROPERTIES_TO_EXTRACT[prop.$.name];
           resultProps[key] = prop.$.data || '';
@@ -60,17 +60,15 @@ function extractLiveriesFromRcf(data) {
       ? data.REPLACEMENT_SYSTEM.NAMES
       : [data.REPLACEMENT_SYSTEM.NAMES];
 
-    const liveryNames = namesArray.find(n => n.$.INPUT === 'LIVERY');
+    const liveryNames = namesArray.find((n) => n.$.INPUT === 'LIVERY');
 
     if (liveryNames && liveryNames.NAME) {
-      const names = Array.isArray(liveryNames.NAME)
-        ? liveryNames.NAME
-        : [liveryNames.NAME];
+      const names = Array.isArray(liveryNames.NAME) ? liveryNames.NAME : [liveryNames.NAME];
 
-      names.forEach(name => {
+      names.forEach((name) => {
         liveries.push({
           livery_id: name.$.LIVERY || '',
-          livery_name: name.$.NAME || ''
+          livery_name: name.$.NAME || '',
         });
       });
     }
@@ -79,13 +77,28 @@ function extractLiveriesFromRcf(data) {
   return liveries;
 }
 
+function extractLiveriesFolderNameFromRcf(data) {
+  let folderName = undefined;
+
+  if (data?.REPLACEMENT_SYSTEM?.CONFIG?.USEROVERRIDESFILE) {
+    const userOverridesFile = data.REPLACEMENT_SYSTEM.CONFIG.USEROVERRIDESFILE.$.VALUE;
+    if (userOverridesFile) {
+      folderName = userOverridesFile.match(
+        /Vehicles\\Textures\\CustomLiveries\\Overrides\\([^\\]+)\\.+\.xml/,
+      )[1];
+    }
+  }
+
+  return folderName;
+}
+
 async function processCrdFiles() {
   const vehiclesData = [];
   const liveriesData = [];
 
   const directories = [
-    { path: GAME_VEHICLE_FILES_DIR, isGameFile: true },
-    { path: MODS_VEHICLE_FILES_DIR, isGameFile: false }
+    // { path: GAME_VEHICLE_FILES_DIR, isGameFile: true },
+    { path: MODS_VEHICLE_FILES_DIR, isGameFile: false },
   ];
 
   for (const dir of directories) {
@@ -94,7 +107,7 @@ async function processCrdFiles() {
       continue;
     }
 
-    const files = fs.readdirSync(dir.path).filter(file => file.endsWith('.crd'));
+    const files = fs.readdirSync(dir.path).filter((file) => file.endsWith('.crd'));
 
     for (const file of files) {
       const filePath = path.join(dir.path, file);
@@ -104,48 +117,59 @@ async function processCrdFiles() {
         const xmlData = await parseXmlFile(filePath);
         const props = extractPropertiesFromData(xmlData);
 
-        // Add filename and game file flag
         const vehicleRow = {
           file_name: baseName.toLowerCase(),
-          folder_name: '',
+          folder_name: dir.isGameFile ? '' : baseName.toLowerCase(),
           is_mod: dir.isGameFile ? 'FALSE' : 'TRUE',
           ...props,
         };
 
         // Fill missing properties with empty strings
-        Object.values(VEHICLE_PROPERTIES_TO_EXTRACT).forEach(prop => {
+        Object.values(VEHICLE_PROPERTIES_TO_EXTRACT).forEach((prop) => {
           if (!(prop in vehicleRow)) {
             vehicleRow[prop] = '';
           }
         });
 
-        vehiclesData.push(vehicleRow);
-
         // Process RCF file only if isGameFile is false
         if (!dir.isGameFile) {
-          const rcfFile = baseName + '.rcf';
-          const rcfPath = path.join(dir.path, rcfFile);
+          const expectedRcfName = (baseName + '.rcf').toLowerCase();
+          const rcfFile = fs
+            .readdirSync(dir.path)
+            .find((name) => name.toLowerCase() === expectedRcfName);
 
-          if (fs.existsSync(rcfPath)) {
+          if (rcfFile) {
+            const rcfPath = path.join(dir.path, rcfFile);
+
             try {
               const rcfXmlData = await parseXmlFile(rcfPath);
               const liveries = extractLiveriesFromRcf(rcfXmlData);
+              const folderName = extractLiveriesFolderNameFromRcf(rcfXmlData);
+              if (folderName) {
+                vehicleRow.folder_name = folderName;
+              }
 
-              liveries.forEach(livery => {
+              liveries.forEach((livery) => {
                 liveriesData.push({
                   class: vehicleRow.class,
                   car_name: vehicleRow.name,
                   livery_id: livery.livery_id,
-                  livery_name: livery.livery_name
+                  livery_name: livery.livery_name,
                 });
               });
 
-              console.log(`✓ Processed ${rcfFile} - Found ${liveries.length} liveries`);
+              console.log(
+                `✓ Processed ${rcfFile} - Found ${liveries.length} liveries with folderName ${folderName || 'N/A'}`,
+              );
             } catch (error) {
               console.error(`Error processing ${rcfFile}:`, error.message);
             }
+          } else {
+            console.warn(`RCF file not found for ${baseName}`);
           }
         }
+
+        vehiclesData.push(vehicleRow);
       } catch (error) {
         console.error(`Error processing ${file}:`, error.message);
       }
@@ -156,11 +180,16 @@ async function processCrdFiles() {
 }
 
 function writeVehiclesCsv(data) {
-  const columns = [...Object.values(VEHICLE_PROPERTIES_TO_EXTRACT), 'folder_name', 'file_name', 'is_mod'];
+  const columns = [
+    ...Object.values(VEHICLE_PROPERTIES_TO_EXTRACT),
+    'folder_name',
+    'file_name',
+    'is_mod',
+  ];
 
   const output = stringify(data, {
     header: true,
-    columns: columns
+    columns: columns,
   });
 
   fs.writeFileSync(VEHICLES_OUTPUT_FILE, output, 'utf8');
@@ -178,7 +207,7 @@ function writeLiveriesCsv(data) {
 
   const output = stringify(data, {
     header: true,
-    columns: columns
+    columns: columns,
   });
 
   fs.writeFileSync(LIVERIES_OUTPUT_FILE, output, 'utf8');

@@ -67,7 +67,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -83,7 +83,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -97,7 +97,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -110,7 +110,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -126,7 +126,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -139,7 +139,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -155,7 +155,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -168,7 +168,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -181,7 +181,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -194,7 +194,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -207,7 +207,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -222,7 +222,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -235,7 +235,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -248,7 +248,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -261,7 +261,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -274,7 +274,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -287,7 +287,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -300,7 +300,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -313,7 +313,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -326,7 +326,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -339,7 +339,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -354,7 +354,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -369,7 +369,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -382,7 +382,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />
@@ -397,7 +397,7 @@
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_diff_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_00.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\maz_mx5_radbul_wheel_spec_01.dds" NEWTEXTURE="Vehicles\Textures\maz_mx5_radbul_wheel_chrome_spec_01.dds" />
-		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\ire_nitto_nt05_diff_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\textures\Tire_nitto_nt05_diff_00.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_diff_01.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_nmp8888.dds" />
 		<REPLACE TEXTURE="vehicles\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\textures\tire_nitto_nt05_spec_00.dds" />

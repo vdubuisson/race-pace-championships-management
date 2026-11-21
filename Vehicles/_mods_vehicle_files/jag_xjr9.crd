@@ -15,6 +15,11 @@
         <prop name="Vehicle Physics Model" type="String" />
         <prop name="Cockpit properties" type="String" />
         <prop name="Vehicle Properties" type="String" />
+        <prop name="Vehicle Variant Oval" type="String" />
+        <prop name="Vehicle Variant Short Oval" type="String" />
+	<prop name="Vehicle Variant Short Track" type="String" />		
+        <prop name="Vehicle Variant Speedway" type="String" />
+        <prop name="Vehicle Variant Super Speedway" type="String" />
         <prop name="Vehicle Year" type="S32" />
         <prop name="Shadow Width" type="F32" />
         <prop name="Shadow Length" type="F32" />
@@ -73,6 +78,11 @@
         <prop name="Vehicle Physics Model" data="xjr9" />
         <prop name="Cockpit properties" data="jag_xjr9_Cockpit.bin" />
         <prop name="Vehicle Properties" data="jag_xjr9" />
+        <prop name="Vehicle Variant Oval" data="Jaguar_XJR9_ld" />
+        <prop name="Vehicle Variant Short Oval" data="Jaguar_XJR9_ld" />
+	<prop name="Vehicle Variant Short Track" data="Jaguar_XJR9_ld" />		
+        <prop name="Vehicle Variant Speedway" data="Jaguar_XJR9_ld" />
+        <prop name="Vehicle Variant Super Speedway" data="Jaguar_XJR9_ld" />
         <prop name="Vehicle Year" data="1988" />
         <prop name="Shadow Width" data="5.0" />
         <prop name="Shadow Length" data="7.7" />
@@ -80,7 +90,7 @@
         <prop name="Shadow Offset Forward" data="0" />
         <prop name="Shadow Texture" data="jaguar_xjr9_ambshadow.dds" />
         <prop name="Grid Grouping" data="2" />
-        <prop name="Vehicle Class" data="Group C mod" />
+        <prop name="Vehicle Class" data="Group C" />
         <prop name="Vehicle Group" data="Prototype" />
         <prop name="Vehicle Shape" data="Prototype" />
         <prop name="Engine Placement" data="Mid" />

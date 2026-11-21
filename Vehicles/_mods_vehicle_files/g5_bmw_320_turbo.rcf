@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="22" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="BMW Junior Team #11" />
+    <NAME LIVERY="52" NAME="BMW Junior Team #12" />
+    <NAME LIVERY="53" NAME="BMW Junior Team #13" />
+    <NAME LIVERY="71" NAME="Equipe Dambreville #3" />
+    <NAME LIVERY="72" NAME="Equipe Dambreville #4" />
+    <NAME LIVERY="73" NAME="Stetz + Grindner Racing #32" />
+    <NAME LIVERY="74" NAME="Stetz + Grindner Racing #33" />
+    <NAME LIVERY="75" NAME="Liezenbach Motorport #14" />
+    <NAME LIVERY="76" NAME="Liezenbach Motorport #15" />
+    <NAME LIVERY="77" NAME="Gerhardt Electronics Team #18" />
+    <NAME LIVERY="78" NAME="Gerhardt Electronics Team #19" />
+    <NAME LIVERY="79" NAME="Gerstenfelder Rennsport #21" />
+    <NAME LIVERY="80" NAME="Gerstenfelder Rennsport #22" />
+    <NAME LIVERY="81" NAME="Kolomiets Sport #47" />
+    <NAME LIVERY="82" NAME="Kolomiets Sport #48" />
+    <NAME LIVERY="83" NAME="Rexxar Team #49" />
+    <NAME LIVERY="84" NAME="Rexxar Team #51" />
+    <NAME LIVERY="85" NAME="GJL Racing Team #54" />
+    <NAME LIVERY="86" NAME="GJL Racing Team #57" />
+    <NAME LIVERY="87" NAME="GJL Racing Team #56" />
+    <NAME LIVERY="88" NAME="Decksbern Motorsport #62" />
+    <NAME LIVERY="89" NAME="Decksbern Motorsport #63" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tire_goodyear_imsa_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery04.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery05.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery06.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery07.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery09.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery10.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery11.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="79">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery12.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="80">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery13.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="81">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery14.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="82">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery15.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="83">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery16.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="84">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery17.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="85">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery18.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="86">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery19.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="87">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery20.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="88">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery21.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="89">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery22.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="68">
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint_skin" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint_cpit" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint_cpit_skin" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery18.dds" />
+    <REPLACE MATERIAL="BMW_320_TUR_PAINT" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="XAVIER_G5_35BB0EFD2862642AC428" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="bmw_320_tur_paint" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="bmw_320_tur_paint.mtx" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\bmw_320_group5\bmw_320_tur_paint" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint.mtx" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery18.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="69">
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint_skin" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint_cpit" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint_cpit_skin" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery19.dds" />
+    <REPLACE MATERIAL="BMW_320_TUR_PAINT" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="XAVIER_G5_35BB0EFD2862642AC428" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="bmw_320_tur_paint" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="bmw_320_tur_paint.mtx" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\bmw_320_group5\bmw_320_tur_paint" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint.mtx" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery19.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="70">
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint_skin" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint_cpit" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint_cpit_skin" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\cat_r500_livery14.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery20.dds" />
+    <REPLACE MATERIAL="BMW_320_TUR_PAINT" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="XAVIER_G5_35BB0EFD2862642AC428" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="bmw_320_tur_paint" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="bmw_320_tur_paint.mtx" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\bmw_320_group5\bmw_320_tur_paint" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE MATERIAL="vehicles\g5_bmw_320_turbo\bmw_320_tur_paint.mtx" NEWMATERIAL="vehicles\g5_bmw_320_turbo\shared\_generic_materials\livery_r500_14.mtx" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\liveries\bmw_320_tur_livery20.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_rain_02_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_rain_02_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_rain_02_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_rain_02_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_rain_02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_rain_02_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\g5_bmw_320_turbo\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

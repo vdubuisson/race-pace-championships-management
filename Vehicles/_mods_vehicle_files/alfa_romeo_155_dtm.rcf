@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+
+	<CONFIG>
+		<ALLOWUSEROVERRIDES VALUE="1" />
+		<USEROVERRIDESFILE VALUE="Vehicles\Textures\CustomLiveries\Overrides\alfa_romeo_155_dtm\alfa_romeo_155_dtm.xml" />
+	</CONFIG>
+
+	<BASELIVERIES>
+		<BASELIVERY NAME="Default">
+			<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="Matte">
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_brake_caliper" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_brake_caliper_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carbon_mult900" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carbon_mult900_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint2" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint2_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="Chrome">
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_brake_caliper" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_brake_caliper_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carbon_mult900" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carbon_mult900_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint2" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint2_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="GreenMetallic">
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_brake_caliper" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_brake_caliper_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carbon_mult900" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carbon_mult900_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint2" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint2_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="RedMetallic">
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_brake_caliper" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_brake_caliper_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carbon_mult900" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carbon_mult900_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint2" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint2_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="BlueMetallic">
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_brake_caliper" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_brake_caliper_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carbon_mult900" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carbon_mult900_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint2" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint2_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="SilverMetallic">
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_brake_caliper" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_brake_caliper_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carbon_mult900" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carbon_mult900_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE MATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint2" NEWMATERIAL="vehicles\alfa_romeo_155_dtm\a155_carpaint2_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+	</BASELIVERIES>
+
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="9" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="1995 Danner 11" />
+		<NAME LIVERY="52" NAME="1995 Alboreto 12" />
+		<NAME LIVERY="53" NAME="1995 Giudici 13" />
+		<NAME LIVERY="54" NAME="1995 Modena 18" />
+		<NAME LIVERY="55" NAME="1995 Bartels 19" />
+		<NAME LIVERY="56" NAME="1995 Fisichella 26" />
+		<NAME LIVERY="57" NAME="1995 Alen 27" />
+		<NAME LIVERY="58" NAME="1995 Nannini 7" />
+		<NAME LIVERY="59" NAME="1995 Larini 8" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\alfa_anbauteile.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\11_danner_alfa_anbauteile.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\11_danner_rim_1.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1_blur.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\11_danner_rim_1_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\11_danner_skin_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_01.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\11_danner_skin_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\windows_d.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\11_danner_windows_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00__mat_carbon_media.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\11_danner_skin_00__mat_carbon_media.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\bulloni_loghi__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\metal_detail_rim__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\11_danner_rim_1.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1_blur__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\11_danner_rim_1_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2_blur__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3_blur__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="52">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\alfa_anbauteile.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\12_alboreto_alfa_anbauteile.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\12_alboreto_rim_1.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1_blur.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\12_alboreto_rim_1_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\12_alboreto_skin_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_01.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\12_alboreto_skin_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\windows_d.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\12_alboreto_windows_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00__mat_carbon_media.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\12_alboreto_skin_00__mat_carbon_media.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\bulloni_loghi__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\metal_detail_rim__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\12_alboreto_rim_1.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1_blur__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\12_alboreto_rim_1_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2_blur__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3_blur__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\alfa_anbauteile.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\13_giudici_alfa_anbauteile.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\13_giudici_rim_2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2_blur.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\13_giudici_rim_2_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\13_giudici_skin_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_01.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\13_giudici_skin_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\windows_d.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\13_giudici_windows_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00__mat_carbon_media.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\13_giudici_skin_00__mat_carbon_media.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\bulloni_loghi__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\metal_detail_rim__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\misc__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1_blur__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\13_giudici_rim_2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2_blur__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\13_giudici_rim_2_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3_blur__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\alfa_anbauteile.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\18_modena_alfa_anbauteile.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\bulloni_loghi.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\18_modena_bulloni_loghi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\18_modena_rim_3.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\18_modena_skin_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_01.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\18_modena_skin_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\windows_d.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\18_modena_windows_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00__mat_carbon_media.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\18_modena_skin_00__mat_carbon_media.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\bulloni_loghi__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\18_modena_bulloni_loghi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\misc__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1_blur__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2_blur__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\18_modena_rim_3.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\alfa_anbauteile.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\19_bartels_alfa_anbauteile.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\19_bartels_rim_1.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1_blur.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\19_bartels_rim_1_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\19_bartels_skin_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_01.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\19_bartels_skin_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\windows_d.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\19_bartels_windows_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00__mat_carbon_media.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\19_bartels_skin_00__mat_carbon_media.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\bulloni_loghi__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\metal_detail_rim__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\19_bartels_rim_1.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1_blur__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\19_bartels_rim_1_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2_blur__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3_blur__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\alfa_anbauteile.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\26_fisichella_alfa_anbauteile.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\26_fisichella_rim_2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2_blur.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\26_fisichella_rim_2_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\26_fisichella_skin_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_01.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\26_fisichella_skin_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\windows_d.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\26_fisichella_windows_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00__mat_carbon_media.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\26_fisichella_skin_00__mat_carbon_media.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\bulloni_loghi__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\metal_detail_rim__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\misc__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1_blur__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\26_fisichella_rim_2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2_blur__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\26_fisichella_rim_2_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3_blur__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\alfa_anbauteile.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\27_alen_alfa_anbauteile.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\27_alen_rim_2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2_blur.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\27_alen_rim_2_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\27_alen_skin_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_01.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\27_alen_skin_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\windows_d.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\27_alen_windows_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00__mat_carbon_media.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\27_alen_skin_00__mat_carbon_media.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\bulloni_loghi__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\metal_detail_rim__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\misc__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1_blur__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\27_alen_rim_2.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2_blur__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\27_alen_rim_2_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3_blur__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\alfa_anbauteile.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\7_nannini_alfa_anbauteile.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\bulloni_loghi.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\7_nannini_bulloni_loghi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\7_nannini_rim_3.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\7_nannini_skin_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_01.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\7_nannini_skin_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\windows_d.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\7_nannini_windows_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00__mat_carbon_media.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\7_nannini_skin_00__mat_carbon_media.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\bulloni_loghi__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\7_nannini_bulloni_loghi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\misc__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1_blur__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2_blur__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\7_nannini_rim_3.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\alfa_anbauteile.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\8_larini_alfa_anbauteile.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\bulloni_loghi.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\8_larini_bulloni_loghi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\8_larini_rim_3.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\8_larini_skin_00.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_01.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\8_larini_skin_01.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\windows_d.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\8_larini_windows_d.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\skin_00__mat_carbon_media.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\8_larini_skin_00__mat_carbon_media.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\bulloni_loghi__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\8_larini_bulloni_loghi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\misc__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_1_blur__h2.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_2_blur__h1.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\hidden_blank.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\rim_3__h0.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\liveries\8_larini_rim_3.dds" />
+	</CONDITION>
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\alfa_romeo_155_dtm\tyre_d_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+
+</REPLACEMENT_SYSTEM>

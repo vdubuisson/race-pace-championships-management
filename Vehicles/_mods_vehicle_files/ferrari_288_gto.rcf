@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="22" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="1" NAME="Rosso Corsa" />
+    <NAME LIVERY="2" NAME="Giallo Modena" />
+    <NAME LIVERY="3" NAME="Bianco Avus" />
+    <NAME LIVERY="4" NAME="Nero" />
+    <NAME LIVERY="5" NAME="Rosso Scuderia" />
+    <NAME LIVERY="6" NAME="Blu Pozzi" />
+    <NAME LIVERY="7" NAME="Nero Daytona Met." />
+    <NAME LIVERY="8" NAME="Rosso Mugello Met." />
+    <NAME LIVERY="9" NAME="Argento Nurburgring Met." />
+    <NAME LIVERY="10" NAME="Blu Tour de France Met." />
+    <NAME LIVERY="11" NAME="Blu Abu Dhabi Met." />
+    <NAME LIVERY="12" NAME="Blu Mirabeau Met." />
+    <NAME LIVERY="13" NAME="Grigio Alloy Met." />
+    <NAME LIVERY="14" NAME="Grigio Titanio Met." />
+    <NAME LIVERY="15" NAME="Grigio Ingrid Met." />
+    <NAME LIVERY="16" NAME="Grigio Silverstone Met." />
+    <NAME LIVERY="71" NAME="Livery 1" />
+    <NAME LIVERY="72" NAME="Livery 2" />
+    <NAME LIVERY="73" NAME="Livery 3" />
+    <NAME LIVERY="74" NAME="Livery 4" />
+    <NAME LIVERY="75" NAME="Livery 5" />
+    <NAME LIVERY="76" NAME="Livery 6" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="1">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\paint\paint_ferrari_rosso_corsa.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_1.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\paint\paint_ferrari_giallo_modena.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_2.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\paint\paint_ferrari_bianco_avus.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_3.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="4">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\paint\paint_ferrari_nero.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_4.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="5">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\paint\paint_ferrari_rosso_scuderia.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_5.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="6">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\paint\paint_ferrari_blu_pozzi.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_6.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="7">
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_nero_daytona.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_nero_daytona_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_nero_daytona_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_nero_daytona_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_7.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="8">
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_rosso_mugello.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_rosso_mugello_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_rosso_mugello_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_rosso_mugello_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_8.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="9">
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_argento_nurburgring.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_argento_nurburgring_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_argento_nurburgring_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_argento_nurburgring_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_9.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="10">
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_blu_tdf.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_blu_tdf_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_blu_tdf_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_blu_tdf_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_10.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="11">
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_blu_abu_dhabi.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_blu_abu_dhabi_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_blu_abu_dhabi_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_blu_abu_dhabi_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_11.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="12">
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_blu_mirabeau.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_blu_mirabeau_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_blu_mirabeau_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_blu_mirabeau_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_12.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="13">
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_alloy.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_alloy_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_alloy_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_alloy_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_13.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="14">
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_titanio.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_titanio_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_titanio_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_titanio_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_14.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="15">
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_ingrid.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_ingrid_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_ingrid_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_ingrid_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_15.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="16">
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_silverstone.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_silverstone_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_silverstone_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\paint_ferrari_grigio_silverstone_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_16.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\liveries\ferrari_288gto_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_71.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\livery_gt40_03.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\livery_gt40_03_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\livery_gt40_03_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ferrari_288_gto\ferrari_288gto_paint_cpit_skin" NEWMATERIAL="vehicles\ferrari_288_gto\shared\_generic_materials\livery_gt40_03_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\liveries\ford_gt40_mkiv_livery03.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\liveries\ferrari_288gto_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_72.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\liveries\ferrari_288gto_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_73.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\liveries\ferrari_288gto_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_74.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\liveries\ferrari_288gto_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_75.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\liveries\ferrari_288gto_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\generic_licplate_euro_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\plates\ferrari_288_gto_76.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pzero_trofeo_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_tread_blur_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\semislick\tread_pzero_trofeo_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\ferrari_288_gto\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ferrari_288_gto\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

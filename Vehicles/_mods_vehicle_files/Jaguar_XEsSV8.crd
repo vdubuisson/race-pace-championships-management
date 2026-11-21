@@ -7,7 +7,7 @@
     <class name="VehicleDetails" base="BPersistent">
         <prop name="Vehicle Name" type="String" />
         <prop name="ShortVehicleName" type="String" />
-        <prop name="XLASTID" type="U32" />
+        <prop name="XLASTID" type="S32" />
         <prop name="VehicleManufacturer" type="String" />
         <prop name="VehicleModel" type="String" />
         <prop name="Vehicle Render Model" type="String" />
@@ -71,7 +71,7 @@
         <prop name="Name" data="Jaguar_XEsSV8" />
         <prop name="Vehicle Name" data="Jaguar XE SV Project 8" />
         <prop name="ShortVehicleName" data="Jaguar XE SV" />
-        <prop name="XLASTID" data="307" />
+        <prop name="XLASTID" data="558" />
         <prop name="VehicleManufacturer" data="Jaguar" />
         <prop name="VehicleModel" data="Jaguar XE SV8" />
         <prop name="Vehicle Render Model" data="Jaguar_XE_SV8.vhf" />

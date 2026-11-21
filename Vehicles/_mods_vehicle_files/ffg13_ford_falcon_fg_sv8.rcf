@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="30" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="71" NAME="Vasmac Motorsport #1" />
+    <NAME LIVERY="72" NAME="Vasmac Motorsport #2" />
+    <NAME LIVERY="73" NAME="Team Mondoline #3" />
+    <NAME LIVERY="74" NAME="Team Mondoline #4" />
+    <NAME LIVERY="75" NAME="Besmone Automotive Team #5" />
+    <NAME LIVERY="76" NAME="Besmone Automotive Team #6" />
+    <NAME LIVERY="77" NAME="Elbregsen Motorsports #7" />
+    <NAME LIVERY="78" NAME="Elbregsen Motorsports #8" />
+    <NAME LIVERY="79" NAME="GedK Gloves Team #11" />
+    <NAME LIVERY="80" NAME="GedK Gloves Team #12" />
+    <NAME LIVERY="81" NAME="Satmel Motor Racing #13" />
+    <NAME LIVERY="82" NAME="Satmel Motor Racing #14" />
+    <NAME LIVERY="83" NAME="PAIS Motorsport #51" />
+    <NAME LIVERY="84" NAME="PAIS Motorsport #52" />
+    <NAME LIVERY="85" NAME="Team Britgens #33" />
+    <NAME LIVERY="86" NAME="Team Britgens #34" />
+    <NAME LIVERY="87" NAME="Sporddreka Exhaust Systems #47" />
+    <NAME LIVERY="88" NAME="Sporddreka Exhaust Systems #48" />
+    <NAME LIVERY="89" NAME="Sakume Auto Racing #37" />
+    <NAME LIVERY="90" NAME="Sakume Auto Racing #38" />
+    <NAME LIVERY="101" NAME="Lumensi Racing #09" />
+    <NAME LIVERY="102" NAME="Lumensi Racing #10" />
+    <NAME LIVERY="103" NAME="Team Cash Show! #15" />
+    <NAME LIVERY="104" NAME="Team Cash Show! #16" />
+    <NAME LIVERY="105" NAME="Almynec Racing #77" />
+    <NAME LIVERY="106" NAME="Almynec Racing #78" />
+    <NAME LIVERY="107" NAME="EXTA Racing Inc. #28" />
+    <NAME LIVERY="108" NAME="EXTA Racing Inc. #29" />
+    <NAME LIVERY="109" NAME="Keaveneys Racing #43" />
+    <NAME LIVERY="110" NAME="Keaveneys Racing #44" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery01_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery02_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery03_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery04_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery05_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery06_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery07_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery08_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="79">
+    <REPLACE MATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\ford_falc_fg_paint" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\ford_falc_fg_paint_skin" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\ford_falc_fg_paint_cpit" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\ford_falc_fg_paint_cpit_skin" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery11_alpha.dds" />
+    <REPLACE MATERIAL="FFG13_FORD_FALCON_FG_SV8_FORD_FALC_FG_PAINT" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="FORD_FALC_FG_PAINT" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="ford_falc_fg_paint" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="ford_falc_fg_paint.mtx" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles/ffg13_ford_falcon_fg_sv8/ford_falc_fg_paint" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles/ffg13_ford_falcon_fg_sv8/ford_falc_fg_paint.mtx" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="FFG13_FORD_FALCON_FG_SV8_FORD_FALC_FG_PAINT_SKIN" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="FORD_FALC_FG_PAINT_SKIN" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="ford_falc_fg_paint_skin" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="ford_falc_fg_paint_skin.mtx" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles/ffg13_ford_falcon_fg_sv8/ford_falc_fg_paint_skin" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles/ffg13_ford_falcon_fg_sv8/ford_falc_fg_paint_skin.mtx" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="FFG13_FORD_FALCON_FG_SV8_FORD_FALC_FG_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="FORD_FALC_FG_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="ford_falc_fg_paint_cpit_skin" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="ford_falc_fg_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/ffg13_ford_falcon_fg_sv8/ford_falc_fg_paint_cpit_skin" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/ffg13_ford_falcon_fg_sv8/ford_falc_fg_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="80">
+    <REPLACE MATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\ford_falc_fg_paint" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\ford_falc_fg_paint_skin" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\ford_falc_fg_paint_cpit" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\ford_falc_fg_paint_cpit_skin" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery12_alpha.dds" />
+    <REPLACE MATERIAL="FFG13_FORD_FALCON_FG_SV8_FORD_FALC_FG_PAINT" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="FORD_FALC_FG_PAINT" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="ford_falc_fg_paint" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="ford_falc_fg_paint.mtx" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles/ffg13_ford_falcon_fg_sv8/ford_falc_fg_paint" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles/ffg13_ford_falcon_fg_sv8/ford_falc_fg_paint.mtx" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="FFG13_FORD_FALCON_FG_SV8_FORD_FALC_FG_PAINT_SKIN" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="FORD_FALC_FG_PAINT_SKIN" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="ford_falc_fg_paint_skin" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="ford_falc_fg_paint_skin.mtx" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles/ffg13_ford_falcon_fg_sv8/ford_falc_fg_paint_skin" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles/ffg13_ford_falcon_fg_sv8/ford_falc_fg_paint_skin.mtx" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="FFG13_FORD_FALCON_FG_SV8_FORD_FALC_FG_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="FORD_FALC_FG_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="ford_falc_fg_paint_cpit_skin" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="ford_falc_fg_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/ffg13_ford_falcon_fg_sv8/ford_falc_fg_paint_cpit_skin" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/ffg13_ford_falcon_fg_sv8/ford_falc_fg_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\ffg13_ford_falcon_fg_sv8\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="81">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery13.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery13_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="82">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery14_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="83">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery19.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery19_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="84">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery20.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery20_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="85">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery23.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery23_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="86">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery24.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery24_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="87">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery25.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery25_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="88">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery26.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery26_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="89">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery29.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery29_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="90">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery30.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\liveries\ford_falcon_fg_livery30_alpha.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_soft_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_soft_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_rain_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_rain_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tire_dunlop_sport_maxx_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_tire_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\tread_rain_01_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="101">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery09_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery09_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="102">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery10_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery10_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="103">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery15_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery15_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="104">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery16_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery16_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="105">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery17_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery17_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="106">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery18_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery18_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="107">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery21.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery21_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery21.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery21_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="108">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery22.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery22_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery22.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery22_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="109">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery27.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery27_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery27.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery27_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="110">
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery28.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery28_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery28.dds" />
+    <REPLACE TEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\ford_falc_fg_stickers_diff.dds" NEWTEXTURE="vehicles\ffg13_ford_falcon_fg_sv8\shared\pc2\textures\liveries\ford_falcon_fg_livery28_alpha.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

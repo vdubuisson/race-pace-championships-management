@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="18" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="1" NAME="Summit White" />
+    <NAME LIVERY="2" NAME="Silver Ice Metallic" />
+    <NAME LIVERY="3" NAME="Black" />
+    <NAME LIVERY="4" NAME="Nightfall Gray Metallic" />
+    <NAME LIVERY="5" NAME="Red Hot" />
+    <NAME LIVERY="6" NAME="Blue Velvet Metallic" />
+    <NAME LIVERY="7" NAME="Hyper Blue Metallic" />
+    <NAME LIVERY="8" NAME="Bright Yellow" />
+    <NAME LIVERY="9" NAME="Garnet Red Tintcoat" />
+    <NAME LIVERY="10" NAME="Mosaic Black Metallic" />
+    <NAME LIVERY="71" NAME="Livery 1" />
+    <NAME LIVERY="72" NAME="Livery 2" />
+    <NAME LIVERY="73" NAME="Livery 3" />
+    <NAME LIVERY="74" NAME="Livery 4" />
+    <NAME LIVERY="75" NAME="Livery 5" />
+    <NAME LIVERY="76" NAME="Livery 6" />
+    <NAME LIVERY="77" NAME="DLC Livery 1" />
+    <NAME LIVERY="78" NAME="DLC Livery 2" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="1">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_summit_white.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_summit_white_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_summit_white_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_summit_white_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_1.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_1_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_1_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_1_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_1.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_1.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_1.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_silver_ice.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_silver_ice_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_silver_ice_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_silver_ice_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_2.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_2_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_2_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_2_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_2.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_2.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_2.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_black.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_black_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_black_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_black_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_3.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_3_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_3_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_3_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_3.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_3.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_3.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="4">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_nightfall_gray.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_nightfall_gray_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_nightfall_gray_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_nightfall_gray_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_4.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_4_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_4_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_4_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_4.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_4.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_4.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="5">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_red_hot.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_red_hot_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_red_hot_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_red_hot_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_5.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_5_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_5_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_5_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_5.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_5.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_5.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="6">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_blue_velvet.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_blue_velvet_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_blue_velvet_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_blue_velvet_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_6.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_6_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_6_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_6_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_6.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_6.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_6.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="7">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_hyper_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_hyper_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_hyper_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_hyper_blue_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_7.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_7_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_7_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_7_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_7.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_7.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_7.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="8">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_bright_yellow.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_bright_yellow_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_bright_yellow_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_bright_yellow_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_8.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_8_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_8_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_8_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_8.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_8.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_8.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="9">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_garnet_red.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_garnet_red_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_garnet_red_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_garnet_red_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_9.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_9_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_9_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_9_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_9.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_9.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_9.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="10">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_mosaic_black.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_mosaic_black_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_mosaic_black_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\paint_chevrolet_mosaic_black_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_10.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_10_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_10_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_10_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_10.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_10.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_10.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\liveries\chevrolet_cam_zl1_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_71.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_71.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_71.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_71.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\liveries\chevrolet_cam_zl1_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_72.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_72.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_72.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_72.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\liveries\chevrolet_cam_zl1_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_73.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_73.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_73.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_73.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\liveries\chevrolet_cam_zl1_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_74.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_74.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_74.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_74.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\liveries\chevrolet_cam_zl1_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_75.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_75.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_75.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_75.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\livery_standard_paint_chrome.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\livery_standard_paint_chrome_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\liveries\chevrolet_cam_zl1_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\liveries\chevrolet_cam_zl1_livery06_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_76.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_76_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_76_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_76_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_76.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_76.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_76.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\livery_x4_01.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\livery_x4_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\livery_x4_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\livery_x4_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\liveries\audi_a4_dtm_livery01.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\liveries\chevrolet_cam_zl1_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_77.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_77_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_77_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_77_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_77.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_77.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_77.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\livery_generic_winered_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\livery_generic_winered_metallic_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\che_cam_zl1_paint_cpit_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\shared\_generic_materials\livery_generic_winered_metallic_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\liveries\chevrolet_cam_zl1_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\generic_licplate_us_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\plates\plate_78.dds" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_78_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_78_skin.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_paint_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_livery_78_skin.mtx" />
+    <REPLACE MATERIAL="am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_78.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_78.mtx" />
+    <REPLACE MATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin.mtx" NEWMATERIAL="vehicles\am_chevrolet_camaro_zl1\am_zl1_cockpit_mirror_main_native_skin_livery_78.mtx" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\am_chevrolet_camaro_zl1\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

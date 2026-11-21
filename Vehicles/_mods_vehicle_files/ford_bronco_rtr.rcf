@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="20" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="Team RTR #25" />
+    <NAME LIVERY="52" NAME="Rusty Motor Sports #31" />
+    <NAME LIVERY="53" NAME="Rusty Motor Sports #32" />
+    <NAME LIVERY="54" NAME="Camouflage Customs #10" />
+    <NAME LIVERY="55" NAME="Camouflage Customs #11" />
+    <NAME LIVERY="56" NAME="Monster Energy Team #2" />
+    <NAME LIVERY="57" NAME="Monster Energy Team #3" />
+    <NAME LIVERY="58" NAME="Team Pennzoil #22" />
+    <NAME LIVERY="59" NAME="Team Pennzoil #23" />
+    <NAME LIVERY="60" NAME="Jimmy's Motorsport #45" />
+    <NAME LIVERY="61" NAME="Jimmy's Motorsport #46" />
+    <NAME LIVERY="62" NAME="New Bright Team #78" />
+    <NAME LIVERY="63" NAME="New Bright Team #79" />
+    <NAME LIVERY="64" NAME="Team Nitto #23" />
+    <NAME LIVERY="65" NAME="Team Nitto #24" />
+    <NAME LIVERY="66" NAME="American Racing #11" />
+    <NAME LIVERY="67" NAME="American Racing #12" />
+    <NAME LIVERY="68" NAME="Ford Performance #80" />
+    <NAME LIVERY="69" NAME="Ford Performance #81" />
+    <NAME LIVERY="70" NAME="Ford Performance #82" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_skin" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_cpit" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_cpit_skin" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery01_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_skin" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_cpit" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_cpit_skin" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_skin" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_cpit" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_cpit_skin" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black2_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black2_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black2_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="55">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="56">
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_skin" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_cpit" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_cpit_skin" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery06_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_skin" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_cpit" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ford_bronco_rtr\git_bron_16_paint_cpit_skin" NEWMATERIAL="vehicles\ford_bronco_rtr\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery06_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black2_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black2_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black2_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black2_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black2_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black2_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="60">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="62">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="63">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery13.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="64">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_silver_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_silver_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_silver_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="65">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_silver_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_silver_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_silver_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="66">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="67">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="68">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="69">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery19.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="70">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\liveries\ford_bronco_brocky_livery20.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\git_bron_16_wheel_black1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_nmp8888.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_nmp8888.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_nmp8888.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_nmp8888.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_nmp8888.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_nmp8888.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_nmp8888.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_trail_blur_spec.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ford_bronco_rtr\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

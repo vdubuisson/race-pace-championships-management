@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Reflection>
+  <class name="BRTTIRefCount" base="root class" />
+  <class name="BPersistent" base="BRTTIRefCount">
+    <prop name="Name" type="String" />
+  </class>
+  <class name="VehicleDetails" base="BPersistent">
+    <prop name="Vehicle Name" type="String" />
+    <prop name="ShortVehicleName" type="String" />
+    <prop name="XLASTID" type="U32" />
+    <prop name="VehicleManufacturer" type="String" />
+    <prop name="VehicleModel" type="String" />
+    <prop name="Vehicle Render Model" type="String" />
+    <prop name="Driver Character" type="String" />
+    <prop name="Vehicle Physics Model" type="String" />
+    <prop name="Cockpit properties" type="String" />
+    <prop name="Vehicle Properties" type="String" />
+    <prop name="Vehicle Year" type="S32" />
+    <prop name="Shadow Width" type="F32" />
+    <prop name="Shadow Length" type="F32" />
+    <prop name="Shadow Offset Right" type="F32" />
+    <prop name="Shadow Offset Forward" type="F32" />
+    <prop name="Shadow Texture" type="String" />
+    <prop name="Grid Grouping" type="U32" />
+    <prop name="Vehicle Class" type="String" />
+    <prop name="Lap Time A" type="F32" />
+    <prop name="Lap Time B" type="F32" />
+    <prop name="Lap Time C" type="F32" />
+    <prop name="Vehicle Group" type="String" />
+    <prop name="Vehicle Shape" type="String" />
+    <prop name="Engine Placement" type="String" />
+    <prop name="Number of Exhausts" type="S32" />
+    <prop name="Exhaust Position 1" type="Vec3f" />
+    <prop name="Exhaust Position 2" type="Vec3f" />
+    <prop name="Exhaust Position 3" type="Vec3f" />
+    <prop name="Exhaust Position 4" type="Vec3f" />
+    <prop name="Exhaust Target Position 1" type="Vec3f" />
+    <prop name="Exhaust Target Position 2" type="Vec3f" />
+    <prop name="Exhaust Target Position 3" type="Vec3f" />
+    <prop name="Exhaust Target Position 4" type="Vec3f" />
+    <prop name="Exhaust Smoke Amount Multiplier" type="F32" />
+    <prop name="Number of Engine Heat" type="S32" />
+    <prop name="Engine Heat Position 1" type="Vec3f" />
+    <prop name="Blown Engine Smoke Position" type="Vec3f" />
+    <prop name="Exhaust Backfire Mesh Cross-Section Scale" type="F32" />
+    <prop name="Exhaust Backfire Mesh Length Scale" type="F32" />
+    <prop name="Exhaust Backfire Visual Effect Type" type="String" />
+    <prop name="Vehicle Description" type="String" />
+    <prop name="AI ONLY" type="Bool" />
+    <prop name="Vehicle Initial Performance Index" type="S32" />
+    <prop name="Plate Group" type="String" />
+    <prop name="Body Upgrades" type="String" />
+    <prop name="Cockpit Upgrades" type="String" />
+    <prop name="Tire Upgrades" type="String" />
+    <prop name="Brake Upgrades" type="String" />
+    <prop name="Tier" type="U32" />
+    <prop name="Price" type="U32" />
+    <prop name="Region" type="String" />
+    <prop name="Country" type="String" />
+    <prop name="Paint Shop Data" type="String" />
+    <prop name="Min Front Wheel Diameter" type="U32" />
+    <prop name="Max Front Wheel Diameter" type="U32" />
+    <prop name="Min Rear Wheel Diameter" type="U32" />
+    <prop name="Max Rear Wheel Diameter" type="U32" />
+    <prop name="Max GUI Wheel Angle" type="F32" />
+    <prop name="Client Vehicle Version" type="U32" />
+    <prop name="Left Mirror Pos" type="Vec3f" />
+    <prop name="Right Mirror Pos" type="Vec3f" />
+    <prop name="Center Mirror Pos" type="Vec3f" />
+    <prop name="AABBMin" type="Vec3f" />
+    <prop name="AABBMax" type="Vec3f" />
+    <prop name="Scratch Texture" type="String" />
+  </class>
+  <data class="VehicleDetails" id="0x28801984">
+    <prop name="Name" data="Ferrari_288_GTO" />
+    <prop name="Vehicle Name" data="Ferrari 288 GTO" />
+    <prop name="ShortVehicleName" data="288 GTO" />
+    <prop name="XLASTID" data="591" />
+    <prop name="VehicleManufacturer" data="Ferrari" />
+    <prop name="VehicleModel" data="288 GTO" />
+    <prop name="Vehicle Render Model" data="Ferrari_288_GTO.vhf" />
+    <prop name="Driver Character" data="ferrari_288_gto" />
+    <prop name="Vehicle Physics Model" data="g288_pc2_ams2" />
+    <prop name="Cockpit properties" data="Ferrari_288_GTO_Cockpit.bin" />
+    <prop name="Vehicle Properties" data="ferrari_288_gto" />
+    <prop name="Vehicle Year" data="1984" />
+    <prop name="Shadow Width" data="5.0" />
+    <prop name="Shadow Length" data="7.0" />
+    <prop name="Shadow Offset Right" data="0" />
+    <prop name="Shadow Offset Forward" data="0" />
+    <prop name="Shadow Texture" data="Ferrari_288_GTO_ambsh.dds" />
+    <prop name="Grid Grouping" data="42" />
+    <prop name="Vehicle Class" data="Ferrari_80s" />
+    <prop name="Lap Time A" data="89.8" track="Sugo" />
+    <prop name="Lap Time B" data="86.8" track="Long Beach" />
+    <prop name="Lap Time C" data="73.2" track="Donington Nat" />
+    <prop name="Vehicle Group" data="GT" />
+    <prop name="Vehicle Shape" data="Road" />
+    <prop name="Engine Placement" data="Mid" />
+    <prop name="Number of Exhausts" data="4" />
+    <prop name="Exhaust Position 1" data="0.421;0.332;2.000" />
+    <prop name="Exhaust Position 2" data="-0.421;0.332;2.000" />
+    <prop name="Exhaust Position 3" data="0.345;0.332;2.000" />
+    <prop name="Exhaust Position 4" data="-0.345;0.332;2.000" />
+    <prop name="Exhaust Target Position 1" data="0.421;0.337;2.080" />
+    <prop name="Exhaust Target Position 2" data="-0.421;0.337;2.080" />
+    <prop name="Exhaust Target Position 3" data="0.345;0.337;2.080" />
+    <prop name="Exhaust Target Position 4" data="-0.345;0.337;2.080" />
+    <prop name="Exhaust Smoke Amount Multiplier" data="0.44" />
+    <prop name="Number of Engine Heat" data="1" />
+    <prop name="Engine Heat Position 1" data="0;0.80;1.38" />
+    <prop name="Blown Engine Smoke Position" data="0;0.80;1.38" />
+    <prop name="Exhaust Backfire Mesh Cross-Section Scale" data="1.50" />
+    <prop name="Exhaust Backfire Mesh Length Scale" data="1.00" />
+    <prop name="Exhaust Backfire Visual Effect Type" data="none" />
+    <prop name="Vehicle Description" data="" />
+    <prop name="AI ONLY" data="false" />
+    <prop name="Vehicle Initial Performance Index" data="129" />
+    <prop name="Plate Group" data="Plate_Type_EU" />
+    <prop name="Body Upgrades" data="" />
+    <prop name="Cockpit Upgrades" data="" />
+    <prop name="Tire Upgrades" data="" />
+    <prop name="Brake Upgrades" data="" />
+    <prop name="Tier" data="5" />
+    <prop name="Price" data="57050" />
+    <prop name="Region" data="EU" />
+    <prop name="Country" data="Italy" />
+    <prop name="Paint Shop Data" data="" />
+    <prop name="Min Front Wheel Diameter" data="15" />
+    <prop name="Max Front Wheel Diameter" data="19" />
+    <prop name="Min Rear Wheel Diameter" data="15" />
+    <prop name="Max Rear Wheel Diameter" data="19" />
+    <prop name="Max GUI Wheel Angle" data="20.0" />
+    <prop name="Client Vehicle Version" data="1" />
+    <prop name="Left Mirror Pos" data="0.8647;0.8916;-0.5520" />
+    <prop name="Right Mirror Pos" data="-0.8647;0.8916;-0.5520" />
+    <prop name="Center Mirror Pos" data="0.0050;1.0203;-0.2582" />
+    <prop name="AABBMin" data="-0.9566;0.0000;-2.2599" />
+    <prop name="AABBMax" data="0.9566;1.1337;2.0511" />
+    <prop name="Scratch Texture" data="common_windscreen_scratches_02.dds" />
+  </data>
+</Reflection>

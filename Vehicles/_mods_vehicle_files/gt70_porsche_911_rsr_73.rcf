@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="22" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="Porsche Racing Team #8" />
+    <NAME LIVERY="52" NAME="Porsche Racing Team #8b" />
+    <NAME LIVERY="53" NAME="Porsche Racing Team #9" />
+    <NAME LIVERY="54" NAME="Porsche Racing Team #62" />
+    <NAME LIVERY="55" NAME="Penske Racing #6" />
+    <NAME LIVERY="56" NAME="Brumos Porsche #58" />
+    <NAME LIVERY="57" NAME="Brumos Porsche #59" />
+    <NAME LIVERY="58" NAME="Helmick Racing #59" />
+    <NAME LIVERY="59" NAME="Porsche Kremer Racing Team #45" />
+    <NAME LIVERY="60" NAME="Porsche Kremer Racing Team #110" />
+    <NAME LIVERY="61" NAME="Porsche Kremer Racing Team #46" />
+    <NAME LIVERY="62" NAME="Rene Mazzia Team #42" />
+    <NAME LIVERY="63" NAME="Max Moritz GmbH #43" />
+    <NAME LIVERY="64" NAME="Porsche System Engineering #48" />
+    <NAME LIVERY="65" NAME="Jean Egreteaud Team #49" />
+    <NAME LIVERY="66" NAME="GELO Racing Team #63" />
+    <NAME LIVERY="67" NAME="Jean Sage Team #78" />
+    <NAME LIVERY="68" NAME="Ballot-Lena #7" />
+    <NAME LIVERY="69" NAME="Ballot-Lena #108" />
+    <NAME LIVERY="70" NAME="Louis Meznarie Team #84" />
+    <NAME LIVERY="71" NAME="Porsche Racing Team #23" />
+    <NAME LIVERY="72" NAME="Porsche Racing Team #24" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint_cpit" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint_cpit_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\audi_r18_livery18.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE MATERIAL="GT70_PORSCHE_911_RSR_73_DFC8A5DC3CBB" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="POR_RSR_73_PAINT" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="POR_RSR_73_PAINT_CPIT" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_RSR_73_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint_cpit" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint_cpit_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\audi_r18_livery18.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE MATERIAL="GT70_PORSCHE_911_RSR_73_DFC8A5DC3CBB" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="POR_RSR_73_PAINT" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="POR_RSR_73_PAINT_CPIT" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_RSR_73_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint_cpit" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint_cpit_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\audi_r18_livery18.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE MATERIAL="GT70_PORSCHE_911_RSR_73_DFC8A5DC3CBB" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="POR_RSR_73_PAINT" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="POR_RSR_73_PAINT_CPIT" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_RSR_73_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint_cpit" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\gt70_porsche_911_rsr_73\por_rsr_73_paint_cpit_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\audi_r18_livery18.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE MATERIAL="GT70_PORSCHE_911_RSR_73_DFC8A5DC3CBB" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="POR_RSR_73_PAINT" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18.mtx" />
+    <REPLACE MATERIAL="POR_RSR_73_PAINT_CPIT" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autocpit.mtx" />
+    <REPLACE MATERIAL="POR_RSR_73_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="por_rsr_73_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit_skin" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles/gt70_porsche_911_rsr_73/por_rsr_73_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\gt70_porsche_911_rsr_73\shared\_generic_materials\livery_lm11_18_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="55">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner05.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="56">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner06.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner08.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_red_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_red_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_red_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner06.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="60">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_red_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_red_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_red_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner10.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_orange_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_orange_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_orange_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_orange_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner11.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="62">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner11.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="63">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery13.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="64">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner14.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="65">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner15.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="66">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="67">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="68">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="69">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery19.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="70">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery20.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tire_dunlop_basic_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery21.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_black_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_livery22.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_banner_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\liveries\porsche_911_rsr_73_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_high_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_tire_vintage_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\por_rsr_73_wheel_black_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_blur_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_blur_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_blur_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_blur_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_blur_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_diff_00.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_diff_01.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_blur_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_spec_00.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_firestone_f167_spec_01.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_spec.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\tread_dunlop_vintage2_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\gt70_porsche_911_rsr_73\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

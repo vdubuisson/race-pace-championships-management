@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="17" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="1" NAME="GT Silver Metallic" />
+    <NAME LIVERY="2" NAME="Sealgrey Metallic" />
+    <NAME LIVERY="3" NAME="Black" />
+    <NAME LIVERY="4" NAME="Fayence Yellow" />
+    <NAME LIVERY="5" NAME="Guards Red" />
+    <NAME LIVERY="6" NAME="Basalt Black Metallic" />
+    <NAME LIVERY="71" NAME="Livery 1" />
+    <NAME LIVERY="72" NAME="Livery 2" />
+    <NAME LIVERY="73" NAME="Livery 3" />
+    <NAME LIVERY="74" NAME="Livery 4" />
+    <NAME LIVERY="75" NAME="Livery 5" />
+    <NAME LIVERY="76" NAME="Livery 6" />
+    <NAME LIVERY="101" NAME="Weiss" />
+    <NAME LIVERY="102" NAME="Kobaltblau Metallic" />
+    <NAME LIVERY="103" NAME="Lapisblau Metallic" />
+    <NAME LIVERY="104" NAME="Azzuro California Metallic" />
+    <NAME LIVERY="105" NAME="Gulfblau" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="1">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_gt_silver.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_gt_silver_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_gt_silver_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_gt_silver_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_1" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_seal_grey.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_seal_grey_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_seal_grey_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_seal_grey_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_2" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_black.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_black_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_black_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_black_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_3" />
+  </CONDITION>
+  <CONDITION LIVERY="4">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_fayence_yellow.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_fayence_yellow_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_fayence_yellow_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_fayence_yellow_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_4" />
+  </CONDITION>
+  <CONDITION LIVERY="5">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_guards_red.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_guards_red_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_guards_red_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_guards_red_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_5" />
+  </CONDITION>
+  <CONDITION LIVERY="6">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_basalt_black.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_basalt_black_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_basalt_black_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\paint_porsche_basalt_black_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_6" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_generic_winered_metallic.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_generic_winered_metallic_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_generic_winered_metallic_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_generic_winered_metallic_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\liveries\por_carrera_gt_livery01.dds" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_71" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_gt40_03.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_gt40_03_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_gt40_03_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_gt40_03_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\liveries\ford_gt40_mkiv_livery03.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\liveries\por_carrera_gt_livery02.dds" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_72" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\liveries\cat_r500_livery18.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\liveries\por_carrera_gt_livery03.dds" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_73" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\liveries\por_carrera_gt_livery04.dds" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_74" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\liveries\por_carrera_gt_livery05.dds" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_75" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_r500_12.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_r500_12_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_r500_12_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\_generic_materials\livery_r500_12_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\liveries\cat_r500_livery12.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\liveries\por_carrera_gt_livery06.dds" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_76" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_huayra_blur_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\ms_porsche_carrera_gt\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="101">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_white.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_white_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_white_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_white_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_101" />
+  </CONDITION>
+  <CONDITION LIVERY="102">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_kobalt_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_kobalt_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_kobalt_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_kobalt_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_102" />
+  </CONDITION>
+  <CONDITION LIVERY="103">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_lapis_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_lapis_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_lapis_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_lapis_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_103" />
+  </CONDITION>
+  <CONDITION LIVERY="104">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_azzuro_california.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_azzuro_california_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_azzuro_california_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_azzuro_california_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_104" />
+  </CONDITION>
+  <CONDITION LIVERY="105">
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_gulf_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_gulf_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_gulf_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\por_carrera_gt_paint_cpit_skin" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\shared\pc2\_generic_materials\paint_porsche_gulf_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro" NEWMATERIAL="vehicles\ms_porsche_carrera_gt\generic_licplate_euro_plate_105" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

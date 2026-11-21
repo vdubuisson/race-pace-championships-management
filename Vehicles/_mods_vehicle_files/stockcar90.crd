@@ -63,7 +63,7 @@
         <prop name="AABBMax" type="Vec3f" />
 
     </class>
-    <data class="VehicleDetails" id="0xD8D56D0">
+    <data class="VehicleDetails" id="0xD8D55D0">
         <prop name="Name" data="Stockcar_90" />
         <prop name="Vehicle Name" data="Caper Monterey Stockcar" />
         <prop name="ShortVehicleName" data="Monterey" />

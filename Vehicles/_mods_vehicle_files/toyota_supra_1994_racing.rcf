@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <REPLACEMENT_SYSTEM>
 	<!-- INPUTS section describes all inputs which can control selection of replacement items -->
 	<INPUTS>
-		<INPUT NAME="LIVERY" OPTIONS="7" />
+		<INPUT NAME="LIVERY" OPTIONS="4" />
 		<INPUT NAME="TIRE" OPTIONS="6" />
 		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
 	</INPUTS>
@@ -12,10 +12,6 @@
 		<NAME LIVERY="73" NAME="JGTC 1995 - FET Racing Team #8" />
 		<NAME LIVERY="71" NAME="JGTC 1996 - Toyota Castrol Team TOM'S #36" />
 		<NAME LIVERY="72" NAME="JGTC 1996 - Toyota Castrol Team Cerumo #37" />		
-		<NAME LIVERY="74" NAME="JGTC 1995 - Tom's Zuhai 3h #37" />
-		<NAME LIVERY="75" NAME="JGTC - Team SARD #39" />
-		<NAME LIVERY="76" NAME="JGTC - Team ESSO #6" />
-
 	</NAMES>
 
 	<NAMES INPUT ="TIRE">
@@ -40,7 +36,7 @@
 	<!-- They are used in the same way for all situations				-->
 	
 	<!-- Simple case - exterior paint effecting two materials -->
-	
+
 	<CONDITION LIVERY="70">		
  	<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_livery05_hr.dds" />	
  	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_banner_livery05_diff.dds" />
@@ -77,31 +73,6 @@
  	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_gold_diff.dds" />
  	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_gold_spec.dds" /> 	  	 	
 	</CONDITION>
-	<CONDITION LIVERY="74">		
- 	<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_livery02_hr.dds" />		
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_banner_livery02_diff.dds" />	
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_diff.dds" />
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_spec.dds" />
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_diff.dds" />
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_spec.dds" />		 	
-	</CONDITION>
-        <CONDITION LIVERY="75">		
- 	<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_livery07_hr.dds" />		
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_banner_livery07_diff.dds" />	
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_diff.dds" />
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_spec.dds" />
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_diff.dds" />
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_spec.dds" />		 	
-	</CONDITION>
-	<CONDITION LIVERY="76">		
- 	<REPLACE TEXTURE="vehicles\textures\common_paint.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_livery06_hr.dds" />		
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_banner_diff.dds" NEWTEXTURE="vehicles\textures\liveries\toy_supra_94_rac01_banner_livery06_diff.dds" />	
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_diff.dds" />
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_blur_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_blur_spec.dds" />
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_diff.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_diff.dds" />
- 	<REPLACE TEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_spec.dds" NEWTEXTURE="vehicles\textures\toy_supra_94_rac01_wheel_white_spec.dds" />		 	
-	</CONDITION>
-
 
 	<!-- 'Soft' Slick tire -->
 	<CONDITION TIRE="1">

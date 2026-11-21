@@ -1,17 +1,21 @@
 id,name,is_mod
+2016 IndyCar Series,Verizon IndyCar Series,TRUE
 620R,Caterham 620R Cup,TRUE
-80' supercars,80' Supercars,TRUE
-80' supercars TD,80' Supercars TD,TRUE
-90' Supercars,90' Supercars,TRUE
-90' Supercars TD,90' Supercars TD,TRUE
+80s Supercars,80s Supercars,TRUE
+90s Supercars,90s Supercars,TRUE
+Alpine,Alpine Cup,TRUE
+American Muscle Street,American Muscle Street,TRUE
 ARC_Cam,ARC,FALSE
 audittscup,Audi Sports TT Cup,TRUE
+BMW_Road_Cars,BMW 1M,TRUE
 Carrera Cup,Porsche Carrera Cup,FALSE
 Cat620R,Caterham 620R,FALSE
 Cat_Academy,Caterham Academy,FALSE
 Cat_Superlight,Caterham Superlight,FALSE
 Cat_Supersport,Caterham Supersport,FALSE
+Clio Cup V,Clio Cup V,TRUE
 cliocup,Clio Cup,TRUE
+Concept Cars,Concept Cars,TRUE
 CopaClassicB,Copa Classic B,FALSE
 CopaClassicFL,Copa Classic FL,FALSE
 CopaFusca,Copa Fusca,FALSE
@@ -20,7 +24,7 @@ CopaUno,Copa Uno,FALSE
 DPI,DPi,FALSE
 DTM13,DTM 2013,TRUE
 Electric Touring Car,Electric Touring Car,TRUE
-ELMS-P3,ELMS P3,TRUE
+Evo Street,Evo Street,TRUE
 F-3,Formula 3,FALSE
 F-Classic_Gen1,Formula Classic Gen 1,FALSE
 F-Classic_Gen2,Formula Classic Gen 2,FALSE
@@ -53,26 +57,30 @@ F-Vee,Formula Vee Brazil Gen 1,FALSE
 F-Vee_Gen2,Formula Vee Brazil Gen 2,FALSE
 F-Vintage_Gen1,Formula Vintage Gen 1,FALSE
 F-Vintage_Gen2,Formula Vintage Gen 2,FALSE
-F1-1996,F1 1996,TRUE
+F2000,F2000,TRUE
 f355 series,F355 Challenge,TRUE
 f488 series,F488 Challenge,TRUE
-F488challEVO,F488 Challenge EVO,TRUE
 FE-G1,Formula Edge,FALSE
+Ferrari_80s,288 GTO,TRUE
 FIAGT1,GT1 2010,TRUE
 FIAGT1_11,GT1 2011,TRUE
 forc,USF Pro,TRUE
-FordRS,GTS 73,TRUE
+Ford_Bronco,King of the Hammers,TRUE
+Ford_Offroad_RTR,Fun Haver,TRUE
 Formula E,Formula E,TRUE
-Formula Renault,Formula Renault,TRUE
+Formula Renault 3.5,Formula Renault 3.5,TRUE
+Formula X,Formula X,TRUE
 G40Cup,Ginetta G40 Cup,FALSE
 G55Supercup,Ginetta G55 Supercup,FALSE
+GR Yaris Cup,GR Yaris Cup,TRUE
 Gr5,GR5,TRUE
+Group 5 Legends,Group 5 Legends,TRUE
 Group A,Group A,FALSE
+Group A Legends,Group A Legends,TRUE
 Group A mod,Group A mod,TRUE
 Group B,Group B,TRUE
 Group C,Group C,FALSE
-Group C mod,Group C mod,TRUE
-Group6,GR6,TRUE
+GT 70,GT 70,TRUE
 GT1,GT1,FALSE
 GT1_05,GT1 2005,FALSE
 GT1SportsClub,GT1 Sports Club,TRUE
@@ -81,7 +89,7 @@ GT3,GT3,FALSE
 GT3_Gen0,GT3 Gen 0,TRUE
 GT3_Gen2,GT3 Gen 2,FALSE
 GT3_LMS_MP412CP,GT3 Historic 1,TRUE
-GT3_Nurb24h,GT3 Nurburgring,TRUE
+GT3spec,GT3 spec,TRUE
 GT4,GT4,FALSE
 GT4 mod,GT4 mod,TRUE
 GT5,GT5,FALSE
@@ -90,13 +98,14 @@ GT997RSR,GT3 Historic 2,TRUE
 GTClassic_4,GT Classics mod,TRUE
 GTE,GTE,FALSE
 GTE mod,GTE mod,TRUE
+GTELM,GT2 BMW M3 e92,TRUE
 GTO,GTO,TRUE
 GTOpen,GT Open,FALSE
 GTR_04,GTR 2004,FALSE
 Hot Cars,Hot Cars,FALSE
 Hypercars,Hypercars,FALSE
 iconic,Iconic,TRUE
-Indycar_2023,Indycar 2023,TRUE
+IMSA Legends,IMSA Legends,TRUE
 InitD,Initial D,TRUE
 JGTC500,JGTC500,TRUE
 Kart125cc,Karting 2T 125cc,FALSE
@@ -105,21 +114,32 @@ KartGX390,Karting 4T Race,FALSE
 KartRental,Karting 4T Rental,FALSE
 KartShifter,Karting 2T Shifter,FALSE
 LancerCup,Lancer Cup,FALSE
+Le Mans '59,Le Mans '59,TRUE
+Le Mans '67,Le Mans '67,TRUE
+Le Mans '70,Le Mans '70,TRUE
+Le Mans '71,Le Mans '71,TRUE
+Le Mans '78,Le Mans '78,TRUE
+Legends,Legend Cars,TRUE
 LES_2025,Ligier European Series,FALSE
 LMDh,LMDh/GTP,FALSE
-LMGT2,LMGT2,TRUE
 LMP1 2016,LMP1 2016,TRUE
 LMP1_05,LMP1 2005,FALSE
 LMP2,LMP2 Gen 2,FALSE
 LMP216,LMP2 2016,TRUE
 LMP2_05,LMP2 2005,FALSE
 LMP2_Gen1,LMP2 Gen 1,FALSE
+LMP3_Gen1,LMP3 Gen 1,TRUE
+LMP3_Gen2,LMP3 Gen 2,TRUE
 LMSeries,Le Mans Series,TRUE
 Lotus Cup,Lotus Cup,TRUE
+Mazda_MX5,Mazda MX-5 Cup,TRUE
 MD_LeMans,24h du Mans,TRUE
 MeganeTrophyV6,Megane Trophy V6,TRUE
+Millennium Supercars,Millennium Supercars,TRUE
 MiniChallenge,JCW,FALSE
 Montana,Copa Montana,FALSE
+NASCAR 2016,StockCar Series,TRUE
+Octavia Cup,Octavia Cup,TRUE
 OldStock,Old Stock Race,FALSE
 Opala79,Stock Car Brasil 1979,FALSE
 Opala86,Stock Car Brasil 1986,FALSE
@@ -129,20 +149,16 @@ P2,P2,FALSE
 P3,P3,FALSE
 P4,P4,FALSE
 PaganiX,Pagani,TRUE
-Porsche_Cup_BR,Porsche Carrera Cup Brasil,TRUE
-Porsche_Cup_EU,Porsche Carrera Cup Europe,TRUE
-Porsche_Cup_GBR,Porsche Carrera Cup UK,TRUE
-Porsche_Cup_GER,Porsche Carrera Cup Germany,TRUE
-Porsche_Cup_USA,Porsche Carrera Cup USA,TRUE
+Porsche Carrera Cup mod,Porsche Carrera Cup mod,TRUE
 Procar,M1 Procar,FALSE
+Rally GT,Rally GT,TRUE
 rb86,Toyota 86 Cup,TRUE
-Road D,Road D,TRUE
 Road G,Road G,TRUE
+Road GT,Road GT,TRUE
 RX,Rallycross,FALSE
 RX mod,RX mod,TRUE
 RXCCup,Radical RXC Cup,TRUE
 RXLites,RX Lites,TRUE
-SCCA-Racing,SCCA Pro Racing,TRUE
 SprintRace,Sprint Race,FALSE
 SR3,Radical SR3,TRUE
 SR8,Radical SR8-RX,TRUE
@@ -164,30 +180,32 @@ Street B,Street Cars B,TRUE
 Street C,Street Cars C,TRUE
 Street D,Street Cars D,TRUE
 Street E,Street Cars E,TRUE
+Street Hatchback,Street Hatchback,TRUE
 STT,Super Trophy Trucks,FALSE
 Super Trofeo,Super Trofeo,FALSE
 Supercars,Supercars,FALSE
 SuperKart,Superkart,FALSE
 SuperV8,Super V8,FALSE
+SuperV8Gen3,Supercars Championship Repco,TRUE
 TaycanCup,Taycan Cup,TRUE
 TC60S,Vintage Touring Cars Tier 1,FALSE
 TC60S2,Vintage Touring Cars Tier 2,FALSE
 TC60S2mod,Vintage Touring Cars Tier 2 Mod,TRUE
 TC70S,GT Classic,FALSE
+TCR,TCR 2022,TRUE
 TCR_X,TCR,TRUE
 Timeattack,Time Attack,TRUE
+Touring 70,TC 70,TRUE
 Track Day A,Track Day A,TRUE
 trackdB,Track Day B,TRUE
+Trans-American Legends,Trans-American Legends,TRUE
 Trofeo_2005,Maserati Trofeo 2005,FALSE
 TSICup,TSI Cup,FALSE
-Vintage F3 A,F3 Vintage,TRUE
+Vintage GT,Vintage GT,TRUE
 Vintage Indycar,Vintage Indycar,TRUE
-Vintage Prototype A,Vintage Prototype A,TRUE
 Vintage Prototype B,Vintage Prototype B,TRUE
+Vintage Road,Vintage Road,TRUE
 Vintage Stockcar,Vintage Stock Cars,TRUE
-Vintage Touring-GT A,GTA,TRUE
-Vintage Touring-GT B,GTB,TRUE
-Vintage Touring-GT F,Nascar Grand National,TRUE
 Whelen_Mazda,Whelen Mazda MX-5,TRUE
 World_GT_Challenge,GT World Challenge,TRUE
 X-Bow Cup,KTM Cup,TRUE

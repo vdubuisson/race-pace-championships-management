@@ -1,3 +1,8 @@
 .form-field {
   gap: 1.25rem;
 }
+
+.reset-btn {
+  cursor: pointer;
+  font-size: 1rem;
+}

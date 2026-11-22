@@ -18,4 +18,8 @@ export class PercentInput implements FormValueControl<number | null> {
 
   readonly tooltip = input<string>();
   readonly size = input<'l' | 'm'>('m');
+
+  protected clear() {
+    this.value.set(null);
+  }
 }

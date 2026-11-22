@@ -18,6 +18,10 @@
         placeholder="0%"
       />
       <input tuiSlider type="range" />
+
+      @if (value()) {
+        <tui-icon icon="@tui.x" class="reset-btn" (click)="clear()" />
+      }
     </tui-textfield>
   </label>
   @for (error of errors(); track error) {

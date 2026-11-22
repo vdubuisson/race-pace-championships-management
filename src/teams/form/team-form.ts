@@ -75,7 +75,7 @@ export default class TeamForm {
     defaultValue: null,
   });
 
-  readonly canDeactivate = signal(false);
+  readonly canDeactivate = linkedSignal(() => !this.teamForm().dirty());
 
   private readonly originalName = computed(() => this.existingTeam.value()?.name);
 

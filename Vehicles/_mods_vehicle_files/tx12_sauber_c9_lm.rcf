@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="15" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="Sauber Mercedes #61" />
+    <NAME LIVERY="52" NAME="Sauber Mercedes #62" />
+    <NAME LIVERY="53" NAME="Sauber Mercedes #63" />
+    <NAME LIVERY="54" NAME="WEST Racing Team #14" />
+    <NAME LIVERY="55" NAME="WEST Racing Team #15" />
+    <NAME LIVERY="56" NAME="Team HXC Equipment #38" />
+    <NAME LIVERY="57" NAME="Team HXC Equipment #39" />
+    <NAME LIVERY="58" NAME="Weber Motorsport #35" />
+    <NAME LIVERY="59" NAME="Weber Motorsport #36" />
+    <NAME LIVERY="60" NAME="Petroblast Racing #70" />
+    <NAME LIVERY="61" NAME="Petroblast Racing #71" />
+    <NAME LIVERY="62" NAME="Keaveneys Racing Team #42" />
+    <NAME LIVERY="63" NAME="Keaveneys Racing Team #43" />
+    <NAME LIVERY="64" NAME="Equipe Dambreville #52" />
+    <NAME LIVERY="65" NAME="Equipe Dambreville #53" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint_skin" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint_cpit" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint_norain" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\formula_b_livery15.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_lm_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\sauber_c9_banner_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint_skin" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint_cpit" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint_norain" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\formula_b_livery15.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_lm_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\sauber_c9_banner_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint_skin" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint_cpit" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_sauber_c9_lm\shared\sauber_c9\sauber_c9_paint_norain" NEWMATERIAL="vehicles\tx12_sauber_c9_lm\shared\_generic_materials\livery_fb_15.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\formula_b_livery15.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_lm_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\sauber_c9_banner_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_banner01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\sauber_c9_banner_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_banner04.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="55">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\sauber_c9_banner_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_banner04.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="56">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\sauber_c9_banner_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_banner06.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\sauber_c9_banner_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_banner06.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="60">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="62">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\sauber_c9_banner_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_banner15.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="63">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_livery13.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\sauber_c9_banner_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_banner15.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="64">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\sauber_c9_banner_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_banner04.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="65">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\sauber_c9_banner_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\liveries\sauber_c9_banner04.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tire_michelin_vint_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_rain_02_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_rain_02_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_rain_02_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_rain_02_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_rain_02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_rain_02_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\sauber_c9_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_body_snow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_sauber_c9_lm\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

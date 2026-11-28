@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="27" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="71" NAME="Team Dominum Musk #3" />
+    <NAME LIVERY="72" NAME="Team Dominum Musk #4" />
+    <NAME LIVERY="73" NAME="Acesits Racing #8" />
+    <NAME LIVERY="74" NAME="Acesits Racing #9" />
+    <NAME LIVERY="75" NAME="DKN Springate Racing #27" />
+    <NAME LIVERY="76" NAME="DKN Springate Racing #28" />
+    <NAME LIVERY="77" NAME="EXTA Racing Team #30" />
+    <NAME LIVERY="78" NAME="EXTA Racing Team #31" />
+    <NAME LIVERY="79" NAME="B1ZY Motorsports #5" />
+    <NAME LIVERY="80" NAME="B1ZY Motorsports #6" />
+    <NAME LIVERY="81" NAME="Ankyamo Motorsport #11" />
+    <NAME LIVERY="82" NAME="Ankyamo Motorsport #12" />
+    <NAME LIVERY="83" NAME="Hallbot Autosports #15" />
+    <NAME LIVERY="84" NAME="Hallbot Autosports #16" />
+    <NAME LIVERY="85" NAME="Avieldi #23" />
+    <NAME LIVERY="86" NAME="Avieldi #24" />
+    <NAME LIVERY="87" NAME="Kerosene Motorsport #829" />
+    <NAME LIVERY="88" NAME="Kerosene Motorsport #830" />
+    <NAME LIVERY="89" NAME="Bilcker Team #1" />
+    <NAME LIVERY="90" NAME="Bilcker Team #2" />
+    <NAME LIVERY="101" NAME="DKN Springate Racing #28 (PC2)" />
+    <NAME LIVERY="102" NAME="EXTA Racing Team #31 (PC2)" />
+    <NAME LIVERY="103" NAME="B1ZY Motorsports #6 (PC2)" />
+    <NAME LIVERY="104" NAME="Hallbot Autosports #16 (PC2)" />
+    <NAME LIVERY="105" NAME="Petroblast Racing #23" />
+    <NAME LIVERY="106" NAME="Petroblast Racing #24" />
+    <NAME LIVERY="107" NAME="Kerosene Motorsport #830 (PC2)" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tire_yokohama_nis90_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_rain_03_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_rain_03_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_rain_03_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_rain_03_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_rain_03_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_rain_03_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_body_snow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\71_livery_racer_01.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_skin" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\71_livery_racer_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_cpit" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\71_livery_racer_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\71_livery_racer_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery01.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_black_diff.dds" />
+    <REPLACE MATERIAL="RADICAL_SR_PAINT" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\71_livery_racer_01.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\71_livery_racer_01.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_skin.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\71_livery_racer_01_autoskin.mtx" />
+    <REPLACE MATERIAL="RADICAL_SR_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\71_livery_racer_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_cpit.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\71_livery_racer_01_autocpit.mtx" />
+    <REPLACE MATERIAL="RADICAL_SR_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\71_livery_racer_01_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\71_livery_racer_01_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\72_livery_racer_01.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_skin" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\72_livery_racer_01_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_cpit" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\72_livery_racer_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\72_livery_racer_01_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery01.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_black_diff.dds" />
+    <REPLACE MATERIAL="RADICAL_SR_PAINT" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\72_livery_racer_01.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\72_livery_racer_01.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_skin.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\72_livery_racer_01_autoskin.mtx" />
+    <REPLACE MATERIAL="RADICAL_SR_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\72_livery_racer_01_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_cpit.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\72_livery_racer_01_autocpit.mtx" />
+    <REPLACE MATERIAL="RADICAL_SR_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\72_livery_racer_01_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\72_livery_racer_01_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_black_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_black_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery05.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery06.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_black_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_black_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="79">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery09.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="80">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery10.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="81">
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\81_livery_racer_11.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_skin" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\81_livery_racer_11_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_cpit" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\81_livery_racer_11_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\81_livery_racer_11_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery11.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery11.dds" />
+    <REPLACE MATERIAL="RADICAL_SR_PAINT" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\81_livery_racer_11.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\81_livery_racer_11.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_skin.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\81_livery_racer_11_autoskin.mtx" />
+    <REPLACE MATERIAL="RADICAL_SR_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\81_livery_racer_11_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_cpit.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\81_livery_racer_11_autocpit.mtx" />
+    <REPLACE MATERIAL="RADICAL_SR_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\81_livery_racer_11_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\81_livery_racer_11_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="82">
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\82_livery_racer_11.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_skin" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\82_livery_racer_11_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\82_livery_racer_11_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_skin" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\82_livery_racer_11_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery11.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery12.dds" />
+    <REPLACE MATERIAL="RADICAL_SR_PAINT" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\82_livery_racer_11.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\82_livery_racer_11.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_radical_sr3\radical_sr_paint_skin.mtx" NEWMATERIAL="vehicles\tx12_radical_sr3\shared\metallic\82_livery_racer_11_autoskin.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="83">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery13.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="84">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery14.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="85">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_black_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="86">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_black_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="87">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_black_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="88">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_black_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="89">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery19.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="90">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\textures\liveries\rad_sr3_livery20.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="101">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="102">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\rad_sr3_badges_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\rad_sr3_badges_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="103">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="104">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="105">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\rad_sr3_badges_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\rad_sr3_badges_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="106">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\rad_sr3_badges_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\rad_sr3_badges_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="107">
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\rad_sr3_badges_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\liveries\rad_sr3_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\rad_sr3_badges_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\rad_sr3_badges_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_radical_sr3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

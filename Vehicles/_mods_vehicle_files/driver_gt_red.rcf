@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="OUTFIT" OPTIONS="1" />
+    <INPUT NAME="HELMET" OPTIONS="1" />
+  </INPUTS>
+  <NAMES INPUT="OUTFIT">
+    <NAME OUTFIT="1" NAME="OUTFIT" />
+  </NAMES>
+  <NAMES INPUT="HELMET">
+    <NAME HELMET="1" NAME="HELMET" />
+  </NAMES>
+  <CONDITION OUTFIT="1">
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_arms_acc_gloves_proxy_LADX.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_arms_acc_glove_turnone_LODX.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_arms_proxy_LADX.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_arms_overall_15s_short_LODX.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_body_acc_seatbelts_proxy_LADX.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_body_acc_seatbelts_a_LODX.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_body_proxy_LADX.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_body_overall_15s_LODX.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_legs_proxy_LADX.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_legs_overall_15s_LODX.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_arms_acc_gloves_proxy_LODA.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_arms_acc_glove_turnone_LODA.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_arms_proxy_LODA.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_arms_overall_15s_short_LODA.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_body_acc_seatbelts_proxy_LODA.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_body_acc_seatbelts_a_LODA.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_body_proxy_LODA.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_body_overall_15s_LODA.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_legs_proxy_LODA.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_legs_overall_15s_LODA.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_arms_acc_gloves_proxy_LODB.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_arms_acc_glove_turnone_LODB.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_arms_proxy_LODB.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_arms_overall_15s_short_LODB.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_body_acc_seatbelts_proxy_LODB.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_body_acc_seatbelts_a_LODB.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_body_proxy_LODB.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_body_overall_15s_LODB.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_legs_proxy_LODB.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_legs_overall_15s_LODB.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_arms_acc_gloves_proxy_LODC.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_arms_acc_glove_turnone_LODC.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_arms_proxy_LODC.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_arms_overall_15s_short_LODC.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_body_acc_seatbelts_proxy_LODC.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_body_acc_seatbelts_a_LODC.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_body_proxy_LODC.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_body_overall_15s_LODC.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_legs_proxy_LODC.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_legs_overall_15s_LODC.meb" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\mdrv_arms_acc_glove_turnone_gt_base.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\mdrv_arms_acc_glove_turnone_gt_red_a.mtx" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\arms_overall_15s_GT_BASE.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\arms_overall_15s_GT_RED_A.mtx" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\seatbelts_a_RED_A.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\seatbelts_a_RED_A.mtx" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\body_overall_15s_GT_BASE.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\body_overall_15s_GT_RED_A.mtx" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\legs_overall_15s_GT_BASE.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\legs_overall_15s_GT_RED_A.mtx" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\mdrv_arms_acc_glove_turnone_gt_base_low.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\mdrv_arms_acc_glove_turnone_gt_red_a_low.mtx" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\arms_overall_15s_GT_BASE_low.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\arms_overall_15s_GT_RED_A_low.mtx" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\seatbelts_a_RED_A_low.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\seatbelts_a_RED_A_low.mtx" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\body_overall_15s_GT_BASE_low.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\body_overall_15s_GT_RED_A_low.mtx" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\legs_overall_15s_GT_BASE_low.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\legs_overall_15s_GT_RED_A_low.mtx" />
+  </CONDITION>
+  <CONDITION HELMET="1">
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_acc_hans_proxy_LADX.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_acc_hans_a_LODX.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_acc_headsock_proxy_LADX.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_acc_headsock_a_LODX.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_acc_helmet_proxy_LADX.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_acc_helmet_10s_full_LODX.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_proxy_LADX.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_eyemask_LODX.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_acc_hans_proxy_LODA.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_acc_hans_a_LODA.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_acc_headsock_proxy_LODA.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_acc_headsock_a_LODA.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_acc_helmet_proxy_LODA.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_acc_helmet_10s_full_LODA.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_proxy_LODA.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_eyemask_LODA.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_acc_hans_proxy_LODB.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_acc_hans_a_LODB.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_acc_headsock_proxy_LODB.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_acc_headsock_a_LODB.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_acc_helmet_proxy_LODB.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_acc_helmet_10s_full_LODB.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_proxy_LODB.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_eyemask_LODB.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_acc_hans_proxy_LODC.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_acc_hans_a_LODC.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_acc_headsock_proxy_LODC.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_acc_headsock_a_LODC.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_acc_helmet_proxy_LODC.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_acc_helmet_10s_full_LODC.meb" />
+    <REPLACE MESH="Characters\Drivers\driver_2016\mdrv_head_proxy_LODC.meb" NEWMESH="Characters\Drivers\driver_2016\_gt_modern\mdrv_head_eyemask_LODC.meb" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\hans_a_BASE.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\hans_a_RED_A.mtx" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\headsock_a_BASE.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\headsock_a_WHITE_A.mtx" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\helmet_10s_full_GT_BASE_gloss.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\helmet_10s_full_GT_RED_A_gloss.mtx" />
+    <REPLACE MATERIAL="characters\drivers\driver_2016\_gt_modern\helmet_10s_full_GT_BASE_visor.mtx" NEWMATERIAL="characters\drivers\driver_2016\_gt_modern\helmet_10s_full_GT_RED_A_visor.mtx" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

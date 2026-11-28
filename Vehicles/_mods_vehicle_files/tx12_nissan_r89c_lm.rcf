@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="3" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="Nissan Motorsport #23" />
+    <NAME LIVERY="52" NAME="Nissan Motorsport #24" />
+    <NAME LIVERY="53" NAME="Nissan Motorsport #25" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\liveries\nissan_r89c_lm_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\nissan_r89c_livery_alpha.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\liveries\nissan_r89c_livery01_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\liveries\nissan_r89c_lm_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\nissan_r89c_livery_alpha.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\liveries\nissan_r89c_livery01_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\liveries\nissan_r89c_lm_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\nissan_r89c_livery_alpha.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\liveries\nissan_r89c_livery01_alpha.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tire_dunlop_denloc_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_rain_02_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_rain_02_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_rain_02_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_rain_02_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_rain_02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_rain_02_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\nissan_r89c_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_body_snow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_nissan_r89c_lm\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

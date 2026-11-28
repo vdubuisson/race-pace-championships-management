@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="24" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="1" NAME="Ultimate Green Metallic" />
+    <NAME LIVERY="2" NAME="Performance Blue Metallic" />
+    <NAME LIVERY="3" NAME="Frost White" />
+    <NAME LIVERY="51" NAME="Coretech #78" />
+    <NAME LIVERY="52" NAME="Meyer #39" />
+    <NAME LIVERY="53" NAME="Bielik #83" />
+    <NAME LIVERY="54" NAME="Mixlub #65" />
+    <NAME LIVERY="55" NAME="Serious Racing Team #29" />
+    <NAME LIVERY="56" NAME="Gamex Motorsports" />
+    <NAME LIVERY="57" NAME="Bersmann Motorsport 1" />
+    <NAME LIVERY="58" NAME="RS Racing 1" />
+    <NAME LIVERY="59" NAME="RST" />
+    <NAME LIVERY="60" NAME="VD.sign" />
+    <NAME LIVERY="61" NAME="Ford Classic Livery 1" />
+    <NAME LIVERY="63" NAME="Ford Classic Livery 2" />
+    <NAME LIVERY="64" NAME="Ford Classic Livery 3" />
+    <NAME LIVERY="65" NAME="Ford Classic Livery 4" />
+    <NAME LIVERY="66" NAME="Concept" />
+    <NAME LIVERY="67" NAME="STE Power" />
+    <NAME LIVERY="68" NAME="Bersmann Motorsport 2" />
+    <NAME LIVERY="69" NAME="Team RS" />
+    <NAME LIVERY="70" NAME="RS Racing 2" />
+    <NAME LIVERY="71" NAME="Filinkov #77" />
+    <NAME LIVERY="72" NAME="Team EVO #37" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="1">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_ultimate_green.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_ultimate_green_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_ultimate_green_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_ultimate_green_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_D774F5CE7F5CBCBA12D9" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_ultimate_green.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_05F290DCF2ABA4C7443C" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_ultimate_green_autocpit.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_DB18E4D611BCB13BD8C7" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_ultimate_green_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_performance_blue.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_performance_blue_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_performance_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_performance_blue_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_D774F5CE7F5CBCBA12D9" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_performance_blue.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_05F290DCF2ABA4C7443C" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_performance_blue_autocpit.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_DB18E4D611BCB13BD8C7" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_performance_blue_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_frost_white.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_frost_white_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_frost_white_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_frost_white_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_D774F5CE7F5CBCBA12D9" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_frost_white.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_05F290DCF2ABA4C7443C" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_frost_white_autocpit.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_DB18E4D611BCB13BD8C7" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\paint_ford_frost_white_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="51">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery02.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery03.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="55">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="56">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_zonda_13.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_zonda_13_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_zonda_13_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_zonda_13_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\pag_zr_livery13.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_01.dds" />
+    <REPLACE MATERIAL="SH_FOCUS_D774F5CE7F5CBCBA12D9" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_zonda_13.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_05F290DCF2ABA4C7443C" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_zonda_13_autocpit.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_DB18E4D611BCB13BD8C7" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_zonda_13_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="60">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold2_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold2_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold2_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold2_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="62">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_orange_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_orange_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_orange_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_orange_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="63">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery13.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="64">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_gold_spec_01.dds" />
+    <REPLACE MATERIAL="SH_FOCUS_D774F5CE7F5CBCBA12D9" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_05F290DCF2ABA4C7443C" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_DB18E4D611BCB13BD8C7" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="65">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black2_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black2_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black2_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black2_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="66">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\audi_r18_livery10.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_01.dds" />
+    <REPLACE MATERIAL="SH_FOCUS_D774F5CE7F5CBCBA12D9" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_05F290DCF2ABA4C7443C" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_DB18E4D611BCB13BD8C7" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_lm11_10_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="67">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\bmw_m3_gt12_livery13_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_01.dds" />
+    <REPLACE MATERIAL="SH_FOCUS_D774F5CE7F5CBCBA12D9" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_05F290DCF2ABA4C7443C" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_DB18E4D611BCB13BD8C7" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="68">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\ford_foc_rs_paint_cpit_skin" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\bmw_m3_gt12_livery13_spec.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_01.dds" />
+    <REPLACE MATERIAL="SH_FOCUS_D774F5CE7F5CBCBA12D9" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_05F290DCF2ABA4C7443C" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_DB18E4D611BCB13BD8C7" NEWMATERIAL="vehicles\sh_ford_focus_rs\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="69">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery19.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="70">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery20.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery21.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\liveries\ford_foc_rs_livery22.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_diff_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_00.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_spec_01.dds" NEWTEXTURE="vehicles\sh_ford_focus_rs\shared\textures\ford_foc_rs_wheel_black_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="1">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_1.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_1.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_1.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_1.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="2">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_2.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_2.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_2.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_2.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="3">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_3.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_3.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_3.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_3.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="51">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_51.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_51.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_51.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_51.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_52.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_52.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_52.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_52.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_53.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_53.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_53.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_53.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_54.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_54.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_54.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_54.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="55">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_55.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_55.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_55.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_55.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="56">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_56.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_56.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_56.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_56.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_57.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_57.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_57.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_57.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_58.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_58.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_58.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_58.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_59.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_59.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_59.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_59.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="60">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_60.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_60.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_60.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_60.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_61.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_61.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_61.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_61.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="63">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_63.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_63.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_63.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_63.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="64">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_64.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_64.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_64.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_64.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="65">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_65.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_65.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_65.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_65.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="66">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_66.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_66.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_66.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_66.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="67">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_67.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_67.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_67.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_67.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="68">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_68.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_68.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_68.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_68.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="69">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_69.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_69.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_69.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_69.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="70">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_70.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_70.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_70.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_70.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_71.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_71.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_71.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_71.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_72.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_front" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_front_72.mtx" />
+    <REPLACE MATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_72.mtx" />
+    <REPLACE MATERIAL="SH_FOCUS_A619E9A8B7019C1610CD_rear" NEWMATERIAL="vehicles\sh_ford_focus_rs\generic_licplate_euro_rear_72.mtx" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="3" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="Toyota Motorsport #1" />
+    <NAME LIVERY="52" NAME="Toyota Motorsport #2" />
+    <NAME LIVERY="53" NAME="Toyota Motorsport #3" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION LIVERY="51">
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\liveries\toyota_gtone_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\toy_ts020_badges2_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\liveries\toy_ts020_badges2_diff1.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\toy_ts020_banner_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\liveries\toy_ts020_banner_diff_white.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\liveries\toyota_gtone_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\toy_ts020_badges2_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\liveries\toy_ts020_badges2_diff2.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\toy_ts020_banner_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\liveries\toy_ts020_banner_diff_black.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\liveries\toyota_gtone_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\toy_ts020_badges2_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\liveries\toy_ts020_badges2_diff3.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\toy_ts020_banner_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\liveries\toy_ts020_banner_diff_red.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tire_michelin_lm97_spec_01.dds" />
+  </CONDITION>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_rain_01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_rain_01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_rain_01_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_rain_01_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_rain_01_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_rain_01_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\toy_ts020_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_body_snow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_toyota_gt-one\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

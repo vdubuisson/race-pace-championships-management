@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="28" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="71" NAME="Rosso #110" />
+    <NAME LIVERY="72" NAME="Rosso #111" />
+    <NAME LIVERY="73" NAME="Giallo #37" />
+    <NAME LIVERY="74" NAME="Giallo #38" />
+    <NAME LIVERY="75" NAME="Bianco Blu #161" />
+    <NAME LIVERY="76" NAME="Bianco Blu #162" />
+    <NAME LIVERY="77" NAME="Argento #107" />
+    <NAME LIVERY="78" NAME="Argento #108" />
+    <NAME LIVERY="79" NAME="Nero Verde #8" />
+    <NAME LIVERY="80" NAME="Nero Verde #9" />
+    <NAME LIVERY="81" NAME="Bianco Rosso #66" />
+    <NAME LIVERY="82" NAME="Bianco Rosso #67" />
+    <NAME LIVERY="83" NAME="Bianco Verde #152" />
+    <NAME LIVERY="84" NAME="Bianco Verde #153" />
+    <NAME LIVERY="85" NAME="Rosso Giallo #86" />
+    <NAME LIVERY="86" NAME="Rosso Giallo #87" />
+    <NAME LIVERY="87" NAME="Verde Nero #25" />
+    <NAME LIVERY="88" NAME="Verde Nero #26" />
+    <NAME LIVERY="89" NAME="Azzurro #177" />
+    <NAME LIVERY="90" NAME="Azzurro #178" />
+    <NAME LIVERY="101" NAME="Giallo Blu #18 " />
+    <NAME LIVERY="102" NAME="Giallo Blu #19" />
+    <NAME LIVERY="103" NAME="Rosso Blu #22 " />
+    <NAME LIVERY="104" NAME="Rosso Blu #23" />
+    <NAME LIVERY="105" NAME="Rosso Bianco #2" />
+    <NAME LIVERY="106" NAME="Rosso Bianco #3" />
+    <NAME LIVERY="107" NAME="Rosso Azzurro #10" />
+    <NAME LIVERY="108" NAME="Rosso Azzurro #11" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_pirelli_pzc_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_pirelli_pzc_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_pirelli_pzc_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_pirelli_pzc_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_pirelli_pzc_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_rain_02_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_rain_02_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_rain_02_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_rain_02_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_rain_02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_rain_02_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_body_snow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_black_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_black2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_red2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_black_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_black2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_red2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\77_paint_ferrari_grigio_ingrid_stripes.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_skin" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\77_paint_ferrari_grigio_ingrid_stripes_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_cpit" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\77_paint_ferrari_grigio_ingrid_stripes_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\77_paint_ferrari_grigio_ingrid_stripes_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+    <REPLACE MATERIAL="FER_F355CH_PAINT" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\77_paint_ferrari_grigio_ingrid_stripes.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint.mtx" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\77_paint_ferrari_grigio_ingrid_stripes.mtx" />
+    <REPLACE MATERIAL="FER_F355CH_PAINT_SKIN" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\77_paint_ferrari_grigio_ingrid_stripes_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_skin.mtx" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\77_paint_ferrari_grigio_ingrid_stripes_autoskin.mtx" />
+    <REPLACE MATERIAL="FER_F355CH_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\77_paint_ferrari_grigio_ingrid_stripes_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_cpit.mtx" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\77_paint_ferrari_grigio_ingrid_stripes_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\77_paint_ferrari_grigio_ingrid_stripes_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\78_paint_ferrari_grigio_ingrid_stripes.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_skin" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\78_paint_ferrari_grigio_ingrid_stripes_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_cpit" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\78_paint_ferrari_grigio_ingrid_stripes_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\78_paint_ferrari_grigio_ingrid_stripes_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+    <REPLACE MATERIAL="FER_F355CH_PAINT" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\78_paint_ferrari_grigio_ingrid_stripes.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint.mtx" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\78_paint_ferrari_grigio_ingrid_stripes.mtx" />
+    <REPLACE MATERIAL="FER_F355CH_PAINT_SKIN" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\78_paint_ferrari_grigio_ingrid_stripes_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_skin.mtx" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\78_paint_ferrari_grigio_ingrid_stripes_autoskin.mtx" />
+    <REPLACE MATERIAL="FER_F355CH_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\78_paint_ferrari_grigio_ingrid_stripes_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_cpit.mtx" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\78_paint_ferrari_grigio_ingrid_stripes_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\78_paint_ferrari_grigio_ingrid_stripes_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="79">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="80">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="81">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery19.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_black_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_black2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_red2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="82">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery20.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_black_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_black2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_red2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="83">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery21.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="84">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery22.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="85">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery23.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_black_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_black2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_red2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_black_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="86">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery24.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_black_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_red_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_black2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_red2_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="87">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery25.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="88">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery26.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="89">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery27.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_silver_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_silver_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="90">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\ferrari_f355_challenge_livery28.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="101">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="102">
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\102_paint_ferrari_grigio_ingrid_stripes.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_skin" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\102_paint_ferrari_grigio_ingrid_stripes_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_cpit" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\102_paint_ferrari_grigio_ingrid_stripes_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\102_paint_ferrari_grigio_ingrid_stripes_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_yellow_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+    <REPLACE MATERIAL="FER_F355CH_PAINT" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\102_paint_ferrari_grigio_ingrid_stripes.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint.mtx" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\102_paint_ferrari_grigio_ingrid_stripes.mtx" />
+    <REPLACE MATERIAL="FER_F355CH_PAINT_SKIN" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\102_paint_ferrari_grigio_ingrid_stripes_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_skin.mtx" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\102_paint_ferrari_grigio_ingrid_stripes_autoskin.mtx" />
+    <REPLACE MATERIAL="FER_F355CH_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\102_paint_ferrari_grigio_ingrid_stripes_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_cpit.mtx" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\102_paint_ferrari_grigio_ingrid_stripes_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_f355_challenge\fer_f355ch_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tx12_ferrari_f355_challenge\shared\metallic\102_paint_ferrari_grigio_ingrid_stripes_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="103">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="104">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="105">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="106">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="107">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_red_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_interior_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_red2_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_alcantara_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="108">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\ferrari_f355_challenge_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\fer_f355ch_banner_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_f355_challenge\shared\pc2\textures\liveries\fer_f355ch_banner01_diff.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

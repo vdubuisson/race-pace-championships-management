@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="12" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="55" NAME="R.Ferri Motorsport #61" />
+    <NAME LIVERY="51" NAME="AF Corse Team #53" />
+    <NAME LIVERY="52" NAME="AF Corse Team #50" />
+    <NAME LIVERY="53" NAME="SMP Racing #72" />
+    <NAME LIVERY="56" NAME="Scuderia Corsa Team #63" />
+    <NAME LIVERY="57" NAME="F.F. Corse Team #2" />
+    <NAME LIVERY="58" NAME="F.F. Corse Team #48" />
+    <NAME LIVERY="59" NAME="F.F. Corse Team #0" />
+    <NAME LIVERY="61" NAME="Kaspersky Motorsport #55" />
+    <NAME LIVERY="62" NAME="Team Scuderia Corsa 2020 #63" />
+    <NAME LIVERY="101" NAME="R.Ferri Motorsport #61 (PC2)" />
+    <NAME LIVERY="102" NAME="TR3 Racing #31" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tread_rain_01_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_body_snow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="55">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_stickers05_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_f_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_gold_f_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_gold_f_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_gold_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_gold_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_gold_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_gold_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="51">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_f_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_black_f_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_black_f_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_black_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="53">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery03.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="56">
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_standard_paint_chrome.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_skin" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_standard_paint_chrome_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_standard_paint_chrome_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_standard_paint_chrome_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery06_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_continental_lms_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_continental_lms_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_continental_lms_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_continental_lms_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_continental_lms_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\57_livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_skin" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\57_livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\57_livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\57_livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\cat_r500_livery18.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE MATERIAL="FER_488_GT3_PAINT" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\57_livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint.mtx" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\57_livery_r500_18.mtx" />
+    <REPLACE MATERIAL="FER_488_GT3_PAINT_SKIN" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\57_livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_skin.mtx" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\57_livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="FER_488_GT3_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\57_livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit.mtx" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\57_livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="FER_488_GT3_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\57_livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\57_livery_r500_18_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\58_livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_skin" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\58_livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\58_livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\58_livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\cat_r500_livery18.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_spec_01.dds" />
+    <REPLACE MATERIAL="FER_488_GT3_PAINT" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\58_livery_r500_18.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint.mtx" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\58_livery_r500_18.mtx" />
+    <REPLACE MATERIAL="FER_488_GT3_PAINT_SKIN" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\58_livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_skin.mtx" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\58_livery_r500_18_autoskin.mtx" />
+    <REPLACE MATERIAL="FER_488_GT3_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\58_livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit.mtx" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\58_livery_r500_18_autocpit.mtx" />
+    <REPLACE MATERIAL="FER_488_GT3_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\58_livery_r500_18_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\58_livery_r500_18_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_skin" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_carbon" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint_fresnel.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery11_fresnel.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_pirelli_gt3_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="62">
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_generic_effects.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_skin" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_generic_effects_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_generic_effects_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_generic_effects_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_carbon" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\_generic_materials\livery_carbon_matte_gte.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery12_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint_alpha.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\ferrari_488_gt3_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_f_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_gold_f_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_gold_f_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_gold_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_gold_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_gold_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_gold_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\tire_michelin_pilot_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="101">
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\liveries\ferrari_488_gt3_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\liveries\ferrari_488_gt3_stickers05_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_f_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_gold_f_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_gold_f_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_gold_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_gold_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_gold_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_gold_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\liveries\ferrari_488_gt3_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\liveries\ferrari_488_gt3_stickers05_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_f_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_gold_f_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_gold_f_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_gold_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_gold_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_gold_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_gold_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="102">
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\102_livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_skin" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\102_livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\102_livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\102_livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\formula_b_livery15.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\liveries\ferrari_488_gt3_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\liveries\ferrari_488_gt3_stickers10_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_f_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_black_f_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_black_f_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\fer_488_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_black_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\liveries\formula_b_livery15.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\liveries\ferrari_488_gt3_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\liveries\common_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\liveries\ferrari_488_gt3_stickers10_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_f_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_black_f_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_f_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_black_f_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_black_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_black_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_black_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\fer_488_gt3_wheel_black_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\common_tire_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\common_tire_blur_diff.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\common_tire_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\common_tire_blur_spec.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\common_tire_nmp8888.dds" NEWTEXTURE="vehicles\tx12_ferrari_488_gt3\shared\pc2\textures\tire_pirelli_gt3_nmp8888.dds" />
+    <REPLACE MATERIAL="FER_488_GT3_PAINT" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\102_livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint.mtx" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\102_livery_fb_15.mtx" />
+    <REPLACE MATERIAL="FER_488_GT3_PAINT_SKIN" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\102_livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_skin.mtx" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\102_livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="FER_488_GT3_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\102_livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit.mtx" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\102_livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="FER_488_GT3_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\102_livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_ferrari_488_gt3\fer_488_gt3_paint_cpit_skin.mtx" NEWMATERIAL="vehicles\tx12_ferrari_488_gt3\shared\metallic\102_livery_fb_15_autoskin_autocpit.mtx" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

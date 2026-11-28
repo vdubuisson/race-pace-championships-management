@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<REPLACEMENT_SYSTEM>
+
+	<CONFIG>
+		<ALLOWUSEROVERRIDES VALUE="1" />
+		<USEROVERRIDESFILE VALUE="Vehicles\Textures\CustomLiveries\Overrides\cupra_leon_competicion_tcr\cupra_leon_competicion_tcr.xml" />
+	</CONFIG>
+
+	<BASELIVERIES>
+		<BASELIVERY NAME="Default">
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NAME="SIDEWALL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="Matte">
+			<REPLACE MATERIAL="vehicles\cupra_leon_competicion_tcr\cupr_ext_carpaint" NEWMATERIAL="vehicles\cupra_leon_competicion_tcr\cupr_ext_carpaint_livery_matte.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NAME="SIDEWALL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="Chrome">
+			<REPLACE MATERIAL="vehicles\cupra_leon_competicion_tcr\cupr_ext_carpaint" NEWMATERIAL="vehicles\cupra_leon_competicion_tcr\cupr_ext_carpaint_livery_chrome.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NAME="SIDEWALL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="GreenMetallic">
+			<REPLACE MATERIAL="vehicles\cupra_leon_competicion_tcr\cupr_ext_carpaint" NEWMATERIAL="vehicles\cupra_leon_competicion_tcr\cupr_ext_carpaint_livery_greenmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NAME="SIDEWALL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="RedMetallic">
+			<REPLACE MATERIAL="vehicles\cupra_leon_competicion_tcr\cupr_ext_carpaint" NEWMATERIAL="vehicles\cupra_leon_competicion_tcr\cupr_ext_carpaint_livery_redmetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NAME="SIDEWALL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="BlueMetallic">
+			<REPLACE MATERIAL="vehicles\cupra_leon_competicion_tcr\cupr_ext_carpaint" NEWMATERIAL="vehicles\cupra_leon_competicion_tcr\cupr_ext_carpaint_livery_bluemetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NAME="SIDEWALL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+
+		<BASELIVERY NAME="SilverMetallic">
+			<REPLACE MATERIAL="vehicles\cupra_leon_competicion_tcr\cupr_ext_carpaint" NEWMATERIAL="vehicles\cupra_leon_competicion_tcr\cupr_ext_carpaint_livery_silvermetallic.mtx" NAME="PAINT" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NAME="BODY" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NAME="CARBONVINYL" ALLOWUSEROVERRIDE="1"/>
+			<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_flanco_ofi.dds" NAME="SIDEWALL" ALLOWUSEROVERRIDE="1"/>
+		</BASELIVERY>
+	</BASELIVERIES>
+
+	<INPUTS>
+		<INPUT NAME="LIVERY" OPTIONS="40" />
+		<INPUT NAME="TIRE" OPTIONS="6" />
+		<INPUT NAME="DIRTTYPE" OPTIONS="3" />
+	</INPUTS>
+
+	<NAMES INPUT ="LIVERY">
+		<NAME LIVERY="51" NAME="TCR Eastern Europe Čížek 2023" />
+		<NAME LIVERY="52" NAME="TCR Eastern Europe Čížek 2024" />
+		<NAME LIVERY="53" NAME="17 William" />
+		<NAME LIVERY="54" NAME="2022 STCC Bengtsson #55" />
+		<NAME LIVERY="55" NAME="2022 STCC Dahlgren #2" />
+		<NAME LIVERY="56" NAME="2022 TCR EE Knego #74" />
+		<NAME LIVERY="57" NAME="2022 TCR EE Smejkal #82" />
+		<NAME LIVERY="58" NAME="2022 TCR EE Steibel #23" />
+		<NAME LIVERY="59" NAME="2022 TCR EUR Callejas #26" />
+		<NAME LIVERY="60" NAME="2022 TCR EUR Filippi #27" />
+		<NAME LIVERY="61" NAME="2022 TCR EUR Gavrilov #14" />
+		<NAME LIVERY="62" NAME="2022 TCR EUR Ghermandi #3" />
+		<NAME LIVERY="63" NAME="2022 TCR EUR Leonov #16" />
+		<NAME LIVERY="64" NAME="2022 WTCR Huff #79" />
+		<NAME LIVERY="65" NAME="2022 WTCR Nagy #99" />
+		<NAME LIVERY="66" NAME="2023 TCR Aus Clemente #15" />
+		<NAME LIVERY="67" NAME="33 Luca" />
+		<NAME LIVERY="68" NAME="44 Shaun" />
+		<NAME LIVERY="69" NAME="46 Sameer" />
+		<NAME LIVERY="70" NAME="58 Lorenzo" />
+		<NAME LIVERY="71" NAME="Expres Auto Šoltés 2024" />
+		<NAME LIVERY="72" NAME="TCR Eastern Europe Smejkal 2023" />
+		<NAME LIVERY="73" NAME="TCR Eastern Europe Smejkal 2024" />
+		<NAME LIVERY="74" NAME="TCR Eastern Europe Čížek 2023" />
+		<NAME LIVERY="75" NAME="2020 WTCR Azcona #96" />
+		<NAME LIVERY="76" NAME="2020 WTCR Boldizs #55" />
+		<NAME LIVERY="77" NAME="2021 TCR EE Cizek #76" />
+		<NAME LIVERY="78" NAME="Cube Controls #131" />
+		<NAME LIVERY="79" NAME="Cupra Racing" />
+		<NAME LIVERY="80" NAME="2022 TCR EE Fulin #22" />
+		<NAME LIVERY="81" NAME="2021 WTCR Fulin #22" />
+		<NAME LIVERY="82" NAME="TCR GER Grasser #41" />
+		<NAME LIVERY="83" NAME="TCR AUS Chahda #28" />
+		<NAME LIVERY="84" NAME="TCR AUS Jones #32" />
+		<NAME LIVERY="85" NAME="2019 WTCR Kismarty #99" />
+		<NAME LIVERY="86" NAME="TCR VLN Mathilda Racing #12" />
+		<NAME LIVERY="87" NAME="TCR VLN Mathilda Racing #12" />
+		<NAME LIVERY="88" NAME="2020 STCC Dahlgren #1" />
+		<NAME LIVERY="89" NAME="2020 STCC Ahlin-Kottulinsky #19" />
+		<NAME LIVERY="90" NAME="2021 TCR EE Wittke #222" />
+	</NAMES>
+
+	<NAMES INPUT ="TIRE">
+		<NAME TIRE="1" NAME="Soft" />
+		<NAME TIRE="2" NAME="Medium" />
+		<NAME TIRE="3" NAME="Hard" />
+		<NAME TIRE="4" NAME="Intermediate" />
+		<NAME TIRE="5" NAME="Wet" />
+		<NAME TIRE="6" NAME="Extreme" />
+	</NAMES>
+
+	<NAMES INPUT ="DIRTTYPE">
+		<NAME DIRTTYPE="1" NAME="Dirt" />
+		<NAME DIRTTYPE="2" NAME="Snow" />
+		<NAME DIRTTYPE="3" NAME="Mud" />
+	</NAMES>
+
+	<CONDITION LIVERY="51">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\14_cizin_2023_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\14_cizin_2023_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\14_cizin_2023_rims.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\maps_carpaint_map_089_085.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\14_cizin_2023_maps_carpaint_map_089_085.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="52">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\14_cizin_2024_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\14_cizin_2024_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\14_cizin_2024_rims.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\maps_carpaint_map_089_085.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\14_cizin_2024_maps_carpaint_map_089_085.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="53">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\17_eithacup_2024_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\17_eithacup_2024_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\17_eithacup_2024_rims.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="54">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\belt.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_stcc_bengtsson_55_belt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_stcc_bengtsson_55_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_stcc_bengtsson_55_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_stcc_bengtsson_55_tire_2022.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\plastic_detail.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_stcc_bengtsson_55_plastic_detail.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\maps_carpaint_map_089_085.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_stcc_bengtsson_55_maps_carpaint_map_089_085.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="55">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\belt.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_stcc_dahlgren_2_belt.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_stcc_dahlgren_2_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_stcc_dahlgren_2_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_stcc_dahlgren_2_tire_2022.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\plastic_detail.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_stcc_dahlgren_2_plastic_detail.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\maps_carpaint_map_089_085.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_stcc_dahlgren_2_maps_carpaint_map_089_085.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="56">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcree_knego_74_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcree_knego_74_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcree_knego_74_carbon_dif_vinilo.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="57">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcree_smejkal_82_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcree_smejkal_82_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcree_smejkal_82_carbon_dif_vinilo.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="58">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcree_steibel_23_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcree_steibel_23_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\plastic_detail.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcree_steibel_23_plastic_detail.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\maps_carpaint_map_089_085.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcree_steibel_23_maps_carpaint_map_089_085.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="59">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_callejas_26_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_callejas_26_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\grill_dif.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_callejas_26_grill_dif.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\plastic_detail.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_callejas_26_plastic_detail.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_callejas_26_carbon_dif_vinilo.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="60">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_filippi_27_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_filippi_27_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\plastic_detail.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_filippi_27_plastic_detail.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\maps_carpaint_map_089_085.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_filippi_27_maps_carpaint_map_089_085.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_filippi_27_carbon_dif_vinilo.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="61">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_gavrilov_14_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_gavrilov_14_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\grill_dif.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_gavrilov_14_grill_dif.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\plastic_detail.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_gavrilov_14_plastic_detail.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_gavrilov_14_carbon_dif_vinilo.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="62">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_ghermandi_3_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_ghermandi_3_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\plastic_detail.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_ghermandi_3_plastic_detail.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_ghermandi_3_carbon_dif_vinilo.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="63">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_leonov_16_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_leonov_16_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\grill_dif.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_leonov_16_grill_dif.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\plastic_detail.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_leonov_16_plastic_detail.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_tcreur_leonov_16_carbon_dif_vinilo.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="64">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_wtcr_zengo_79_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\cupra_gold.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_wtcr_zengo_79_cupra_gold.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_wtcr_zengo_79_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_wtcr_zengo_79_tire_2022.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_wtcr_zengo_79_carbon_dif_vinilo.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="65">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_wtcr_zengo_99_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\cupra_gold.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_wtcr_zengo_99_cupra_gold.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_wtcr_zengo_99_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_wtcr_zengo_99_tire_2022.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2022_wtcr_zengo_99_carbon_dif_vinilo.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="66">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2023_tcraus_clemente_15_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2023_tcraus_clemente_15_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carbon_dif_vinilo.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\2023_tcraus_clemente_15_carbon_dif_vinilo.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="67">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\33_eithacup_2024_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\33_eithacup_2024_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\33_eithacup_2024_rims.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="68">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\44_eithacup_2024_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\44_eithacup_2024_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\44_eithacup_2024_rims.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="69">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\46_eithacup_2024_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\46_eithacup_2024_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\46_eithacup_2024_rims.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="70">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\58_eithacup_2024_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\58_eithacup_2024_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\58_eithacup_2024_rims.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="71">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\68_soltes_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\68_soltes_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\68_soltes_rims.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\68_soltes_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="72">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\82_smejkal_2023_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\82_smejkal_2023_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\82_smejkal_2023_rims.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\maps_carpaint_map_089_085.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\82_smejkal_2023_maps_carpaint_map_089_085.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="73">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\82_smejkal_2024_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\82_smejkal_2024_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\82_smejkal_2024_rims.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\maps_carpaint_map_089_085.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\82_smejkal_2024_maps_carpaint_map_089_085.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="74">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\99_eithacup_2024_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\99_eithacup_2024_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\99_eithacup_2024_rims.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="75">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\azcona_96_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\azcona_96_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\azcona_96_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="76">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\boldisz_55_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\boldisz_55_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\boldisz_55_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="77">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\cizin_76_2021_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\cizin_76_2021_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\cizin_76_2021_rims.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\cizin_76_2021_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="78">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\cube_controls_131_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\cube_controls_131_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\grill_dif.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\cube_controls_131_grill_dif.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rim_metal_detail.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\cube_controls_131_rim_metal_detail.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\cube_controls_131_rims.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\maps_carpaint_map_089_085.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\cube_controls_131_maps_carpaint_map_089_085.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="79">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\default_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\default_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\grill_dif.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\default_grill_dif.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rim_metal_detail.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\default_rim_metal_detail.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\default_rims.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\maps_carpaint_map_089_085.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\default_maps_carpaint_map_089_085.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="80">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\fulda_22_2022_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\fulda_22_2022_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\fulda_22_2022_rims.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="81">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\fullda_22_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\fullda_22_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\fullda_22_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="82">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grasser_41_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grasser_41_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grasser_41_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="83">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grm_28_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grm_28_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rim_metal_detail.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grm_28_rim_metal_detail.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grm_28_rims.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grm_28_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="84">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grm_32_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grm_32_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rim_metal_detail.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grm_32_rim_metal_detail.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\rims.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grm_32_rims.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\grm_32_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="85">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\kismarty_99_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\kismarty_99_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\kismarty_99_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="86">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\mathilda_racing2_12_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\mathilda_racing2_12_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\mathilda_racing2_12_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="87">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\mathilda_racing_12_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\mathilda_racing_12_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\mathilda_racing_12_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="88">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\pwr_racing_1_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\pwr_racing_1_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\pwr_racing_1_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="89">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\pwr_racing_19_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\pwr_racing_19_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\pwr_racing_19_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION LIVERY="90">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\carpaint.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\wittke_222_carpaint.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\ext_decals.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\wittke_222_ext_decals.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\liveries\wittke_222_tire_2022.dds" />
+	</CONDITION>
+	<CONDITION TIRE="1">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="2">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="3">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_nm.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="4">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="5">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+	<CONDITION TIRE="6">
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi.dds" NEWTEXTURE="vehicles\textures\common_tread_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_nm.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_nmp8888.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_spec.dds" />
+		<REPLACE TEXTURE="vehicles\textures\cupra_leon_competicion_tcr\tire_2022_banda_ofi_tread_blur_spec.dds" NEWTEXTURE="vehicles\textures\common_tread_blur_spec.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="1">
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_dirt.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="2">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_snow_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_snow.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_snow_droplets.dds" />
+	</CONDITION>
+
+	<CONDITION DIRTTYPE="3">
+		<REPLACE TEXTURE="vehicles\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\textures\common_body_mud_diff.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\textures\common_wheel_mud.dds" />
+		<REPLACE TEXTURE="vehicles\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\textures\common_dirt_mud_droplets.dds" />
+	</CONDITION>
+
+</REPLACEMENT_SYSTEM>

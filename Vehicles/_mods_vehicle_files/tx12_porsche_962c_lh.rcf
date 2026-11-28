@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="15" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="54" NAME="Porsche AG Shell #17" />
+    <NAME LIVERY="55" NAME="Porsche AG Shell #18" />
+    <NAME LIVERY="56" NAME="Porsche AG Shell #19" />
+    <NAME LIVERY="57" NAME="Joest Racing #7" />
+    <NAME LIVERY="58" NAME="Joest Racing #8" />
+    <NAME LIVERY="59" NAME="Joest Racing Italya #7" />
+    <NAME LIVERY="60" NAME="Joest Racing Italya #8" />
+    <NAME LIVERY="61" NAME="Joest Racing Italya #9" />
+    <NAME LIVERY="62" NAME="Brun Motorsport FromA #5" />
+    <NAME LIVERY="63" NAME="Brun Motorsport Alpha #6" />
+    <NAME LIVERY="64" NAME="Kremer Racing #11" />
+    <NAME LIVERY="65" NAME="Team Schuppan #33" />
+    <NAME LIVERY="66" NAME="Brun Motorsport Hydro #16" />
+    <NAME LIVERY="67" NAME="Brun Motorsport Repsol #17" />
+    <NAME LIVERY="68" NAME="Brun Motorsport Repsol #27" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_rain_02_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_rain_02_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_rain_02_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_rain_02_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_rain_02_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_rain_02_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_body_snow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="54">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery04.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner04.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="55">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery05.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner05.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="56">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery06.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner06.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="57">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery07.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner07.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_livery07_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="58">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner08.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_livery07_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="59">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery09.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner09.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_livery07_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="60">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery10.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner10.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_livery10_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="61">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery11.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner11.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_spec_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_goodyear_imsa_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_livery11_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="62">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery12.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner12.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_livery12_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="63">
+    <REPLACE MATERIAL="vehicles\tx12_porsche_962c_lh\por_962c_86_paint" NEWMATERIAL="vehicles\tx12_porsche_962c_lh\shared\_generic_materials\tx12_porsche_962c_lh_metallic_63_livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_porsche_962c_lh\por_962c_86_paint_skin" NEWMATERIAL="vehicles\tx12_porsche_962c_lh\shared\_generic_materials\tx12_porsche_962c_lh_metallic_63_livery_lm11_10_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_porsche_962c_lh\por_962c_86_paint_cpit" NEWMATERIAL="vehicles\tx12_porsche_962c_lh\shared\_generic_materials\tx12_porsche_962c_lh_metallic_63_livery_lm11_10_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_porsche_962c_lh\por_962c_86_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_porsche_962c_lh\shared\_generic_materials\tx12_porsche_962c_lh_metallic_63_livery_lm11_10_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner13.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blank_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_livery13_alpha.dds" />
+    <REPLACE MATERIAL="POR_962C_86_PAINT" NEWMATERIAL="vehicles\tx12_porsche_962c_lh\shared\_generic_materials\tx12_porsche_962c_lh_metallic_63_livery_lm11_10.mtx" />
+    <REPLACE MATERIAL="POR_962C_86_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_porsche_962c_lh\shared\_generic_materials\tx12_porsche_962c_lh_metallic_63_livery_lm11_10_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="64">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery14.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner14.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_livery14_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="65">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery15.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner15.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_black_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_black_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_dunlop_denloc2_nmp8888.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="66">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery16.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner16.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_white_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_white_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_livery16_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="67">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery17.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner17.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_white_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_white_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_livery16_alpha.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="68">
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_lh_livery18.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_banner_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_banner18.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_white_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_white_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_wheel_silver_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_blur_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\tire_yokohama_nis90_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\por_962c_86_livery_alpha_diff.dds" NEWTEXTURE="vehicles\tx12_porsche_962c_lh\shared\textures\liveries\porsche_962c_88_livery16_alpha.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

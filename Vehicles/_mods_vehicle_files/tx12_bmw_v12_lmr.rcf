@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='utf-8'?>
+<REPLACEMENT_SYSTEM>
+  <INPUTS>
+    <INPUT NAME="LIVERY" OPTIONS="21" />
+    <INPUT NAME="TIRE" OPTIONS="6" />
+    <INPUT NAME="DIRTTYPE" OPTIONS="3" />
+  </INPUTS>
+  <NAMES INPUT="LIVERY">
+    <NAME LIVERY="51" NAME="Team BMW Motorsport #15" />
+    <NAME LIVERY="52" NAME="Team BMW Motorsport #17" />
+    <NAME LIVERY="71" NAME="Horbsner Automotive #11" />
+    <NAME LIVERY="72" NAME="Horbsner Automotive #12" />
+    <NAME LIVERY="73" NAME="Horbsner Automotive #13" />
+    <NAME LIVERY="74" NAME="Cachetto Racing #28" />
+    <NAME LIVERY="75" NAME="Cachetto Racing #29" />
+    <NAME LIVERY="76" NAME="Keaveneys Motorsport #30" />
+    <NAME LIVERY="77" NAME="Keaveneys Motorsport #31" />
+    <NAME LIVERY="78" NAME="Volkane Motorsport #35" />
+    <NAME LIVERY="79" NAME="Volkane Motorsport #36" />
+    <NAME LIVERY="80" NAME="Four C Sport #38" />
+    <NAME LIVERY="81" NAME="Four C Sport #39" />
+    <NAME LIVERY="82" NAME="Sciflex Team #3" />
+    <NAME LIVERY="83" NAME="Sciflex Team #4" />
+    <NAME LIVERY="84" NAME="Tashimo Motorsport #20" />
+    <NAME LIVERY="85" NAME="Tashimo Motorsport #21" />
+    <NAME LIVERY="86" NAME="Mensik Racing #45" />
+    <NAME LIVERY="87" NAME="Mensik Racing #46" />
+    <NAME LIVERY="88" NAME="Team Imochi #50" />
+    <NAME LIVERY="89" NAME="Team Imochi #51" />
+  </NAMES>
+  <NAMES INPUT="TIRE">
+    <NAME TIRE="1" NAME="Soft" />
+    <NAME TIRE="2" NAME="Medium" />
+    <NAME TIRE="3" NAME="Hard" />
+    <NAME TIRE="4" NAME="Intermediate" />
+    <NAME TIRE="5" NAME="Wet" />
+    <NAME TIRE="6" NAME="Extreme" />
+  </NAMES>
+  <NAMES INPUT="DIRTTYPE">
+    <NAME DIRTTYPE="1" NAME="Dirt" />
+    <NAME DIRTTYPE="2" NAME="Snow" />
+    <NAME DIRTTYPE="3" NAME="Mud" />
+  </NAMES>
+  <CONDITION TIRE="1">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="2">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="3">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="4">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_nitto_funha_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_nitto_funha_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_nitto_funha_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_nitto_funha_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_nitto_funha_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_nitto_funha_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="5">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_rain_01_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_rain_01_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_rain_01_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_rain_01_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_rain_01_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_rain_01_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION TIRE="6">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_nitto_ice_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_nitto_ice_blur_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_nitto_ice_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_nitto_ice_blur_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_nitto_ice_spec.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_slick1_blur_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tread_nitto_ice_blur_spec.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="1">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_body_dirt_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_wheel_dirt.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="2">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_body_snow_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_wheel_snow.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_dirt_snow_droplets.dds" />
+  </CONDITION>
+  <CONDITION DIRTTYPE="3">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_body_dirt_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_body_mud_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_wheel_dirt.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_wheel_mud.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_dirt_droplets.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_dirt_mud_droplets.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="51">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tire_michelin_lm_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tire_michelin_lm_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tire_michelin_lm_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tire_michelin_lm_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tire_michelin_lm_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="52">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery02.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_driver_name_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_driver_name_invisible_diff.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_tire_med_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tire_michelin_lm_diff_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_tire_med_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tire_michelin_lm_spec_00.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_tire_med_nmp8888.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tire_michelin_lm_nmp8888.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_tire_med_blur_diff.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tire_michelin_lm_diff_01.dds" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_tire_med_blur_spec.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\tire_michelin_lm_spec_01.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="71">
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_71_livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_skin" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_71_livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_cpit" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_71_livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_71_livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="BMW_V12_LMR_PAINT" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_71_livery_fb_15.mtx" />
+    <REPLACE MATERIAL="BMW_V12_LMR_PAINT_SKIN" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_71_livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="BMW_V12_LMR_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_71_livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="BMW_V12_LMR_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_71_livery_fb_15_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="72">
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_72_livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_skin" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_72_livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_cpit" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_72_livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_72_livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="BMW_V12_LMR_PAINT" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_72_livery_fb_15.mtx" />
+    <REPLACE MATERIAL="BMW_V12_LMR_PAINT_SKIN" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_72_livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="BMW_V12_LMR_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_72_livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="BMW_V12_LMR_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_72_livery_fb_15_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="73">
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_73_livery_fb_15.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_skin" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_73_livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_cpit" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_73_livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_73_livery_fb_15_autoskin_autocpit.mtx" />
+    <REPLACE MATERIAL="BMW_V12_LMR_PAINT" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_73_livery_fb_15.mtx" />
+    <REPLACE MATERIAL="BMW_V12_LMR_PAINT_SKIN" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_73_livery_fb_15_autoskin.mtx" />
+    <REPLACE MATERIAL="BMW_V12_LMR_PAINT_CPIT" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_73_livery_fb_15_autocpit.mtx" />
+    <REPLACE MATERIAL="BMW_V12_LMR_PAINT_CPIT_SKIN" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\tx12_bmw_v12_lmr_metallic_73_livery_fb_15_autoskin_autocpit.mtx" />
+  </CONDITION>
+  <CONDITION LIVERY="74">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery06.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="75">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery07.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="76">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery08.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="77">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery09.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="78">
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\livery_gum_11.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_skin" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\livery_gum_11_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_cpit" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\livery_gum_11_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\livery_gum_11_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\gumpert_apollo_livery11.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery10.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="79">
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\livery_gum_11.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_skin" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\livery_gum_11_autoskin.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_cpit" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\livery_gum_11_autocpit.mtx" />
+    <REPLACE MATERIAL="vehicles\tx12_bmw_v12_lmr\tx12_bmw_v12_lmr_paint_cpit_skin" NEWMATERIAL="vehicles\tx12_bmw_v12_lmr\shared\_generic_materials\livery_gum_11_autoskin_autocpit.mtx" />
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\gumpert_apollo_livery11.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery11.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="80">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery12.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="81">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery13.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="82">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery14.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="83">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery15.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="84">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery16.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="85">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery17.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="86">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery18.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="87">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery19.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="88">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery20.dds" />
+  </CONDITION>
+  <CONDITION LIVERY="89">
+    <REPLACE TEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\common_paint.dds" NEWTEXTURE="vehicles\tx12_bmw_v12_lmr\shared\textures\liveries\bmw_v12_lmr_livery21.dds" />
+  </CONDITION>
+</REPLACEMENT_SYSTEM>

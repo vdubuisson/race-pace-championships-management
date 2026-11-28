@@ -58,7 +58,7 @@ F-Vee_Gen2,Formula Vee Brazil Gen 2,FALSE
 F-Vintage_Gen1,Formula Vintage Gen 1,FALSE
 F-Vintage_Gen2,Formula Vintage Gen 2,FALSE
 F2000,F2000,TRUE
-f355 series,F355 Challenge,TRUE
+F355 Challenge,F355 Challenge,TRUE
 f488 series,F488 Challenge,TRUE
 FE-G1,Formula Edge,FALSE
 Ferrari_80s,288 GTO,TRUE
@@ -114,15 +114,20 @@ KartGX390,Karting 4T Race,FALSE
 KartRental,Karting 4T Rental,FALSE
 KartShifter,Karting 2T Shifter,FALSE
 LancerCup,Lancer Cup,FALSE
+Le Mans '02,Le Mans '02,TRUE
+Le Mans '03,Le Mans '03,TRUE
+Le Mans '14,Le Mans '14,TRUE
+Le Mans '16,Le Mans '16,TRUE
 Le Mans '59,Le Mans '59,TRUE
 Le Mans '67,Le Mans '67,TRUE
 Le Mans '70,Le Mans '70,TRUE
 Le Mans '71,Le Mans '71,TRUE
 Le Mans '78,Le Mans '78,TRUE
+Le Mans '89,Le Mans '89,TRUE
+Le Mans '99,Le Mans '99,TRUE
 Legends,Legend Cars,TRUE
 LES_2025,Ligier European Series,FALSE
 LMDh,LMDh/GTP,FALSE
-LMP1 2016,LMP1 2016,TRUE
 LMP1_05,LMP1 2005,FALSE
 LMP2,LMP2 Gen 2,FALSE
 LMP216,LMP2 2016,TRUE
@@ -130,7 +135,6 @@ LMP2_05,LMP2 2005,FALSE
 LMP2_Gen1,LMP2 Gen 1,FALSE
 LMP3_Gen1,LMP3 Gen 1,TRUE
 LMP3_Gen2,LMP3 Gen 2,TRUE
-LMSeries,Le Mans Series,TRUE
 Lotus Cup,Lotus Cup,TRUE
 Mazda_MX5,Mazda MX-5 Cup,TRUE
 MD_LeMans,24h du Mans,TRUE
@@ -151,6 +155,7 @@ P4,P4,FALSE
 PaganiX,Pagani,TRUE
 Porsche Carrera Cup mod,Porsche Carrera Cup mod,TRUE
 Procar,M1 Procar,FALSE
+Radical SR,Radical SR,TRUE
 Rally GT,Rally GT,TRUE
 rb86,Toyota 86 Cup,TRUE
 Road G,Road G,TRUE
@@ -160,9 +165,6 @@ RX mod,RX mod,TRUE
 RXCCup,Radical RXC Cup,TRUE
 RXLites,RX Lites,TRUE
 SprintRace,Sprint Race,FALSE
-SR3,Radical SR3,TRUE
-SR8,Radical SR8-RX,TRUE
-SR8lm,Radical SR8-LM,TRUE
 ST96,Diablo Super Trofeo,FALSE
 Stock_USA_Gen1,Stock USA Gen 1,FALSE
 Stock_USA_Gen2,Stock USA Gen 2,FALSE
